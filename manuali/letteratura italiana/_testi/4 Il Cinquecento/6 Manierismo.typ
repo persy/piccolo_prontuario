@@ -1,0 +1,64 @@
+#import "../../../template_tufte.typ": *
+#show: frame-style(styles.thmbox)
+
+#evidenzia[Il termine _manierismo_ indica un'estetica basata sull'imitazione selettiva di aspetti specifici di poetiche già consolidate e considerate modelli. Sebbene inizialmente applicato all'ambito dell'arte figurativa della seconda metà del Cinquecento, il suo utilizzo nel contesto letterario è piuttosto recente: solo nella metà del XX secolo alcuni critici hanno iniziato ad attribuire la definizione di manierismo ai cambiamenti riscontrabili nella produzione letteraria dal 1530 fino alla fine del secolo.
+
+Alla base del manierismo letterario vi è la teorizzazione del modello petrarchesco elaborata da Pietro Bembo. Tale modello portò allo sviluppo di un virtuosismo formale e concettuale, generando una molteplicità di variazioni che accentuavano alternativamente diversi aspetti della poetica petrarchesca integrati in modo armonioso nell'opera originale (come i toni elegiaci, l'enfasi sul tema del dolore o la ricerca di effetti decorativi e paesaggistici). Tra gli autori manieristi figurano lo stile paradossale di Francesco Berni, l'autobiografismo eroico di Benvenuto Cellini, la prosa raffinata di Giovanni Della Casa, il controllo stilistico di Agnolo Firenzuola, la fantasia originale di Anton Francesco Grazzini (detto il Lasca) e di Giovan Battista Gelli. Tuttavia, il culmine della poesia manierista si identifica soprattutto nell'opera di Torquato Tasso.]
+
+== Giovanni Della Casa
+
+Giovanni Della Casa (1503-1556) è una delle figure più rappresentative del petrarchismo manierista.
+
+=== La vita e le opere
+
+Originario del Mugello, dopo aver studiato lettere a Bologna, Firenze e Padova, nel 1534 si trasferì a Roma. Qui intraprese una brillante carriera ecclesiastica che lo condusse a diventare arcivescovo di Benevento nel 1544 e nunzio apostolico a Venezia nel 1549. Durante il suo soggiorno veneziano, istituì il tribunale dell'Inquisizione in Veneto e compilò il primo Index librorum proibitorum nel 1548. Successivamente, nel 1555, papa Paolo IV lo richiamò a Roma conferendogli l'incarico di segretario di Stato.
+
+Tra i suoi scritti di argomento politico spiccano due Orazioni in prosa volgare dedicate rispettivamente alla Repubblica di Venezia e a Carlo V. Le sue Rime, pubblicate postume nel 1558, sono considerate il miglior canzoniere italiano tra Ariosto e Tasso. La raccolta comprende 66 componimenti in stile petrarchesco, organizzati in maniera coerente ed unitario. L'originalità rispetto al modello petrarchesco risiede nei temi affrontati: al tradizionale tema amoroso, Della Casa preferisce riflessioni sulla disillusione, sulla vanità del mondo, sulle inquietudini morali e sui contrasti tra realtà e ideali; anche la struttura stilistico-metrica si distingue, poiché spesso supera i limiti imposti dall'unità del verso e della strofa. In questo modo, concetti e immagini fluiscono liberamente, dando vita a un ritmo innovativo e avvincente.
+
+=== Il _Galateo_
+
+Il Galateo, pubblicato postumo nel 1558 e considerato il capolavoro di Della Casa, è un trattato che illustra le buone maniere e il comportamento adeguato nella vita sociale. Il titolo dell'opera, diventato ormai sinonimo di etichetta e cortesia, deriva dal nome latinizzato del suo committente, il vescovo di Sessa Galeazzo (Galatheus) Florimonte. Nel testo, un anziano di umili origini ma dotato di grande saggezza offre insegnamenti ad un giovane sulle norme da seguire a tavola, negli incontri conviviali, nell'abbigliamento e nelle conversazioni. Con grande raffinatezza stilistica, il Galateo codifica un ideale di comportamento in linea con il principio umanistico della misura e della cortesia, ispirandosi al classico equilibrio del giusto mezzo.
+
+== Berni e il modello burlesco
+
+Francesco Berni (circa 1497-1535) fu un autore che diede vita ad una tradizione di poesia satirica e dissacrante grazie a un sistema retorico caratterizzato da illusionismo, amplificazioni caricaturali, parodie ed elencazioni.
+
+=== La vita
+
+Nato a Lamporecchio, in Val Nievole, ricevette la sua prima formazione letteraria a Firenze. Nel 1517 si trasferì a Roma sotto la protezione del cardinale Bernardo Dovizi detto il Bibbiena prima, e successivamente di Angelo Dovizi, protonotaio apostolico. Tuttavia, quando nel 1522 salì al soglio pontificio Adriano VI, oggetto di aspre critiche nei versi di Berni, quest'ultimo dovette lasciare Roma. Ritornò nella capitale dopo l'elezione di Clemente VII, entrando in seguito al servizio del vescovo di Verona Matteo Giberti. Nel 1532 si stabilì a Firenze presso il cardinale Ippolito de' Medici, divenendo poi intimo del duca Alessandro de' Medici. Coinvolto nelle aspre lotte politiche tra i due, perse la vita in circostanze tragiche, presumibilmente avvelenato.
+
+=== Poesia e parodia
+
+La prima opera significativa di Francesco Berni è il dramma rusticale in ottave _La Catrina_, scritto intorno al 1516 ma pubblicato solo postumo nel 1567. Il poema narra il conflitto tra i villani Beco e Mecherino per conquistare l'amore della bella Catrina. Tra il 1524 e il 1531 prendono forma alcune delle sue opere più importanti, tra cui il _Dialogo contro i poeti_ (1526), una riscrittura burlesca e toscana dell'_Orlando innamorato_ di Matteo Maria Boiardo. Nello stesso periodo si colloca la redazione della maggior parte dei celebri _Capitoli_ in terza rima, accompagnati da sonetti satirici, che furono pubblicati in edizioni incomplete a partire dal 1537. In un contesto culturale dominato dal classicismo di Bembo, Berni, insieme ad Aretino, si propone come uno dei principali oppositori all'edonismo letterario cinquecentesco.
+
+Le dichiarazioni radicate della sua poetica, unite alla natura aspra e dissacrante dei suoi versi, riflettono un atteggiamento chiaramente antiletterario. Nei suoi _Capitoli_ – componimenti poetici strutturati sulla metrica dantesca della terzina – Berni celebra paradossalmente oggetti e temi insoliti come l'orinale, la peste, l'ago, le pesche, il debito, il calore del letto e le anguille. Questi aspetti della condizione umana, spesso umili e degradati, vengono esaltati attraverso un linguaggio vibrante e popolare, ricco di doppi sensi arguti e talvolta osceni. La stilizzazione degli elementi distintivi della sua poesia satirica è stata così incisiva da dar vita a una vera e propria _maniera_ berniana.
+
+== Agnolo Firenzuola
+
+Agnolo Firenzuola, pseudonimo di Michelangiolo Giovannini (1493-1543), si affermò come uno dei protagonisti del manierismo grazie alla sua incessante esplorazione di una forma espressiva musicale, sensuale e festosa, impreziosita da sofisticati artifici stilistici.
+
+Nato a Firenze, Firenzuola entrò nell'ordine monastico dei Vallombrosani, dove ricoprì incarichi di rilievo. Nel 1518 si trasferì a Roma, dove intrattenne rapporti con importanti figure dell'epoca come Pietro Aretino, Annibal Caro e Giovanni Della Casa. Tradusse le _Metamorfosi_ di Apuleio, pubblicandole come _Asino d'oro_ nel 1525. Tra il 1523 e il 1525 compose i _Ragionamenti_, una raccolta originale di novelle dal contenuto erotico e comico, scritte in un linguaggio vicino al parlato, accompagnate da riflessioni eleganti sulla natura dell'amore, esposte con un linguaggio sofisticato e letterario. L'opera rimase incompiuta.
+
+Tra le sue produzioni teatrali si annoverano due commedie: _La Trinunzia_ e _I lucidi_, quest'ultima pubblicata postuma nel 1549. Firenzuola scrisse anche _La prima veste dei discorsi degli animali_ (circa 1540), un adattamento libero delle favole indiane del _Pañcatantra_, reinterpretate attraverso traduzioni latine e spagnole. In questa opera la sua vena narrativa raggiunge una limpidezza e una felicità espressiva superiore rispetto ai _Ragionamenti_, concretizzandosi in una serie di favole e apologhi raccontati con leggerezza in una lingua semplice ma attentamente strutturata. Firenzuola compose inoltre il _Celso_, dialogo sulle bellezze delle donne (1548), consolidando ulteriormente il suo prestigio letterario.
+
+== Bizzarria manierista: Lasca e Gelli
+
+Anton Francesco Grazzini, conosciuto anche come il Lasca (1503-1584), fu una figura di spicco nella Firenze del Cinquecento. Fondò nel 1540 l'Accademia degli Umidi, adottando il soprannome _Lasca_, e nel 1582 aderì alla nuova Accademia della Crusca. Letterato versatile, fu autore di farse teatrali quali _Il frate_, _La giostra_ e _La Monica_ (andata perduta), oltre che di sette commedie scritte prima del 1566, tra cui _La gelosia_, _La spiritata_, _La strega_, _La pinzochera_, _La Sibilla_, _I parentali_ e _L'arzigogolo_. 
+
+Sebbene queste opere risentissero dell'influenza dei modelli classici, si distinguono per la vivace osservazione del piccolo mondo cittadino, descritta con arguzia e grazia. La sua opera più celebre è la raccolta di ventidue novelle intitolata _Le Cene_, suddivisa in tre parti: la prima pubblicata nel 1756, la seconda nel 1743 e la terza, incompleta, nel 1815. 
+
+Seguendo la struttura del _Decameron_, le novelle sono narrate nell'arco di tre serate da una compagnia composta da cinque giovani e cinque ragazze. Questi racconti, che spaziano tra beffe, storie comiche e tragiche, nonché avventure amorose, reinterpretano con estro e sensualità il tema boccaccesco della burla. Il Lasca si dedicò anche alla poesia burlesca, ispirandosi al Berni, curandone un'edizione delle opere; inoltre, fu tra i pionieri del poema eroicomico con _La Guerra de' mostri_ (1547).
+
+Giambattista Gelli (1498-1563), altro importante letterato fiorentino e autodidatta, fu influenzato dal fermento culturale della corte medicea sotto Cosimo I. Tra il 1541 e il 1563 tenne lezioni pubbliche sull'opera dantesca, poi raccolte sotto il titolo _Letture sopra la 'Commedia' di Dante_. Oltre alla produzione critica, compose due commedie, _La sporta_ (1543) e _Lo errore_ (1553), entrambe ispirate ai modelli machiavelliani, caratterizzate da riflessioni morali e da un gusto popolare vivace. Altre opere significative includono _I ragionamenti di Giusto bottaio_ (1548) e _La Circe_ (1549), oltre a un trattato linguistico intitolato _Ragionamento sopra le difficoltà di mettere in regole la nostra lingua_ (1551). In quest'ultimo lavoro criticò le idee di Bembo sostenendo la superiorità del fiorentino parlato rispetto a quello letterario e alla lingua cortigiana che ne derivava.
+
+== In sintesi
+
+/ Manierismo: A partire dal 1530, si sviluppa un movimento culturale di matrice artistica che trova espressione anche in ambito letterario. Questa tendenza si distingue per il virtuosismo formale, l'accentuazione di tonalità elegiache, effetti decorativi e descrizioni paesaggistiche, nonché per una marcata riflessione sul tema del dolore. Tra i fenomeni più rappresentativi di questa corrente si colloca il petrarchismo, che funge da emblema stilistico e tematico.
+
+/ Giovanni Della Casa: Giovanni Della Casa (1503-1556), ecclesiastico di professione, è ricordato come una delle figure letterarie più significative dell'epoca. La sua raccolta poetica, le _Rime_, pubblicata postuma nel 1558, è considerata il più importante canzoniere italiano tra Ariosto e Tasso. Altrettanto celebre è il suo _Galateo_ (1558), opera anch'essa postuma, che in una prosa elegante e raffinata codifica norme comportamentali all'interno degli ideali umanistici di cortesia e misura, ispirandosi al modello classico dell'aurea mediocritas.
+
+/ Francesco Berni: Francesco Berni (circa 1497-1553), poeta al servizio di autorevoli ecclesiastici e dei Medici, trovò una fine tragica, avvelenato in circostanze oscure. Nei suoi _Capitoli_, pubblicati a partire dal 1537, emergono dichiarazioni poetiche radicali accompagnate da versi aspri e dissacratori, rivelando un atteggiamento dichiaratamente antiletterario e polemico nei confronti della tradizione.
+
+/ Agnolo Firenzuola: Sotto lo pseudonimo di Agnolo Firenzuola si cela Michelangiolo Giovannini (1493-1543), monaco vallombrosano originario di Firenze. Tra il 1523 e il 1525 compose i _Ragionamenti_, raccolta di novelle a carattere erotico e comico. Quest'opera si distingue per l'uso di una lingua vicina al parlato colloquiale, accompagnata tuttavia da passaggi in cui la riflessione sull'amore si eleva a livelli profondamente letterari, con uno stile dotto e ricercato.
+
+/ Lasca: Anton Francesco Grazzini, noto con lo pseudonimo “Il Lasca” (1503-1588), fu un autore fiorentino conosciuto soprattutto per le sue novelle riunite nelle _Cene_ (pubblicate postume nel 1743, 1756 e 1815). I racconti spaziano tra diversi argomenti – burle, storie comiche e tragiche, avventure amorose – riproponendo in chiave originale il tema della beffa boccaccesca, arricchito da elementi di sensualità ed estro caricaturale.
