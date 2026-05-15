@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Gli animali hanno sviluppato strutture specializzate, come cellule e organi sensoriali, che permettono loro di percepire l'ambiente circostante. Questi elementi sono in grado di rilevare suoni, colori, pressioni, sapori e altre stimolazioni, trasmettendo tali informazioni al cervello sotto forma di segnali elettrici chiamati potenziali d'azione, che viaggiano lungo le fibre nervose. Il sistema nervoso raccoglie questi dati, insieme a quelli provenienti dall'ambiente interno dell'organismo, li analizza e genera una risposta. Questa risposta può influenzare l'attività muscolare o ghiandolare. Le funzioni vitali sono mantenute in equilibrio grazie alla stretta collaborazione tra il sistema nervoso e quello endocrino: mentre il primo comunica attraverso impulsi nervosi, il secondo utilizza regolatori chimici, ossia ormoni, secreti dalle ghiandole endocrine e distribuiti nel flusso sanguigno.]
 
@@ -35,7 +35,6 @@ Nel momento in cui il potenziale d'azione raggiunge il bottone sinaptico, il neu
 
 Vi sono sinapsi che esercitano un effetto inibitorio, riducendo la probabilità di generazione del potenziale d'azione, in contrasto con le sinapsi eccitatorie appena descritte.
 
-#wideblock[
 #figure(
   caption: [I principali neurotrasmettitori],
   table(
@@ -65,7 +64,7 @@ Vi sono sinapsi che esercitano un effetto inibitorio, riducendo la probabilità 
   [GABA o acido \ gamma-amminobutirrico], [Un amminoacido con azione inibitoria sul sistema nervoso], 
 )  
 )
-]
+
 
 == La trasmissione dell'impulso nervoso
 
@@ -139,6 +138,10 @@ La pelle, nota anche come cute, avvolge il corpo intero e svolge funzioni essenz
 
 Nel derma si trovano anche importanti recettori somatici, come i corpuscoli di Pacini e di Ruffini, responsabili della percezione della pressione, e i corpuscoli di Krause, sensibili a variazioni termiche.
 
+#note(bottom)[== *🧩* La struttura della pelle <senza_numero>
+
+Anatomicamente, la pelle è composta da diversi strati sovrapposti: l'epidermide, il derma e l'ipoderma. L'epidermide è costituita da cellule generate dallo strato basale; queste cellule attraversano diverse trasformazioni passando dagli strati sottostanti (spinoso, granuloso, lucido) fino a quello superiore (corneo). Durante questo processo, le cellule assumono una forma appiattita, perdono il nucleo e si arricchiscono di cheratina, conferendo loro proprietà impermeabili sia all'aria sia all'acqua. Il derma ospita strutture quali i follicoli piliferi dotati di muscoli erettori del pelo, nonché le ghiandole sudoripare e sebacee. L'ipoderma si trova al di sotto del derma ed è caratterizzato dalla presenza di cellule adipose, che hanno la funzione di isolare e ammortizzare.]
+
 == La percezione delle informazioni visive: l'occhio
 
 L'occhio, organo dalla forma sferica, è composto dal bulbo oculare e da tre strati concentrici: tonaca fibrosa, vascolare e nervosa.
@@ -154,7 +157,7 @@ All'interno dell'occhio si trovano i mezzi di rifrazione, tra cui umor acqueo (u
 La funzionalità visiva deriva dai raggi luminosi che attraversano la cornea e il cristallino per focalizzarsi sulla retina. I coni e i bastoncelli contengono molecole fotosensibili che, assorbendo la luce, subiscono un cambiamento molecolare generando un segnale elettrico (potenziale di ricezione). Questo segnale viene trasmesso al cervello tramite il nervo ottico. 
 
 Le fibre dei due nervi ottici provenienti da ciascun occhio si incontrano e incrociano nel chiasma ottico, situato nella parte inferiore dell'encefalo. In questo modo, i nervi che dal chiasma arrivano alla corteccia visiva trasportano informazioni provenienti da entrambi i campi visivi.
- 
+
 === Annessi del bulbo oculare
 
 Annesse al bulbo oculare trovano spazio diverse strutture che svolgono funzioni di protezione. Tra queste, il sopracciglio, situato sopra la cavità orbitaria e dotato di peli, le palpebre, anch'esse provviste di ciglia, e la congiuntiva, una membrana mucosa che riveste la superficie interna delle palpebre e parte della parte anteriore del bulbo oculare.
@@ -175,7 +178,7 @@ Infine, si trova l'orecchio interno, formato da una rete di canalicoli racchiusi
 
 === La funzione uditiva
 
-Le onde sonore, attraversando il canale uditivo esterno, provocano la compressione delle molecole d'aria presenti al suo interno. Questa pressione fa incurvare la membrana timpanica verso l'interno. Di conseguenza, la vibrazione della membrana movimenta la catena degli ossicini che trasferiscono l'energia meccanica fino alla finestra ovale. L'onda sonora viene trasmessa successivamente alla coclea dove causa la flessione della membrana basilare. Questo movimento attiva le cellule ciliate dell'organo del Corti, generando un “potenziale di ricezione” che prosegue attraverso le fibre efferenti fino al nervo acustico, trasportando il segnale al cervello per l'elaborazione delle informazioni uditive.
+Le onde sonore, attraversando il canale uditivo esterno, provocano la compressione delle molecole d'aria presenti al suo interno. Questa pressione fa incurvare la membrana timpanica verso l'interno. Di conseguenza, la vibrazione della membrana movimenta la catena degli ossicini che trasferiscono l'energia meccanica fino alla finestra ovale. L'onda sonora viene trasmessa successivamente alla coclea dove causa la flessione della membrana basilare. Questo movimento attiva le cellule ciliate dell'organo del Corti, generando un "potenziale di ricezione" che prosegue attraverso le fibre efferenti fino al nervo acustico, trasportando il segnale al cervello per l'elaborazione delle informazioni uditive.
 
 === La funzione vestibolare
 
@@ -213,7 +216,6 @@ Vi sono inoltre altre strutture che svolgono funzioni endocrine, quali l'ipotala
 
 Le ghiandole endocrine cooperano in maniera strettamente integrata tra loro e stabiliscono connessioni anatomiche e funzionali con il sistema nervoso centrale e periferico. Tali interazioni si esplicano sia mediante la midollare delle ghiandole surrenali, che secerne adrenalina e noradrenalina - sostanze che fungono da ormoni e neurotrasmettitori - sia attraverso l'ipotalamo. Quest'ultimo è una struttura cerebrale imprescindibile per l'omeostasi e l'adattamento dell'organismo all'ambiente, che rilascia molecole capaci di stimolare o inibire l'attività dell'ipofisi, delle gonadi, della tiroide e della corteccia surrenale.
 
-#wideblock[
 #figure(
   caption: [Ghiandole e relativi ormoni],
   table(
@@ -237,80 +239,54 @@ Le ghiandole endocrine cooperano in maniera strettamente integrata tra loro e st
   [], [], [],
 )  
 )
-]
+
 #pagebreak()
-== Approfondimento: la struttura della pelle <senza_numero>
-
-Anatomicamente, la pelle è composta da diversi strati sovrapposti: l'epidermide, il derma e l'ipoderma. L'epidermide è costituita da cellule generate dallo strato basale; queste cellule attraversano diverse trasformazioni passando dagli strati sottostanti (spinoso, granuloso, lucido) fino a quello superiore (corneo). Durante questo processo, le cellule assumono una forma appiattita, perdono il nucleo e si arricchiscono di cheratina, conferendo loro proprietà impermeabili sia all'aria sia all'acqua. Il derma ospita strutture quali i follicoli piliferi dotati di muscoli erettori del pelo, nonché le ghiandole sudoripare e sebacee. L'ipoderma si trova al di sotto del derma ed è caratterizzato dalla presenza di cellule adipose, che hanno la funzione di isolare e ammortizzare.
-
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
-Apparato vestibolare  
-Strutture presenti nell'orecchio interno, specializzate nella percezione dei movimenti e dei cambiamenti di posizione della testa. Comprendono tre canali semicircolari, il sacculo e l'utricolo.  
+/ Apparato vestibolare: Strutture presenti nell'orecchio interno, specializzate nella percezione dei movimenti e dei cambiamenti di posizione della testa. Comprendono tre canali semicircolari, il sacculo e l'utricolo.  
 
-Cervelletto  
-Struttura cerebrale separata, situata nella parte posteriore del tronco encefalico. Ha la funzione di coordinare l'attività muscolare e mantenere l'equilibrio.  
+/ Cervelletto: Struttura cerebrale separata, situata nella parte posteriore del tronco encefalico. Ha la funzione di coordinare l'attività muscolare e mantenere l'equilibrio.  
 
-Cervello  
-Porzione dell'encefalo composta da due emisferi cerebrali. Esternamente è rivestita dalla corteccia cerebrale, costituita da sostanza grigia (corpi cellulari) organizzata in circonvoluzioni, mentre internamente si trova la sostanza bianca (fibre nervose).  
+/ Cervello: Porzione dell'encefalo composta da due emisferi cerebrali. Esternamente è rivestita dalla corteccia cerebrale, costituita da sostanza grigia (corpi cellulari) organizzata in circonvoluzioni, mentre internamente si trova la sostanza bianca (fibre nervose).  
 
-Encefalo  
-Elemento del sistema nervoso centrale situato nel cranio, responsabile del coordinamento delle attività nervose. Riceve dati dagli organi di senso o dai neuroni afferenti, li integra e genera una risposta da trasmettere agli organi effettori. È formato da cervello, corpo calloso, talamo, ipotalamo, cervelletto e tronco encefalico.  
+/ Encefalo: Elemento del sistema nervoso centrale situato nel cranio, responsabile del coordinamento delle attività nervose. Riceve dati dagli organi di senso o dai neuroni afferenti, li integra e genera una risposta da trasmettere agli organi effettori. È formato da cervello, corpo calloso, talamo, ipotalamo, cervelletto e tronco encefalico.  
 
-Ganglio  
-Gruppo di tessuto nervoso che ospita numerosi corpi cellulari. È presente sia negli invertebrati (ad esempio i gangli cefalici) sia nei vertebrati (come il ganglio della radice dorsale).  
+/ Ganglio: Gruppo di tessuto nervoso che ospita numerosi corpi cellulari. È presente sia negli invertebrati (ad esempio i gangli cefalici) sia nei vertebrati (come il ganglio della radice dorsale).  
 
-Ghiandole endocrine  
-Ghiandole che secernono i propri prodotti (ormoni) direttamente nel sangue.  
+/ Ghiandole endocrine: Ghiandole che secernono i propri prodotti (ormoni) direttamente nel sangue.  
 
-Impulso nervoso  
-Fenomeno elettrico che percorre le fibre nervose e consiste nel flusso di ioni attraverso la membrana dell'assone, generato dall'improvvisa inversione della carica elettrica della cellula.  
+/ Impulso nervoso: Fenomeno elettrico che percorre le fibre nervose e consiste nel flusso di ioni attraverso la membrana dell'assone, generato dall'improvvisa inversione della carica elettrica della cellula.  
 
-Ipotalamo  
-Regione dell'encefalo situata sotto il talamo, coinvolta nella regolazione di numerosi processi fisiologici.  
+/ Ipotalamo: Regione dell'encefalo situata sotto il talamo, coinvolta nella regolazione di numerosi processi fisiologici.  
 
-Lingua  
-Organo muscolare situato nella cavità orale, responsabile della masticazione, deglutizione, fonazione e percezione gustativa attraverso i bottoni gustativi.  
+/ Lingua: Organo muscolare situato nella cavità orale, responsabile della masticazione, deglutizione, fonazione e percezione gustativa attraverso i bottoni gustativi.  
 
-Midollo allungato o bulbo  
-Parte del tronco encefalico da cui originano 12 paia di nervi cranici. Regola funzioni involontarie quali respirazione, battito cardiaco e pressione sanguigna.  
+/ Midollo allungato o bulbo: Parte del tronco encefalico da cui originano 12 paia di nervi cranici. Regola funzioni involontarie quali respirazione, battito cardiaco e pressione sanguigna.  
 
-Midollo spinale  
-Elemento del sistema nervoso centrale contenuto nella colonna vertebrale, da cui si originano 31 paia di nervi spinali. È costituito da una parte centrale di sostanza grigia (corpi cellulari) circondata da sostanza bianca (fibre nervose).  
+/ Midollo spinale: Elemento del sistema nervoso centrale contenuto nella colonna vertebrale, da cui si originano 31 paia di nervi spinali. È costituito da una parte centrale di sostanza grigia (corpi cellulari) circondata da sostanza bianca (fibre nervose).  
 
-Naso  
-Organo deputato alla percezione degli odori e responsabile della filtrazione, umidificazione e riscaldamento dell'aria inspirata.  
+/ Naso: Organo deputato alla percezione degli odori e responsabile della filtrazione, umidificazione e riscaldamento dell'aria inspirata.  
 
-Neurone  
-Unità fondamentale del sistema nervoso, composta dal corpo cellulare (pirenoforo), numerosi dendriti e un assone lungo. È specializzato nella trasmissione degli impulsi nervosi ricevuti dai recettori o da altri neuroni. Può essere sensoriale (afferente), motorio (efferente) o associativo.  
+/ Neurone: Unità fondamentale del sistema nervoso, composta dal corpo cellulare (pirenoforo), numerosi dendriti e un assone lungo. È specializzato nella trasmissione degli impulsi nervosi ricevuti dai recettori o da altri neuroni. Può essere sensoriale (afferente), motorio (efferente) o associativo.  
 
-Occhio  
-Organo della vista contenente cellule fotoricettrici specializzate: coni e bastoncelli.  
+/ Occhio: Organo della vista contenente cellule fotoricettrici specializzate: coni e bastoncelli.  
 
-Orecchio  
-Organo preposto alla ricezione dei suoni e al controllo dell'equilibrio tramite l'apparato vestibolare. È composto da orecchio esterno, medio e interno.  
+/ Orecchio: Organo preposto alla ricezione dei suoni e al controllo dell'equilibrio tramite l'apparato vestibolare. È composto da orecchio esterno, medio e interno.  
 
-Ormoni  
-Sostanze chimiche responsabili della regolazione delle attività di specifici organi e tessuti denominati organi bersaglio.  
+/ Ormoni: Sostanze chimiche responsabili della regolazione delle attività di specifici organi e tessuti denominati organi bersaglio.  
 
-Pelle o cute  
-Rivestimento del corpo dotato di ghiandole sebacee e sudoripare, oltre a recettori sensibili al dolore, temperatura e pressione.  
+/ Pelle o cute: Rivestimento del corpo dotato di ghiandole sebacee e sudoripare, oltre a recettori sensibili al dolore, temperatura e pressione.  
 
-Rete nervosa  
-Sistema nervoso semplice costituito da neuroni diffusi in tutto il corpo. È caratteristico degli animali a simmetria raggiata.  
+/ Rete nervosa: Sistema nervoso semplice costituito da neuroni diffusi in tutto il corpo. È caratteristico degli animali a simmetria raggiata.  
 
-Sinapsi  
-Collegamento specializzato per la trasmissione degli impulsi nervosi tra neuroni o verso organi effettori. Attraverso la terminazione presinaptica viene rilasciato un neurotrasmettitore che passa attraverso la fessura sinaptica e si lega ai recettori della terminazione postsinaptica, ripristinando l'impulso nervoso.  
+/ Sinapsi: Collegamento specializzato per la trasmissione degli impulsi nervosi tra neuroni o verso organi effettori. Attraverso la terminazione presinaptica viene rilasciato un neurotrasmettitore che passa attraverso la fessura sinaptica e si lega ai recettori della terminazione postsinaptica, ripristinando l'impulso nervoso.  
 
-Sistema nervoso centrale  
-Parte fondamentale del sistema nervoso composta da encefalo e midollo spinale.  
+/ Sistema nervoso centrale: Parte fondamentale del sistema nervoso composta da encefalo e midollo spinale.  
 
-Sistema nervoso periferico  
-Comprende i nervi efferenti e afferenti; include il sistema nervoso somatico e quello vegetativo, suddiviso a sua volta in simpatico e parasimpatico.  
+/ Sistema nervoso periferico: Comprende i nervi efferenti e afferenti; include il sistema nervoso somatico e quello vegetativo, suddiviso a sua volta in simpatico e parasimpatico.  
 
-Talamo  
-Zona profonda dell'encefalo, situata sopra il tronco encefalico. Svolge un ruolo chiave nella trasmissione delle informazioni sensoriali verso la corteccia cerebrale.  
+/ Talamo: Zona profonda dell'encefalo, situata sopra il tronco encefalico. Svolge un ruolo chiave nella trasmissione delle informazioni sensoriali verso la corteccia cerebrale.  
 
-Tronco encefalico  
-Estensione dell'encefalo che comprende mesencefalo, midollo allungato (o bulbo) e ponte.  
+/ Tronco encefalico: Estensione dell'encefalo che comprende mesencefalo, midollo allungato (o bulbo) e ponte.  
 

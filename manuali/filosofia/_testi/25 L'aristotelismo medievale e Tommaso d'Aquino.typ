@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il XIII secolo, spesso considerato il culmine della Scolastica, è definito dalla riscoperta del pensiero aristotelico, che provoca reazioni diverse: si passa dall'accettazione totale e incondizionata, come nell'averroismo, alla netta opposizione dell'agostinismo, fino alla sintesi armonica proposta da Tommaso d'Aquino, che integra le verità rivelate con la filosofia di Aristotele.]
 
@@ -7,7 +7,7 @@
 
 Di origine tedesca (circa 1206-1280), Alberto Magno, appartenente all'ordine domenicano, è stato un influente maestro di teologia all'Università di Parigi, dove ebbe come allievo Tommaso d'Aquino. Successivamente insegnò a Colonia e in altre città. Nel 1260 fu nominato vescovo e svolse incarichi diplomatici come nunzio papale.
 
-La sua produzione intellettuale è estremamente vasta e comprende opere teologiche (Trattato sulla natura del bene, Summa sulle creature, commento alle Sentenze di Pietro Lombardo, Summa di teologia e commenti biblici) e filosofiche, tra cui spiccano i commenti alle opere di Dionigi Areopagita, le parafrasi di quasi tutti i lavori di Aristotele e alcune opere di Severino Boezio.
+La sua produzione intellettuale è estremamente vasta e comprende opere teologiche (_Trattato sulla natura del bene_, _Summa sulle creature_, commento alle _Sententiae_ di Pietro Lombardo, _Summa di teologia_ e commenti biblici) e filosofiche, tra cui spiccano i commenti alle opere di Dionigi Areopagita, le parafrasi di quasi tutti i lavori di Aristotele e alcune opere di Severino Boezio.
 
 Alberto Magno ha saputo integrare il pensiero di Aristotele, le scienze e i contributi della filosofia dell'età classica nella cultura cristiana. Dal punto di vista metodologico, ha affermato l'autonomia delle scienze profane e dell'indagine sperimentale, pur mantenendo la distinzione tra teologia e filosofia. Sebbene consideri preminente la teologia, attribuisce anche alla filosofia un ruolo significativo: le due discipline si incontrano nella ricerca di una sintesi superiore.
 
@@ -31,7 +31,7 @@ Tommaso sviluppa una dimostrazione dell'esistenza di Dio basata su un approccio 
 
 La prima via parte dal mutamento osservabile nelle cose sensibili e conclude con l'esistenza di un Primo Motore immobile. La seconda via esplora i rapporti di causalità efficienti per identificare una Causa Prima. La terza via si fonda sulla contingenza dell'esistenza del mondo, arrivando così all'affermazione di un Essere necessario, logico antecedente di tutti gli esseri contingenti. La quarta via riflette sui gradi di perfezione presenti nelle cose e conclude sull'esistenza di un Essere perfettissimo, causa delle perfezioni parziali degli enti. Infine, la quinta via analizza l'ordine e la finalità insiti nei comportamenti regolari degli agenti privi di conoscenza per dimostrare l'esistenza di un Fine ultimo e assoluto.
 
-Questo essere, così dimostrato come perfetto e trascendente rispetto ai limiti del contingente, si identifica con ciò che teologi e filosofi riconoscono come Dio. Tra gli attributi divini da lui discussi, Tommaso assegna particolare rilevanza all'onnipotenza creatrice. Dio è concepito come colui che crea ex nihilo tutti gli enti finiti. Questi ultimi, in quanto frutto di un libero atto creativo, sono intrinsecamente orientati a Dio stesso come loro fine ultimo. 
+Questo essere, così dimostrato come perfetto e trascendente rispetto ai limiti del contingente, si identifica con ciò che teologi e filosofi riconoscono come Dio. Tra gli attributi divini da lui discussi, Tommaso assegna particolare rilevanza all'onnipotenza creatrice. Dio è concepito come colui che crea _ex nihilo_ tutti gli enti finiti. Questi ultimi, in quanto frutto di un libero atto creativo, sono intrinsecamente orientati a Dio stesso come loro fine ultimo. 
 
 === La teoria della conoscenza e l'antropologia
 
@@ -64,8 +64,10 @@ L'averroismo emerge con forza a partire dalla seconda metà del XIII secolo, gra
 Gli averroisti sostengono tesi filosofiche incompatibili con la dottrina rivelata, come l'unicità dell'intelletto per tutta l'umanità, che implica il rifiuto dell'immortalità dell'anima individuale; l'eternità del mondo; e l'autosufficienza della filosofia nel garantire la felicità terrena dell'uomo.
 
 Queste posizioni portano all'accusa di promuovere la teoria della "doppia verità", secondo cui le verità della fede e quelle della ragione sarebbero indipendenti fra loro e potrebbero persino giungere a conclusioni contraddittorie.  
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
 / Alberto Magno: Alberto Magno integra il pensiero aristotelico nella tradizione cristiana, sottolineando l'autonomia delle scienze profane e dell'indagine sperimentale rispetto alla teologia. Propone una distinzione tra filosofia e teologia, assumendo nel dibattito sugli universali una posizione di realismo moderato. Considera inoltre l'anima personale e immortale come parte integrante dell'intelletto attivo.  
 
 / Tommaso d'Aquino: Tommaso d'Aquino afferma l'assenza di contraddizioni tra ragione e rivelazione, conferendo alla filosofia autonomia di metodo e oggetto rispetto alla teologia, che possiede comunque una propria dimensione scientifica.  

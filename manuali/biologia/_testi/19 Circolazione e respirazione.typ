@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Le cellule trasformano l'energia delle sostanze nutritive in energia utilizzabile attraverso il processo di respirazione cellulare, che necessita di un costante apporto di ossigeno. Per soddisfare questa esigenza, gli animali hanno sviluppato due sistemi strettamente interconnessi dal punto di vista evolutivo: l'apparato circolatorio e l'apparato respiratorio. Il primo ha il compito di distribuire alle cellule i gas e le sostanze necessarie, oltre a eliminare i prodotti di scarto che derivano dalle loro attività metaboliche. Il secondo è composto da organi specializzati, che si occupano di captare ossigeno dall'ambiente esterno e smaltire il diossido di carbonio.]
 
@@ -88,7 +88,7 @@ Le principali tipologie di cellule del sangue sono i globuli rossi, i globuli bi
 
 L'ossigeno (O#sub[2]) migra dalla superficie delle vie respiratorie polmonari fino alla membrana dei globuli rossi, dove si lega all'emoglobina formando la molecola di ossiemoglobina. Questo legame, caratterizzato dalla sua natura reversibile e debole, facilita il rilascio dell'ossigeno quando i globuli rossi raggiungono i tessuti periferici. In questa fase, l'ossigeno diffonde dai globuli rossi nelle cellule, favorendo i processi metabolici.
 
-Parallelamente, il diossido di carbonio (CO#sub[2]) segue un percorso inverso, trasferendosi dalle cellule al sangue. Una frazione minore del CO#sub[2] viene trasportata direttamente nel plasma sanguigno, mentre una parte si combina con l'emoglobina. Tuttavia, la maggior parte del CO#sub[2] reagisce con l'acqua presente nel sangue, formando lo ione bicarbonato HCO<sub>3</sub><sup>-</sub>), che viene poi trasportato in soluzione nel plasma. Questo complesso sistema garantisce lo scambio efficace dei gas respiratori nelle superfici polmonari.
+Parallelamente, il diossido di carbonio (CO#sub[2]) segue un percorso inverso, trasferendosi dalle cellule al sangue. Una frazione minore del CO#sub[2] viene trasportata direttamente nel plasma sanguigno, mentre una parte si combina con l'emoglobina. Tuttavia, la maggior parte del CO#sub[2] reagisce con l'acqua presente nel sangue, formando lo ione bicarbonato HCO#sub[3]⁻), che viene poi trasportato in soluzione nel plasma. Questo complesso sistema garantisce lo scambio efficace dei gas respiratori nelle superfici polmonari.
 
 == Il sistema linfatico
 
@@ -162,6 +162,7 @@ In prossimità del midollo allungato si trovano recettori chimici specializzati 
 
 Altri fattori che possono influenzare l'incremento del ritmo respiratorio includono l'aumento della temperatura corporea causato da attività fisica intensa, emozioni forti o segnali provenienti dai recettori situati nei muscoli e nelle articolazioni durante l'esercizio fisico.
 #pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Apparato circolatorio: Sistema di trasporto formato da sangue, vasi conduttori, una pompa e alcune valvole.  

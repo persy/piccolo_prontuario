@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Ogni animale necessita di una struttura di sostegno per mantenere la forma del corpo e garantire funzionalità vitale. Nel caso degli animali terrestri, la forza di gravità impone la presenza di un sistema rigido, ovvero lo scheletro, che impedisce deformazioni e consente il sostegno corporeo. Affinché gli organismi possano muoversi, questa struttura deve inoltre permettere l'inserzione dei muscoli. Questi ultimi, composti da cellule capaci di contrarsi, svolgono la funzione di avvicinare diverse parti anatomiche tra loro. L'integrazione funzionale tra scheletro e muscolatura costituisce il cosiddetto apparato locomotore.]
 
@@ -83,6 +83,7 @@ La contrazione muscolare avviene a seguito dello scorrimento dei filamenti di ac
 
 Lo stimolo alla contrazione arriva alle fibre muscolari attraverso le terminazioni nervose dei nervi motori, i quali si ramificano per innervare singolarmente ogni fibra muscolare. Queste interazioni danno origine a una struttura chiamata giunzione neuromuscolare o placca motrice.
 #pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Articolazione: Giunzione tra due o più ossa adiacenti.  

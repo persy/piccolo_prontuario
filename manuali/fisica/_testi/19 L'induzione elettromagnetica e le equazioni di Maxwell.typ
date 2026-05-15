@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La scoperta della forza esercitata da un magnete su un filo percorso da una corrente, fatta da Faraday, completa il ciclo di studi sull'interazione tra fenomeni elettrici e magnetici. Questa serie di scoperte verrà in seguito riunita e sistematizzata da Maxwell nella teoria del campo elettromagnetico.
 
@@ -29,15 +29,28 @@ Secondo la legge formulata da Faraday, il valore della f.e.m. indotta è diretta
 
 === Il flusso del campo magnetico
 
-Il flusso del campo magnetico Φ (o più semplicemente flusso magnetico) attraverso una superficie S è definito come il prodotto tra la componente del campo magnetico perpendicolare alla superficie e la superficie stessa. Se θ rappresenta l'angolo tra il vettore del campo magnetico B e la normale alla superficie S, il flusso è dato da: 
+Il flusso del campo magnetico _Φ_ (o più semplicemente flusso magnetico) attraverso una superficie _S_ è definito come il prodotto tra la componente del campo magnetico perpendicolare alla superficie e la superficie stessa.
 
-Φ = B · S · cos(θ).
+$ 
+  Phi = B_perp S 
+$
 
-Il flusso di un campo magnetico raggiunge il massimo quando le linee di forza del campo sono perpendicolari alla superficie S e si annulla nel caso in cui siano parallele. Nei casi intermedi, il flusso è calcolato proiettando il vettore del campo magnetico sulla superficie S e moltiplicandolo per l'area della superficie.
+Se _θ_ rappresenta l'angolo tra il vettore del campo magnetico _B_ e la normale alla superficie _S_, il flusso è dato da: 
 
-Nel Sistema Internazionale, il flusso magnetico si misura in weber (simbolo Wb), dove 1 Wb equivale a 1 T·m². 
+$ 
+  Phi = S B sin theta
+$
 
-In termini di flusso, la corrente indotta in un circuito si verifica quando vi è una variazione temporale del flusso di un campo magnetico. La legge quantitativa di Faraday-Neumann stabilisce che la f.e.m. indotta su un circuito è proporzionale alla variazione del flusso magnetico (ΔΦ) rispetto al tempo (Δt).
+Il flusso di un campo magnetico raggiunge il massimo quando le linee di forza del campo sono perpendicolari alla superficie _S_ e si annulla nel caso in cui siano parallele. Nei casi intermedi, il flusso è calcolato proiettando il vettore del campo magnetico sulla superficie _S_ e moltiplicandolo per l'area della superficie.
+
+Nel Sistema Internazionale, il flusso magnetico si misura in weber (simbolo Wb), dove 1 Wb equivale a 1 T · m#super[2]. 
+
+In termini di flusso, la corrente indotta in un circuito si verifica quando vi è una variazione temporale del flusso di un campo magnetico. La legge quantitativa di Faraday-Neumann stabilisce che la f.e.m. indotta su un circuito è proporzionale alla variazione del flusso magnetico (_ΔΦ_) rispetto al tempo (_Δt_).
+
+$ 
+  "f.e.m. indotta" prop (Delta Phi)/(Delta t)
+$
+
 
 == Il generatore elettrico di corrente alternata
 
@@ -59,19 +72,43 @@ La corrente generata da un dispositivo di questo tipo non ha intensità costante
 
 == Caratteristiche della corrente alternata
 
-In una corrente alternata, il valore massimo raggiunto dall'intensità di corrente viene definito ampiezza (I₀), mentre il periodo (T) rappresenta l'intervallo di tempo tra due valori massimi successivi. La frequenza, espressa in hertz (Hz), è il reciproco del periodo e indica il numero di oscillazioni o cicli completati dalla bobina in un secondo. 
+In una corrente alternata, il valore massimo raggiunto dall'intensità di corrente viene definito ampiezza (_I#sub[0]_), mentre il periodo (_T_) rappresenta l'intervallo di tempo tra due valori massimi successivi. La frequenza, espressa in hertz (Hz), è il reciproco del periodo e indica il numero di oscillazioni o cicli completati dalla bobina in un secondo. 
 
 Nelle reti elettriche domestiche, la frequenza è generalmente fissata a 50 Hz. La potenza generata da un circuito di corrente alternata, analogamente a quanto avviene per la corrente continua, è calcolabile come il prodotto tra la differenza di potenziale e l'intensità di corrente. Tuttavia, a differenza della corrente continua, sia la tensione che l'intensità della corrente alternata non sono costanti, ma variano nel tempo. Per descrivere in modo efficace questi parametri variabili, si utilizzano i concetti di tensione efficace e corrente efficace. La corrente efficace è definita come il valore della corrente continua che produrrebbe, in un resistore e nell'unità di tempo, la stessa quantità di calore generata dalla corrente alternata.
 
-La relazione tra la corrente efficace (Iₑₛₓ) e l'ampiezza (I₀) della corrente alternata è stabilita da una formula analoga per la tensione efficace:
+La relazione tra la corrente efficace (_I#sub[eff]_) e l'ampiezza (_I#sub[0]_) della corrente alternata è stabilita da una formula analoga per la tensione efficace:
 
-\[ Iₑₛₓ = I₀ \cdot 0,707 \]
+$ 
+  I_"eff" = 1/(sqrt(2)) space I_0
+$
 
-Analogamente, quando si afferma che nelle abitazioni è presente una tensione di 220 V, si fa riferimento al valore della tensione efficace dell'impianto. La tensione massima sarà invece pari a circa 310 V, essendo calcolata come \( 220 \cdot 1,414 \).
+Analogamente, quando si afferma che nelle abitazioni è presente una tensione di 220 V, si fa riferimento al valore della tensione efficace dell'impianto. La tensione massima sarà invece pari a circa 310 V, essendo calcolata come 220 · 1,414. // 1,414 o 0,707? #TODO
 
 Grazie all'utilizzo di tensione e corrente efficaci è possibile calcolare la potenza di un circuito a corrente alternata come se fosse un sistema a corrente continua. La corrente alternata trova ampio impiego nella produzione e distribuzione dell'energia elettrica, poiché consente facili trasformazioni che portano a valori diversi di tensione e intensità di corrente, adattandosi alle esigenze delle varie fasi del processo. In particolare, la tensione utilizzata per la distribuzione domestica è mantenuta relativamente bassa (220 V) per motivi di sicurezza; viceversa, nel trasporto dell'energia elettrica si adottano valori elevati (220-380 kV) al fine di minimizzare le perdite energetiche e ridurre la sezione dei conduttori.
 
 Il dispositivo che permette di convertire una corrente alternata con una determinata tensione efficace in un'altra con una tensione efficace differente si chiama trasformatore. Questo strumento garantisce tale conversione con perdite energetiche contenute.
+
+#note(bottom)[== *🧩* Il trasformatore <senza_numero>
+
+Il trasformatore è uno strumento elettromeccanico destinato al trasferimento di energia elettrica tra due circuiti distinti, definiti rispettivamente come primario e secondario. Tale trasferimento avviene attraverso una variazione dei parametri di tensione e corrente, garantendo l'adattamento dell'energia alle specifiche esigenze del circuito ricevente.
+
+Operativamente, il trasformatore accoglie energia elettrica con una tensione _V#sub[1]_ e una corrente _I#sub[1]_ nel circuito primario, restituendola al circuito secondario con una tensione _V#sub[2]_ e una corrente _I#sub[2]_, conformemente alla relazione fondamentale tra tensione e numero di spire. 
+
+$ 
+  V_1 I_1 = V_2 I_2
+$
+
+Nella sua configurazione più essenziale, esso è costituito da due solenoidi elettricamente isolati tra loro, ma avvolti su un comune nucleo magnetico.
+
+Il funzionamento del trasformatore si basa sulla corrente alternata applicata al circuito primario, che genera un campo magnetico variabile alla medesima frequenza del segnale elettrico primario. Tale campo magnetico, confinato nel nucleo magnetico, coinvolge il circuito secondario inducendo una forza elettromotrice (f.e.m.) con la stessa frequenza del circuito primario.
+
+Una relazione cruciale per il trasformatore è quella tra il numero di spire del primario (_N#sub[1]_) e quello del secondario (_N#sub[2]_), definita rapporto di spire: 
+
+$ 
+  V_1/V_2 = N_1/N_2
+$
+
+Variando opportunamente questo rapporto è possibile regolare la tensione del circuito secondario. Se _N#sub[1]_ risulta inferiore a _N#sub[2]_, il trasformatore viene denominato elevatore di tensione, aumentando il livello della tensione in uscita. Viceversa, nel caso in cui _N#sub[1]_ sia maggiore di _N#sub[2]_, il trasformatore viene classificato come abbassatore di tensione (o riduttore), producendo una minore tensione in uscita. Nei transformatori abbassatori, schematicamente il numero di spire del primario eccede rispetto a quello del secondario.]
 
 == La legge di Lenz e l'autoinduzione
 
@@ -81,9 +118,11 @@ Se ad esempio la f.e.m. è generata da un aumento del flusso del campo magnetico
 
 La legge di Lenz consente quindi di prevedere il verso della corrente indotta in un circuito sottoposto a variazioni del campo magnetico. La legge di Faraday-Neumann viene ulteriormente integrata dalla legge di Lenz nella formulazione nota come legge di Faraday-Neumann-Lenz, che stabilisce che la forza elettromotrice indotta in un circuito può essere espressa dalla relazione:
 
-\[ \text{f.e.m} = - \frac{\Delta \Phi}{\Delta t} \]
+$ 
+  "f.e.m. indotta" = - (Delta Phi)/(Delta t)
+$
 
-dove \( \Delta \Phi \) rappresenta la variazione del flusso magnetico nel tempo (\( \Delta t \)), mentre il segno negativo tiene conto dell'opposizione al cambiamento, conforme alla legge di Lenz.
+dove _Φ_ rappresenta la variazione del flusso magnetico nel tempo (_Δt_), mentre il segno negativo tiene conto dell'opposizione al cambiamento, conforme alla legge di Lenz.
 
 == L'autoinduzione
 
@@ -94,7 +133,15 @@ Aumentando progressivamente l'intensità della corrente, si determina un increme
 In sintesi, nel momento in cui il flusso del campo magnetico concatenato con un circuito varia a causa di una modifica nell'intensità della corrente che attraversa il circuito stesso, la forza elettromotrice risultante viene denominata forza elettromotrice di autoinduzione. La figura 19.3 fornisce una rappresentazione schematica dei principali fenomeni legati al magnetismo.
 
 == Il campo elettromagnetico e le equazioni di Maxwell
+#note(bottom)[== *🧩* Le equazioni di Maxwell in forma differenziale (o locale) <senza_numero>
 
+Riguardo alla trattazione teorico-matematica delle equazioni di Maxwell in forma differenziale, essa richiede una solida conoscenza dei principi dell'analisi matematica. Concetti fondamentali includono le derivate parziali (_∂_), la divergenza (_div_) e il rotore (_rot_) di un campo vettoriale. In tale contesto, i campi elettrico e magnetico sono descritti mediante i vettori *E* (campo elettrico) e *B* (campo magnetico). La quarta equazione introduce le grandezze _J_, corrispondente alla densità di corrente, e _ρ_, relativa alla densità di carica elettrica; _c_ rappresenta invece la velocità della luce nel vuoto. 
+
+$ 
+  "div" bold(E) &= 4 pi rho  quad quad quad "div" bold(B) &= 0 \ "rot" bold(E) &= - 1/c (partial bold(B))/(partial t) \ "rot" bold(B) &= - 1/c (partial bold(E))/(partial t) + (4 pi)/c J
+$
+
+La mancanza di simmetria nelle equazioni di Maxwell tra i campi elettrici e magnetici è direttamente imputabile alla presenza di cariche elettriche e correnti conduttive. Tuttavia, in condizioni di vuoto ideale, dove _J_ e _ρ_ risultano nulli, tali equazioni assumono una forma simmetrica rispetto ai due campi.]
 Le ricerche condotte da Oersted e Faraday hanno evidenziato in modo inequivocabile l'interdipendenza tra il campo elettrico e il campo magnetico, dimostrando che queste due entità si manifestano distintamente solo in condizioni specifiche, come in assenza di cariche elettriche in movimento. 
 
 A partire dalle scoperte di Oersted e Faraday, il fisico scozzese James Clerk Maxwell (1831-1879) sviluppò una teoria unificata del campo elettromagnetico. Maxwell postulò che anche nel vuoto i campi elettrici variabili generano campi magnetici e che i campi magnetici a loro volta, se variabili nel tempo, danno origine a campi elettrici. 
@@ -104,36 +151,29 @@ Le interazioni elettromagnetiche che coinvolgono un corpo derivano dunque da mod
 La teoria di Maxwell prese forma definitiva con la formulazione delle sue famose equazioni nel 1873. Queste descrivono il comportamento del campo elettromagnetico e prevedono l'esistenza di onde elettromagnetiche, che si propagano trasportando simultaneamente energia e informazione. Tra queste onde rientrano anche le onde luminose, le quali viaggiano nel vuoto alla velocità della luce (circa 300.000 km/s). 
 
 Le equazioni di Maxwell stabiliscono una correlazione fondamentale tra campi elettrici e campi magnetici, descrivendone le interazioni reciproche. Nello specifico:
-
-- Le prime due equazioni caratterizzano i campi elettrico e magnetico dal punto di vista delle cariche da cui sono generati: la prima descrive il campo elettrico prodotto da cariche statiche secondo la legge di Coulomb; la seconda afferma che non esistono monopoli magnetici isolati, ragion per cui il polo nord di un magnete è indissolubilmente legato al polo sud.
-
+- Le prime due equazioni caratterizzano i campi elettrico e magnetico dal punto di vista delle cariche da cui sono generati: 
+  - la prima descrive il campo elettrico prodotto da cariche statiche secondo la legge di Coulomb; 
+  - la seconda afferma che non esistono monopoli magnetici isolati, ragion per cui il polo nord di un magnete è indissolubilmente legato al polo sud.
 - La terza equazione esprime la legge dell'induzione elettromagnetica formulata da Faraday-Neumann, secondo cui un campo magnetico variabile nel tempo genera un campo elettrico.
-
 - La quarta equazione afferma che ogni corrente elettrica è in grado di generare un campo magnetico. Essa include anche una quantità denominata corrente di spostamento, che non è associata a cariche elettriche in movimento ma produce effetti magnetici analoghi a quelli di una vera corrente.
 
 Le equazioni di Maxwell per lo studio dei fenomeni elettrici e magnetici possono essere considerate paragonabili alle leggi di Newton per la meccanica. Esse infatti consentono, almeno in linea teorica, di determinare lo stato evolutivo del sistema in un momento futuro o passato, purché siano note con precisione le condizioni iniziali del sistema stesso.
 
-== Appr. Il trasformatore
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
-Il trasformatore è uno strumento elettromeccanico destinato al trasferimento di energia elettrica tra due circuiti distinti, definiti rispettivamente come primario e secondario. Tale trasferimento avviene attraverso una variazione dei parametri di tensione e corrente, garantendo l'adattamento dell'energia alle specifiche esigenze del circuito ricevente.
+/ Autoinduzione: È il fenomeno in cui il flusso magnetico collegato a un circuito varia a causa della variazione dell'intensità della corrente che scorre nello stesso circuito.
 
-Operativamente, il trasformatore accoglie energia elettrica con una tensione V1 e una corrente I1 nel circuito primario, restituendola al circuito secondario con una tensione V2 e una corrente I2, conformemente alla relazione fondamentale tra tensione e numero di spire. Nella sua configurazione più essenziale, esso è costituito da due solenoidi elettricamente isolati tra loro, ma avvolti su un comune nucleo magnetico.
+/ Corrente alternata: Si tratta di una corrente elettrica con intensità e direzione variabili nel tempo. L'andamento dell'intensità segue una forma sinusoidale.
 
-Il funzionamento del trasformatore si basa sulla corrente alternata applicata al circuito primario, che genera un campo magnetico variabile alla medesima frequenza del segnale elettrico primario. Tale campo magnetico, confinato nel nucleo magnetico, coinvolge il circuito secondario inducendo una forza elettromotrice (f.e.m.) con la stessa frequenza del circuito primario.
+/ Equazioni di Maxwell: Sono le equazioni che descrivono il comportamento del campo elettromagnetico, generato dall'interazione reciproca tra campi elettrici e magnetici variabili. Le equazioni di Maxwell prevedono l'esistenza di onde elettromagnetiche che si propagano nel vuoto alla velocità della luce.
 
-Una relazione cruciale per il trasformatore è quella tra il numero di spire del primario (N1) e quello del secondario (N2), definita rapporto di spire: 
+/ Flusso del campo magnetico: Attraverso una superficie, rappresenta il prodotto tra la componente del campo magnetico perpendicolare a quella superficie e l'area della superficie stessa. L'unità di misura del flusso magnetico è il weber (Wb), dove 1 Wb equivale a 1 tesla moltiplicato per 1 metro quadrato (1 T·1 m#sub[2]).
 
-Variando opportunamente questo rapporto è possibile regolare la tensione del circuito secondario. Se N1 risulta inferiore a N2, il trasformatore viene denominato elevatore di tensione, aumentando il livello della tensione in uscita. Viceversa, nel caso in cui N1 sia maggiore di N2, il trasformatore viene classificato come abbassatore di tensione (o riduttore), producendo una minore tensione in uscita. Nei transformatori abbassatori, schematicamente il numero di spire del primario eccede rispetto a quello del secondario.
+/ Generatore elettrico: Dispositivo capace di trasformare energia meccanica in energia elettrica. Se l'energia prodotta è in forma di corrente alternata, il generatore prende il nome di alternatore.
 
-== Appr. Le equazioni di Maxwell in forma differenziale (o locale)
-
-Riguardo alla trattazione teorico-matematica delle equazioni di Maxwell in forma differenziale, essa richiede una solida conoscenza dei principi dell'analisi matematica. Concetti fondamentali includono le derivate parziali, la divergenza (div) e il rotore (rot) di un campo vettoriale. In tale contesto, i campi elettrico e magnetico sono descritti mediante i vettori E (campo elettrico) e B (campo magnetico). 
-
-La quarta equazione introduce le grandezze J, corrispondente alla densità di corrente, e ρ, relativa alla densità di carica elettrica; c rappresenta invece la velocità della luce nel vuoto. La mancanza di simmetria nelle equazioni di Maxwell tra i campi elettrici e magnetici è direttamente imputabile alla presenza di cariche elettriche e correnti conduttive. Tuttavia, in condizioni di vuoto ideale, dove J e ρ risultano nulli, tali equazioni assumono una forma simmetrica rispetto ai due campi.
-
-
-
-
+/ Induzione elettromagnetica: Fenomeno attraverso il quale, in un circuito elettrico legato a un flusso magnetico variabile, si genera una forza elettromotrice (f.e.m.), detta f.e.m. indotta, proporzionale alla variazione del flusso nel tempo. Nel circuito si genera una corrente elettrica, chiamata corrente indotta, che ha una direzione tale da opporsi alla causa che l'ha originata.
 
 
 

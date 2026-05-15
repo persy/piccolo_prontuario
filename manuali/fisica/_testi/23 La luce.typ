@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La luce costituisce solo una piccola parte dello spettro elettromagnetico, ma per molti aspetti può essere considerata la più rilevante.  
 
@@ -8,6 +8,11 @@ Assieme al suono, rappresenta per l'essere umano uno dei principali canali di sc
 Le proprietà della luce sono quelle tipiche di un'onda, e le sue interazioni con la materia generano fenomeni quali riflessione, rifrazione, diffrazione e interferenza. La riflessione e la rifrazione su superfici progettate ad hoc, come specchi e lenti, trovano applicazioni fondamentali alla base di tutti gli strumenti ottici. Il ramo della fisica classica che si occupa di studiare la luce, le sue caratteristiche e le sue interazioni con la materia prende il nome di ottica.]
 
 == Caratteristiche della luce
+#note(bottom)[== *🧩* La misura della velocità della luce <senza_numero>
+
+La misurazione moderna della velocità della luce fu eseguita per la prima volta dall'astronomo danese Ole Roemer nel 1675. Successivamente si ricorse a tecniche non astronomiche: nel 1849 il fisico francese Hippolyte Fizeau effettuò un rilevamento con un margine d'errore del 15% rispetto al valore oggi accettato. Nel XIX secolo fu anche calcolata la velocità della luce in acqua, che risultò inferiore rispetto a quella nel vuoto (o nell'aria), come previsto dalla teoria ondulatoria. Questo risultato contraddisse il modello corpuscolare proposto da Newton, secondo il quale la luce avrebbe dovuto viaggiare più velocemente nei materiali densi come l'acqua o il vetro.
+
+Un esperimento di fondamentale importanza fu condotto da Michelson e Morley nel 1887: essi dimostrarono che la velocità della luce è indipendente dal sistema di riferimento utilizzato durante la misurazione. Questo risultato trovò una spiegazione nella teoria della relatività speciale formulata successivamente da Einstein.]
 
 La luce è il fenomeno che rende possibile la percezione visiva degli oggetti. L'interesse scientifico per la luce e i meccanismi della visione risale a tempi antichissimi, ma solo a partire dalla fine del XVII secolo iniziarono a emergere modelli basati su approcci scientifici nel tentativo di interpretare la sua natura, dando origine alla moderna disciplina dell'ottica.  
 
@@ -28,7 +33,13 @@ Per analizzare i fenomeni di riflessione e rifrazione, che si verificano quando 
 Al contrario, l'ottica ondulatoria, che include anche la trattazione della luce come fenomeno elettromagnetico, considera la propagazione della luce sotto forma di onde trasversali. In questo contesto, il raggio luminoso è definito come la traiettoria perpendicolare alla direzione dell'onda.
 
 L'ottica geometrica può essere considerata un'approssimazione dell'ottica ondulatoria ed è particolarmente utile per spiegare fenomeni luminosi in cui le dimensioni degli elementi che interagiscono con la luce sono molto maggiori della sua lunghezza d'onda, come nel caso di lenti e specchi.
+#note(bottom)[== *🧩* I colori degli oggetti <senza_numero>
 
+Il colore percepito di un corpo illuminato dipende dal modo in cui esso interagisce con la luce bianca incidente: parte di questa viene assorbita dalla superficie dell'oggetto e parte riflessa. Il colore visibile corrisponde alla componente riflessa o alla combinazione di più componenti.
+
+Ad esempio, se si illumina un uovo con luce solare, il tuorlo appare rosso perché riflette prevalentemente il rosso, mentre l'albume appare bianco poiché riflette tutte le componenti della luce bianca. Al contrario, se si utilizza una luce rossa per illuminare l'uovo, non sarà più possibile distinguere il tuorlo dall'albume, poiché entrambi rifletterebbero esclusivamente la luce rossa incidente.
+
+Un oggetto appare nero quando assorbe tutta la luce incidente e non ne riflette alcuna componente.]
 === Le unità di misura della luce
 
 La radiazione luminosa si caratterizza attraverso diversi parametri, tra cui frequenza (Hz), lunghezza d'onda (m), energia (J) e potenza (W, dove 1 W = 1 J/s). Sperimentazioni mostrano che la luce viene emessa dai corpi caldi portati a temperature elevate, chiamati sorgenti luminose o corpi luminosi. Al contrario, percepiamo i corpi illuminati, che riflettono la luce emessa da questi ultimi.
@@ -45,34 +56,41 @@ La riflessione e la rifrazione della luce possono essere efficacemente spiegate 
 
 Quando un raggio luminoso, proveniente da un mezzo trasparente come l'aria, incontra una superficie di separazione con un altro mezzo trasparente, ad esempio l'acqua, si divide normalmente in due raggi: uno viene riflesso dalla superficie, mentre l'altro penetra nel secondo mezzo variando la sua direzione di propagazione, subendo quindi il fenomeno della rifrazione.
 
-Nel caso in cui la superficie incontrata sia perfettamente riflettente, non si verifica rifrazione; la luce è interamente riflessa, seguendo le leggi della riflessione tipiche delle onde. Queste leggi stabiliscono che l'angolo di incidenza (i) è uguale all'angolo di riflessione (r), e che entrambi gli angoli giacciono su un piano perpendicolare alla superficie riflettente. La rifrazione, invece, è la deviazione del percorso di un raggio di luce nel passaggio tra due mezzi trasparenti, causata dalla differenza di velocità di propagazione della luce tra i due mezzi.
+Nel caso in cui la superficie incontrata sia perfettamente riflettente, non si verifica rifrazione; la luce è interamente riflessa, seguendo le leggi della riflessione tipiche delle onde. Queste leggi stabiliscono che l'angolo di incidenza (_i_) è uguale all'angolo di riflessione (_r_), e che entrambi gli angoli giacciono su un piano perpendicolare alla superficie riflettente. La rifrazione, invece, è la deviazione del percorso di un raggio di luce nel passaggio tra due mezzi trasparenti, causata dalla differenza di velocità di propagazione della luce tra i due mezzi.
 
-Se il primo mezzo è meno denso del secondo (come l'aria rispetto all'acqua), il raggio luminoso si avvicina alla normale della superficie di separazione. Al contrario, se il primo mezzo è più denso del secondo (come l'acqua rispetto all'aria), il raggio si allontana dalla normale. Questo fenomeno spiega perché un bastoncino immerso nell'acqua appare spezzato. L'indice di rifrazione assoluto di una sostanza, indicato con "n", è definito come il rapporto tra la velocità della luce nel vuoto e la velocità della luce nella sostanza stessa. La legge della rifrazione stabilisce che gli angoli di incidenza e di rifrazione giacciono sul medesimo piano e sono correlati dalla relazione: n1 sen(i) = n2 sen(r), dove n1 e n2 rappresentano gli indici di rifrazione assoluti dei due mezzi.
+Se il primo mezzo è meno denso del secondo (come l'aria rispetto all'acqua), il raggio luminoso si avvicina alla normale della superficie di separazione. Al contrario, se il primo mezzo è più denso del secondo (come l'acqua rispetto all'aria), il raggio si allontana dalla normale. Questo fenomeno spiega perché un bastoncino immerso nell'acqua appare spezzato. L'indice di rifrazione assoluto di una sostanza, indicato con _n_, è definito come il rapporto tra la velocità della luce nel vuoto e la velocità della luce nella sostanza stessa. La legge della rifrazione stabilisce che gli angoli di incidenza e di rifrazione giacciono sul medesimo piano e sono correlati dalla relazione: 
+
+$ 
+  n_1 sin i = n_2 sin r
+$
+
+dove n#sub[1] e n#sub[2] rappresentano gli indici di rifrazione assoluti dei due mezzi.
 
 === Riflessione su uno specchio piano
 
 Quando una sorgente luminosa o un oggetto illuminato viene posizionato davanti a una superficie riflettente, detta specchio, sembra che la luce provenga da un punto situato all'interno dello specchio. In realtà, ciò che si vede nello specchio è un'immagine dell'oggetto, generata dalla riflessione della luce emessa da esso. Un specchio piano è una superficie riflettente piatta.
 
-Supponiamo di osservare una sorgente luminosa puntiforme S posta davanti a uno specchio piano; i raggi luminosi emessi dalla sorgente vengono riflessi dallo specchio seguendo le leggi della riflessione, dove l'angolo di incidenza è uguale all'angolo di riflessione. Prolungando idealmente i raggi riflessi oltre lo specchio, si osserva che questi convergono in un punto, S', simmetrico rispetto a S. S' appare come il punto da cui provengono i raggi luminosi che raggiungono il nostro occhio. Tuttavia, S' è un'immagine virtuale, in quanto non esiste una sorgente reale in quel punto; esso rappresenta semplicemente il luogo in cui convergono i prolungamenti dei raggi originati dall'oggetto reale.
+Supponiamo di osservare una sorgente luminosa puntiforme _S_ posta davanti a uno specchio piano; i raggi luminosi emessi dalla sorgente vengono riflessi dallo specchio seguendo le leggi della riflessione, dove l'angolo di incidenza è uguale all'angolo di riflessione. Prolungando idealmente i raggi riflessi oltre lo specchio, si osserva che questi convergono in un punto, _S'_, simmetrico rispetto a _S_. _S'_ appare come il punto da cui provengono i raggi luminosi che raggiungono il nostro occhio. Tuttavia, _S'_ è un'immagine virtuale, in quanto non esiste una sorgente reale in quel punto; esso rappresenta semplicemente il luogo in cui convergono i prolungamenti dei raggi originati dall'oggetto reale.
 
-Utilizzando la legge della riflessione su ogni singolo punto di un oggetto non puntiforme, è possibile costruirne l'immagine virtuale con le seguenti caratteristiche: ha le stesse dimensioni dell'oggetto reale; si trova alla stessa distanza dallo specchio rispetto all'oggetto reale; è perfettamente simmetrica rispetto all'oggetto reale. Ad esempio, l'immagine della mano destra riflessa da uno specchio piano corrisponderà alla mano sinistra e viceversa.
-
-Allo stesso modo, una parola riflessa in uno specchio piano appare simmetrica, invertita da destra verso sinistra anziché da sinistra verso destra.
+Utilizzando la legge della riflessione su ogni singolo punto di un oggetto non puntiforme, è possibile costruirne l'immagine virtuale con le seguenti caratteristiche: 
+  - ha le stesse dimensioni dell'oggetto reale;
+  - si trova alla stessa distanza dallo specchio rispetto all'oggetto reale; 
+  - è perfettamente simmetrica rispetto all'oggetto reale. 
+Ad esempio, l'immagine della mano destra riflessa da uno specchio piano corrisponderà alla mano sinistra e viceversa. Allo stesso modo, una parola riflessa in uno specchio piano appare simmetrica, invertita da destra verso sinistra anziché da sinistra verso destra.
 
 === Riflessione su specchi sferici
 
 Gli specchi sferici sono superfici riflettenti caratterizzate dalla forma di calotte sferiche, che si distinguono in concavi e convessi. La classificazione dipende dalla posizione della superficie riflettente: uno specchio è concavo quando la riflessione si verifica sulla parte interna della calotta sferica, mentre è convesso quando la riflessione avviene sulla parte esterna. In uno specchio sferico si individuano diversi elementi fondamentali: 
-
-- **Vertice (V)**: il punto centrale della calotta sferica.
-- **Centro (C)**: il centro geometrico della sfera ideale cui appartiene la calotta.
-- **Asse ottico (CV)**: la linea immaginaria che attraversa il vertice e il centro della sfera.
-- **Fuoco (F)**: il punto in cui convergono i raggi riflessi originati da raggi incidenti paralleli all'asse ottico; il fuoco si trova a una distanza pari alla metà del segmento CV, ovvero al raggio di curvatura dello specchio.
+- vertice (_V_): il punto centrale della calotta sferica.
+- centro (_C_): il centro geometrico della sfera ideale cui appartiene la calotta.
+- asse ottico (_CV_): la linea immaginaria che attraversa il vertice e il centro della sfera.
+- fuoco (_F_): il punto in cui convergono i raggi riflessi originati da raggi incidenti paralleli all'asse ottico; il fuoco si trova a una distanza pari alla metà del segmento _CV_, ovvero al raggio di curvatura dello specchio.
 
 La formazione delle immagini in uno specchio sferico segue precise regole ottiche. I raggi paralleli all'asse ottico vengono riflessi passando per il fuoco, mentre i raggi che attraversano il fuoco vengono riflessi parallelamente all'asse ottico. Per quanto riguarda uno specchio concavo, l'immagine prodotta può essere reale o virtuale, ingrandita o rimpicciolita, capovolta o diritta, a seconda della posizione dell'oggetto rispetto ai punti caratteristici dello specchio:
 
-- Se l'oggetto è situato tra il centro C e l'infinito, l'immagine risultante sarà reale, capovolta e rimpicciolita.
-- Se l'oggetto è collocato tra C e F, l'immagine sarà reale, capovolta e ingrandita.
-- Se l'oggetto è posizionato a una distanza inferiore a quella del fuoco F, l'immagine sarà virtuale, diritta e ingrandita.
+- Se l'oggetto è situato tra il centro _C_ e l'infinito, l'immagine risultante sarà reale, capovolta e rimpicciolita.
+- Se l'oggetto è collocato tra _C_ e _F_, l'immagine sarà reale, capovolta e ingrandita.
+- Se l'oggetto è posizionato a una distanza inferiore a quella del fuoco _F_, l'immagine sarà virtuale, diritta e ingrandita.
 
 Nel caso di specchi concavi di dimensioni significative, emerge un fenomeno noto come aberrazione sferica. In tale contesto, i raggi riflessi dai raggi incidenti paralleli all'asse ottico ma lontani dall'asse non convergono esattamente sul fuoco, bensì su punti vicini ad esso. Di conseguenza, l'immagine di una sorgente puntiforme appare come un disco anziché un punto. Per evitare questo problema negli strumenti ottici avanzati, come i telescopi astronomici, vengono utilizzati specchi parabolici, ellittici o iperbolici, progettati per eliminare le aberrazioni sferiche e assicurare una precisa convergenza della luce al fuoco.
 
@@ -80,7 +98,7 @@ Negli specchi convessi, invece, le immagini, costruite mediante il prolungamento
 
 === La riflessione totale
 
-Il fenomeno della **riflessione totale** si verifica quando un raggio luminoso passa da un mezzo più denso a uno meno denso, come dal vetro all'aria, con un angolo di incidenza superiore a un valore determinato detto angolo limite. In questa situazione, il raggio luminoso non subisce rifrazione ma viene completamente riflesso all'interno del primo mezzo. Nel caso in cui il raggio incidente abbia un angolo pari precisamente all'angolo limite, il raggio rifratto risulta parallelo alla superficie di separazione, formando un angolo di 90°. L'angolo limite per il vetro corrisponde approssimativamente a 42°.
+Il fenomeno della riflessione totale si verifica quando un raggio luminoso passa da un mezzo più denso a uno meno denso, come dal vetro all'aria, con un angolo di incidenza superiore a un valore determinato detto angolo limite. In questa situazione, il raggio luminoso non subisce rifrazione ma viene completamente riflesso all'interno del primo mezzo. Nel caso in cui il raggio incidente abbia un angolo pari precisamente all'angolo limite, il raggio rifratto risulta parallelo alla superficie di separazione, formando un angolo di 90°. L'angolo limite per il vetro corrisponde approssimativamente a 42°.
 
 Il principio della riflessione totale permette applicazioni pratiche quali l'utilizzo di prismi geometricamente progettati con angoli di 45°-45°-90°, al fine di ottenere una riflessione totale della luce senza adottare specchi tradizionali. Questa tecnica trova impiego nell'ambito di strumenti ottici come i periscopi. Inoltre, la riflessione totale costituisce il principio operativo delle fibre ottiche. Questi sottili filamenti di vetro fungono da guide d'onda luminose e sono impiegati nella trasmissione di informazioni su lunghe distanze mediante segnali luminosi codificati.
 
@@ -105,14 +123,20 @@ Mentre negli specchi le immagini vengono formate attraverso le leggi della rifle
 Le lenti convergenti presentano uno spessore maggiore al centro rispetto ai bordi e fanno convergere i raggi luminosi in un punto. Al contrario, le lenti divergenti sono più spesse ai bordi che al centro e causano la dispersione dei raggi mediante rifrazione.
 
 I principali elementi che caratterizzano una lente sono:
-- L'asse ottico: una linea che attraversa il centro della sfera dalla quale la lente è ricavata.
-- I vertici V e V': i punti in cui l'asse ottico interseca le superfici della lente.
-- Il centro ottico O: il punto centrale della lente attraverso il quale i raggi luminosi non subiscono deviazioni.
-- I fuochi F e F': due punti per ogni lente, nei quali si concentrano i fasci di luce per le lenti convergenti, oppure i loro prolungamenti nel caso delle lenti divergenti.
+- l'asse ottico: una linea che attraversa il centro della sfera dalla quale la lente è ricavata.
+- i vertici _V_ e _V'_: i punti in cui l'asse ottico interseca le superfici della lente.
+- il centro ottico _O_: il punto centrale della lente attraverso il quale i raggi luminosi non subiscono deviazioni.
+- i fuochi _F_ e _F'_: due punti per ogni lente, nei quali si concentrano i fasci di luce per le lenti convergenti, oppure i loro prolungamenti nel caso delle lenti divergenti.
 
-La distanza tra ciascun fuoco viene definita distanza focale (f). L'inverso di tale distanza prende il nome di potere diottrico e si esprime in diottrie. Ad esempio, se la distanza focale è pari a 0,8 metri, il potere diottrico della lente sarà 1,25 diottrie. 
+La distanza tra ciascun fuoco viene definita distanza focale (_f_). L'inverso di tale distanza prende il nome di potere diottrico e si esprime in diottrie. Ad esempio, se la distanza focale è pari a 0,8 metri, il potere diottrico della lente sarà 1,25 diottrie. 
 
-La relazione che permette di calcolare la distanza q alla quale si forma l'immagine di un oggetto si basa sulla formula delle lenti sottili: considerando f come la distanza focale e p come la distanza dell'oggetto dal centro della lente. Per le lenti divergenti, la distanza focale assume un valore negativo.
+La relazione che permette di calcolare la distanza _q_ alla quale si forma l'immagine di un oggetto si basa sulla formula delle lenti sottili: 
+
+$ 
+  (space 1 space)/p + (space 1 space)/q = (space 1 space)/f
+$
+
+considerando _f_ come la distanza focale e _p_ come la distanza dell'oggetto dal centro della lente. Per le lenti divergenti, la distanza focale assume un valore negativo.
 
 Nel contesto dello studio delle lenti si adotta spesso l'approssimazione delle lenti sottili, assumendo che lo spessore della lente sia trascurabile rispetto al raggio di curvatura delle sue superfici. Questa condizione semplifica l'analisi e permette di considerare i fuochi come punti precisi.
 
@@ -124,7 +148,7 @@ In particolare, è possibile distinguere due tipologie di raggi luminosi derivan
 
 Collocando una sorgente luminosa davanti a una lente convergente e osservando l'immagine proiettata su uno schermo posto oltre la lente, tale immagine può risultare reale o virtuale, diritta o capovolta, ingrandita o ridotta, in funzione della posizione dell'oggetto rispetto ai punti focali della lente.
 
-Qualora l'oggetto si trovi a una distanza dalla lente maggiore del doppio della lunghezza focale \( f \), l'immagine formata sarà reale, capovolta e ridotta. Invece, se l'oggetto è collocato a una distanza dalla lente compresa fra la lunghezza focale e il suo doppio, l'immagine risulterà reale, capovolta e ingrandita. Infine, quando l'oggetto si posiziona tra la lente e il suo fuoco, si genera un'immagine virtuale, diritta e ingrandita.
+Qualora l'oggetto si trovi a una distanza dalla lente maggiore del doppio della lunghezza focale _f_, l'immagine formata sarà reale, capovolta e ridotta. Invece, se l'oggetto è collocato a una distanza dalla lente compresa fra la lunghezza focale e il suo doppio, l'immagine risulterà reale, capovolta e ingrandita. Infine, quando l'oggetto si posiziona tra la lente e il suo fuoco, si genera un'immagine virtuale, diritta e ingrandita.
 
 Per quanto concerne le lenti divergenti, esse producono esclusivamente immagini virtuali e diritte indipendentemente dalla distanza dell'oggetto dalla lente. Ciò è dovuto al fatto che l'immagine si ottiene prolungando i raggi rifratti all'indietro.
 
@@ -152,7 +176,11 @@ Nei principali difetti refrattivi, quali miopia e ipermetropia, la focalizzazion
 
 Gli strumenti ottici sono dispositivi progettati per manipolare la luce attraverso una combinazione di lenti, con lo scopo di ingrandire o rimpicciolire l'immagine di un oggetto che sarebbe altrimenti difficile da osservare a occhio nudo. Tra questi strumenti rientrano gli occhiali, che migliorano la nitidezza visiva degli oggetti; il cannocchiale, utilizzato per l'osservazione di soggetti distanti; e il microscopio, dedicato all'analisi di elementi microscopici.
 
-I cannocchiali si distinguono in due categorie principali: l'astronomico e il terrestre. Nel caso del cannocchiale astronomico, lo scopo principale non risiede nell'ingrandimento degli oggetti celesti, che risultano comunque puntiformi date le enormi distanze, bensì nella raccolta di una quantità maggiore di luce e nell'ampliamento dell'angolo visivo. Un cannocchiale astronomico elementare è costituito da un tubo dotato di due lenti convergenti: l'obiettivo, che proietta un'immagine capovolta e ridotta dell'oggetto, e l'oculare, che consente all'osservatore di visualizzarla ingrandita. Quando il soggetto in esame è estremamente distante, i raggi luminosi possono essere considerati paralleli; l'obiettivo forma pertanto l'immagine nel piano focale, mentre l'oculare ne restituisce una versione ingrandita.
+I cannocchiali si distinguono in due categorie principali: l'astronomico e il terrestre. Nel caso del cannocchiale astronomico, lo scopo principale non risiede nell'ingrandimento degli oggetti celesti, che risultano comunque puntiformi date le enormi distanze, bensì nella raccolta di una quantità maggiore di luce e nell'ampliamento dell'angolo visivo. Un cannocchiale astronomico elementare è costituito da un tubo dotato di due lenti convergenti: 
+  - l'obiettivo, che proietta un'immagine capovolta e ridotta dell'oggetto;
+  - l'oculare, che consente all'osservatore di visualizzarla ingrandita. 
+
+Quando il soggetto in esame è estremamente distante, i raggi luminosi possono essere considerati paralleli; l'obiettivo forma pertanto l'immagine nel piano focale, mentre l'oculare ne restituisce una versione ingrandita.
 
 Tuttavia, uno svantaggio del cannocchiale astronomico consiste nel fatto che le immagini risultano rovesciate. Questo aspetto può non rappresentare un problema nell'osservazione astronomica ma diventa rilevante per applicazioni terrestri. Per correggere questa caratteristica nei cannocchiali terrestri si fa ricorso a sistemi di prismi o lenti aggiuntive che raddrizzano l'immagine.
 
@@ -166,7 +194,7 @@ Un microscopio ottico tradizionale è in grado di ottenere ingrandimenti dell'or
 
 I fenomeni di diffrazione e interferenza della luce possono essere spiegati solo considerando che essa si propaghi sotto forma di onde, secondo i principi dell'ottica ondulatoria. La diffrazione si verifica quando un'onda incontra un ostacolo di dimensioni comparabili alla sua lunghezza d'onda, invadendo parzialmente la zona che sarebbe teoricamente "in ombra".
 
-Un esempio pratico del fenomeno è fornito dalle onde sonore: si può sentire una voce anche se chi parla si trova oltre una porta, poiché l'onda sonora aggira in parte l'ostacolo. Per quanto riguarda la luce, invece, la diffrazione avviene solo se l'ostacolo ha dimensioni estremamente ridotte, comparabili alla lunghezza d'onda della luce (circa 10⁻⁷ metri), così piccole da essere invisibili all'occhio umano.
+Un esempio pratico del fenomeno è fornito dalle onde sonore: si può sentire una voce anche se chi parla si trova oltre una porta, poiché l'onda sonora aggira in parte l'ostacolo. Per quanto riguarda la luce, invece, la diffrazione avviene solo se l'ostacolo ha dimensioni estremamente ridotte, comparabili alla lunghezza d'onda della luce (circa 10#super[-7] metri), così piccole da essere invisibili all'occhio umano.
 
 Gli effetti della diffrazione sono difficili da osservare nella vita quotidiana perché la lunghezza d'onda della luce risulta molto inferiore rispetto alle dimensioni degli oggetti comuni. Di conseguenza, quando la luce incontra un ostacolo, tende a formare dietro di esso un'ombra dai contorni netti.
 
@@ -192,23 +220,41 @@ In un cosmo in espansione, il redshift fornisce informazioni sia sulla distanza 
 
 Questo fenomeno potrebbe far pensare che la Terra sia al centro dell'universo. Tuttavia, se si immagina l'universo come una superficie sferica in espansione, simile a un palloncino che viene gonfiato, è evidente che tutti i punti della superficie si allontanano reciprocamente. Se l'universo è in espansione continua, ne consegue che nel passato fosse più piccolo rispetto a oggi e, in principio, si trovasse in uno stato di dimensione estremamente compressa, con una densità di materia molto elevata. Queste osservazioni sono alla base della teoria del Big Bang, secondo cui l'universo ha avuto origine da un'enorme esplosione di questa massa compressa.
 
-== Appr. La misura della velocità della luce
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
-La misurazione moderna della velocità della luce fu eseguita per la prima volta dall'astronomo danese Ole Roemer nel 1675. Successivamente si ricorse a tecniche non astronomiche: nel 1849 il fisico francese Hippolyte Fizeau effettuò un rilevamento con un margine d'errore del 15% rispetto al valore oggi accettato. Nel XIX secolo fu anche calcolata la velocità della luce in acqua, che risultò inferiore rispetto a quella nel vuoto (o nell'aria), come previsto dalla teoria ondulatoria. Questo risultato contraddisse il modello corpuscolare proposto da Newton, secondo il quale la luce avrebbe dovuto viaggiare più velocemente nei materiali densi come l'acqua o il vetro.
+/ Aberrazione cromatica: Questo fenomeno si manifesta quando la luce bianca, attraversando una lente, si scompone nei suoi diversi colori, generando un'immagine circondata da un alone colorato a causa della variazione della rifrazione tra le diverse lunghezze d'onda.
 
-Un esperimento di fondamentale importanza fu condotto da Michelson e Morley nel 1887: essi dimostrarono che la velocità della luce è indipendente dal sistema di riferimento utilizzato durante la misurazione. Questo risultato trovò una spiegazione nella teoria della relatività speciale formulata successivamente da Einstein.
+/ Aberrazione sferica: Si tratta di un fenomeno tipico degli specchi sferici concavi con ampie superfici riflettenti. In tali casi, i raggi paralleli all'asse ottico che incidono a una maggiore distanza dall'asse stesso non convergono esattamente nel fuoco ma in un punto ad esso prossimo. Come conseguenza, l'immagine di una sorgente puntiforme appare come un disco anziché un punto.
 
-== Appr. I colori degli oggetti
+/ Cannocchiale: Il cannocchiale è uno strumento ottico progettato per osservare oggetti posti a grande distanza. Un modello astronomico è costituito da un tubo contenente due lenti convergenti, che producono un'immagine ingrandita ma invertita dell'oggetto osservato. Viceversa, un cannocchiale terrestre include prismi situati tra le lenti, per raddrizzare l’immagine.
 
-Il colore percepito di un corpo illuminato dipende dal modo in cui esso interagisce con la luce bianca incidente: parte di questa viene assorbita dalla superficie dell'oggetto e parte riflessa. Il colore visibile corrisponde alla componente riflessa o alla combinazione di più componenti.
+/ Colore: Ciascun colore corrisponde a un intervallo di lunghezza d'onda nell'ambito della radiazione visibile.
 
-Ad esempio, se si illumina un uovo con luce solare, il tuorlo appare rosso perché riflette prevalentemente il rosso, mentre l'albume appare bianco poiché riflette tutte le componenti della luce bianca. Al contrario, se si utilizza una luce rossa per illuminare l'uovo, non sarà più possibile distinguere il tuorlo dall'albume, poiché entrambi rifletterebbero esclusivamente la luce rossa incidente.
+/ Corpo luminoso: Rappresenta una sorgente di luce che emette energia luminosa. Un corpo illuminato, invece, risulta visibile in quanto riflette e diffonde in tutte le direzioni la luce proveniente da un corpo luminoso.
 
-Un oggetto appare nero quando assorbe tutta la luce incidente e non ne riflette alcuna componente.
+/ Immagine virtuale: Un'immagine virtuale è una rappresentazione ottica di un oggetto ottenuta attraverso il prolungamento dei raggi riflessi da uno specchio o rifratti da una lente. Essa appare come una sorgente da cui si originano i raggi luminosi.
 
+/ Intensità di illuminazione: Definita come l'energia luminosa che colpisce una determinata unità di superficie nell’unità di tempo. Si misura in lux (lx), dove un lux equivale all’illuminazione prodotta da una sorgente luminosa con intensità pari a una candela, diretta perpendicolarmente su una superficie posta a un metro di distanza.
 
+/ Intensità luminosa: Indica la quantità di energia luminosa emessa da una sorgente per unità di tempo in tutte le direzioni. La sua unità di misura è la candela (cd), che rappresenta l’intensità luminosa emessa da una speciale lampada campione registrata presso l’Archivio Pesi e Misure. Tale unità è definita come 1/60 dell'intensità luminosa emessa da un centimetro quadrato di platino portato alla temperatura di fusione in condizioni standard.
 
+/ Ipermetropia: Anomalia visiva in cui l'immagine degli oggetti si forma dietro la retina. Questo difetto può essere corretto mediante l’impiego di lenti sferiche convergenti.
 
+/ Lente: Una lente è un sistema ottico costituito generalmente da superfici curve, per lo più sferiche, realizzate con materiali trasparenti alla luce. Il suo scopo è formare immagini reali o virtuali di oggetti. Le lenti si classificano in convergenti o divergenti in base alla configurazione delle loro superfici.
 
+/ Microscopio: Il microscopio è uno strumento ottico impiegato per ingrandire oggetti microscopici. Viene progettato con due lenti convergenti coassiali che consentono un'elevata capacità di osservazione.
 
+/ Miopia: Difetto visivo causato dalla formazione dell’immagine davanti alla retina. Può essere corretto con l'impiego di lenti sferiche divergenti.
+
+/ Occhio: L’occhio è l’organo responsabile della funzione visiva, con una struttura quasi sferica. Tra i componenti più rilevanti dal punto di vista funzionale si trovano la retina, che cattura e mette a fuoco le immagini, e il cristallino, che agisce come lente regolatrice.
+
+/ Ottica: È il ramo della fisica che studia i fenomeni relativi all’emissione, propagazione e rilevazione della luce. Si suddivide in due principali discipline: l’ottica geometrica e l’ottica ondulatoria, quest’ultima comprendendo anche gli aspetti dell'ottica elettromagnetica.
+
+/ Prisma: Un prisma è un poliedro trasparente, solitamente realizzato in vetro, capace di produrre il fenomeno della scomposizione della luce bianca nello spettro dei colori fondamentali.
+
+/ Riflessione totale: È un fenomeno che si verifica quando un raggio luminoso passa da un mezzo ottico più denso a uno meno denso. Se l'angolo di incidenza sulla superficie di separazione tra i due mezzi supera un valore specifico, chiamato angolo limite, il raggio viene completamente riflesso e non si verifica alcuna rifrazione.
+
+/ Specchio: È una superficie che riflette in modo ottimale i raggi luminosi. Gli specchi possono avere una forma piatta o sferica. Nel caso degli specchi sferici, essi possono essere classificati come concavi o convessi a seconda che la luce colpisca il lato interno (concavo) o il lato esterno (convesso) della superficie curva.
 

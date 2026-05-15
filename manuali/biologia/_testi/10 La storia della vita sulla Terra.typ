@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La comparsa delle prime forme di vita fu preceduta, secondo le ipotesi più accreditate, da un periodo noto come evoluzione prebiotica. Durante questa fase si formarono le molecole organiche essenziali per costruire il materiale cellulare. Dagli organismi procarioti primordiali, considerati le forme di vita ancestrali, si svilupparono nel mare organismi con cellule eucariotiche. Tra questi, si trovano alghe vegetali capaci di fotosintesi e invertebrati marini, antenati delle piante e degli animali. Grazie alla crescente presenza di ossigeno nell'atmosfera terrestre, alcuni di questi organismi riuscirono a colonizzare la terraferma.
 
@@ -27,11 +27,10 @@ Circa 1,6 miliardi di anni fa, secondo alcune teorie, l'origine delle cellule eu
 
 Anche flagelli e altri organuli cellulari potrebbero essere stati acquisiti tramite simbiosi analoghe. In merito alla membrana nucleare, si ipotizza che essa si formò attraverso il ripiegamento interno della membrana cellulare, creando una struttura chiusa.
 
-#wideblock[
 #figure(
   caption: [La storia della vita sulla Terra],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -66,7 +65,6 @@ uccelli; angiosperme],
     [], [], [Olocene], [0,01-oggi], 
 )  
 )
-]
 
 == L'evoluzione nel mare
 
@@ -77,6 +75,16 @@ I primi organismi pluricellulari non possedevano parti dure adatte alla fossiliz
 Un cambiamento nelle caratteristiche chimiche del mare si verificò circa 590 milioni di anni fa: l'acqua divenne ricca di silice e sali minerali come calcio e fosforo. Questo favorì l'emergere di strutture mineralizzate, come gusci e conchiglie, che avevano una maggiore probabilità di conservazione fossile. Da questo periodo i resti fossili si fanno più frequenti, indicativi della presenza di organismi marini con forme varie, tra cui trilobiti, ammoniti e altri difficili da classificare.
 
 Circa 500 milioni di anni fa apparvero gli ostracodermi, i primi animali dotati di un endoscheletro, ovvero una struttura interna di sostegno. Gli ostracodermi erano privi di mascelle e arti ed erano rivestiti da una corazza ossea che lasciava libera solo la coda. Da queste forme primitive si svilupparono successivamente i pesci.
+
+#note(bottom)[== *🧩* L'evoluzione prebiotica riprodotta in laboratorio <senza_numero>
+
+Negli anni \'20 del Novecento, il biochimico russo Aleksandr Oparin (1894-1980) e il biologo inglese John Burdon Sanderson Haldane (1892-1964) elaborarono un'ipotesi secondo cui, in un'atmosfera riducente, comuni reazioni chimiche sarebbero in grado di generare molecole organiche partendo da molecole inorganiche. 
+
+Circa trent'anni più tardi, nel 1953, lo scienziato americano Stanley Miller (nato nel 1930) mise alla prova questa ipotesi con un esperimento. Miller creò un sistema in cui i gas tipici dell'atmosfera primitiva venivano esposti a scariche elettriche in assenza di ossigeno e osservò la formazione di molecole organiche, inclusi alcuni amminoacidi.
+
+Sempre negli anni \'50, lo scienziato americano Sidney Fox riuscì a ottenere microsfere tramite un processo che prevedeva il riscaldamento di amminoacidi in ambiente privo di ossigeno. Da questa operazione si originarono spontaneamente polipeptidi, che Fox definì protenoidi. Questi, una volta immersi in acqua, formavano una sorta di doppio strato attorno a una piccola vescicola, dando vita alle microsfere. Secondo teorie successive, un ruolo cruciale nell'aggregazione delle semplici molecole organiche in polimeri sarebbe stato svolto da minerali argillosi dotati di attività catalitica.
+
+Parallelamente, alcuni ricercatori hanno avanzato l'ipotesi della panspermia, che suggerisce come la vita possa essere arrivata sulla Terra dall'esterno, ossia dallo spazio.]
 
 == Il passaggio sulla terraferma
 
@@ -124,14 +132,36 @@ Attorno a 200.000 anni fa _Homo erectus_ venne gradualmente sostituito da _Homo 
 
 Intorno a 90.000 anni fa apparve l'uomo moderno, _Homo sapiens sapiens_, che progressivamente assimilò le popolazioni Neanderthal. Questa specie dimostrò una grande capacità creativa: lavorava ossa e corna per creare strumenti come aghi e arpioni da usare nella pesca. Inoltre, sviluppò un senso artistico evidente nei ritrovamenti di pitture rupestri, statuette animali e raffigurazioni femminili. _Homo sapiens sapiens_ addomesticò animali e diede inizio all'agricoltura, modificando profondamente il proprio rapporto con l'ambiente circostante.
 
-== Approfondimento: l'evoluzione prebiotica riprodotta in laboratorio <senza_numero>
+#figure(
+  caption: [Principali caratteristiche degli ominidi],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (8),
+  table.header[Ominide][Volume \ cranico][Altezza#footnote[In centimetri. Nel caso di doppi valori, il primo si riferisce all'esemplare maschio, il secondo a quello femmina.]][Dentatura][Fronte][Mento][Cibo][Abitudini],
+  [_A. afarensis_], [400], [100 \ 150], [mista tra scimmia e uomo; spazi tra i denti, canini sporgenti], [sfuggente], [assente], [frutti secchi, granaglie], [raccolta], 
+  [_A. africanus_], [450-500], [120], [canini normali, denti contigui, molari grandi], [inclinata], [assente], [frutti secchi, bacche, uova, larve], [raccolta], 
+  [_A. robustus_], [500-600], [120], [canini piccoli, molari enormi], [sfuggente, cresta cranica], [assente], [erbe, radici, germogli], [raccolta], 
+  [_H. abilis_], [680-750], [150], [denti grandi ma proporzionati], [inclinata], [assente], [vegetali, carne di animali morti], [raccolta di vegetali e animali morti], 
+  [_H. erectus_], [800-1300], [160-170], [denti grandi ma proporzionati], [quasi dritta], [accennato], [vegetali e carne], [raccolta e caccia], 
+  [_H. neanderthalensis_], [1300-1600], [150-160], [canini piccoli, molari grandi], [inclinata], [accennato], [vegetali e carne], [raccolta e caccia], 
+  [_H. sapiens_], [1300-1600], [160-180], [denti più piccoli], [diritta], [presente], [vegetalie e carne], [raccolta, agricoltura, caccia, domesticazione],   
+)  
+)
 
-Negli anni '20 del Novecento, il biochimico russo Aleksandr Oparin (1894-1980) e il biologo inglese John Burdon Sanderson Haldane (1892-1964) elaborarono un'ipotesi secondo cui, in un'atmosfera riducente, comuni reazioni chimiche sarebbero in grado di generare molecole organiche partendo da molecole inorganiche. Circa trent'anni più tardi, nel 1953, lo scienziato americano Stanley Miller (nato nel 1930) mise alla prova questa ipotesi con un esperimento. Miller creò un sistema in cui i gas tipici dell'atmosfera primitiva venivano esposti a scariche elettriche in assenza di ossigeno e osservò la formazione di molecole organiche, inclusi alcuni amminoacidi.
-
-Sempre negli anni '50, lo scienziato americano Sidney Fox riuscì a ottenere microsfere tramite un processo che prevedeva il riscaldamento di amminoacidi in ambiente privo di ossigeno. Da questa operazione si originarono spontaneamente polipeptidi, che Fox definì protenoidi. Questi, una volta immersi in acqua, formavano una sorta di doppio strato attorno a una piccola vescicola, dando vita alle microsfere. Secondo teorie successive, un ruolo cruciale nell'aggregazione delle semplici molecole organiche in polimeri sarebbe stato svolto da minerali argillosi dotati di attività catalitica.
-
-Parallelamente, alcuni ricercatori hanno avanzato l'ipotesi della panspermia, che suggerisce come la vita possa essere arrivata sulla Terra dall'esterno, ossia dallo spazio.
 #pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Brodo primordiale: Soluzione costituita da molecole organiche generate dall'evoluzione prebiotica, accumulatesi in ambienti acquatici poco profondi e caldi. Tali molecole, successivamente, avrebbero dato origine a strutture sferiche denominate microsfere. Il brodo primordiale è considerato il luogo in cui ebbero origine le prime forme di vita.

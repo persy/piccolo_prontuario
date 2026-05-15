@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[I fenomeni ondulatori possono essere considerati essenzialialmente un meccanismo attraverso il quale l'energia si propaga nello spazio a partire da una sorgente, senza comportare il trasporto di materia.
 
@@ -17,23 +17,15 @@ Ad esempio, il suono si propaga nell'aria attraverso moto ondulatorio; l'oscilla
 
 Nel caso delle onde marine, questa grandezza è rappresentata dall'altezza dell'acqua; nelle onde sonore si tratta della pressione dell'aria; mentre nelle onde elettromagnetiche, è l'intensità dei campi elettrico e magnetico. Nei primi due casi, si verifica la propagazione di energia meccanica, mentre nel terzo caso viene trasportata energia elettromagnetica.
 
+
+
 === Come si classificano le onde
 
 Esistono diversi modi per classificare le onde, a seconda delle proprietà che si desidera mettere in evidenza.
 
-Un primo criterio di classificazione distingue le onde in due categorie in base alla necessità o meno di un mezzo materiale per propagarsi.
+Un primo criterio di classificazione distingue le onde in due categorie in base alla necessità o meno di un mezzo materiale per propagarsi. Le onde meccaniche, dette anche elastiche (come le onde sulla superficie del mare o le onde sonore), richiedono un mezzo attraverso cui muoversi. Le onde elettromagnetiche, invece, come la luce, la radiazione infrarossa (calore) e le onde radio, possono propagarsi anche nel vuoto.
 
-Le onde meccaniche, dette anche elastiche (come le onde sulla superficie del mare o le onde sonore), richiedono un mezzo attraverso cui muoversi.
-
-Le onde elettromagnetiche, invece, come la luce, la radiazione infrarossa (calore) e le onde radio, possono propagarsi anche nel vuoto.
-
-Un secondo criterio di classificazione riguarda il modo in cui le onde si propagano. Esse possono essere trasversali, quando vibrano in direzione perpendicolare rispetto alla direzione di propagazione, oppure longitudinali, quando vibrano in direzione parallela alla direzione di propagazione.
-
-Le onde elettromagnetiche e le onde del mare sono esempi di onde trasversali. Le prime si propagano nello spazio, mentre le seconde si spostano orizzontalmente e vibrano verticalmente.
-
-Le onde sonore, invece, sono onde longitudinali; si muovono generando compressioni e rarefazioni dell'aria lungo la direzione di propagazione.
-
-La superficie che delimita un'onda, definita dai punti equidistanti dalla sorgente della vibrazione, prende il nome di fronte d'onda.
+Un secondo criterio di classificazione riguarda il modo in cui le onde si propagano. Esse possono essere trasversali, quando vibrano in direzione perpendicolare rispetto alla direzione di propagazione, oppure longitudinali, quando vibrano in direzione parallela alla direzione di propagazione. Le onde elettromagnetiche e le onde del mare sono esempi di onde trasversali. Le prime si propagano nello spazio, mentre le seconde si spostano orizzontalmente e vibrano verticalmente. Le onde sonore, invece, sono onde longitudinali; si muovono generando compressioni e rarefazioni dell'aria lungo la direzione di propagazione. La superficie che delimita un'onda, definita dai punti equidistanti dalla sorgente della vibrazione, prende il nome di fronte d'onda.
 
 In base alla forma del fronte d'onda, possiamo suddividere le onde in tre categorie: piane, circolari e sferiche. Le onde piane hanno un fronte d'onda rappresentato da una retta, come avviene per le onde del mare in mare aperto e per quelle prodotte nell'acqua da una lamina vibrante.
 
@@ -41,9 +33,37 @@ Le onde circolari, invece, hanno un fronte d'onda a forma di circonferenza. Un e
 
 Le onde sferiche si espandono uniformemente in tutte le direzioni nello spazio e hanno un fronte d'onda con forma sferica. Sono esempi di questo tipo le onde sonore e quelle elettromagnetiche.
 
-Persino il movimento delle particelle di materia all'interno dell'atomo e del nucleo può essere descritto come un fenomeno ondulatorio. Le particelle atomiche e subatomiche, infatti, presentano caratteristiche tipiche sia delle onde che delle particelle.
-
-Questo comportamento viene definito dualità onda-particella ed è spiegato attraverso i principi della meccanica quantistica.
+Persino il movimento delle particelle di materia all'interno dell'atomo e del nucleo può essere descritto come un fenomeno ondulatorio. Le particelle atomiche e subatomiche, infatti, presentano caratteristiche tipiche sia delle onde che delle particelle. Questo comportamento viene definito dualità onda-particella ed è spiegato attraverso i principi della meccanica quantistica.
+#figure(
+  caption: [Classificazione delle onde.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (5.2em, 5em, auto, 7em),
+  table.header[Suddivisione][Tipi][Caratteristiche][Esempi],
+  table.cell(rowspan: 2)[Modo], 
+  [trasversali], [vibrano in direzione perpendicolare alla direzione di propagazione], [onde luminose, radio, onde del mare],
+  [longitudinali], [vibrano in direzione parallela alla direzione di propagazione], [onde sonore],
+  table.cell(rowspan: 2)[Mezzo],
+  [meccaniche], [hanno bisogno di un mezzo nel quale propagarsi], [onde sonore, onde del mare],
+  [elettromagnetiche], [non hanno bisogno di un mezzo nel quale propagarsi], [onde luminose, radio],
+  table.cell(rowspan: 3)[Forma del fronte d'onda],
+  [piane], [il fronte d'onda è una retta], [onde del mare],
+  [circolari], [il fronte d'onda è una circoferenza], [onde prodotte su uno specchio d'acqua],
+  [sferiche], [il fronte d'onda è una sfera], [onde sonore, onde luminose, radio],
+)  
+)
 
 == Caratteristiche delle onde
 
@@ -52,28 +72,38 @@ Le onde meccaniche, facilmente osservabili, saranno utilizzate qui come riferime
 La grandezza oscillante, come il livello dell'acqua per le onde marine, il campo elettrico per le onde elettromagnetiche o la pressione dell'aria per le onde sonore, segue un movimento sinusoidale. Questo movimento è rappresentato da una curva chiamata sinusoide, caratterizzata da creste (i punti più alti dell'oscillazione) e ventri (i punti più bassi), che si susseguono continuamente.
 
 I principali parametri che definiscono il moto ondulatorio includono:
-
-- **Ampiezza dell'onda (A)**: è la variazione massima della grandezza oscillante. Onde con ampiezza maggiore trasportano più energia. Per produrre un'onda con ampiezza elevata è necessario compiere un lavoro maggiore. Ad esempio, venti più intensi generano onde più alte sulla superficie del mare e, in modo analogo, esercitando più forza quando si imprime un movimento a una fune si ottiene un'oscillazione con ampiezza maggiore.
-
-- **Lunghezza d'onda (λ)**: è definita come la distanza minima (espressa in metri) tra due creste o due ventri consecutivi.
-
-- **Periodo (T)**: è l'intervallo di tempo (misurato in secondi) durante il quale si completa un'oscillazione. Corrisponde al tempo necessario affinché l'onda ritorni nella stessa posizione, come il tempo tra due creste o due ventri successivi.
-
-- **Frequenza (f)**: corrisponde al numero di oscillazioni compiute in un secondo. Si misura in hertz (simbolo Hz), dove 1 Hz equivale a 1 oscillazione al secondo (s⁻¹). La frequenza è l'inverso del periodo: \( f = 1/T \).
-
-- **Velocità di propagazione dell'onda (v)**: indica la velocità con cui l'oscillazione si muove lungo la direzione di propagazione. Poiché in un periodo (T) l'onda percorre una distanza pari alla sua lunghezza d'onda (λ), il rapporto tra velocità, lunghezza d'onda e frequenza è espresso dalla relazione: \( v = λ/T \), oppure alternativamente \( v = λ \cdot f \), considerando che \( f = 1/T \).
+- ampiezza dell'onda (_A_): è la variazione massima della grandezza oscillante. Onde con ampiezza maggiore trasportano più energia. Per produrre un'onda con ampiezza elevata è necessario compiere un lavoro maggiore. Ad esempio, venti più intensi generano onde più alte sulla superficie del mare e, in modo analogo, esercitando più forza quando si imprime un movimento a una fune si ottiene un'oscillazione con ampiezza maggiore.
+- lunghezza d'onda (_λ_): è definita come la distanza minima (espressa in metri) tra due creste o due ventri consecutivi.
+- periodo (_T_): è l'intervallo di tempo (misurato in secondi) durante il quale si completa un'oscillazione. Corrisponde al tempo necessario affinché l'onda ritorni nella stessa posizione, come il tempo tra due creste o due ventri successivi.
+- frequenza (_ν_): corrisponde al numero di oscillazioni compiute in un secondo. Si misura in hertz (simbolo Hz), dove 1 Hz equivale a 1 oscillazione al secondo (s#super[-1]). La frequenza è l'inverso del periodo: 
+  $ 
+    f = 1/T
+  $
+- velocità di propagazione dell'onda (_v_): indica la velocità con cui l'oscillazione si muove lungo la direzione di propagazione. Poiché in un periodo (_T_) l'onda percorre una distanza pari alla sua lunghezza d'onda (λ), il rapporto tra velocità, lunghezza d'onda e frequenza è espresso dalla relazione: 
+  $ 
+    v = lambda/T
+  $
+  oppure alternativamente 
+  $ 
+    v = λ dot nu
+  $
+  considerando che $nu = 1/T$.
 
 Questo implica che, a velocità di propagazione costante, onde con lunghezza d'onda maggiore avranno frequenze più basse, mentre onde con lunghezza d'onda minore presenteranno frequenze più alte.
 
-La velocità di propagazione di un'onda dipende dal mezzo in cui si propaga. Onde luminose e altre onde elettromagnetiche, che non necessitano di un mezzo materiale, viaggiano nel vuoto con velocità estremamente elevate. Questa relazione inversa tra frequenza e lunghezza d'onda caratterizza le onde elettromagnetiche.
+La velocità di propagazione di un'onda dipende dal mezzo in cui si propaga. Onde luminose e altre onde elettromagnetiche, che non necessitano di un mezzo materiale, viaggiano nel vuoto con velocità estremamente elevate. 
+
+$ 
+  v = 3 dot 10^6 "m/s"
+$
+
+Questa relazione inversa tra frequenza e lunghezza d'onda caratterizza le onde elettromagnetiche.
 
 == Comportamento delle onde
 
 Quando un'onda incontra un ostacolo lungo il suo percorso o passa da un mezzo di propagazione a un altro differente, si verificano fenomeni comuni sia alle onde elastiche che a quelle elettromagnetiche.
 
-Questi fenomeni includono la riflessione, la rifrazione e la diffrazione. 
-
-Un ulteriore fenomeno ondulatorio, che si manifesta quando due onde si incontrano, è l'interferenza. 
+Questi fenomeni includono la riflessione, la rifrazione e la diffrazione. Un ulteriore fenomeno ondulatorio, che si manifesta quando due onde si incontrano, è l'interferenza. 
 
 Inoltre, quando la sorgente di un'onda si muove rispetto a un osservatore, quest'ultimo percepisce modificazioni nelle caratteristiche dell'onda, diverse in base al movimento di avvicinamento o di allontanamento. Questo fenomeno è noto come effetto Doppler.
 
@@ -85,7 +115,7 @@ Un esempio emblematico è dato da un raggio luminoso che colpisce una superficie
 
 Nel caso di un'onda piana rappresentata con un diagramma a raggi (dove il raggio rappresenta la direzione di propagazione dell'onda), si definisce angolo di incidenza quello formato tra il raggio dell'onda incidente e la retta perpendicolare alla superficie colpita. Analogamente, l'angolo di riflessione è quello formato dal raggio dell'onda riflessa con la stessa perpendicolare. 
 
-Secondo la legge della riflessione, l'angolo di incidenza (i) è uguale all'angolo di riflessione (r), e entrambi giacciono sul medesimo piano. Inoltre, nel processo di riflessione, l'onda viene capovolta.
+Secondo la legge della riflessione, l'angolo di incidenza (_i_) è uguale all'angolo di riflessione (_r_), e entrambi giacciono sul medesimo piano. Inoltre, nel processo di riflessione, l'onda viene capovolta.
 
 Se la riflessione è totale e non c'è assorbimento d'energia, l'energia trasportata dall'onda riflessa risulta identica a quella dell'onda incidente.
 
@@ -99,7 +129,11 @@ Il fenomeno della rifrazione può essere studiato con strumenti come l'ondoscopi
 
 Utilizzando una lamina vibrante e facendo transitare l'onda attraverso due zone di diversa profondità, si nota chiaramente la deviazione dell'onda dalla sua traiettoria originaria, accompagnata da una variazione della lunghezza d'onda. In particolare, quando l'acqua diventa meno profonda, la lunghezza d'onda diminuisce.
 
-Poiché esiste una relazione diretta tra lunghezza d'onda e velocità di propagazione, se la lunghezza d'onda diminuisce, anche la velocità di propagazione subisce una riduzione. In generale, se v1 rappresenta la velocità dell'onda nel primo mezzo e v2 quella nel secondo mezzo, l'indice di rifrazione relativo del secondo mezzo rispetto al primo (n12) corrisponde al rapporto tra le due velocità.
+Poiché esiste una relazione diretta tra lunghezza d'onda e velocità di propagazione, se la lunghezza d'onda diminuisce, anche la velocità di propagazione subisce una riduzione. In generale, se _v#sub[1]_ rappresenta la velocità dell'onda nel primo mezzo e _v#sub[2]_ quella nel secondo mezzo, l'indice di rifrazione relativo del secondo mezzo rispetto al primo (_n#sub[1 2]_) corrisponde al rapporto tra le due velocità.
+
+$ 
+  n_(1 2) = v_1/v_2
+$
 
 Quando un'onda luminosa passa dal vuoto a un mezzo, come l'aria, il valore dell'indice di rifrazione rispetto al vuoto prende il nome di indice di rifrazione assoluto per quel dato mezzo. 
 
@@ -131,11 +165,9 @@ Si parla di interferenza distruttiva quando due onde creano un'onda con ampiezza
 
 L'interferenza può avvenire anche con una sola onda, quando questa colpisce un ostacolo e viene riflessa. In tal caso, l'interferenza tra l'onda incidente e quella riflessa genera figure simili a quelle prodotte da due onde distinte.
 
-== Approfondimento: Le onde stazionarie: nodi, antinodi e risonanza
+#notebr[== *🧩* Le onde stazionarie: nodi, antinodi e risonanza <senza_numero>
 
-I nodi sono il risultato di interferenza distruttiva tra onde identiche, mentre gli antinodi sono il risultato di interferenza costruttiva.
-
-Le onde stazionarie emergono dall'interferenza tra due onde identiche che viaggiano in direzione opposta. Queste onde sono caratterizzate da punti che rimangono statici (nodi) e punti in cui l'oscillazione raggiunge sempre la sua ampiezza massima (antinodi).
+I nodi sono il risultato di interferenza distruttiva tra onde identiche, mentre gli antinodi sono il risultato di interferenza costruttiva. Le onde stazionarie emergono dall'interferenza tra due onde identiche che viaggiano in direzione opposta. Queste onde sono caratterizzate da punti che rimangono statici (nodi) e punti in cui l'oscillazione raggiunge sempre la sua ampiezza massima (antinodi).
 
 È semplice generare un'onda stazionaria su una corda fissata a un'estremità. Facendo oscillare la corda all'estremità libera, si genera un'onda che si propaga lungo la corda. Quando l'onda raggiunge l'estremità vincolata, viene riflessa invertendo la propria fase rispetto all'onda incidente.
 
@@ -147,23 +179,40 @@ La distanza tra due nodi consecutivi in un'onda stazionaria corrisponde alla met
 
 Regolando la frequenza con cui si fa oscillare la corda—ad esempio attraverso un vibratore applicato a uno degli estremi—si può modificare la lunghezza d'onda e generare diverse configurazioni di onde stazionarie. Se si regola la lunghezza d'onda in modo che la lunghezza della corda sia esattamente uguale alla metà della lunghezza d'onda originaria, si otterrà un'onda stazionaria con due nodi alle estremità e un unico antinodo al centro.
 
-Se si regola la frequenza in modo che la lunghezza della corda sia pari a 2/2, l'onda stazionaria generata presenta tre nodi: uno al centro e due alle estremità della corda. Inoltre, si formano due antinodi situati a metà strada tra ciascuna coppia di nodi.
+Se si regola la frequenza in modo che la lunghezza della corda sia pari a λ/2, l'onda stazionaria generata presenta tre nodi: uno al centro e due alle estremità della corda. Inoltre, si formano due antinodi situati a metà strada tra ciascuna coppia di nodi.
 
-Diminuendo gradualmente la frequenza, e quindi aumentando la lunghezza d'onda della vibrazione impressa alla corda, si osservano onde stazionarie ogni volta che la lunghezza della corda risulta essere un multiplo intero di 2/2. Le lunghezze d'onda e le frequenze associate alla formazione di tali onde stazionarie prendono il nome di lunghezze d'onda e frequenze di risonanza.
+Diminuendo gradualmente la frequenza, e quindi aumentando la lunghezza d'onda della vibrazione impressa alla corda, si osservano onde stazionarie ogni volta che la lunghezza della corda risulta essere un multiplo intero di λ/2. Le lunghezze d'onda e le frequenze associate alla formazione di tali onde stazionarie prendono il nome di lunghezze d'onda e frequenze di risonanza.
 
 In corrispondenza di questi valori, si dice che la corda entra in risonanza. Questo fenomeno implica che la corda oscilli con ampiezze relativamente elevate, anche se l'ampiezza dell'oscillazione imposta dal vibratore (o dalla mano) rimane contenuta.
 
 In sintesi, valori specifici della frequenza, chiamati frequenze di risonanza, favoriscono la comparsa di onde stazionarie. Queste onde sono caratterizzate da nodi, dove l'oscillazione è nulla, e da antinodi, dove l'oscillazione raggiunge il massimo. Quando una corda è soggetta a un'onda stazionaria, sembra immobile: i nodi restano fissi mentre gli antinodi vibrano con una determinata ampiezza.
 
-Le frequenze di risonanza dipendono esclusivamente dalla lunghezza del mezzo di propagazione e non dalla natura del materiale. Perciò, è possibile ottenere risonanza facendo vibrare fili metallici o altri tipi di materiali.
+Le frequenze di risonanza dipendono esclusivamente dalla lunghezza del mezzo di propagazione e non dalla natura del materiale. Perciò, è possibile ottenere risonanza facendo vibrare fili metallici o altri tipi di materiali.]
 
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
+/ Ampiezza dell'onda: Massima variazione dell'intensità della grandezza oscillante.
 
+/ Diffrazione: Fenomeno proprio delle onde, che si manifesta quando queste incontrano un ostacolo o un'apertura di dimensioni comparabili alla loro lunghezza d'onda. In tali situazioni, le onde riescono a superare l'ostacolo o l'apertura, propagandosi anche nelle zone d'ombra. Se la dimensione dell'ostacolo equivale alla lunghezza d'onda incidente, l'ostacolo agisce come una sorgente di onde circolari.
 
+/ Frequenza: Numero di oscillazioni compiute dall'onda in un secondo. La frequenza è il reciproco del periodo e viene espressa in hertz (Hz).
 
+/ Fronte d'onda: Superficie che include i punti equidistanti dalla sorgente. In base alla forma del fronte d'onda, le onde possono essere classificate come piane (lineari), circolari (a forma di circonferenza) o sferiche (a forma di sfera).
 
+/ Interferenza: Fenomeno fisico risultante dalla sovrapposizione di due o più onde con la stessa frequenza. Si parla di interferenza distruttiva quando l'onda risultante ha intensità minore rispetto alle originali; al contrario, c'è interferenza costruttiva quando l'intensità dell'onda risultante è maggiore.
 
+/ Lunghezza d'onda: Distanza tra due creste consecutive o due ventri successivi di un'onda.
 
+/ Onda: Oscillazione che si propaga nello spazio, trasportando energia ma non materia. In un'onda vi è una grandezza che oscilla e varia ciclicamente nel tempo e nello spazio.
 
+/ Onde stazionarie: Onde generate dall'interferenza tra più onde e presentano caratteristiche peculiari: vi sono alcuni punti che rimangono fissi (nodi) e altri in cui l'oscillazione raggiunge il massimo valore (antinodi).
 
+/ Periodo:Tempo necessario affinché un'onda completi un'oscillazione, come il passaggio da una cresta alla successiva. Corrisponde all'intervallo temporale per un'oscillazione completa.
 
+/ Riflessione: Fenomeno che si verifica quando un'onda, incontrando un ostacolo, viene riflessa e torna indietro rispetto alla sua direzione iniziale.
+
+/ Rifrazione: Fenomeno che avviene quando un'onda attraversa la superficie di separazione tra due mezzi diversi, subendo una deviazione nella sua traiettoria.
+
+/ Velocità di propagazione: Velocità con cui l'oscillazione si diffonde lungo la direzione di propagazione dell'onda.

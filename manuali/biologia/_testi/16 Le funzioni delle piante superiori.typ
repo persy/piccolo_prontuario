@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Le piante hanno sviluppato una nutrizione autotrofa, eliminando così la necessità di apparati complessi come quelli locomotore, digerente, respiratorio, escretore, oltre ai sistemi circolatorio e nervoso. Per adattarsi al meglio all'ambiente, hanno però adottato strategie specifiche che consentono loro di svolgere le funzioni vitali: sostegno, nutrizione, circolazione dei fluidi, riproduzione e sviluppo, oltre al movimento. Questi processi sono regolati attraverso un coordinamento basato sugli ormoni.]
 
@@ -125,11 +125,10 @@ Nel frattempo, la cellula generativa del granulo pollinico si divide per mitosi 
 
 Al contrario, nelle gimnosperme il granulo pollinico arriva direttamente al micropilo dell'ovulo e solo un nucleo spermatico partecipa alla fecondazione della cellula uovo, mentre gli altri nuclei degenerano.
 
-#wideblock[
 #figure(
   caption: [Schema dell'apparato riproduttore delle spermatofite e corrispondenza con le strutture delle piante a spore],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -154,7 +153,6 @@ Al contrario, nelle gimnosperme il granulo pollinico arriva direttamente al micr
     [gamete femminile ], [cellula uovo (n)],
 )  
 )
-]
 
 === Lo sviluppo embrionale: semi e frutti
 
@@ -186,11 +184,10 @@ La disseminazione dei semi rappresenta un processo fondamentale per garantire la
 
 #pagebreak(weak:true)
 
-#wideblock[
 #figure(
   caption: [Tipi di frutti],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -232,7 +229,6 @@ La disseminazione dei semi rappresenta un processo fondamentale per garantire la
     [strobilo, \ cono o \ pigna], [frutti trattenuti da numerose squame], [abeti, pini],
 )  
 )
-]
 
 == Lo sviluppo e il ciclo vitale di una pianta
 
@@ -264,20 +260,22 @@ La senescenza segna l'inizio del decadimento della pianta. Questo fenomeno inclu
 
 Il caratteristico cambiamento di colore nelle foglie autunnali deriva dalla riduzione della produzione di clorofilla verde, che normalmente maschera gli altri pigmenti rosso e giallo. Inoltre, nelle piante perenni anche le gemme entrano in uno stato di dormienza sviluppando involucri protettivi che le trasformano in gemme invernali.
 
-== I fitormoni
-
-La vita delle piante è caratterizzata da numerose e complesse funzioni che le permettono di adattarsi e crescere nei diversi ambienti. Per realizzare questo adattamento, le piante coordinano e regolano le loro attività biologiche grazie a particolari sostanze denominate ormoni vegetali o fitormoni. A differenza degli ormoni animali, i fitormoni non sono costituiti da steroidi o polipeptidi e non vengono secreti da ghiandole specializzate. Essi sono invece sintetizzati in diverse zone del cormo, come l'apice del fusto e della radice.
-
-Nelle piante si distinguono cinque principali classi di composti con proprietà ormonali, prodotte in specifiche parti della pianta durante i vari stadi del suo ciclo vitale. Le auxine, le gibberelline e le citochinine sono responsabili della crescita e dello sviluppo, mentre l'acido abscissico e l'etilene intervengono nei processi legati alla senescenza e al riposo.
-#pagebreak()
-== Approfondimento: esempi di movimenti della pianta <senza_numero>
+#note(top)[== *🧩* Esempi di movimenti della pianta <senza_numero>
 
 Approfondendo il comportamento delle piante, è possibile osservare movimenti ben definiti che dimostrano la loro capacità di reagire agli stimoli esterni. Le radici, ad esempio, si orientano verso il basso seguendo un geotropismo positivo stimolato dalla forza di gravità, favorendo un ancoraggio profondo. Allo stesso tempo tendono verso le fonti d'acqua mediante idrotropismo e si allontanano dalla luce con un fototropismo negativo. Al contrario, il fusto si sviluppa in direzione opposta alla gravità con un geotropismo negativo, mentre si piega verso la luce grazie a un fototropismo positivo. Durante la crescita, l'apice del fusto descrive movimenti spiraliformi nello spazio, noti come nutazione.
 
 Alcune parti delle piante si caratterizzano per movimenti igroscopici: i rami di determinate conifere si incurvano in ambienti umidi e si rialzano quando l'aria diventa più secca. Inoltre, il pericarpo di alcuni frutti secchi indeiscenti si apre al raggiungimento della maturità in funzione del grado di umidità.
 
-I piccioli e i viticci mostrano una reazione definita tigmotropismo, che comporta un'accelerazione della crescita nell'area opposta a quella sollecitata da uno stimolo esterno. Questo fenomeno consente ai fusti di alcune piante rampicanti di avvolgersi attorno ai sostegni. Le foglie di alcune specie, come la mimosa sensitiva, così come i fiori di altre piante, si chiudono e si aprono seguendo ritmi legati al ciclo giorno-notte o in risposta a semplici stimoli tattili, manifestando un tipo di movimento chiamato nastia.
+I piccioli e i viticci mostrano una reazione definita tigmotropismo, che comporta un'accelerazione della crescita nell'area opposta a quella sollecitata da uno stimolo esterno. Questo fenomeno consente ai fusti di alcune piante rampicanti di avvolgersi attorno ai sostegni. Le foglie di alcune specie, come la mimosa sensitiva, così come i fiori di altre piante, si chiudono e si aprono seguendo ritmi legati al ciclo giorno-notte o in risposta a semplici stimoli tattili, manifestando un tipo di movimento chiamato nastia.]
 
+== I fitormoni
+
+La vita delle piante è caratterizzata da numerose e complesse funzioni che le permettono di adattarsi e crescere nei diversi ambienti. Per realizzare questo adattamento, le piante coordinano e regolano le loro attività biologiche grazie a particolari sostanze denominate ormoni vegetali o fitormoni. A differenza degli ormoni animali, i fitormoni non sono costituiti da steroidi o polipeptidi e non vengono secreti da ghiandole specializzate. Essi sono invece sintetizzati in diverse zone del cormo, come l'apice del fusto e della radice.
+
+Nelle piante si distinguono cinque principali classi di composti con proprietà ormonali, prodotte in specifiche parti della pianta durante i vari stadi del suo ciclo vitale. Le auxine, le gibberelline e le citochinine sono responsabili della crescita e dello sviluppo, mentre l'acido abscissico e l'etilene intervengono nei processi legati alla senescenza e al riposo.
+
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Disseminazione: Allontanamento dei semi dalla pianta madre per favorire la propagazione della specie.  

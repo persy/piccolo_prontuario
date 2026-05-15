@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il sistema periodico degli elementi, comunemente noto come tavola periodica, rappresenta uno strumento indispensabile per comprendere il legame tra la configurazione elettronica degli elementi e le loro proprietà chimiche e chimico-fisiche. Questo schema, con il suo approccio sistematico, permette di vedere chiaramente come la periodicità delle proprietà chimiche sia strettamente legata alla disposizione degli elettroni di valenza negli atomi.
 
@@ -10,6 +10,16 @@ Più nel dettaglio, la tavola evidenzia come gli elementi con caratteristiche si
 La legge di periodicità, fulcro della tavola periodica, fornisce il criterio di classificazione degli elementi basato sul numero atomico crescente. Questa classificazione è stilizzata in una struttura formata da sette righe orizzontali, chiamate periodi, e colonne verticali, dette gruppi. I gruppi si suddividono in otto sottogruppi A e otto sottogruppi B, creando un'organizzazione che riflette le correlate proprietà degli elementi.
 
 Il termine "periodica" descrive proprio la capacità dell'intera tavola di evidenziare analogie ricorrenti tra le proprietà chimiche degli elementi, intervallate da variazioni graduali ma costanti. Questo schema regolare fu determinato per la prima volta dal chimico russo Dmitrij Mendeleev, che ordinò gli elementi in base alla crescente massa atomica. Tuttavia, il fisico inglese Henry Moseley scoprì più tardi che la periodicità degli elementi era in realtà correlata al numero atomico e non alla massa, ponendo le basi della moderna tavola periodica.
+
+#note(bottom)[== *🧩* Mendeleev e la tavola periodica <senza_numero>
+
+Il sistema periodico fu concepito nella seconda metà del XIX secolo, quando, nel corso di vari decenni, si andarono accumulando osservazioni che evidenziavano somiglianze nel comportamento di diversi elementi. Queste somiglianze suggerirono la possibilità di raggruppare gli elementi in insiemi organizzati.
+
+Il chimico russo Dmitrij Mendeleev (1834-1907) fu il primo a pubblicare, nel 1869, una classificazione degli elementi che sarebbe poi diventata la base del moderno sistema periodico. La sua tavola periodica si rivelò uno strumento estremamente efficace per prevedere l'esistenza di elementi ancora sconosciuti.
+
+Mendeleev dispose gli elementi in ordine di crescente massa atomica, collocando quelli con proprietà simili nelle stesse colonne verticali. Se tra gli elementi noti non vi era alcuno che soddisfacesse le caratteristiche richieste per occupare un determinato posto nella tavola, egli lasciava quello spazio vuoto. Mendeleev ipotizzò che tali spazi sarebbero stati riempiti da elementi non ancora scoperti e arrivò persino a prevederne alcune proprietà.
+
+L'importanza della tavola periodica proposta da Mendeleev venne confermata solo successivamente, con la scoperta di elementi caratterizzati dalle proprietà da lui previste. Tra questi vi furono lo scandio (previsto come ekaboro), il gallio (ekaalluminio) e il germanio (ekasilicio).]
 
 == Sistema periodico e configurazioni elettroniche
 
@@ -39,6 +49,15 @@ Dopo il calcio ($Z$ = 20), con lo scandio (Sc, $Z$ = 21) inizia la serie dei sot
 
 I periodi 6 e 7 includono due serie particolari ciascuno, formate da 14 elementi di transizione: i lantanidi e gli attinidi. Questi gruppi si distinguono per il riempimento dei sottolivelli $f$ del terzultimo livello energetico, lasciando invariati il penultimo e l'ultimo livello. Tale configurazione elettronica porta a somiglianze molto marcate tra i membri di ciascuna serie.  
 
+#note(bottom)[== *🧩* Configurazione elettronica dei primi venti elementi <senza_numero>
+
+Il sistema periodico fu concepito nella seconda metà del XIX secolo, quando, nel corso di vari decenni, si andarono accumulando osservazioni che evidenziavano somiglianze nel comportamento di diversi elementi. Queste somiglianze suggerirono la possibilità di raggruppare gli elementi in insiemi organizzati.
+
+Il chimico russo Dmitrij Mendeleev (1834-1907) fu il primo a pubblicare, nel 1869, una classificazione degli elementi che sarebbe poi diventata la base del moderno sistema periodico. La sua tavola periodica si rivelò uno strumento estremamente efficace per prevedere l'esistenza di elementi ancora sconosciuti.
+
+Mendeleev dispose gli elementi in ordine di crescente massa atomica, collocando quelli con proprietà simili nelle stesse colonne verticali. Se tra gli elementi noti non vi era alcuno che soddisfacesse le caratteristiche richieste per occupare un determinato posto nella tavola, egli lasciava quello spazio vuoto. Mendeleev ipotizzò che tali spazi sarebbero stati riempiti da elementi non ancora scoperti e arrivò persino a prevederne alcune proprietà.
+
+L'importanza della tavola periodica proposta da Mendeleev venne confermata solo successivamente, con la scoperta di elementi caratterizzati dalle proprietà da lui previste. Tra questi vi furono lo scandio (previsto come ekaboro), il gallio (ekaalluminio) e il germanio (ekasilicio).]
 // Tavola periodica
 
 // Tavola in relazione a riempimento  orbitali
@@ -51,11 +70,10 @@ Tra i metalli si trovano gli elementi dei gruppi I A (metalli alcalini), II A (m
 
 I non metalli comprendono alcuni elementi dei gruppi III A (boro), IV A (carbonio), V A (azoto e fosforo), VI A (calcogeni) e VII A (alogeni). Infine, lungo una linea a scalini che separa metalli e non metalli, dalla posizione del boro fino all'astato, si trovano gli elementi definiti semimetalli. Questi possiedono proprietà intermedie tra metalli e non metalli. Gli elementi principali appartenenti a questa categoria sono boro, silicio, germanio, arsenico, antimonio, tellurio e astato. La tabella 4.1 sintetizza le caratteristiche principali di metalli e non metalli.
 
-#wideblock[
 #figure(
   caption: [Confronto fra le proprietà dei metalli e dei non metalli.],
   table(
-        stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
       return main_tecnologia // Colore header
@@ -79,7 +97,7 @@ I non metalli comprendono alcuni elementi dei gruppi III A (boro), IV A (carboni
     [Formazione di ioni], [perdono elettroni per \ formare ioni positivi], [acquistano elettroni per \ formare ioni negativi],
 )  
 )
-]
+
 == Proprietà che variano periodicamente
 
 Le dimensioni atomiche, espresse come raggi o volumi atomici, aumentano lungo i gruppi e diminuiscono lungo i periodi. All'interno di un gruppo, il raggio atomico cresce poiché si passa a un livello energetico superiore. Tuttavia, lungo un periodo il raggio diminuisce perché l'aumento degli elettroni nello stesso livello energetico intensifica l'attrazione esercitata dal nucleo.
@@ -91,29 +109,9 @@ Quando vengono estratti successivamente più elettroni da un atomo, si parla di 
 La quantità di energia associata all'acquisto di una mole di elettroni da parte di una mole di atomi si misura in kilojoule/mole. L'elettronegatività, grandezza che indica la capacità di un atomo in una molecola di attrarre gli elettroni condivisi nei legami chimici, diminuisce lungo i gruppi e aumenta lungo i periodi. I valori di elettronegatività per ciascun elemento derivano dalla combinazione dei dati relativi al suo potenziale di ionizzazione e alla sua affinità elettronica.
 
 // Tavola elettronegatività e altre proprietà periodiche
+
 #pagebreak()
-== Approfondimenti <senza_numero>
-
-=== Mendeleev e la tavola periodica <senza_numero>
-
-Il sistema periodico fu concepito nella seconda metà del XIX secolo, quando, nel corso di vari decenni, si andarono accumulando osservazioni che evidenziavano somiglianze nel comportamento di diversi elementi. Queste somiglianze suggerirono la possibilità di raggruppare gli elementi in insiemi organizzati.
-
-Il chimico russo Dmitrij Mendeleev (1834-1907) fu il primo a pubblicare, nel 1869, una classificazione degli elementi che sarebbe poi diventata la base del moderno sistema periodico. La sua tavola periodica si rivelò uno strumento estremamente efficace per prevedere l'esistenza di elementi ancora sconosciuti.
-
-Mendeleev dispose gli elementi in ordine di crescente massa atomica, collocando quelli con proprietà simili nelle stesse colonne verticali. Se tra gli elementi noti non vi era alcuno che soddisfacesse le caratteristiche richieste per occupare un determinato posto nella tavola, egli lasciava quello spazio vuoto. Mendeleev ipotizzò che tali spazi sarebbero stati riempiti da elementi non ancora scoperti e arrivò persino a prevederne alcune proprietà.
-
-L'importanza della tavola periodica proposta da Mendeleev venne confermata solo successivamente, con la scoperta di elementi caratterizzati dalle proprietà da lui previste. Tra questi vi furono lo scandio (previsto come ekaboro), il gallio (ekaalluminio) e il germanio (ekasilicio).
-
-=== Configurazione elettronica dei primi venti elementi <senza_numero>
-
-Il sistema periodico fu concepito nella seconda metà del XIX secolo, quando, nel corso di vari decenni, si andarono accumulando osservazioni che evidenziavano somiglianze nel comportamento di diversi elementi. Queste somiglianze suggerirono la possibilità di raggruppare gli elementi in insiemi organizzati.
-
-Il chimico russo Dmitrij Mendeleev (1834-1907) fu il primo a pubblicare, nel 1869, una classificazione degli elementi che sarebbe poi diventata la base del moderno sistema periodico. La sua tavola periodica si rivelò uno strumento estremamente efficace per prevedere l'esistenza di elementi ancora sconosciuti.
-
-Mendeleev dispose gli elementi in ordine di crescente massa atomica, collocando quelli con proprietà simili nelle stesse colonne verticali. Se tra gli elementi noti non vi era alcuno che soddisfacesse le caratteristiche richieste per occupare un determinato posto nella tavola, egli lasciava quello spazio vuoto. Mendeleev ipotizzò che tali spazi sarebbero stati riempiti da elementi non ancora scoperti e arrivò persino a prevederne alcune proprietà.
-
-L'importanza della tavola periodica proposta da Mendeleev venne confermata solo successivamente, con la scoperta di elementi caratterizzati dalle proprietà da lui previste. Tra questi vi furono lo scandio (previsto come ekaboro), il gallio (ekaalluminio) e il germanio (ekasilicio).
-#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
 == Glossario <senza_numero>
 
 / Tavola periodica di Mendeleev: Sistema di classificazione che organizzava gli elementi in ordine crescente di peso atomico.  

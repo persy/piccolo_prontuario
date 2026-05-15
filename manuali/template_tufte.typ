@@ -3,17 +3,70 @@
 #import "@preview/frame-it:1.2.0": * // Frame
 #import "@preview/ccicons:1.0.1": * // CC icons
 #import "@preview/alchemist:0.1.8": * // Alchemist formulae
+#import "@preview/mannot:0.3.1": * // Annotazioni 
 
-// Font
-#let sans-fonts = (
-  "Inter",
-  "Noto Sans",
+// Template basato su toffee-tufte https://typst.app/universe/package/toffee-tufte v.0.1.1
+
+// Font testo principale
+#let serif-fonts = (
+  "Crimson Text",
+  /*
+  "Crimson Pro",
+  "Cambria",
+  "IBM Plex Serif",
+  "EB Garamond 12",
+  "Atkinson Hyperlegible",
+  "Libre Baskerville",
+  "Source Serif 4",
+  */
 )
 
-#let serif-fonts = (
-  "Crimson Pro",
-  "Source Serif 4",
-  "Cambria",
+// Font didascalie, tabelle, header, footer
+#let sans-fonts = (
+  "Lato",
+  /*
+  "Alegreya Sans",
+  "Roboto",
+  "Source Sans 3",
+  "IBM Plex Sans",
+  "Jost",
+  "Inter",
+  "Noto Sans",
+  */
+)
+
+// Font titoli
+#let title-fonts = (
+  "Jost",
+  /*
+  "IBM Plex Sans",
+  "Lato",
+  "Source Sans 3",
+  "Inter",
+  "Noto Sans",
+  */  
+)
+
+// Font cover
+#let cover-fonts = (
+  "Inter",
+  /*
+  "IBM Plex Sans",
+  "Lato",
+  "Jost",
+  "Source Sans 3",
+  "Noto Sans",
+  */
+)
+
+// Font math
+#let math-fonts = (
+  "STIX Two Math",
+  /*
+  "Fira Math", //Used in tables. Set font: show math.equation: set text(size: 10pt, font: math-fonts)
+  "CMU Sans Serif",
+  "CMU Serif",
+  */
 )
 
 // Colori; per le trasparenze aggiungere .lighten(90%); es.: main_science.lighten(90%)
@@ -31,22 +84,25 @@
 #let copertina(
   materia: "", 
   colore: [],
-  immagine: "") = {
+  immagine: "",
+  argomenti: "") = {
   // Sostituisci "#materia",`#colore` e `#immagine`
-  v(40pt)
+  v(20pt)
   align(center+top)[ 
     /*#text(15pt, tracking: 10pt)[#smallcaps[Bigino]]
     #v(-8pt) 
     #text(12pt)[di]
     //#v(-20pt) */ 
-    #text(32pt, font: sans-fonts, weight: "black", black)[Prontuario \ Integrativo \ Pratico]  \  
-    #text(24pt, font: sans-fonts, weight: "black", black)[di] \    
-    #text(32pt, font: sans-fonts, weight: "black", colore)[#materia]
-    #v(30pt)
+    #text(32pt, font: cover-fonts, weight: "black", black.lighten(15%))[Prontuario \ Integrativo \ Pratico]  \  
+    #text(22pt, font: cover-fonts)[di] \   
+    #text(32pt, font: cover-fonts, weight: "black", colore)[#materia]
+    #v(50pt)
   ]
   figure(
     immagine
   )
+  v(50pt)
+  align(center)[#text(18pt, font: sans-fonts, black.lighten(20%))[#argomenti]]
   context counter(figure.where(kind: image)).update(0) // Reset image counter
 
   // Barra sopra
@@ -54,7 +110,7 @@
     top + left,
     dx: -71pt,
     dy: -71pt,
-    rect(fill: colore, height: 65pt, width: 597pt)[ 
+    rect(fill: colore, height: 30pt, width: 597pt)[ 
       
   //#text(white,weight: "extrabold")[P]#text(white)[rontuario] \
   //#text(white,weight: "extrabold")[I]#text(white)[ntegrativo] \
@@ -63,18 +119,18 @@
   )
   
   // Scritta in basso
-  align(center + bottom)[dal \ #text(colore, weight: "bold", font: sans-fonts)[
+  align(center + bottom)[dal \ #text(colore, weight: "bold", font: cover-fonts)[
       #link("https://wikibigino.miraheze.org/wiki/Pagina_principale")[
         WikiBigino
       ]
-    ] #v(40pt)
+    ]
   ]
 
   place(
     bottom + left,
     dx: -71pt,
     dy: 71pt,
-    rect(fill: colore, height: 65pt, width: 597pt)[ 
+    rect(fill: colore, height: 30pt, width: 597pt)[ 
       #v(13pt)
   //#text(white,weight: "extrabold")[P]#text(white)[rontuario] \
   //#text(white,weight: "extrabold")[I]#text(white)[ntegrativo] \
@@ -83,8 +139,6 @@
   )
 
 }
-
-
 
 #let fullwidth = state("fullwidth", false)
 
@@ -104,11 +158,11 @@
   colore: none,
   doc,
 ) = {
-  // Full width or with right margin
+  // Full width or with right margin; 0.7in was default, now 1.5in
   let right-margin = {
-    if full { 0.7in } else { 3in }
+    if full { 1.5in } else { 3in }
   }
-  let left-margin = 0.7in
+  let left-margin = 1.5in
   let margin-diff = right-margin - left-margin
   let wideblock(content) = block(width: 100% + margin-diff, content)
 
@@ -118,7 +172,7 @@
   // Functions
   let titleblock(title, authors, date, abstract,) = {
     wideblock([      
-      #if title != none { [#align(center)[#text(14pt, font: sans-fonts, weight: "bold", [Prontuario Integrativo Pratico di #text(fill: colore)[*#title*]])] \ \ ] }
+      #if title != none { [#align(center)[#text(14pt, font: title-fonts, weight: "bold", [Prontuario Integrativo Pratico di #text(fill: colore)[*#title*]])] \ \ ] }
       /*#if authors != none {
         if type(authors) == array and authors.len() == 2 {
           [#authors.join(", ", last: " + ") \ ]
@@ -128,15 +182,22 @@
           [#align(right)[#authors]]
         }
       }*/
-      #align(left)[*Autori*: #link("mailto:persy@tuta.io")[Marco Persy] + #link("https://wikibigino.miraheze.org/wiki/Pagina_principale")[
-        WikiBigino]]
+      #align(left)[#text(font: sans-fonts)[*Autori*: #link("mailto:persy@tuta.io")[Marco Persy] + #link("https://wikibigino.miraheze.org/wiki/Pagina_principale")[
+        WikiBigino]
       #v(-0.1in)
-      #if date != none { [#align(left)[*Ultimo aggiornamento*: #date] \ ] }
+      #if date != none { [#align(left)[*Ultimo aggiornamento*: #date] \ ] }]]
       /*#if abstract != none { [\ #align(bottom)[#abstract \ ] ] }*/
-      Ciao! Questo non è il classico manuale scolastico tascabile. È il risultato di un viaggio personale attraverso lo studio, un percorso fatto di appunti, schemi e riassunti, raccolti e perfezionati nel tempo. L'obiettivo è semplice: offrire uno strumento agile, immediato e completo per affrontare con maggiore serenità l'apprendimento e il ripasso. \ \ Nonostante sia stato concepito per gli studenti, spero che possa essere utile a chiunque desideri approfondire o rinfrescare le proprie conoscenze in modo rapido ed efficace. È un concentrato di concetti chiave e nozioni essenziali, pensato per essere il tuo alleato ideale prima di una verifica, di un esame, o semplicemente per colmare una lacuna. \ \ Spero che questo lavoro possa accompagnarti nel tuo percorso di studio, rendendolo più leggero e produttivo. In bocca al lupo! \u{1F43A}
-      #v(4.65in) 
-      #align(center+bottom)[Quest'opera è distribuita con licenza "Creative Commons: Attribuzione – Non commerciale – Condividi allo stesso modo 4.0 Internazionale". \ \ #ccicon("cc-by-nc-sa", scale:2)]      
-      #if toc {[#colbreak() #text(font: sans-fonts)[#outline(indent: auto, title:"Indice", depth: 2)]]}
+      Ciao! Questo non è il classico manuale scolastico tascabile. È il risultato di un viaggio personale attraverso lo studio, un percorso fatto di appunti, schemi e riassunti, raccolti e perfezionati nel tempo. L'obiettivo è semplice: offrire uno strumento agile, immediato e completo per affrontare con maggiore serenità l'apprendimento e il ripasso. Nonostante sia stato concepito per gli studenti, spero che possa essere utile a chiunque desideri approfondire o rinfrescare le proprie conoscenze in modo rapido ed efficace. È un concentrato di concetti chiave e nozioni essenziali, pensato per essere il tuo alleato ideale prima di una verifica, di un esame, o semplicemente per colmare una lacuna. Spero che questo lavoro possa accompagnarti nel tuo percorso di studio, rendendolo più leggero e produttivo. In bocca al lupo! \u{1F43A}
+      \ \
+      Legenda dei simboli:
+      - *📌*: importante
+      - *💡*: idea
+      - *🧩*: approfondimento
+      - *❓*: quiz
+      #v(20em)       
+      #align(center+bottom)[#text(font: sans-fonts)[Quest'opera è distribuita con licenza "Creative Commons: Attribuzione – Non commerciale – Condividi allo stesso modo 4.0 Internazionale".  \ #ccicon("cc-by-nc-sa", scale:1.5) \ \ Ti piace il progetto? #link("https://ko-fi.com/persycchiotto")[*Offrimi un caffè!*] #emoji.coffee]]
+
+      #if toc {[#colbreak() #text(font: title-fonts)[#outline(indent: auto, title:"Indice", depth: 2)]]}
     ])
   }
 
@@ -183,7 +244,18 @@
   show enum: set par(spacing: 1.25em)
   show list: set par(spacing: 1.25em)
 
-  set math.equation(numbering: "(1)", supplement: none, number-align: bottom)
+  // Math reference
+  set math.equation(numbering: "1.", supplement: none, number-align: start)
+
+  // Math decimal separator is comma
+  show math.equation: it => {
+    show regex("\d+\.\d+"): it => {show ".": {","+h(0pt)}
+        it}
+    it
+  }
+
+  // Math formula is not italic
+  //show math.equation: math.upright
 
   show raw.where(block: false): box.with(
     fill: luma(95%),
@@ -201,14 +273,14 @@
   // Equation and figure references
   show ref: it => {
     if it.element != none and it.element.func() == math.equation {
-      link(it.target)[(#it)]
-    } else if it.element != none and it.element.func() == figure {
+      link(it.target)[#it]
+    } /*else if it.element != none and it.element.func() == figure {
       link(it.target)[#it.element.numbering]
-    } else {
+    }*/ else {
       it
     }
   }
-
+  
   // Font testo principale,
   set text( 
   font: serif-fonts,
@@ -218,24 +290,30 @@
 
   // Font Titolo liv. 1
   show heading.where( level: 1 ): set text(
-  font: sans-fonts,
+  font: title-fonts,
   size: 17pt,
   weight: "bold",
   style: "normal",)
 
   // Font Titolo liv. 2
   show heading.where( level: 2 ): set text(
-  font: sans-fonts,
+  font: title-fonts,
   size: 14pt,
   weight: "bold",
   style: "normal",)
 
   // Font Titolo liv. 3
   show heading.where( level: 3 ): set text(
-  font: sans-fonts,
+  font: title-fonts,
   size: 13pt,
   weight: "bold",
   style: "normal",)
+
+  // Font math
+  show math.equation: set text(size: 10pt, font: math-fonts)
+
+  // Font caption
+  show figure.caption: set text(size: 9pt, font: sans-fonts) 
 
   // Paragrafi
   set par(
@@ -253,11 +331,10 @@
       right: right-margin,
       top: 1in,
       bottom: 0.75in,
-    ),
+    ), 
     header: context { headerblock(title, authors, date, header-content) },
     footer: context { footerblock(footer-content) },
     footer-descent: 55%,
-
   )
 
   // Title block
@@ -267,38 +344,43 @@
   // Using drafting package, margin-note customization
   set-page-properties(
     margin-right: right-margin - left-margin,
-    margin-left: left-margin * 1.1,
+    margin-left: left-margin * 1.2,
   )
-  // White rectangle to hide margin dotted of the note; disabled
-  let default-rect(stroke: none, fill: none, width: auto, content) = {
-  rect(fill: none, stroke: none)[
-    #set text(9pt, font: sans-fonts)
-    #content
-  ]
-}
   set-margin-note-defaults(
-    //rect: default-rect, // Disable because of bad caption overflow
-    stroke: (paint: white, dash: "dotted",), // White to hide
+    stroke: none, 
     side: right,    
   )
 
-// Capitolo inizia in una nuova pagina
-show heading.where(level: 1): it => { pagebreak(weak: true); it }
+  // Ogni capitolo e sottocapitolo inizia in una nuova pagina
+  show heading.where(level: 1): it => { pagebreak(weak: true); it }
+  //show heading.where(level: 2): it => { pagebreak(weak: true); it }
 
-// Rimuovi numero dal capitolo o sezioni aggiungendo <senza_numero>
-show selector(<senza_numero>): set heading(numbering: none)
+  // Titoli non seguono sillabazione
+  show heading: set text(hyphenate: false)
 
-// Tabelle
-show figure: set block(breakable: true)
-show table.cell: set text(size: 8pt, font: sans-fonts)
-show table.cell.where(y: 0): set text(weight: "bold", fill: white, font: sans-fonts)
-show table.cell.where(x: 0): set text(weight: "bold")
+  // Sub e super
+  set sub(
+    typographic: false, // Force synthesized glyphs to use these settings
+    baseline: 0.2em,   // Downward shift (adjust as needed)
+  )
+  set super(
+    typographic: false, // Force synthesized glyphs to use these settings
+    baseline: -0.45em,   // Downward shift (adjust as needed)
+  )
+
+  // Rimuovi numero dal capitolo o sezioni aggiungendo <senza_numero>
+  show selector(<senza_numero>): set heading(numbering: none)
+
+  // Tabelle
+  show figure: set block(breakable: true)
+  show table.cell: set text(size: 9pt, font: sans-fonts)
+  show table.cell.where(y: 0): set text(weight: "bold", fill: white, font: sans-fonts)
+  show table.cell.where(x: 0): set text(weight: "bold")
 
   doc
 
   if bib != none { wideblock(bib) }
 }
-
 
 #let notecounter = counter("notecounter")
 /// A sidenote.
@@ -309,7 +391,7 @@ show table.cell.where(x: 0): set text(weight: "bold")
 /// - `dy: auto | length = auto` Vertical offset.
 /// - `numbered: bool = true` Insert a superscript number.
 /// - `body: content` Required. The content of the sidenote.
-#let sidenote(dy: auto, numbered: false, body) = context {
+#let sidenote(dy: -1em, numbered: false, body) = context {
   if fullwidth.get() and not numbered {
     footnote(body, numbering: _ => [])
     counter(footnote).update(n => n - 1)
@@ -320,15 +402,13 @@ show table.cell.where(x: 0): set text(weight: "bold")
       notecounter.step()
       context super(notecounter.display())
     }
-    text(size: 11pt, margin-note(
+    text(size: 9pt, font: sans-fonts, margin-note(
       if numbered {
-        text(size: 11pt, {
+        text(size: 9pt, font: sans-fonts, {
           context super(notecounter.display())
-        })
-        v(-10pt) // Move up the sidenote
+        })                
         body
       } else {
-        v(-10pt) // Move up the sidenote
         body
       },
       dy: dy,
@@ -372,7 +452,7 @@ show table.cell.where(x: 0): set text(weight: "bold")
   if fullwidth.get() {
     block(width: 100%, content)
   } else {
-    block(width: 100% + 2.25in, content)
+    block(width: 100% + 2.3in, content)
   }
 }
 
@@ -393,5 +473,20 @@ show table.cell.where(x: 0): set text(weight: "bold")
 
 #let TODO(content) = {
   align(center)[
-  #rect(fill: yellow.lighten(50%))[#content]
+  #rect(fill: silver.lighten(50%), radius: 3pt)[#text(fill:black.lighten(50%))[#emoji.warning #content]]
   ]  }
+
+// Note
+#let note(where, body) = place(
+  left + where,
+  float: true,
+  clearance: 6pt,
+  
+  rect(
+    width: 100%, 
+    fill: black.lighten(95%), 
+    radius: 3pt, 
+    inset: 1em,    
+    body
+    ),
+)

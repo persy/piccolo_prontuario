@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il neopositivismo o empirismo logico è una corrente filosofica che orienta la riflessione verso un approccio empirico-scientifico. Presso l'Università di Vienna, Schlick fonda nel 1922 il "Circolo di Vienna", che per quasi vent'anni diffonde le idee neopositiviste.
 
@@ -13,7 +13,7 @@ L'austriaco Ludwig Wittgenstein (Vienna 1889 - Cambridge 1951) inizialmente si d
 
 Rientrato a Vienna, entra in contatto con il Circolo di Vienna, un gruppo di pensatori che si ritengono affini alle idee del _Tractatus_. Tuttavia, Wittgenstein si rende conto della necessità di rivedere la sua opera e, nel 1929, consegue la laurea in filosofia presso Cambridge, dove insegnerà dal 1930 al 1947. Alla sua morte, lascia un imponente corpus di manoscritti, tra cui le _Ricerche filosofiche_ (pubblicate nel 1953) e le _Osservazioni filosofiche_ (uscite postume nel 1964).
 
-=== Il "Tractatus logico-philosophicus"
+=== Il _Tractatus logico-philosophicus_
 
 Strutturato in brevi aforismi numerati secondo un ordine gerarchico che commentano sette proposizioni principali, il _Tractatus_ viene interpretato dai neopositivisti come una critica radicale alla metafisica e una riduzione della filosofia a due tipi di proposizioni: quelle logicamente corrette (riconducibili a tautologie) e le proposizioni empiriche, ovvero verificabili intuitivamente.
 
@@ -51,38 +51,39 @@ Nel volume _Questioni di etica_ (1930), Schlick affronta il compito di chiarire 
 
 Rudolf Carnap, filosofo tedesco nato a Ronsdorf nel 1891 e deceduto a Santa Monica, California, nel 1970, fu una figura centrale nel Circolo di Vienna. Insegnò a Vienna e Praga e, nel 1935, dopo l'ascesa del nazismo, emigrò negli Stati Uniti.
 
-Nel suo lavoro del 1928, La costruzione logica del mondo, Carnap intraprese il complesso progetto di ricostruire razionalmente la realtà partendo da concetti fondamentali che rappresentano i dati immediati, ovvero le esperienze vissute ed elementari. Questi dati vengono organizzati secondo una struttura logico-formale.
+Nel suo lavoro del 1928, _La costruzione logica del mondo_, Carnap intraprese il complesso progetto di ricostruire razionalmente la realtà partendo da concetti fondamentali che rappresentano i dati immediati, ovvero le esperienze vissute ed elementari. Questi dati vengono organizzati secondo una struttura logico-formale.
 
 Con La sintassi logica del linguaggio, pubblicato nel 1934, Carnap modificò il suo approccio, abbandonando il riferimento ai dati elementari e affermando che la scienza si basa sugli "enunciati protocollari". Questi enunciati sono proposizioni elementari la cui validità risiede nell'immediata verificabilità e nel controllo intersoggettivo rigoroso. Il sapere scientifico diventa così una rete di enunciati linguistici logicamente strutturati e costruiti in maniera formale e convenzionale. Carnap introduce il principio di tolleranza della sintassi, secondo il quale non esiste un linguaggio unico valido, ma se ne possono elaborare diversi secondo regole sintattiche specifiche.
 
 Abbandonando la verificabilità come unico criterio di significatività degli enunciati, Carnap propone un approccio più flessibile: la confermabilità. Questo concetto implica una verifica empirica parziale che giustifica razionalmente la credenza nella verità di una proposizione.
 
-Negli anni successivi, con opere come Introduzione alla semantica (1942) e Significato e necessità (1947), Carnap amplia ulteriormente il proprio orizzonte teorico. Sostiene che il linguaggio non può essere concepito esclusivamente a livello formale, come nella sintassi. Deve infatti essere visto come un sistema di atti e comportamenti finalizzati alla comunicazione, dove il significato emerge in relazione all'intenzione espressiva dei soggetti, introducendo così la dimensione semantica.
-
-== In sintesi
+Negli anni successivi, con opere come _Introduzione alla semantica_ (1942) e _Significato e necessità_ (1947), Carnap amplia ulteriormente il proprio orizzonte teorico. Sostiene che il linguaggio non può essere concepito esclusivamente a livello formale, come nella sintassi. Deve infatti essere visto come un sistema di atti e comportamenti finalizzati alla comunicazione, dove il significato emerge in relazione all'intenzione espressiva dei soggetti, introducendo così la dimensione semantica.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Wittgenstein: Wittgenstein rifiuta l'interpretazione neopositivista del suo _Tractatus logico-philosophicus_, che viene letto come una riduzione della filosofia alla logica.  
 
-/ Lo scopo del "Tractatus": L'intento dell'opera è piuttosto quello di dimostrare che la formulazione dei problemi filosofici si basa su un fraintendimento della logica del linguaggio. Di conseguenza, la pretesa di esprimere valori estetici o morali conduce a proposizioni prive di senso.  
+  / Lo scopo del _Tractatus_: L'intento dell'opera è piuttosto quello di dimostrare che la formulazione dei problemi filosofici si basa su un fraintendimento della logica del linguaggio. Di conseguenza, la pretesa di esprimere valori estetici o morali conduce a proposizioni prive di senso.  
 
-/ I limiti del linguaggio: Ciò non implica una svalutazione nichilistica della metafisica o della morale: secondo Wittgenstein, ciò che è davvero essenziale non può essere detto, poiché i limiti del linguaggio coincidono con i limiti stessi del mondo.  
+  / I limiti del linguaggio: Ciò non implica una svalutazione nichilistica della metafisica o della morale: secondo Wittgenstein, ciò che è davvero essenziale non può essere detto, poiché i limiti del linguaggio coincidono con i limiti stessi del mondo.  
 
-/ Il "secondo" Wittgenstein: Proprio la riflessione sul linguaggio porta Wittgenstein a rivedere le tesi formulate nel _Tractatus_.  
+  / Il "secondo" Wittgenstein: Proprio la riflessione sul linguaggio porta Wittgenstein a rivedere le tesi formulate nel _Tractatus_.  
 
-/ I giochi linguistici: Il linguaggio, infatti, si rivela intrecciato con pratiche e significati eterogenei. Wittgenstein definisce giochi linguistici quelle famiglie di espressioni che regolano il modo in cui l'uomo comunica. La "sensatezza", che nel _Tractatus_ era riconosciuta nelle proposizioni corrispondenti ai fatti del mondo, si estende ora ai molteplici giochi linguistici che gli uomini praticano.  
+  / I giochi linguistici: Il linguaggio, infatti, si rivela intrecciato con pratiche e significati eterogenei. Wittgenstein definisce giochi linguistici quelle famiglie di espressioni che regolano il modo in cui l'uomo comunica. La "sensatezza", che nel _Tractatus_ era riconosciuta nelle proposizioni corrispondenti ai fatti del mondo, si estende ora ai molteplici giochi linguistici che gli uomini praticano.  
 
 / Schlick: All'inizio, Schlick identifica il significato di un enunciato nella sua correlazione con un fatto o un dato empirico. Dopo aver letto il _Tractatus_ di Wittgenstein, si avvicina invece alla questione delle condizioni di significanza degli enunciati e al problema della struttura e dei fondamenti della conoscenza scientifica.  
 
-/ Il principio di verificazione: Schlick formula il principio di verificazione empirica degli enunciati, riconoscendo come prive di senso gran parte delle proposizioni della filosofia tradizionale e riducendo la filosofia all'analisi del linguaggio delle proposizioni scientifiche.  
+  / Il principio di verificazione: Schlick formula il principio di verificazione empirica degli enunciati, riconoscendo come prive di senso gran parte delle proposizioni della filosofia tradizionale e riducendo la filosofia all'analisi del linguaggio delle proposizioni scientifiche.  
 
-/ L'etica: Inoltre, chiarisce i concetti etici, allo scopo di liberare anche il mondo morale da espressioni e questioni prive di significato.  
+  / L'etica: Inoltre, chiarisce i concetti etici, allo scopo di liberare anche il mondo morale da espressioni e questioni prive di significato.  
 
 / Carnap: Nel suo lavoro _La costruzione logica del mondo_, Carnap cerca di ricostruire razionalmente la realtà utilizzando concetti fondamentali derivati dai dati immediati dell'esperienza, elementi vissuti ed elementari.  
 
-/ Gli "enunciati protocollari": Successivamente abbandona l'idea di partire da questi dati elementari e afferma che il punto di partenza della scienza sono gli enunciati protocollari, proposizioni supportate da dati soggetti a rigorosi controlli intersoggettivi.  
+  / Gli "enunciati protocollari": Successivamente abbandona l'idea di partire da questi dati elementari e afferma che il punto di partenza della scienza sono gli enunciati protocollari, proposizioni supportate da dati soggetti a rigorosi controlli intersoggettivi.  
 
-/ Il principio di convenzionalità: Carnap sostiene che non esiste un unico linguaggio valido, bensì tanti sistemi linguistici quanti ne possono essere elaborati in conformità a specifiche regole sintattiche (principio di convenzionalità).  
+  / Il principio di convenzionalità: Carnap sostiene che non esiste un unico linguaggio valido, bensì tanti sistemi linguistici quanti ne possono essere elaborati in conformità a specifiche regole sintattiche (principio di convenzionalità).  
 
-/ La confermabilità: Abbandona inoltre la verificabilità come unico criterio di significanza degli enunciati, sostituendola con un criterio più flessibile: la confermabilità.  
+  / La confermabilità: Abbandona inoltre la verificabilità come unico criterio di significanza degli enunciati, sostituendola con un criterio più flessibile: la confermabilità.  
 
-/ Dalla sintassi alla semantica: Nelle opere successive Carnap liberalizza ulteriormente le sue posizioni e afferma che il linguaggio è un sistema di atti e comportamenti il cui significato si determina in relazione alle intenzioni espresse dai soggetti (semantica).  
+  / Dalla sintassi alla semantica: Nelle opere successive Carnap liberalizza ulteriormente le sue posizioni e afferma che il linguaggio è un sistema di atti e comportamenti il cui significato si determina in relazione alle intenzioni espresse dai soggetti (semantica).  

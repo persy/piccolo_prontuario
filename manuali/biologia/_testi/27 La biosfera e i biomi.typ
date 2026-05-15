@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La biosfera comprende l'intera gamma degli ambienti fisici della Terra in grado di supportare forme di vita e l'insieme di tutti gli organismi che li abitano. All'interno della biosfera si distinguono zone geografiche contraddistinte da specifici climi, vegetazioni e faune, definite biomi. Questi biomi racchiudono la totalità delle forme viventi presenti sul nostro pianeta. Le attività umane esercitano pressioni significative sulla biosfera attraverso l'introduzione di sostanze chimiche che causano inquinamento, così come mediante modifiche fisiche al territorio, tra cui la deforestazione, l'espansione delle aree urbane e industriali e l'alterazione degli equilibri idrogeologici. Per preservare gli ambienti naturali sono state istituite riserve naturali, che rappresentano una delle principali strategie di tutela del patrimonio ambientale.]
 
@@ -12,6 +12,45 @@ Si può immaginare la biosfera come una sottile pellicola di circa 20 chilometri
 La biosfera mantiene un equilibrio stazionario grazie alla sua capacità di autoregolazione. Riesce infatti a bilanciare le perdite di energia nello spazio con il continuo apporto dell'energia radiante del Sole, che le piante trasformano in materia organica mediante il processo della fotosintesi.
 
 Gli ecosistemi terrestri presentano una straordinaria varietà, ma al tempo stesso condividono elementi comuni. Tali somiglianze derivano dall'influenza di specifici fattori fisico-climatici ambientali, tra cui la disponibilità di nutrienti, energia, acqua e la temperatura media. L'effetto di questi fattori determina la suddivisione degli ecosistemi in grandi raggruppamenti omogenei, conosciuti come biomi, che costituiscono il primo livello organizzativo della biosfera.
+
+#note(bottom)[== *🧩* La fitogeografia e la zoogeografia <senza_numero>
+
+La fitogeografia, nota anche come geografia botanica, geobotanica o biogeografia vegetale, indaga sulla distribuzione delle piante sul pianeta. Tale distribuzione dipende fortemente dalle caratteristiche climatiche, con le aree climatiche che generalmente corrispondono alle zone di diffusione della vegetazione predominante. Sulla base di questa analisi, la Terra viene distinta in sei principali regioni fitogeografiche:
+- La regione oloartica comprende l'intero continente europeo, l'Asia centrosettentrionale, la Groenlandia e parte del Nord America. Al suo interno si trovano biomi quali la tundra, le foreste di conifere e le foreste di latifoglie; nelle aree meridionali è presente una fascia subtropicale caratterizzata dalla macchia mediterranea tipica delle zone costiere.
+- La regione paleotropicale si estende alle aree tropicali dell'Africa e dell'Asia, ospitando biomi dominati da foreste pluviali tropicali e savane.
+- La regione neotropicale include le aree tropicali dell'America centrale e meridionale con una prevalenza di foreste pluviali tropicali e savane.
+- La regione capense copre la parte meridionale dell'Africa sotto il deserto del Kalahari; è caratterizzata da un clima di tipo mediterraneo e da una flora altamente specializzata.
+- La regione australiana corrisponde al continente australiano, contraddistinto da una vegetazione di origine antichissima.
+- La regione antartica comprende le isole Kerguelen, Falkland/Malvine, Macquarie, oltre alla Nuova Zelanda e alla Patagonia, dove predominano licheni e un numero limitato di piante superiori.
+
+La zoogeografia studia la distribuzione degli animali sulla Terra, tenendo conto della loro evoluzione storica e delle trasformazioni geologiche avvenute nel tempo. Essa suddivide il pianeta in sei regioni zoogeografiche per le terre emerse, ciascuna caratterizzata da una relativa omogeneità nelle comunità faunistiche terrestri, in particolare uccelli e mammiferi. Contrariamente agli ecosistemi terrestri, la fauna marina segue una suddivisione più limitata a causa della maggiore capacità di dispersione delle specie acquatiche; sono infatti riconosciute quattro regioni principali: tropicale, boreale, antiboreale e polare.
+
+#figure(
+  caption: [Le regioni biogeografiche],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+  fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[Regione][Fauna caratteristica],
+  [Neartica], [Capra delle nevi, antilocapra, caribù, ondatra],
+  [Paleartica], [Erinaceidi, cinghiale comune, daino comune, capriolo], 
+  [Indo-malese], [Tarsidi, macaco, gibbone, orango, elefante indiano, gallo bankiva, pavone crestato], 
+  [Neotropica], [Guanaco, vigogna, alpaca, pecari, bradipi, armadilli, formichieri, cavie, vampiri, nandù, tucani e colibr],
+  [Etiopica o \ paleotropica], [Gorilla, scimpanzé, elefante africano, rinoceronte bianco, rinoceronte nero, leone, zebra, giraffa, struzzo, serpentario, lemuri (Madagascar)],
+  [Australiana], [Tutti i monotremi (echidna, ornitorinco ecc.), marsupiali (ma assenza dei mammiferi placentati tranne roditori e pipistrelli), emù, casuari, uccelli del paradiso]
+)  
+)]
 
 == I biomi
 
@@ -91,7 +130,7 @@ Il dominio oceanico, o mare aperto, si suddivide ulteriormente secondo la profon
 
 Il dominio oceanico è considerato meno produttivo rispetto ad altre zone marine e viene spesso paragonato a un deserto terrestre. La scarsa concentrazione di sali minerali impedisce lo sviluppo di fitoplancton in grandi quantità e, di conseguenza, limita l'abbondanza delle comunità marine. Nonostante ciò, vi abitano alcune specie di grandi pesci pelagici, come squali, pesci spada e tonni.
 
-Le aree delle profondità oceaniche più ricche in termini di biodiversità sono le zone di risalita o “risorgenza”, dove le correnti verticali riportano i nutrienti accumulati sul fondo verso la zona fotica. Di particolare interesse ecologico sono anche le comunità dei "camini" vulcanici sottomarini (black smokers), sorgenti che emettono acqua calda ricca di zolfo e sali minerali. Nonostante si trovino a grandi profondità, queste sorgenti ospitano sorprendenti comunità: solfobatteri chemiosintetici che fungono da produttori primari, anellidi, anemoni di mare, piccoli granchi ciechi, mitili e pesci rosati.
+Le aree delle profondità oceaniche più ricche in termini di biodiversità sono le zone di risalita o "risorgenza", dove le correnti verticali riportano i nutrienti accumulati sul fondo verso la zona fotica. Di particolare interesse ecologico sono anche le comunità dei "camini" vulcanici sottomarini (black smokers), sorgenti che emettono acqua calda ricca di zolfo e sali minerali. Nonostante si trovino a grandi profondità, queste sorgenti ospitano sorprendenti comunità: solfobatteri chemiosintetici che fungono da produttori primari, anellidi, anemoni di mare, piccoli granchi ciechi, mitili e pesci rosati.
 
 === Gli ambienti di acqua dolce
 
@@ -120,7 +159,7 @@ L'inquinamento può essere definito come il complesso di alterazioni inflitte al
 Le sostanze inquinanti hanno un impatto negativo sull'ambiente sia per la loro tossicità intrinseca sia per le quantità che superano la capacità di autodepurazione degli ecosistemi. Questi agenti contaminanti derivano da sottoprodotti dell'industria (energia, beni di consumo), dall'agricoltura (fertilizzanti, pesticidi, scarti animali) e dai rifiuti biologici civili.
 
 Le cause principali dell'inquinamento includono molteplici fattori interconnessi, tra cui l'aumento della popolazione, la crescente urbanizzazione e la conseguente domanda di beni di consumo. Gli effetti di un inquinamento continuo e non regolamentato si ripercuotono sulla crescita e sulla salute delle specie viventi, interferendo con le reti alimentari e, sommati alla distruzione degli habitat, minano progressivamente l'integrità della biosfera a livello di atmosfera, acqua e suolo.
- 
+
 === Inquinamento atmosferico
 
 In merito all'inquinamento atmosferico, i principali responsabili sono i sottoprodotti della combustione di combustibili fossili come petrolio, carbone e gas naturale. A questi si aggiungono pratiche dannose quali gli incendi appiccati per il disboscamento, una problematica ancora prevalente in alcuni paesi in via di sviluppo (esempio emblematico è l'incendio delle foreste indonesiane nell'autunno del 1997). Tra le fonti primarie di emissioni dannose troviamo gli impianti di riscaldamento domestico, i motori a combustione interna dei veicoli, gli stabilimenti industriali termici, le centrali termoelettriche e gli inceneritori di rifiuti solidi. Questi rilasciano nell'atmosfera diversi inquinanti come anidride carbonica, monossido di carbonio, biossido di zolfo, ossidi di azoto, piombo, particelle sospese e idrocarburi.
@@ -137,7 +176,6 @@ Nell'atmosfera terrestre, gli inquinanti gassosi possono subire processi chimici
 
 Nella troposfera, alcuni composti chimici possono essere soggetti a ossidazioni fotochimiche indotte dalla luce solare, dando origine a una serie di reazioni che culminano nella formazione dello smog fotochimico. Questo fenomeno è principalmente legato alle emissioni automobilistiche di ossidi d'azoto e idrocarburi ed è accentuato in condizioni meteorologiche caratterizzate da inversione termica, situazione in cui la temperatura atmosferica aumenta con l'altitudine, ostacolando il naturale rimescolamento dell'aria e favorendo l'accumulo di inquinanti a basse quote. Tra gli effetti dello smog fotochimico si annovera l'incremento della concentrazione di ozono nell'atmosfera prossima al suolo, dove risulta altamente tossico, nonché la formazione di nebbie costituite da minuscole goccioline derivate dalla condensazione di composti organici poco volatili. Gli impatti sulla salute umana comprendono irritazioni oculari, danni alle vie respiratorie e disturbi alla gola.
 
-#wideblock[
 #figure(
   caption: [I principali inquinanti atmosferici],
   table(
@@ -168,8 +206,7 @@ Nella troposfera, alcuni composti chimici possono essere soggetti a ossidazioni 
   [Idrocarburi], [Processi di combustione incompleta, in particolare nei veicoli; raffinerie di petrolio; manipolazione di combustibili e solventi; evaporazione di idrocarburi volatili], [Contribuiscono alla formazione dello smog fotochimico],
 )  
 )
-]
- 
+
 === L'inquinamento delle acque
 
 Nel ciclo idrologico, l'acqua subisce diversi tipi di inquinamento. Alcuni derivano dall'immissione diretta di sostanze contaminanti, mentre altri sono causati dall'ingresso indiretto di inquinanti nell'acqua tramite l'atmosfera, come nel caso delle piogge acide, o dal suolo.
@@ -188,7 +225,6 @@ Il petrolio rappresenta l'inquinante marino più comune, principalmente a causa 
 
 L'inquinamento termico delle acque costituisce un ulteriore problema. Esso è causato dall'uso crescente dell'acqua nei processi di raffreddamento industriali, in particolare nelle centrali termoelettriche e nucleari. L'acqua, una volta riscaldata durante questi processi, viene reimmessa nei corsi d'acqua o nei bacini lacustri. L'aumento della temperatura dell'acqua riduce la sua capacità di disciogliere ossigeno e accelera la crescita degli organismi acquatici, favorendo in modo esponenziale i processi di eutrofizzazione. Gli effetti più gravi si verificano quando si registrano improvvisi abbassamenti della temperatura, causando il cosiddetto "stress freddo" nei animali adattati a un ambiente più caldo. Questo stress può anche risultare mortale.
 
-#wideblock[
 #figure(
   caption: [Fonti dei principali inquinanti delle acque],
   table(
@@ -212,7 +248,6 @@ L'inquinamento termico delle acque costituisce un ulteriore problema. Esso è ca
   [Effluenti agricoli], [Provengono dallo smaltimento delle deiezioni animali di allevamenti (soprattutto suini) non impiegate come fertilizzanti naturali. A questi si aggiungono i fertilizzanti chimici e gli antiparassitari che, influenzati dalla pioggia, possono essere trasportati nei corsi d'acqua superficiali o infiltrarsi nel suolo fino a contaminare la falda acquifera, compromettendo l'acqua potabile.  ],
 )  
 )
-]
 
 === L'inquinamento del suolo
 
@@ -225,48 +260,9 @@ Tra gli effetti più rilevanti si annoverano l'accumulo di sostanze inquinanti a
 La biosfera possiede la capacità di mantenere un equilibrio globale; tuttavia, l'intervento antropico spesso agisce con una rapidità superiore rispetto alla capacità naturale di ristabilire tale equilibrio. Sebbene risulti impraticabile eliminare le azioni umane sul territorio, un approccio sostenibile mira a minimizzarne gli effetti nocivi attraverso una gestione oculata delle risorse ambientali, la protezione delle specie a rischio di estinzione e la salvaguardia degli habitat naturali.
 
 La preservazione della natura non si affida esclusivamente alla responsabilità individuale, ma coinvolge anche organizzazioni internazionali e istituzioni dedicate alla conservazione del territorio, come le riserve naturali.
+
 #pagebreak()
-== Approfondimento: la fitogeografia e la zoogeografia <senza_numero>
-
-La fitogeografia, nota anche come geografia botanica, geobotanica o biogeografia vegetale, indaga sulla distribuzione delle piante sul pianeta. Tale distribuzione dipende fortemente dalle caratteristiche climatiche, con le aree climatiche che generalmente corrispondono alle zone di diffusione della vegetazione predominante. Sulla base di questa analisi, la Terra viene distinta in sei principali regioni fitogeografiche:
-- La regione oloartica comprende l'intero continente europeo, l'Asia centrosettentrionale, la Groenlandia e parte del Nord America. Al suo interno si trovano biomi quali la tundra, le foreste di conifere e le foreste di latifoglie; nelle aree meridionali è presente una fascia subtropicale caratterizzata dalla macchia mediterranea tipica delle zone costiere.
-- La regione paleotropicale si estende alle aree tropicali dell'Africa e dell'Asia, ospitando biomi dominati da foreste pluviali tropicali e savane.
-- La regione neotropicale include le aree tropicali dell'America centrale e meridionale con una prevalenza di foreste pluviali tropicali e savane.
-- La regione capense copre la parte meridionale dell'Africa sotto il deserto del Kalahari; è caratterizzata da un clima di tipo mediterraneo e da una flora altamente specializzata.
-- La regione australiana corrisponde al continente australiano, contraddistinto da una vegetazione di origine antichissima.
-- La regione antartica comprende le isole Kerguelen, Falkland/Malvine, Macquarie, oltre alla Nuova Zelanda e alla Patagonia, dove predominano licheni e un numero limitato di piante superiori.
-
-La zoogeografia studia la distribuzione degli animali sulla Terra, tenendo conto della loro evoluzione storica e delle trasformazioni geologiche avvenute nel tempo. Essa suddivide il pianeta in sei regioni zoogeografiche per le terre emerse, ciascuna caratterizzata da una relativa omogeneità nelle comunità faunistiche terrestri, in particolare uccelli e mammiferi. Contrariamente agli ecosistemi terrestri, la fauna marina segue una suddivisione più limitata a causa della maggiore capacità di dispersione delle specie acquatiche; sono infatti riconosciute quattro regioni principali: tropicale, boreale, antiboreale e polare.
-
-#wideblock[
-#figure(
-  caption: [Le regioni biogeografiche],
-  table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
-  fill: (x, y) => {
-  if y == 0 {
-    return main_scienze // Colore header
-  } else if calc.even(y) {
-    // Colore righe dispari
-    return main_scienze.lighten(90%)
-  } else {
-    // Colore righe pari
-    return white
-  }
-  },
-  align: left + horizon,
-  columns: (2),
-  table.header[Regione][Fauna caratteristica],
-  [Neartica], [Capra delle nevi, antilocapra, caribù, ondatra],
-  [Paleartica], [Erinaceidi, cinghiale comune, daino comune, capriolo], 
-  [Indo-malese], [Tarsidi, macaco, gibbone, orango, elefante indiano, gallo bankiva, pavone crestato], 
-  [Neotropica], [Guanaco, vigogna, alpaca, pecari, bradipi, armadilli, formichieri, cavie, vampiri, nandù, tucani e colibr],
-  [Etiopica o \ paleotropica], [Gorilla, scimpanzé, elefante africano, rinoceronte bianco, rinoceronte nero, leone, zebra, giraffa, struzzo, serpentario, lemuri (Madagascar)],
-  [Australiana], [Tutti i monotremi (echidna, ornitorinco ecc.), marsupiali (ma assenza dei mammiferi placentati tranne roditori e pipistrelli), emù, casuari, uccelli del paradiso]
-)  
-)
-]
-
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Benton o benthos: Comunità di organismi animali e vegetali che abitano il fondo marino o acquatico, suddivise in fitobenton (alghe e batteri) e zoobenton (animali).  

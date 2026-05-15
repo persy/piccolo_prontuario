@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Nietzsche è il filosofo che, in nome della vita, si impegna in una trasvalutazione di tutti i valori, rifiutando di rimanere intrappolato nel nichilismo che aveva smascherato senza pietà, insieme ai valori tradizionali. 
 
@@ -8,7 +8,11 @@ Il suo progetto costruttivo, tuttavia, non è stato compiuto o è stato spesso f
 Il suo contributo ha influenzato, oltre a gran parte degli indirizzi filosofici del Novecento, molti ambiti diversi, dalla letteratura alla musica, dalla pittura e dall'arte espressionista alla riflessione sociologica. La sua teoria della volontà di potenza è stata perfino distorta in chiave politico-ideologica, snaturandone il senso originario.]
 
 == La vita
+#note(bottom)[/ Apollineo e dionisiaco: Nella grecità antica, lo spirito umano è profondamente segnato dal contrasto tra due impulsi fondamentali: l'apollineo e il dionisiaco. Quest'ultimo dualismo si riflette nella dialettica che permea l'intera cultura umana. L'apollineo incarna l'ideale di armonia e ordine, rappresentando il principio solare della forma equilibrata, mentre il dionisiaco descrive la forza vitale del caos e dell'ebbrezza creativa. Questi due impulsi costituiscono anche le fondamenta dell'esperienza artistica, dove confluiscono e si intrecciano per generare creazioni profonde e poliedriche.
 
+/ Eterno ritorno: Questa concezione nega una visione lineare e teleologica del tempo, proponendo invece una prospettiva in cui ogni singolo istante possiede pieno significato e valore intrinseco. L'idea dell'eterno ritorno invita così l'essere umano ad accettare e ad amare la vita nella sua interezza, accogliendola con un atteggiamento di continua affermazione, nonostante la ripetitività ciclica che la caratterizza.
+
+]
 Friedrich Wilhelm Nietzsche (Roecken, Luetzen, 1844 - Weimar, 1900), figlio di un pastore protestante, frequentò le università di Bonn e di Lipsia. Giovanissimo, ottenne una cattedra di filologia classica presso l'università di Basilea. 
 
 Questo nuovo incarico gli diede l'opportunità di stringere un legame culturale e personale intenso con Richard e Cosima Wagner; un rapporto che si concluse bruscamente quando Nietzsche individuò in Wagner elementi decadenti e inclinazioni antisemite. 
@@ -36,7 +40,11 @@ Questi temi vengono ulteriormente ampliati nelle _Considerazioni inattuali_, in 
 In contrapposizione a tale prospettiva, Nietzsche esalta il valore della dimenticanza e del sentire "in modo non storico", necessari per favorire la vita e la felicità. Essere veramente storici significa diventare creatori di una storia nuova, non una semplice ripetizione del passato. Questo richiede l'adozione di un atteggiamento antistorico e sovrastorico, capace di aprire spazi per una rinnovata creatività umana.
 
 == Il metodo genealogico
+#note(bottom)[/ Nichilismo: Il nichilismo europeo, secondo Nietzsche, si configura come una svalutazione radicale di tutti i valori tradizionali, esacerbata dalla predominanza millenaria della morale cristiana. Quest'ultima, imponendosi come unica chiave interpretativa dell'esistenza, ha privato il mondo di un senso autentico, conducendo a uno stato di svuotamento e decadenza. Tuttavia, al nichilismo passivo e rinunciatario di tale tradizione, Nietzsche oppone un nichilismo attivo: una forza dirompente che smaschera l'inconsistenza dei valori tradizionali per promuovere la creazione di nuovi significati, in linea con l'idea di trasvalutazione dei valori.
 
+/ Risentimento: Il risentimento rappresenta il sentimento dominante di colui che, incapace di creare prospettive alternative e di superare le proprie sofferenze, rifiuta la realtà della vita. Questa condizione interiore si esprime in un atteggiamento ostile e in uno sterile "no" all'esistenza. L'uomo mosso dal risentimento cerca rifugio nella cosiddetta morale degli schiavi, caratterizzata dal rancore verso ciò che gli è inaccessibile e dalla difesa utilitaristica delle qualità collettive del "gregge".
+
+/ Oltreuomo: L'oltreuomo è la figura simbolica che incarna l'evoluzione della condizione umana attraverso l'affermazione della vita. Accettando pienamente il flusso dinamico dell'essere, l'oltreuomo si impegna a edificare un'esistenza ricca di significato, accogliendo ogni attimo con entusiasmo e determinazione. In quanto espressione suprema della fedeltà alla terra e dello spirito dionisiaco, l'oltreuomo rappresenta una risposta al pessimismo del nichilismo passivo, favorendo il superamento dell'uomo decadente.]
 Con _Umano, troppo umano. Un libro per spiriti liberi_ (1878), Nietzsche si distacca sia da Schopenhauer che da Wagner e intraprende il cammino del chiarimento logico-scientifico, inteso come "storia della genesi del pensiero". 
 
 Esplorando l'origine delle rappresentazioni del mondo, egli propone "una chimica delle idee e dei sentimenti morali, religiosi ed estetici", dimostrando che "anche in questo ambito i colori più splendidi nascono da materiali molto umili e persino disprezzati", come ad esempio il razionale derivato dall'irrazionale, la logica dall'illogico, il disinteresse dalla brama, l'altruismo dall'egoismo e la verità dagli errori. 
@@ -54,7 +62,9 @@ Nei primi quattro libri de _La gaia scienza_ (1882), Nietzsche critica radicalme
 Questa modalità interpretativa permette di descrivere il divenire nella successione delle sue immagini, ma non consente di coglierne gli aspetti qualitativi. Inoltre, frammenta il flusso degli eventi in elementi isolati, limitando una comprensione più profonda dell'essenza del loro accadere.
 
 == Eterno ritorno, superuomo, volontà di potenza
+#note(bottom)[/ Trasvalutazione di tutti i valori: La trasvalutazione costituisce il processo attraverso cui l'oltreuomo si libera dai vincoli del nichilismo radicato nella morale cristiana e religiosa in generale. Questo atto consiste nell'affermare nuovi valori che celebrano la vita in tutte le sue manifestazioni, incluse quelle più crude e difficili da accettare, perseguendo un'accettazione gioiosa dell'esistenza così com'è.
 
+/ Volontà di potenza: La volontà di potenza rappresenta l'essenza stessa della vita: un impulso primigenio, non razionale e privo di direzione univoca. Essa si manifesta come una forza creatrice che si autoafferma incessantemente, esprimendo il desiderio fondamentale di espansione e autodeterminazione. La volontà non si limita a perseguire fini esterni, ma si realizza come un atto di autoaffermazione del proprio potenziale vitale.]
 In _Così parlò Zarathustra_ (1883-85), Nietzsche affronta la sfida di ripensare l'uomo e il mondo in seguito alla secolarizzazione della cultura e della società, un momento segnato dalla morte di Dio, evento di cui siamo noi stessi responsabili, benché incapaci di coglierne la portata e, soprattutto, di trarne le dovute conseguenze. L'annullamento delle "vecchie tavole" di valori diventa così un passaggio essenziale. 
 
 Con il nichilismo, i valori della tradizione platonico-cristiana, abituati a porre un aldilà dietro il mondo sensibile, si dissolvono. Zarathustra, proponendosi come guida, insegna a rimanere "fedeli alla terra", servendo il senso del mondo attraverso una rinnovata creatività nello spirito, nella virtù e nei valori. Tuttavia, stabilire un nuovo senso per la terra non significa attribuirle uno scopo o una meta centrale. Zarathustra rifiuta una razionalità che tenta di imporre ordini dall'esterno e celebra invece l'affrancamento da ogni vincolo a una volontà estrinseca: le cose, infatti, danzano libere "sui piedi del caso".
@@ -66,8 +76,9 @@ Dalle ceneri del nichilismo radicale traspare l'intento costruttivo di Nietzsche
 In _Al di là del bene e del male_ (1886) e nella _Genealogia della morale_ (1887), Nietzsche approfondisce ulteriormente la sua critica ai valori tradizionali della cultura europea. Nella _Genealogia della morale_, in particolare, egli stigmatizza la morale platonico-cristiana, fondata su compassione, umiltà, rassegnazione e uguaglianza che livella verso il basso. Questa viene definita morale degli schiavi, che rinuncia alla vita e nutre risentimento verso le virtù aristocratiche come magnanimità, coraggio, eccedenza e generosità.
 
 Molti scritti successivi di Nietzsche, raccolti arbitrariamente dalla sorella Elisabeth con intenti condizionati dalle sue simpatie razziste e autoritarie sotto il titolo _Volontà di potenza_ (1901), hanno purtroppo contribuito a distorcere il pensiero originale del filosofo.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / La nascita della tragedia: In _La nascita della tragedia dallo spirito della musica_, Nietzsche critica il carattere unilaterale e riduttivo della cultura tedesca del suo tempo, definita "teoretica", in quanto tende a subordinare l'arte al concetto, trascurando la connessione tra l'impulso apollineo e quello dionisiaco.
 

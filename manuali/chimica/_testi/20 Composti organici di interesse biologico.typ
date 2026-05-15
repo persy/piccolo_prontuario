@@ -1,5 +1,6 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+#import "_variabili.typ" : * // Variabili
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Alcune categorie di composti organici rivestono un ruolo essenziale per gli organismi viventi. Essi formano i costituenti chimici delle cellule e permettono il funzionamento di numerosi processi biologici. Tra i composti organici di rilevanza biologica – definiti anche biomolecole – troviamo i glucidi (zuccheri), i lipidi, le proteine e gli acidi nucleici (DNA e RNA). Queste molecole sono generalmente caratterizzate da una struttura complessa che permette loro di svolgere funzioni vitali.]
 
@@ -19,15 +20,66 @@ I glucidi, noti anche come carboidrati, sono formati da carbonio, idrogeno e oss
 
 I monosaccaridi, chiamati anche zuccheri semplici, non possono essere ulteriormente suddivisi attraverso idrolisi. Sono costituiti da catene composte da 3, 4, 5 o 6 atomi di carbonio, e vengono denominati rispettivamente triosi, tetrosi, pentosi o esosi. Ciascun atomo di carbonio porta un gruppo alcolico (—OH), ad eccezione di uno che fa parte di un gruppo aldeidico (—CHO) oppure chetonico. Nel primo caso il monosaccaride viene classificato come aldoso, mentre nel secondo come chetoso. Ad esempio, un monosaccaride con 6 atomi di carbonio può essere definito aldoesoso o chetoesoso.
 
+$
+  mark(#d_glucosio, tag: #<1>) quad quad  #h(5em) 
+  mark(#d_fruttosio, tag: #<2>)  
+
+  #annot(<1>)[#align(center)[D-glucosio (aldoesoso)]]
+  #annot(<2>)[#align(center)[D-fruttosio (chetoesoso)]]
+$
+
 Ogni monosaccaride ha almeno un centro chirale, ossia un atomo di carbonio legato a quattro gruppi diversi (indicato con C\*). Questo permette l'esistenza di più stereoisomeri, distinguibili in destrogiri e levogiri. I monosaccaridi sono ulteriormente classificati nelle serie D e L, a seconda della posizione del gruppo —OH legato al penultimo atomo di carbonio: se il gruppo —OH è orientato a destra rispetto alla catena si tratta della serie D; a sinistra appartiene alla serie L. Ad esempio, due tipi comuni di monosaccaridi sono il D-glucosio e il D-fruttosio.
 
-In soluzione acquosa, i monosaccaridi contenenti 5 o 6 atomi di carbonio tendono a formare cicli chiusi ad anello attraverso un processo noto come mutarotazione. In tale condizione coesistono due forme cicliche denominate α e β, determinate dalla posizione del gruppo —OH sul carbonio C1. Queste due varianti hanno poteri diversi nella rotazione del piano della luce polarizzata e sono classificate come diastereoisomeri.
+$ #h(19em)
+  mark(#d_glucosio_chiusura, tag: #<1>) #text(size: 1.5em)[\u{21C4}]
+  mark(#alfad_glucosio, tag: #<2>) #text(size: 1.5em)[\u{21C4}]
+  mark(#betad_glucosio, tag: #<3>)
+
+
+  #annot(<1>)[#align(center)[chiusura dell'anello \ D-glucosio]]
+  #annot(<2>)[#align(center)[α-D-glucosio]]
+  #annot(<3>)[#align(center)[β-D-glucosio]]  
+$
+#v(1em)
+
+Le forme D e L dello stesso monosaccaride sono enantiomeri. In soluzione acquosa, i monosaccaridi contenenti 5 o 6 atomi di carbonio tendono a formare cicli chiusi ad anello attraverso un processo noto come mutarotazione. In tale condizione coesistono due forme cicliche denominate α e β, determinate dalla posizione del gruppo —OH sul carbonio C1. Queste due varianti hanno poteri diversi nella rotazione del piano della luce polarizzata e sono classificate come diastereoisomeri.
 
 Tra i monosaccaridi più rilevanti troviamo il ribosio e il desossiribosio (entrambi aldopentosi), che costituiscono gli acidi nucleici. Il glucosio, un aldoesoso, rappresenta la principale fonte energetica per tutti gli organismi viventi. Il fruttosio è largamente presente nella natura, specialmente nella frutta. Altri monosaccaridi comuni, come il galattosio, si trovano spesso combinati in disaccaridi.
+
+#note(bottom)[== *🧩* Il glucosio <senza_numero>
+
+Il glucosio, noto anche come destrosio per la sua capacità di deviare il piano della luce polarizzata verso destra, è essenziale nei processi di fermentazione e respirazione cellulare, dove viene utilizzato per produrre molecole altamente energetiche, come l'ATP (adenosintrifosfato), che rappresentano una riserva energetica per l'organismo.
+
+Solo gli organismi fotosintetici (piante, alghe azzurre e alcuni batteri), detti autotrofi, sono in grado di sintetizzare il glucosio. Negli animali, i carboidrati ingeriti vengono convertiti in glucosio durante la digestione. Questo può essere immediatamente impiegato nella respirazione cellulare per essere eliminato come CO#sub[2] dai polmoni oppure immagazzinato: prevalentemente sotto forma di trigliceridi nel tessuto adiposo o, in misura minore, come glicogeno nel fegato e nei muscoli.]
 
 === Disaccaridi
 
 I disaccaridi originano dal processo di condensazione tra due molecole di monosaccaridi in forma ciclica, con conseguente eliminazione di una molecola d'acqua. Il legame che si instaura tra i monosaccaridi è denominato legame glicosidico, costituito da un ponte di ossigeno che collega i due monosaccaridi. Tra i disaccaridi più rilevanti si annoverano il saccarosio, il maltosio e il lattosio.
+
+#figure(
+  caption: [I principali disaccaridi.],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (3),
+  table.header[Nome][Struttura][Caratteristiche],
+  [saccarosio],	[glucosio + fruttosio],	[È il comune zucchero da tavola, ricavato dalla barbabietola o dalla canna da zucchero],
+  [maltosio],	[glucosio + glucosio],	[Si forma durante la germinazione dell'orzo per idrolisi incompleta dell'amido ad opera dell'enzima diastasi],
+  [lattosio],	[galattosio + glucosio],	[Presente nel latte (circa 45 g/l nel latte di mucca)]
+)  
+)
+
 
 === Polisaccaridi
 
@@ -39,7 +91,15 @@ La cellulosa è composta da catene lineari di β-glucosio e rappresenta il compo
 
 Il glicogeno, invece, è composto da catene ramificate di α-glucosio e rappresenta il polisaccaride di riserva degli animali. È particolarmente concentrato nel fegato e nei muscoli, dove funge da riserva energetica.
 
-=== I lipidi
+#note(bottom)[== *🧩* Gli enzimi <senza_numero>
+
+Gli enzimi sono proteine che funzionano come catalizzatori biologici, accelerando le reazioni biochimiche che avvengono all'interno delle cellule, sia quelle di sintesi che di demolizione. Grazie a questi catalizzatori, la velocità delle reazioni aumenta fino a un milione di volte. Ogni enzima è altamente specifico per una determinata reazione o per gruppi di reazioni affini.
+
+Molti enzimi diventano attivi solo se associati a uno specifico coenzima, come uno ione metallico o una struttura organica complessa, solitamente una vitamina. In tali casi, la componente proteica dell'enzima viene definita apoenzima. La produzione degli enzimi è regolata dai geni.
+
+L'attività catalitica degli enzimi dipende da una porzione precisa della molecola detta sito attivo, che interagisce con il substrato (ovvero le molecole da trasformare) attraverso legami deboli. Questi legami sono possibili grazie alla disposizione specifica degli atomi nel sito attivo.]
+
+== I lipidi
 
 I lipidi sono una categoria di composti caratterizzati da una grande eterogeneità chimica e strutturale. L'aspetto comune a tutti i lipidi risiede nella loro insolubilità in acqua e nella solubilità in solventi apolari, una proprietà conferita dalla presenza di lunghe catene idrocarburiche nelle loro molecole.
 
@@ -54,6 +114,22 @@ Questi composti rivestono un ruolo di primaria importanza sia in ambito alimenta
 Gli acidi grassi possono essere classificati come saturi (privi di doppi legami) o insaturi (caratterizzati dalla presenza di uno o più doppi legami). I trigliceridi composti prevalentemente da acidi grassi saturi sono solidi a temperatura ambiente e vengono comunemente indicati come "grassi" (ad esempio il burro, il sego, il lardo). Al contrario, quelli contenenti una maggiore quantità di acidi mono o polinsaturi sono liquidi e vengono denominati "oli".
 
 In presenza di soluzioni alcaline, i trigliceridi subiscono un processo di idrolisi noto come saponificazione. Questo meccanismo porta alla formazione di glicerolo e sali alcalini degli acidi grassi chiamati saponi.
+#v(1em)
+$ #h(3.5em)
+  mark(#glicerolo_struttura, tag: #<1>)
+  quad + quad
+  mark(#acidi_grassi, tag: #<2>)
+  quad --> quad
+  mark(#trigliceride_struttura, tag: #<3>)
+  quad + quad
+  mark(3 "H"_2"O", tag: #<4>)
+
+  #annot(<1>, dy: .3em)[#align(center)[glicerolo]]
+  #annot(<2>, dy: -0.5em)[#align(center)[acidi \ carbossilici]]
+  #annot(<3>, dy: -0.5em)[#align(center)[trigliceride]]
+  #annot(<4>)[#align(center)[acqua]]
+  
+$
 
 === Cere
 
@@ -75,22 +151,108 @@ Le proteine sono macromolecole con massa molecolare elevata, derivanti dall'unio
 
 Si definisce proteina quando la massa molecolare relativa supera le 10.000 unità. Al di sotto di tale valore, si parla invece di polipeptidi. La reazione inversa alla formazione delle proteine è detta idrolisi: in essa si verifica la scissione delle proteine negli amminoacidi costituenti, processo che avviene ad esempio durante la digestione.
 
+$ #h(14em)
+  mark(#amminoacido1, tag: #<1>)
+  +
+  mark(#amminoacido2, tag: #<2>)
+  -->
+  mark(#legame_peptidico, tag: #<3>)
+  +
+  mark("H"_2"O", tag: #<4>)
+
+  #annot(<1>)[#align(center)[amminoacido]]
+  #annot(<2>)[#align(center)[amminoacido]]
+  #annot(<3>)[#align(center)[legame peptidico]]
+  #annot(<4>)[#align(center)[acqua]]
+  
+$
+#v(1em)
 === Struttura delle proteine
 
 Le proteine possiedono quattro livelli distinti di organizzazione spaziale:
-
-struttura primaria: determinata dalla sequenza specifica degli amminoacidi nella catena polipeptidica,
-struttura secondaria: configurazione della catena sotto forma di elica o, in alcuni casi, foglio pieghettato; è stabilizzata da numerosi legami a idrogeno tra amminoacidi vicini,
-struttura terziaria: formatasi grazie al ripiegamento su sé stessa della catena polipeptidica causato dall'interazione tra legami intramolecolari,
-struttura quaternaria: caratteristica delle proteine multimeriche, ovvero formate da più sub-unità polipeptidiche; descrive l'organizzazione spaziale delle sub-unità. Un esempio è l'emoglobina del sangue, composta da quattro sub-unità distinte.
++ struttura primaria: determinata dalla sequenza specifica degli amminoacidi nella catena polipeptidica,
++ struttura secondaria: configurazione della catena sotto forma di elica o, in alcuni casi, foglio pieghettato; è stabilizzata da numerosi legami a idrogeno tra amminoacidi vicini,
++ struttura terziaria: formatasi grazie al ripiegamento su sé stessa della catena polipeptidica causato dall'interazione tra legami intramolecolari,
++ struttura quaternaria: caratteristica delle proteine multimeriche, ovvero formate da più sub-unità polipeptidiche; descrive l'organizzazione spaziale delle sub-unità. Un esempio è l'emoglobina del sangue, composta da quattro sub-unità distinte.
 
 Quando la temperatura supera i 70 °C circa o l'ambiente risulta particolarmente acido o basico, i legami deboli che stabilizzano le strutture secondarie, terziarie e quaternarie tendono a rompersi. Questo fenomeno, noto come denaturazione, comporta la perdita della funzionalità biologica della proteina.
+
+#figure(
+  caption: [Amminoacidi naturali.],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[Nome][Sigla],
+  [alanina], [ala],
+  [arginina#footnote[Amminoacido essenziale]<amminoacido>], [arg],
+  [asparagina], [asn],
+  [aspartico, acido], [asp],
+  [cisteina], [cys],
+  [fenilalanina#footnote(<amminoacido>)], [phe],
+  [glicina], [gly],
+  [glutammico, acido], [glu],
+  [idrossiprolina], [hy-pro],
+  [isoleucina], [ile],
+  [istidina#footnote(<amminoacido>)], [his],
+  [leucina#footnote(<amminoacido>)], [leu],
+  [lisina#footnote(<amminoacido>)], [lys],
+  [metionina#footnote(<amminoacido>)], [met],
+  [prolina], [pro],
+  [serina], [ser],
+  [tirosina], [tyr],
+  [treonina#footnote(<amminoacido>)], [thr],
+  [triptofano#footnote(<amminoacido>)], [try],
+  [valina#footnote(<amminoacido>)], [val],
+)  
+)
+
 
 === Classificazione e funzione delle proteine
 
 Le proteine si dividono in due grandi categorie: proteine semplici e proteine complesse o coniugate. Le proteine semplici sono costituite esclusivamente da amminoacidi, mentre quelle complesse includono anche molecole di natura diversa, generalmente a basso peso molecolare, chiamate gruppi prostetici. Le proteine semplici si suddividono ulteriormente in due sottoclassi:
 le proteine globulari, solubili in acqua, come l'albumina (contenuta nel bianco d'uovo), le proteine del sangue e alcuni enzimi;
 le proteine fibrose, o strutturali, che contribuiscono alla formazione delle strutture degli organismi, tra cui il collagene (presente nella pelle e nei tessuti connettivi) e la cheratina (componente delle unghie e dei capelli).
+
+#set figure.caption(position: bottom)
+#figure(
+  caption: [Principali funzioni delle proteine.],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (3),
+  table.header[Proteine][Funzione][Esempi],
+[nucleoproteine],[organizzazione del DNA nei cromosomi], [istoni, protamine],
+[glicoproteine],[difesa immunitaria], [anticorpi o immunoglobuline],
+[lipoproteine],[trasporto di lipidi nel sangue],  [],
+[ormoni],[regolazione endocrina dell'attività di tessuti e organi], [insulina, adenocorticotropo, vasopressina, testosterone],
+[proteine strutturali],[supporto meccanico; movimento muscolare, movimento di ciglia e flagelli; strutturazione della membrana cellulare], [collagene, elastina, actina, miosina, proteine di membrana],
+[enzimi],[catalisi enzimatica], [DNA-polimerasi, piruvato deidrogenasi, glucosio 6-fostato deidrogenasi],
+[fattori induttori e repressori],[regolazione dell'espressione genica], []
+)  
+)
 
 == Acidi nucleici
 
@@ -119,27 +281,15 @@ Il DNA trasmette le informazioni alle regioni della cellula dove si verifica la 
 
 L'RNA è una molecola composta da un singolo filamento avvolto in una struttura elicoidale. Esistono vari tipi di RNA, ognuno con funzioni specifiche; i due principali sono l'RNA messaggero (mRNA) e l'RNA di trasporto (tRNA). Il mRNA è responsabile della trascrizione delle informazioni dal DNA, mentre il tRNA ha il compito di tradurre queste informazioni permettendo la corretta sintesi delle proteine, unendo gli amminoacidi nella sequenza appropriata.
 
-=== Vitamine
+== Vitamine
 
 Le vitamine sono composti organici dalla struttura eterogenea, essenziali per molte funzioni vitali, anche se richieste in quantità minime. Gli esseri umani e la maggior parte degli animali non possono sintetizzarle autonomamente e devono ottenerle attraverso l'alimentazione. Al contrario, le piante sono in grado di produrle e costituiscono la principale fonte vitaminica per gli animali.
 
 Le vitamine spesso agiscono come coenzimi, supportando l'attività degli enzimi. Si suddividono in due gruppi principali in base alla solubilità: le vitamine idrosolubili, che comprendono il gruppo B, la vitamina C e la vitamina H; e le vitamine liposolubili, che includono la vitamina A, D, E e K.
 
-=== Approfondimento: il glucosio
-
-Il glucosio, noto anche come destrosio per la sua capacità di deviare il piano della luce polarizzata verso destra, è essenziale nei processi di fermentazione e respirazione cellulare, dove viene utilizzato per produrre molecole altamente energetiche, come l'ATP (adenosintrifosfato), che rappresentano una riserva energetica per l'organismo.
-
-Solo gli organismi fotosintetici (piante, alghe azzurre e alcuni batteri), detti autotrofi, sono in grado di sintetizzare il glucosio. Negli animali, i carboidrati ingeriti vengono convertiti in glucosio durante la digestione. Questo può essere immediatamente impiegato nella respirazione cellulare per essere eliminato come CO2 dai polmoni oppure immagazzinato: prevalentemente sotto forma di trigliceridi nel tessuto adiposo o, in misura minore, come glicogeno nel fegato e nei muscoli.
-
-=== Approfondimento: gli enzimi
-
-Gli enzimi sono proteine che funzionano come catalizzatori biologici, accelerando le reazioni biochimiche che avvengono all'interno delle cellule, sia quelle di sintesi che di demolizione. Grazie a questi catalizzatori, la velocità delle reazioni aumenta fino a un milione di volte. Ogni enzima è altamente specifico per una determinata reazione o per gruppi di reazioni affini.
-
-Molti enzimi diventano attivi solo se associati a uno specifico coenzima, come uno ione metallico o una struttura organica complessa, solitamente una vitamina. In tali casi, la componente proteica dell'enzima viene definita apoenzima. La produzione degli enzimi è regolata dai geni.
-
-L'attività catalitica degli enzimi dipende da una porzione precisa della molecola detta sito attivo, che interagisce con il substrato (ovvero le molecole da trasformare) attraverso legami deboli. Questi legami sono possibili grazie alla disposizione specifica degli atomi nel sito attivo.
-
-== Glossario
+#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
+== Glossario <senza_numero>
 
 / Glucidi o zuccheri: Composti chimici costituiti da carbonio, idrogeno e ossigeno, suddivisi in monosaccaridi, disaccaridi e polisaccaridi. Conosciuti anche come carboidrati, rappresentano una fonte primaria di energia per gli organismi viventi e contribuiscono alla formazione delle strutture nelle piante.
 

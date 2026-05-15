@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Nei solidi, le forze attrattive tra le particelle predominano nettamente rispetto alla loro energia cinetica.
 
@@ -23,7 +23,30 @@ La quantità di calore necessaria per fondere una massa unitaria di solido a tem
 
 Alcune sostanze caratterizzate da una elevata tensione di vapore possono invece passare direttamente dallo stato solido a quello aeriforme senza attraversare la fase liquida. Questo fenomeno è noto come sublimazione. Un esempio comune è la naftalina, lo iodio o il biossido di carbonio (CO#sub[2]). Quest'ultimo viene utilizzato come "ghiaccio secco", grazie al fatto che la sua tensione di vapore è pari a 1 atm a circa −78,5 °C; ciò permette al CO#sub[2] di trasformarsi direttamente in vapore quando esposto all'aria mantenendo questa temperatura costante.
 
-// Tabella
+#figure(
+  caption: [Tipi di solidi cristallini],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (5),
+  table.header[Tipo di legame][Unità strutturali][Punto di fusione][Proprietà meccaniche \ ed elettriche][Esempi],  
+  [Ionico], [ioni], [da elevato a molto elevato], [duri e fragili; \ isolanti allo stato solido, conduttori allo stato liquido], [cloruro di sodio (NaCl) \ floruro di litio (LiF) \ solfuro di zinco (ZnS)], 
+  [Covalente], [atomi], [molto elevato], [in genere isolanti], [diamante (C) \ carburo di silicio (SiC) \ amianto], 
+  [Metallico], [ioni positivi circondati da \ una nuvola di elettroni mobili], [variabile], [durezza variabile; \ malleabili; \ buoni conduttori], [ferro (Fe) \ rame (Cu) \ argento (Ag)], 
+  [Molecolare], [atomi o molecole], [basso], [teneri e fragili; \ isolanti], [neon (Ne) \ acqua (H#sub[2]O) \ anidride carbonica (CO#sub[2])],  
+)  
+)
 
 == I solidi cristallini
 
@@ -33,30 +56,19 @@ I solidi cristallini naturali costituiscono i minerali, formati da singoli crist
 
 === Proprietà dei solidi cristallini
 
-I cristalli si distinguono per le loro forme geometriche caratteristiche, limitate da superfici piane chiamate facce. Le facce si intersecano creando spigoli e angoli ben definiti, noti come angoli diedri.
-
+I cristalli si distinguono per le loro forme geometriche caratteristiche, limitate da superfici piane chiamate facce. Le facce si intersecano creando spigoli e angoli ben definiti, noti come angoli diedri. 
 La caratterizzazione di un cristallo può essere determinata attraverso l'analisi della simmetria della sua forma geometrica, facendo riferimento agli elementi di simmetria e identificando il suo reticolo cristallino. Quest'ultimo rappresenta la disposizione spaziale ordinata delle particelle costituenti, organizzata mediante la ripetizione, nelle tre direzioni dello spazio, di una struttura fondamentale denominata cella elementare.
 
 Oltre alla sua configurazione geometrica, i cristalli possiedono proprietà distintive, tra cui:  
-- **Sfaldabilità**, ovvero la tendenza del cristallo a rompersi lungo piani specifici;  
-- **Anisotropia**, che descrive il fenomeno secondo il quale alcune proprietà vettoriali, come la dilatazione termica, la coesione o determinati comportamenti ottici, variano a seconda della direzione considerata (se le proprietà rimangono invece identiche in tutte le direzioni, si parla di isotropia);  
-- **Isomorfismo**, caratteristica per cui sostanze chimicamente diverse cristallizzano seguendo una stessa forma;  
-- **Polimorfismo**, che riguarda la capacità di una stessa sostanza di cristallizzare in forme differenti;  
-- **Fluorescenza e fosforescenza**, proprietà di alcune sostanze che, esposte a radiazioni ultraviolette, emettono luce visibile colorata (nel caso della fluorescenza l'emissione cessa con l'interruzione dell'irradiazione, mentre nella fosforescenza il fenomeno persiste nel tempo);  
-- **Piroelettricità e piezoelettricità**, capacità di un solido di generare un campo elettrico rispettivamente quando riscaldato o sottoposto a pressioni;  
-- **Peso specifico**, calcolato come rapporto tra il peso e il volume;  
-- **Durezza**, intesa come resistenza del cristallo a essere scalfito da un altro materiale. La durezza viene misurata tramite la scala di Mohs, che va da 1 (talco) a 10 (diamante):  
-  1. Talco  
-  2. Gesso  
-  3. Calcite  
-  4. Fluorite  
-  5. Apatite  
-  6. Ortoclasio  
-  7. Quarzo  
-  8. Topazio  
-  9. Corindone  
-  10. Diamante  
-- **Birifrangenza**, che si manifesta in cristalli come la calcite ed è la capacità di dividere un raggio luminoso incidente in due distinti raggi, uno ordinario e uno straordinario.
+- sfaldabilità, ovvero la tendenza del cristallo a rompersi lungo piani specifici;  
+- anisotropia, che descrive il fenomeno secondo il quale alcune proprietà vettoriali, come la dilatazione termica, la coesione o determinati comportamenti ottici, variano a seconda della direzione considerata (se le proprietà rimangono invece identiche in tutte le direzioni, si parla di isotropia);  
+- isomorfismo, caratteristica per cui sostanze chimicamente diverse cristallizzano seguendo una stessa forma;  
+- polimorfismo, che riguarda la capacità di una stessa sostanza di cristallizzare in forme differenti;  
+- fluorescenza e fosforescenza, proprietà di alcune sostanze che, esposte a radiazioni ultraviolette, emettono luce visibile colorata (nel caso della fluorescenza l'emissione cessa con l'interruzione dell'irradiazione, mentre nella fosforescenza il fenomeno persiste nel tempo);  
+- piroelettricità e piezoelettricità, capacità di un solido di generare un campo elettrico rispettivamente quando riscaldato o sottoposto a pressioni;  
+- peso specifico, calcolato come rapporto tra il peso e il volume;  
+- durezza, intesa come resistenza del cristallo a essere scalfito da un altro materiale. La durezza viene misurata tramite la scala di Mohs, che va da 1 (talco) a 10 (diamante)
+- birifrangenza, che si manifesta in cristalli come la calcite ed è la capacità di dividere un raggio luminoso incidente in due distinti raggi, uno ordinario e uno straordinario.
 
 === Cristalli idrati
 
@@ -70,15 +82,11 @@ Un aspetto fondamentale nello studio della geometria dei cristalli è rappresent
 
 // Immagine
 
-- Il **centro di simmetria** (C) è un punto ideale all'interno del cristallo che separa ogni segmento che collega elementi equivalenti (facce, spigoli, vertici) in due parti uguali e opposte.  
-- L'**asse di simmetria** (A) è una linea immaginaria attorno alla quale il cristallo può ruotare di un angolo tale da riprodurre due o più posizioni equivalenti alla configurazione iniziale. Si distinguono assi binari (A#sub[2]), ternari (A#sub[3]) e così via, a seconda del numero di posizioni equivalenti ottenute in una rotazione completa.  
-- Il **piano di simmetria** (P) è una superficie ideale che divide il cristallo in due parti specularmente identiche.
+- Il centro di simmetria (C) è un punto ideale all'interno del cristallo che separa ogni segmento che collega elementi equivalenti (facce, spigoli, vertici) in due parti uguali e opposte.  
+- L'asse di simmetria (A) è una linea immaginaria attorno alla quale il cristallo può ruotare di un angolo tale da riprodurre due o più posizioni equivalenti alla configurazione iniziale. Si distinguono assi binari (A#sub[2]), ternari (A#sub[3]) e così via, a seconda del numero di posizioni equivalenti ottenute in una rotazione completa.  
+- Il piano di simmetria (P) è una superficie ideale che divide il cristallo in due parti specularmente identiche.
 
-Tutti questi elementi contribuiscono a definire il grado di simmetria del cristallo, utilizzato per identificare minerali specifici nello stato cristallino.  
-
-Il cubo, ad esempio, presenta 9 piani, 13 assi e un centro di simmetria, raggiungendo un grado di simmetria pari a 23.
-
-In base alla presenza o assenza di elementi di simmetria, i cristalli possono essere divisi in 32 classi, raggruppate in 7 sistemi cristallini.
+Tutti questi elementi contribuiscono a definire il grado di simmetria del cristallo, utilizzato per identificare minerali specifici nello stato cristallino. Il cubo, ad esempio, presenta 9 piani, 13 assi e un centro di simmetria, raggiungendo un grado di simmetria pari a 23. In base alla presenza o assenza di elementi di simmetria, i cristalli possono essere divisi in 32 classi, raggruppate in 7 sistemi cristallini.
 
 == Il reticolo cristallino
 
@@ -90,11 +98,37 @@ Le 7 celle fondamentali definiscono i 7 sistemi cristallini, ognuno dei quali ac
 
 A loro volta, i sistemi cristallini si suddividono in tre gruppi: monometrico, dimetrico e trimetrico, distinti in base ai valori dei periodi a, b e c.
 
-// Tabella
+#figure(
+  caption: [I sistemi cristallini],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (4),
+  table.header[Gruppo][Sistema][Costanti \ cristallografiche][Reticolo],
+  [Monometrico \ a = b = c], [cubico], [a = b = c \ #math.alpha = #math.beta = #math.gamma = 90°], [],
+  table.cell(rowspan: 3)[Dimetrico \ a = b #math.eq.not c], [tetragonale], [a = b #math.eq.not c \ #math.alpha = #math.beta = #math.gamma = 90°], [], 
+  [trigonale o \ romboedrico], [a = b #math.eq.not c \ #math.alpha = #math.beta = #math.gamma #math.eq.not 90°], [], 
+  [esagonale], [a = b #math.eq.not c \ #math.alpha = #math.beta = 90°\ #math.gamma = 120°], [],
+  table.cell(rowspan: 3)[Trimetrico \ a ≠ b ≠ c], [rombico], [a #math.eq.not b #math.eq.not c \ #math.alpha = #math.beta = #math.gamma = 90°], [], 
+  [monoclino], [a #math.eq.not b #math.eq.not c \ #math.alpha = #math.gamma = 90° \ #math.beta #math.eq.not 90°], [], 
+  [triclino], [a #math.eq.not b #math.eq.not c \ #math.alpha #math.eq.not #math.beta #math.eq.not #math.gamma #math.eq.not 90°], [],
+)  
+)
 
 == Impaccamento compatto di sfere
 
-La maggior parte dei metalli, così come alcune sostanze elementari come i gas nobili, H2, HCl e NaCl, tende a cristallizzarsi seguendo uno o più tipi di reticoli cristallini. Questi reticoli permettono il massimo impaccamento delle particelle, descritto come un impaccamento compatto di sfere. Le sfere rappresentano gli atomi o gli ioni. Le tre principali strutture di impaccamento compatto sono: la cubica a corpo centrato, la cubica a facce centrate e quella esagonale.
+La maggior parte dei metalli, così come alcune sostanze elementari come i gas nobili, H#sub[2], HCl e NaCl, tende a cristallizzarsi seguendo uno o più tipi di reticoli cristallini. Questi reticoli permettono il massimo impaccamento delle particelle, descritto come un impaccamento compatto di sfere. Le sfere rappresentano gli atomi o gli ioni. Le tre principali strutture di impaccamento compatto sono: la cubica a corpo centrato, la cubica a facce centrate e quella esagonale.
 
 == Difetti dei cristalli
 
@@ -119,14 +153,22 @@ L'ipotesi formulata da Auguste Bravais ha ricevuto una conferma sperimentale att
 I raggi X possiedono una lunghezza d'onda comparabile alle dimensioni atomiche e alle distanze interatomiche presenti nei cristalli, che corrispondono a circa 10−8 cm. Di conseguenza, quando incontrano un cristallo, è possibile registrare su una lastra fotografica spettri di diffrazione caratteristici. Questi spettri prendono la forma di fotogrammi composti da una serie di macchie puntiformi la cui disposizione regolare e simmetrica riflette l'organizzazione atomica del cristallo stesso.  
 
 Nell'esperimento condotto da von Laue, i raggi X generati dal tubo e successivamente diffratti da una sottile lamina cristallina producono un'immagine caratteristica che viene fissata sulla lastra fotografica.  
+#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
+== Glossario <senza_numero>
 
-== Glossario
+/ Solidi cristallini: Solidi le cui particelle sono disposte nel spazio secondo regole geometriche precise e regolari.
 
-Solidi cristallini: Solidi le cui particelle sono disposte nel spazio secondo regole geometriche precise e regolari.  
-Solidi amorfi: Solidi con una disposizione casuale e disordinata delle particelle.  
-Cristallo: Solido dalla forma geometrica ben definita, limitato da superfici piane e contraddistinto da un certo grado di simmetria.  
-Grado di simmetria: Raggruppa gli elementi caratteristici della simmetria, come il centro, gli assi e i piani.  
-Cella elementare: Struttura di base che, replicata lungo le tre direzioni dello spazio, forma l'intero cristallo.  
-Reticolo cristallino: Configurazione che rappresenta le posizioni ordinate e regolarmente distribuite delle particelle che costituiscono un cristallo.  
-Sistemi cristallini: Classificazioni delle forme cristalline basate sulle relazioni tra i parametri cristallografici comuni.  
-Gruppi: Raccolte di forme cristalline accomunate dalle stesse proporzioni tra le lunghezze degli spigoli. Questi gruppi vengono ulteriormente suddivisi in sistemi.  
+/ Solidi amorfi: Solidi con una disposizione casuale e disordinata delle particelle.  
+
+/ Cristallo: Solido dalla forma geometrica ben definita, limitato da superfici piane e contraddistinto da un certo grado di simmetria. 
+
+/ Grado di simmetria: Raggruppa gli elementi caratteristici della simmetria, come il centro, gli assi e i piani.
+
+/ Cella elementare: Struttura di base che, replicata lungo le tre direzioni dello spazio, forma l'intero cristallo.  
+
+/ Reticolo cristallino: Configurazione che rappresenta le posizioni ordinate e regolarmente distribuite delle particelle che costituiscono un cristallo. 
+
+/ Sistemi cristallini: Classificazioni delle forme cristalline basate sulle relazioni tra i parametri cristallografici comuni.  
+
+/ Gruppi: Raccolte di forme cristalline accomunate dalle stesse proporzioni tra le lunghezze degli spigoli. Questi gruppi vengono ulteriormente suddivisi in sistemi.  

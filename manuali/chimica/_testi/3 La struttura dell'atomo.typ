@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Con la scoperta dell'elettrone da parte di J.J. Thomson nel 1897, si fece chiarezza sul fatto che l'atomo non fosse, come ipotizzato da Dalton, indivisibile. Anzi, si comprese che esso possiede una struttura interna complessa. Poco dopo, ulteriori studi portarono all'identificazione del protone, un'altra particella subatomica fondamentale.
 
@@ -13,7 +13,7 @@ In questa nuova visione, gli elettroni esibiscono una natura duplice, sia corpus
 
 Nella seconda metà dell'Ottocento, le indagini sui fenomeni elettrici aprirono la strada a dubbi sulla storica ipotesi di Dalton che considerava l'atomo indivisibile. La curiosità scientifica fu alimentata da due osservazioni significative: la capacità di alcune soluzioni acquose di condurre elettricità grazie alla presenza di particelle cariche positivamente e negativamente chiamate ioni; e il comportamento dei gas rarefatti nei tubi contenenti elettrodi (anodo e catodo), dove le scariche elettriche generavano radiazioni note come raggi catodici.
 
-Proprio analizzando i raggi catodici, Thomson giunse a una scoperta rivoluzionaria: queste emanazioni sono composte da particelle negative, presenti negli atomi di tutti gli elementi. Queste particelle vennero battezzate "elettroni". L'elettrone rappresenta la carica negativa fondamentale (−1) e ha una massa molto più piccola rispetto a quella dell'atomo.
+Proprio analizzando i raggi catodici, Thomson giunse a una scoperta rivoluzionaria: queste emanazioni sono composte da particelle negative, presenti negli atomi di tutti gli elementi. Queste particelle vennero battezzate "elettroni". L'elettrone rappresenta la carica negativa fondamentale (-1) e ha una massa molto più piccola rispetto a quella dell'atomo.
 
 Nel 1886, un altro fenomeno emerse attraverso l'uso di tubi modificati: si identificarono radiazioni aventi direzione opposta ai raggi catodici, associate a particelle dotate di carica positiva. Questi raggi, chiamati positivi o anodici (noti anche come raggi canale), risultarono costituiti da ioni, ovvero atomi privati delle loro cariche negative. 
 
@@ -39,7 +39,6 @@ Ad esempio, il simbolo $#hide[]^(18)_8"O"$ (ossigeno-18) rappresenta il nuclide 
 
 $ #hide[]^"A"_"Z" "X" $
 
-#wideblock[
 #figure(
   caption: [Proprietà particelle subatomiche],
   table(
@@ -58,12 +57,12 @@ $ #hide[]^"A"_"Z" "X" $
   align: left + horizon,
   columns: (5),
   table.header[Particella][Massa (g)][Massa (u)][Carica \ elettrica][Simbolo],
-  [Elettrone], [9,1093897 ⋅ 10#super[-28]], [0,0005486], [1–], [$#hide[]^"0"_"-1" "e"$, $"e"^-$],
-  [Protone], [1,672623 ⋅ 10#super[-24]], [1,007276], [1+], [$#hide[]^"0"_"1" "H"$, $#hide[]^"1"_"1" "p"$],
-  [Neutrone], [1,674929 ⋅ 10#super[-24]], [1,008665], [0], [$#hide[]^"1"_"0" "n"$],
+  [Elettrone], [9,1093897 ⋅ 10#super[-28]], [0,0005486], [1–], [#box[#place(dx: -3pt)[#sub[-1]]#super[0]e], e#super[--]],
+  [Protone], [1,672623 ⋅ 10#super[-24]], [1,007276], [1+], [#box[#place()[#sub[1]]#super[0]H], #box[#place()[#sub[1]]#super[1]p]],
+  [Neutrone], [1,674929 ⋅ 10#super[-24]], [1,008665], [0], [#box[#place()[#sub[0]]#super[1]n]],
 )  
 )
-]
+
 
 == Gli isotopi
 
@@ -85,6 +84,22 @@ Nel 1915, il fisico tedesco Arnold Sommerfeld ampliò il modello di Bohr introdu
 
 Successivamente, nel 1924, Walter Pauli aggiunse un quarto numero quantico: il numero di spin ($m_s$), che rappresenta il senso di rotazione dell'elettrone intorno al proprio asse. Questo valore può essere $+1/2$ o $-1/2$ e contribuì a chiarire ulteriormente il comportamento degli elettroni nell'atomo.
 
+#note(bottom)[== *🧩* Quanti e spettri di emissione <senza_numero>
+
+Nel 1900 il fisico tedesco Max Planck formulò una teoria rivoluzionaria secondo cui la luce e qualsiasi forma di energia radiante non vengono scambiate in modo continuo dai corpi materiali, ma sotto forma di piccole quantità discrete chiamate quanti. I quanti di luce presero il nome di fotoni.
+
+L'energia $E$ associata a ciascun quanto è descritta dalla seguente relazione matematica:
+
+$ E = h v $
+
+dove $v$ è la frequenza della radizione e $h$ una costante detta costante di Planck, pari a 6,63 ⋅ 10–34 Js.
+
+Bohr giunse alla formulazione del suo modello atomico interpretando i risultati dello spettro di emissione dell'idrogeno, il più semplice degli atomi, alla luce della teoria di Planck. Lo spettro di emissione di un atomo è costituito dall'insieme delle radiazioni emesse quando i suoi elettroni, inizialmente eccitati a livelli energetici superiori rispetto allo stato fondamentale (il livello minimo di energia), tornano a quest'ultimo. 
+
+Analizzando spettroscopicamente le radiazioni provenienti dall'atomo di idrogeno in stato eccitato, Bohr notò che queste erano caratterizzate da frequenze ben definite, formando spettri a righe. Il ritorno degli elettroni allo stato fondamentale avveniva attraverso salti energetici precisi e, per ogni salto tra due livelli $E_2$ ed $E_1$, veniva emessa una radiazione con una frequenza specifica, corrispondente a una determinata quantità di energia $Delta E$.
+
+Un salto energetico più grande corrisponde a una frequenza maggiore della radiazione emessa.]
+
 == Il modello quanto-meccanico di atomo
 
 La teoria di Bohr, nota anche come teoria di Bohr-Sommerfeld, lasciava irrisolti numerosi problemi.
@@ -102,16 +117,9 @@ Nel 1927, il fisico tedesco Werner Heisenberg formulò il principio di indetermi
 Questa scoperta mise in discussione il modello di Bohr, che attribuiva orbite precise agli elettroni, introducendo invece la possibilità di definire una regione intorno al nucleo dove è più probabile trovare l'elettrone. In quegli stessi anni, il fisico austriaco Erwin Schrödinger, approfondendo l'idea proposta da De Broglie, sviluppò un'equazione matematica nota come equazione d'onda di Schrödinger. La soluzione di questa equazione consente di rappresentare l'elettrone come una nube di carica negativa la cui densità varia in base alla distanza dal nucleo e alla direzione considerata.
 
 La regione dello spazio intorno al nucleo in cui è massima la probabilità di trovare l'elettrone è chiamata orbitale atomico. Nella teoria quantistica, gli orbitali sono descritti attraverso i numeri quantici $n$, $l$, $m$ e $m_s$, che presentano un significato analogo ai parametri utilizzati nella teoria di Bohr-Sommerfeld.
-
+#v(3em)
 == Numeri quantici e livelli energetici
 
-I numeri quantici $n$, $l$ e $m$ identificano gli orbitali occupati dagli elettroni in un atomo. 
-
-Il numero quantico principale n determina il livello di energia dell'elettrone e la dimensione dell'orbitale. Può assumere valori interi positivi come $n = 1, 2, 3, 4, 5, 6…$ Il numero quantico secondario l definisce il numero di sottolivelli in cui si suddivide ogni livello energetico. Ogni sottolivello comprende orbitali della stessa forma che dipende dal valore assegnato a $l$, compreso tra $0$ e $n - 1$.
-
-I sottolivelli sono indicati con lettere minuscole secondo lo schema seguente:
-
-#wideblock[
 #figure(
   caption: [Valori $l$ e corrispondenti \ sottolivelli energetici],
   table(
@@ -137,18 +145,13 @@ I sottolivelli sono indicati con lettere minuscole secondo lo schema seguente:
   [4], [g],
 )  
 )
-]
 
-Di conseguenza, si parla di orbitali $s$, $p$, $d$ e così via.
+I numeri quantici $n$, $l$ e $m$ identificano gli orbitali occupati dagli elettroni in un atomo. Il numero quantico principale n determina il livello di energia dell'elettrone e la dimensione dell'orbitale. Può assumere valori interi positivi come $n = 1, 2, 3, 4, 5, 6…$ Il numero quantico secondario l definisce il numero di sottolivelli in cui si suddivide ogni livello energetico. Ogni sottolivello comprende orbitali della stessa forma che dipende dal valore assegnato a $l$, compreso tra $0$ e $n - 1$. I sottolivelli sono indicati con lettere minuscole secondo lo schema a lato. Di conseguenza, si parla di orbitali $s$, $p$, $d$ e così via.
 
 Il numero quantico magnetico m stabilisce il numero di orbitali presenti in ciascun sottolivello e ne identifica l'orientamento nello spazio. Gli orbitali di uno stesso sottolivello sono degeneri (isoenergetici). Il valore di $m$ varia tra $-l$ e $+l$, includendo lo zero. Per esempio, nel caso di $l = 1$, $m$ può assumere i valori $-1$, $0$ e $+1$. Il sottolivello p comprende dunque tre orbitali degeneri orientati lungo gli assi cartesiani: $p_x$, $p_y$ e $p_z$.
 
-Il numero quantico di spin ms descrive il senso della rotazione dell'elettrone attorno al proprio asse, che può essere orario o antiorario. Esso assume esclusivamente i valori $+1/2$ o $-1/2$.
+Il numero quantico di spin ms descrive il senso della rotazione dell'elettrone attorno al proprio asse, che può essere orario o antiorario. Esso assume esclusivamente i valori $+1/2$ o $-1/2$. Ogni orbitale può accogliere al massimo due elettroni con spin opposto, formando così un doppietto elettronico.
 
-Ogni orbitale può accogliere al massimo due elettroni con spin opposto, formando così un doppietto elettronico.
-
-#pagebreak()
-#wideblock[
 #figure(
   caption: [Relazioni tra valiri di $n$, $l$, $m$ e rispettivi orbitali#footnote[Si noti che nel livello $n$-esimo vi siano $n$ sottolivelli e $n^2$ orbitali.]],
   table(
@@ -173,9 +176,9 @@ Ogni orbitale può accogliere al massimo due elettroni con spin opposto, formand
   [4], [0 \ 1 \ 2 \ 3], [0 \ -1, 0, +1 \ -2, -1, 0, +1, +2 \ -3, -2, -1, 0, +1, +2, +3], [4s \ 4p \ 4d \ 4f], [1 \ 3 \ 5 \ 7],
 )  
 )
-]
 
-== Configurazione elettronica
+
+== Configurazioni elettroniche
 
 La configurazione elettronica di un atomo rappresenta lo schema di distribuzione dei suoi elettroni nei vari orbitali atomici. Per determinare la configurazione elettronica di un atomo con numero atomico $Z$ nel suo stato fondamentale, ovvero lo stato a energia più bassa, gli $Z$ elettroni vengono inseriti progressivamente, seguendo alcune regole fondamentali:
 
@@ -183,9 +186,8 @@ La configurazione elettronica di un atomo rappresenta lo schema di distribuzione
 - In un atomo non possono esistere due elettroni con identici valori per tutti e quattro i numeri quantici. Pertanto, su uno stesso orbitale, identificato dai valori di $n$, $l$ e $m$, è possibile collocare al massimo due elettroni con spin opposto.
 - Quando più elettroni occupano orbitali degeneri, si distribuiscono con spin paralleli sul massimo numero possibile di tali orbitali, secondo la regola di Hund o principio della massima molteplicità.
 
-Per rappresentare la configurazione elettronica di un elemento, si indicano i livelli energetici occupati scrivendo il valore di $n$ seguito da lettere che identificano i sottolivelli, accompagnate da un numero posto in alto a destra che indica il numero di elettroni presenti in quel sottolivello. 
-
-Ad esempio, nella rappresentazione simbolica $1s^2$, "1" è il numero quantico principale che rappresenta il livello energetico, $s$ indica il tipo di orbitale (sottolivello) e $#hide[]^2$ il numero di elettroni contenuti in quel sottolivello.
+// TODO immagine riempimento orbitali
+Per rappresentare la configurazione elettronica di un elemento, si indicano i livelli energetici occupati scrivendo il valore di $n$ seguito da lettere che identificano i sottolivelli, accompagnate da un numero posto in alto a destra che indica il numero di elettroni presenti in quel sottolivello. Ad esempio, nella rappresentazione simbolica $1s^2$, "1" è il numero quantico principale che rappresenta il livello energetico, $s$ indica il tipo di orbitale (sottolivello) e $#hide[]^2$ il numero di elettroni contenuti in quel sottolivello.
 
 La configurazione elettronica può essere raffigurata anche con un diagramma orbitale: ogni orbitale viene rappresentato da un quadratino, e gli elettroni con spin opposto sono indicati tramite frecce orientate in direzioni opposte. Per quanto riguarda gli elettroni di valenza, ossia quelli del livello energetico più esterno e mai più di otto, si utilizzano i simboli di Lewis. Qui i puntini attorno al simbolo dell'elemento rappresentano tali elettroni. Per esempio: $space #skeletize({
  fragment("N", lewis:(
@@ -222,23 +224,34 @@ quad
  lewis-double(angle: -90deg)
  ))
 })$
-#pagebreak()
-== Approfondimento: quanti e spettri di emissione <senza_numero>
 
-Nel 1900 il fisico tedesco Max Planck formulò una teoria rivoluzionaria secondo cui la luce e qualsiasi forma di energia radiante non vengono scambiate in modo continuo dai corpi materiali, ma sotto forma di piccole quantità discrete chiamate quanti. I quanti di luce presero il nome di fotoni.
+// TODO Tabella configurazione elettronica N, O, F, Ne
+#figure(
+  caption: [Rappresentazione della configurazione elettronica di azoto, ossigeno, fluoro e neon.],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (4),
+  table.header[Elemento][Z][Configurazione \ elettronica][Diagramma orbitale],
+  [Azoto], [7], [1s#super[2] 2s#super[2] 2p#super[3]], [1s#super[2] #math.arrows.tb \ 2s#super[2] #math.arrows.tb \ 2p#super[1]#sub[x]  2p#super[1]#sub[y] 2p#super[1]#sub[z] #math.arrow.t #math.arrow.t #math.arrow.t],
+  [Ossigeno], [8], [1s#super[2] 2s#super[2] 2p#super[4]], [1s#super[2] #math.arrows.tb \ 2s#super[2] #math.arrows.tb \ 2p#super[2]#sub[x] 2p#super[1]#sub[y] 2p#super[1]#sub[z] #math.arrows.tb #math.arrow.t #math.arrow.t],
+  [Fluoro], [9], [1s#super[2] 2s#super[2] 2p#super[5]], [1s#super[2] #math.arrows.tb \ 2s#super[2] #math.arrows.tb \ 2p#super[2]#sub[x] 2p#super[2]#sub[y] 2p#super[1]#sub[z] #math.arrows.tb #math.arrows.tb #math.arrow.t], 
+  [Neon], [10], [1s#super[2] 2s#super[2] 2p#super[6]], [1s#super[2] #math.arrows.tb \ 2s#super[2] #math.arrows.tb \ 2p#super[2]#sub[x] 2p#super[2]#sub[y] 2p#super[2]#sub[z] #math.arrows.tb #math.arrows.tb #math.arrows.tb],
+)  
+)
 
-L'energia $E$ associata a ciascun quanto è descritta dalla seguente relazione matematica:
-
-$ E = h v $
-
-dove $v$ è la frequenza della radizione e $h$ una costante detta costante di Planck, pari a 6,63 ⋅ 10–34 Js.
-
-Bohr giunse alla formulazione del suo modello atomico interpretando i risultati dello spettro di emissione dell'idrogeno, il più semplice degli atomi, alla luce della teoria di Planck. Lo spettro di emissione di un atomo è costituito dall'insieme delle radiazioni emesse quando i suoi elettroni, inizialmente eccitati a livelli energetici superiori rispetto allo stato fondamentale (il livello minimo di energia), tornano a quest'ultimo. 
-
-Analizzando spettroscopicamente le radiazioni provenienti dall'atomo di idrogeno in stato eccitato, Bohr notò che queste erano caratterizzate da frequenze ben definite, formando spettri a righe. Il ritorno degli elettroni allo stato fondamentale avveniva attraverso salti energetici precisi e, per ogni salto tra due livelli $E_2$ ed $E_1$, veniva emessa una radiazione con una frequenza specifica, corrispondente a una determinata quantità di energia $Delta E$.
-
-Un salto energetico più grande corrisponde a una frequenza maggiore della radiazione emessa.
-#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
 == Glossario <senza_numero>
 
 / Particelle subatomiche: Unità fondamentali della materia suddivise per massa e carica elettrica. Tra queste si distinguono:

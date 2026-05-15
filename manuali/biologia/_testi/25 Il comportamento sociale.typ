@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La vita di molte specie animali si sviluppa all'interno di comunità di dimensioni variabili, dove si instaurano una serie di interazioni di natura diversa. Queste interazioni sono direttamente collegate alla necessità di accudire la prole, competere per il cibo e il controllo dello spazio vitale, nonché provvedere alla riproduzione. Ciò porta alla formazione di comportamenti sociali, più o meno articolati, finalizzati a regolare tali relazioni e mantenere la coesione del gruppo. Alla base di questi dinamismi vi è l'adozione di specifici meccanismi comunicativi.]
 
@@ -31,7 +31,7 @@ Il corteggiamento è un altro aspetto in cui gli animali hanno sviluppato strate
 
 La competizione per le risorse è un ulteriore fenomeno osservabile tra conspecifici. Gli animali si confrontano per ottenere priorità nell'accoppiamento, guidare il gruppo o accedere al cibo. Tali rivalità spesso evolvono in combattimenti intensi, soprattutto tra maschi, che mostrano grande aggressività. Tuttavia, raramente gli scontri hanno esiti mortali: generalmente i rivali si sfidano confrontando forza e dimensioni, e la vittoria viene determinata senza conflitti cruenti. L'individuo sconfitto segnala la propria sottomissione tramite gesti specifici.
 
-Questi confronti all'interno dei gruppi limitano le perdite e instaurano gerarchie di dominanza che assegnano a ciascun animale un preciso livello di autorità. Un esempio emblematico è fornito dai polli domestici, che stabiliscono un “ordine di beccata” attraverso ripetuti confronti. In tale gerarchia, il pollo vincitore occupa la posizione di vertice e accede per primo al cibo; seguono gli altri in ordine di rango decrescente.
+Questi confronti all'interno dei gruppi limitano le perdite e instaurano gerarchie di dominanza che assegnano a ciascun animale un preciso livello di autorità. Un esempio emblematico è fornito dai polli domestici, che stabiliscono un "ordine di beccata" attraverso ripetuti confronti. In tale gerarchia, il pollo vincitore occupa la posizione di vertice e accede per primo al cibo; seguono gli altri in ordine di rango decrescente.
 
 == Le società animali
 
@@ -43,12 +43,11 @@ Alcuni insetti, come api, formiche e termiti, presentano società altamente stru
 
 Le api, per esempio, vivono in società composte da una regina (l'unica femmina fertile), pochi maschi destinati esclusivamente alla fecondazione della regina e migliaia di operaie, incaricate di tutte le attività necessarie al mantenimento dell'alveare. Le api operaie possiedono un sofisticato sistema di comunicazione che permette loro di segnalare la localizzazione e la distanza di una fonte di cibo attraverso il fenomeno noto come danza delle api.
 
-Anche le formiche seguono una struttura sociale simile, con tre caste principali: la regina (fertile e dotata di ali), le operaie (femmine sterili e prive di ali) e i maschi (anch'essi alati). 
-
-Le termiti, invece, aggiungono una quarta casta alle proprie società: quella dei soldati, caratterizzati dalla presenza di enormi mandibole, utili per la difesa della colonia.
+Anche le formiche seguono una struttura sociale simile, con tre caste principali: la regina (fertile e dotata di ali), le operaie (femmine sterili e prive di ali) e i maschi (anch'essi alati). Le termiti, invece, aggiungono una quarta casta alle proprie società: quella dei soldati, caratterizzati dalla presenza di enormi mandibole, utili per la difesa della colonia.
 
 In contrapposizione alla rigida organizzazione degli insetti sociali, le società dei mammiferi si distinguono per la loro dinamicità e adattabilità. In queste comunità, l'organizzazione gerarchica è meno rigida e può cambiare nel tempo. La gerarchia di dominanza, pur essendo importante, non è permanente e può essere riconsiderata in circostanze come la morte del leader o il suo indebolimento legato alla vecchiaia o malattie. Sebbene i compiti siano distribuiti tra i membri del gruppo, ciascun individuo conserva un significativo grado di autonomia. In questi sistemi sociali, la gerarchia di dominanza riveste un ruolo essenziale soprattutto per definire le priorità nell'accoppiamento.
 #pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Comunicazione: Capacità di un animale di condividere con un altro individuo un'informazione che modifica il comportamento di quest'ultimo. Può avvenire attraverso segnali chimici, visivi, uditivi o tattili.  

@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La corrente elettrica rappresenta il cuore della maggior parte delle applicazioni dell'elettricità. Quando accendiamo un apparecchio, sia esso una lampada, un elettrodomestico o una radio, questi funzionano grazie al flusso di corrente elettrica al loro interno.
 
@@ -13,7 +13,17 @@ Le cariche elettriche in movimento possono avere una diversa natura. Nei liquidi
 
 Per convenzione, si considera il verso della corrente come quello corrispondente al movimento delle cariche positive, quindi identificato dal conduttore con potenziale maggiore verso quello con potenziale minore. Tuttavia, nei conduttori metallici, dove si muovono solo gli elettroni, il flusso è opposto rispetto al verso convenzionale.
 
-L'intensità della corrente elettrica, indicata con il simbolo I, è definita come il rapporto tra la quantità di carica Q che attraversa una sezione del conduttore e l'intervallo di tempo t in cui tale passaggio avviene. Si tratta di una grandezza scalare la cui unità di misura è l'ampere (simbolo A), nome che rende omaggio al fisico francese André Marie Ampère (1775-1836). Un ampere corrisponde all'intensità di una corrente che trasporta, attraverso la sezione del conduttore, una carica di 1 coulomb in 1 secondo.
+L'intensità della corrente elettrica, indicata con il simbolo _I_, è definita come il rapporto tra la quantità di carica _Q_ che attraversa una sezione del conduttore e l'intervallo di tempo _t_ in cui tale passaggio avviene. 
+
+$ 
+  I = (Delta Q)/(Delta t)
+$
+
+Si tratta di una grandezza scalare la cui unità di misura è l'ampere (simbolo A), nome che rende omaggio al fisico francese André Marie Ampère (1775-1836). Un ampere corrisponde all'intensità di una corrente che trasporta, attraverso la sezione del conduttore, una carica di 1 coulomb in 1 secondo.
+
+$ 
+  "1 A" = "1 C"/"1 s"
+$
 
 La corrente elettrica può variare nel tempo: quando mantiene la stessa direzione e intensità costante si parla di corrente continua; se invece intensità e direzione cambiano in modo periodico è definita corrente alternata.
 
@@ -30,6 +40,20 @@ Un'analogia idraulica permette di comprendere facilmente la funzione del generat
 Allo stesso modo, il generatore elettrico opera contro le forze del campo elettrico per mantenere il flusso di corrente all'interno del conduttore. Generatori di tensione comuni includono pile elettriche, batterie automobilistiche e dinamo, i quali convertono energia di diversa natura in energia elettrica: le pile e le batterie trasformano energia chimica, mentre le dinamo sfruttano campi magnetici per produrre elettricità. Il primo generatore di corrente fu la pila, costruita nel 1800 dal fisico italiano Alessandro Volta (1745-1827).
 
 Un generatore è generalmente dotato di due morsetti denominati polo negativo (−), a potenziale più basso, e polo positivo (+), a potenziale più alto. Questo dispositivo accumula cariche positive nel polo positivo e cariche negative nel polo negativo, svolgendo un lavoro contro le forze del campo elettrico. Collegando i poli opposti del generatore mediante un conduttore, ad esempio un filo metallico, si ottiene un flusso continuativo delle cariche al suo interno. In tal modo, il generatore consente di alimentare una corrente elettrica per periodi prolungati.
+
+#note(bottom)[== *🧩* La pila elettrica <senza_numero>
+
+La pila elettrica è un dispositivo concepito per convertire l'energia chimica prodotta da una reazione di ossido-riduzione in energia elettrica. Tutte le pile moderne si ispirano al modello originario ideato da Volta. Quest'ultimo era costituito da una serie verticale di dischi metallici (elettrodi), composti da due metalli differenti, come zinco e rame, separati da dischi di carta impregnati in una soluzione acida (elettrolita). Collegando il primo e l'ultimo disco della pila si completava un circuito attraverso il quale poteva fluire corrente elettrica.
+
+In generale, una pila è composta da due semicelle distinte connesse mediante un ponte salino o un setto poroso. Ogni semicella contiene un elettrolita, che può essere liquido, ad esempio una soluzione ionica come nel caso della pila Daniell, oppure solido, come nelle pile a secco generalmente utilizzate oggi. Al suo interno è immerso un elettrodo costituito da materiale conduttore dotato di bassa resistenza.
+
+La soluzione della semicella ossidante riceve elettroni dall'elettrodo immerso in essa, che prende il nome di catodo, mentre la soluzione dell'altra semicella è riducente e cede elettroni all'elettrodo, chiamato anodo. La differenza di potenziale tra i due elettrodi rappresenta la forza elettromotrice della pila.
+
+Collegando i due elettrodi tramite un conduttore, gli elettroni si muovono dal catodo verso l'anodo, generando una corrente elettrica. Questo movimento tende a riequilibrare la carica tra i due poli, ma le reazioni chimiche che avvengono all'interno della pila preservano tale differenza di potenziale, permettendo alla batteria di continuare a produrre energia. Dopo un certo tempo, le reazioni chimiche si arrestano perché si formano sostanze che alterano il rapporto tra l'elettrolita e l'elettrodo. Di conseguenza, la pila si scarica e smette di fornire energia elettrica.
+
+Le pile a secco, o Leclanché, non contengono elettroliti liquidi e sono disponibili in versioni acide o alcaline. La pila acida ha un rivestimento di zinco che funge da anodo e una barretta di carbone, il catodo, immersa in un elettrolita solido composto da una pasta di biossido di manganese, cloruro di ammonio e polvere di carbone. Nella versione alcalina, il cloruro di ammonio è sostituito dall'idrossido di potassio.
+
+Rispetto alla versione acida, quella alcalina ha una durata maggiore grazie alla maggiore stabilità dell'anodo di zinco, che si corrode più lentamente. Tra le tipologie moderne di pile a secco troviamo quelle ad argento, in cui l'anodo è sempre di zinco e il catodo è fatto di ossido d'argento. Inoltre, le pile a mercurio, comunemente note come pile a bottone, vengono utilizzate soprattutto per calcolatrici, orologi e macchine fotografiche. Degne di nota sono anche la pila Daniell, dove la corrente nasce dal trasferimento di elettroni dall'elettrodo di zinco a quello di rame, e la pila a secco carbone-zinco.]
 
 == I circuiti elettrici
 
@@ -51,51 +75,114 @@ Nei circuiti collegati in parallelo, una porzione del circuito può essere apert
 
 === La resistenza e le leggi di Ohm
 
+#figure(
+  caption: [Resistività di alcuni conduttori alla temperatura di 20 °C],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[Materiale \ conduttore][Resistività \ (Ωmm#super[2]/m)],
+    [argento], [0,0164],
+    [rame elettrolitico], [0,0176],
+    [oro], [0,023],
+    [alluminio], [0,028],
+    [tungsteno], [0,055],
+    [ferro], [0,1 ÷ 0,15],
+    [costantana], [0,5],
+    [carbone], [20 ÷ 100],
+)  
+)
+
 L'intensità della corrente elettrica che scorre attraverso un conduttore dipende dal valore della differenza di potenziale applicata e dalle caratteristiche del mezzo entro cui la corrente si propaga. In altre parole, la relazione tra tensione e corrente non è uniforme per tutti i materiali e varia da conduttore a conduttore.
 
 Georg Simon Ohm (1789-1854), fisico tedesco, ha studiato sperimentalmente il comportamento dei conduttori metallici e delle soluzioni acquose contenenti elettroliti (come acidi, basi e sali), formulando due leggi fondamentali: la prima e la seconda legge di Ohm. Queste leggi permettono di comprendere e prevedere il comportamento dei circuiti elettrici nei diversi materiali conducibili.
 
-La prima legge di Ohm stabilisce che, a temperatura costante, la differenza di potenziale (V) applicata agli estremi di un conduttore è direttamente proporzionale all'intensità della corrente elettrica (I) che lo attraversa. La relazione tra V e I è espressa da:
+La prima legge di Ohm stabilisce che, a temperatura costante, la differenza di potenziale (_ΔV_) applicata agli estremi di un conduttore è direttamente proporzionale all'intensità della corrente elettrica (_I_) che lo attraversa. La relazione tra _ΔV_ e _I_ è espressa da:
 
-\( V = R \cdot I \)
+$ 
+  Delta V = R space I
+$
 
-dove la costante di proporzionalità R, detta resistenza elettrica, è una caratteristica specifica del conduttore in questione. La resistenza rappresenta la difficoltà che la corrente incontra nel fluire attraverso il materiale e dipende dalla sua natura. Tale difficoltà genera una parziale dissipazione dell'energia elettrica sotto forma di calore, noto come effetto Joule.  
+dove la costante di proporzionalità _R_, detta resistenza elettrica, è una caratteristica specifica del conduttore in questione. La resistenza rappresenta la difficoltà che la corrente incontra nel fluire attraverso il materiale e dipende dalla sua natura. Tale difficoltà genera una parziale dissipazione dell'energia elettrica sotto forma di calore, noto come effetto Joule.  
 
-Una resistenza maggiore implica una corrente minore per una data differenza di potenziale. In altre parole, per ottenere lo stesso flusso di corrente in un conduttore con una resistenza più alta, sarà necessario applicare una differenza di potenziale più elevata. L'unità di misura della resistenza elettrica nel Sistema Internazionale è l'ohm, simbolo Ω. Un conduttore si dice avere una resistenza di 1 ohm quando, sottoposto a una tensione di 1 volt, è attraversato da una corrente di 1 ampere.  
+Una resistenza maggiore implica una corrente minore per una data differenza di potenziale. In altre parole, per ottenere lo stesso flusso di corrente in un conduttore con una resistenza più alta, sarà necessario applicare una differenza di potenziale più elevata. L'unità di misura della resistenza elettrica nel Sistema Internazionale è l'ohm, simbolo Ω. Un conduttore si dice avere una resistenza di 1 ohm quando, sottoposto a una tensione di 1 volt, è attraversato da una corrente di 1 ampere. 
 
-La seconda legge di Ohm descrive l'influenza delle proprietà geometriche del conduttore sulla resistenza R. Essa afferma che la resistenza è proporzionale al rapporto tra la lunghezza L e la sezione trasversale S del conduttore:  
+$ 
+  "1 "Omega = "1 V"/"1 A"
+$
 
-\( R = \rho \cdot \frac{L}{S} \)
+La seconda legge di Ohm descrive l'influenza delle proprietà geometriche del conduttore sulla resistenza _R_. Essa afferma che la resistenza è proporzionale al rapporto tra la lunghezza _L_ e la sezione trasversale _S_ del conduttore:  
 
-La costante di proporzionalità, detta resistività (\(\rho\)), dipende dal materiale del conduttore e quantifica l'attitudine del materiale a condurre corrente elettrica. Maggiore è la resistività, minore sarà la capacità del materiale di condurre elettricità. Nel Sistema Internazionale, la resistività si misura in ohm per metro (\(Ω·m\)); tuttavia, poiché le sezioni dei conduttori sono spesso espresse in millimetri quadrati (\(mm^2\)) e la lunghezza in metri (m), si adotta comunemente l'unità \(Ω·mm^2/m\).
+$ 
+  R = (rho L)/S
+$
 
-Le leggi di Ohm possono essere applicate anche agli isolanti, seppur con alcune approssimazioni. I materiali più conduttivi, come il rame e l'argento, hanno resistività comprese tra \(10^{-8}\) e \(10^{-5} Ω·m\); i migliori isolanti invece presentano valori tra \(10^{11}\) e \(10^{17} Ω·m\). Materiali con resistività intermedie, come i semiconduttori, occupano una posizione tra i due estremi.
+La costante di proporzionalità, detta resistività (_ρ_), dipende dal materiale del conduttore e quantifica l'attitudine del materiale a condurre corrente elettrica. Maggiore è la resistività, minore sarà la capacità del materiale di condurre elettricità. Nel Sistema Internazionale, la resistività si misura in ohm per metro (Ωm); tuttavia, poiché le sezioni dei conduttori sono spesso espresse in millimetri quadrati (mm#super[2]) e la lunghezza in metri (m), si adotta comunemente l'unità Ωmm#super[2]/m.
+
+Le leggi di Ohm possono essere applicate anche agli isolanti, seppur con alcune approssimazioni. I materiali più conduttivi, come il rame e l'argento, hanno resistività comprese tra 10#super[-8] e 10#super[-5] Ωm; i migliori isolanti invece presentano valori tra 10#super[11] e 10#super[17] Ωm. Materiali con resistività intermedie, come i semiconduttori, occupano una posizione tra i due estremi.
 
 La resistività dei conduttori tende a crescere con l'aumentare della temperatura secondo una legge lineare. Tuttavia, a temperature vicine allo zero assoluto (-273 °C o 0 K), la resistività generalmente assume valori molto bassi. Per alcuni materiali specifici chiamati superconduttori, essa diminuisce improvvisamente fino ad annullarsi.
+
+#note(bottom)[== *🧩* I superconduttori <senza_numero>
+
+I superconduttori sono materiali speciali che, se raffreddati fino a temperature molto basse e al di sotto della temperatura critica (Tc), caratteristica di ciascun materiale e prossima allo zero assoluto (0 K = -273 °C), annullano completamente la loro resistività elettrica. Circa 30 elementi, insieme a diverse leghe e composti, mostrano proprietà superconduttive.
+
+Il fenomeno della superconduttività fu scoperto nel 1911 dal fisico tedesco Heike Kamerlingh Onnes durante un esperimento sul mercurio. A una temperatura vicina ai 4 K, la resistività del mercurio scompariva improvvisamente invece di stabilizzarsi su valori minimi. Tuttavia, ottenere temperature così basse rappresenta una difficoltà tecnica significativa, motivo per cui il fenomeno della superconduttività rimase per lungo tempo una curiosità di carattere essenzialmente accademico.
+
+Per molti anni, il limite massimo per la temperatura critica nei materiali superconduttori si attestò sui 23 K, raggiunti in una lega di niobio. L'interesse pratico verso la superconduttività crebbe significativamente a partire dal 1986, quando i fisici J.G. Bednorz e K.A. Müller, operanti nei laboratori IBM, scoprirono che alcuni materiali composti da ossidi di rame, lantanidi e metalli alcalino-terrosi erano capaci di esibire proprietà superconduttive a temperature decisamente superiori rispetto a quelle fino ad allora conosciute.
+
+Studi successivi portarono allo sviluppo di materiali con temperature critiche intorno ai 90 K, superando la soglia della temperatura dell'azoto liquido, un refrigerante molto più economico rispetto a quelli comunemente impiegati per raffreddare i superconduttori metallici. La principale utilità dei superconduttori risiede nella loro capacità di non dissipare energia sotto forma di calore, grazie alla resistività praticamente nulla.
+
+Un cavo realizzato con materiale superconduttore permette di trasportare corrente elettrica su lunghe distanze senza perdite energetiche significative, anche se il mantenimento del raffreddamento del conduttore continua a rappresentare una sfida tecnica. Un'altra interessante applicazione riguarda la produzione di magneti superconduttori in grado di generare campi magnetici estremamente intensi, come quelli impiegati, ad esempio, nella tecnologia per la risonanza magnetica.
+
+Analizzando il comportamento della resistività nei superconduttori rispetto alla temperatura assoluta (T), si nota che al di sotto di una temperatura critica (T#sub[c]), la resistività si azzera improvvisamente. La temperatura critica varia in base al materiale e agli eventuali fattori esterni, come l'applicazione di un campo magnetico o i trattamenti termici e meccanici subiti.]
 
 === La potenza elettrica
 
 In un circuito elettrico, l'energia fornita da un generatore viene utilizzata per far funzionare dispositivi elettrici, come una lampadina. L'energia spesa da tale generatore si trasforma in altre forme di energia, ad esempio in calore e luce nel caso della lampadina. La quantità di energia trasferita nell'unità di tempo corrisponde alla potenza elettrica.  
 
-La potenza elettrica P in un circuito si calcola utilizzando la relazione:  
+Considerando un campo elettrico _E_, il lavoro compiuto dalle forze elettriche per spostare una carica _q_ lungo un conduttore di lunghezza _s_, tra i cui estremi è presente una differenza di potenziale ΔV, può essere espresso attraverso la relazione:
 
-\( P = V \cdot I \)
+$ 
+  L = q Delta V
+$
 
-dove V rappresenta la differenza di potenziale ai capi del circuito e I l'intensità della corrente che lo attraversa. Più formalmente, il lavoro compiuto dalle forze elettriche per spostare una carica q lungo un conduttore di lunghezza s è dato da \( W = q \cdot V \). In tali condizioni, il valore della potenza P si ottiene dividendo questo lavoro per il tempo impiegato t (\( P = W/t \)), e considerando che \( q/t \) corrisponde all'intensità di corrente I: 
+La potenza elettrica _P_ è dunque:
 
-\( P = V \cdot I \)
+$ 
+  P = (q Delta V)/t
+$
 
-Quindi, un circuito dove circola una corrente di intensità I e su cui agisce una differenza di potenziale V consuma energia alla velocità indicata dalla potenza P calcolata secondo tale formula.
+Poiché $q/t$ è l'intensitè di corrente _I_, si ottiene:
 
-L'unità di misura della potenza è il watt (simbolo W), equivalente a 1 joule al secondo.
+$ 
+  P = Delta V I
+$
 
-Una lampadina che consuma 100 W utilizza 100 J in 1 secondo.
+Quindi, un circuito dove circola una corrente di intensità _I_ e su cui agisce una differenza di potenziale _ΔV_ consuma una potenza $P = Delta V I$
 
-Tuttavia, per una valutazione completa del consumo, gli apparecchi elettrici devono indicare anche il valore dell'intensità della corrente con cui operano.
+L'unità di misura della potenza è il watt (simbolo W), equivalente a 1 joule al secondo. Una lampadina che consuma 100 W utilizza 100 J in 1 secondo. Tuttavia, per una valutazione completa del consumo, gli apparecchi elettrici devono indicare anche il valore dell'intensità della corrente con cui operano.
 
 Ad esempio, in un circuito alimentato da una tensione di 220 V (tipica degli impianti domestici), una lampadina da 100 W sarà attraversata da una corrente di 0,45 A. Grazie alla relazione P = VI si deduce che 1 watt corrisponde a 1 volt per 1 ampere. Pertanto, un dispositivo elettrico assorbe una potenza di 1 W quando è percorso da una corrente di 1 A e ai suoi capi viene applicata una differenza di potenziale di 1 V.
 
-Nel caso della lampadina da 100 W, si osserva che: poiché il watt è un'unità relativamente piccola (una lampadina media consuma circa 60 W, mentre un aspirapolvere domestico raggiunge gli 800 W), si utilizzano spesso i multipli di questa unità, come il kilowatt (1 kW = 1000 W). Per valutare i consumi negli impianti domestici si impiega generalmente il kilowattora (kWh), che misura la quantità di energia consumata in un'ora. In ambiti industriali o legati alla produzione energetica, si usano unità più grandi come il megawatt (1 MW = 1.000.000 W, tipico delle centrali elettriche) o il gigawatt (1 GW = 1 miliardo di watt).
+Nel caso della lampadina da 100 W, si osserva che: 
+
+$ 
+  I = "100 W"/"220 V" = 0.45 "A"
+$
+
+Poiché il watt è un'unità relativamente piccola (una lampadina media consuma circa 60 W, mentre un aspirapolvere domestico raggiunge gli 800 W), si utilizzano spesso i multipli di questa unità, come il kilowatt (1 kW = 1000 W). Per valutare i consumi negli impianti domestici si impiega generalmente il kilowattora (kWh), che misura la quantità di energia consumata in un'ora. In ambiti industriali o legati alla produzione energetica, si usano unità più grandi come il megawatt (1 MW = 1.000.000 W, tipico delle centrali elettriche) o il gigawatt (1 GW = 1 miliardo di watt).
 
 === La forza elettromotrice (f.e.m.)
 
@@ -103,41 +190,65 @@ La forza elettromotrice, indicata comunemente con la sigla f.e.m., rappresenta l
 
 La f.e.m. è un valore limite che si manifesta solo in condizioni di circuito aperto, in cui la corrente circolante è nulla.
 
-Va tenuto presente che la f.e.m. non coincide con la differenza di potenziale (V) misurata ai capi del generatore quando questo è connesso in un circuito. Infatti, il generatore possiede una resistenza interna R che altera le sue prestazioni, causando l'assorbimento di una parte della tensione prodotta. 
+Va tenuto presente che la f.e.m. non coincide con la differenza di potenziale (_ΔV_) misurata ai capi del generatore quando questo è connesso in un circuito. Infatti, il generatore possiede una resistenza interna _R_ che altera le sue prestazioni, causando l'assorbimento di una parte della tensione prodotta. Di conseguenza, la tensione V disponibile per il mantenimento della corrente I nel circuito sarà inferiore alla f.e.m. di un valore pari a _RI_:
 
-Di conseguenza, la tensione V disponibile per il mantenimento della corrente I nel circuito sarà inferiore alla f.e.m. di un valore pari a RI:
+$ 
+  Delta V = "f.e.m." - R I
+$
 
-In un circuito chiuso, la f.e.m. e la differenza di potenziale diventano uguali solo nel caso ideale in cui R = 0, condizione impossibile da realizzare nella pratica. Tuttavia, spesso la resistenza interna del generatore è trascurabile rispetto a quella degli altri componenti del circuito.
+In un circuito chiuso, la f.e.m. e la differenza di potenziale diventano uguali solo nel caso ideale in cui _R = 0_, condizione impossibile da realizzare nella pratica. Tuttavia, spesso la resistenza interna del generatore è trascurabile rispetto a quella degli altri componenti del circuito.
 
 === Resistori in serie e in parallelo
 
-Un resistore è un conduttore che soddisfa la prima legge di Ohm (V = RI).
-
-Ogni resistore è caratterizzato da un preciso valore di resistenza, motivo per cui comunemente i resistori vengono chiamati "resistenze", sebbene non sia del tutto corretto.
+Un resistore è un conduttore che soddisfa la prima legge di Ohm (_ΔV = RI_). Ogni resistore è caratterizzato da un preciso valore di resistenza, motivo per cui comunemente i resistori vengono chiamati "resistenze", sebbene non sia del tutto corretto.
 
 I resistori costituiscono elementi essenziali dei circuiti elettrici e, come gli altri componenti, possono essere collegati sia in serie sia in parallelo.
 
-In un circuito elettrico con più resistori collegati in serie, disposti consecutivamente lungo il percorso, l'intensità della corrente rimane invariata in ogni punto del circuito. La differenza di potenziale complessiva, invece, corrisponde alla somma delle differenze di potenziale ai capi dei singoli resistori. Secondo il principio enunciato dalla prima legge di Ohm, per un circuito composto da \( n \) resistori attraversato da una corrente \( I \), la differenza di potenziale totale si calcola come segue:
+In un circuito elettrico con più resistori collegati in serie, disposti consecutivamente lungo il percorso, l'intensità della corrente rimane invariata in ogni punto del circuito. La differenza di potenziale complessiva, invece, corrisponde alla somma delle differenze di potenziale ai capi dei singoli resistori. Secondo il principio enunciato dalla prima legge di Ohm, per un circuito composto da _n_ resistori attraversato da una corrente _I_, la differenza di potenziale totale si calcola come segue:
+
+$ 
+  Delta V &= Delta V_1 + Delta V_2 + Delta V_3 + ... + Delta V_n = \ &= I (R_1 + R_2 + R_3 + ... + R_n)
+$
 
 La resistenza equivalente di un circuito costituito da resistori collegati in serie è pertanto determinata dalla somma aritmetica delle resistenze individuali.
 
-In un circuito in cui i resistori sono disposti in parallelo, ciascuno di essi ha le estremità collegate rispettivamente a un nodo comune del circuito. In tale configurazione, ogni resistore opera indipendentemente dagli altri. In questo caso, l'intensità totale della corrente che circola nel circuito (\( I \)) è pari alla somma delle intensità di corrente che percorrono i rami distinti del circuito. La differenza di potenziale, invece, rimane costante e corrisponde a quella rilevabile ai poli del generatore (\( V \)). 
+In un circuito in cui i resistori sono disposti in parallelo, ciascuno di essi ha le estremità collegate rispettivamente a un nodo comune del circuito. In tale configurazione, ogni resistore opera indipendentemente dagli altri. In questo caso, l'intensità totale della corrente che circola nel circuito (_I_) è pari alla somma delle intensità di corrente che percorrono i rami distinti del circuito. La differenza di potenziale, invece, rimane costante e corrisponde a quella rilevabile ai poli del generatore (_ΔV_). L'intensità della corrente che attraversa un circuito con _n_ resistori collegati in parallelo si esprime così: 
 
-L'intensità della corrente che attraversa un circuito con \( n \) resistori collegati in parallelo si esprime così: 
+$ 
+  I &= I_1 + I_2 + I_3 + ... + I_n = \ &= (1/R_1 + 1/R_2 + 1/R_3 + ... + 1/R_n) space Delta V
+$
 
 Per quanto riguarda la resistenza complessiva di una disposizione in parallelo, il suo valore reciproco equivale alla somma dei reciproci delle singole resistenze.
 
 === Dispositivi di sicurezza e di misurazione
+#note(bottom)[== *🧩* Il diodo <senza_numero>
+
+Il diodo è uno strumento fondamentale che consente il passaggio della corrente in una sola direzione. Questa caratteristica lo rende ideale per convertire la corrente alternata degli impianti elettrici, la quale alterna il senso di scorrimento nel circuito, in corrente continua che viaggia in un'unica direzione.
+
+I primi dispositivi di questo tipo furono i diodi a vuoto o a gas, considerati il modello più semplice tra i tubi elettronici. Oggi, invece, sono diffusissimi i diodi a giunzione basati su semiconduttori come il germanio o il silicio in forma cristallina. Durante il processo di fabbricazione, vengono introdotte impurità nella struttura cristallina tramite un procedimento chiamato drogaggio: questo altera alcune parti del componente per favorire la mobilità degli elettroni.
+
+La parte "drogata" con elettroni facilmente mobili viene denominata regione n; un'altra sezione viene trattata con materiali che generano lacune positive nel cristallo, ovvero spazi che possono essere occupati dagli elettroni. Questa viene definita regione _p_. La zona di separazione tra queste due aree è chiamata giunzione _p-n_.
+
+Se la regione _p_ viene collegata al polo positivo di un generatore e la regione n al polo negativo (polarizzazione diretta), gli elettroni possono migrare dalla zona n alla zona _p_, permettendo così la circolazione della corrente. Al contrario, se i collegamenti vengono invertiti (polarizzazione inversa), la corrente non passa. ]
 
 Nei circuiti di impianti domestici e negli apparecchi elettrici di uso quotidiano, vengono frequentemente integrati dispositivi di sicurezza progettati per prevenire situazioni di sovraccarico elettrico. Un esempio comune è rappresentato dai fusibili, costituiti da piccoli segmenti metallici che interrompono il circuito quando l'intensità della corrente supera una soglia predefinita.
 
 I circuiti elettrici includono generalmente interruttori per consentire l'apertura o chiusura in circostanze specifiche. Gli interruttori di sicurezza svolgono funzione analoga ai fusibili: interrompono il passaggio di corrente qualora questa superi valori critici. Un ulteriore dispositivo, noto come salvavita, è progettato per rilevare anche minime variazioni nell'intensità della corrente. Esso interviene automaticamente interrompendo il circuito in situazioni come cortocircuiti o sovraccarichi.
 
-Un cortocircuito in ambito domestico può verificarsi quando si crea un collegamento accidentale tra due punti del circuito caratterizzati da una determinata differenza di potenziale ma da una resistenza notevolmente inferiore rispetto ai valori normali. Tale circostanza determina l'insorgere di correnti significativamente superiori rispetto a quelle previste durante la progettazione del circuito. Poiché la quantità di calore generata è proporzionale al quadrato dell'intensità della corrente, la temperatura dei componenti coinvolti può rapidamente raggiungere livelli che compromettono l'integrità dei materiali isolanti e portano alla fusione dei conduttori.
-
-Altri strumenti che influenzano il comportamento della corrente nei circuiti comprendono i diodi e i transistor.
+Un cortocircuito in ambito domestico può verificarsi quando si crea un collegamento accidentale tra due punti del circuito caratterizzati da una determinata differenza di potenziale ma da una resistenza notevolmente inferiore rispetto ai valori normali. Tale circostanza determina l'insorgere di correnti significativamente superiori rispetto a quelle previste durante la progettazione del circuito. Poiché la quantità di calore generata è proporzionale al quadrato dell'intensità della corrente, la temperatura dei componenti coinvolti può rapidamente raggiungere livelli che compromettono l'integrità dei materiali isolanti e portano alla fusione dei conduttori. Altri strumenti che influenzano il comportamento della corrente nei circuiti comprendono i diodi e i transistor.
 
 Per misurare l'intensità della corrente che attraversa un circuito si utilizza l'amperometro, mentre per determinare la differenza di potenziale tra due punti del circuito si impiega il voltmetro. È fondamentale, al fine di garantire una misura accurata senza alterare significativamente i parametri del circuito: l'amperometro deve avere una resistenza molto ridotta e il voltmetro una resistenza elevata.
+// Tabella Simboli grafici prescritti dalle norme CEI per gli schemi elettrici #TODO
+
+#note(top)[== *🧩* Il transistor <senza_numero>
+
+Il transistor è composto essenzialmente da una doppia giunzione _p-n-p_ o _n-p-n_ ed è utilizzato principalmente per amplificare i segnali elettrici. Il transistor bipolare rappresenta il tipo più tradizionale di transistor, in cui la conduzione elettrica avviene sia tramite gli elettroni sia tramite le lacune. È costituito da una sottile piastrina di germanio o silicio, suddivisa in tre strati con zone di drogaggio alternato di tipo _p_ e _n_. La regione centrale, più sottile, è chiamata base, mentre le due zone che la delimitano sono denominate emettitore e collettore. L'emettitore invia cariche al collettore attraverso la base, e il collettore trasmette la corrente al terminale di uscita.
+
+Collegando correttamente un transistor di tipo _n-p-n_ a due alimentatori in modo da applicare una tensione di polarizzazione inversa tra l'emettitore e il collettore, e una tensione di polarizzazione diretta, ma di valore più basso, tra base ed emettitore, si genera un flusso di elettroni con intensità _I#sub[e]_ dall'emettitore verso la base. Poiché la base è estremamente sottile, la maggior parte degli elettroni attraversa questa regione raggiungendo il collettore.
+
+In pratica la corrente Ic che fluisce tra collettore ed emettitore risulta molto più intensa rispetto alla corrente _I#sub[b]_ che circola tra base ed emettitore. Inoltre, è sempre verificata la relazione _I#sub[c]_ + _I#sub[b]_ = _I#sub[e]_. Il rapporto _I#sub[b]_/_I#sub[c]_, che rimane praticamente costante, è noto come guadagno di corrente del transistor. 
+
+Questo implica che una leggera variazione della tensione sulla base, ad esempio causata da un segnale in ingresso, dà origine a un'ampia variazione della corrente _I#sub[c]_ nel collettore. Di conseguenza, il transistor agisce come amplificatore di corrente, intervenendo sul segnale di uscita. Un transistor _p-n-p_ funziona in modo analogo, ma in questo caso il trasporto di corrente avviene tramite le lacune anziché gli elettroni.]
 
 == L'effetto Joule
 
@@ -147,14 +258,53 @@ Un esempio di questa trasformazione si può osservare in un resistore: quando at
 
 Dispositivi come il ferro da stiro e le stufe elettriche sfruttano proprio questa caratteristica dell'energia elettrica. Questo fenomeno prende il nome di effetto Joule, dal fisico inglese James Prescott Joule (1818-1889) che lo individuò. Tale effetto corrisponde allo sviluppo di calore derivante dal passaggio di corrente elettrica attraverso un conduttore.
 
-La potenza dissipata da un resistore percorso da una corrente di intensità I e sottoposto a una differenza di potenziale V è calcolabile tramite la prima legge di Ohm. In questo modo, la potenza può essere espressa con la formula P = RI². La quantità di energia elettrica trasferita al resistore durante un intervallo di tempo t è pari a RI²t. Se tutta questa energia si converte in calore, si può determinare il calore prodotto Q come direttamente proporzionale alla resistenza del conduttore e al quadrato dell'intensità della corrente che lo attraversa.
+La potenza dissipata da un resistore percorso da una corrente di intensità I e sottoposto a una differenza di potenziale _ΔV_ è calcolabile tramite la prima legge di Ohm:
+
+$ 
+  P = Delta V I quad "e" quad  Delta V = R I
+$
+
+Quindi: 
+
+$
+  P = R I^2
+$
+
+La quantità di energia elettrica trasferita al resistore durante un intervallo di tempo _Δt_ è pari a _RI²Δt_. Se tutta questa energia si converte in calore, si può determinare il calore prodotto _Q_ come direttamente proporzionale alla resistenza del conduttore _R_ e al quadrato dell'intensità della corrente _I_ che lo attraversa:
+
+$ 
+  Q = R I^2 Delta t
+$
 
 La resistenza elettrica può quindi essere definita come la capacità di un conduttore di trasformare l'energia elettrica che lo attraversa in calore. Per applicazioni come stufe o ferri da stiro, dove è necessaria una maggiore conversione di energia in calore, si incrementa il valore della resistenza. Tuttavia, in situazioni in cui invece è preferibile minimizzare la dispersione energetica, si utilizzano materiali con una bassa resistenza quali oro, argento o rame. Questi ultimi sono fondamentali per i cavi che trasportano elettricità nelle case o collegano gli apparecchi elettrici.
 
 == La corrente nei liquidi e nei gas
 
+#figure(
+  caption: [Classi di conduttori elettrici e ordine di grandezza delle rispettive resistività],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (5em, 7em, 6em),
+  table.header[Classe][Materiale][ρ A 20 °C [Ωm(m·lo]],
+    [prima], [conduttori metallici], [< 2 · 10#super[6]],
+    [seconda], [elettroliti, gas ionizzati], [0,01 ÷ 100],
+    [terza], [isolanti], [10#super[6] ÷ 10#super[16]],
+)  
+)
+
 La conducibilità elettrica nei liquidi e nei gas presenta caratteristiche differenti rispetto ai solidi. Nei liquidi e nei gas, la corrente dipende dalla presenza di ioni, cioè atomi o molecole carichi negativamente o positivamente che hanno rispettivamente acquisito o perso uno o più elettroni. Diversamente dai conduttori metallici, dove il trasporto della corrente è affidato esclusivamente agli elettroni, nei liquidi e nei gas sono sia gli ioni positivi sia quelli negativi a rendere possibile il flusso della corrente elettrica.
-//
 
 Per determinare se un liquido possiede proprietà conduttive o isolanti, è possibile utilizzare un esperimento che prevede il collegamento di due lamine metalliche, denominate elettrodi, ad un generatore di corrente. Gli elettrodi vengono poi immersi in un recipiente contenente il liquido da analizzare. 
 
@@ -173,13 +323,21 @@ La molecola d'acqua, composta da due atomi di idrogeno e uno di ossigeno, presen
 Quando un elettrolita viene disciolto in acqua, le molecole d'acqua interagiscono con quelle dell'elettrolita. La frazione negativa presente nell'atomo di ossigeno circonda i cationi, mentre la frazione positiva degli atomi di idrogeno avvolge gli anioni, favorendo così la dissociazione dell'elettrolita. Questo fenomeno è conosciuto come dissociazione elettrolitica.
 
 Sotto l'influenza del campo elettrico generato dagli elettrodi, gli ioni presenti nella soluzione migrano: i cationi si spostano verso il catodo e gli anioni verso l'anodo. 
-//
+
 Quando i cationi raggiungono il catodo, acquisiscono elettroni (subiscono una riduzione) e possono formare specie neutre. Ad esempio, possono generare un gas, come l'idrogeno, oppure depositarsi sull'elettrodo, come avviene per alcuni metalli. Il processo di deposizione dei metalli mediante elettrolisi trova applicazione industriale, ad esempio, nel rivestimento di materiali metallici con oro, argento o cromo. Gli anioni, invece, arrivando a contatto con l'anodo, cedono elettroni (subiscono un'ossidazione), formando anch'essi specie neutre.
 
 Un caso pratico è l'elettrolisi del cloruro di sodio: al catodo si forma sodio metallico (Na), mentre all'anodo si genera cloro gassoso (Cl#sub[2]). Le applicazioni dell'elettrolisi sono molteplici e includono il rivestimento di oggetti con strati metallici, l'estrazione di metalli come alluminio e magnesio, la raffinazione di metalli impuri e la produzione di elementi, come il cloro, a partire dai loro composti. Anche il funzionamento delle pile elettriche si basa sui principi dell'elettrolisi.
 
 === Le leggi di Faraday sull'elettrolisi
+#note(bottom)[== *🧩* Il tubo a raggi catodici <senza_numero>
 
+I raggi catodici sono costituiti da fasci di elettroni emessi da un catodo e accelerati verso un anodo. In un tubo a raggi catodici, gli elettroni vengono generati da un filamento riscaldato tramite una corrente elettrica: quando la temperatura raggiunge valori adeguati, alcuni elettroni acquisiscono sufficiente energia per sfuggire dal metallo (effetto termoelettrico).
+
+Gli elettroni vengono quindi accelerati grazie alla differenza di potenziale stabilita tra anodo e catodo. Attraverso un piccolo foro nell'anodo, un fascio ristretto di elettroni colpisce uno schermo rivestito da uno strato sottile di fluoruro di zinco, causando una fluorescenza intensa nel punto d'impatto.
+
+Applicando una differenza di potenziale a due placche posizionate lungo l'asse verticale del percorso degli elettroni, è possibile deviare il fascio e spostare il punto luminoso verticalmente sullo schermo. Analogamente, una differenza di potenziale applicata a placche lungo l'asse orizzontale provoca uno spostamento orizzontale del punto luminoso.
+
+Combinando simultaneamente delle differenze di potenziale su entrambe le coppie di placche, il fascio può essere indirizzato rapidamente verso qualsiasi punto dello schermo. Il tubo catodico trova applicazione nel campo della formazione delle immagini in strumenti di misurazione come l'oscilloscopio, oltre che nei televisori.]
 Michael Faraday (1791-1867), chimico e fisico inglese, analizzando il processo dell'elettrolisi, formulò due leggi che oggi portano il suo nome. La prima legge stabilisce che la quantità di materia trasformata durante l'elettrolisi è proporzionale alla quantità di corrente elettrica che attraversa la soluzione. La seconda legge afferma che la massa di sostanza depositata o liberata sugli elettrodi, conseguente al passaggio di una determinata carica elettrica, è proporzionale all'equivalente chimico della sostanza.
 
 L'equivalente chimico si calcola come il rapporto tra il peso atomico di un elemento e la sua valenza. Quest'ultima rappresenta il numero di elettroni che un atomo dell'elemento può perdere o acquisire per formare legami chimici.
@@ -198,64 +356,58 @@ I diodi a gas si differenziano dai modelli a vuoto per la presenza, all'interno 
 
 In condizioni normali, l'aria agisce come un eccellente isolante; tuttavia, una debole ionizzazione è sempre presente nell'ambiente, causata da fattori quali la radiazione solare o i raggi cosmici. Quando tra una nube e il suolo, o tra una nube e un'altra nube, si instaura una significativa differenza di potenziale, può verificarsi la formazione di una poderosa scarica elettrica: il fulmine. Il calore generato dall'intenso passaggio di corrente eleva la temperatura dell'aria circostante; la conseguente espansione rapida dell'aria dà origine a un'onda sonora percepita come tuono.
 
-== Appr. La pila elettrica
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
-La pila elettrica è un dispositivo concepito per convertire l'energia chimica prodotta da una reazione di ossido-riduzione in energia elettrica. Tutte le pile moderne si ispirano al modello originario ideato da Volta. Quest'ultimo era costituito da una serie verticale di dischi metallici (elettrodi), composti da due metalli differenti, come zinco e rame, separati da dischi di carta impregnati in una soluzione acida (elettrolita). Collegando il primo e l'ultimo disco della pila si completava un circuito attraverso il quale poteva fluire corrente elettrica.
+/ Ampere: Unità di misura fondamentale del Sistema Internazionale (SI) per l'intensità della corrente elettrica, rappresentata con il simbolo A. Corrisponde all'intensità di una corrente che trasferisce una carica di 1 coulomb attraverso la sezione di un conduttore in un secondo: 1 A = 1 C/1 s.  
 
-In generale, una pila è composta da due semicelle distinte connesse mediante un ponte salino o un setto poroso. Ogni semicella contiene un elettrolita, che può essere liquido, ad esempio una soluzione ionica come nel caso della pila Daniell, oppure solido, come nelle pile a secco generalmente utilizzate oggi. Al suo interno è immerso un elettrodo costituito da materiale conduttore dotato di bassa resistenza.
+/ Amperometro: Strumento progettato per la misurazione dell'intensità della corrente elettrica in un circuito.  
 
-La soluzione della semicella ossidante riceve elettroni dall'elettrodo immerso in essa, che prende il nome di catodo, mentre la soluzione dell'altra semicella è riducente e cede elettroni all'elettrodo, chiamato anodo. La differenza di potenziale tra i due elettrodi rappresenta la forza elettromotrice della pila.
+/ Anodo: Elettrodo o polo positivo in una cella elettrolitica, verso il quale si dirigono gli ioni a carica negativa.  
 
-Collegando i due elettrodi tramite un conduttore, gli elettroni si muovono dal catodo verso l'anodo, generando una corrente elettrica. Questo movimento tende a riequilibrare la carica tra i due poli, ma le reazioni chimiche che avvengono all'interno della pila preservano tale differenza di potenziale, permettendo alla batteria di continuare a produrre energia. Dopo un certo tempo, le reazioni chimiche si arrestano perché si formano sostanze che alterano il rapporto tra l'elettrolita e l'elettrodo. Di conseguenza, la pila si scarica e smette di fornire energia elettrica.
+/ Catodo: Elettrodo o polo negativo in una cella elettrolitica, verso il quale migrano gli ioni a carica positiva.  
 
-Le pile a secco, o Leclanché, non contengono elettroliti liquidi e sono disponibili in versioni acide o alcaline. La pila acida ha un rivestimento di zinco che funge da anodo e una barretta di carbone, il catodo, immersa in un elettrolita solido composto da una pasta di biossido di manganese, cloruro di ammonio e polvere di carbone. Nella versione alcalina, il cloruro di ammonio è sostituito dall'idrossido di potassio.
+/ Circuito elettrico: Insieme di componenti elettrici e conduttori interconnessi, attraverso i quali scorre corrente elettrica.  
 
-Rispetto alla versione acida, quella alcalina ha una durata maggiore grazie alla maggiore stabilità dell'anodo di zinco, che si corrode più lentamente. Tra le tipologie moderne di pile a secco troviamo quelle ad argento, in cui l'anodo è sempre di zinco e il catodo è fatto di ossido d'argento. Inoltre, le pile a mercurio, comunemente note come pile a bottone, vengono utilizzate soprattutto per calcolatrici, orologi e macchine fotografiche. Degne di nota sono anche la pila Daniell, dove la corrente nasce dal trasferimento di elettroni dall'elettrodo di zinco a quello di rame, e la pila a secco carbone-zinco.
+/ Corrente alternata (CA): Corrente elettrica la cui intensità e direzione variano periodicamente nel tempo.  
 
-== Appr. I superconduttori
+/ Corrente continua (CC): Corrente elettrica caratterizzata da un flusso unidirezionale e costante nel tempo.  
 
-I superconduttori sono materiali speciali che, se raffreddati fino a temperature molto basse e al di sotto della temperatura critica (Tc), caratteristica di ciascun materiale e prossima allo zero assoluto (0 K = −273 °C), annullano completamente la loro resistività elettrica. Circa 30 elementi, insieme a diverse leghe e composti, mostrano proprietà superconduttive.
+/ Corrente elettrica: Flusso organizzato di cariche elettriche. La sua intensità viene definita come la quantità di carica che attraversa una superficie data in un determinato intervallo di tempo. L'unità di misura è l'ampere.  
 
-Il fenomeno della superconduttività fu scoperto nel 1911 dal fisico tedesco Heike Kamerlingh Onnes durante un esperimento sul mercurio. A una temperatura vicina ai 4 K, la resistività del mercurio scompariva improvvisamente invece di stabilizzarsi su valori minimi. Tuttavia, ottenere temperature così basse rappresenta una difficoltà tecnica significativa, motivo per cui il fenomeno della superconduttività rimase per lungo tempo una curiosità di carattere essenzialmente accademico.
+/ Cortocircuito: Fenomeno determinato da un contatto accidentale tra elementi non consecutivi di un circuito, che produce una deviazione del normale percorso della corrente.  
 
-Per molti anni, il limite massimo per la temperatura critica nei materiali superconduttori si attestò sui 23 K, raggiunti in una lega di niobio. L'interesse pratico verso la superconduttività crebbe significativamente a partire dal 1986, quando i fisici J.G. Bednorz e K.A. Müller, operanti nei laboratori IBM, scoprirono che alcuni materiali composti da ossidi di rame, lantanidi e metalli alcalino-terrosi erano capaci di esibire proprietà superconduttive a temperature decisamente superiori rispetto a quelle fino ad allora conosciute.
+/ Diodo: Componente elettronico a due terminali con la proprietà di consentire il passaggio della corrente elettrica esclusivamente in una direzione.  
 
-Studi successivi portarono allo sviluppo di materiali con temperature critiche intorno ai 90 K, superando la soglia della temperatura dell'azoto liquido, un refrigerante molto più economico rispetto a quelli comunemente impiegati per raffreddare i superconduttori metallici. La principale utilità dei superconduttori risiede nella loro capacità di non dissipare energia sotto forma di calore, grazie alla resistività praticamente nulla.
+/ Effetto Joule: Fenomeno fisico che si manifesta come produzione di calore all'interno di un conduttore in seguito al passaggio della corrente elettrica.  
 
-Un cavo realizzato con materiale superconduttore permette di trasportare corrente elettrica su lunghe distanze senza perdite energetiche significative, anche se il mantenimento del raffreddamento del conduttore continua a rappresentare una sfida tecnica. Un'altra interessante applicazione riguarda la produzione di magneti superconduttori in grado di generare campi magnetici estremamente intensi, come quelli impiegati, ad esempio, nella tecnologia per la risonanza magnetica.
+/ Elettrodo: Elemento conduttivo che funge da interfaccia tra un circuito elettrico e il mezzo all'interno del quale si genera o si utilizza il flusso di corrente elettrica.  
 
-Analizzando il comportamento della resistività nei superconduttori rispetto alla temperatura assoluta (T), si nota che al di sotto di una temperatura critica (Tc), la resistività si azzera improvvisamente. La temperatura critica varia in base al materiale e agli eventuali fattori esterni, come l'applicazione di un campo magnetico o i trattamenti termici e meccanici subiti.
+/ Elettrolisi: Processo chimico indotto dal passaggio della corrente elettrica attraverso una soluzione elettrolitica, che comporta fenomeni di dissociazione e reazioni chimiche ai rispettivi elettrodi.  
 
-== Appr. Diodi e transistor
+/ Elettrolita: Sostanza chimica che, sciolta in acqua, si dissocia in ioni positivi e negativi. Appartengono alla categoria degli elettroliti gli acidi, le basi e i sali.  
 
-Il diodo è uno strumento fondamentale che consente il passaggio della corrente in una sola direzione. Questa caratteristica lo rende ideale per convertire la corrente alternata degli impianti elettrici, la quale alterna il senso di scorrimento nel circuito, in corrente continua che viaggia in un'unica direzione.
+/ Forza elettromotrice (f.e.m.): Differenza di potenziale elettrico misurata ai terminali di un generatore a circuito aperto, capace di generare il flusso di corrente quando il circuito è chiuso.  
 
-I primi dispositivi di questo tipo furono i diodi a vuoto o a gas, considerati il modello più semplice tra i tubi elettronici. Oggi, invece, sono diffusissimi i diodi a giunzione basati su semiconduttori come il germanio o il silicio in forma cristallina. Durante il processo di fabbricazione, vengono introdotte impurità nella struttura cristallina tramite un procedimento chiamato drogaggio: questo altera alcune parti del componente per favorire la mobilità degli elettroni.
+/ Generatore di tensione (o Generatore Elettrico): Dispositivo che converte una forma specifica di energia (come energia meccanica o chimica) in energia elettrica.  
 
-La parte "drogata" con elettroni facilmente mobili viene denominata regione n; un'altra sezione viene trattata con materiali che generano lacune positive nel cristallo, ovvero spazi che possono essere occupati dagli elettroni. Questa viene definita regione p. La zona di separazione tra queste due aree è chiamata giunzione p-n.
+/ Ohm: Unità del Sistema Internazionale per la misurazione della resistenza elettrica, rappresentata dal simbolo Ω. Un conduttore possiede una resistenza di 1 ohm se, applicando una differenza di potenziale di 1 volt, lo attraversa una corrente di 1 ampere: 1 Ω = 1 V/A.  
 
-Se la regione p viene collegata al polo positivo di un generatore e la regione n al polo negativo (polarizzazione diretta), gli elettroni possono migrare dalla zona n alla zona p, permettendo così la circolazione della corrente. Al contrario, se i collegamenti vengono invertiti (polarizzazione inversa), la corrente non passa. 
+/ Pila elettrica: Sistema elettrochimico costituito da due elettrodi immersi in un elettrolita che converte energia chimica in energia elettrica attraverso reazioni di ossidoriduzione.  
 
-Il transistor, invece, è composto essenzialmente da una doppia giunzione p-n-p o n-p-n ed è utilizzato principalmente per amplificare i segnali elettrici.
+/ Potenza elettrica: Quantità di energia elettrica erogata o consumata in un determinato intervallo temporale. Si calcola come il prodotto tra la differenza di potenziale ai capi di un circuito e l'intensità della corrente attraversante: P = V × I.  
 
-Il transistor bipolare rappresenta il tipo più tradizionale di transistor, in cui la conduzione elettrica avviene sia tramite gli elettroni sia tramite le lacune. È costituito da una sottile piastrina di germanio o silicio, suddivisa in tre strati con zone di drogaggio alternato di tipo p e n.
+/ Raggi catodici: Radiazioni costituite da fasci di elettroni emessi dal catodo all'interno di un tubo a scarica riempito con gas rarefatto, visibili come fluorescenza sulla parete opposta al catodo. 
 
-La regione centrale, più sottile, è chiamata base, mentre le due zone che la delimitano sono denominate emettitore e collettore. L'emettitore invia cariche al collettore attraverso la base, e il collettore trasmette la corrente al terminale di uscita.
+/ Resistenza: Grandezza fisica che esprime la capacità di un conduttore di convertire l'energia elettrica che lo attraversa in calore. La resistenza elettrica viene misurata in ohm.
 
-Collegando correttamente un transistor di tipo n-p-n a due alimentatori in modo da applicare una tensione di polarizzazione inversa tra l'emettitore e il collettore, e una tensione di polarizzazione diretta, ma di valore più basso, tra base ed emettitore, si genera un flusso di elettroni con intensità Ie dall'emettitore verso la base. Poiché la base è estremamente sottile, la maggior parte degli elettroni attraversa questa regione raggiungendo il collettore.
+/ Resistività: Grandezza fisica descrive la proprietà di un conduttore di consentire il passaggio della corrente elettrica attraverso di esso.
 
-In pratica la corrente Ic che fluisce tra collettore ed emettitore risulta molto più intensa rispetto alla corrente Ib che circola tra base ed emettitore. Inoltre, è sempre verificata la relazione Ic + Ib = Ie. Il rapporto Ib/Ic, che rimane praticamente costante, è noto come guadagno di corrente del transistor. 
+/ Superconduttività: Fenomeno fisico caratterizzato dal repentino azzeramento della resistività in alcuni materiali, quando raggiungono temperature vicine allo zero assoluto.
 
-Questo implica che una leggera variazione della tensione sulla base, ad esempio causata da un segnale in ingresso, dà origine a un'ampia variazione della corrente Ic nel collettore. Di conseguenza, il transistor agisce come amplificatore di corrente, intervenendo sul segnale di uscita.
+/ Transistor: Componente elettronico realizzato con materiali semiconduttori, impiegato nei circuiti elettrici principalmente come amplificatore di segnale.
 
-Un transistor p-n-p funziona in modo analogo, ma in questo caso il trasporto di corrente avviene tramite le lacune anziché gli elettroni.
+/ Voltmetro: Strumento utilizzato per misurare la differenza di potenziale tra due punti di un circuito elettrico.
 
-== Appr. Il tubo a raggi catodici
-
-I raggi catodici sono costituiti da fasci di elettroni emessi da un catodo e accelerati verso un anodo. In un tubo a raggi catodici, gli elettroni vengono generati da un filamento riscaldato tramite una corrente elettrica: quando la temperatura raggiunge valori adeguati, alcuni elettroni acquisiscono sufficiente energia per sfuggire dal metallo (effetto termoelettrico).
-
-Gli elettroni vengono quindi accelerati grazie alla differenza di potenziale stabilita tra anodo e catodo. Attraverso un piccolo foro nell'anodo, un fascio ristretto di elettroni colpisce uno schermo rivestito da uno strato sottile di fluoruro di zinco, causando una fluorescenza intensa nel punto d'impatto.
-
-Applicando una differenza di potenziale a due placche posizionate lungo l'asse verticale del percorso degli elettroni, è possibile deviare il fascio e spostare il punto luminoso verticalmente sullo schermo. Analogamente, una differenza di potenziale applicata a placche lungo l'asse orizzontale provoca uno spostamento orizzontale del punto luminoso.
-
-Combinando simultaneamente delle differenze di potenziale su entrambe le coppie di placche, il fascio può essere indirizzato rapidamente verso qualsiasi punto dello schermo. Il tubo catodico trova applicazione nel campo della formazione delle immagini in strumenti di misurazione come l'oscilloscopio, oltre che nei televisori.
+/ Watt: Unità di misura della potenza elettrica nel Sistema Internazionale, con simbolo W. Un watt corrisponde a una potenza pari al lavoro di 1 joule effettuato in 1 secondo: 1 W = 1 J/1 s.

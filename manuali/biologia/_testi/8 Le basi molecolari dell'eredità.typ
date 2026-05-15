@@ -1,12 +1,11 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Gregor Mendel ha gettato le basi della genetica moderna, facendo luce sui meccanismi che regolano la trasmissione dei caratteri ereditari. Il passo successivo nella comprensione di questi processi è stato l'approfondimento della struttura interna del gene. Grazie a osservazioni ed esperimenti straordinariamente brillanti, gli scienziati hanno dimostrato che i geni si trovano sui cromosomi e che ciascun gene corrisponde a una porzione della molecola di DNA.
 
 Oggi la ricerca genetica permette di esplorare la struttura dei geni in modo sempre più dettagliato, con l'obiettivo primario di comprendere da un lato il modo in cui i geni influenzano le caratteristiche di un organismo e, dall'altro, come si modifichi la loro attività in base alle esigenze della cellula. Le attuali tecniche biotecnologiche consentono persino di manipolare il genoma degli organismi. Sebbene ci sia ancora molta strada da fare, uno degli obiettivi principali della biotecnologia resta la possibilità di correggere le anomalie genetiche umane attraverso la sostituzione di geni difettosi o l'introduzione di copie funzionali.]
 
 == La teoria cromosomica dell'eredità
-
 La teoria cromosomica dell'eredità, che identifica i cromosomi come il luogo in cui risiedono i geni, si basa su tre punti fondamentali::
 - la chiara analogia tra il comportamento dei cromosomi durante la meiosi e quello dei geni, in accordo con le leggi formulate da Mendel;
 - la presenza dei cromosomi nei gameti;
@@ -136,9 +135,8 @@ Inoltre, le mutazioni cromosomiche possono influenzare il numero complessivo dei
 Le mutazioni costituiscono la fonte principale della variabilità genetica. Nel corso di milioni di anni di evoluzione, la selezione naturale ha sfruttato queste variazioni per favorire lo sviluppo di organismi sempre più adattati al loro ambiente. Tuttavia, ogni nuova mutazione può perturbare questo delicato equilibrio, risultando spesso dannosa piuttosto che vantaggiosa. Questo processo ha permesso a ogni specie di perfezionare progressivamente un proprio programma genetico altamente specializzato.
 
 Va comunque sottolineato che un cambiamento nell'ambiente può destabilizzare una popolazione. In tali circostanze, una mutazione apparentemente casuale potrebbe rivelarsi vantaggiosa, migliorando l'adattamento della specie al nuovo contesto e finendo per essere integrata nel suo genoma.
-
-// Approfondimento: progetto genoma umano
-
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / DNA ricombinante: Molecola di DNA ottenuta inserendo un frammento di DNA di una specie all'interno del DNA di un'altra specie.  

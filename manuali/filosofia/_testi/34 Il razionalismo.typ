@@ -1,10 +1,10 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il razionalismo, in senso generale, abbraccia quelle dottrine che riconoscono nella realtà un principio intelligibile, la cui evidenza e comprensione non derivano dall'esperienza empirica, bensì dalla riflessione razionale, accessibile solo attraverso il pensiero. Cartesio è considerato il precursore di questa corrente filosofica nella modernità, raggruppando figure come Malebranche, Spinoza e Leibniz. Essi attribuiscono al sapere umano il carattere di universalità e necessità, fondandolo sulla certezza garantita dal patrimonio delle idee innate.]
 
 == L'occasionalismo e Malebranche
-
+#note(bottom)[/ Panteismo: Dottrina che sostiene l'identità tra Dio e il mondo naturale, con un'accentuazione particolare sull'immanenza divina. Sebbene il termine sia stato coniato in epoca moderna, l'idea sottostante appare già delineata nello stoicismo e nel neoplatonismo. \ Il panteismo di matrice neoplatonica trova successivamente un'importante rielaborazione nella filosofia rinascimentale, dove emerge una forte enfasi sulla divinità della natura, specialmente negli scritti di Giordano Bruno. Tuttavia, una formulazione più sistematica del panteismo si deve a Spinoza, il quale identifica Dio con l'ordine strutturale e geometrico dell'universo, di cui Egli funge da causa immanente.]
 Dalla seconda metà del Seicento, la filosofia si concentra sui punti critici del pensiero cartesiano, come la dimostrazione dell'esistenza delle idee innate, la possibilità di conoscere la realtà esterna al pensiero e il rapporto tra l'anima e il corpo. Proprio da quest'ultimo interrogativo nasce l'occasionalismo, un tentativo di spiegare la relazione tra le due sostanze. Per Cartesio, anima e corpo appartengono a generi completamente eterogenei e privi di comunicazione diretta; tuttavia, mentre Cartesio riconosce l'interazione tra anima e corpo come un dato certo, pur non potendo offrirne una spiegazione adeguata, gli occasionalisti ritengono che tale relazione sia possibile solo attraverso l'azione divina. Secondo questa visione, Dio interviene direttamente per generare una sensazione o un pensiero nell'anima quando il corpo subisce una determinata modifica: le creature non agiscono come cause reali, ma soltanto "occasionali", non influenzando né i mutamenti corporei né gli eventi materiali.
 
 L'occasionalismo arriva alla sua formulazione più sistematica grazie a Nicolas Malebranche (1638-1715), il quale sviluppa la nozione di conoscenza come "visione delle idee in Dio". In questa concezione, Dio illumina le menti umane permettendo loro di cogliere le idee archetipiche presenti in Lui, che rappresentano i modelli delle cose reali. Queste idee sono legate alle caratteristiche geometriche dei corpi, come l'estensione, elemento oggettivo per eccellenza. Sensazioni e qualità percepite non sono altro che modificazioni soggettive dell'anima, prive di oggettività. Di conseguenza, l'esistenza del mondo oggettivo non è necessaria e la nostra certezza riguardo a essa si basa esclusivamente sulla fiducia nella bontà e veridicità divina.
@@ -13,7 +13,7 @@ L'occasionalismo arriva alla sua formulazione più sistematica grazie a Nicolas 
 
 Baruch Spinoza (Amsterdam 1632 - L'Aia 1677) è uno dei grandi protagonisti del dibattito sui problemi metafisici suscitati dalla filosofia cartesiana. Di famiglia ebrea portoghese costretta a emigrare in Olanda, perfeziona la sua educazione ebraica studiando la matematica e il latino, che gli permettono l'incontro decisivo con le opere di Francesco Bacone, Cartesio e Hobbes. 
 
-Nel 1670 pubblica, anonimo, il Tractatus theologico-politicus, che viene proibito dal governo nel 1674. Nel 1675, per timore dell'odio dei teologi, Spinoza ritira la stampa dell'Ethica more geometrico demonstrata (L'etica dimostrata secondo l'ordine geometrico), già consegnata al proprio editore.
+Nel 1670 pubblica, anonimo, il _Tractatus theologico-politicus_, che viene proibito dal governo nel 1674. Nel 1675, per timore dell'odio dei teologi, Spinoza ritira la stampa dell'_Ethica more geometrico demonstrata_ (_L'etica dimostrata secondo l'ordine geometrico_), già consegnata al proprio editore.
 
 === L'orizzonte della filosofia spinoziana
 
@@ -25,7 +25,7 @@ La Sostanza assolutamente infinita possiede dunque un numero illimitato di attri
 
 Da questa prospettiva deriva la centralità che Spinoza assegna alla conoscenza adeguata, considerata l'unico mezzo per raggiungere libertà e beatitudine. La perfezione umana si fonda sulla comprensione intellettuale che supera sia l'opinione—basata sui sensi—sia la ragione—orientata verso i rapporti fra idee e oggetti. La conoscenza intellettiva è caratterizzata da una comprensione intuitiva che permette di percepire tutto ciò che si muove e si compie in Dio. Questo processo conoscitivo affonda le radici nella natura dell'intelletto umano, parte integrante dell'intelletto infinito divino, a cui l'uomo può legarsi mediante un amore stabile e immutabile.
 
-=== L<nowiki>'</nowiki>''Etica dimostrata secondo l'ordine geometrico''
+=== L'_Etica dimostrata secondo l'ordine geometrico_
 
 Gran parte delle tematiche esposte nel _Breve Trattato_ sono riprese e approfondite nell'_Ethica more geometrico demonstrata_, suddivisa in cinque sezioni dedicate rispettivamente a Dio, alla mente umana, alla natura e all'origine degli affetti, alla condizione di schiavitù dell'uomo rispetto alle passioni e infine alla libertà. 
 
@@ -70,54 +70,39 @@ Dio realizza il migliore dei mondi possibili, selezionando la combinazione di po
 Tra razionalismo ed empirismo, Leibniz cerca una via mediana. Egli supera l'innatismo tradizionale elaborato da Cartesio (basato sull'esistenza di idee sempre universalmente attive nell'uomo) proponendo un innatismo "virtuale". In questa visione, l'intelletto possiede originariamente verità universali e necessarie che però devono essere attivate attraverso l'esercizio della ragione e con lo stimolo dell'esperienza.
 
 Leibniz distingue tra le verità di ragione e le verità di fatto. Le prime dipendono esclusivamente dal principio di non contraddizione e sono valide in tutti i mondi possibili, indipendentemente dall'esperienza. Le seconde, invece, sono contingenti e richiedono accertamento empirico per essere comprese.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ Occasionalismo: La dottrina dell'occasionalismo nasce dall'esigenza di chiarire il rapporto tra anima e corpo, due sostanze concepite da Cartesio come radicalmente eterogenee.
 
-Occasionalismo  
-La dottrina dell'occasionalismo nasce dall'esigenza di chiarire il rapporto tra anima e corpo, due sostanze concepite da Cartesio come radicalmente eterogenee.  
+/ La dottrina delle cause occasionali: Mentre Descartes sostiene che l'interazione tra corpo e anima sia un dato certo, gli occasionalisti ritengono necessaria l'intervento diretto di Dio. Per essi, ogni sensazione o pensiero nell'anima è causato da Dio quando il corpo subisce una modifica: le creature offrono dunque una causalità puramente occasionale.
 
-La dottrina delle cause occasionali  
-Mentre Descartes sostiene che l'interazione tra corpo e anima sia un dato certo, gli occasionalisti ritengono necessaria l'intervento diretto di Dio. Per essi, ogni sensazione o pensiero nell'anima è causato da Dio quando il corpo subisce una modifica: le creature offrono dunque una causalità puramente occasionale.  
+/ Malebranche: Nicolas Malebranche è considerato il teorico maggiormente coerente dell'occasionalismo. Egli sviluppa in tale contesto la concezione della conoscenza come una "visione delle idee in Dio".
 
-Malebranche  
-Nicolas Malebranche è considerato il teorico maggiormente coerente dell'occasionalismo. Egli sviluppa in tale contesto la concezione della conoscenza come una "visione delle idee in Dio".  
+/ Spinoza: Baruch Spinoza afferma che Dio, ovvero la Natura, costituisce l'unica Sostanza da cui dipendono tutte le realtà particolari, che sussistono come suoi modi o manifestazioni.
 
-Spinoza  
-Baruch Spinoza afferma che Dio, ovvero la Natura, costituisce l'unica Sostanza da cui dipendono tutte le realtà particolari, che sussistono come suoi modi o manifestazioni.  
+/ Gli attributi della Sostanza: La Sostanza divina unica si esprime simultaneamente attraverso caratteristiche dell'essere, o attributi, che sono infiniti nella loro natura.
 
-Gli attributi della Sostanza  
-La Sostanza divina unica si esprime simultaneamente attraverso caratteristiche dell'essere, o attributi, che sono infiniti nella loro natura.  
+/ Pensiero ed estensione: L'uomo può conoscere soltanto due attributi della Sostanza: pensiero ed estensione, poiché egli stesso si manifesta nei loro modi specifici, ovvero mente e corpo.
 
-Pensiero ed estensione  
-L'uomo può conoscere soltanto due attributi della Sostanza: pensiero ed estensione, poiché egli stesso si manifesta nei loro modi specifici, ovvero mente e corpo.  
+/ La conoscenza adeguata: La perfezione umana risiede nella conoscenza intellettuale, che consente di intuire come tutto si muova e si realizzi in Dio.
 
-La conoscenza adeguata  
-La perfezione umana risiede nella conoscenza intellettuale, che consente di intuire come tutto si muova e si realizzi in Dio.  
+/ L'Etica e gli affetti: L'opera _Ethica_, strutturata secondo principi geometrici, include anche una teoria sull'immaginazione che rende possibile un'analisi scientifica degli affetti. Questi ultimi sono considerati una parte integrante della forza infinita della Sostanza e si manifestano contemporaneamente sotto gli attributi del pensiero e dell'estensione, costituendo così essenza e realtà dell'essere umano.
 
-L'Etica e gli affetti  
-L'opera _Ethica_, strutturata secondo principi geometrici, include anche una teoria sull'immaginazione che rende possibile un'analisi scientifica degli affetti. Questi ultimi sono considerati una parte integrante della forza infinita della Sostanza e si manifestano contemporaneamente sotto gli attributi del pensiero e dell'estensione, costituendo così essenza e realtà dell'essere umano.  
+/ La concezione del diritto: Nel _Tractatus theologico-politicus_ Spinoza interpreta il diritto come espressione della forza individuale, ritenendo impossibile rinunciare al diritto naturale, come la libertà di pensiero, elemento imprescindibile per garantire ordine e pace nello Stato.
 
-La concezione del diritto  
-Nel _Tractatus theologico-politicus_ Spinoza interpreta il diritto come espressione della forza individuale, ritenendo impossibile rinunciare al diritto naturale, come la libertà di pensiero, elemento imprescindibile per garantire ordine e pace nello Stato.  
+/ L'analisi dei regimi di governo: Nel _Tractatus politicus_ (1677), Spinoza analizza i diversi regimi di governo (monarchia, aristocrazia e democrazia), sostenendo che la loro validità dipenda esclusivamente dalle condizioni storiche specifiche.
 
-L'analisi dei regimi di governo  
-Nel _Tractatus politicus_ (1677), Spinoza analizza i diversi regimi di governo (monarchia, aristocrazia e democrazia), sostenendo che la loro validità dipenda esclusivamente dalle condizioni storiche specifiche.  
+/ Leibniz: Leibniz critica la concezione cartesiana della materia come pura estensione, proponendo una visione vitalista ed energetica della realtà basata su centri di forza autonomi.
 
-Leibniz  
-Leibniz critica la concezione cartesiana della materia come pura estensione, proponendo una visione vitalista ed energetica della realtà basata su centri di forza autonomi.  
+/ Le monadi: Questi centri dinamici di attività sono denominati monadi. Esse sono caratterizzate da semplicità e pienezza; non interagiscono direttamente tra loro ma differiscono per il grado di chiarezza e distinzione delle rispettive rappresentazioni. Ogni monade è collegata al tutto e percepisce, sebbene in modo oscuro e imperfetto, l'intero universo.
 
-Le monadi  
-Questi centri dinamici di attività sono denominati monadi. Esse sono caratterizzate da semplicità e pienezza; non interagiscono direttamente tra loro ma differiscono per il grado di chiarezza e distinzione delle rispettive rappresentazioni. Ogni monade è collegata al tutto e percepisce, sebbene in modo oscuro e imperfetto, l'intero universo.  
+/ L'armonia prestabilita: Leibniz apporta una reinterpretazione dell'occasionalismo introducendo il principio dell'armonia prestabilita: un ordine razionale e coordinato da Dio al momento della creazione che connette elementi di necessità e contingenza nella struttura del mondo.
 
-L'armonia prestabilita  
-Leibniz apporta una reinterpretazione dell'occasionalismo introducendo il principio dell'armonia prestabilita: un ordine razionale e coordinato da Dio al momento della creazione che connette elementi di necessità e contingenza nella struttura del mondo.  
+/ Il migliore dei mondi possibili: Dio ha creato il migliore dei mondi possibili con una decisione che non dipende né dall'arbitrio, come sostiene Descartes, né da una necessità metafisica assoluta, come afferma Spinoza.
 
-Il migliore dei mondi possibili  
-Dio ha creato il migliore dei mondi possibili con una decisione che non dipende né dall'arbitrio, come sostiene Descartes, né da una necessità metafisica assoluta, come afferma Spinoza.  
+/ L'innatismo virtuale: Leibniz riformula l'innatismo cartesiano in una versione "virtuale", sostenendo che le verità universali e necessarie sono già presenti nell'intelletto umano in forma originaria, ma vengono attivate attraverso la ragione e l'esperienza.
 
-L'innatismo virtuale  
-Leibniz riformula l'innatismo cartesiano in una versione "virtuale", sostenendo che le verità universali e necessarie sono già presenti nell'intelletto umano in forma originaria, ma vengono attivate attraverso la ragione e l'esperienza.  
-
-Le verità di ragione e le verità di fatto  
-Leibniz opera una distinzione tra le verità di ragione, basate esclusivamente sul principio di non contraddizione e indipendenti dall'esperienza concreta, e le verità di fatto, contingenti e determinabili mediante la verifica empirica.  
+/ Le verità di ragione e le verità di fatto: Leibniz opera una distinzione tra le verità di ragione, basate esclusivamente sul principio di non contraddizione e indipendenti dall'esperienza concreta, e le verità di fatto, contingenti e determinabili mediante la verifica empirica.
 

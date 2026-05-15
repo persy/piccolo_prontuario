@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il positivismo è un movimento filosofico, scientifico e culturale del XIX secolo che pone al centro lo studio della realtà concreta e verificabile, detta "positiva", dichiarando priva di valore ogni forma di conoscenza astratta o metafisica.
 
@@ -37,11 +37,21 @@ John Stuart Mill (Londra, 1806 - Avignone, 1873), figlio del filosofo inglese Ja
 
 Secondo Mill, il metodo deduttivo costituisce un valido strumento per organizzare in modo sistematico le conoscenze già acquisite attraverso l'esperienza, ma non si presta alla scoperta di nuovi saperi. Egli sostiene che la scienza debba fondarsi sull'esperienza e che le conclusioni scientifiche assumano prevalentemente una forma induttiva. L'induzione viene concepita come il processo di generalizzazione basato su molteplici esperienze concrete, reso possibile dalla fiducia nell'uniformità e nella regolarità della natura.
 
-=== Il pensiero etico e politico===
+=== Il pensiero etico e politico
 
 Mill si impegnò altresì nel tentativo di fornire alle scienze morali una base scientifica, credendo che ciò fosse realizzabile solo considerando l'uomo come un essere naturale i cui comportamenti presentano regolarità osservabili e interpretabili. 
 
 Dal punto di vista economico, Mill distingue tra le leggi della produzione, che ritiene immutabili, e quelle della distribuzione delle ricchezze, che possono essere modificate per garantire maggiore equità sociale tra i cittadini. Sul piano politico, nell'opera _Sulla libertà_ (1859) egli respinge il socialismo e si schiera a favore della tutela dei diritti individuali, articolando tale difesa attorno a tre principi essenziali: la libertà di coscienza, pensiero e parola; la libertà nei gusti e desideri; e la libertà di associazione.
+
+== Dall'evoluzionismo biologico all'evoluzionismo filosofico
+
+Charles Robert Darwin (Shrewsbury, 1809 – Downe, 1882) rappresenta una figura rivoluzionaria nella storia della biologia grazie alla formulazione della teoria dell'evoluzione delle specie mediante il meccanismo della selezione naturale. Sebbene nella prima metà del XIX secolo l'idea evoluzionistica fosse già sostenuta da altri studiosi, Darwin ne rafforza l'accettazione dimostrando come tale ipotesi consenta di organizzare e interpretare una vasta quantità di dati e osservazioni empiriche. Egli individua nella selezione naturale il processo cardine dell'evoluzione, inteso come selezione differenziale degli individui più adatti alla sopravvivenza, un risultato inevitabile della competizione per l'esistenza che pervade il mondo naturale.
+
+Gli individui all'interno di una specie manifestano variazioni casuali. Coloro che meglio si adattano alle condizioni ambientali hanno maggiori probabilità di sopravvivere e riprodursi; nelle generazioni successive, queste caratteristiche favorevoli tendono a intensificarsi, conducendo progressivamente a una più avanzata adattabilità all'ambiente. Tale concezione dell'evoluzione biologica si pone in netto contrasto con la visione tradizionale religiosa, secondo cui le specie viventi sono state create da un ente divino benevolo in un atto di perfezione originaria, escludendo quindi la possibilità di un graduale processo naturale determinato dal sacrificio di numerosi organismi meno adatti. Anche l'essere umano, secondo Darwin (sebbene egli affronti questo aspetto con particolare cautela), deve essere considerato non come il dominatore del creato, ma come un discendente evolutivo di specie animali meno complesse.
+
+Sul piano filosofico, il concetto di evoluzione è stato ulteriormente sviluppato nell'ambito dell'evoluzionismo filosofico. Qui, l'evoluzione viene interpretata in termini più generali come un processo graduale e continuo che porta da una forma inferiore di esistenza a una superiore. Questa prospettiva si fonda su una visione metafisica che attribuisce all'evoluzione un carattere di progresso universale e necessario. Il filosofo Herbert Spencer è tra i primi ad applicare il concetto di evoluzione ad una comprensione globale della realtà. In Germania, il biologo Ernst Haeckel (1834–1919) combina il positivismo con la teoria darwiniana, sviluppando il filone dell'evoluzionismo materialistico. Quest'ultimo si distingue per la sua interpretazione meccanicistica e basata sul caso dell'intero processo evolutivo. Tra i suoi contributi più noti vi è la formulazione della "legge biogenetica fondamentale", secondo cui l'ontogenesi (lo sviluppo individuale) ripercorre le tappe principali della filogenesi (lo sviluppo evolutivo della specie).
+
+Parallelamente, si sviluppano interpretazioni spiritualistiche dell'evoluzione, come quella proposta dal filosofo Henri Bergson. Egli introduce nell'evoluzione un principio teleologico, riconoscendo la presenza attiva di una forza spirituale come motore essenziale del processo evolutivo. Tali posizioni filosofiche evidenziano la versatilità del concetto di evoluzione, capace di risuonare tanto nell'ambito scientifico quanto in quello metafisico-interpretativo.
 
 == Herbert Spencer
 
@@ -70,8 +80,9 @@ Il sacerdote Roberto Ardigò (Casteldidone, Cremona, 1828 - Mantova, 1920) nel 1
 Rielabora l'evoluzionismo di Spencer, distinguendosene per il fatto che rifiuta la nozione di un incondizionato inconoscibile, che interpreta invece come una forma di conoscenza ancora indefinita. Nel suo testo Psicologia come scienza positiva (1870) sottolinea l'importanza del fatto concreto, sottraendolo al determinismo con la dottrina del "caso", secondo cui sia gli eventi naturali che le azioni umane sono imprevedibili e indeterminati.
 
 Nella sua opera La morale dei positivisti (1885), in polemica con lo spiritualismo e il razionalismo, promuove l'ideale sociale come miglior garanzia per la morale. Infine, ne La scienza dell'educazione (1893) interpreta l'educazione come principio fondamentale dello sviluppo dell'individuo.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / L'orientamento positivista e la centralità della scienza: Il positivismo si fonda sull'imperativo di attenersi ai dati empirici e sull'elevazione della scienza a unica forma di conoscenza capace di analizzare, quantificare e dominare la realtà. Secondo tale visione, l'universo è governato da leggi precise che conferiscono coerenza e regolarità al mondo, le quali sono oggetto di studio delle discipline scientifiche. Qualsiasi forma di sapere che si basi su spiegazioni non verificabili attraverso metodi scientifici, come la metafisica e la religione, viene considerata priva di valore e sottoposta a un'analisi critica di carattere razionale.
 

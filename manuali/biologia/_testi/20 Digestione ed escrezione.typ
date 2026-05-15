@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Ogni organismo necessita di un continuo apporto di nutrienti, ma questi sono spesso costituiti da molecole troppo grandi e complesse per essere assimilate direttamente. La funzione di scomporre tali alimenti in elementi più semplici e simili agli organismi spetta all'apparato digerente, i cui tessuti consentono il passaggio di varie sostanze nel liquido extracellulare. Per contro, l'apparato escretore interviene stabilizzando l'equilibrio interno attraverso l'eliminazione delle sostanze in circolo e la regolazione dell'equilibrio idrosalino.]
 
@@ -63,6 +63,14 @@ La superficie interna dell'intestino tenue è caratterizzata da pieghe ricoperte
 
 L'intestino crasso, invece, è composto da tre porzioni principali: cieco, colon (ascendente, trasverso e discendente) e retto. Dal cieco si estende l'appendice, un piccolo diverticolo privo di funzione digestiva. Il colon riceve i residui della digestione, prevalentemente acqua e sostanze non digerite. Qui l'acqua viene assorbita, mentre i materiali di rifiuto vengono trasformati in feci semisolide e trasportati al retto per l'espulsione attraverso l'ano.
 
+#note(bottom)[== *🧩* La digestione della cellulosa <senza_numero>
+
+La cellulosa, principale componente delle cellule vegetali, viene degradata dall'enzima cellulasi. Tuttavia, i mammiferi erbivori come ruminanti, cavalli e conigli non sono in grado di produrlo direttamente. In alternativa, essi ospitano batteri simbiotici nello stomaco o nell'intestino responsabili della digestione della cellulosa.
+
+Nei ruminanti lo stomaco è suddiviso in quattro compartimenti: rumine, reticolo, omaso e abomaso. I vegetali parzialmente masticati arrivano inizialmente al rumine, dove vengono degradati dai batteri in zuccheri semplici. Successivamente, il cibo viene rigurgitato per essere nuovamente masticato e reinghiottito. Da qui transita attraverso gli altri compartimenti dello stomaco per una lavorazione più raffinata prima di passare nell'intestino.
+
+Nei mammiferi erbivori non ruminanti la cellulosa viene digerita dai batteri situati in alcune zone dell'intestino. L'assenza del processo di rigurgito e rimasticazione rende l'apparato digerente meno efficiente rispetto a quello dei ruminanti.]
+
 === Fegato e pancreas
 
 Il fegato rappresenta la ghiandola più grande del corpo umano, situata nella parte destra superiore dell'addome. Di forma ovale e colore bruno-rossastro, è suddiviso in due grandi lobi (destro e sinistro) e altre due parti più piccole. Oltre alla sua funzione digestiva, che consiste nella produzione della bile, il fegato svolge numerosi altri compiti vitali: immagazzina glicogeno; trasforma amminoacidi in zuccheri e grassi con rilascio di ammoniaca; converte i grassi in zuccheri; elimina l'ammoniaca trasformandola in urea; degrada sostanze tossiche; sintetizza proteine plasmatiche; immagazzina vitamine.
@@ -107,15 +115,9 @@ Nel dotto collettore, dove confluiscono diversi tubuli distali, il filtrato si c
 === Le vie urinarie
 
 I dotti collettori trasportano l'urina verso la pelvi renale, da cui attraversa gli ureteri peristaltici fino alla vescica, un organo muscolare cavo dove viene accumulata. La sua espulsione avviene tramite contrazione della muscolatura della vescica e rilassamento dello sfintere uretrale, una struttura anulare posta al di sotto della vescica. Infine, l'urina percorre l'uretra, un canale lungo circa 4 cm nelle donne e 20 cm negli uomini.
+
 #pagebreak()
-== Approfondimento: La digestione della cellulosa <senza_numero>
-
-La cellulosa, principale componente delle cellule vegetali, viene degradata dall'enzima cellulasi. Tuttavia, i mammiferi erbivori come ruminanti, cavalli e conigli non sono in grado di produrlo direttamente. In alternativa, essi ospitano batteri simbiotici nello stomaco o nell'intestino responsabili della digestione della cellulosa.
-
-Nei ruminanti lo stomaco è suddiviso in quattro compartimenti: rumine, reticolo, omaso e abomaso. I vegetali parzialmente masticati arrivano inizialmente al rumine, dove vengono degradati dai batteri in zuccheri semplici. Successivamente, il cibo viene rigurgitato per essere nuovamente masticato e reinghiottito. Da qui transita attraverso gli altri compartimenti dello stomaco per una lavorazione più raffinata prima di passare nell'intestino.
-
-Nei mammiferi erbivori non ruminanti la cellulosa viene digerita dai batteri situati in alcune zone dell'intestino. L'assenza del processo di rigurgito e rimasticazione rende l'apparato digerente meno efficiente rispetto a quello dei ruminanti.
-
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Apparato digerente: Complesso di organi e strutture responsabili dell'assunzione, della digestione e dell'assimilazione delle sostanze nutritive, oltre che dell'eliminazione delle scorie solide. Nell'uomo è composto da bocca, faringe, esofago, stomaco e intestino, insieme a organi accessori come ghiandole salivari, fegato, cistifellea e pancreas.  

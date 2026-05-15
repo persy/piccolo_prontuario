@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[L'idea che gli organismi si evolvano ha origini antiche, ma assunse una connotazione scientifica solo nell'Ottocento, grazie agli studi di Darwin e Wallace. La loro teoria dell'evoluzione, basata sui principi di variabilità, selezione naturale e lotta per la sopravvivenza, è stata raffinata nel tempo con il progresso di diverse discipline biologiche, in particolare la genetica. Oggi rappresenta una delle basi fondamentali della biologia.]
 
@@ -15,6 +15,7 @@ Le concezioni aristoteliche furono successivamente integrate nel pensiero cristi
 - l'esplorazione di territori inesplorati rivelava una straordinaria diversità di forme viventi
 - i fossili di specie estinte dimostravano sorprendenti affinità con organismi contemporanei
 - la Terra era molto più antica di quanto stimato in precedenza, offrendo così un arco temporale sufficiente per la realizzazione di modificazioni graduali nelle specie.
+
 
 Una delle prime teorie evoluzionistiche emerse da questi studi fu quella formulata dal biologo e naturalista francese Jean-Baptiste de Lamarck (1774-1829). La sua teoria si fondava su due principî fondamentali:
 - uso e disuso degli organi: gli organi di un animale giovane possono svilupparsi o atrofizzarsi in base alla frequenza o alla mancanza del loro utilizzo.
@@ -44,8 +45,6 @@ La teoria dell'evoluzione di Darwin e Wallace, conosciuta come teoria della sele
 Darwin aveva familiarità con i principi della selezione artificiale, un metodo utilizzato per secoli dagli allevatori e coltivatori al fine di migliorare le razze utili dal punto di vista economico. Questo lo portò a ipotizzare che un meccanismo analogo potesse operare anche in natura. Tuttavia, non era a conoscenza delle leggi dell'ereditarietà formulate da Mendel, suo contemporaneo e i cui studi rimasero poco noti fino all'inizio del XX secolo. Per questo motivo non riuscì a spiegare precisamente come si origina la variabilità dei caratteri fisici e comportamentali su cui agisce la selezione naturale.
 
 La teoria dell'evoluzione ha avuto il pregio di chiarire che i nuovi caratteri si sviluppano indipendentemente dall'ambiente esterno — contrariamente a quanto ipotizzato da Lamarck, secondo cui l'ambiente plasmava direttamente i nuovi tratti. Una volta comparsi, invece, è l'ambiente che esercita una pressione selettiva su queste caratteristiche. L'evoluzione è quindi guidata dalla selezione naturale, ma procede in maniera casuale.  
-
-Questa teoria ha avuto un impatto profondo sul pensiero scientifico del XIX secolo, influenzando in particolar modo la biologia. Ancora oggi rimane una delle teorie fondamentali che unificano diversi ambiti disciplinari, permettendo di organizzare e interpretare in modo logico le conoscenze provenienti da varie aree della scienza.
 
 == Le prove dell'evoluzione
 
@@ -119,6 +118,14 @@ Il processo responsabile della formazione di nuove specie viene definito speciaz
 - Radiazione adattativa: questo meccanismo si verifica quando diverse popolazioni di una stessa specie colonizzano nicchie ecologiche diverse. Nel processo di adattamento a tali ambienti, possono evolversi in nuove specie in tempi relativamente brevi. Un esempio classico è rappresentato dalla colonizzazione di nuovi habitat oppure dall'emergere di adattamenti innovativi, come il sangue caldo nei mammiferi.
 - Poliploidia: la poliploidia si riferisce alla presenza di un numero multiplo di cromosomi in alcuni individui, rispetto al numero diploide normale osservato nella maggior parte delle specie animali e vegetali. È un fenomeno comune nelle piante e spesso si manifesta quando un'ovocellula fecondata duplica i cromosomi ma non si divide in due cellule figlie. Sebbene gli individui poliploidi siano generalmente più vigorosi rispetto ai genitori, risultano sterili. Ciò accade perché la fecondazione tra un gamete poliploide, con numero doppio di cromosomi, e un gamete "normale" aploide, con numero singolo di cromosomi, genera una progenie con un set dispari di cromosomi. Questi ultimi non riescono ad appaiarsi correttamente, compromettendo la meiosi e la produzione dei gameti. Tuttavia, gli individui poliploidi possono riprodursi asessualmente, accelerando la formazione di una nuova specie.
 
+#note(bottom)[== *🧩* Meccanismi particolari di selezione <senza_numero>
+
+Alcuni meccanismi meritano un'attenzione particolare per il modo in cui influenzano le interazioni tra organismi. La competizione tra individui della stessa specie per ottenere risorse limitate è uno dei processi più diretti e comuni legati alla selezione naturale. La coevoluzione è invece un processo in cui due specie esercitano una pressione reciproca, influenzando il rispettivo sviluppo evolutivo. 
+
+Un esempio è il rapporto tra i fiori e gli insetti: i fiori hanno evoluto corolle specifiche per attrarre gli insetti che si nutrono del loro nettare, mentre questi ultimi hanno adattato i loro apparati boccali per sfruttare tali risorse; un meccanismo simile si osserva nella relazione tra predatore e preda, dove entrambi si perfezionano continuamente per migliorare rispettivamente le tecniche di attacco e difesa.
+
+La selezione sessuale è un altro interessante meccanismo che riguarda la scelta del partner da parte di alcuni pesci, uccelli e mammiferi. Caratteristiche quali colori sgargianti o elaborate strategie di corteggiamento da parte dei maschi possono influenzarne il successo riproduttivo, essendo preferite dalle femmine durante la scelta del compagno.]
+
 === Il mantenimento dell'isolamento riproduttivo
 
 Una volta differenziata, è essenziale che la nuova specie preservi l'isolamento riproduttivo rispetto alle altre. Questo può avvenire tramite meccanismi prezigotici (che impediscono l'accoppiamento) o postzigotici (che ostacolano la generazione di prole fertile).
@@ -128,7 +135,6 @@ I meccanismi prezigotici comprendono:
 - Isolamento ecologico: le popolazioni si adattano a nicchie ecologiche diverse;  
 - Isolamento comportamentale: in questo caso, due popolazioni della stessa specie che coesistono possono sviluppare differenze nei comportamenti riproduttivi, ad esempio periodi riproduttivi differenti o rituali di corteggiamento specifici;  
 - Incompatibilità meccanica: le variazioni morfologiche delle strutture riproduttive impediscono l'accoppiamento. Nelle piante, per esempio, ciò può derivare dal differente posizionamento degli stami e dei pistilli all'interno dei fiori.
-
 I meccanismi postzigotici includono:  
 - Incompatibilità genetica: lo spermatozoo non riesce a fecondare l'ovocellula;  
 - Debolezza degli ibridi: gli individui ibridi non sopravvivono;  
@@ -152,12 +158,8 @@ La macroevoluzione invece analizza i mutamenti su scala temporale molto lunga, c
 
 Inoltre, a livello molecolare, oggi si studia l'evoluzione delle proteine e del DNA, che rappresentano le molecole più complesse e fondamentali per gli organismi viventi. Queste ricerche permettono di indagare le affinità genetiche tra le varie specie e ricostruire con sempre maggiore precisione la storia della vita sulla Terra.
 
-== Approfondimento: alcuni meccanismi particolari di selezione <senza_numero>
-
-Alcuni meccanismi meritano un'attenzione particolare per il modo in cui influenzano le interazioni tra organismi. La competizione tra individui della stessa specie per ottenere risorse limitate è uno dei processi più diretti e comuni legati alla selezione naturale. La coevoluzione è invece un processo in cui due specie esercitano una pressione reciproca, influenzando il rispettivo sviluppo evolutivo. Un esempio è il rapporto tra i fiori e gli insetti: i fiori hanno evoluto corolle specifiche per attrarre gli insetti che si nutrono del loro nettare, mentre questi ultimi hanno adattato i loro apparati boccali per sfruttare tali risorse; un meccanismo simile si osserva nella relazione tra predatore e preda, dove entrambi si perfezionano continuamente per migliorare rispettivamente le tecniche di attacco e difesa.
-
-La selezione sessuale è un altro interessante meccanismo che riguarda la scelta del partner da parte di alcuni pesci, uccelli e mammiferi. Caratteristiche quali colori sgargianti o elaborate strategie di corteggiamento da parte dei maschi possono influenzarne il successo riproduttivo, essendo preferite dalle femmine durante la scelta del compagno.
-
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Analogia: Organismi di specie diverse con funzioni simili e morfologia esterna somigliante, ma provenienti da origini distinte.  

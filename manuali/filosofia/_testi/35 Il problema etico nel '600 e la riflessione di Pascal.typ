@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La filosofia del Seicento è caratterizzata da un'analisi approfondita dell'individuo, il quale, partendo dalla certezza fondamentale del "cogito" cartesiano, scopre in sé stesso un fondamento indubitabile per la propria conoscenza e il proprio sistema di valori. Questa consapevolezza dell'uomo come portatore di una ragione autonoma si accompagna allo sviluppo di correnti di pensiero che valorizzano l'interiorità e la riflessione introspettiva, sia in ambito laico, come nel caso del libertinismo, sia in ambito religioso, con espressioni paradigmatiche nel giansenismo e nell'opera di Pascal.]
 
@@ -31,9 +31,9 @@ Dotato di uno spirito profondamente religioso, Pascal si avvicina agli ambienti 
 
 Il culmine della sua collaborazione con i giansenisti si raggiunge quando Pascal intraprende un confronto polemico contro la morale dei gesuiti, da lui accusati di pericoloso lassismo, attraverso le _Lettere provinciali_ (1657).
 
-Pascal si oppone alle prospettive razionalistiche o libertine impegnandosi a dimostrare la verità del cristianesimo attraverso la messa in evidenza della fragilità della ragione umana quando lasciata a se stessa. Contrappone, in particolare, allo spirito geometrico (esprit de géométrie), che rappresenta il metodo deduttivo e analitico tipico della scienza cartesiana, lo spirito di finezza (esprit de finesse), intuitivo e sintetico, che combina ragione e sentimento e riesce a cogliere la complessità delle dinamiche umane.
+Pascal si oppone alle prospettive razionalistiche o libertine impegnandosi a dimostrare la verità del cristianesimo attraverso la messa in evidenza della fragilità della ragione umana quando lasciata a se stessa. Contrappone, in particolare, allo spirito geometrico (_esprit de géométrie_), che rappresenta il metodo deduttivo e analitico tipico della scienza cartesiana, lo spirito di finezza (_esprit de finesse_), intuitivo e sintetico, che combina ragione e sentimento e riesce a cogliere la complessità delle dinamiche umane.
 
-La difesa del cristianesimo da parte di Pascal trova spazio nei frammenti raccolti nei "Pensieri" (scritti tra il 1657 e il 1660), in cui descrive l'essere umano nella sua dimensione esistenziale concreta, rinunciando all'ambizione di costruire un sistema filosofico completo. Non intende fornire prove razionali dell'esistenza di Dio, ma piuttosto presentare il cristianesimo come l'unica risposta coerente al mistero dell'essere umano, facendo leva sul cuore, visto come la facoltà capace di percepire l'infinito, più che sulla pura razionalità.
+La difesa del cristianesimo da parte di Pascal trova spazio nei frammenti raccolti nei _Pensieri_ (scritti tra il 1657 e il 1660), in cui descrive l'essere umano nella sua dimensione esistenziale concreta, rinunciando all'ambizione di costruire un sistema filosofico completo. Non intende fornire prove razionali dell'esistenza di Dio, ma piuttosto presentare il cristianesimo come l'unica risposta coerente al mistero dell'essere umano, facendo leva sul cuore, visto come la facoltà capace di percepire l'infinito, più che sulla pura razionalità.
 
 Secondo Pascal, l'essere umano è segnato da una duplicità irrisolvibile: miseria e grandezza sono le sue caratteristiche essenziali. È costantemente in bilico tra l'infinitamente piccolo e l'infinitamente grande, intrappolato in una tensione tragica ed enigmatica. Nella sua fragilità e nei suoi limiti, cerca una via di fuga nel divertimento e nella distrazione attraverso piaceri effimeri, finendo però per precipitare in uno stato di miseria ancora più profondo, alimentato dall'incoscienza.
 
@@ -42,38 +42,29 @@ Tuttavia, l'uomo non riconoscerebbe la propria condizione miserevole se non perc
 Una visione autentica dell'uomo e dell'universo, vale a dire una vera religione, deve tener conto di questa duplicità e spiegarla attraverso il concetto di caduta, fornendo al contempo un messaggio positivo che mostri una via d'uscita. Solo il cristianesimo riesce a fornire tali spiegazioni, la cui autenticità è supportata da miracoli, profezie e dall'autorità delle Scritture. Questi elementi fungono da prove storiche che parlano più al cuore che alla mente.
 
 Per chi rimane incerto nonostante le molte argomentazioni proposte, Pascal formula la celebre scommessa: se non si è convinti né dell'esistenza né dell'assenza di Dio, è razionale scegliere di vivere come se il Dio cristiano esistesse. Scommettere sulla sua esistenza implica aderire alla promessa divina di una vita infinita e beata per chiunque abbracci la fede cristiana.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ Il libertinismo: Nel Seicento, l'importanza attribuita all'individuo e alla sua autonomia favorisce la diffusione di una visione laica, disinteressata ai dogmi religiosi. In questo contesto si riaffermano il piacere, la corporeità e la libertà di pensiero, ideali che trovano espressione nel movimento del libertinismo, particolarmente diffuso in Francia.
 
-Il libertinismo  
-Nel Seicento, l'importanza attribuita all'individuo e alla sua autonomia favorisce la diffusione di una visione laica, disinteressata ai dogmi religiosi. In questo contesto si riaffermano il piacere, la corporeità e la libertà di pensiero, ideali che trovano espressione nel movimento del libertinismo, particolarmente diffuso in Francia.  
+/ Il giansenismo: In ambito religioso, la riflessione sull'uomo porta a riconsiderare il ruolo della libertà umana rispetto alla salvezza e alla grazia divina.
 
-Il giansenismo  
-In ambito religioso, la riflessione sull'uomo porta a riconsiderare il ruolo della libertà umana rispetto alla salvezza e alla grazia divina.  
+/ La polemica grazia-libertà: Il giansenismo, derivante dalle dottrine di Giansenio, sostiene che la grazia sia un dono divino gratuito e non meritato dall'uomo, ma che non venga concessa a tutti. Questa posizione entra in conflitto con le teorie del domenicano Bañez e del gesuita de Molina.
 
-La polemica grazia-libertà  
-Il giansenismo, derivante dalle dottrine di Giansenio, sostiene che la grazia sia un dono divino gratuito e non meritato dall'uomo, ma che non venga concessa a tutti. Questa posizione entra in conflitto con le teorie del domenicano Bañez e del gesuita de Molina.  
+/ Il monastero di Port-Royal: Le tesi gianseniste, frequentemente condannate dalla Chiesa di Roma, sono difese da un gruppo di intellettuali laici ed ecclesiastici riuniti nel monastero cistercense di Port-Royal.
 
-Il monastero di Port-Royal  
-Le tesi gianseniste, frequentemente condannate dalla Chiesa di Roma, sono difese da un gruppo di intellettuali laici ed ecclesiastici riuniti nel monastero cistercense di Port-Royal.  
+/ Pascal: Pascal si schiera al fianco dei giansenisti di Port-Royal soprattutto durante la polemica contro la morale dei gesuiti, documentata nelle Lettere provinciali.
 
-Pascal  
-Pascal si schiera al fianco dei giansenisti di Port-Royal soprattutto durante la polemica contro la morale dei gesuiti, documentata nelle Lettere provinciali.  
+/ I _Pensieri_: Nei suoi _Pensieri_, Pascal cerca di dimostrare la verità del cristianesimo non attraverso argomentazioni razionali sull'esistenza di Dio, ma presentandolo come l'unica risposta sensata al mistero della condizione umana.
 
-I Pensieri  
-Nei suoi Pensieri, Pascal cerca di dimostrare la verità del cristianesimo non attraverso argomentazioni razionali sull'esistenza di Dio, ma presentandolo come l'unica risposta sensata al mistero della condizione umana.  
+/ La duplicità dell'uomo: L'essere umano appare intrinsecamente duplice, sospeso tra miseria e grandezza, oscillando continuamente tra l'infinitamente piccolo e l'infinitamente grande.
 
-La duplicità dell'uomo  
-L'essere umano appare intrinsecamente duplice, sospeso tra miseria e grandezza, oscillando continuamente tra l'infinitamente piccolo e l'infinitamente grande.  
+/ Il _divertissement_: L'uomo tenta di sfuggire alla propria condizione attraverso il _divertissement_ (svago e distrazione), ma avverte comunque la propria miseria solo perché riconosce anche i segni della grandezza dentro di sé. 
 
-Il divertissement  
-L'uomo tenta di sfuggire alla propria condizione attraverso il divertissement (svago e distrazione), ma avverte comunque la propria miseria solo perché riconosce anche i segni della grandezza dentro di sé.  
+/ La vera religione: La religione autentica deve confrontarsi con la natura duale dell'uomo, spiegandola come conseguenza di una caduta e indicando una via di riscatto. Il cristianesimo è l'unica religione capace di fornire queste risposte, supportandole con prove storiche come miracoli, profezie e l'autorità delle Scritture.
 
-La vera religione  
-La religione autentica deve confrontarsi con la natura duale dell'uomo, spiegandola come conseguenza di una caduta e indicando una via di riscatto. Il cristianesimo è l'unica religione capace di fornire queste risposte, supportandole con prove storiche come miracoli, profezie e l'autorità delle Scritture.  
-
-La scommessa per Dio  
-Pascal propone la celebre "scommessa" per il Dio cristiano ai dubbiosi che, nonostante le molte ragioni apologetiche esposte, non riescano ancora a convincersi completamente.  
+/ La scommessa per Dio: Pascal propone la celebre "scommessa" per il Dio cristiano ai dubbiosi che, nonostante le molte ragioni apologetiche esposte, non riescano ancora a convincersi completamente.
 
 
 

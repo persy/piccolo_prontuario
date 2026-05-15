@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Nel Settecento, la filosofia si concentra in modo particolare sulla questione morale, cercando di elaborare un'etica che sia autonoma, slegata da qualsiasi fondamento religioso o metafisico e radicata nella libertà umana.
 
@@ -50,32 +50,25 @@ Il principio di utilità, noto successivamente come "principio della massima fel
 L'opera postuma _Deontologia o scienza della moralità_ (1834) si occupa di sviluppare un'etica di tipo deontologico distinta dal diritto, concentrandosi sulle sfere della vita privata. L'obiettivo finale di questa disciplina rimane analogo a quello della scienza della legislazione: favorire comportamenti capaci di generare la massima felicità collettiva.
 
 La differenza sta nel metodo. Se la legislazione agisce sugli interessi privati attraverso la minaccia delle punizioni giuridiche, la deontologia cerca di stimolare motivazioni fondate sull'interesse personale senza necessità di coercizione.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ Shaftesbury: Shaftesbury afferma l'autonomia della morale rispetto alla religione, individuando il fondamento dell'etica nell'esistenza di un senso o gusto morale innato. Secondo la sua prospettiva, la virtù non è derivabile dalla rivelazione divina, poiché l'essere umano è naturalmente incline al comportamento virtuoso. In opposizione al pessimismo antropologico di Hobbes, Shaftesbury sostiene che gli individui possiedono una predisposizione naturale a convivere in società.
 
-Shaftesbury  
-Shaftesbury afferma l'autonomia della morale rispetto alla religione, individuando il fondamento dell'etica nell'esistenza di un senso o gusto morale innato. Secondo la sua prospettiva, la virtù non è derivabile dalla rivelazione divina, poiché l'essere umano è naturalmente incline al comportamento virtuoso. In opposizione al pessimismo antropologico di Hobbes, Shaftesbury sostiene che gli individui possiedono una predisposizione naturale a convivere in società.
+/ Hutcheson: Francis Hutcheson promuove l'indipendenza dell'etica dalla religione, sostenendo che il giudizio morale origina da facoltà intrinseche alla natura umana, antecedenti a qualsiasi intervento divino. Questo giudizio si manifesta attraverso un senso morale, inteso come una predisposizione mentale alla valutazione positiva o negativa delle azioni.
 
-Hutcheson  
-Francis Hutcheson promuove l'indipendenza dell'etica dalla religione, sostenendo che il giudizio morale origina da facoltà intrinseche alla natura umana, antecedenti a qualsiasi intervento divino. Questo giudizio si manifesta attraverso un senso morale, inteso come una predisposizione mentale alla valutazione positiva o negativa delle azioni.
+/ Smith: Adam Smith fonda la sua teoria etica sul concetto di simpatia, definita come la capacità di immedesimarsi nella prospettiva dell'altro. Tale meccanismo empatizzante viene regolato dalla figura dello "spettatore imparziale", il quale rappresenta un equilibrio interno nella valutazione morale.
 
-Smith  
-Adam Smith fonda la sua teoria etica sul concetto di simpatia, definita come la capacità di immedesimarsi nella prospettiva dell'altro. Tale meccanismo empatizzante viene regolato dalla figura dello "spettatore imparziale", il quale rappresenta un equilibrio interno nella valutazione morale.
+  / La corruzione dei sentimenti morali: La corruzione dei sentimenti morali è radicata nel fenomeno dell'autoinganno, che spinge l'uomo a desiderare ciò che non possiede. Un esempio emblematico di tale dinamica è la tendenza a simpatizzare maggiormente con chi detiene ricchezza e potere.
 
-La corruzione dei sentimenti morali  
-La corruzione dei sentimenti morali è radicata nel fenomeno dell'autoinganno, che spinge l'uomo a desiderare ciò che non possiede. Un esempio emblematico di tale dinamica è la tendenza a simpatizzare maggiormente con chi detiene ricchezza e potere.
+  / L'economia: Adam Smith adotta ipotesi esplicative nell'ambito economico basate su caratteristiche empiriche quali la naturale propensione al baratto e allo scambio, oltre al desiderio di miglioramento delle proprie condizioni personali.
 
-L'economia  
-Adam Smith adotta ipotesi esplicative nell'ambito economico basate su caratteristiche empiriche quali la naturale propensione al baratto e allo scambio, oltre al desiderio di miglioramento delle proprie condizioni personali.
+  / Il liberismo: Smith formula l'idea del sistema di libertà naturale, fondato sulla libera iniziativa individuale. In questo quadro, gli individui, sebbene mossi da interessi egoistici, contribuiscono indirettamente al benessere collettivo grazie alla legge degli effetti non intenzionali, nota come "mano invisibile".
 
-Il liberismo  
-Smith formula l'idea del sistema di libertà naturale, fondato sulla libera iniziativa individuale. In questo quadro, gli individui, sebbene mossi da interessi egoistici, contribuiscono indirettamente al benessere collettivo grazie alla legge degli effetti non intenzionali, nota come "mano invisibile".
+/ Bentham: Jeremy Bentham sviluppa una scienza della legislazione che si fonda sul principio di utilità e sul criterio della preferenza individuale.
 
-Bentham  
-Jeremy Bentham sviluppa una scienza della legislazione che si fonda sul principio di utilità e sul criterio della preferenza individuale.
-
-L'utilitarismo  
-Alla base dell'utilitarismo si trova il principio di utilità, secondo il quale la morale può essere interpretata come un processo razionale di calcolo tra piacere e dolore.
+  / L'utilitarismo: Alla base dell'utilitarismo si trova il principio di utilità, secondo il quale la morale può essere interpretata come un processo razionale di calcolo tra piacere e dolore.
 
 
 

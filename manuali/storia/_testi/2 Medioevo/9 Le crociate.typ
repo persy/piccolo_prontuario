@@ -1,11 +1,11 @@
-#import "../../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il risveglio spirituale, sociale, economico, politico e demografico che interessò l'Occidente cristiano nell'XI secolo ebbe tra i suoi effetti principali le crociate. La riforma promossa da Gregorio VII, che mirava a emancipare la Chiesa dall'influenza del potere laico, riaffermò il ruolo centrale del Papato come guida spirituale e, in parte, politica della Cristianità.
 
 La stabilità ritrovata nel Sacro Romano Impero riaccese la questione dei rapporti con l'Oriente, impossibili da gestire attraverso l'Impero bizantino, con cui i legami si erano deteriorati ben prima della frattura definitiva del 1054.
 
-La prima crociata nacque come un pellegrinaggio armato dei popoli cristiani d'Europa, guidati dai cavalieri, per rivendicare il controllo della Terra Santa e, in particolare, di Gerusalemme con il Santo Sepolcro. Il territorio era allora sotto il dominio del Califfato islamico ortodosso che, con la dinastia dei Turchi Selgiuchidi, aveva ripreso il controllo della Palestina nel 1076.
+La Prima Crociata nacque come un pellegrinaggio armato dei popoli cristiani d'Europa, guidati dai cavalieri, per rivendicare il controllo della Terra Santa e, in particolare, di Gerusalemme con il Santo Sepolcro. Il territorio era allora sotto il dominio del Califfato islamico ortodosso che, con la dinastia dei Turchi Selgiuchidi, aveva ripreso il controllo della Palestina nel 1076.
 
 Nella concezione cavalleresca cristiana, la crociata non era vista esclusivamente come un'operazione militare, ma rappresentava anche un simbolo rituale e spirituale: una lotta contro le passioni che intralciavano il cammino personale verso Dio. Questa visione trovava un parallelismo nel concetto islamico di jihad e avvicinava idealmente cristiani e musulmani. La prima crociata ufficiale prese avvio nel 1097 e culminò con la conquista di Gerusalemme nel 1099.
 
@@ -19,7 +19,7 @@ Di fronte a queste difficoltà, gli emiri omayyadi chiesero rinforzi agli Almora
 
 Alfonso I d'Aragona riconquistò Saragozza nel 1118 e ne fece la capitale del suo regno. Gli Almoravidi furono successivamente soppiantati dagli Almohadi, originari dell'Africa settentrionale. Questi ultimi ripresero il conflitto contro i cristiani ma vennero definitivamente respinti nella battaglia di Las Navas de Tolosa nel 1212. Da quel momento, le tensioni tra i due fronti si attenuarono significativamente.
 
-== La prima crociata
+== La Prima Crociata
 
 Verso la metà dell'XI secolo, i Turchi Selgiuchidi sottrassero l'Asia Minore all'Impero Bizantino, avanzando fino alle regioni dell'Egeo, del Mar Nero e del Bosforo, oltre a occupare le terre della Siria e della Palestina. In quel periodo, l'Occidente cristiano, profondamente coinvolto nella lotta per le investiture e segnato dal recente scisma del 1054 con la Chiesa orientale, non intraprese alcuna azione per difendere i cristiani d'Oriente.
 
@@ -34,6 +34,12 @@ Il primo successo della crociata fu la conquista di Nicea, che si arrese all'aut
 L'anno seguente, nel 1099, grazie al supporto navale dei Genovesi, fu conquistata anche Gerusalemme. Similmente ad Antiochia, la città fu saccheggiata e i suoi abitanti furono sterminati. A seguito della vittoria furono istituiti i regni cristiani d'Oriente: il principato di Antiochia sotto Boemondo di Taranto, la contea di Tripoli sotto Raimondo di Tolosa e il Regno di Gerusalemme guidato da Goffredo di Buglione.
 
 Per garantire la sicurezza dei pellegrinaggi nei territori conquistati e per consolidare il controllo militare e religioso sull'area furono istituiti ordini religioso-cavallereschi. Oltre agli obblighi tradizionali di povertà, castità e obbedienza tipici degli ordini monastici, i membri di queste congregazioni giurarono anche di combattere perpetuamente contro gli infedeli. Fra i principali ordini meritano una menzione gli Ospedalieri o Giovanniti, i Templari, chiamati così perché risiedevano nel sito dove in passato era sorto il tempio di Salomone a Gerusalemme, e i Cavalieri Teutonici, creato da alcuni tedeschi di Brema e Lubecca per assistere i pellegrini provenienti dalla Germania. 
+
+#note(top)[== *🧩* I riti crociati <senza_numero>
+
+L'esperienza crociata si definiva spiritualmente e simbolicamente come una forma di pellegrinaggio penitenziale verso il Santo Sepolcro. Come i pellegrini, i crociati ricevevano una benedizione speciale prima della partenza e beneficiavano della protezione ecclesiastica sui propri beni e familiari durante tutta la durata dell'impresa. A ciò si aggiungeva la concessione dell'indulgenza plenaria, ovvero il perdono completo dei peccati, insieme alla sospensione di procedimenti giudiziari eventualmente pendenti.
+
+I crociati indossavano abiti con una croce visibile, simbolo distintivo della loro particolare condizione. L'istituzione della crociata venne ufficialmente codificata nella costituzione Ad liberandam Terram Sanctam del IV Concilio Lateranense del 1215. Questo documento stabiliva che l'organizzazione e il finanziamento delle crociate fossero prerogativa del Papato, che raccoglieva le risorse necessarie attraverso specifiche misure fiscali. A partire dalla metà del XII secolo, il termine crociata fu esteso per indicare anche le guerre contro gli Slavi pagani e i Mongoli che minacciavano l'Occidente.]
 
 == Le altre crociate
 
@@ -51,6 +57,16 @@ La Settima Crociata fu guidata esclusivamente da Luigi IX di Francia nel tentati
 
 L'Ottava Crociata, proclamata da papa Clemente IV nel 1270, fallì prima ancora di iniziare: Luigi IX, giunto a Tunisi, morì a causa della peste. Tra le crociate si distingue quella indetta da Innocenzo III nel 1208 contro gli albigesi (noti anche come Catari), considerati eretici in Francia. Questa campagna, durata fino al 1229, si concluse con l'annessione della Provenza al dominio di re Luigi VIII. Gli albigesi sopravvissuti furono perseguitati dall'Inquisizione, un tribunale ecclesiastico gestito dai domenicani per preservare l'ortodossia religiosa e combattere le eresie.
 
+#note(top)[== *🧩* Bilancio delle crociate nell'interpretazione storica <senza_numero>
+
+Il bilancio politico e militare delle crociate fu in gran parte negativo, ma le loro conseguenze sul piano degli scambi spirituali e culturali si rivelarono invece positive.
+
+Durante il periodo delle crociate prese avvio una vasta opera di traduzione delle opere degli autori musulmani in latino, un processo che fu essenziale per la trasmissione del sapere e che influenzò profondamente la storia di numerose discipline scientifiche e culturali, come teologia, filosofia, medicina, fisica, matematica e storiografia.
+
+Sul piano religioso è necessario distinguere tra le diverse crociate, poiché se alcune furono chiaramente condizionate da obiettivi politici, altre – in particolare la prima e quella guidata da Federico II, che portò alla pacifica cessione di Gerusalemme ai cristiani – conservarono maggiormente il carattere di pellegrinaggio spirituale.
+
+Dal punto di vista economico, gli Stati occidentali non conseguirono vantaggi significativi dalle crociate. Le Repubbliche marinare italiane registrarono un certo arricchimento, seppur non straordinario; i loro principali poli commerciali rimasero i porti bizantini e Alessandria d'Egitto. Inoltre, le stesse Repubbliche trassero buoni profitti dai commerci con i crociati stanziati in Palestina, fornendo loro navi e approvvigionamenti.]
+
 == Le Repubbliche marinare e le crociate
 
 Le crociate giocarono un ruolo importante nel consolidamento delle Repubbliche marinare italiane, il cui sviluppo economico aveva iniziato a delinearsi già dal IX secolo. Bari e Amalfi furono le prime a emergere con forza. Bari cadde sotto il controllo bizantino nel 870, mentre Amalfi continuò a prosperare fino al XIII secolo, quando venne incorporata nel Regno normanno. Più a nord, sulla costa tirrenica, Pisa e Genova raggiunsero un grande splendore commerciale, mentre Venezia si affermò lungo la costa adriatica.
@@ -59,37 +75,12 @@ Pisa e Genova iniziarono la loro espansione nel Mediterraneo occidentale, per po
 
 Venezia, sin dal X secolo, si era già affermata come protagonista del commercio con l'Oriente e l'Europa centrale, grazie ai privilegi ottenuti dall'Impero bizantino cui formalmente era sottomessa. In cambio del suo sostegno per riconquistare la ribelle Zara, la città finanziò la Quarta Crociata e ottenne nuovi territori dalla costituzione dell'Impero Latino d'Oriente. Questo contribuì ad acuire la rivalità con Genova e Pisa. I conflitti con Genova caratterizzarono tutto il XIII secolo e si conclusero solo al termine della Guerra di Chioggia (1378-1381), che segnò il ritiro della Repubblica ligure dall'Adriatico.
 
-== Approfondimento: i riti crociati
+#pagebreak()
+#set page(fill: main_storia.lighten(90%))
+== In sintesi <senza_numero>
 
-L'esperienza crociata si definiva spiritualmente e simbolicamente come una forma di pellegrinaggio penitenziale verso il Santo Sepolcro. Come i pellegrini, i crociati ricevevano una benedizione speciale prima della partenza e beneficiavano della protezione ecclesiastica sui propri beni e familiari durante tutta la durata dell'impresa. A ciò si aggiungeva la concessione dell'indulgenza plenaria, ovvero il perdono completo dei peccati, insieme alla sospensione di procedimenti giudiziari eventualmente pendenti.
+/ Precedenti delle Crociate: Nel 1063, le popolazioni locali si ribellarono al dominio degli Omayyadi in Spagna, un'insurrezione sostenuta dal papa Alessandro II. La lotta proseguì con l'intervento degli Arabi Almoravidi, fino a quando Alfonso I d'Aragona riuscì a riconquistare Saragozza nel 1118, trasformandola nella capitale del suo regno. Successivamente, i combattimenti continuarono contro gli Almohadi, i quali furono definitivamente sconfitti nella battaglia di Las Navas de Tolosa del 1212.
 
-I crociati indossavano abiti con una croce visibile, simbolo distintivo della loro particolare condizione. L'istituzione della crociata venne ufficialmente codificata nella costituzione Ad liberandam Terram Sanctam del IV Concilio Lateranense del 1215. Questo documento stabiliva che l'organizzazione e il finanziamento delle crociate fossero prerogativa del Papato, che raccoglieva le risorse necessarie attraverso specifiche misure fiscali. A partire dalla metà del XII secolo, il termine crociata fu esteso per indicare anche le guerre contro gli Slavi pagani e i Mongoli che minacciavano l'Occidente.
----
-== Approfondimento: bilancio delle crociate nell'interpretazione storica
+/ La Prima Crociata: Durante il Concilio di Clermont, tenuto nel 1095, papa Urbano II invitò il popolo franco ad intervenire in Oriente contro le forze musulmane. Seguendo tale appello, nel 1096 Pietro l'Eremita guidò una spedizione composta da poveri e cavalieri disperati verso l'Oriente; tuttavia, questi furono massacrati dai Turchi. Nel corso della campagna principale, guidata da principi cristiani, i crociati ottennero importanti successi militari: conquistarono Nicea nel 1097, Antiochia nel 1098 e infine Gerusalemme nel 1099. Questi eventi portarono alla formazione degli Stati crociati in Oriente. Tuttavia, tra il 1135 e il 1144, le forze musulmane riconquistarono alcune importanti posizioni: parte del Principato di Antiochia, la Contea di Edessa e la Contea di Tripoli.
 
-Il bilancio politico e militare delle crociate fu in gran parte negativo, ma le loro conseguenze sul piano degli scambi spirituali e culturali si rivelarono invece positive.
-
-Durante il periodo delle crociate prese avvio una vasta opera di traduzione delle opere degli autori musulmani in latino, un processo che fu essenziale per la trasmissione del sapere e che influenzò profondamente la storia di numerose discipline scientifiche e culturali, come teologia, filosofia, medicina, fisica, matematica e storiografia.
-
-Sul piano religioso è necessario distinguere tra le diverse crociate, poiché se alcune furono chiaramente condizionate da obiettivi politici, altre – in particolare la prima e quella guidata da Federico II, che portò alla pacifica cessione di Gerusalemme ai cristiani – conservarono maggiormente il carattere di pellegrinaggio spirituale.
-
-Dal punto di vista economico, gli Stati occidentali non conseguirono vantaggi significativi dalle crociate. Le Repubbliche marinare italiane registrarono un certo arricchimento, seppur non straordinario; i loro principali poli commerciali rimasero i porti bizantini e Alessandria d'Egitto. Inoltre, le stesse Repubbliche trassero buoni profitti dai commerci con i crociati stanziati in Palestina, fornendo loro navi e approvvigionamenti.
-
-== In sintesi
-
-
-/ Precedenti delle Crociate:
-
-Nel 1063, le popolazioni locali si ribellarono al dominio degli Omayyadi in Spagna, un'insurrezione sostenuta dal papa Alessandro II. La lotta proseguì con l'intervento degli Arabi Almoravidi, fino a quando Alfonso I d'Aragona riuscì a riconquistare Saragozza nel 1118, trasformandola nella capitale del suo regno. Successivamente, i combattimenti continuarono contro gli Almohadi, i quali furono definitivamente sconfitti nella battaglia di Las Navas de Tolosa del 1212.
-
-/ La prima crociata:
-
-Durante il Concilio di Clermont, tenuto nel 1095, papa Urbano II invitò il popolo franco ad intervenire in Oriente contro le forze musulmane. Seguendo tale appello, nel 1096 Pietro l'Eremita guidò una spedizione composta da poveri e cavalieri disperati verso l'Oriente; tuttavia, questi furono massacrati dai Turchi. Nel corso della campagna principale, guidata da principi cristiani, i crociati ottennero importanti successi militari: conquistarono Nicea nel 1097, Antiochia nel 1098 e infine Gerusalemme nel 1099. Questi eventi portarono alla formazione degli Stati crociati in Oriente. Tuttavia, tra il 1135 e il 1144, le forze musulmane riconquistarono alcune importanti posizioni: parte del Principato di Antiochia, la Contea di Edessa e la Contea di Tripoli.
-
-/ Le altre crociate:
-
-La seconda crociata ebbe per protagonisti Luigi VII di Francia e Corrado III di Germania, i quali tentarono senza successo di conquistare Damasco e Ascalona. Nel 1187 Gerusalemme cadde nuovamente nelle mani dei musulmani sotto la guida di Saladino. Durante la terza crociata (1189-1192), Riccardo Cuor di Leone prese il controllo dell'isola di Cipro e, insieme a Filippo II di Francia, conquistò San Giovanni d'Acri nel 1191; tuttavia, i tentativi di riconquistare Gerusalemme risultarono infruttuosi.
-
-La quarta crociata (1202-1204), finanziata dalla Repubblica di Venezia, deviò dal suo obiettivo originario e portò alla conquista di Zara e Costantinopoli. Tale evento segnò la nascita dell'Impero Latino d'Oriente. Tra il 1208 e il 1229, fu intrapresa in Francia una crociata contro gli eretici albigesi. Nel frattempo, la quinta crociata si concentrò sulla conquista di Damietta, nel 1219, ma si concluse con una pesante sconfitta dovuta al rifiuto dei crociati di accettare un accordo che offriva la città in cambio di Gerusalemme e della pace. Successivamente, grazie a trattati diplomatici, Gerusalemme, Betlemme e Nazareth tornarono temporaneamente sotto il controllo crociato.
-
-L'ultima significativa crociata fu quella promossa per riconquistare Gerusalemme dopo la sua perdita definitiva nel 1244. Tuttavia, anche questa spedizione si concluse con un fallimento, segnato dalla resa dell'unico sovrano partecipante, Luigi IX di Francia. Le crociate successive non ebbero rilevanza strategica e segnarono il declino del movimento crociato europeo.
+/ Le altre crociate: La Seconda Crociata ebbe per protagonisti Luigi VII di Francia e Corrado III di Germania, i quali tentarono senza successo di conquistare Damasco e Ascalona. Nel 1187 Gerusalemme cadde nuovamente nelle mani dei musulmani sotto la guida di Saladino. \ Durante la Terza Crociata (1189-1192), Riccardo Cuor di Leone prese il controllo dell'isola di Cipro e, insieme a Filippo II di Francia, conquistò San Giovanni d'Acri nel 1191; tuttavia, i tentativi di riconquistare Gerusalemme risultarono infruttuosi. \ La Quarta Crociata (1202-1204), finanziata dalla Repubblica di Venezia, deviò dal suo obiettivo originario e portò alla conquista di Zara e Costantinopoli. Tale evento segnò la nascita dell'Impero Latino d'Oriente. \ Tra il 1208 e il 1229, fu intrapresa in Francia una crociata contro gli eretici albigesi. Nel frattempo, la Quinta Crociata si concentrò sulla conquista di Damietta, nel 1219, ma si concluse con una pesante sconfitta dovuta al rifiuto dei crociati di accettare un accordo che offriva la città in cambio di Gerusalemme e della pace. Successivamente, grazie a trattati diplomatici, Gerusalemme, Betlemme e Nazareth tornarono temporaneamente sotto il controllo crociato. \ L'ultima significativa crociata fu quella promossa per riconquistare Gerusalemme dopo la sua perdita definitiva nel 1244. Tuttavia, anche questa spedizione si concluse con un fallimento, segnato dalla resa dell'unico sovrano partecipante, Luigi IX di Francia. Le crociate successive non ebbero rilevanza strategica e segnarono il declino del movimento crociato europeo.

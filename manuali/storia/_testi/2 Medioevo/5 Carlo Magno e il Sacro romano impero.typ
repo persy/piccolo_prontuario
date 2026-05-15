@@ -1,5 +1,5 @@
-#import "../../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La notte di Natale dell'anno 800, nella basilica di San Pietro a Roma, Carlo, re dei Franchi (il futuro Carlo Magno), fu incoronato imperatore da papa Leone III. La cerimonia seguiva un protocollo ispirato a quello riservato agli imperatori bizantini, che inizialmente interpretarono questa incoronazione come un atto di usurpazione.
 
@@ -23,15 +23,23 @@ I rapporti con la Chiesa rivestirono un ruolo fondamentale nell'ascesa politica 
 
 Pipino il Breve, figlio di Carlo Martello, seguendo una versione ufficiale delle vicende, si rivolse a papa Zaccaria con la domanda se fosse legittimo che i re franchi mantenessero il titolo regio senza esercitarne effettivamente l'autorità, sottolineando come il potere reale fosse nelle mani dei maggiordomi piuttosto che dei sovrani. Zaccaria delegò Bonifacio affinché consacrasse Pipino re nel 751, utilizzando il crisma sacro proprio delle consacrazioni episcopali, dopo che un'assemblea di Franchi aveva deposto il re Childerico.
 
-La legittimazione papale consolidò le basi dell'alleanza tra i Franchi e il Papato. Papa Stefano II confermò la consacrazione di Zaccaria e attribuì a Pipino e ai suoi figli il titolo di "patrizio dei Romani", sancendo il ruolo di protettori della Chiesa in cambio della promessa di Pipino di intervenire militarmente contro i Longobardi in Italia, come previsto dalla *Promissio Carisiaca*.
+La legittimazione papale consolidò le basi dell'alleanza tra i Franchi e il Papato. Papa Stefano II confermò la consacrazione di Zaccaria e attribuì a Pipino e ai suoi figli il titolo di "patrizio dei Romani", sancendo il ruolo di protettori della Chiesa in cambio della promessa di Pipino di intervenire militarmente contro i Longobardi in Italia, come previsto dalla _Promissio Carisiaca_.
 
 Alla morte di Pipino, la successione passò ai suoi figli Carlo e Carlomanno, i quali, su volontà della madre, contrassero matrimonio con le figlie del re longobardo Desiderio. Tuttavia, dopo la morte di Carlomanno nel 771, Carlo assunse il controllo esclusivo del regno, escludendo i figli del fratello. Su invito di papa Adriano I, Carlo intervenne in Italia contro i Longobardi, sconfiggendoli e proclamandosi sovrano del loro regno nel 774.
 
-Tra il 776 e il 787 Carlo tornò in Italia per reprimere le insurrezioni dei Longobardi nei ducati centro-meridionali, riuscendo ad annettere anche il Ducato di Spoleto. Nel 778 condusse una campagna contro gli Arabi nella penisola iberica occidentale, che tuttavia si concluse tragicamente con l'annientamento della retroguardia del suo esercito da parte dei montanari baschi. Questo episodio, noto come "rotta di Roncisvalle", ispirò la *Chanson de Roland*, la più celebre opera del ciclo carolingio.
+Tra il 776 e il 787 Carlo tornò in Italia per reprimere le insurrezioni dei Longobardi nei ducati centro-meridionali, riuscendo ad annettere anche il Ducato di Spoleto. Nel 778 condusse una campagna contro gli Arabi nella penisola iberica occidentale, che tuttavia si concluse tragicamente con l'annientamento della retroguardia del suo esercito da parte dei montanari baschi. Questo episodio, noto come "rotta di Roncisvalle", ispirò la _Chanson de Roland_, la più celebre opera del ciclo carolingio.
 
 La conquista della Sassonia nel 785 permise a Carlo di estendere il dominio franco anche all'area settentrionale della Germania, territorio che nel IX secolo sarebbe divenuto sede della seconda dinastia imperiale. Parallelamente, nel 788 Carlo depose il duca Tassilone, vassallo del padre, che tramava segretamente contro di lui; con questa mossa integrò anche la Carinzia e la Baviera nel regno franco. Nel 796 inflisse una pesante sconfitta al popolo nomade degli Avari.
 
 Tra l'801 e l'813 Carlo sottrasse agli Arabi il controllo della Catalogna e della città di Barcellona in Spagna, istituendo una zona difensiva nota come Marca Hispanica. Questo termine designava specifiche circoscrizioni poste lungo le frontiere del regno, destinate a garantire la sicurezza e protezione dei confini.
+
+#note(bottom)[== *🧩* L'idea di Impero <senza_numero>
+
+La denominazione Sacro Romano Impero riflette il duplice fondamento religioso e politico su cui si basava l'istituzione imperiale. La sacralità dell'Impero, il cui principale obiettivo era garantire l'ordine sociale in armonia con la salvezza delle anime, venne ufficializzata attraverso la cerimonia di incoronazione di Carlo Magno da parte del Papa.
+
+Il richiamo alla romanità giustificava la pretesa di universalità, attribuendo agli imperatori il ruolo di diretti eredi dell'Impero romano. Al contempo, rilanciava il modello di collaborazione fra potere politico e Cristianesimo già realizzato da Costantino.
+
+Nonostante ciò, l'Impero carolingio si presentava come un Impero universale cristiano, ma rimaneva legato sotto diversi aspetti alle tradizioni barbariche. Questo si evince dal fatto che Carlo Magno, anche dopo essere stato proclamato imperatore, mantenne i titoli regali propri della cultura barbarica. Inoltre, secondo la concezione patrimoniale del potere tipica dei sovrani germanici, stabilì che alla sua morte l'Impero sarebbe stato suddiviso tra i suoi eredi.]
 
 == Il Sacro Romano Impero
 
@@ -43,19 +51,33 @@ In chiave antibizantina, Carlo Magno stabilì rapporti diplomatici con i princip
 
 La tensione tra i due imperi si manifestò anche attraverso tentativi di conquista: Pipino, figlio di Carlo e reggente nel Regno longobardo, cercò di assoggettare Venezia ma fu respinto da una flotta bizantina. Questo evento portò all'accordo del 812.
 
-Per quanto concerne l'organizzazione dell'Impero, Carlo Magno si avvalse di pratiche amministrative già consolidate durante il periodo dei Merovingi. Questi ultimi avevano introdotto la consuetudine di distribuire terre in cambio di giuramenti di fedeltà e di essere assistiti da funzionari fidati, denominati conti (comites). Seguendo tale impostazione, Carlo suddivise il territorio dell'Impero in ampie circoscrizioni amministrative: le contee e le marche. Le marche, situate nelle zone periferiche, erano affidate a conti e marchesi che svolgevano funzioni amministrative (quali la riscossione delle imposte), giudiziarie e militari; tra queste ultime rientrava il reclutamento per l'esercito, noto come *eribanno*.
+=== L'organizzazione dell'Impero
 
-La supervisione dell'operato dei conti e marchesi era affidata ai *missi dominici* ("inviati del signore"), incaricati in coppia e composti da un rappresentante laico e uno ecclesiastico. Al vertice del potere centrale vi era il *palatium* (palazzo), inteso come il sovrano e la sua corte composta da cavalieri e membri del clero. Sebbene non esistesse una capitale fissa, Aquisgrana fu spesso preferita da Carlo Magno.
+Carlo Magno si avvalse di pratiche amministrative già consolidate durante il periodo dei Merovingi. Questi ultimi avevano introdotto la consuetudine di distribuire terre in cambio di giuramenti di fedeltà e di essere assistiti da funzionari fidati, denominati conti (comites). Seguendo tale impostazione, Carlo suddivise il territorio dell'Impero in ampie circoscrizioni amministrative: le contee e le marche. Le marche, situate nelle zone periferiche, erano affidate a conti e marchesi che svolgevano funzioni amministrative (quali la riscossione delle imposte), giudiziarie e militari; tra queste ultime rientrava il reclutamento per l'esercito, noto come _eribanno_.
 
-Una componente essenziale del *palatium* era la cancelleria, gestita da un ecclesiastico responsabile della redazione degli atti legislativi, della custodia degli archivi di Stato e della gestione degli affari relativi alla Chiesa. Le norme promulgate dal *palatium* erano applicabili all'intero territorio dell'Impero e prendevano il nome di "capitolari", essendo elaborate in forma di brevi capitoli. Tali disposizioni non si configuravano esclusivamente come leggi ma spesso delineavano piani di sviluppo o programmi governativi.
----
+La supervisione dell'operato dei conti e marchesi era affidata ai _missi dominici_ ("inviati del signore"), incaricati in coppia e composti da un rappresentante laico e uno ecclesiastico. Al vertice del potere centrale vi era il _palatium_ (palazzo), inteso come il sovrano e la sua corte composta da cavalieri e membri del clero. Sebbene non esistesse una capitale fissa, Aquisgrana fu spesso preferita da Carlo Magno.
+
+Una componente essenziale del _palatium_ era la cancelleria, gestita da un ecclesiastico responsabile della redazione degli atti legislativi, della custodia degli archivi di Stato e della gestione degli affari relativi alla Chiesa. Le norme promulgate dal _palatium_ erano applicabili all'intero territorio dell'Impero e prendevano il nome di "capitolari", essendo elaborate in forma di brevi capitoli. Tali disposizioni non si configuravano esclusivamente come leggi ma spesso delineavano piani di sviluppo o programmi governativi.
+
 Il capitolare di Sassonia stabiliva le norme della sottomissione dei Sassoni, mentre il capitolare denominato "de villis" disciplinava l'organizzazione della gestione delle aziende agricole del Regno. Un altro capitolare di notevole rilievo, quello di Quierzy, emanato da Carlo il Calvo nell'anno 877, riconobbe il principio dell'ereditarietà delle contee, modificando una regola preesistente secondo cui i territori concessi dovevano essere restituiti al sovrano alla morte dei beneficiari.
 
 Due volte all'anno i grandi dell'Impero si riunivano in assemblee chiamate placita, durante le quali venivano promulgati i capitolari. In ambito religioso, Carlo Magno istituì nuove circoscrizioni metropolitane, indisse sinodi e sostenne la vita monastica, accordando privilegi economici ai monasteri. Inoltre, intervenne nella designazione dei vescovi, sottoponendo tali nomine al controllo dei missi dominici. 
 
+=== La "rinascita carolingia"
+
 La corte imperiale fu anche epicentro di una significativa rinascita culturale, nota come "rinascita carolingia", caratterizzata da un vigoroso impulso all'istruzione e dalla creazione della Schola Palatina. In questo prestigioso ambiente accademico furono raccolti i più grandi intellettuali dell'epoca, tra cui Paolo Diacono, Alcuino, Rabano Mauro, Teodolfo d'Orléans e Giovanni Scoto Eriugena, i quali produssero opere principalmente di carattere religioso e teologico.
 
-Alla morte di Carlo Magno, avvenuta nell'anno 814, l'unico figlio sopravvissuto, Ludovico il Pio, gli succedette rinunciando ai titoli di re dei Franchi e dei Longobardi e unificando tali titoli sotto quello di imperatore. Nel 817, Ludovico promulgò l'Ordinatio Imperii, che ridimensionava l'autonomia del Regno Longobardo, rinominandolo Regnum Italiae. Contestualmente, Ludovico pianificò una suddivisione dell'Impero tra i suoi figli: Ludovico il Germanico avrebbe ricevuto i territori orientali (da cui il soprannome Germanico), Lotario l'autorità imperiale insieme alle terre comprese tra il Mare del Nord e il Mar Mediterraneo, e Carlo il Calvo avrebbe governato i territori occidentali.
+#note(top)[== *🧩* La nuova scrittura <senza_numero>
+
+Un ruolo di particolare rilevanza culturale durante il periodo carolingio fu dato alla copiatura di antichi testi, in prevalenza religiosi, accompagnata da una significativa riforma della scrittura. Nel progetto di Carlo Magno era previsto che sorgessero scuole in ogni diocesi, il che implicava un aumento della domanda di libri. Gli scriptoria, ovvero i laboratori dove venivano copiati i manoscritti, operarono intensamente in quell'epoca.
+
+Vennero reclutati esperti di calligrafia per rivoluzionare l'arte della scrittura. Si perseguiva infatti l'obiettivo di creare uno stile più pratico: lettere di dimensioni ridotte, arrotondate e separate tra loro, rendendole così più leggibili. 
+
+Questa nuova grafia, nota come minuscola carolina, offriva vantaggi straordinari al punto da essere adottata dai tipografi del XVI secolo. I manoscritti venivano spesso decorati con ornamenti raffinati, risultando accessibili solo ai più ricchi. Pertanto, non rappresentarono uno strumento di diffusione della cultura, bensì un mezzo per conservare i testi classici e cristiani destinati a un'élite privilegiata.]
+
+=== La dissoluzione dell'Impero
+
+Alla morte di Carlo Magno, avvenuta nell'anno 814, l'unico figlio sopravvissuto, Ludovico il Pio, gli succedette rinunciando ai titoli di re dei Franchi e dei Longobardi e unificando tali titoli sotto quello di imperatore. Nel 817, Ludovico promulgò l'_Ordinatio Imperii_, che ridimensionava l'autonomia del Regno Longobardo, rinominandolo _Regnum Italiae_. Contestualmente, Ludovico pianificò una suddivisione dell'Impero tra i suoi figli: Ludovico il Germanico avrebbe ricevuto i territori orientali (da cui il soprannome Germanico), Lotario l'autorità imperiale insieme alle terre comprese tra il Mare del Nord e il Mar Mediterraneo, e Carlo il Calvo avrebbe governato i territori occidentali.
 
 Nel 842, Ludovico e Carlo strinsero un patto d'alleanza a Strasburgo contro il fratello Lotario, siglando il giuramento in lingua franca e in germanico affinché le rispettive popolazioni potessero comprenderlo. Tale divisione fu poi ufficializzata con il Trattato di Verdun dell'843, che sancì una spartizione definitiva dell'Impero. Tuttavia, i decenni successivi furono segnati da frequenti conflitti tra i monarchi carolingi. Il potere imperiale passò da Lotario a suo figlio Ludovico II, impegnato in campagne militari in Italia contro il Ducato di Benevento e le incursioni saracene, e successivamente a Carlo il Calvo.
 
@@ -63,40 +85,13 @@ La crisi dell'Impero carolingio fu aggravata dalle spinte centrifughe delle pote
 
 Nei decenni successivi si verificarono importanti cambiamenti dinastici: in Francia emerse la dinastia capetingia, mentre Arnolfo fu incoronato anche re d'Italia, unificando alla corona tedesca quella imperiale. Tuttavia, l'Impero carolingio era ormai irrimediabilmente frammentato.
 
-== Approfondimento: L'idea di Impero
+#pagebreak()
+#set page(fill: main_storia.lighten(90%))
+== In sintesi <senza_numero>
 
-La denominazione Sacro Romano Impero riflette il duplice fondamento religioso e politico su cui si basava l'istituzione imperiale. La sacralità dell'Impero, il cui principale obiettivo era garantire l'ordine sociale in armonia con la salvezza delle anime, venne ufficializzata attraverso la cerimonia di incoronazione di Carlo Magno da parte del Papa.
+/ Dai Merovingi ai Pipinidi: Nel 687 Pipino di Heristal, maestro di palazzo del Regno d'Austrasia, riuscì a consolidare il suo potere annettendo il Regno di Neustria, avviando così una significativa centralizzazione del dominio franco. Nel 724, suo erede Carlo Martello intraprese una serie di campagne militari finalizzate all'espansione territoriale e al rafforzamento dell'autorità dei Franchi. Degna di nota fu la vittoria di Carlo Martello nel 732 contro gli Arabi nella celebre Battaglia di Poitiers, che permise di ristabilire il controllo franco sulla Gallia meridionale.  \ Nel 751, su incarico di papa Zaccaria, il monaco Bonifacio consacrò Pipino il Breve, figlio di Carlo Martello, quale nuovo re dei Franchi, sancendo ufficialmente il passaggio dal regno merovingio al potere dei Pipinidi. Successivamente, nel 754, papa Stefano II conferì a Pipino e ai suoi figli il titolo di "patrizio dei Romani", rafforzando ulteriormente il legame tra la dinastia franca e la Chiesa. Alla morte prematura del fratello Carlomanno nel 771, Carlo Magno assunse la guida unica del regno, consolidando la sua posizione. \ Nel 774 Carlo Magno sconfisse Desiderio, ultimo re dei Longobardi, annettendo il regno longobardo ai domini franchi. Tra il 776 e il 787 intraprese varie campagne in Italia, conquistando il Ducato di Spoleto. Tuttavia, nel 778 fallì un'importante spedizione contro gli Arabi in Spagna, culminata nella disfatta della battaglia di Roncisvalle. Malgrado questa debacle, Carlo ottenne importanti successi militari: nel 785 completò la sottomissione dei Sassoni e incorporò la Germania meridionale nei suoi domini; nel 788 depose il duca Tassilone e annesse Baviera e Carinzia. Infine, nel 795 fu eletto papa Leone III, figura che avrebbe svolto un ruolo cruciale negli eventi successivi.
 
-Il richiamo alla romanità giustificava la pretesa di universalità, attribuendo agli imperatori il ruolo di diretti eredi dell'Impero romano. Al contempo, rilanciava il modello di collaborazione fra potere politico e Cristianesimo già realizzato da Costantino.
+/ Sacro Romano Impero: Il momento culminante dell'ascesa di Carlo Magno si ebbe la notte di Natale dell'800, quando papa Leone III lo incoronò imperatore a Roma, sancendo la nascita del Sacro Romano Impero. Negli anni successivi Carlo continuò ad ampliare i suoi domini: tra l'801 e l'813 annesse la Catalogna e Barcellona. Nel 810 suo figlio Pipino attaccò Venezia, mentre nel 812 l'impero bizantino riconobbe ufficialmente l'autorità imperiale di Carlo. La parabola del grande sovrano si concluse nel 814 con la sua morte.
 
-Nonostante ciò, l'Impero carolingio si presentava come un Impero universale cristiano, ma rimaneva legato sotto diversi aspetti alle tradizioni barbariche. Questo si evince dal fatto che Carlo Magno, anche dopo essere stato proclamato imperatore, mantenne i titoli regali propri della cultura barbarica. Inoltre, secondo la concezione patrimoniale del potere tipica dei sovrani germanici, stabilì che alla sua morte l'Impero sarebbe stato suddiviso tra i suoi eredi.
-
-== Approfondimento: La nuova scrittura
-
-Un ruolo di particolare rilevanza culturale durante il periodo carolingio fu dato alla copiatura di antichi testi, in prevalenza religiosi, accompagnata da una significativa riforma della scrittura. Nel progetto di Carlo Magno era previsto che sorgessero scuole in ogni diocesi, il che implicava un aumento della domanda di libri. Gli scriptoria, ovvero i laboratori dove venivano copiati i manoscritti, operarono intensamente in quell'epoca.
-
-Vennero reclutati esperti di calligrafia per rivoluzionare l'arte della scrittura. Si perseguiva infatti l'obiettivo di creare uno stile più pratico: lettere di dimensioni ridotte, arrotondate e separate tra loro, rendendole così più leggibili. 
-
-Questa nuova grafia, nota come minuscola carolina, offriva vantaggi straordinari al punto da essere adottata dai tipografi del XVI secolo. I manoscritti venivano spesso decorati con ornamenti raffinati, risultando accessibili solo ai più ricchi. Pertanto, non rappresentarono uno strumento di diffusione della cultura, bensì un mezzo per conservare i testi classici e cristiani destinati a un'élite privilegiata.
-
-== In sintesi
-
-
-/ Dai Merovingi ai Pipinidi:
-
-Nel 687 Pipino di Heristal, maestro di palazzo del Regno d'Austrasia, riuscì a consolidare il suo potere annettendo il Regno di Neustria, avviando così una significativa centralizzazione del dominio franco. Nel 724, suo erede Carlo Martello intraprese una serie di campagne militari finalizzate all'espansione territoriale e al rafforzamento dell'autorità dei Franchi. Degna di nota fu la vittoria di Carlo Martello nel 732 contro gli Arabi nella celebre Battaglia di Poitiers, che permise di ristabilire il controllo franco sulla Gallia meridionale. 
-
-Nel 751, su incarico di papa Zaccaria, il monaco Bonifacio consacrò Pipino il Breve, figlio di Carlo Martello, quale nuovo re dei Franchi, sancendo ufficialmente il passaggio dal regno merovingio al potere dei Pipinidi. Successivamente, nel 754, papa Stefano II conferì a Pipino e ai suoi figli il titolo di "patrizio dei Romani", rafforzando ulteriormente il legame tra la dinastia franca e la Chiesa. Alla morte prematura del fratello Carlomanno nel 771, Carlo Magno assunse la guida unica del regno, consolidando la sua posizione.
-
-Nel 774 Carlo Magno sconfisse Desiderio, ultimo re dei Longobardi, annettendo il regno longobardo ai domini franchi. Tra il 776 e il 787 intraprese varie campagne in Italia, conquistando il Ducato di Spoleto. Tuttavia, nel 778 fallì un'importante spedizione contro gli Arabi in Spagna, culminata nella disfatta della battaglia di Roncisvalle. Malgrado questa debacle, Carlo ottenne importanti successi militari: nel 785 completò la sottomissione dei Sassoni e incorporò la Germania meridionale nei suoi domini; nel 788 depose il duca Tassilone e annesse Baviera e Carinzia. Infine, nel 795 fu eletto papa Leone III, figura che avrebbe svolto un ruolo cruciale negli eventi successivi.
-
-/ Il Sacro Romano Impero:
-
-Il momento culminante dell'ascesa di Carlo Magno si ebbe la notte di Natale dell'800, quando papa Leone III lo incoronò imperatore a Roma, sancendo la nascita del Sacro Romano Impero. Negli anni successivi Carlo continuò ad ampliare i suoi domini: tra l'801 e l'813 annesse la Catalogna e Barcellona. Nel 810 suo figlio Pipino attaccò Venezia, mentre nel 812 l'impero bizantino riconobbe ufficialmente l'autorità imperiale di Carlo. La parabola del grande sovrano si concluse nel 814 con la sua morte.
-
-/ La dissoluzione dell'impero:
-
-A Carlo Magno succedette Ludovico il Pio, che nel 817 promulgò l'ordinamento noto come *Ordinatio Imperii*. Con tale documento centralizzò ulteriormente i poteri, togliendo autonomia al Regno longobardo e trasformandolo nel *Regnum Italiae*. Tuttavia, dopo la morte di Ludovico nel 840, l'equilibrio ereditario fu spezzato dai conflitti tra i suoi figli. L'alleanza sancita nel Giuramento di Strasburgo del 842 tra Ludovico il Germanico e Carlo il Calvo contro il fratello maggiore Lotario anticipò la definitiva spartizione dell'impero: con il Trattato di Verdun del 843, i domini carolingi vennero suddivisi tra i tre eredi, segnando l'inizio della frammentazione politica.
-
-Un ulteriore passo verso la disgregazione del potere centrale avvenne nel 877 con il capitolare di Quierzy emanato da Carlo il Calvo. Tale provvedimento rese ereditari i feudi maggiori, dando avvio a un sistema feudale sempre più autonomo. Carlo il Grosso, ultimo esponente significativo della dinastia carolingia, riunificò temporaneamente l'impero nel 884 ma fu deposto pochi anni dopo, nel 887. La deposizione segnò ufficialmente la dissoluzione del potere carolingio e l'avvento di nuove strutture politiche nell'Europa medievale.
+/ Dissoluzione dell'impero: A Carlo Magno succedette Ludovico il Pio, che nel 817 promulgò l'ordinamento noto come _Ordinatio Imperii_. Con tale documento centralizzò ulteriormente i poteri, togliendo autonomia al Regno longobardo e trasformandolo nel _Regnum Italiae_. Tuttavia, dopo la morte di Ludovico nel 840, l'equilibrio ereditario fu spezzato dai conflitti tra i suoi figli. L'alleanza sancita nel Giuramento di Strasburgo del 842 tra Ludovico il Germanico e Carlo il Calvo contro il fratello maggiore Lotario anticipò la definitiva spartizione dell'impero: con il Trattato di Verdun del 843, i domini carolingi vennero suddivisi tra i tre eredi, segnando l'inizio della frammentazione politica. \ Un ulteriore passo verso la disgregazione del potere centrale avvenne nel 877 con il capitolare di Quierzy emanato da Carlo il Calvo. Tale provvedimento rese ereditari i feudi maggiori, dando avvio a un sistema feudale sempre più autonomo. Carlo il Grosso, ultimo esponente significativo della dinastia carolingia, riunificò temporaneamente l'impero nel 884 ma fu deposto pochi anni dopo, nel 887. La deposizione segnò ufficialmente la dissoluzione del potere carolingio e l'avvento di nuove strutture politiche nell'Europa medievale.
 

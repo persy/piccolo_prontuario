@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Nel XIV secolo, la terza fase della scolastica si distingue per l'influente contributo della scuola francescana, che trova un terreno particolarmente fertile presso l'Università di Oxford. 
 
@@ -15,7 +15,7 @@ Bacone, pur riconoscendo nel cristianesimo la fonte dei principi fondamentali de
 
 == Giovanni Duns Scoto
 
-Giovanni Duns Scoto (ca. 1265-1308), rappresentante di spicco della tradizione francescana, svolge la sua attività accademica presso le università di Oxford e Parigi, oltre che nello studio teologico francescano di Colonia. Tra le sue opere principali si annoverano l'Opus oxoniense (conosciuto anche come Ordinatio Scoti) e i Reportata parisiensia. Rilevanti sono altresì il trattato De primo principio e il Quodlibet, che riflettono la complessità e profondità del suo pensiero teologico e filosofico.
+Giovanni Duns Scoto (ca. 1265-1308), rappresentante di spicco della tradizione francescana, svolge la sua attività accademica presso le università di Oxford e Parigi, oltre che nello studio teologico francescano di Colonia. Tra le sue opere principali si annoverano l'_Opus oxoniense_ (conosciuto anche come _Ordinatio Scoti_) e i _Reportata parisiensia_. Rilevanti sono altresì il trattato _De primo principio_ e il _Quodlibet_, che riflettono la complessità e profondità del suo pensiero teologico e filosofico.
 
 === Rivelazione e filosofia
 
@@ -71,9 +71,9 @@ Maestro presso l'Università di Parigi (circa 1290 - circa 1358), Buridano è au
 
 Nelle sue opere di filosofia naturale, Buridano rielabora la fisica e la cosmologia di stampo aristotelico, cercando di armonizzarle con la prospettiva teologica. Egli distingue tra l'indagine fisica delle leggi naturali e l'ordine delle possibilità legato all'onnipotenza divina. Dio, infatti, può intervenire nel creato modificando, tramite miracoli, le leggi che regolano il mondo fisico.
 
-Buridano critica inoltre la spiegazione aristotelica del moto violento: afferma che il proiettile non si muove per effetto della spinta dell'aria circostante, ma grazie a un impetus, una forza impressa dal lanciatore. Questo impetus agisce come un motore intrinseco che consente al proiettile di proseguire nella sua traiettoria.
+Buridano critica inoltre la spiegazione aristotelica del moto violento: afferma che il proiettile non si muove per effetto della spinta dell'aria circostante, ma grazie a un _impetus_, una forza impressa dal lanciatore. Questo _impetus_ agisce come un motore intrinseco che consente al proiettile di proseguire nella sua traiettoria.
 
-Questa stessa teoria dell'impetus viene utilizzata da Buridano per spiegare altri fenomeni, come l'accelerazione dei corpi in caduta libera e il movimento delle sfere celesti. Con questa dottrina, egli anticipa quello che diventerà il moderno principio d'inerzia, formulato in maniera compiuta solo più tardi da Galileo Galilei.
+Questa stessa teoria dell'_impetus_ viene utilizzata da Buridano per spiegare altri fenomeni, come l'accelerazione dei corpi in caduta libera e il movimento delle sfere celesti. Con questa dottrina, egli anticipa quello che diventerà il moderno principio d'inerzia, formulato in maniera compiuta solo più tardi da Galileo Galilei.
 
 == Marsilio da Padova
 
@@ -82,8 +82,9 @@ Principale pensatore politico del suo tempo (1275 - circa 1343), Marsilio da Pad
 Convinto che la pace – quale scopo essenziale dello Stato – fosse minacciata in quel periodo storico dalle pretese teocratiche del papa, Marsilio sostiene che la pace e la partecipazione nello Stato siano strettamente connesse, così come nell'organismo vivente benessere e armonia delle funzioni sono inseparabili. 
 
 Essendo tutti membri di una comunità terrena, anche i sacerdoti devono essere subordinati allo Stato, del quale la comunità dei fedeli forma parte integrante. Secondo Marsilio, il potere supremo di istituire i governanti e di approvare le leggi appartiene al popolo, che delega tale autorità a rappresentanti incaricati di garantire un ordine stabile e pacifico. La Chiesa, pur essendo sottoposta alle regole dello Stato per questioni di convivenza civile, resta subordinata unicamente a Dio per il compito di guida morale.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / I maestri di Oxford: Gli studiosi di Oxford adottano un approccio scientifico-empirista, difendendo la completa indipendenza della fede dalla ragione.
 
@@ -111,9 +112,9 @@ Essendo tutti membri di una comunità terrena, anche i sacerdoti devono essere s
 
 / Buridano e il problema degli universali: Giovanni Buridano concorda con Ockham sulla questione degli universali: essi appartengono ai concetti mentali mentre la realtà consiste esclusivamente in entità individuali.
 
-/ La teoria dell'impetus: Critica la concezione aristotelica del moto violento, sviluppando la teoria dell'impetus, considerata precorritrice del principio moderno di inerzia.
+/ La teoria dell'_impetus_: Critica la concezione aristotelica del moto violento, sviluppando la teoria dell'_impetus_, considerata precorritrice del principio moderno di inerzia.
 
-/ Marsilio da Padova: Con Giovanni di Jandun, scrive il "Defensor pacis", dove lo Stato trova la sua ragion d'essere nella pace ottenuta tramite partecipazione politica.
+/ Marsilio da Padova: Con Giovanni di Jandun, scrive il _Defensor pacis_, dove lo Stato trova la sua ragion d'essere nella pace ottenuta tramite partecipazione politica.
 
 / Il ruolo del popolo nella gestione del potere: Il popolo è il detentore primario e assoluto della capacità di stabilire governanti e approvare leggi. Tuttavia, questo potere viene generalmente delegato a rappresentanti politici che assicurano ordine e pace sociale attraverso la gestione della cosa pubblica.  
 

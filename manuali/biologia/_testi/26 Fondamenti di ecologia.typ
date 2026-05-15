@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Lo studio approfondito dell'anatomia e della fisiologia delle piante e degli animali ha consentito di comprendere come, nel corso dell'evoluzione, tutti gli organismi abbiano sviluppato adattamenti specifici per vivere in ambienti fisici peculiari. Tuttavia, la vita sulla Terra non si limita a queste interazioni adattative, poiché essa dipende da complesse relazioni tra materia vivente e materia inanimata. Tali interazioni sono mantenute in equilibrio dinamico attraverso cicli costanti di energia e materia.]
 
@@ -20,7 +20,7 @@ I fattori ecologici determinano e regolano gli ambienti naturali, esercitando un
 I fattori abiotici sono strettamente legati alle caratteristiche del contesto fisico-chimico e includono elementi fisici quali temperatura, pressione atmosferica, gravità, luce solare, umidità, vento e correnti oceaniche o fluviali; inoltre, comprendono parametri chimici quali salinità dell'acqua, concentrazione di ossigeno e anidride carbonica, pH e tipologia di rocce e suolo.
 
 I fattori biotici derivano dalla presenza e dalle interazioni tra diversi organismi viventi. Questi includono competizione tra specie o tra individui della stessa specie, predazione, simbiosi, parassitismo e comportamenti migratori. Essi possono influire anche sui fattori abiotici, modificandoli attraverso l'attività biologica. Ad esempio, la presenza di una copertura vegetale può alterare condizioni come temperatura e luce negli strati inferiori della foresta, influenzando anche le altre forme di vita che vi abitano.
- 
+
 === Tolleranza e fattori limitanti
 
 Gli organismi viventi possono tollerare soltanto variazioni limitate di alcuni fattori ecologici, sebbene l'ampiezza di questi limiti possa variare a seconda della specie. Ogni organismo dimostra una sensibilità diversa ai fattori ecologici, legata alla sua valenza ecologica, ovvero alla capacità di adattarsi e colonizzare ambienti con caratteristiche differenti in relazione a un determinato fattore.
@@ -31,6 +31,12 @@ Inoltre, alcuni organismi reagiscono di fronte a specifici fattori ecologici con
 
 Il fattore limitante è definito come quel elemento chimico-fisico o biotico che, se presente in quantità superiore o inferiore a una certa soglia, rende impossibile la sopravvivenza di una specie in un determinato ambiente.
 
+#note(bottom)[== *🧩* La legge dei fattori limitanti  <senza_numero>
+
+La legge dei fattori limitanti discende dalla legge del minimo, formulata dal chimico tedesco Justus von Liebig (1803-1873), secondo la quale "la crescita delle piante dipende dall'elemento presente in quantità inferiore rispetto al fabbisogno, al di sotto del quale le sintesi non possono aver luogo". Le piante impiegano numerosi elementi chimici per i propri processi metabolici, ma solo alcuni sono essenziali, sebbene in quantità molto variabili (macroelementi e microelementi). La legge del minimo afferma che la crescita viene inibita se anche solo uno di questi microelementi non raggiunge la soglia minima necessaria.
+
+La legge dei fattori limitanti amplia questo concetto, applicandolo ai fattori ecologici: una specie non può vivere in un determinato ambiente se in esso si riscontra una carenza, un'insufficiente intensità o un eccesso di un determinato fattore ecologico. Ad esempio, nel caso in cui una popolazione di prede (come gli erbivori) dovesse scendere al di sotto di una certa soglia, anche i suoi predatori (carnivori) vedrebbero compromessa la loro capacità di sopravvivenza nelle medesime condizioni.]
+
 == L'ecosistema
 
 L'ecosistema rappresenta l'unità fondamentale dell'ecologia, composta da una comunità di organismi viventi (la biocenosi) presenti in una specifica area e dal relativo ambiente fisico (il biotopo). Questi componenti sono strettamente interconnessi attraverso complessi meccanismi di interazione, energia e scambi materiali.
@@ -38,7 +44,7 @@ L'ecosistema rappresenta l'unità fondamentale dell'ecologia, composta da una co
 Ogni ecosistema contiene una varietà di habitat e nicchie ecologiche. L'habitat è lo spazio fisico in cui una specie vive abitualmente, spesso caratterizzato da una particolare forma vegetale o da specifiche condizioni fisiche, come un corso d'acqua o una foresta.
 
 La nicchia ecologica, invece, definisce il ruolo che ogni specie svolge all'interno del proprio habitat. Questo concetto comprende tutti gli aspetti dell'esistenza della specie: le sue esigenze alimentari, le abitudini di vita, le interazioni con altre specie e le condizioni climatiche e chimico-fisiche del contesto. La nicchia è unica per ciascuna specie. Un esempio emblematico riguarda cinque specie di uccelli insettivori che si nutrono in zone differenziate di una stessa varietà di abete nel Nordamerica.
- 
+
 === Flusso di energia
 
 I processi fondamentali che si svolgono all'interno degli ecosistemi si basano su un intricato sistema di trasformazioni chimiche. Queste comprendono la sintesi di materia organica (biomassa), ovvero la formazione di molecole complesse come carboidrati, lipidi e proteine con legami ricchi di energia. Queste molecole vengono create a partire da composti inorganici semplici, come acqua, anidride carbonica e sali minerali, prelevati dall'ambiente. Contemporaneamente, avviene la degradazione della materia organica in composti inorganici più semplici, caratterizzati da un contenuto energetico inferiore, che vengono restituiti all'ambiente per essere nuovamente riutilizzati.
@@ -46,7 +52,7 @@ I processi fondamentali che si svolgono all'interno degli ecosistemi si basano s
 Per garantire il perpetuarsi di queste trasformazioni chimiche, e quindi della vita sulla Terra, l'ecosistema richiede un apporto costante di energia proveniente dall'esterno. Questa energia è fornita dal Sole, che si può considerare come una risorsa pressoché illimitata. L'energia solare viene impiegata nell'ecosistema grazie alle piante verdi, che la utilizzano per produrre autonomamente il proprio nutrimento. Attraverso il processo di fotosintesi, le piante convertono l'energia luminosa in energia chimica, utilizzandone una parte per soddisfare i propri bisogni fisiologici e accumulando la parte restante.
 
 Grazie alle catene alimentari si realizza il trasferimento dell'energia agli altri organismi dell'ecosistema, stabilendo le connessioni tra i vari componenti della biocenosi.
- 
+
 === Catene e reti alimentari
 
 Le catene alimentari rappresentano una successione in cui alcuni organismi si nutrono di quelli che li precedono e a loro volta diventano alimento per quelli che li seguono. Gli organismi partecipanti si collocano a diversi livelli trofici (alimentari), che possono essere suddivisi in produttori, consumatori e decompositori.
@@ -119,7 +125,7 @@ La competizione rappresenta il confronto tra individui della stessa specie (comp
 La competizione intraspecifica risulta particolarmente intensa, poiché gli individui di una stessa specie condividono esigenze e adattamenti simili. Questo li induce a mettere in atto vari comportamenti competitivi, che possono includere la lotta per il partner, il territorio o la definizione di gerarchie di dominanza.
 
 La competizione interspecifica emerge invece quando specie diverse manifestano esigenze simili, specialmente se occupano nicchie ecologiche affini e la densità delle loro popolazioni aumenta. Per ridurre tale competizione, ogni specie tende a sfruttare in maniera esclusiva una specifica porzione dell'habitat e delle sue risorse, rispettando così il principio di esclusione di nicchia.
- 
+
 === Predazione
 
 La predazione è un'interazione ecologica in cui alcuni animali (i predatori) catturano e uccidono individui di altre specie (le prede) per nutrirsi. Tale fenomeno agisce come un meccanismo di controllo delle popolazioni, sensibile alla loro densità: all'aumento della popolazione di prede corrisponde un incremento delle occasioni di cattura per i predatori. Inoltre, una popolazione di prede che supera la capacità biologica dell'ecosistema diventa più vulnerabile, a causa della scarsità di cibo o della diffusione di parassiti.
@@ -158,7 +164,6 @@ La successione secondaria si manifesta in aree precedentemente colonizzate e suc
 
 Non sempre questa successione conduce alla formazione di una comunità climax tipica della zona. Fattori esterni come incendi o inondazioni possono limitare il raggiungimento dell'equilibrio definitivo e portare alla formazione di un climax edafico, ossia la massima stabilità consentita in quel contesto. Inoltre, in aree dove l'azione dell'uomo o di animali domestici mantiene una comunità stabile, si parla di disclimax o climax antropogenetico.
 
-#wideblock[
 #figure(
   caption: [Principali variazioni che si osservano nel corso di una successione],
   table(
@@ -184,20 +189,15 @@ Non sempre questa successione conduce alla formazione di una comunità climax ti
   [Produttività], [Inizialmente, la produttività dell'ecosistema (autotrofia) supera la respirazione (eterotrofia); successivamente, la produttività diminuisce mentre la respirazione tende ad aumentare]
 )  
 )
-]
- 
+
 === Le comunità climax
 
 Le successioni ecologiche evolvono gradualmente verso una condizione di stabilità definita climax, attraversando fasi intermedie note come sere o stadi serali. Nel climax, la biomassa totale raggiunge il massimo livello e le specie convivono in equilibrio con i loro competitori.
 
 Le comunità climax sono profondamente influenzate dal clima e dalla geologia della regione. I biomi, come foreste, deserti o praterie, rappresentano esempi di comunità climax distribuite su vaste aree geografiche, accomunate da condizioni ambientali simili e da una caratteristica flora predominante.
+
 #pagebreak()
-== Approfondimento: la legge dei fattori limitanti  <senza_numero>
-
-La legge dei fattori limitanti discende dalla legge del minimo, formulata dal chimico tedesco J. von Liebig (1803-1873), secondo la quale "la crescita delle piante dipende dall'elemento presente in quantità inferiore rispetto al fabbisogno, al di sotto del quale le sintesi non possono aver luogo". Le piante impiegano numerosi elementi chimici per i propri processi metabolici, ma solo alcuni sono essenziali, sebbene in quantità molto variabili (macroelementi e microelementi). La legge del minimo afferma che la crescita viene inibita se anche solo uno di questi microelementi non raggiunge la soglia minima necessaria.
-
-La legge dei fattori limitanti amplia questo concetto, applicandolo ai fattori ecologici: una specie non può vivere in un determinato ambiente se in esso si riscontra una carenza, un'insufficiente intensità o un eccesso di un determinato fattore ecologico. Ad esempio, nel caso in cui una popolazione di prede (come gli erbivori) dovesse scendere al di sotto di una certa soglia, anche i suoi predatori (carnivori) vedrebbero compromessa la loro capacità di sopravvivenza nelle medesime condizioni.
-
+#set page(fill: main_scienze.lighten(90%))
 == Glossario  <senza_numero>
 
 / Ambiente: L'insieme delle condizioni chimico-fisiche (fattori abiotici) e biologiche (fattori biotici) a cui è sottoposto un organismo vivente.  

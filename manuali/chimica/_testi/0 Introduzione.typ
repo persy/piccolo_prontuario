@@ -1,10 +1,9 @@
-#import "../../template_tufte.typ": *
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
-La chimica è una disciplina scientifica di carattere sperimentale, orientata allo studio della struttura fondamentale della materia.
+#evidenzia[La chimica è una disciplina scientifica di carattere sperimentale, orientata allo studio della struttura fondamentale della materia. Essa si occupa di analizzare con precisione la composizione e la struttura delle sostanze, siano esse naturali o artificiali, e di investigare le trasformazioni che subiscono, inclusi i fenomeni energetici che accompagnano tali processi.
 
-Essa si occupa di analizzare con precisione la composizione e la struttura delle sostanze, siano esse naturali o artificiali, e di investigare le trasformazioni che subiscono, inclusi i fenomeni energetici che accompagnano tali processi.
-
-Le osservazioni sperimentali rappresentano il punto di partenza per la formulazione di leggi e la costruzione di teorie che permettono di comprendere i fenomeni analizzati. Da queste derivano relazioni matematiche, utili per consolidare i principi fondamentali e ampliare gli orizzonti dei diversi settori della chimica.
+Le osservazioni sperimentali rappresentano il punto di partenza per la formulazione di leggi e la costruzione di teorie che permettono di comprendere i fenomeni analizzati. Da queste derivano relazioni matematiche, utili per consolidare i principi fondamentali e ampliare gli orizzonti dei diversi settori della chimica.]
 
 La disciplina comprende una vasta gamma di sotto-settori, sia teorici che applicativi, tra cui:
 

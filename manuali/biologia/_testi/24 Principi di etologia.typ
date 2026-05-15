@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[L'etologia è la scienza che indaga il comportamento animale quale risultato di due distinti ordini di processi. Il primo è correlato ai fattori ereditari e si manifesta attraverso comportamenti innati, determinati geneticamente e trasmessi di generazione in generazione. Il secondo, invece, è associato alla capacità degli organismi di adattare le proprie azioni mediante l'esperienza, concretizzandosi negli apprendimenti comportamentali.]
 
@@ -10,7 +10,7 @@ Il comportamento, nell'accezione scientifica, può essere definito come l'insiem
 Dal punto di vista biologico, il comportamento è strettamente dipendente dal patrimonio genetico della specie. Gli stimoli ambientali vengono percepiti attraverso gli organi sensoriali e successivamente elaborati e integrati dal sistema nervoso con altre informazioni. Ne consegue che la complessità dei comportamenti osservabili in una data specie è direttamente proporzionale alla sofisticatezza dell'organizzazione dei suoi apparati biologici, con particolare riferimento al sistema nervoso.
 
 In ambito etologico, si distingue tra due principali categorie di comportamenti: i comportamenti innati, determinati dal patrimonio genetico ereditario, e quelli acquisiti attraverso l'esperienza.
-
+ 
 == Comportamenti innati
 
 I comportamenti innati, comunemente noti anche come comportamenti istintivi, sono regolati da fattori genetici e sono caratteristici della specie di appartenenza. Tali comportamenti vengono trasmessi invariabilmente tramite generazioni e risultano indipendenti da esperienze pregresse, imitazione o apprendimento. Essi assumono particolare rilevanza per le specie meno evolute, il cui sistema nervoso presenta caratteristiche primitive incapaci di accumulare esperienze.
@@ -38,7 +38,7 @@ Numerosi esperimenti hanno contribuito a chiarire gli stimoli chiave che attivan
 Un esperimento analogo è stato condotto sullo spinarello per studiare le dinamiche di aggressività e corteggiamento. Si è evidenziato che la colorazione rossa sul ventre costituisce uno stimolo chiave: essa suscita comportamenti aggressivi nei maschi rivali e attira le femmine.
 
 Un ulteriore caso che illustra il completamento obbligatorio di un modulo di azione fissa è quello delle oche cinerine. Questi uccelli costruiscono i loro nidi in depressioni del terreno, rendendoli vulnerabili alla fuoriuscita delle uova. In risposta, l'oca esegue una sequenza predefinita di movimenti per recuperare l'uovo. Anche se l'uovo scivola fuori dal raggio d'azione, l'animale continua a effettuare i movimenti di recupero verso il nido, malgrado l'assenza dello stimolo chiave.
-
+ 
 == Comportamenti appresi
 
 L'apprendimento, dal canto suo, si distingue dai moduli di azione fissa poiché implica modificazioni del comportamento in seguito all'esperienza acquisita. Tale processo esclude variazioni temporanee o derivanti da cambiamenti strutturali del sistema nervoso centrale legati a maturazione sessuale, invecchiamento o lesioni. Essenzialmente, apprendere implica la capacità di sviluppare nuove strategie comportamentali, adeguate alla risoluzione di problematiche o all'adattamento a pressioni ambientali.
@@ -74,8 +74,8 @@ Grazie a questo meccanismo, gli animali evitano di sprecare tempo ed energie nel
 L'intuito permette a un animale di affrontare situazioni nuove basandosi sulle esperienze acquisite in passato, senza dover ricorrere a tentativi esplorativi. Si tratta della forma più avanzata di apprendimento, particolarmente sviluppata nell'uomo. Questo fenomeno è stato inizialmente studiato dal punto di vista etologico negli scimpanzé ed è riscontrato anche in altre specie, come nei piccioni.
 
 Un esperimento significativo sulla capacità intuitiva prevedeva che uno scimpanzé trovasse un modo per raggiungere delle banane appese al soffitto di una gabbia. Analizzando l'ambiente circostante, l'animale si accorgeva della presenza di alcune casse e grazie al proprio intuito capiva che impilandole una sull'altra avrebbe potuto usarle come supporto per raggiungere il frutto.
-#pagebreak()
-=== Apprendimento per imitazione <senza_numero>
+
+=== Apprendimento per imitazione
 
 L'apprendimento per imitazione consiste nell'acquisizione di nuovi comportamenti osservando e replicando le azioni di altri individui della propria specie. Studi documentano esempi significativi in alcune popolazioni di macachi e cince.
 
@@ -84,7 +84,8 @@ Nell'isola giapponese di Koshima, alcuni etologi gettarono delle patate dolci su
 Un altro caso curioso riguarda le cince in Inghilterra negli anni '50. I lattai erano soliti lasciare le bottiglie di latte davanti alle abitazioni; in un evento fortuito, una cincia forò il tappo di una bottiglia con il becco e scoprì la panna nascosta sotto. Questo comportamento si diffuse progressivamente tra la specie e venne trasmesso di generazione in generazione, trasformandosi in una caratteristica tipica.
 
 L'imitazione, al pari dell'imprinting, rappresenta una modalità fondamentale del comportamento sociale e svolge un ruolo cruciale nella trasmissione di quella che viene definita "cultura". Tale cultura si manifesta attraverso l'apprendimento e la diffusione di comportamenti acquisiti, favorendo la creazione di vere e proprie tradizioni.
-
+#pagebreak() 
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Comportamento: Insieme dei processi attraverso cui un animale reagisce agli stimoli dell'ambiente circostante. Può essere innato o acquisito.  

@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il marxismo è uno dei principali filoni della cultura filosofica del Novecento, caratterizzato da una pluralità di correnti, spesso molto distanti tra loro.  
 
@@ -8,7 +8,7 @@ All'inizio del secolo si sviluppa una vivace polemica tra i sostenitori dell'ort
 In Italia, il neomarxismo trova il suo massimo esponente in Antonio Gramsci, con la sua concezione del marxismo come "filosofia della prassi". Nell'ambito del cosiddetto "marxismo occidentale", pensatori come Lukács e Bloch mettono invece in discussione l'estensione della dialettica marxista, originariamente concepita per analizzare la storia umana, alla natura stessa, criticando l'oggettivazione dei soggetti e la perdita di iniziativa all'interno di una logica deterministica.  
 
 La Scuola di Francoforte, con Horkheimer, Adorno e Marcuse, sviluppa la "teoria critica" della società, ampliando le categorie marxiste all'esame della cultura di massa e delle manifestazioni dell'alienazione tipiche del sistema capitalistico e borghese.]  
-
+#note(bottom)[/ Il marxismo nell'Unione Sovietica: Lenin e Stalin: Il protagonista della Rivoluzione Sovietica del 1917, Nikolaj Lenin (1870-1924), critica le interpretazioni positivistiche e fatalistiche del marxismo, ponendo l'accento sull'importanza della coscienza rivoluzionaria. Secondo Lenin, tale coscienza – intesa come la capacità di affrontare questioni politiche e legate al potere statale – non emerge in maniera automatica all'interno della classe operaia, ma deve essere sviluppata intenzionalmente dal partito comunista, considerato avanguardia disciplinata composta da "rivoluzionari di professione". Egli immagina il nuovo Stato sovietico come una "dittatura del proletariato", ovvero una fase transitoria tra lo Stato borghese e l'abolizione della funzione statale nel futuro assetto comunista. \ Alla morte di Lenin, la guida dell'Unione Sovietica e del movimento comunista internazionale passa a Stalin (1879-1953), il quale enfatizza in maniera rilevante il ruolo della sovrastruttura politica e ideologica, identificata concretamente nel Partito Comunista. A quest'ultimo viene attribuito un compito propulsivo nello sviluppo della società. Sul piano storico-politico, tale approccio si traduce in un'indagine ossessiva sui principi dell'unità ideologica e del rigore dottrinale, nonché nella trasposizione della lotta di classe in tutti gli ambiti del sapere. In ciascun settore, infatti, si assiste a un confronto tra una visione "proletaria" e un'interpretazione "imperialistico-borghese".]
 == Il dibattito interno al marxismo: revisionismo e ortodossia
 
 Tra la fine dell'Ottocento e l'inizio del Novecento si accende un intenso dibattito teorico all'interno del marxismo, segnato dalla contrapposizione tra riformisti e ortodossi.  
@@ -96,8 +96,9 @@ Herbert Marcuse è un altro importante pensatore della Scuola di Francoforte. Na
 In seguito, con _Eros e civiltà_ (1955), Marcuse si avvicina alla psicoanalisi per comprendere le cause della "repressione" nell'uomo moderno. Alla dialettica tra "principio del piacere" e "principio di realtà" identificata da Freud, aggiunge il "principio della prestazione", peculiare alla società capitalistica, che esige dall'individuo il massimo impegno nell'attività lavorativa. Secondo Marcuse, una nuova società e una cultura non repressiva potrebbero emergere solo attraverso un recupero della dimensione sensitivo-corporea ed estetica dell'essere umano. 
 
 La critica radicale alla società contemporanea viene ulteriormente approfondita nel saggio _L'uomo a una dimensione_ (1964), dove descrive la civiltà industriale avanzata come una forma di autoritarismo mascherato. In questa realtà tutto sembra possibile e a tutti sembra garantita libertà assoluta, ma essa risulta svuotata di un reale contenuto, dando origine a quella che definisce "tolleranza repressiva".
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Il revisionismo: Bernstein si oppone alla previsione marxiana del crollo del sistema capitalistico, proponendo una strategia di riforma sociale non rivoluzionaria, nota come revisionismo.
 

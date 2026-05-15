@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il neoidealismo rappresenta un movimento filosofico che, ispirato al pensiero hegeliano, si sviluppa in Italia tra la fine del XIX e l'inizio del XX secolo, caratterizzandosi per una marcata opposizione al positivismo. I protagonisti principali del neoidealismo italiano sono Benedetto Croce e Giovanni Gentile.
 
@@ -29,7 +29,7 @@ Per Croce, l'arte si configura da un lato come "materiata" di sentimento, un ele
 
 Per quanto riguarda la storiografia, è celebre la posizione crociana sull'identità tra storia e filosofia. Croce considera la filosofia come la storia vista nella sua universalità, mentre la storia è la filosofia osservata nella sua concretezza. Entrambe non sono che modalità attraverso cui si riflette sull'esistenza individuale, che per Croce è la sola realtà autentica e deve essere attualmente presente allo spirito. Da questa prospettiva deriva la conclusione che ogni storia è contemporanea e si manifesta attraverso la narrazione, ovvero la storiografia. Per questo motivo, Croce identifica in modo speculativo storia e storiografia.
 
-=== Giovanni Gentile
+== Giovanni Gentile
 
 Giovanni Gentile (Castelvetrano, Trapani, 1875 - Firenze, 1944), filosofo e pedagogista, è riconosciuto come il principale rappresentante del neoidealismo italiano. Assieme a Croce, si impegnò in una dura critica contro il positivismo prevalente tra la fine del XIX e l'inizio del XX secolo.  
 
@@ -51,8 +51,9 @@ Gentile individua tre momenti fondamentali nella vita del pensiero:
 + La sintesi tra soggetto e oggetto, ovvero l'identificazione finale che risolve l'alterità dell'oggetto nel soggetto stesso.  
 
 Questi tre momenti dialettici dell'atto corrispondono anche alle tre forme fondamentali dello spirito: arte, religione e filosofia. La scienza occupa una posizione incerta nell'interpretazione gentiliana ed è talvolta assimilata all'arte, altre volte alla religione.  
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Croce e la filosofia dello spirito: Nella filosofia dello spirito di Benedetto Croce, lo spirito rappresenta la storia universale, in cui l'individuale costituisce ciò che realmente esiste. Questo avviene come sintesi originaria tra il particolare e l'universale, espressa nei giudizi, che unificano un soggetto particolare e un predicato universale.
 

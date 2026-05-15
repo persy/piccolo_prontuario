@@ -1,11 +1,11 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il progresso tecnico-scientifico del Novecento, al pari del pensiero postmetafisico, ha imposto numerose sfide alla filosofia tradizionale e ai suoi modelli di razionalità, da secoli considerati veri e indiscutibili. 
 
 Ambiti come informatica, logica, matematica, linguistica, psicologia cognitiva, epistemologia e neuroscienze si sono intrecciati in un campo di ricerca comune: l'intelligenza artificiale. Questo settore ha interpretato con forza il ruolo di sfida alla filosofia, originando una serie continua e complessa di interrogativi e problematiche. 
 
-Di fronte a queste sollecitazioni, i filosofi hanno adottato risposte diverse: alcuni hanno sostenuto l'intelligenza artificiale, arrivando persino a considerare l'ipotesi di una “vita artificiale” (come Putnam), mentre altri, al contrario, ne hanno criticato radicalmente le ambizioni, mettendone in discussione la capacità di comprendere e comunicare in maniera intenzionale (come nel caso di Searle). 
+Di fronte a queste sollecitazioni, i filosofi hanno adottato risposte diverse: alcuni hanno sostenuto l'intelligenza artificiale, arrivando persino a considerare l'ipotesi di una "vita artificiale" (come Putnam), mentre altri, al contrario, ne hanno criticato radicalmente le ambizioni, mettendone in discussione la capacità di comprendere e comunicare in maniera intenzionale (come nel caso di Searle). 
 
 Questo dibattito, che rimane ben lontano dall'essere risolto in una direzione definitiva, ha comunque contribuito a evidenziare ulteriormente i limiti dell'intelligenza umana nel comprendere pienamente sé stessa in modo chiaro e univoco.]
 
@@ -13,9 +13,9 @@ Questo dibattito, che rimane ben lontano dall'essere risolto in una direzione de
 
 L'intelligenza artificiale (IA) può essere descritta come il ramo di studi e l'insieme di tecnologie provenienti dall'informatica, indirizzati alla progettazione di sistemi elettronici capaci di simulare il comportamento intelligente umano. Questi sistemi mirano a risolvere problemi che, normalmente, ricadono nell'ambito delle capacità dell'intelligenza umana.
 
-Il termine IA fu introdotto nel 1956 durante un seminario tenutosi a Dartmouth, negli Stati Uniti. Marvin Minsky, uno dei pionieri della disciplina, definì l'intelligenza artificiale come la “scienza che consente alle macchine di compiere operazioni che richiederebbero intelligenza se fossero eseguite dagli uomini”. 
+Il termine IA fu introdotto nel 1956 durante un seminario tenutosi a Dartmouth, negli Stati Uniti. Marvin Minsky, uno dei pionieri della disciplina, definì l'intelligenza artificiale come la "scienza che consente alle macchine di compiere operazioni che richiederebbero intelligenza se fossero eseguite dagli uomini". 
 
-Tra i principali campi di applicazione dell'IA si annoverano: i metodi per affrontare problemi in condizioni di incertezza (problem solving), la capacità di un computer di comprendere il linguaggio naturale non codificato, la traduzione automatica, la visione artificiale e lo sviluppo di programmi capaci di apprendere dalle proprie esperienze e di correggere autonomamente gli errori.
+Tra i principali campi di applicazione dell'IA si annoverano: i metodi per affrontare problemi in condizioni di incertezza (_problem solving_), la capacità di un computer di comprendere il linguaggio naturale non codificato, la traduzione automatica, la visione artificiale e lo sviluppo di programmi capaci di apprendere dalle proprie esperienze e di correggere autonomamente gli errori.
 
 Le radici lontane dell'IA possono idealmente essere rintracciate nella concezione meccanicistica del corpo umano proposta da Descartes, negli automi idraulici da giardino diffusi nel Seicento e nei primi calcolatori manuali completamente meccanici creati da Pascal e Leibniz. 
 
@@ -29,17 +29,17 @@ I primi studiosi del pensiero artificiale si prefissero l'obiettivo di riprodurr
 
 Parallelamente, altri ricercatori utilizzarono elaboratori per simulare i processi dell'intelligenza umana, individuando nella capacità decisionale una caratteristica cruciale del pensiero. Come campo privilegiato per testare tali attitudini venne scelto il gioco degli scacchi, considerato un esempio emblematico.  
 
-Con l'avanzare dei progressi nel campo della cibernetica, le ricerche sull'intelligenza artificiale si concentrarono nello sviluppo di programmi per giochi e, successivamente, nella creazione di procedure euristiche capaci di evitare l'analisi di tutte le opzioni possibili. Ciò si rende necessario per contrastare la cosiddetta “esplosione combinatoria”, che negli scacchi comporta un numero di alternative pari a 10¹²⁰, un ordine di grandezza che eccede le capacità dell'intelligenza umana. L'obiettivo fu quindi implementare strategie che imitassero il processo decisionale degli esperti umani.  
+Con l'avanzare dei progressi nel campo della cibernetica, le ricerche sull'intelligenza artificiale si concentrarono nello sviluppo di programmi per giochi e, successivamente, nella creazione di procedure euristiche capaci di evitare l'analisi di tutte le opzioni possibili. Ciò si rende necessario per contrastare la cosiddetta "esplosione combinatoria", che negli scacchi comporta un numero di alternative pari a 10¹²⁰, un ordine di grandezza che eccede le capacità dell'intelligenza umana. L'obiettivo fu quindi implementare strategie che imitassero il processo decisionale degli esperti umani.  
 
-La distinzione e la separazione tra le ricerche sulle reti neurali e quelle sull'intelligenza artificiale emerse gradualmente, basandosi sul livello di confronto tra la macchina “intelligente” e la mente umana. In ambito cibernetico, tale confronto era condotto a livello fisico, partendo dal principio che le operazioni logiche derivano dalla struttura fisica del cervello; al contrario, nel caso dell'intelligenza artificiale, l'attenzione si concentrava invece su simulazioni funzionali dei processi mentali, senza necessariamente replicare nell'elaboratore elettronico la struttura fisica del cervello.  
+La distinzione e la separazione tra le ricerche sulle reti neurali e quelle sull'intelligenza artificiale emerse gradualmente, basandosi sul livello di confronto tra la macchina "intelligente" e la mente umana. In ambito cibernetico, tale confronto era condotto a livello fisico, partendo dal principio che le operazioni logiche derivano dalla struttura fisica del cervello; al contrario, nel caso dell'intelligenza artificiale, l'attenzione si concentrava invece su simulazioni funzionali dei processi mentali, senza necessariamente replicare nell'elaboratore elettronico la struttura fisica del cervello.  
 
 == La macchina e il test di Turing
 
-Il matematico e logico inglese Alan Mathison Turing (1912-1954), una figura chiave nello studio delle macchine calcolatrici, è celebre per aver ideato negli anni Trenta un computer teorico noto come “macchina di Turing”. Questa macchina era concepita per simulare il processo di calcolo umano mediante l'utilizzo di capacità che le permettessero di leggere simboli da un alfabeto finito e di operare su questi simboli (cancellazione, stampa).  
+Il matematico e logico inglese Alan Mathison Turing (1912-1954), una figura chiave nello studio delle macchine calcolatrici, è celebre per aver ideato negli anni Trenta un computer teorico noto come "macchina di Turing". Questa macchina era concepita per simulare il processo di calcolo umano mediante l'utilizzo di capacità che le permettessero di leggere simboli da un alfabeto finito e di operare su questi simboli (cancellazione, stampa).  
 
 La macchina di Turing non è altro che un sistema composto da un insieme di istruzioni mirate a trasformare i dati in ingresso per giungere al risultato finale. Essa è in grado di calcolare funzioni ricorsive, il che implica che dimostrare la risolvibilità di un problema attraverso questa macchina equivale a confermare la possibilità di affrontarlo mediante metodi computazionali generali.   
 
-Con la sua macchina, dalle caratteristiche simili a quelle di un moderno computer digitale, Turing partecipò al dibattito sull'intelligenza artificiale, volto a determinare se il comportamento umano possa essere spiegato in termini computazionali e se ad un elaboratore possa essere attribuita la capacità di "pensare". Nel celebre articolo "Calcolatori e intelligenza" del 1950, pubblicato sulla rivista "Mind", Turing propose un criterio di verifica basato su una prova successivamente nota come il "test di Turing".
+Con la sua macchina, dalle caratteristiche simili a quelle di un moderno computer digitale, Turing partecipò al dibattito sull'intelligenza artificiale, volto a determinare se il comportamento umano possa essere spiegato in termini computazionali e se ad un elaboratore possa essere attribuita la capacità di "pensare". Nel celebre articolo _Calcolatori e intelligenza_ del 1950, pubblicato sulla rivista _Mind_, Turing propose un criterio di verifica basato su una prova successivamente nota come il test di Turing.
 
 Nel contesto del test, un individuo si trova di fronte a due terminali: uno collegato a un computer e l'altro a un interlocutore umano. Se l'interrogatore non è in grado di distinguere le risposte della macchina da quelle dell'uomo, allora il computer può essere considerato capace di comportamento intelligente, ovvero "pensante".
 
@@ -61,11 +61,12 @@ Tra i principali studiosi dell'intelligenza artificiale, un posto di rilievo è 
 
 Accanto a Minsky, si distingue anche il contributo del filosofo statunitense Hilary Putnam (Chicago, 1926). Nella sua importante riflessione iniziale espressa in "Menti e macchine" (1960), Putnam ha sostenuto che gli stati mentali, analoghi agli stati di una macchina di Turing, possono essere realizzati su diversi substrati fisici, sia organici che inorganici. Questo implica che hardware differenti siano comunque in grado di supportare lo stesso software.
 
-Tuttavia, una prospettiva critica è stata offerta dal filosofo del linguaggio John R. Searle (Denver, 1932), che ha contestato l'assimilazione tra intelligenza artificiale e intelligenza umana basandosi sulle profonde differenze tra i loro principi operativi. In "Menti, cervelli e programmi" (1980), Searle ha sostenuto che, sebbene le macchine siano capaci di elaborare, calcolare e organizzare simboli per formalizzare il linguaggio naturale, ciò non implica una reale comprensione del loro significato. La capacità di interpretare linguaggi richiede infatti, oltre alla correttezza formale e grammaticale, un riferimento preciso e semantico agli oggetti o concetti di cui si tratta.
+Tuttavia, una prospettiva critica è stata offerta dal filosofo del linguaggio John R. Searle (Denver, 1932), che ha contestato l'assimilazione tra intelligenza artificiale e intelligenza umana basandosi sulle profonde differenze tra i loro principi operativi. In _Menti, cervelli e programmi_ (1980), Searle ha sostenuto che, sebbene le macchine siano capaci di elaborare, calcolare e organizzare simboli per formalizzare il linguaggio naturale, ciò non implica una reale comprensione del loro significato. La capacità di interpretare linguaggi richiede infatti, oltre alla correttezza formale e grammaticale, un riferimento preciso e semantico agli oggetti o concetti di cui si tratta.
 
 Pertanto, secondo Searle, anche nel caso in cui una macchina manifestasse abilità sofisticate e prestazioni apparentemente intelligenti, non sarebbe legittimo definirla realmente intelligente.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Origini dell'IA: L'intelligenza artificiale (IA) rappresenta l'insieme di studi e tecniche, principalmente legati all'informatica, finalizzati alla creazione di sistemi capaci di elaborare informazioni e risolvere problemi che tradizionalmente appartengono al dominio dell'intelligenza umana. Le prime tracce dell'IA risalgono all'epoca della cibernetica, nella metà del XX secolo, con studi matematici dedicati alle somiglianze tra macchine e organismi viventi.
 

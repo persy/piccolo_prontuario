@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La dimensione politica dell'essere umano, considerata da alcuni filosofi come un elemento naturale e da altri come una costruzione artificiale, si articola nello spazio degli affari pubblici e nella gestione del governo di questi ultimi. 
 
@@ -22,7 +22,7 @@ La filosofia politica rappresenta una specifica branca della riflessione filosof
 Nella contemporaneità, pur senza rinunciare al rigore razionale che contraddistingue il pensiero filosofico, si è messo in evidenza come il fenomeno politico presenti una natura intrinsecamente complessa. Esso coinvolge non soltanto la componente razionale dell'individuo, ma anche gli interessi materiali, le pulsioni istintive, le passioni emotive e le convinzioni morali e religiose. Questi elementi si manifestano attraverso idee, rituali simbolici, metafore, miti e narrazioni condivise. 
 
 Pertanto, una comprensione critica del fenomeno politico richiede inevitabilmente di considerarlo in relazione agli altri ambiti dell'esperienza umana.
----
+
 == Gli indirizzi della filosofia politica
 
 Dall'antica Grecia fino ai giorni nostri, la riflessione sulla politica ha segnato, come elemento centrale, l'intero sviluppo storico della filosofia. È possibile individuare quattro approcci fondamentali in questa tradizione.
@@ -42,7 +42,7 @@ Questo indirizzo si concentra sull'individuazione degli elementi specifici che d
 === La filosofia politica quale metodologia delle scienze politiche e come analisi del linguaggio politico
 
 Sorta nel Novecento sotto l'influenza del neopositivismo, della filosofia analitica e dello sviluppo di una scienza politica indipendente dall'economia e dalla morale, questo approccio privilegia metodologie empiriche. La filosofia politica viene intesa come disciplina descrittiva e priva di valutazioni normative, dedicata a chiarire concetti, tipi di discorso e procedure che caratterizzano il linguaggio politico. Inoltre, fornisce strumenti rigorosi per condurre ricerche empiriche nel campo delle scienze politiche.
----
+
 == La filosofia del diritto
 
 L'ambito della convivenza sociale e politica è segnato da un fenomeno fondamentale: l'esistenza del diritto, quell'insieme di norme che regolano i comportamenti intersoggettivi al fine di consentire la coesistenza tra gli individui.
@@ -64,36 +64,29 @@ Un'altra posizione critica nei confronti del giusnaturalismo è il positivismo g
 === L'analisi della metodologia giuridica o "del linguaggio giuridico"
 
 Originata nel contesto anglosassone (con autori quali Austin, Ross, Hart), questa forma di indagine si è sviluppata anche in Italia grazie ad alcune correnti di neopositivismo giuridico (Bobbio, Scarpelli). Il suo obiettivo principale è chiarire il linguaggio e i metodi propri della scienza giuridica, migliorando la precisione linguistica del legislatore e organizzando le norme in un sistema coerente e rigoroso.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ La politica: Il termine "politica" ha tradizionalmente designato quel particolare tipo di potere esercitato su individui liberi e pari, fondato sul loro consenso e finalizzato al perseguimento del bene sia per i governanti sia per i governati.
 
-La politica  
-Il termine "politica" ha tradizionalmente designato quel particolare tipo di potere esercitato su individui liberi e pari, fondato sul loro consenso e finalizzato al perseguimento del bene sia per i governanti sia per i governati.
+/ La dimensione naturale o artificiale dell'uomo: La questione della politica è stata interpretata in modo diverso da varie prospettive filosofiche. Per pensatori come Aristotele e Tommaso d'Aquino, costituisce una dimensione intrinsecamente naturale dell'essere umano; al contrario, studiosi come Thomas Hobbes la considerano una costruzione artificiale creata dall'uomo.
 
-La dimensione naturale o artificiale dell'uomo  
-La questione della politica è stata interpretata in modo diverso da varie prospettive filosofiche. Per pensatori come Aristotele e Tommaso d'Aquino, costituisce una dimensione intrinsecamente naturale dell'essere umano; al contrario, studiosi come Thomas Hobbes la considerano una costruzione artificiale creata dall'uomo.
+/ Aspetti teorici e pratici della politica: La politica si articola in due dimensioni strettamente interconnesse: una teorica e una pratica. L'aspetto teorico analizza in maniera critica le forme di governo e le regole che regolano l'esercizio del potere. L'aspetto pratico, basandosi sull'analisi teorica, mira invece al raggiungimento e alla riforma delle strutture di potere politico.
 
-Aspetti teorici e pratici della politica  
-La politica si articola in due dimensioni strettamente interconnesse: una teorica e una pratica. L'aspetto teorico analizza in maniera critica le forme di governo e le regole che regolano l'esercizio del potere. L'aspetto pratico, basandosi sull'analisi teorica, mira invece al raggiungimento e alla riforma delle strutture di potere politico.
+/ La filosofia politica: La filosofia politica si occupa della riflessione critica sulla convivenza sociale e sull'arte di governare tale convivenza, sottoponendo a un'analisi razionale le istituzioni e le pratiche sociali esistenti.
 
-La filosofia politica  
-La filosofia politica si occupa della riflessione critica sulla convivenza sociale e sull'arte di governare tale convivenza, sottoponendo a un'analisi razionale le istituzioni e le pratiche sociali esistenti.
+/ La complessità del fenomeno politico: La filosofia politica contemporanea ha evidenziato la complessità del fenomeno politico, rilevando come la sua piena comprensione richieda un dialogo multidisciplinare con altri ambiti dell'esperienza umana.
 
-La complessità del fenomeno politico  
-La filosofia politica contemporanea ha evidenziato la complessità del fenomeno politico, rilevando come la sua piena comprensione richieda un dialogo multidisciplinare con altri ambiti dell'esperienza umana.
+/ I quattro orientamenti della filosofia politica: Nella storia della filosofia si possono individuare quattro principali orientamenti in relazione alla riflessione politica:
+  + La teoria dello Stato ideale o della figura ideale del politico;
+  + La ricerca dei criteri che legittimano l'esercizio del potere;
+  + Lo studio dell'essenza della politica o della "categoria del politico";
+  + L'elaborazione di una metodologia delle scienze politiche e l'analisi del linguaggio politico.
 
-I quattro orientamenti della filosofia politica  
-Nella storia della filosofia si possono individuare quattro principali orientamenti in relazione alla riflessione politica:  
-+ La teoria dello Stato ideale o della figura ideale del politico;  
-+ La ricerca dei criteri che legittimano l'esercizio del potere;  
-+ Lo studio dell'essenza della politica o della "categoria del politico";  
-+ L'elaborazione di una metodologia delle scienze politiche e l'analisi del linguaggio politico.
+/ Il diritto: La coesistenza sociale e politica umana è strettamente correlata a un altro fenomeno centrale: il diritto, inteso come l'insieme delle norme che regolano i comportamenti intersoggettivi al fine di rendere possibile la convivenza tra gli individui.
 
-Il diritto  
-La coesistenza sociale e politica umana è strettamente correlata a un altro fenomeno centrale: il diritto, inteso come l'insieme delle norme che regolano i comportamenti intersoggettivi al fine di rendere possibile la convivenza tra gli individui.
-
-La filosofia del diritto  
-L'indagine filosofica sul diritto si è sviluppata nella storia del pensiero occidentale seguendo tre traiettorie principali:  
-+ La ricerca dei principi primi e degli obiettivi ultimi del diritto;  
-+ L'analisi delle forme concrete in cui il diritto si manifesta;  
-+ Lo studio della metodologia giuridica, con particolare attenzione al linguaggio giuridico.
+/ La filosofia del diritto: L'indagine filosofica sul diritto si è sviluppata nella storia del pensiero occidentale seguendo tre traiettorie principali:
+  + La ricerca dei principi primi e degli obiettivi ultimi del diritto; 
+  + L'analisi delle forme concrete in cui il diritto si manifesta; 
+  + Lo studio della metodologia giuridica, con particolare attenzione al linguaggio giuridico.

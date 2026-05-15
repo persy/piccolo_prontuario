@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il primo approccio allo studio della materia che ci circonda si basa sull'identificazione e la descrizione delle sue proprietà misurabili, chiamate grandezze, come massa, volume, densità, energia e temperatura. Questi concetti fondamentali rappresentano il punto di partenza per esplorare la struttura microscopica della materia, che si rivela essere discontinua poiché composta da minuscole particelle: gli atomi, protagonisti del secondo livello d'analisi, più approfondito.
 
@@ -16,6 +16,10 @@ La materia presenta anche altre proprietà rilevanti: densità (indicata dal rap
 Le proprietà estensive dipendono dall'estensione del campione di materia analizzato, per esempio volume, massa, peso ed energia. Al contrario, le proprietà intensive rimangono invariate indipendentemente dalle dimensioni del campione e comprendono densità, colore, temperatura e conducibilità elettrica. Le proprietà intensive sono particolarmente utili per identificare le diverse tipologie di materia e le sostanze di cui sono composti i corpi. Una sostanza è, infatti, un tipo specifico di materia caratterizzato da proprietà distintive che la rendono unica rispetto agli altri tipi.
 
 La varietà dei corpi materiali deriva dalla vasta gamma di combinazioni possibili tra le varie sostanze componenti. Ogni sostanza è formata da particelle discrete (gli atomi), che possono essere combinate in modi diversi per dar vita a una straordinaria diversità nel mondo fisico. Questo affascinante mosaico di varietà è ciò che dà forma al nostro universo materiale.
+
+#note(bottom)[== *🧩* Equivalenza massa-energia <senza_numero>
+
+La relazione tra massa ed energia è stata formulata dal fisico Albert Einstein nel 1905 e rappresentata dall'equazione E = m · c#super[2]. In questa formula, c è la velocità della luce (circa 3 · 10#super[8] m/s). Tale principio stabilisce che massa ed energia sono equivalenti e possono essere trasformate l'una nell'altra. Ne deriva il principio di conservazione della massa-energia: pur non mantenendo costante massa o energia separatamente, viene conservato il loro totale combinato. A causa dell'entità del fattore c#super[2], anche una piccola quantità di massa può generare un'enorme quantità di energia, fenomeno osservabile nelle reazioni di fissione e fusione nucleari.]
 
 == Grandezza e unità di misura
 
@@ -90,8 +94,7 @@ $ P_("sp") = P/V $
 
 La densità relativa di un corpo è definita come il rapporto tra la sua massa e la massa di un volume equivalente di acqua alla temperatura di 4 °C. Essendo un rapporto tra due grandezze espresse nella stessa unità di misura, la densità relativa è un numero puro, ovvero privo di dimensioni.
 
-#pagebreak()
-#wideblock[
+#set figure.caption(position: bottom)
 #grid(
   columns: 2,
   rows: 2,
@@ -124,7 +127,6 @@ del Sistema \ Internazionale (SI)],
   [temperatura], [kelvin], [K],
   [Quantità di \ sostanza], [mole], [mol],
   [Intesità \ luminosa], [candela], [cd],
-  [], [], [],
 )  
 )
 ),
@@ -192,7 +194,7 @@ figure(
 )
 )
 )
-]
+
 == L'energia
 
 L'energia è una proprietà intrinseca della materia, onnipresente e sempre coinvolta nei cambiamenti e nelle trasformazioni che osserviamo in natura. Il suo significato è intimamente connesso al concetto di lavoro: una forza compie lavoro quando provoca lo spostamento di un corpo su cui agisce.
@@ -229,6 +231,10 @@ Altre forme di energia sono:
 
 Tutte queste forme di energia possono essere convertite le une nelle altre e trasferite tra corpi diversi. Tuttavia, vale la regola inderogabile della conservazione dell'energia: la somma totale dell'energia prima e dopo ogni trasformazione rimane invariata. In sintesi, l'energia non viene né creata né distrutta.
 
+#note(top)[== *🧩* La trasformazione di energia potenziale in energia cinetica <senza_numero>
+
+Consideriamo un corpo fermo a una certa altezza dal suolo: inizialmente esso possiede energia potenziale massima e energia cinetica nulla. Nel momento in cui viene lasciato cadere, l'energia potenziale si trasforma gradualmente in energia cinetica man mano che il corpo accelera verso il suolo. Quando il corpo arriva a terra, la sua energia cinetica raggiunge il valore massimo, mentre l'energia potenziale diventa nulla. Questo fenomeno rappresenta una trasformazione dell'energia potenziale in energia cinetica, mantenendo costante l'energia meccanica totale.]
+
 == Calore e temperatura
 
 Il calore è una forma di energia direttamente collegata all'energia termica e si trasferisce tra corpi che si trovano a temperature differenti. È, quindi, un'energia "in movimento". Nel sistema di misura internazionale (SI), l'unità del calore è il joule (J), sebbene in ambito chimico sia più comune utilizzare la caloria (cal), definita come la quantità di calore necessaria per aumentare la temperatura di 1 grammo di acqua distillata da 14,5 °C a 15,5 °C alla pressione di 1 atmosfera.
@@ -263,7 +269,7 @@ I materiali allo stato plasmatico (plasma) sono essenzialmente dei gas ionizzati
 
 Un singolo materiale può esistere in ciascuno dei quattro diversi stati fisici, a seconda della sua natura chimica e delle condizioni esterne di temperatura e pressione. La natura chimica influisce sulle forze di coesione che mantengono unite le particelle costituenti, mentre temperatura e pressione determinano l'energia delle particelle e modificano tali forze.
 
-#wideblock[
+#set figure.caption(position: bottom)
 #figure(
   caption: [Stati di aggregazione],
   table(
@@ -288,7 +294,10 @@ Un singolo materiale può esistere in ciascuno dei quattro diversi stati fisici,
   [/* Immagine */], [I plasmi sono un gas ionizzati e come tali si caratterizzano per la mancanza di forma, di volume propri, la facilità con cui possono essere compressi e la tendenza a espandersi per occupare il volume del recipiente che li contiene. Sono molto reattivi ai campi magnetici], [Nel plasma sono presenti elettroni liberi (carica negativa) e ioni positivi (atomi privati di elettroni). Le particelle manifestano un comportamento collettivo, poiché il movimento di una singola particella è influenzato dalla dinamica di molte altre, anche distanti.]
 )  
 )
-]
+
+#note(bottom)[== *🧩* La distinzione tra gas e vapore <senza_numero>
+
+La distinzione tra gas e vapore risiede principalmente nel comportamento durante la compressione. Un vapore (come il vapore d'acqua o l'alcol etilico) può essere liquefatto semplicemente aumentando la pressione, senza modificare la temperatura. Un gas invece (ad esempio ossigeno o anidride carbonica) può essere liquefatto solo se la temperatura viene ridotta al di sotto di un valore definito come temperatura critica. Per alcune sostanze, questa temperatura è estremamente bassa; nel caso dell'idrogeno, ad esempio, è pari a -240 °C.]
 
 I passaggi da uno stato fisico all'altro sono chiamati cambiamenti di stato o transizioni di fase. 
 
@@ -341,21 +350,9 @@ Quando si tratta di miscugli eterogenei composti da una fase solida e una liquid
 Per i miscugli omogenei in fase liquida, come le soluzioni, si ricorre spesso alla distillazione. Questo metodo si basa sulla differenza delle temperature di ebollizione dei vari componenti. La distillazione viene effettuata in un distillatore, in cui i vapori liberati dal componente con temperatura di ebollizione più bassa vengono condensati e raccolti come distillato.
 
 Un'altra tecnica impiegata per miscugli liquidi è la cromatografia. Essa si basa sulla diversa capacità dei componenti del miscuglio di distribuirsi tra due fasi: una mobile (o eluente) e una stazionaria (ad esempio un solido adsorbente).
+
 #pagebreak()
-== Approfondimenti <senza_numero>
-
-=== La trasformazione di energia potenziale in energia cinetica <senza_numero>
-
-Consideriamo un corpo fermo a una certa altezza dal suolo: inizialmente esso possiede energia potenziale massima e energia cinetica nulla. Nel momento in cui viene lasciato cadere, l'energia potenziale si trasforma gradualmente in energia cinetica man mano che il corpo accelera verso il suolo. Quando il corpo arriva a terra, la sua energia cinetica raggiunge il valore massimo, mentre l'energia potenziale diventa nulla. Questo fenomeno rappresenta una trasformazione dell'energia potenziale in energia cinetica, mantenendo costante l'energia meccanica totale.
-
-=== Equivalenza massa-energia <senza_numero>
-
-La relazione tra massa ed energia è stata formulata dal fisico Albert Einstein nel 1905 e rappresentata dall'equazione E = m · c^2. In questa formula, c è la velocità della luce (circa 3 · 10^8 m/s). Tale principio stabilisce che massa ed energia sono equivalenti e possono essere trasformate l'una nell'altra. Ne deriva il principio di conservazione della massa-energia: pur non mantenendo costante massa o energia separatamente, viene conservato il loro totale combinato. A causa dell'entità del fattore c^2, anche una piccola quantità di massa può generare un'enorme quantità di energia, fenomeno osservabile nelle reazioni di fissione e fusione nucleari.
-
-=== La distinzione tra gas e vapore <senza_numero>
-
-La distinzione tra gas e vapore risiede principalmente nel comportamento durante la compressione. Un vapore (come il vapore d'acqua o l'alcol etilico) può essere liquefatto semplicemente aumentando la pressione, senza modificare la temperatura. Un gas invece (ad esempio ossigeno o anidride carbonica) può essere liquefatto solo se la temperatura viene ridotta al di sotto di un valore definito come temperatura critica. Per alcune sostanze, questa temperatura è estremamente bassa; nel caso dell'idrogeno, ad esempio, è pari a −240 °C.
-#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
 == Glossario <senza_numero>
 
 / Materia: Qualsiasi cosa che occupa uno spazio.  

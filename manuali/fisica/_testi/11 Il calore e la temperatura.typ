@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La termologia è il ramo della fisica che si occupa di analizzare i fenomeni legati al calore e al suo trasferimento tra diversi corpi. Sebbene nel linguaggio comune i concetti di calore e temperatura siano talvolta confusi, in realtà rappresentano due grandezze fisiche ben distinte.
 
@@ -39,9 +39,19 @@ La scala termometrica più comune è la scala centigrada Celsius, ideata nel 174
 
 Il punto di ebollizione dell'acqua è pari a 100 °C, mentre il punto di congelamento corrisponde a 0 °C. Le temperature inferiori al punto di congelamento dell'acqua sono indicate con valori negativi. Nel Sistema Internazionale, l'unità di misura della temperatura è il kelvin (simbolo K), basato su una scala ideata nel 1848 da Lord W.T. Kelvin (1824-1907), un fisico inglese autore di rilevanti scoperte nel campo della calorimetria.
 
-La scala kelvin prende origine dallo zero assoluto, cioè dal valore K = -273,15 °C, considerato la temperatura più bassa teoricamente possibile secondo le leggi dei gas. I gradi kelvin sono equivalenti ai gradi Celsius in termini di ampiezza (1 K = 1 °C). Pertanto, per convertire una temperatura da una scala all'altra, usando t per indicare la temperatura in gradi centigradi e T per quella in kelvin, la formula di conversione risulta diretta: ad esempio, 0 °C corrisponde a 273 K, e 20 °C corrisponde a 293 K.
+La scala kelvin prende origine dallo zero assoluto, cioè dal valore #text(hyphenate: false)[K = -273,15 °C], considerato la temperatura più bassa teoricamente possibile secondo le leggi dei gas. I gradi kelvin sono equivalenti ai gradi Celsius in termini di ampiezza (1 K = 1 °C). Pertanto, per convertire una temperatura da una scala all'altra, usando _t_ per indicare la temperatura in gradi centigradi e _T_ per quella in kelvin, la formula di conversione risulta diretta: 
 
-In ambito scientifico, la temperatura è solitamente misurata in kelvin. Esistono vari tipi di termometri, ognuno basato su proprietà e sostanze termometriche specifiche. Tra i più comuni ci sono i termometri a liquido, composti da un bulbo di vetro riempito con un liquido come mercurio, alcol o toluene. Questo bulbo è collegato a un capillare dotato di scala graduata, lungo il quale il liquido si espande o si contrae in base alla temperatura, permettendo così la misurazione visibile.
+$ 
+  T = t + 273
+$
+
+ad esempio, 0 °C corrisponde a 273 K, e 20 °C corrisponde a 293 K.
+
+In ambito scientifico, la temperatura è solitamente misurata in kelvin. 
+
+=== Tipi di termometro
+
+Esistono vari tipi di termometri, ognuno basato su proprietà e sostanze termometriche specifiche. Tra i più comuni ci sono i termometri a liquido, composti da un bulbo di vetro riempito con un liquido come mercurio, alcol o toluene. Questo bulbo è collegato a un capillare dotato di scala graduata, lungo il quale il liquido si espande o si contrae in base alla temperatura, permettendo così la misurazione visibile.
 
 I termometri a liquido possono rilevare temperature comprese tra -180 °C e 650 °C, con livelli di precisione che variano: dai millesimi di grado nei termometri da laboratorio ai mezzi gradi nei modelli industriali. Tra questi termometri spiccano i termometri a massima, progettati per registrare la temperatura più alta raggiunta da un corpo. Un esempio è rappresentato dai termometri a mercurio utilizzati per misurare la febbre, dove una strozzatura impedisce al mercurio di tornare indietro nella lettura.
 
@@ -59,21 +69,57 @@ La diversa dilatazione dei metalli, provocata dalle variazioni di temperatura, d
 
 Essendo una forma di energia, nel Sistema Internazionale il calore viene quantificato utilizzando l'unità chiamata joule (J). In passato, tuttavia, era diffusa l'unità di misura "caloria" (simbolo cal), definita come la quantità di calore necessaria per aumentare la temperatura di 1 grammo di acqua distillata da 14,5 °C a 15,5 °C, sotto pressione standard (1 atm o 101,325 Pa).  
 
-La relazione tra caloria e joule è ben consolidata: tuttavia, nell'ambito energetico degli alimenti si utilizza ancora un multiplo della caloria, la kilocaloria (1 kcal = 1000 cal).  
+La relazione tra caloria e joule è: 
+
+$ 
+  1 "cal" = 4.1855 space "J"
+$
+
+tuttavia, nell'ambito energetico degli alimenti si utilizza ancora un multiplo della caloria, la kilocaloria (1 kcal = 1000 cal).  
 
 === Il calore specifico
 
-Quando si fornisce calore a un corpo, l'aumento di temperatura risultante dipende dalla massa e dalla natura del corpo stesso, ossia dal materiale di cui è composto. Per descrivere questo fenomeno si introduce il concetto di calore specifico (indicato con "c"), definito come la quantità di calore necessaria per innalzare di 1 °C la temperatura dell'unità di massa di una determinata sostanza.  
+Quando si fornisce calore a un corpo, l'aumento di temperatura risultante dipende dalla massa e dalla natura del corpo stesso, ossia dal materiale di cui è composto. Per descrivere questo fenomeno si introduce il concetto di calore specifico (indicato con _c_), definito come la quantità di calore necessaria per innalzare di 1 °C la temperatura dell'unità di massa di una determinata sostanza.  
 
 Nel Sistema Internazionale il calore specifico è espresso in J/kg K; tuttavia, rimane in uso anche l'unità basata sulla caloria (cal/g °C). L'adozione iniziale della caloria come unità fu motivata dal voler definire il calore specifico dell'acqua pari a 1 cal/g °C.  
 
 Il calore specifico di una data sostanza varia lievemente con la temperatura ed è unico per ciascun materiale. Tra tutte le sostanze, l'acqua possiede il calore specifico più elevato: ciò significa che serve una quantità maggiore di calore per aumentare la temperatura di una massa d'acqua rispetto a quella di una massa uguale di altre sostanze.  
 
-Per quanto riguarda i gas, il calore specifico varia in funzione delle condizioni in cui viene misurato: volume costante o pressione costante. Il prodotto tra il calore specifico e la massa di un corpo è definito capacità termica e indicato solitamente con la lettera "C".  
+Per quanto riguarda i gas, il calore specifico varia in funzione delle condizioni in cui viene misurato: volume costante o pressione costante. Il prodotto tra il calore specifico e la massa di un corpo è definito capacità termica e indicato solitamente con la lettera _C_.  
 
-La quantità di calore "Q" necessaria per generare una variazione della temperatura (?T) in una certa massa "m" di una sostanza dipende dal suo calore specifico "c" e dalla sua massa, secondo la formula:
+La quantità di calore _Q_ necessaria per generare una variazione della temperatura (_ΔT_) in una certa massa _m_ di una sostanza dipende dal suo calore specifico _c_ e dalla sua massa, secondo la formula:
+
+$ 
+  Q = m c Delta T
+$
   
-La variazione della temperatura può essere espressa indifferentemente in gradi centigradi o kelvin, poiché i due sono equivalenti. Tuttavia, in fisica si preferisce utilizzare la notazione riferita ai kelvin (indicati con la lettera maiuscola "T").  
+La variazione della temperatura _Δt_ può essere espressa indifferentemente in gradi centigradi o kelvin, poiché i due sono equivalenti. Tuttavia, in fisica si preferisce utilizzare la notazione riferita ai kelvin (indicati con la lettera maiuscola _T_). 
+
+#figure(
+  caption: [Calori specifici di alcune sostanze.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (3),
+  table.header[Sostanza][ Calore specifico \ (cal/g °C)][Calore specifico \ (J/kg K)],
+  [acqua], [1,00], [4186],
+  [alluminio], [0,21], [880],
+  [vetro], [0,1-0,2], [800],
+  [ferro], [0,11], [460],
+  [rame], [0,09], [387],
+)  
+)
 
 === Il calorimetro
 
@@ -81,7 +127,7 @@ Lo strumento utilizzato per misurare le quantità di calore cedute o assorbite d
 
 Il calorimetro è formato da un recipiente termicamente isolato che contiene una massa nota di acqua, la cui temperatura è conosciuta. Il funzionamento si basa sul principio della conservazione dell'energia, secondo cui tutto il calore assorbito o ceduto dall'acqua presente nello strumento rimane confinato al suo interno, contribuendo esclusivamente all'innalzamento della temperatura dell'acqua. 
 
-Un termometro inserito nel calorimetro consente di misurare le variazioni di temperatura, che sono direttamente correlate al calore assorbito o ceduto, seguendo la relazione Q = mcT. 
+Un termometro inserito nel calorimetro consente di misurare le variazioni di temperatura, che sono direttamente correlate al calore assorbito o ceduto, seguendo la relazione _Q = mcΔT_. 
 
 Questo strumento trova particolare utilizzo nella misurazione del calore prodotto durante una combustione, ossia una reazione chimica di ossidazione tra un combustibile e un comburente, che rilascia grandi quantità di energia sotto forma di calore. In questi casi, la reazione viene avviata mediante una resistenza elettrica all'interno di una camera di reazione immersa in una massa nota d'acqua. 
 
@@ -90,6 +136,37 @@ Il calore generato dalla reazione viene trasferito all'acqua, provocandone un au
 == La propagazione del calore
 
 La trasmissione del calore tra due corpi avviene spontaneamente dal corpo con temperatura maggiore a quello con temperatura minore, fino a raggiungere uno stato chiamato equilibrio termico, in cui entrambi i corpi hanno la stessa temperatura. La propagazione del calore può seguire tre meccanismi: conduzione, convezione e irraggiamento.
+
+=== La conduzione
+
+#figure(
+  caption: [Coefficiente di conducibilità termica di alcune sostanze.],
+  table(
+  stroke: 0.5pt + main_scienze.lighten(90%),
+  fill: (x, y) => {
+  if y == 0 {
+  return main_scienze // Colore header
+  } else if calc.even(y) {
+  // Colore righe dispari
+  return main_scienze.lighten(90%)
+  } else {
+  // Colore righe pari
+  return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[Sostanza][Conducibilità \ termica \ (W/m °C)],
+[argento],	[460],
+[rame],	[380],
+[alluminio],	[200],
+[ferro],	[67],
+[legno],	[0,2],
+[vetro],	[0,6],
+[acqua],	[0,4],
+[aria secca], [0,025]
+)  
+)
 
 Il trasferimento di calore per conduzione avviene quando due corpi si trovano a contatto o tra diverse parti dello stesso corpo che presentano temperature differenti. In queste situazioni, nella zona di contatto, le particelle del corpo più caldo possiedono un'energia cinetica superiore e, attraverso urti con le particelle del corpo più freddo (caratterizzate da energia cinetica inferiore), trasferiscono loro parte della propria energia. Questo processo porta a un aumento della temperatura del corpo più freddo e a una diminuzione della temperatura del corpo più caldo.
 
@@ -126,8 +203,11 @@ L'irraggiamento rappresenta dunque un trasferimento energetico basato sull'assor
 Le superfici chiare tendono a riflettere la radiazione elettromagnetica anziché assorbirla, al contrario delle superfici scure che agiscono maggiormente da assorbenti rispetto a riflettenti. Ad esempio, una distesa di ghiaccio o neve ha un'elevata capacità di riflettere la radiazione solare rispetto a una distesa erbosa, la quale assorbe una quota maggiore della radiazione incidente.
 
 Il rapporto tra la radiazione riflessa e quella totale incidente sulla superficie di un pianeta è denominato albedo. L'albedo terrestre varia considerevolmente in funzione del tipo di superficie e della presenza di copertura nuvolosa, e ha un valore medio stimato intorno a 0,35.
+#pagebreak()
+#set page(fill: black.lighten(90%))
+== *🧩* Approfondimenti <senza_numero>
 
-== approf. L'interpretazione della natura del calore
+=== L'interpretazione della natura del calore <senza_numero>
 
 La natura del calore fu oggetto di intenso dibattito scientifico durante il Seicento e il Settecento. Per via dell'evidente ruolo del calore nelle reazioni chimiche, le indagini sui fenomeni termici erano prevalentemente condotte da chimici. In quel periodo storico, tuttavia, fisica e chimica non costituivano ancora discipline ben separate, come accade oggi.
 
@@ -137,27 +217,83 @@ La seconda teoria postulava invece che il calore fosse una sostanza materiale so
 
 Lo sviluppo della teoria microscopica sull'origine del calore, che lo collegava al moto di agitazione delle particelle, finì per confermare la validità della prima concezione. Questa spiegazione rappresenta oggi il fondamento della comprensione scientifica dei fenomeni termici.
 
-== approf. La dilatazione termica
+=== La dilatazione termica <senza_numero>
+
+#figure(
+  caption: [Esempi di coefficienti di dilatazione lineare.],
+  table(
+  stroke: 0.5pt + main_scienze.lighten(90%),
+  fill: (x, y) => {
+  if y == 0 {
+  return main_scienze // Colore header
+  } else if calc.even(y) {
+  // Colore righe dispari
+  return main_scienze.lighten(90%)
+  } else {
+  // Colore righe pari
+  return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[Sostanza][λ (K#super[-1])],
+  [alluminio], [23 · 10#super[–6]],
+  [ferro], [12 · 10#super[–6]],
+  [piombo], [29 · 10#super[–6]],
+  [vetro], [9 · 10#super[–6]]
+)  
+)
 
 Il fenomeno della dilatazione termica lineare, comune a tutti i corpi solidi, consiste nell'allungamento di una barra del materiale analizzato quando aumenta la temperatura.
 
-Per i solidi, la dilatazione termica è descritta da una legge che stabilisce che, se \( l_0 \) rappresenta la lunghezza della barra a una temperatura iniziale di 0 °C, la sua lunghezza \( l \) a una temperatura generica \( t \) sarà determinata dalla relazione: \( l = l_0 (1 + αt) \), dove \( α \) è il coefficiente di dilatazione lineare.
+Per i solidi, la dilatazione termica è descritta da una legge che stabilisce che, se _l_0_ rappresenta la lunghezza della barra a una temperatura iniziale di 0 °C, la sua lunghezza _l_ a una temperatura generica _ t _ sarà determinata dalla relazione: 
 
-Questa legge trova applicazione pratica nei termometri basati sulla dilatazione dei metalli.
+$ 
+  l = l_0 (1 + lambda t)
+$
+
+
+dove _λ_ è il coefficiente di dilatazione lineare. Questa legge trova applicazione pratica nei termometri basati sulla dilatazione dei metalli.
 
 Un esempio concreto del fenomeno: una barra lunga 1 metro si allunga di circa 1 millimetro quando la sua temperatura aumenta di 100 °C.
 
-Più in generale, un corpo solido o un fluido contenuto in un volume \( V \) si espande in tutte le direzioni secondo una legge analoga, detta legge della dilatazione volumica. Tale legge coinvolge l'intero volume del corpo:
+#figure(
+  caption: [Esempi di coefficienti di dilatazione cubica.],
+  table(
+  stroke: 0.5pt + main_scienze.lighten(90%),
+  fill: (x, y) => {
+  if y == 0 {
+  return main_scienze // Colore header
+  } else if calc.even(y) {
+  // Colore righe dispari
+  return main_scienze.lighten(90%)
+  } else {
+  // Colore righe pari
+  return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[Sostanza][α (K#super[-1])],
+[etanolo], [1,12 · 10#super[–3]],
+[mercurio], [0,18 · 10#super[–3]],
+[glicerina], [0,53 · 10#super[–3]]
+)  
+)
 
-\( V = V_0 (1 + βt) \), dove \( β \) rappresenta il coefficiente di dilatazione cubica.
+Più in generale, un corpo solido o un fluido contenuto in un volume _V_ si espande in tutte le direzioni secondo una legge analoga, detta legge della dilatazione volumica. Tale legge coinvolge l'intero volume del corpo:
 
-Per i solidi, il valore di \( β \) è pari a 3\( α \).
+$ 
+  V = V_0 (1 + alpha t)
+$
+
+dove _α_ rappresenta il coefficiente di dilatazione cubica. Per i solidi, il valore di _α = 3λ_.
 
 Nel caso di una barra come quella descritta precedentemente, la dilatazione volumica può essere considerata trascurabile rispetto a quella lineare, poiché lunghezza e larghezza risultano significativamente minori rispetto alla lunghezza.
 
 Nei liquidi, il coefficiente di dilatazione è sensibilmente maggiore rispetto a quello dei solidi. Per quanto riguarda i gas, essi seguono la stessa legge di dilatazione, ma a pressione costante (una precisazione necessaria, poiché il volume dei gas dipende anche dalla pressione esercitata).
 
-== Appr. Il Sole scalda la Terra
+=== Il Sole scalda la Terra <senza_numero>
 
 Il riscaldamento della Terra da parte del Sole si verifica attraverso una combinazione di tre processi di trasferimento del calore: irraggiamento, conduzione e convezione. Il Sole riscalda la superficie terrestre tramite irraggiamento; gli strati d'aria a contatto con la superficie si riscaldano per conduzione e trasmettono al loro interno il calore agli strati superiori per convezione, tramite correnti convettive.
 
@@ -165,6 +301,25 @@ Sulla Terra il calore si sposta anche orizzontalmente a causa delle differenze n
 
 La quantità di radiazione elettromagnetica proveniente dal Sole che raggiunge la superficie terrestre è maggiore alle basse latitudini (vicino all'equatore). Questo avviene perché i raggi solari attraversano una porzione più breve di atmosfera, giungendo quasi perpendicolarmente in qualsiasi stagione. Ciò riduce le probabilità che vengano assorbiti dalle particelle atmosferiche.
 
-Alle latitudini più elevate, dove i raggi solari arrivano obliquamente, il riscaldamento della superficie risulta inferiore.
+Alle latitudini più elevate, dove i raggi solari arrivano obliquamente, il riscaldamento della superficie risulta inferiore. La differenza di temperatura tra gli strati d'aria equatoriali e quelli polari genera correnti atmosferiche, che rappresentano il sistema di circolazione globale dell'aria. Attraverso tali correnti, l'aria viene trasportata per convezione con l'obiettivo di ristabilire un equilibrio termico tra le diverse zone del pianeta.  
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
-La differenza di temperatura tra gli strati d'aria equatoriali e quelli polari genera correnti atmosferiche, che rappresentano il sistema di circolazione globale dell'aria. Attraverso tali correnti, l'aria viene trasportata per convezione con l'obiettivo di ristabilire un equilibrio termico tra le diverse zone del pianeta.  
+/ Agitazione termica: Movimento caotico a cui sono sottoposte le particelle (atomi e molecole) che costituiscono una sostanza, sia essa solida, liquida o gassosa.  
+
+/ Calore: Forma specifica di energia caratterizzata dalla proprietà di trasferirsi da un corpo a un altro con temperatura diversa. Nel Sistema Internazionale, il calore si misura in joule (simbolo J), sebbene sia ancora impiegata anche la caloria come unità di misura. Una caloria corrisponde esattamente a 4,1855 J e rappresenta la quantità di energia necessaria per aumentare la temperatura di 1 grammo d’acqua da 14,5 °C a 15,5 °C.  
+
+/ Calore specifico: Quantità di calore necessaria per innalzare la temperatura di un’unità di massa di una sostanza di un’unità di temperatura.  
+
+/ Calorimetro: Dispositivo utilizzato per determinare la quantità di calore ceduta o assorbita da una sostanza durante un processo termico.  
+
+/ Conduzione: Trasferimento di calore, tipico dei solidi, che avviene tra due corpi in contatto oppure tra diverse parti di uno stesso corpo. Questo processo si basa sul passaggio di energia cinetica dalle particelle con temperatura più elevata a quelle con temperatura inferiore.  
+
+/ Convezione: Trasferimento di calore propria dei fluidi, che avviene tramite lo spostamento di materia all’interno del fluido stesso attraverso correnti convettive.  
+
+/ Irraggiamento: Trasferimento di energia sotto forma di calore che non necessita di un mezzo materiale per propagarsi, potendo avvenire anche nel vuoto. Si basa sull’assorbimento della radiazione elettromagnetica emessa da una sorgente.  
+
+/ Temperatura: Misura che descrive il livello di agitazione delle particelle di un corpo e ne determina la tendenza a cedere o ricevere calore. Nel Sistema Internazionale, la temperatura si esprime in kelvin (simbolo K). In passato, l’unità maggiormente utilizzata era il grado Celsius (simbolo ºC), basato su una scala centigradale in cui lo zero coincide con il punto di congelamento dell’acqua e il valore 100 con il suo punto di ebollizione a pressione standard.  
+
+/ Termometro: Strumento progettato per misurare la temperatura di un corpo o dell’ambiente circostante, sfruttando la variazione di determinate proprietà fisiche delle sostanze (come lunghezza o volume) al variare della temperatura stessa.  

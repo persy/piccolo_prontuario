@@ -1,9 +1,7 @@
-#import "../../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
-#evidenzia[A partire dalla formazione dell'Impero carolingio, al potere di re e imperatori venne attribuito un carattere sacro che li identificava come difensori della Chiesa. 
-
-Parallelamente, le istituzioni ecclesiastiche, in particolare diocesi e monasteri, si affermavano come potenti centri di potere politico, militare ed economico. Nel corso dell'XI secolo, i vescovi assunsero in molti casi ruoli di governance locale, noti come vescovi-conti, spesso per esplicita delega imperiale, una tradizione avviata dalla dinastia sassone in Germania. 
+#evidenzia[A partire dalla formazione dell'Impero carolingio, al potere di re e imperatori venne attribuito un carattere sacro che li identificava come difensori della Chiesa. Parallelamente, le istituzioni ecclesiastiche, in particolare diocesi e monasteri, si affermavano come potenti centri di potere politico, militare ed economico. Nel corso dell'XI secolo, i vescovi assunsero in molti casi ruoli di governance locale, noti come vescovi-conti, spesso per esplicita delega imperiale, una tradizione avviata dalla dinastia sassone in Germania. 
 
 Ciò rendeva del tutto naturale il coinvolgimento dell'imperatore nella nomina dei vescovi. La lotta per le investiture nacque proprio dal confronto tra il Papato e le autorità secolari su tale prerogativa. Nella metà dell'XI secolo, importanti riformatori religiosi portarono a un profondo mutamento della mentalità religiosa, influenzando anche l'organizzazione istituzionale della Chiesa. 
 
@@ -17,7 +15,7 @@ Durante il regno di Ottone, figlio di Enrico e eletto dai duchi tedeschi nel 936
 
 Nel 962, Ottone I si fece incoronare imperatore a Roma, dopo aver ottenuto la corona d'Italia e aver sposato la vedova del precedente re carolingio Lotario II. Con il Privilegium Othonis, stabilì che l'elezione papale dovesse svolgersi previo consenso imperiale e alla presenza di un suo rappresentante, sottraendo così il procedimento alle manipolazioni dell'aristocrazia romana.
 
-Unendo la corona di Germania a quella imperiale, Ottone aggiunse al titolo di Sacro Romano Impero l'appellativo “della nazione germanica”. Con lui e i suoi successori, la Chiesa divenne sempre più strumento del potere imperiale, perdendo gran parte del suo prestigio morale.
+Unendo la corona di Germania a quella imperiale, Ottone aggiunse al titolo di Sacro Romano Impero l'appellativo "della nazione germanica". Con lui e i suoi successori, la Chiesa divenne sempre più strumento del potere imperiale, perdendo gran parte del suo prestigio morale.
 
 Alla morte di Papa Giovanni XV, il giovane imperatore Ottone III, appena sedicenne, favorì l'elezione del cugino Brunone di Carinzia, che divenne il primo papa di origine tedesca con il nome di Gregorio V. Alla scomparsa di Gregorio V, Ottone promosse l'ascesa al soglio pontificio di Gerberto di Aurillac, arcivescovo di Reims, considerato una delle figure culturali più influenti della sua epoca, che prese il nome di Silvestro II.
 
@@ -33,7 +31,7 @@ La Regola benedettina venne reintrodotta nella sua pienezza: la preghiera divenn
 
 Nel 1045, le potenti famiglie aristocratiche romane erano riuscite ad eleggere ben tre papi contemporaneamente: Benedetto IX, Silvestro III e Gregorio VI. In risposta, l'imperatore Enrico III, della dinastia Franconia che era succeduta a quella sassone nel 1024 con Corrado II il Salico, convocò un Concilio a Pavia per affrontare la questione. In quel contesto condannò la simonia e depose tutti i papi rivali, imponendo l'elezione di Clemente II su suggerimento dell'abate di Cluny.
 
-Clemente II incoronò Enrico III come imperatore e gli conferì il titolo di "patrizio dei Romani", ristabilendo un diritto noto come *principatus in electione papae*, che garantiva all'imperatore la prerogativa di proporre per primo il candidato alla carica pontificia.
+Clemente II incoronò Enrico III come imperatore e gli conferì il titolo di "patrizio dei Romani", ristabilendo un diritto noto come _principatus in electione papae_, che garantiva all'imperatore la prerogativa di proporre per primo il candidato alla carica pontificia.
 
 Un importante impulso alla riforma ecclesiastica venne dato da Papa Leone IX, che operò in stretta collaborazione con Enrico III. Leone IX si impegnò a deporre i prelati indegni, condannare la simonia e il concubinato e riaffermare la supremazia della Chiesa romana. Per sostenere il movimento riformatore coinvolse figure rilevanti come Pier Damiani, Umberto di Moyenmoutier e Ildebrando di Soana, destinato a diventare Papa Gregorio VII.
 
@@ -45,7 +43,7 @@ La spinta alla riforma giunse anche da ambiti laici, tra cui il movimento della 
 
 Nel 1073, alla morte di Enrico IV, venne acclamato papa dal popolo e confermato dal collegio cardinalizio Ildebrando di Soana, che assunse il nome di Gregorio VII. Durante un Concilio tenutosi nel 1074, il nuovo pontefice condannò nuovamente la simonia e il concubinato, dichiarando inoltre il diritto dei legati papali di dirimere le controversie tra vescovi. Questa decisione fu mal accolta dal clero francese, tedesco e italiano, poiché interpretata come un crescente centralismo da parte della sede romana.
 
-Un Concilio significativo si tenne a Roma nel 1075. Gregorio VII, oltre a ribadire le condanne contro concubinato e simonia, vietò categoricamente le investiture laiche, minacciando di scomunica coloro che disattendessero tale disposizione. Furono inoltre destituiti alcuni vescovi italiani, e l'imperatore fu invitato a sottomettersi alla volontà papale, pena la sua deposizione. In questa occasione venne redatto un documento fondamentale, il ''Dictatus papae''.
+Un Concilio significativo si tenne a Roma nel 1075. Gregorio VII, oltre a ribadire le condanne contro concubinato e simonia, vietò categoricamente le investiture laiche, minacciando di scomunica coloro che disattendessero tale disposizione. Furono inoltre destituiti alcuni vescovi italiani, e l'imperatore fu invitato a sottomettersi alla volontà papale, pena la sua deposizione. In questa occasione venne redatto un documento fondamentale, il _Dictatus papae_.
 
 Questo testo, composto da 27 proposizioni, racchiudeva i principi fondamentali della concezione gregoriana: il pontefice romano era da considerarsi "universale", con il diritto esclusivo di nominare e revocare i vescovi; si affermava l'infallibilità della Chiesa romana e si dichiarava che chiunque fosse in disaccordo con essa non poteva ritenersi cattolico. Nel 1076 Enrico IV dovette affrontare una rivolta dei Sassoni e si rivolse al papa chiedendo la deposizione dei vescovi che avevano appoggiato la ribellione.
 
@@ -61,45 +59,33 @@ Gregorio VII, assediato in Castel Sant'Angelo, cercò aiuto presso i Normanni. T
 
 == Il Concordato di Worms
 
-Nel 1088 fu eletto papa Oddone di Cluny con il nome di Urbano II (1088-1099). Il nuovo pontefice adottò una strategia volta a isolare sia Enrico IV sia l'antipapa, promuovendo una politica di riconciliazione con gli ecclesiastici tedeschi e italiani. Nel 1095 Enrico IV intraprese una campagna contro Matilde di Canossa in Italia, ma venne fermato dal figlio Corrado, alleatosi con Matilde e le città lombarde di Piacenza, Lodi, Milano e Cremona. Tale coalizione costrinse l'imperatore al ritiro.
-
-La tensione tra Impero e Chiesa proseguì sotto il pontificato di Pasquale II (1099-1118) e l'imperatore Enrico V, successore e figlio di Enrico IV. Nel 1110 Enrico V scese nuovamente in Italia e arrestò Pasquale II, obbligandolo a conferirgli l'incoronazione imperiale e a riconoscere il diritto dell'Impero di nominare i vescovi. Una volta libero, il pontefice dichiarò invalide tutte le concessioni ottenute con la coercizione, riaccendendo il conflitto che porterà a una nuova invasione dell'Italia nel 1116.
-
-Nel frattempo, la morte di Matilde di Canossa nel 1115 aveva determinato ulteriori tensioni: prima della sua dipartita, Matilde aveva destinato tutti i suoi domini alla Chiesa. L'imperatore Enrico V invalidò il testamento e usurpò i territori.
-
-Una soluzione alla controversia delle investiture giunse durante il pontificato di Callisto II (1119-1124). Nel 1122, grazie al Concordato di Worms, papa e imperatore giunsero a un accordo. Enrico V rinunciò al diritto di conferire le investiture ecclesiastiche mentre Callisto II accettò che queste avvenissero in Germania alla presenza dell'imperatore, che avrebbe assegnato i benefici temporali prima della consacrazione religiosa. Questo accordo rappresentò un compromesso significativo per la definizione del rapporto tra Chiesa e Impero nella lotta per la supremazia.
-
-== Approfondimento: Il Concordato di Worms e lo spirito riformatore
+#note(bottom)[== *🧩* Il Concordato di Worms e lo spirito riformatore <senza_numero>
 
 A partire dal pontificato di Pasquale II, si consolidarono orientamenti dottrinali moderati in merito alla questione del conferimento delle investiture. Studiosi come Ivo di Chartres, Gregorio da Catino e Ugo di Fleury sostennero la necessità di un chiarimento sulla natura di tali investiture. Pur divergendo nelle loro posizioni, questi pensatori concordavano sull'idea che il sovrano conferisse esclusivamente il possesso di beni materiali e una giurisdizione civile, mentre il conferimento di un incarico religioso rimaneva al di fuori delle sue competenze.
 
 Il Concordato di Worms segnò il trionfo di tali posizioni moderate, sancendo la restituzione al pontefice del potere esclusivo di nomina dei vescovi. Questo rafforzò significativamente il legame tra la gerarchia ecclesiastica e la figura del papa. In modo analogo, molti monasteri furono posti sotto la diretta autorità della sede pontificia, consolidando così la centralità del papato. Sebbene la riforma gregoriana avesse liberato la Chiesa dall'influenza imperiale, essa non era riuscita a eliminare del tutto le tendenze secolari e mondane.
 
-Anche i monasteri cluniacensi, inizialmente promotori di un ritorno alla povertà evangelica, accumularono ingenti ricchezze durante il periodo delle lotte investiture e cominciarono a trascurare la rigida osservanza della regola benedettina. Fu in questo contesto che nacque un nuovo movimento riformatore presso il monastero di Citeaux, fondato a Digione nel 1098 da Roberto di Molesmes. I monaci cistercensi, con figure di spicco come Bernardo di Chiaravalle (1091-1153), si distinsero per la loro rinuncia a ogni forma di ricchezza e per il ripristino del lavoro manuale nei monasteri. Contro l'opulenza che caratterizzava Cluny, essi esaltarono il valore della spiritualità e della semplicità.
+Anche i monasteri cluniacensi, inizialmente promotori di un ritorno alla povertà evangelica, accumularono ingenti ricchezze durante il periodo delle lotte investiture e cominciarono a trascurare la rigida osservanza della regola benedettina. Fu in questo contesto che nacque un nuovo movimento riformatore presso il monastero di Citeaux, fondato a Digione nel 1098 da Roberto di Molesmes. I monaci cistercensi, con figure di spicco come Bernardo di Chiaravalle (1091-1153), si distinsero per la loro rinuncia a ogni forma di ricchezza e per il ripristino del lavoro manuale nei monasteri. Contro l'opulenza che caratterizzava Cluny, essi esaltarono il valore della spiritualità e della semplicità.]
 
+Nel 1088 fu eletto papa Oddone di Cluny con il nome di Urbano II (1088-1099). Il nuovo pontefice adottò una strategia volta a isolare sia Enrico IV sia l'antipapa, promuovendo una politica di riconciliazione con gli ecclesiastici tedeschi e italiani. Nel 1095 Enrico IV intraprese una campagna contro Matilde di Canossa in Italia, ma venne fermato dal figlio Corrado, alleatosi con Matilde e le città lombarde di Piacenza, Lodi, Milano e Cremona. Tale coalizione costrinse l'imperatore al ritiro.
 
-== In sintesi
+La tensione tra Impero e Chiesa proseguì sotto il pontificato di Pasquale II (1099-1118) e l'imperatore Enrico V, successore e figlio di Enrico IV. Nel 1110 Enrico V scese nuovamente in Italia e arrestò Pasquale II, obbligandolo a conferirgli l'incoronazione imperiale e a riconoscere il diritto dell'Impero di nominare i vescovi. Una volta libero, il pontefice dichiarò invalide tutte le concessioni ottenute con la coercizione, riaccendendo il conflitto che porterà a una nuova invasione dell'Italia nel 1116. Nel frattempo, la morte di Matilde di Canossa nel 1115 aveva determinato ulteriori tensioni: prima della sua dipartita, Matilde aveva destinato tutti i suoi domini alla Chiesa. L'imperatore Enrico V invalidò il testamento e usurpò i territori.
 
+Una soluzione alla controversia delle investiture giunse durante il pontificato di Callisto II (1119-1124). Nel 1122, grazie al Concordato di Worms, papa e imperatore giunsero a un accordo. Enrico V rinunciò al diritto di conferire le investiture ecclesiastiche mentre Callisto II accettò che queste avvenissero in Germania alla presenza dell'imperatore, che avrebbe assegnato i benefici temporali prima della consacrazione religiosa. Questo accordo rappresentò un compromesso significativo per la definizione del rapporto tra Chiesa e Impero nella lotta per la supremazia.
 
-GLI IMPERATORI SASSONI E I VESCOVI-CONTI
+#pagebreak()
+#set page(fill: main_storia.lighten(90%))
+== In sintesi <senza_numero>
 
-In Germania, a partire dal 919 con l'avvento della dinastia sassone, i sovrani iniziano a conferire feudi e poteri di giurisdizione agli ecclesiastici. Ottone I, incoronato imperatore a Roma nel 962, stabilisce con il *Privilegium Othonis* che l'elezione del pontefice debba avvenire con il consenso dell'imperatore. Successivamente, Ottone III interviene direttamente nelle nomine papali.
+/ Imperatori sassoni e i vescovi-conti: In Germania, a partire dal 919 con l'avvento della dinastia sassone, i sovrani iniziano a conferire feudi e poteri di giurisdizione agli ecclesiastici. Ottone I, incoronato imperatore a Roma nel 962, stabilisce con il _Privilegium Othonis_ che l'elezione del pontefice debba avvenire con il consenso dell'imperatore. Successivamente, Ottone III interviene direttamente nelle nomine papali.
 
-LA RIFORMA ECCLESIASTICA
+/ Riforma ecclesiastica: Il monastero di Cluny, fondato nel 910, si impegna nel riportare la Chiesa ai suoi ideali evangelici. Nel 1046 Enrico III, appartenente alla dinastia francone, depone tre papi eletti dalle potenti famiglie aristocratiche romane e favorisce l'elezione di Clemente II, che a sua volta lo incorona imperatore.
 
-Il monastero di Cluny, fondato nel 910, si impegna nel riportare la Chiesa ai suoi ideali evangelici. Nel 1046 Enrico III, appartenente alla dinastia francone, depone tre papi eletti dalle potenti famiglie aristocratiche romane e favorisce l'elezione di Clemente II, che a sua volta lo incorona imperatore.
+/ Leone IX: Papa Leone IX condanna la simonia e il concubinato, radunando attorno a sé un gran numero di riformatori. Il Concilio del 1059 stabilisce che l'elezione pontificia debba essere affidata a un collegio di cardinali.
 
-L'APPORTO DI LEONE IX
+/ Gregorio VII Ed Enrico IV: Nel 1073 Gregorio VII viene eletto papa. Durante un Concilio tenutosi nel 1075, vieta le investiture laiche e depone diversi vescovi considerati indegni. I principi della riforma gregoriana vengono raccolti nel _Dictatus Papae_. Nella Dieta imperiale di Worms del 1076, i vescovi tedeschi si oppongono al papa, il quale risponde scomunicando l'imperatore Enrico IV. Quest'ultimo cerca perdono e ottiene la revoca della scomunica nel 1077. Tuttavia, Enrico IV viene deposto da un'assemblea di principi che elegge Rodolfo di Svevia come suo successore. Nel 1080, dopo una nuova scomunica inflitta a Enrico IV, Rodolfo ottiene il riconoscimento papale. Enrico IV sconfigge le truppe pontificie e costringe Gregorio VII alla fuga a Salerno, dove il papa muore nel 1085.
 
-Papa Leone IX condanna la simonia e il concubinato, radunando attorno a sé un gran numero di riformatori. Il Concilio del 1059 stabilisce che l'elezione pontificia debba essere affidata a un collegio di cardinali.
-
-GREGORIO VII ED ENRICO IV
-
-Nel 1073 Gregorio VII viene eletto papa. Durante un Concilio tenutosi nel 1075, vieta le investiture laiche e depone diversi vescovi considerati indegni. I principi della riforma gregoriana vengono raccolti nel *Dictatus Papae*. Nella Dieta imperiale di Worms del 1076, i vescovi tedeschi si oppongono al papa, il quale risponde scomunicando l'imperatore Enrico IV. Quest'ultimo cerca perdono e ottiene la revoca della scomunica nel 1077. Tuttavia, Enrico IV viene deposto da un'assemblea di principi che elegge Rodolfo di Svevia come suo successore. Nel 1080, dopo una nuova scomunica inflitta a Enrico IV, Rodolfo ottiene il riconoscimento papale. Enrico IV sconfigge le truppe pontificie e costringe Gregorio VII alla fuga a Salerno, dove il papa muore nel 1085.
-
-IL CONCORDATO DI WORMS
-
-La lotta prosegue sotto il pontificato di Pasquale II e l'impero di Enrico V, che obbliga il papa a riconoscerlo imperatore e a concedergli il diritto delle investiture. Con il Concordato di Worms del 1122, stipulato tra Enrico V e Callisto II, si giunge alla fine del conflitto tra Impero e Chiesa. L'imperatore rinuncia alle investiture ecclesiastiche ma conserva il diritto di conferire i poteri civili prima della consacrazione, limitatamente al territorio tedesco.
+/ Il Concordato di Worms: La lotta prosegue sotto il pontificato di Pasquale II e l'impero di Enrico V, che obbliga il papa a riconoscerlo imperatore e a concedergli il diritto delle investiture. Con il Concordato di Worms del 1122, stipulato tra Enrico V e Callisto II, si giunge alla fine del conflitto tra Impero e Chiesa. L'imperatore rinuncia alle investiture ecclesiastiche ma conserva il diritto di conferire i poteri civili prima della consacrazione, limitatamente al territorio tedesco.
 
 
 

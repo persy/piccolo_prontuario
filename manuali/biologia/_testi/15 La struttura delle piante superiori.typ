@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Come gli animali, anche le piante nel corso dell'evoluzione hanno raggiunto due obiettivi fondamentali: la conquista dell'ambiente terrestre e l'incremento delle dimensioni. Per farlo, hanno dovuto sviluppare tessuti e organi specializzati non solo nella riproduzione e nella fotosintesi, ma anche per nuove funzioni, tra cui strutture di sostegno nell'ambiente aereo, sistemi di assorbimento dell'acqua e meccanismi per il trasporto delle soluzioni verso l'alto.]
 
@@ -55,7 +55,6 @@ I tessuti definitivi sono formati da cellule mature, altamente specializzate per
 
 Questi tessuti lavorano insieme per formare le diverse strutture, apparati e sistemi, che costituiscono l'unità funzionale delle piante. Le strutture principali includono radici, fusto e foglie, mentre i fiori costituiscono l'organo riproduttivo, derivante dalla trasformazione di specifiche foglie.
 
-#wideblock[
 #figure(
   caption: [I principali tessuti vegetali],
   table(
@@ -76,14 +75,23 @@ Questi tessuti lavorano insieme per formare le diverse strutture, apparati e sis
     table.header[Tessuti][Tipologia][Caratteristiche][Funzione][Localizzazione],
     table.cell(rowspan: 2)[Tegumentali], [Epidermide], [Cellule vive generalmente monostratificate, appiattite e strettamente vicine, ricoperte verso l'esterno da una sostanza cerosa (cutina)], [Protezione e riduzione delle perdite d'acqua], [Rivestimento esterno di fiori, frutti, semi, foglie, fusti e radici in struttura primaria],
     [Sughero], [Cellule morte, appiattite, strettamente vicine, con parete spessa impregnata di una sostanza impermeabile (suberina) ], [Impermeabilizzazione all'acqua e ai gas; protezione], [Rivestimento di fusti e radici in struttura secondaria],
-    table.cell(rowspan: 2)[Conduttori], [Legno o \ xilema], [Cellule morte, allungate, con parete lignificata, disposte a formare lunghi “tubi”; sono dette tracheidi se sottili, con pareti trasversali; elementi delle trachee se di diametro maggiore, prive di parete trasversale: formano i vasi o trachee], [Conduzione di acqua e sali minerali; sostegno], [Fasci conduttori di radici e fusto (legno)],
+    table.cell(rowspan: 2)[Conduttori], [Legno o \ xilema], [Cellule morte, allungate, con parete lignificata, disposte a formare lunghi "tubi"; sono dette tracheidi se sottili, con pareti trasversali; elementi delle trachee se di diametro maggiore, prive di parete trasversale: formano i vasi o trachee], [Conduzione di acqua e sali minerali; sostegno], [Fasci conduttori di radici e fusto (legno)],
     [Libro o \ floema], [Cellule vive, allungate, con parete ricca di pori, soprattutto sulle pareti trasversali (cellule cribrose); se una sull’altra formano i tubi cribrosi; sono in connessione con cellule compagne, vive, allungate, a parete sottile], [Conduzione di sostanze nutritive], [Fasci conduttori di radici e fusto (libro)],
     table.cell(rowspan: 2)[Meccanici], [Sclerenchima], [Cellule morte, con parete spessa e lignificata; sono dette fibre se allungate, sclereidi se tondeggianti], [Sostegno di organi adulti], [Fasci conduttori di fusto e radici; rivestimento dei semi; polpa di alcuni frutti],
     [Collenchima], [Cellule vive, allungate, con parete irregolarmente ispessita], [Sostegno di organi in accrescimento per distensione], [Cordoni o strati subepidermici di giovani fusti e piccioli],
     [Parenchimatici], [Parenchima], [Cellule vive, con parete sottile], [Rimarginazione di ferite; secrezione e immagazzinamento di acqua, aria o altre sostanze; trasporto di acqua e sostanze nutritive], [Corteccia dei fusti e delle radici; midollo e raggi midollari dei fusti; mesofillo delle foglie; polpa dei frutti],
 )  
 )
-]
+
+#note(bottom)[== *🧩* La dendrocronologia <senza_numero>
+
+La dendrocronologia offre un contributo significativo alla datazione assoluta mediante lo studio e la quantificazione degli anelli annuali di accrescimento degli alberi. Attraverso questa disciplina è possibile ricostruire le fluttuazioni climatiche del passato e stabilire cronologie precise.
+
+All'interno del tronco di una pianta, i vasi conduttori si modificano in risposta alle variazioni stagionali della disponibilità di acqua. Durante la primavera, ad esempio, quando le gemme si schiudono richiedendo un apporto idrico maggiore, i vasi formano pareti più sottili per favorire il passaggio dell'acqua. Tali modificazioni stagionali determinano anche un incremento nel diametro del fusto, accompagnato dalla formazione di nuovo tessuto legnoso. Una sezione trasversale del tronco rivela così anelli annuali distinti: una zona più chiara e ampia corrisponde al legno primaverile, mentre una zona più scura e compatta rappresenta il legno estivo.
+
+Oltre a fornire informazioni temporali sullo sviluppo dell'albero, le sezioni trasversali possono essere utilizzate per analisi ambientali. Ad esempio, esse possono evidenziare segnali di contaminazione da metalli pesanti o illustrare relazioni tra crescita vegetativa e inquinanti come la pioggia acida.
+
+Per stimare l'età di una pianta senza abbatterla, viene applicata una tecnica detta carotaggio. Questo metodo prevede la raccolta di un campione cilindrico di legno prelevato lungo il raggio del tronco. Gli anelli annuali del campione vengono quindi datati e confrontati con quelli provenienti da alberi vicini, presumibilmente più vecchi o già abbattuti in passato. Attraverso questa procedura è possibile estendere la cronologia arborea e risalire così a periodi storici sempre più remoti.]
 
 == Radice
 
@@ -162,17 +170,9 @@ Nel contesto della morfologia delle angiosperme, il fiore si sviluppa attorno a 
 - il gineceo costituisce l'apparato riproduttivo femminile ed è formato dal pistillo (o carpello). Il pistillo include un ovario che racchiude gli ovuli, uno stilo allungato e uno stimma spesso appiccicoso, predisposto a trattenere i granuli di polline.
 
 I fiori possono essere classificati in base alla loro composizione: si definiscono ermafroditi quando contengono sia stami sia pistilli nello stesso fiore, oppure unisessuali quando sono distinti tra maschili e femminili. Nelle specie dioiche, i fiori maschili e femminili crescono su piante diverse, mentre nelle specie monoiche essi sono presenti sulla medesima pianta. I fiori possono manifestarsi in forma isolata o aggregata in strutture chiamate infiorescenze.
+
 #pagebreak()
-== Approfondimento: la dendrocronologia <senza_numero>
-
-La dendrocronologia offre un contributo significativo alla datazione assoluta mediante lo studio e la quantificazione degli anelli annuali di accrescimento degli alberi. Attraverso questa disciplina è possibile ricostruire le fluttuazioni climatiche del passato e stabilire cronologie precise.
-
-All'interno del tronco di una pianta, i vasi conduttori si modificano in risposta alle variazioni stagionali della disponibilità di acqua. Durante la primavera, ad esempio, quando le gemme si schiudono richiedendo un apporto idrico maggiore, i vasi formano pareti più sottili per favorire il passaggio dell'acqua. Tali modificazioni stagionali determinano anche un incremento nel diametro del fusto, accompagnato dalla formazione di nuovo tessuto legnoso. Una sezione trasversale del tronco rivela così anelli annuali distinti: una zona più chiara e ampia corrisponde al legno primaverile, mentre una zona più scura e compatta rappresenta il legno estivo.
-
-Oltre a fornire informazioni temporali sullo sviluppo dell'albero, le sezioni trasversali possono essere utilizzate per analisi ambientali. Ad esempio, esse possono evidenziare segnali di contaminazione da metalli pesanti o illustrare relazioni tra crescita vegetativa e inquinanti come la pioggia acida.
-
-Per stimare l'età di una pianta senza abbatterla, viene applicata una tecnica detta carotaggio. Questo metodo prevede la raccolta di un campione cilindrico di legno prelevato lungo il raggio del tronco. Gli anelli annuali del campione vengono quindi datati e confrontati con quelli provenienti da alberi vicini, presumibilmente più vecchi o già abbattuti in passato. Attraverso questa procedura è possibile estendere la cronologia arborea e risalire così a periodi storici sempre più remoti.
-
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Accrescimento primario: Crescita in lunghezza del fusto e della radice dovuta alla divisione delle cellule del meristema apicale.  
@@ -195,7 +195,7 @@ Per stimare l'età di una pianta senza abbatterla, viene applicata una tecnica d
 
 / Periciclo: Strato più esterno del cilindro centrale della radice da cui originano le radici laterali.  
 
-/ Ritidoma o scorza: Strato più esterno del sughero, erroneamente chiamato “corteccia”, che tende a sfaldarsi e staccarsi con la crescita della pianta.  
+/ Ritidoma o scorza: Strato più esterno del sughero, erroneamente chiamato "corteccia", che tende a sfaldarsi e staccarsi con la crescita della pianta.  
 
 / Sughero: Tessuto tegumentale secondario originato dal fellogeno, presente nella corteccia del fusto e della radice.
 

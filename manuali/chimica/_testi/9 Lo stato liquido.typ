@@ -1,9 +1,7 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
-#evidenzia[I liquidi presentano proprietà che li collocano a metà strada tra quelle dei gas e quelle dei solidi.
-
-Similmente ai gas, non hanno una forma definita e le loro particelle si muovono in modo continuo e disordinato, sebbene possiedano un'energia cinetica inferiore rispetto a quella dei gas. Al pari dei solidi, i liquidi hanno un volume proprio e sono quasi del tutto incomprimibili.
+#evidenzia[I liquidi presentano proprietà che li collocano a metà strada tra quelle dei gas e quelle dei solidi. Similmente ai gas, non hanno una forma definita e le loro particelle si muovono in modo continuo e disordinato, sebbene possiedano un'energia cinetica inferiore rispetto a quella dei gas. Al pari dei solidi, i liquidi hanno un volume proprio e sono quasi del tutto incomprimibili.
 
 Tra le proprietà distintive dello stato liquido, spiccano la viscosità, la tensione superficiale e la tensione di vapore. Quest'ultima rappresenta la tendenza di un liquido a evaporare, ovvero a passare allo stato di vapore, all'interno di un sistema chiuso, dove si raggiunge un equilibrio di fase tra stato liquido e stato vapore.]
 
@@ -55,7 +53,36 @@ Poiché la pressione atmosferica si riduce con l'altitudine, in montagna i liqui
 
 Il calore latente di vaporizzazione è definito come l'energia necessaria per trasformare una massa unitaria di liquido in vapore. Questo valore corrisponde al calore latente di condensazione, ovvero l'energia rilasciata quando una massa unitaria di vapore ritorna allo stato liquido tramite condensazione.
 
-// Tabella ebolizione acqua pressione
+#figure(
+  caption: [Punto di ebollizione dell'acqua a varie pressioni],
+  table(
+        stroke: 0.5pt + main_tecnologia.lighten(90%),
+        fill: (x, y) => {
+    if y == 0 {
+      return main_tecnologia // Colore header
+    } else if calc.even(y) {
+      // Colore righe dispari
+      return main_tecnologia.lighten(90%)
+    } else {
+      // Colore righe pari
+      return white
+    }
+  },
+    align: left + horizon,
+    columns: (2),
+    table.header[Temperatura (°C)][Pressione (mmHg)],
+    [80], [355], 
+    [85], [434], 
+    [90], [526],
+    [95], [634], 
+    [98], [707], 
+    [100], [760], 
+    [102], [816],
+    [104], [875], 
+    [106], [938], 
+    [110], [1075], 
+)  
+)
 
 == I cristalli liquidi
 
@@ -77,15 +104,16 @@ Nei display a cristalli liquidi degli orologi digitali, uno strato sottile di cr
 
 I cristalli liquidi colesterici, così denominati perché derivati dal colesterolo, offrono un'altra proprietà unica: cambiano colore con il variare della temperatura. Per questa ragione, sono utilizzati nella creazione di termometri particolari, composti da pellicole che rilevano le zone più calde del corpo quando appoggiate su di esse, cambiando colore proprio in corrispondenza delle aree più calde.
 
-== La capillarità
+== Le proprietà dei liquidi
+=== La capillarità
 
-Il fenomeno della capillarità, strettamente legato alla tensione superficiale, si manifesta quando l'estremità di un capillare (un tubo di vetro dal diametro molto ridotto) viene immerso in un liquido. Il liquido tende a disporsi all'interno del capillare a un livello superiore (1) o inferiore (2) rispetto al livello del liquido esterno. Inoltre, la superficie libera del liquido nel capillare assume una forma curva chiamata "menisco", che risulta concava nel caso 1 e convessa nel caso 2.
+Il fenomeno della capillarità, strettamente legato alla tensione superficiale, si manifesta quando l'estremità di un capillare (un tubo di vetro dal diametro molto ridotto) viene immerso in un liquido. Il liquido tende a disporsi all'interno del capillare a un livello superiore o inferiore rispetto al livello del liquido esterno. Inoltre, la superficie libera del liquido nel capillare assume una forma curva chiamata "menisco", che risulta concava nel caso 1 e convessa nel caso 2.
 
 Nel primo caso, tipico dell'acqua, il liquido aderisce alla superficie del vetro grazie a forze di adesione tra liquido e vetro superiori alle forze di coesione interne al liquido. Nel secondo caso, caratteristico del mercurio, il liquido non aderisce al vetro perché le forze di coesione prevalgono su quelle di adesione.
 
 La capillarità assume grande importanza in natura. Gioca un ruolo fondamentale nel trasporto della linfa lungo i fusti delle piante e nella circolazione periferica del sangue negli esseri viventi.
 
-== Il principio dell'equilibrio mobile
+=== Il principio dell'equilibrio mobile
 
 Gli effetti derivanti dall'alterazione delle condizioni di equilibrio di un sistema sono spiegati dal principio dell'equilibrio mobile, noto anche come principio di Le Châtelier-Brown. Questo principio afferma che, quando uno dei fattori che regolano l'equilibrio viene modificato, il sistema risponde spostandosi in una direzione tale da controbilanciare la variazione e ripristinare l'equilibrio originario.
 
@@ -93,7 +121,7 @@ Questo concetto si applica in maniera generale a tutti gli equilibri, sia chimic
 
 Nel caso specifico di un equilibrio di fase liquido-vapore, il comportamento del sistema è il seguente: se la temperatura aumenta, una parte del liquido evapora, causando un incremento nella pressione del vapore. Tale pressione continua a crescere fino a raggiungere il nuovo valore di equilibrio corrispondente alla temperatura modificata.  
 
-== La tensione di vapore
+=== La tensione di vapore
 
 La tensione di vapore di un liquido dipende principalmente da due fattori: la massa molecolare del liquido e le forze intermolecolari che ne determinano la coesione interna.  
 
@@ -103,14 +131,48 @@ D'altra parte, i liquidi caratterizzati da forze intermolecolari molto intense r
 
 Un esempio emblematico è rappresentato dall'acqua: pur avendo una massa molecolare relativamente bassa, pari a 18 (molto inferiore rispetto al benzene, che ha una massa molecolare di 78), possiede una tensione di vapore decisamente più bassa. Questo fenomeno si spiega con la presenza di legami a idrogeno nell'acqua, che generano forze intermolecolari estremamente intense.  
 
-== Glossario
+#figure(
+  caption: [Esempi di tensione di vapore],
+  table(
+        stroke: 0.5pt + main_tecnologia.lighten(90%),
+        fill: (x, y) => {
+    if y == 0 {
+      return main_tecnologia // Colore header
+    } else if calc.even(y) {
+      // Colore righe dispari
+      return main_tecnologia.lighten(90%)
+    } else {
+      // Colore righe pari
+      return white
+    }
+  },
+    align: left + horizon,
+    columns: (4),
+    table.header[Temperatura (°C)][Acqua#footnote[L'unità di misura utilizzata è il mmHg.]][Etanolo][Benzene],
+    [0], [4,6], [12,2], [27,0],
+    [25], [23,8], [59,0], [94,0],
+    [50], [92,5], [222], [271,0],
+    [100], [760,0], [1693], [1360],
+)  
+)
+#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
+== Glossario <senza_numero>
 
-Proprietà generali dei liquidi: I liquidi possiedono un volume proprio e assumono la forma del recipiente che li contiene. Sono incomprimibili e la diffusione al loro interno avviene lentamente.  
-Viscosità: Indice dell'attrito interno di un liquido, che ne determina la resistenza al flusso.  
-Tensione superficiale: Fenomeno che riflette la tendenza dei liquidi a contrarre le loro superfici.  
-Evaporazione: Processo mediante il quale alcune molecole superficiali di un liquido passano allo stato di vapore a qualsiasi temperatura.  
-Tensione di vapore: Pressione generata dal vapore in equilibrio con il suo liquido a una certa temperatura.  
-Vapore saturo: Vapore che si trova in uno stato di equilibrio con il liquido da cui deriva.  
-Condensazione: Passaggio dallo stato di vapore allo stato liquido.  
-Equilibrio dinamico: Stato in cui la velocità di due trasformazioni opposte raggiunge un bilanciamento.  
-Ebollizione: Trasformazione dell'intera massa di un liquido in vapore, che avviene a una temperatura specifica per ogni sostanza e per ciascun valore della pressione.
+/ Proprietà generali dei liquidi: I liquidi possiedono un volume proprio e assumono la forma del recipiente che li contiene. Sono incomprimibili e la diffusione al loro interno avviene lentamente. 
+
+/ Viscosità: Indice dell'attrito interno di un liquido, che ne determina la resistenza al flusso. 
+
+/ Tensione superficiale: Fenomeno che riflette la tendenza dei liquidi a contrarre le loro superfici. 
+
+/ Evaporazione: Processo mediante il quale alcune molecole superficiali di un liquido passano allo stato di vapore a qualsiasi temperatura. 
+
+/ Tensione di vapore: Pressione generata dal vapore in equilibrio con il suo liquido a una certa temperatura.  
+
+/ Vapore saturo: Vapore che si trova in uno stato di equilibrio con il liquido da cui deriva.  
+
+/ Condensazione: Passaggio dallo stato di vapore allo stato liquido.  
+
+/ Equilibrio dinamico: Stato in cui la velocità di due trasformazioni opposte raggiunge un bilanciamento.  
+
+/ Ebollizione: Trasformazione dell'intera massa di un liquido in vapore, che avviene a una temperatura specifica per ogni sostanza e per ciascun valore della pressione.

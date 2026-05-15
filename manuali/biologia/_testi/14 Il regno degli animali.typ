@@ -1,21 +1,13 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il regno animale include organismi pluricellulari eterotrofi che si riproducono prevalentemente sessualmente e le cui cellule, a differenza di quelle vegetali, sono prive di parete cellulare. Si ritiene che gli animali abbiano avuto origine da protisti marini che formavano colonie, simili alle odierne spugne. Nel corso dell'evoluzione, hanno dato vita a una straordinaria varietà di forme caratterizzate da livelli di complessità sempre più elevati, legati a una progressiva organizzazione e specializzazione cellulare nei tessuti. La crescente complessità è evidente nei vari _phyla_ animali, che riflettono questa tendenza evolutiva.]
 
 == Tendenze evolutive degli animali
-
-Gli animali condividono, nonostante la loro grande diversità, alcune caratteristiche fondamentali: sono pluricellulari, eterotrofi, con cellule prive di parete cellulare; si riproducono sessualmente, anche se molte specie adottano forme di riproduzione agamica; sono mobili almeno in un periodo della loro vita e capaci di reagire agli stimoli esterni.
-
-Analogamente alle piante, gli animali hanno attraversato un processo evolutivo che ha portato a una maggiore complessità e organizzazione cellulare. Questo progresso è osservabile in diversi aspetti, tra cui: l'organizzazione cellulare, la disposizione simmetrica degli organi e la segmentazione, la cefalizzazione, lo sviluppo di una cavità interna, la formazione di strutture di sostegno e l'evoluzione del canale digerente.
-
-La crescente complessità delle strutture anatomiche e delle funzioni degli animali rappresenta un elemento centrale per la loro classificazione scientifica. Nei paragrafi successivi verranno approfondite le principali tendenze evolutive degli animali e fornita una descrizione dei principali _phyla_ in cui questi organismi sono suddivisi. 
-
-#wideblock[
 #figure(
   caption: [Schema di classificazione degli animali. Sono inclusi solo i _phylum_ più noti],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -42,7 +34,12 @@ La crescente complessità delle strutture anatomiche e delle funzioni degli anim
     [Cordati], [Cefalocordati, urocordati, vertebrati (ciclostomi, pesci, anfibi, rettili, uccelli, mammiferi)]
 )  
 )
-]
+
+Gli animali condividono, nonostante la loro grande diversità, alcune caratteristiche fondamentali: sono pluricellulari, eterotrofi, con cellule prive di parete cellulare; si riproducono sessualmente, anche se molte specie adottano forme di riproduzione agamica; sono mobili almeno in un periodo della loro vita e capaci di reagire agli stimoli esterni.
+
+Analogamente alle piante, gli animali hanno attraversato un processo evolutivo che ha portato a una maggiore complessità e organizzazione cellulare. Questo progresso è osservabile in diversi aspetti, tra cui: l'organizzazione cellulare, la disposizione simmetrica degli organi e la segmentazione, la cefalizzazione, lo sviluppo di una cavità interna, la formazione di strutture di sostegno e l'evoluzione del canale digerente.
+
+La crescente complessità delle strutture anatomiche e delle funzioni degli animali rappresenta un elemento centrale per la loro classificazione scientifica. Nei paragrafi successivi verranno approfondite le principali tendenze evolutive degli animali e fornita una descrizione dei principali _phyla_ in cui questi organismi sono suddivisi. 
 
 === Organizzazione cellulare
 
@@ -73,18 +70,10 @@ Nei primi stadi evolutivi, il canale alimentare degli animali era costituito da 
 Gli animali vengono distinti in due grandi gruppi: vertebrati e invertebrati. I vertebrati possiedono un endoscheletro, ovvero uno scheletro interno, comunemente associato alla colonna vertebrale. Gli invertebrati, pur non avendo una struttura scheletrica interna, si avvalgono di altre soluzioni per il sostegno, tra cui aghi di sostanze minerali, idroscheletri o esoscheletri di varia natura. È importante notare che i vertebrati rappresentano solo una parte del _phylum_ dei cordati, che include pesci, anfibi, rettili, uccelli e mammiferi.
 
 == Poriferi
-
-I poriferi, comunemente noti come spugne (_phylum_ Porifera), rappresentano gli animali più semplici nella scala evolutiva, caratterizzati dall'assenza di simmetria corporea e di veri tessuti organizzati. Essi possono essere descritti come aggregati multicellulari in cui ogni cellula mantiene una certa autonomia funzionale.
-
-Le spugne abitano ambienti acquatici e presentano un corpo strutturato a forma di sacco cavo, saldamente ancorato al substrato e perforato da numerosi pori. Attraverso questi pori, l'acqua trasporta particelle nutritive nella cavità interna, la quale è rivestita da cellule specializzate, i coanociti. Queste cellule sono dotate di flagelli, il cui movimento genera un flusso continuo di acqua all'interno dell'organismo. Una struttura simile a un collare circonda il flagello, agendo da filtro per trattenere i microrganismi introdotti dai pori. I residui metabolici vengono espulsi attraverso un'apertura maggiore, definita osculo. Interposta tra le cellule epiteliali esterne e i coanociti risiede la mesoglea, uno strato gelatinoso che ingloba cellule ameboidi capaci di secernere spicole di natura calcarea, silicea o cornea, fornendo sostegno strutturale alla spugna.
-
-La riproduzione dei poriferi avviene mediante gemmazione o per via sessuata. Nel primo caso, l'organismo genera una protuberanza denominata gemma che, a seconda dello sviluppo, può rimanere attaccata al corpo parentale o separarsi per formare un nuovo individuo. La riproduzione sessuata, invece, comporta la fecondazione della cellula uovo, da cui origina una larva ciliata e libera. La larva viene trasportata dalla corrente marina fino a stabilirsi sul substrato, dove si sviluppa in un nuovo organismo adulto.
-
-#wideblock[
 #figure(
   caption: [Classificazione dei poriferi],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -104,23 +93,20 @@ La riproduzione dei poriferi avviene mediante gemmazione o per via sessuata. Nel
     [Demosponge], [Spugne cornee; vivono anche in acque dolci, ma sono più diffuse nel mare. Il loro scheletro di spongina viene utilizzato come spugna da bagno]
 )  
 )
-]
+
+I poriferi, comunemente noti come spugne (_phylum_ Porifera), rappresentano gli animali più semplici nella scala evolutiva, caratterizzati dall'assenza di simmetria corporea e di veri tessuti organizzati. Essi possono essere descritti come aggregati multicellulari in cui ogni cellula mantiene una certa autonomia funzionale.
+
+Le spugne abitano ambienti acquatici e presentano un corpo strutturato a forma di sacco cavo, saldamente ancorato al substrato e perforato da numerosi pori. Attraverso questi pori, l'acqua trasporta particelle nutritive nella cavità interna, la quale è rivestita da cellule specializzate, i coanociti. Queste cellule sono dotate di flagelli, il cui movimento genera un flusso continuo di acqua all'interno dell'organismo. Una struttura simile a un collare circonda il flagello, agendo da filtro per trattenere i microrganismi introdotti dai pori. I residui metabolici vengono espulsi attraverso un'apertura maggiore, definita osculo. Interposta tra le cellule epiteliali esterne e i coanociti risiede la mesoglea, uno strato gelatinoso che ingloba cellule ameboidi capaci di secernere spicole di natura calcarea, silicea o cornea, fornendo sostegno strutturale alla spugna.
+
+La riproduzione dei poriferi avviene mediante gemmazione o per via sessuata. Nel primo caso, l'organismo genera una protuberanza denominata gemma che, a seconda dello sviluppo, può rimanere attaccata al corpo parentale o separarsi per formare un nuovo individuo. La riproduzione sessuata, invece, comporta la fecondazione della cellula uovo, da cui origina una larva ciliata e libera. La larva viene trasportata dalla corrente marina fino a stabilirsi sul substrato, dove si sviluppa in un nuovo organismo adulto.
+
 
 == Cnidari, o celenterati
 
-Gli cnidari, o celenterati (_phylum_ Cnidaria), sono invertebrati marini il cui corpo può assumere due principali configurazioni morfologiche: quella del polipo e quella della medusa. Il polipo è tipicamente sessile, ancorato al substrato, e può vivere isolato o organizzato in colonie; la medusa, al contrario, è mobile e si lascia trasportare dalle correnti marine.
-
-Queste due forme rappresentano i distinti stadi del ciclo vitale degli cnidari. La fecondazione della cellula uovo avviene tramite una medusa matura, generando una larva ciliata e libera capace di nuotare. Dopo un certo periodo, la larva si fissa al substrato trasformandosi in polipo. Quest'ultimo si sviluppa allungandosi e segmentandosi trasversalmente in diverse unità tentacolate impilate l'una sull'altra. Le singole unità si staccano per formare piccole meduse dette efire, che maturano gradualmente fino a diventare meduse sessualmente attive. Una volta raggiunta la maturità, il ciclo vitale riprende.
-
-Il corpo degli cnidari è caratterizzato da simmetria raggiata e una significativa componente acquosa che conferisce un aspetto gelatinoso generale. Strutturalmente, esso è costituito da due strati cellulari principali: l'ectoderma e l'endoderma. Questi circondano la cavità gastrovascolare, deputata alla digestione e rivestita da cellule ghiandolari con specifiche funzioni digestive. La cavità comunica con l'esterno tramite un'apertura centrale circoscritta da tentacoli. I tentacoli sono provvisti di cnidoblasti, cellule specializzate che si attivano in risposta al contatto con organismi estranei. Tali cellule estroflettono un filamento cavo che rilascia una sostanza urticante e paralizzante per immobilizzare prede o difendersi da aggressori.
-
-Un sistema nervoso rudimentale è costituito da cellule neuroepiteliali dotate di lunghi prolungamenti, le quali permettono all'animale di reagire prontamente agli stimoli ambientali. Tra gli cnidari più conosciuti si annoverano gli anemoni di mare, le madrepore e i coralli.
-
-#wideblock[
 #figure(
   caption: [Classificazione degli cnidari],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -140,7 +126,15 @@ Un sistema nervoso rudimentale è costituito da cellule neuroepiteliali dotate d
     [Antozoi], [Hanno solo la forma di polipo; comprendono le attinie e i coralli. Secernono uno scheletro calcareo che nel corso di milioni di anni ha formato grandi barriere coralline]
 )  
 )
-]
+
+Gli cnidari, o celenterati (_phylum_ Cnidaria), sono invertebrati marini il cui corpo può assumere due principali configurazioni morfologiche: quella del polipo e quella della medusa. Il polipo è tipicamente sessile, ancorato al substrato, e può vivere isolato o organizzato in colonie; la medusa, al contrario, è mobile e si lascia trasportare dalle correnti marine.
+
+Queste due forme rappresentano i distinti stadi del ciclo vitale degli cnidari. La fecondazione della cellula uovo avviene tramite una medusa matura, generando una larva ciliata e libera capace di nuotare. Dopo un certo periodo, la larva si fissa al substrato trasformandosi in polipo. Quest'ultimo si sviluppa allungandosi e segmentandosi trasversalmente in diverse unità tentacolate impilate l'una sull'altra. Le singole unità si staccano per formare piccole meduse dette efire, che maturano gradualmente fino a diventare meduse sessualmente attive. Una volta raggiunta la maturità, il ciclo vitale riprende.
+
+Il corpo degli cnidari è caratterizzato da simmetria raggiata e una significativa componente acquosa che conferisce un aspetto gelatinoso generale. Strutturalmente, esso è costituito da due strati cellulari principali: l'ectoderma e l'endoderma. Questi circondano la cavità gastrovascolare, deputata alla digestione e rivestita da cellule ghiandolari con specifiche funzioni digestive. La cavità comunica con l'esterno tramite un'apertura centrale circoscritta da tentacoli. I tentacoli sono provvisti di cnidoblasti, cellule specializzate che si attivano in risposta al contatto con organismi estranei. Tali cellule estroflettono un filamento cavo che rilascia una sostanza urticante e paralizzante per immobilizzare prede o difendersi da aggressori.
+
+Un sistema nervoso rudimentale è costituito da cellule neuroepiteliali dotate di lunghi prolungamenti, le quali permettono all'animale di reagire prontamente agli stimoli ambientali. Tra gli cnidari più conosciuti si annoverano gli anemoni di mare, le madrepore e i coralli.
+
 
 == Ctenofori
 
@@ -158,11 +152,10 @@ L'apparato digerente dei platelminti è composto da una bocca e da una cavità g
 
 La riproduzione è sia sessuale sia agamica, con alcune specie che si distinguono per la capacità di rigenerare porzioni del corpo. I platelminti comprendono organismi a vita libera (sia marini sia terrestri) e specie parassite. Questi ultimi, tra cui la tenia o verme solitario, hanno sviluppato adattamenti specifici come una cuticola protettiva dagli enzimi digestivi dell'ospite, strutture specializzate come ventose e uncini per attaccarsi alla parete intestinale dell'ospite, e l'ermafroditismo per permettere l'autofecondazione.
 
-#wideblock[
 #figure(
   caption: [Classificazione dei platelminti],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -184,7 +177,6 @@ per studiarne le capacità rigenerative],
 ]
 )  
 )
-]
 
 == Nemertini
 
@@ -194,11 +186,10 @@ I nemertini, appartenenti al _phylum_ Nemertini, sono organismi vermiformi che p
 
 Il _phylum_ Aschelmintes raggruppa animali con caratteristiche molto varie, tanto che la parentela tra le diverse classi è oggetto di discussione tra gli studiosi. Tuttavia, gli aschelminti condividono alcuni elementi comuni, come la simmetria bilaterale, la presenza di un pseudoceloma e la separazione dei sessi.
 
-#wideblock[
 #figure(
   caption: [Classificazione degli aschelminti],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -222,7 +213,6 @@ Il _phylum_ Aschelmintes raggruppa animali con caratteristiche molto varie, tant
     [Priapulidi], [Caratterizzati dalla presenza di una proboscide armata di uncini, popolano prevalentemente i mari freddi],
 )  
 )
-]
 
 == Anellidi
 
@@ -234,11 +224,10 @@ La respirazione avviene principalmente attraverso la cute, sebbene alcune specie
 
 La riproduzione è sessuata e prevede uno sviluppo caratterizzato dalla presenza della larva trocofora. Questa forma larvale è particolarmente interessante dal punto di vista filogenetico in quanto ricorda quella dei molluschi.
 
-#wideblock[
 #figure(
   caption: [Classificazione degli anellidi],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -258,7 +247,6 @@ La riproduzione è sessuata e prevede uno sviluppo caratterizzato dalla presenza
     [Irudinei], [Privati di setole, possono essere carnivori o parassiti, come ad esempio la sanguisuga. Vivono in acque dolci stagnanti oppure nella terraferma]
 )  
 )
-]
 
 == Artropodi
 
@@ -268,11 +256,10 @@ Gli artropodi hanno un sistema circolatorio aperto, dove il sangue non scorre es
 
 Il corpo degli artropodi è composto da metameri raggruppati in tre regioni principali: il capo, che ospita le antenne e gli occhi composti; il torace, dotato di arti; e l'addome. Lo sviluppo embrionale è indiretto e include diversi stadi larvali attraverso un processo di metamorfosi.
 
-#wideblock[
 #figure(
   caption: [Classificazione degli artropodi],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -293,7 +280,6 @@ Il corpo degli artropodi è composto da metameri raggruppati in tre regioni prin
     [Insetti], [Corpo costituito da 20 segmenti, raggruppati in capo, torace e addome. Presentano tre paia di zampe e 2 o 4 ali. Le specie sono prevalentemente terrestri]
 )  
 )
-]
 
 == Molluschi
 
@@ -307,11 +293,10 @@ L'apparato circolatorio dei molluschi è aperto; il sangue non scorre esclusivam
 
 La riproduzione avviene sempre in modalità sessuata e, in alcune specie, gli individui sono ermafroditi. Lo sviluppo può essere diretto, con la nascita di un individuo morfologicamente simile all'adulto, oppure indiretto, caratterizzato dalla formazione di una larva e da una complessa metamorfosi.
 
-#wideblock[
 #figure(
   caption: [Classificazione dei molluschi],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -332,7 +317,6 @@ La riproduzione avviene sempre in modalità sessuata e, in alcune specie, gli in
     [Scafopodi], [Conchiglia simile a una zanna d’elefante, vivono nei fondali marini. Un esempio è rappresentato dal genere Dentalium]
 )  
 )
-]
 
 == Echinodermi
 
@@ -342,11 +326,10 @@ Una caratteristica distintiva degli echinodermi è l'apparato acquifero, una str
 
 La funzione respiratoria può inoltre essere integrata, a seconda della specie, mediante organi specializzati quali polmoni o branchie. L'apparato circolatorio è composto da lacune che corrono parallele ai canali del sistema acquifero. Il sistema nervoso è strutturato in un anello posto intorno alla bocca e cinque tronchi radiali. Gli organi riproduttori, le gonadi, seguono generalmente il modello pentaraggiato: ne sono presenti cinque. La riproduzione è di tipo sessuato e i sessi sono separati. Lo sviluppo avviene in maniera indiretta attraverso la formazione di larve.
 
-#wideblock[
 #figure(
   caption: [Classificazione degli echinodermi],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -368,7 +351,6 @@ La funzione respiratoria può inoltre essere integrata, a seconda della specie, 
     [Oloturoidi], [Detti cetrioli di mare, sono considerati gli echinodermi più primitivi per la loro forma a sacco che nasconde la simmetria radiale] 
 )  
 )
-]
 
 == Cordati
 
@@ -378,11 +360,10 @@ I Cordati, insieme agli Artropodi e ai Molluschi, costituiscono uno dei gruppi e
 
 La classificazione dei Cordati si basa sulla localizzazione della notocorda. Gli Urocordati, considerati i più primitivi, presentano la notocorda solo nella parte caudale della larva. Al contrario, nei Vertebrati, più evoluti, la notocorda viene circondata o sostituita da uno scheletro cartilagineo o osseo.
 
-#wideblock[
 #figure(
   caption: [Classificazione dei cordati],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -401,13 +382,11 @@ La classificazione dei Cordati si basa sulla localizzazione della notocorda. Gli
     [Cefalocordati], [La corda dorsale si estende dalla testa alla coda e persiste per tutta la vita; non presentano un vero cervello né organi di senso sviluppati. Il cuore corrisponde a un grosso vaso contrattile. L'esempio più noto è l’anfiosso, un animale marino che presenta caratteristiche primitive dei cordati, ma con muscoli, nervi e un sistema circolatorio chiuso tipici dei vertebrati], [Vertebrati], [La corda dorsale è presente solo nello stadio embrionale e si estende fino al cervello; nell’adulto è sostituita dalla colonna vertebrale cartilaginea (come nelle lamprede o in alcuni pesci) o ossea. Il corpo è suddiviso in capo e tronco: il primo ospita il cervello e gli organi di senso, mentre gli arti sono ancorati al secondo. Le classi comprendono ciclostomi (come la lampreda), pesci, anfibi, rettili, uccelli e mammiferi]
 )  
 )
-]
-
-#wideblock[
+#pagebreak()
 #figure(
   caption: [Principali caratteristiche dei vertebrati],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -431,9 +410,8 @@ La classificazione dei Cordati si basa sulla localizzazione della notocorda. Gli
     [Mammiferi], [Peli], [Omeotermi], [Due paia di zampe, \ spesso unghie], [Polmoni],
 )  
 )
-]
 
-== Approfondimento: altri _phyla_ di animali <senza_numero>
+#note(bottom)[== *🧩* Altri _phyla_ di animali <senza_numero>
 
 Gli Gnatostomulidi (_phylum_ Gnathostomulida) sono animali di piccole dimensioni (0,5-3 mm), con corpo cilindrico e vermiforme rivestito di ciglia. La loro bocca è situata sulla parte ventrale. Questi organismi ermafroditi vivono principalmente nei fondali sabbiosi e fangosi.
 
@@ -441,12 +419,13 @@ I Sipunculidi (_phylum_ Sipunculida) possiedono un corpo allungato che si restri
 
 I Camptozoi o Endoprotti (_phylum_ Kamptozoa) sono organismi acquatici che vivono in colonie. Ogni individuo è sostenuto da un peduncolo che termina con una struttura allargata contenente gli organi interni. La bocca è circondata da una corona di tentacoli.
 
-I Pentastomidi (_phylum_ Pentastomida) sono esclusivamente parassiti di vertebrati terrestri. Nel loro stadio larvale sviluppano quattro paia di arti dotati di uncini, ma nel corso dello sviluppo due paia scompaiono e le altre due vengono collocate in tasche attorno alla bocca, caratteristica da cui deriva il nome del _phylum_ (“cinque bocche”).
+I Pentastomidi (_phylum_ Pentastomida) sono esclusivamente parassiti di vertebrati terrestri. Nel loro stadio larvale sviluppano quattro paia di arti dotati di uncini, ma nel corso dello sviluppo due paia scompaiono e le altre due vengono collocate in tasche attorno alla bocca, caratteristica da cui deriva il nome del _phylum_ ("cinque bocche").
 
 I Tardigradi (_phylum_ Tardigrada) sono microrganismi dotati di quattro paia di arti terminanti con unghie. Presentano una bocca munita di stiletti retrattili utili per perforare. La loro capacità di sopravvivere in condizioni estreme (criptobiosi) è particolarmente sviluppata: resistono per anni in mancanza totale d'acqua, di ossigeno, a temperature estreme (da -272 a 150 °C), ad alti livelli di radiazioni ionizzanti (6000 Gy) e al vuoto dello spazio.
 
-Gli Onicofori (_phylum_ Onychophora) hanno un corpo segmentato simile a quello degli Anellidi ma rivestito da una cuticola sottile. La testa è ben distinta e dotata di due antenne. Sul ventre sono presenti numerose appendici locomotorie provviste di unghie (da cui il termine greco “ónicos”). I sessi sono separati e vi è un marcato dimorfismo sessuale.
-
+Gli Onicofori (_phylum_ Onychophora) hanno un corpo segmentato simile a quello degli Anellidi ma rivestito da una cuticola sottile. La testa è ben distinta e dotata di due antenne. Sul ventre sono presenti numerose appendici locomotorie provviste di unghie (da cui il termine greco "ónicos"). I sessi sono separati e vi è un marcato dimorfismo sessuale.]
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Cefalizzazione: Processo che concentra gli organi di senso, il cervello e la bocca all'estremità anteriore del corpo.  

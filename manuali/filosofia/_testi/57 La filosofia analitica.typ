@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La filosofia analitica si colloca come corrente di pensiero che affronta i problemi filosofici tradizionali attraverso l'analisi del linguaggio con cui vengono formulati. Essa stabilisce un'interconnessione profonda tra pensiero e linguaggio, ritenendo che solo mediante il linguaggio si possa ottenere una chiarificazione esaustiva del pensiero.
 
@@ -8,16 +8,18 @@ Il movimento analitico trova impulso a Cambridge nei primi anni '30 grazie a fil
 A partire dagli anni '50, Oxford diventa il centro di pensatori innovativi come Ryle e Austin. Questi sviluppano la filosofia del linguaggio ordinario, riconoscendo la complessità intrinseca del linguaggio. Essa supera gli elementi descrittivi e logico-formali per includere altre forme di discorso, quali quello etico, metafisico, teologico e giuridico.]
 
 == Tratti generali della filosofia analitica
+#note(bottom)[/ Atto linguistico: Secondo Austin, è l'enunciato considerato come una specifica forma di azione compiuta dal soggetto. Si distingue per tre aspetti fondamentali: locutorio, illocutorio e perlocutorio.
 
+/ Cognitivismo etico: È una corrente etica che sostiene che i giudizi morali riguardano i "fatti", non si riducono a mere espressioni di atteggiamenti o preferenze personali e, di conseguenza, possono essere valutati come veri o falsi.]
 Storicamente, la filosofia analitica si è diffusa nella prima metà del Novecento in Inghilterra, Stati Uniti e Scandinavia, per poi consolidarsi nel resto d'Europa a partire dagli anni Settanta. Il suo sviluppo è stato influenzato dai contributi di Ludwig Wittgenstein, dal positivismo logico dell'Europa centrale e dalle analisi del linguaggio ordinario.
 
 Pur avendo dei precursori, questi vanno identificati soprattutto nei filosofi che condividevano un metodo di indagine empirico, come David Hume e i pensatori dell'empirismo inglese, nella scuola scozzese del senso comune, nonché in figure come Frege, Bolzano, Brentano, Meinong e, in un certo senso, anche Husserl e i primi esponenti della fenomenologia.
 
-Gli autori che si rifanno alla filosofia analitica non costituiscono propriamente una scuola organizzata, ma condividono uno stile comune tanto nell'indagine quanto nella scrittura e un approccio metodologico generale. Privilegiano le chiarificazioni dettagliate rispetto all'elaborazione di teorie, considerando i problemi più stimolanti delle soluzioni; mirano alla chiarezza e al rigore logico, ricorrendo agli strumenti della logica formale senza però farne un uso esclusivo o predominante. Le loro argomentazioni sono sempre rigorose e verificabili, caratterizzate da sobrietà stilistica e da esempi tratti dalla vita quotidiana. Rifuggono dall'uso di linguaggi troppo elevati o complessi, tipici di certa filosofia speculativa, che spesso confonde l'opacità del testo con la profondità del pensiero. A livello metodologico perseguono un intento “terapeutico”, mirando a eliminare falsi problemi o confusioni derivanti da regole linguistiche appartenenti a livelli o ambiti differenti.
+Gli autori che si rifanno alla filosofia analitica non costituiscono propriamente una scuola organizzata, ma condividono uno stile comune tanto nell'indagine quanto nella scrittura e un approccio metodologico generale. Privilegiano le chiarificazioni dettagliate rispetto all'elaborazione di teorie, considerando i problemi più stimolanti delle soluzioni; mirano alla chiarezza e al rigore logico, ricorrendo agli strumenti della logica formale senza però farne un uso esclusivo o predominante. Le loro argomentazioni sono sempre rigorose e verificabili, caratterizzate da sobrietà stilistica e da esempi tratti dalla vita quotidiana. Rifuggono dall'uso di linguaggi troppo elevati o complessi, tipici di certa filosofia speculativa, che spesso confonde l'opacità del testo con la profondità del pensiero. A livello metodologico perseguono un intento "terapeutico", mirando a eliminare falsi problemi o confusioni derivanti da regole linguistiche appartenenti a livelli o ambiti differenti.
 
-A partire dagli anni Settanta, le correnti di ricerca filosofica si sono diversificate notevolmente, senza una chiara predominanza di alcuna. È stato approfondito il legame con il pensiero di Frege (M. Dummett), e si sono evidenziate maggiormente le connessioni con Brentano e Husserl. Si è anche tentato di dimostrare come l'approccio analitico possa essere applicato ai problemi della filosofia classica (E. Tugendhat).
+A partire dagli anni Settanta, le correnti di ricerca filosofica si sono diversificate notevolmente, senza una chiara predominanza di alcuna. È stato approfondito il legame con il pensiero di Frege (Michael Dummett), e si sono evidenziate maggiormente le connessioni con Brentano e Husserl. Si è anche tentato di dimostrare come l'approccio analitico possa essere applicato ai problemi della filosofia classica (Ernst Tugendhat).
 
-L'attenzione degli analisti si è spostata dalle analisi linguistiche a questioni di contenuto, soprattutto in ambito etico, dove si è riscoperto l'interesse per il tema delle virtù (P. Foot, P.T. Geach, G.E.M. Anscombe, I. Murdoch). Le teorie del significato hanno iniziato a considerare la dimensione pragmatica e il contesto in cui si svolge la comunicazione, nel suo intreccio di presupposizioni e implicazioni (P. Grice). Allo stesso tempo, il tema della verità ha portato a collocare la riflessione filosofica entro una cornice più ampia che abbraccia l'agire razionale e la sua interpretazione (D. Davidson).
+L'attenzione degli analisti si è spostata dalle analisi linguistiche a questioni di contenuto, soprattutto in ambito etico, dove si è riscoperto l'interesse per il tema delle virtù (Philippa Foot, Peter Geach, Elizabeth Anscombe, Iris Murdoch). Le teorie del significato hanno iniziato a considerare la dimensione pragmatica e il contesto in cui si svolge la comunicazione, nel suo intreccio di presupposizioni e implicazioni (Paul Grice). Allo stesso tempo, il tema della verità ha portato a collocare la riflessione filosofica entro una cornice più ampia che abbraccia l'agire razionale e la sua interpretazione (Donald Davidson).
 
 Questi sviluppi hanno permesso alla filosofia analitica di superare certe astrazioni eccessive proprie di un tecnicismo esasperato, favorendo un dialogo con altre prospettive affini e ampliando la portata delle sue indagini.
 
@@ -25,19 +27,19 @@ Questi sviluppi hanno permesso alla filosofia analitica di superare certe astraz
 
 Il logico, matematico e filosofo tedesco Friedrich Ludwig Gottlob Frege (Wismar 1848 - Bad Kleinen 1925) insegnò matematica a Jena e condusse una vita solitaria, segnata dalle difficoltà derivanti dalla scarsa considerazione ricevuta per il suo merito e dai conflitti con i colleghi accademici, che ostacolarono la sua carriera.  
 
-Nonostante ciò, Frege fu guida e interlocutore di filosofi come B. Russell, G. Peano, E. Husserl e L. Wittgenstein. Il suo ambizioso progetto di fondare la matematica su basi rigorose e definitive, sostenendo il ruolo fondamentale della componente linguistica, ha trovato inizialmente scarso riconoscimento durante la sua vita, ma successivamente è stato ampiamente dibattuto e rivalutato dopo la sua morte.  
+Nonostante ciò, Frege fu guida e interlocutore di filosofi come Russell, Peano, Husserl e Wittgenstein. Il suo ambizioso progetto di fondare la matematica su basi rigorose e definitive, sostenendo il ruolo fondamentale della componente linguistica, ha trovato inizialmente scarso riconoscimento durante la sua vita, ma successivamente è stato ampiamente dibattuto e rivalutato dopo la sua morte.  
 
-Tra i principali concetti che Frege ha trasmesso alla filosofia del linguaggio si annoverano l'irriducibilità della logica alla psicologia, l'idea secondo cui una parola acquista significato solo nel contesto di un enunciato, la definizione di pensiero inteso come senso di un enunciato e, soprattutto, la distinzione tra senso (Sinn) e significato/riferimento (Bedeutung). In questo schema, ogni espressione del linguaggio simbolico si riferisce a un'entità specifica: i nomi ai oggetti, i predicati ai concetti e alle relazioni, gli enunciati ai valori di verità.  
+Tra i principali concetti che Frege ha trasmesso alla filosofia del linguaggio si annoverano l'irriducibilità della logica alla psicologia, l'idea secondo cui una parola acquista significato solo nel contesto di un enunciato, la definizione di pensiero inteso come senso di un enunciato e, soprattutto, la distinzione tra senso (Sinn) e significato/riferimento (_Bedeutung_). In questo schema, ogni espressione del linguaggio simbolico si riferisce a un'entità specifica: i nomi ai oggetti, i predicati ai concetti e alle relazioni, gli enunciati ai valori di verità.  
 
-Il senso rappresenta il modo in cui queste entità sono date nel linguaggio. Un'analoga interpretazione vale anche per gli enunciati: il loro riferimento è costituito dal valore di verità, mentre il loro senso corrisponde al pensiero che l'enunciato sia vero. La visione di Frege sul senso degli enunciati come condizione di verità è stata successivamente sviluppata nel Tractatus logicophilosophicus di L. Wittgenstein.  
+Il senso rappresenta il modo in cui queste entità sono date nel linguaggio. Un'analoga interpretazione vale anche per gli enunciati: il loro riferimento è costituito dal valore di verità, mentre il loro senso corrisponde al pensiero che l'enunciato sia vero. La visione di Frege sul senso degli enunciati come condizione di verità è stata successivamente sviluppata nel _Tractatus logicophilosophicus_ di Wittgenstein.  
 
 === La filosofia del linguaggio ordinario
 
-La concezione della filosofia del linguaggio ordinario trae ispirazione anche dal concetto di “giochi linguistici”, introdotto da Wittgenstein durante il suo periodo a Cambridge. Da questa prospettiva emerge una struttura del linguaggio straordinariamente complessa, in cui l'aspetto descrittivo e quello logico-formale costituiscono solo una parte, spesso non la principale.  
+La concezione della filosofia del linguaggio ordinario trae ispirazione anche dal concetto di "giochi linguistici", introdotto da Wittgenstein durante il suo periodo a Cambridge. Da questa prospettiva emerge una struttura del linguaggio straordinariamente complessa, in cui l'aspetto descrittivo e quello logico-formale costituiscono solo una parte, spesso non la principale.  
 
 Altri tipi di discorso, come quelli etico, metafisico, teologico, giuridico e prescrittivo, richiedono analisi approfondite che considerino le loro regole interne, le relazioni reciproche e i legami con i diversi contesti della vita nei quali vengono utilizzati. Sebbene l'uso descrittivo sia riconosciuto dagli analisti come l'unico capace di informare sulla realtà, incrementare la conoscenza e risultare vero o falso, il linguaggio ordinario è spesso impiegato con altre finalità: secondo regole e convenzioni atte a conferire significato specifico ai suoi termini. Proprio su queste regole d'uso dovrebbe concentrarsi l'analisi.  
 
-Un ulteriore compito degli analisti è quello di evitare gli “errori categoriali” (come definiti da Ryle), ossia il rischio di confondere tra loro la forma logica e quella grammaticale o le regole proprie di giochi linguistici distinti. Con i lavori di Austin, l'analisi si è evoluta in una vera e propria fenomenologia del linguaggio ordinario, che valorizza il ricco patrimonio sedimentato in una tradizione lunga e articolata.  
+Un ulteriore compito degli analisti è quello di evitare gli "errori categoriali" (come definiti da Ryle), ossia il rischio di confondere tra loro la forma logica e quella grammaticale o le regole proprie di giochi linguistici distinti. Con i lavori di Austin, l'analisi si è evoluta in una vera e propria fenomenologia del linguaggio ordinario, che valorizza il ricco patrimonio sedimentato in una tradizione lunga e articolata.  
 
 Le indagini applicate al linguaggio coprono campi estremamente vari: si precisano le categorie fondamentali del pensiero; si esplora il senso del discorso religioso; si riformula il dibattito tra nominalisti e realisti relativamente all'esistenza degli universali; si analizza la relazione tra fatti e valori in etica; si riflette sulla natura della verità.
 
@@ -63,11 +65,11 @@ Attraverso le leggi della logica, tali proposizioni atomiche possono essere comb
 
 Il professore dell'Università di Cambridge, George Edward Moore (Londra 1873 - Cambridge 1958), ha avuto un ruolo determinante nella definizione dei fondamenti della filosofia analitica, collaborando con Bertrand Russell per delineare i principali aspetti di questo approccio filosofico.
 
-Uno dei suoi contributi significativi è rappresentato dal saggio La confutazione dell'idealismo (1903), nel quale Moore introduce un metodo di ricerca basato sull'"analisi". Tale metodo si caratterizza per il processo di identificazione e denominazione dei componenti essenziali che costituiscono gli oggetti complessi, fornendo così un paradigma operativo per affrontare questioni filosofiche.
+Uno dei suoi contributi significativi è rappresentato dal saggio _La confutazione dell'idealismo_ (1903), nel quale Moore introduce un metodo di ricerca basato sull'"analisi". Tale metodo si caratterizza per il processo di identificazione e denominazione dei componenti essenziali che costituiscono gli oggetti complessi, fornendo così un paradigma operativo per affrontare questioni filosofiche.
 
 === L'etica e la fallacia naturalistica
 
-Il testo fondamentale di Moore è Principia Ethica (1903), opera nella quale sostiene che il ruolo dell'etica non è di natura prescrittiva o normativa, bensì descrittiva. L'etica, secondo Moore, consiste nell'analisi semantica delle proposizioni etiche, con particolare attenzione al concetto di "bene".
+Il testo fondamentale di Moore è _Principia Ethica_ (1903), opera nella quale sostiene che il ruolo dell'etica non è di natura prescrittiva o normativa, bensì descrittiva. L'etica, secondo Moore, consiste nell'analisi semantica delle proposizioni etiche, con particolare attenzione al concetto di "bene".
 
 In questo quadro teorico, Moore sviluppa il concetto di "fallacia naturalistica", identificando in essa l'errore principale dei vari approcci naturalistici in ambito etico, inclusi l'utilitarismo e le etiche della virtù elaborate da pensatori come Aristotele e Tommaso d'Aquino. Questi approcci tentano di definire il bene mediante l'elencazione delle caratteristiche che le cose buone dovrebbero possedere, riducendo così la nozione, intrinsecamente indefinibile, di bene a concetti legati al mondo empirico e naturale.
 
@@ -87,7 +89,7 @@ Ad esempio, una frase come "le vacche carnivore non esistono" – classificata d
 
 La riflessione di Ryle continua con la sua opera _Lo spirito come comportamento_ (1949), un testo che si propone di smantellare il dualismo cartesiano nella concezione dell'essere umano. Secondo la visione dualistica descritta da Descartes, l'uomo sarebbe composto da un corpo fisico esteso, regolato da leggi meccaniche e accessibile alla misurazione pubblica, contrapposto a un'entità immateriale e non osservabile, lo spirito, alle cui dinamiche il soggetto avrebbe accesso esclusivo e diretto. 
 
-Ryle identifica alla base di tale dicotomia un errore categoriale, ovvero una confusione sistematica nel classificare un concetto sotto una categoria che gli è estranea. Egli critica Cartesio per aver considerato “mente” (o “spirito”) e “corpo” come due sostanze indipendenti da inserire in categorie ontologiche distinte, mentre tali aspetti devono essere inclusi in un'unica categoria coerente: quella del comportamento umano. 
+Ryle identifica alla base di tale dicotomia un errore categoriale, ovvero una confusione sistematica nel classificare un concetto sotto una categoria che gli è estranea. Egli critica Cartesio per aver considerato "mente" (o "spirito") e "corpo" come due sostanze indipendenti da inserire in categorie ontologiche distinte, mentre tali aspetti devono essere inclusi in un'unica categoria coerente: quella del comportamento umano. 
 
 Nel quadro della filosofia analitica, il compito essenziale risiede, secondo Ryle, nella delineazione accurata delle categorie entro cui i concetti devono essere collocati, mediante un lavoro continuo di chiarificazione e sistematizzazione della geografia logica e concettuale con cui ci si rapporta al linguaggio.
 
@@ -105,38 +107,36 @@ Per questa ragione, Austin sposta la sua attenzione sul singolo atto linguistico
 + _Locutorio_: si riferisce al significato e al riferimento dell'enunciato (ad esempio: "la porta è aperta"); 
 + _Illocutorio_: riguarda l'azione che l'atto linguistico realizza (ad esempio: una richiesta o avvertimento: "la porta è aperta
 + Perlocutorio: indica l'atto linguistico con cui un risultato (qualcuno chiude la porta).
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ Russell: Ne _I principi della matematica_, Russell si propone di ricavare l'intera matematica pura a partire da un numero minimo di concetti logici di base.
 
-Russell  
-Ne _I principi della matematica_, Russell si propone di ricavare l'intera matematica pura a partire da un numero minimo di concetti logici di base.  
+  / Teoria della descrizione: Russell introduce una nuova teoria della descrizione, che gli consente di analizzare ogni proposizione dal punto di vista esclusivamente linguistico, con l'obiettivo di elaborare una lingua perfetta.
 
-Teoria della descrizione  
-Russell introduce una nuova teoria della descrizione, che gli consente di analizzare ogni proposizione dal punto di vista esclusivamente linguistico, con l'obiettivo di elaborare una lingua perfetta.  
+  / Scienza e senso comune: Egli considera la scienza il modello di una conoscenza certa, in contrasto con quella imprecisa e contraddittoria del senso comune. Russell individua alcuni postulati accettati implicitamente sia dalla scienza sia dal senso comune, ma la cui dimostrazione filosofica certa risulta impossibile.
 
-Scienza e senso comune  
-Egli considera la scienza il modello di una conoscenza certa, in contrasto con quella imprecisa e contraddittoria del senso comune. Russell individua alcuni postulati accettati implicitamente sia dalla scienza sia dal senso comune, ma la cui dimostrazione filosofica certa risulta impossibile.  
+  / Atomismo logico: La teoria dell'atomismo logico afferma che il mondo è composto da fatti atomici, descritti attraverso proposizioni atomiche non ulteriormente divisibili. Queste ultime, attraverso le leggi della logica, si combinano in proposizioni complesse che riflettono la struttura articolata della realtà.
 
-Atomismo logico  
-La teoria dell'atomismo logico afferma che il mondo è composto da fatti atomici, descritti attraverso proposizioni atomiche non ulteriormente divisibili. Queste ultime, attraverso le leggi della logica, si combinano in proposizioni complesse che riflettono la struttura articolata della realtà.  
+/ Moore: Moore sostiene che l'etica abbia un carattere descrittivo, esaminando i significati delle proposizioni etiche e focalizzandosi principalmente sul concetto di "bene".
 
-Moore  
-Moore sostiene che l'etica abbia un carattere descrittivo, esaminando i significati delle proposizioni etiche e focalizzandosi principalmente sul concetto di "bene".  
+  / Fallacia naturalistica: La fallacia naturalistica è definita come l'errore basilare dei "naturalismi etici", che tentano di ridurre il concetto indefinibile di "bene" ad altre nozioni.
 
-Fallacia naturalistica  
-La fallacia naturalistica è definita come l'errore basilare dei "naturalismi etici", che tentano di ridurre il concetto indefinibile di "bene" ad altre nozioni.  
+  / Etica cognitivista: Secondo l'etica cognitivista, gli asserti etici possono essere veri o falsi; tuttavia, essi non fanno riferimento a realtà empiricamente conoscibili. Per comprendere come agire, non è necessario interrogarsi sulle regole da seguire, bensì sui probabili effetti immediati delle azioni intraprese.
 
-Etica cognitivista  
-Secondo l'etica cognitivista, gli asserti etici possono essere veri o falsi; tuttavia, essi non fanno riferimento a realtà empiricamente conoscibili. Per comprendere come agire, non è necessario interrogarsi sulle regole da seguire, bensì sui probabili effetti immediati delle azioni intraprese.  
+/ Ryle e la chiarificazione del linguaggio ordinario: 
+Ryle si dedica alla revisione e al chiarimento di alcune espressioni del linguaggio quotidiano, mostrando come la loro forma grammaticale spesso non corrisponda alla struttura dei fatti che descrivono.
 
-Ryle e la chiarificazione del linguaggio ordinario  
-Ryle si dedica alla revisione e al chiarimento di alcune espressioni del linguaggio quotidiano, mostrando come la loro forma grammaticale spesso non corrisponda alla struttura dei fatti che descrivono.  
+  / Il compito della filosofia: Il compito della filosofia consiste nel tracciare una mappa accurata delle categorie cui appartengono i concetti, perseguendo continuamente una maggiore chiarezza e precisione.
 
-Il compito della filosofia  
-Secondo Russell, il compito della filosofia consiste nel tracciare una mappa accurata delle categorie cui appartengono i concetti, perseguendo continuamente una maggiore chiarezza e precisione.  
+/ Austin e l'analisi del linguaggio ordinario: 
+Austin, nel suo lavoro _Quando dire è fare_, distingue nel linguaggio ordinario le espressioni performative (o esecutive) dalle espressioni descrittive (o constatative).
 
-Austin e l'analisi del linguaggio ordinario  
-Austin, nel suo lavoro _Quando dire è fare_, distingue nel linguaggio ordinario le espressioni performative (o esecutive) dalle espressioni descrittive (o constatative).  
+  / L'atto linguistico: Austin approfondisce successivamente il concetto di atto linguistico, identificandone tre aspetti: locutorio, illocutorio e perlocutorio.
 
-L'atto linguistico  
-Austin approfondisce successivamente il concetto di atto linguistico, identificandone tre aspetti: locutorio, illocutorio e perlocutorio.
+/ Trattati generali: Diffusa inizialmente nella prima metà del Novecento in Inghilterra, Stati Uniti e nei paesi scandinavi, la filosofia si è sviluppata grazie ai contributi di Ludwig Wittgenstein, del positivismo logico dell'Europa centrale e delle analisi sul linguaggio quotidiano. Gli autori che si rifanno a questo orientamento non formano una "scuola" in senso stretto, ma condividono uno stile comune tanto nell'approccio investigativo quanto nella scrittura, oltre che un atteggiamento metodologico generale. Essi prediligono chiarificazioni accurate rispetto a teorie sistematiche, mirano alla massima chiarezza e al rigore argomentativo, basandosi su elaborazioni precise, verificabili, con uno stile sobrio e un uso frequente di esempi tratti dalla vita quotidiana.  
+
+  / Tra i precursori: Frege: Frege fu una figura di riferimento e un interlocutore determinante per filosofi come Bertrand Russell, Giuseppe Peano, Edmund Husserl e Ludwig Wittgenstein. Il suo progetto filosofico era volto a una fondazione rigorosa e definitiva della matematica, sottolineandone la dimensione linguistica. Tra i suoi principali contributi spiccano l'affermazione dell'irriducibilità della logica alla psicologia, l'idea che una parola abbia significato soltanto all'interno del contesto di una proposizione, la definizione del pensiero come senso di un enunciato e, soprattutto, la fondamentale distinzione tra senso (Sinn) e significato inteso come riferimento (_Bedeutung_).  
+
+  / La filosofia del linguaggio ordinario: Tenendo conto dei "giochi linguistici" approfonditi da Wittgenstein, si considera il linguaggio come una struttura estremamente complessa, in cui gli elementi descrittivi e logico-formali rappresentano solo una parte, e nemmeno la più rilevante. Gli studiosi del linguaggio ordinario ritengono che quest'ultimo sia spesso usato non per descrivere, ma secondo regole e convenzioni mirate a conferire significato preciso ai termini. L'analisi filosofica, pertanto, dovrebbe concentrarsi su queste regole d'uso.  

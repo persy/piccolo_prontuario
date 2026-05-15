@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La riproduzione è il processo mediante il quale vengono generati nuovi individui, garantendo la continuità della specie. Gli organismi più semplici si riproducono attraverso meccanismi di divisione diretta, ma gli animali, nel corso dell'evoluzione, hanno sviluppato una strategia più complessa basata sulla fusione del materiale genetico proveniente da due cellule specializzate, chiamate gameti. Da questa unione nasce una cellula che attraversa una serie di trasformazioni note come sviluppo embrionale, fino a dar vita a un nuovo organismo capace di esistere in modo autonomo.]
 
@@ -13,7 +13,6 @@ In alcune specie, esistono cicli in cui si alternano riproduzione sessuata e ase
 
 Alcune specie, come lombrichi, tenie e lumache, presentano individui ermafroditi, ovvero capaci di produrre sia gameti maschili che femminili. Questa caratteristica semplifica la riproduzione in organismi che hanno mobilità limitata o che vivono isolati rispetto agli altri individui della loro specie.
 
-#wideblock[
 #figure(
   caption: [Principali modalità di riproduzione],
   table(
@@ -40,7 +39,7 @@ Alcune specie, come lombrichi, tenie e lumache, presentano individui ermafroditi
   [Gametogamia#footnote[Riproduzione di tipo sessuata]], [fusione di due gameti], [protozoi; funghi; piante; animali pluricellulari]
 )  
 )
-]
+
 
 == I gameti
 
@@ -86,15 +85,22 @@ L'utero è un organo cavo dove si annida l'ovulo fecondato. La parete uterina è
 
 L'utero si divide in tre aree: il fondo, da cui partono le tube, una parte intermedia ristretta e la cervice uterina, che si affaccia sull'estremità superiore della vagina. Quest'ultima è un canale muscolo-membranoso progettato per accogliere il pene e ricevere lo sperma durante la riproduzione. La vulva costituisce la parte più esterna dell'apparato riproduttore femminile ed è composta da due pieghe cutanee verticali chiamate grandi labbra, dentro le quali si trovano le piccole labbra, che circondano l'orifizio vaginale. Anteriormente a queste si trova il clitoride, un piccolo organo erettile con caratteristiche analoghe al pene maschile.
 
+#note(bottom)[== *🧩* Ciclo mestruale e ovulazione <senza_numero>
+
+Il ciclo mestruale è un meccanismo fisiologico delle donne in età fertile. È regolato da cambiamenti periodici nell'endometrio sotto l'influenza di vari ormoni prodotti dall'ipotalamo, dall'ipofisi e dalle ovaie. Generalmente ha una durata di circa 28 giorni ed è suddiviso in tre fasi principali: la fase proliferativa (dal 5º al 14º giorno), la fase premestruale o secretoria (dal 15º al 28º giorno) e la fase mestruale (dal 28º al 5º giorno). 
+
+Nella fase proliferativa avviene la produzione di follicoli da parte delle ovaie; tra questi, uno si sviluppa fino a maturare e rilasciare una cellula uovo. Durante questa fase, l'endometrio cresce progressivamente stimolato dagli estrogeni prodotti dal follicolo in maturazione, mentre l'ipofisi secerne gli ormoni follicolostimolante (FSH) e luteinizzante (LH) per incentivare questa produzione. La fase proliferativa culmina con l'ovulazione, cioè il rilascio della cellula uovo nella tuba di Falloppio quando il follicolo si rompe. In questo momento, la cellula uovo è pronta per essere fecondata.
+
+La fase premestruale, o secretoria, è caratterizzata dalla trasformazione del follicolo ormai vuoto in corpo luteo, che secerne grandi quantità di estrogeni e progesterone. Questi ormoni bloccano ulteriormente la produzione di FSH e LH, impedendo la formazione di nuovi follicoli. Parallelamente, l'endometrio sviluppa una rete estesa di vasi sanguigni per favorire l'annidamento della cellula uovo fecondata. Tuttavia, se la fecondazione non avviene, l'endometrio si degrada e i vasi sanguigni si rompono.
+
+Durante la fase mestruale, il miometrio si contrae per espellere i frammenti dell'endometrio e la cellula uovo non fecondata: questo processo prende il nome di mestruazione. Con il degrado del corpo luteo, ipotalamo e ipofisi tornano a produrre FSH e LH, riattivando così la maturazione di un nuovo follicolo e dando inizio a un nuovo ciclo mestruale.]
+
 == Sviluppo dell'embrione e organogenesi
 
 La cellula uovo fecondata dà origine allo zigote, una nuova entità cellulare che, attraverso processi di divisione, differenziamento e crescita, avvia la formazione di un nuovo individuo.
 
-La fase di sviluppo embrionale si articola in tre momenti principali: segmentazione, gastrulazione e organogenesi. In questo processo rivestono un ruolo fondamentale quattro membrane embrionarie, chiamate annessi embrionari, che svolgono funzioni cruciali per il nutrimento e la protezione dell'embrione.
+La fase di sviluppo embrionale si articola in tre momenti principali: segmentazione, gastrulazione e organogenesi. In questo processo rivestono un ruolo fondamentale quattro membrane embrionarie, chiamate annessi embrionari, che svolgono funzioni cruciali per il nutrimento e la protezione dell'embrione. Questo approfondimento riguarda specificamente lo sviluppo embrionale nell'uomo.
 
-Questo approfondimento riguarda specificamente lo sviluppo embrionale nell'uomo.
-
-#wideblock[
 #figure(
   caption: [Organogenesi],
   table(
@@ -144,18 +150,17 @@ Questo approfondimento riguarda specificamente lo sviluppo embrionale nell'uomo.
 - Allantoide e porzione della vescica urinaria  ],
 )  
 )
-]
- 
+
 === Segmentazione
 
 La segmentazione rappresenta il primo stadio dello sviluppo embrionale e ha luogo lungo la tuba di Falloppio. Durante questa fase lo zigote subisce molteplici divisioni cellulari che portano prima alla formazione della morula, un agglomerato compatto di cellule, e successivamente della blastocisti, una struttura cava che aderisce all'endometrio uterino per annidarsi. In questa fase iniziale non si verifica una crescita dimensionale dell'embrione, bensì una riorganizzazione interna delle cellule.
- 
+
 === Gastrulazione e organogenesi
 
 La gastrulazione è lo stadio immediatamente successivo, caratterizzato dalla formazione della gastrula. In questa fase le cellule si organizzano nei tre strati germinali principali: ectoderma, mesoderma ed endoderma, dai quali derivano tutti i tessuti dell'organismo. Durante la gastrulazione si registra un incremento significativo dell'attività metabolica e una produzione intensiva di nuove proteine.
 
 Al termine dell'ottava settimana di sviluppo embrionale, si considera completata questa fase. In seguito, durante l'organogenesi, avviene la formazione degli organi a partire dai tre foglietti embrionari. A partire da questo momento, si parla di feto.
- 
+
 === Annessi embrionari e placenta
 
 Gli annessi embrionari sono strutture membrane prodotte dall'embrione stesso:  
@@ -167,17 +172,9 @@ Gli annessi embrionari sono strutture membrane prodotte dall'embrione stesso:
 La placenta costituisce l'interfaccia tra la madre e il feto per lo scambio di ossigeno e nutrienti. Composta da tessuti fetali (villi coriali e parte dell'allantoide) e materni (endometrio), funziona attraverso la formazione di lacune di sangue materno in cui penetrano i villi coriali. All'interno dei villi, i vasi sanguigni del cordone ombelicale (due arterie e una vena) permettono uno scambio efficiente senza la mescolanza diretta dei flussi sanguigni materno e fetale.
 
 Oltre alla funzione nutritiva, la placenta protegge l'embrione grazie alla trasmissione degli anticorpi materni che conferiscono immunità passiva al feto fino a qualche mese dopo la nascita. Inoltre, secerne ormoni indispensabili per il mantenimento della gravidanza e il normale svolgimento del parto.
+
 #pagebreak()
-== Approfondimento : ciclo mestruale e ovulazione <senza_numero>
-
-Il ciclo mestruale è un meccanismo fisiologico delle donne in età fertile. È regolato da cambiamenti periodici nell'endometrio sotto l'influenza di vari ormoni prodotti dall'ipotalamo, dall'ipofisi e dalle ovaie. Generalmente ha una durata di circa 28 giorni ed è suddiviso in tre fasi principali: la fase proliferativa (dal 5º al 14º giorno), la fase premestruale o secretoria (dal 15º al 28º giorno) e la fase mestruale (dal 28º al 5º giorno). 
-
-Nella fase proliferativa avviene la produzione di follicoli da parte delle ovaie; tra questi, uno si sviluppa fino a maturare e rilasciare una cellula uovo. Durante questa fase, l'endometrio cresce progressivamente stimolato dagli estrogeni prodotti dal follicolo in maturazione, mentre l'ipofisi secerne gli ormoni follicolostimolante (FSH) e luteinizzante (LH) per incentivare questa produzione. La fase proliferativa culmina con l'ovulazione, cioè il rilascio della cellula uovo nella tuba di Falloppio quando il follicolo si rompe. In questo momento, la cellula uovo è pronta per essere fecondata.
-
-La fase premestruale, o secretoria, è caratterizzata dalla trasformazione del follicolo ormai vuoto in corpo luteo, che secerne grandi quantità di estrogeni e progesterone. Questi ormoni bloccano ulteriormente la produzione di FSH e LH, impedendo la formazione di nuovi follicoli. Parallelamente, l'endometrio sviluppa una rete estesa di vasi sanguigni per favorire l'annidamento della cellula uovo fecondata. Tuttavia, se la fecondazione non avviene, l'endometrio si degrada e i vasi sanguigni si rompono.
-
-Durante la fase mestruale, il miometrio si contrae per espellere i frammenti dell'endometrio e la cellula uovo non fecondata: questo processo prende il nome di mestruazione. Con il degrado del corpo luteo, ipotalamo e ipofisi tornano a produrre FSH e LH, riattivando così la maturazione di un nuovo follicolo e dando inizio a un nuovo ciclo mestruale.
-
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Annessi embrionari: Membrane prodotte dall'embrione che ne garantiscono nutrizione e protezione; includono corion, amnios, allantoide e sacco vitellino.  

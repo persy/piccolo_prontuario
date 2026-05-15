@@ -1,7 +1,7 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
-#evidenzia[Il pragmatismo è una corrente filosofica diffusasi ampiamente negli Stati Uniti tra la fine del XIX secolo e l'inizio del XX. Il termine "pragmatismo" sottolinea il principio fondamentale secondo cui il significato di un concetto o di una realtà è determinato dalla sua rilevanza pratica.
+#evidenzia[Il pragmatismo è una corrente filosofica diffusasi ampiamente negli Stati Uniti tra la fine del XIX secolo e l'inizio del XX. Il termine pragmatismo sottolinea il principio fondamentale secondo cui il significato di un concetto o di una realtà è determinato dalla sua rilevanza pratica.
 
 Nella sua formulazione iniziale, proposta da Charles Sanders Peirce, considerato il fondatore del movimento, il pragmatismo si pone come metodo per ottenere chiarezza linguistica e concettuale quando ci si confronta con questioni intellettuali. Con William James, che rielabora e amplia in senso etico e metafisico le tesi di Peirce, il pragmatismo si diffonde a tal punto da perdere la sua coesione originaria, trasformandosi da una scuola unitaria in un pensiero frammentato ma ricco di sfaccettature.
 
@@ -27,9 +27,9 @@ Peirce è considerato uno dei pionieri della logica formale contemporanea ed è 
 
 Peirce riconduce alla semiotica sia l'ontologia che la logica comune, sostenendo che ogni cosa è un segno nella misura in cui il suo essere si identifica con gli effetti che essa produce. Di conseguenza, tutte le cose sono intrecciate in un sistema di rimandi e hanno una ragione d'essere solo quando generano reazioni e interpretazioni. 
 
-La logica, secondo Peirce, è dunque la scienza che studia l'interpretazione dei segni. Questi ultimi sono concepiti come relazioni triadiche, poiché possiedono una _qualità materiale_ (ad esempio, il tessuto della bandierina che segnala il vento), una _connessione concreta_ con l'oggetto a cui si riferiscono (il movimento della bandierina in rapporto alla direzione del vento) e infine un _significato_. 
+La logica, secondo Peirce, è dunque la scienza che studia l'interpretazione dei segni. Questi ultimi sono concepiti come relazioni triadiche, poiché possiedono una "qualità materiale" (ad esempio, il tessuto della bandierina che segnala il vento), una "connessione concreta" con l'oggetto a cui si riferiscono (il movimento della bandierina in rapporto alla direzione del vento) e infine un "significato". 
 
-Il significato si manifesta nell'ambito dell'_interpretante_, ovvero quell'azione o comportamento che collega i primi due aspetti del segno e stabilisce che il primo elemento (la bandierina) "significa" il secondo (la direzione del vento). In questo modo l'uomo sviluppa un abito logico attraverso un processo di interpretazione potenzialmente infinito. Inoltre, l'uomo stesso può essere visto come un segno immerso in un universo di altri segni, coincidendo infine con il proprio linguaggio.
+Il significato si manifesta nell'ambito dell'"interpretante", ovvero quell'azione o comportamento che collega i primi due aspetti del segno e stabilisce che il primo elemento (la bandierina) "significa" il secondo (la direzione del vento). In questo modo l'uomo sviluppa un abito logico attraverso un processo di interpretazione potenzialmente infinito. Inoltre, l'uomo stesso può essere visto come un segno immerso in un universo di altri segni, coincidendo infine con il proprio linguaggio.
 
 == John Dewey
 
@@ -56,53 +56,39 @@ Di conseguenza, la verità non risiede nella corrispondenza tra idea e realtà, 
 Anche la volontà gioca un ruolo nel produrre convinzioni e credenze quando l'esperienza non offre risposte e la questione rimane aperta sul piano teorico. È il caso di temi come il senso ultimo della vita, l'esistenza di un'Intelligenza ordinatrice o la libertà umana.
 
 Secondo James, Dio collabora con l'uomo per migliorare il mondo, ma non è onnipotente e infinito; se lo fosse, non permetterebbe l'esistenza del male né sarebbe compatibile con l'esercizio della libera e attiva volontà umana. Il "migliorismo" proposto da James sostiene che la salvezza dell'universo possa essere raggiunta solo grazie alla cooperazione di tutte le sue componenti.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ Peirce: Peirce è riconosciuto come il padre del pragmatismo, definito da lui come dottrina del significato logico: il significato di un oggetto o di un concetto si identifica con il complesso di azioni di risposta che siamo disposti a intraprendere. 
 
-Peirce  
-Peirce è riconosciuto come il padre del pragmatismo, definito da lui come dottrina del significato logico: il significato di un oggetto o di un concetto si identifica con il complesso di azioni di risposta che siamo disposti a intraprendere.  
+  / Gli "abiti": Queste azioni sono chiamate abiti e rappresentano i segni del significato che attribuiamo alle cose; tali abiti vengono acquisiti attraverso il metodo della tenacia, il metodo dell'autorità e il metodo della scienza, quest'ultimo considerato l'unico realmente in armonia con la realtà. 
 
-Gli "abiti"  
-Queste azioni sono chiamate abiti e rappresentano i segni del significato che attribuiamo alle cose; tali abiti vengono acquisiti attraverso il metodo della tenacia, il metodo dell'autorità e il metodo della scienza, quest'ultimo considerato l'unico realmente in armonia con la realtà.  
+  / L'evoluzione dell'universo: Secondo Peirce, l'universo evolve da abiti effimeri e casuali fino alla piena realizzazione della verità, che si identifica con il Dio rivelato e compiuto. 
 
-L'evoluzione dell'universo  
-Secondo Peirce, l'universo evolve da abiti effimeri e casuali fino alla piena realizzazione della verità, che si identifica con il Dio rivelato e compiuto.  
+  / La semiotica: Peirce è anche il fondatore della semiotica, che ricomprende sia l'ontologia sia la logica ordinaria. Ogni cosa è un segno in quanto il suo essere si manifesta negli effetti che produce. 
 
-La semiotica  
-Peirce è anche il fondatore della semiotica, che ricomprende sia l'ontologia sia la logica ordinaria. Ogni cosa è un segno in quanto il suo essere si manifesta negli effetti che produce.  
+  / La logica: La logica viene definita la scienza dell'interpretazione dei segni, i quali costituiscono relazioni triadiche formate da una "qualità materiale", una "connessione di fatto" e un "significato". 
 
-La logica  
-La logica viene definita la scienza dell'interpretazione dei segni, i quali costituiscono relazioni triadiche formate da una "qualità materiale", una "connessione di fatto" e un "significato".  
+  / L'uomo è il suo linguaggio: Anche l'uomo è un segno all'interno di un universo di segni e si identifica con il proprio linguaggio. 
 
-L'uomo è il suo linguaggio  
-Anche l'uomo è un segno all'interno di un universo di segni e si identifica con il proprio linguaggio.  
+/ Dewey: Per Dewey, la realtà non presenta una struttura né obiettivi prestabiliti e immutabili; essa si configura come un'interazione tra uomo e natura che si realizza nell'esperienza. 
 
-Dewey  
-Per Dewey, la realtà non presenta una struttura né obiettivi prestabiliti e immutabili; essa si configura come un'interazione tra uomo e natura che si realizza nell'esperienza.  
+  / Conoscere = agire: Conoscere equivale ad agire per trasformare una condizione incerta e indeterminata in un sistema organizzato, volto a garantire maggiore sicurezza e stabilità. 
 
-Conoscere = agire  
-Conoscere equivale ad agire per trasformare una condizione incerta e indeterminata in un sistema organizzato, volto a garantire maggiore sicurezza e stabilità.  
+  / L'etica: Nell'ambito etico, Dewey respinge la distinzione tra mezzi e fini: l'essere umano non ha un fine ultimo, ma prova soddisfazione nella continua attività libera e intelligente. Gli obiettivi vengono valutati in base agli effetti che generano. 
 
-L'etica  
-Nell'ambito etico, Dewey respinge la distinzione tra mezzi e fini: l'essere umano non ha un fine ultimo, ma prova soddisfazione nella continua attività libera e intelligente. Gli obiettivi vengono valutati in base agli effetti che generano.  
+  / L'educazione: Così come l'intelligenza ha il compito incessante di riorganizzare l'esperienza, l'educazione svolge una funzione analoga nel passaggio tra generazioni, assicurando sia continuità sia cambiamento. 
 
-L'educazione  
-Così come l'intelligenza ha il compito incessante di riorganizzare l'esperienza, l'educazione svolge una funzione analoga nel passaggio tra generazioni, assicurando sia continuità sia cambiamento.  
+  / La critica alla scuola nozionistica: Dewey critica il modello di scuola tradizionale, nozionistica e basata sulla memorizzazione, proponendo invece una scuola pubblica e inclusiva, democratica e libertaria, strettamente connessa alla vita reale. 
 
-La critica alla scuola nozionistica  
-Dewey critica il modello di scuola tradizionale, nozionistica e basata sulla memorizzazione, proponendo invece una scuola pubblica e inclusiva, democratica e libertaria, strettamente connessa alla vita reale.  
+/ James: Nel pragmatismo James individua un metodo per interpretare il significato delle idee e delle teorie analizzando le loro implicazioni pratiche: se producono le medesime conseguenze pratiche, idee e teorie hanno lo stesso significato. 
 
-James  
-Nel pragmatismo James individua un metodo per interpretare il significato delle idee e delle teorie analizzando le loro implicazioni pratiche: se producono le medesime conseguenze pratiche, idee e teorie hanno lo stesso significato.  
+  / La verità: Per James, la verità consiste nel processo di verifica di una proposizione, che avviene attraverso i suoi riscontri pratici. 
 
-La verità  
-Per James, la verità consiste nel processo di verifica di una proposizione, che avviene attraverso i suoi riscontri pratici.  
+  / La volontà: La volontà interviene nella formazione delle convinzioni e delle credenze quando l'esperienza non offre un supporto sufficiente e la questione rimane aperta sul piano teorico. 
 
-La volontà  
-La volontà interviene nella formazione delle convinzioni e delle credenze quando l'esperienza non offre un supporto sufficiente e la questione rimane aperta sul piano teorico.  
-
-Il migliorismo  
-Il migliorismo sostiene che la salvezza dell'universo possa essere raggiunta solo grazie alla collaborazione di tutte le sue componenti, uomo e Dio inclusi.  
+  / Il migliorismo: Il migliorismo sostiene che la salvezza dell'universo possa essere raggiunta solo grazie alla collaborazione di tutte le sue componenti, uomo e Dio inclusi. 
 
 
 

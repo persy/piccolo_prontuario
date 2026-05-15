@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Gli atomi isolati sono generalmente instabili e tendono spontaneamente a combinarsi mediante legami chimici, formando molecole e strutture cristalline caratterizzate da una maggiore stabilità. Questo comportamento si spiega con la cosiddetta regola dell'ottetto.
 
@@ -21,9 +21,15 @@ Questa regola è valida per la maggior parte degli elementi rappresentativi appa
 
 La stabilità acquisita dagli atomi attraverso la formazione di un legame chimico viene descritta dall'energia di legame, che rappresenta la quantità di energia richiesta per scindere un determinato legame chimico. Essa viene comunemente espressa in kilocalorie per mole o kilojoule per mole.
 
-L'energia di legame è strettamente associata alle proprietà energetiche degli atomi coinvolti, determinate da valori come l'energia di ionizzazione e l'affinità elettronica.
+L'energia di legame è strettamente associata alle proprietà energetiche degli atomi coinvolti, determinate da valori come l'energia di ionizzazione e l'affinità elettronica. La distanza media che separa i nuclei di due atomi legati chimicamente è denominata distanza di legame.
 
-La distanza media che separa i nuclei di due atomi legati chimicamente è denominata distanza di legame.
+#note(bottom)[== *🧩* Distanza di legame e legge di Coulomb <senza_numero>
+
+La formazione di una molecola richiede che due o più atomi si avvicinino sufficientemente per superare le forze di repulsione che agiscono tra i rispettivi nuclei positivamente carichi e gli elettroni circostanti negativamente carichi.  
+
+L'intensità delle forze elettrostatiche, tanto attrattive quanto repulsive, dipende dal valore delle cariche elettriche coinvolte e dalla distanza reciproca, in accordo con la legge di Coulomb. Tale legge stabilisce che la forza di attrazione o repulsione ($F$) tra due cariche elettriche $q_1$ e $q_2$ è direttamente proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della loro distanza ($r$).  
+
+Per una determinata coppia di atomi appartenenti a una molecola, si individua una distanza specifica alla quale le forze attrattive e repulsive si equilibrano reciprocamente. Questa distanza, nota come distanza di legame, corrisponde in pratica alla separazione tra i nuclei degli atomi considerati. Il suo valore varia in funzione delle caratteristiche degli atomi coinvolti e del tipo di legame che si instaura tra di essi.  ]
 
 === Classificazione dei legami chimici
 
@@ -61,7 +67,7 @@ $ #skeletize({
  lewis-double(angle: -90deg)
  ))
 }) 
--->
+->
 "Na"^+
 #skeletize({
  fragment("Cl", lewis:(
@@ -80,6 +86,24 @@ Questi legami vengono rappresentati attraverso formule di struttura e schemi di 
 
 Esistono diverse tipologie di legami covalenti: il legame covalente puro (o omopolare), il legame covalente polare e il legame dativo. Il legame covalente puro, detto anche omopolare, si verifica tra atomi dello stesso elemento.
 
+#note(bottom)[== *🧩* Formule di struttura e formule di Lewis <senza_numero>
+
+Le formule di struttura risultano utili per illustrare il modo in cui gli atomi si legano all'interno di una molecola. In queste rappresentazioni grafiche, ogni legame chimico, corrispondente alla valenza degli atomi coinvolti, viene visualizzato tramite un trattino lineare.
+
+Le formule di Lewis, invece, enfatizzano il completamento dell'ottetto elettronico per ciascun atomo presente nella molecola, mediante le coppie di elettroni condivise nei legami chimici. Gli elettroni di valenza sono raffigurati come puntini disposti attorno al simbolo chimico dell'elemento, con una configurazione che consente agli elettroni condivisi di essere comuni agli atomi partecipanti al legame.
+
+// Tabella #TODO
+]
+
+#note(top)[== *🧩* Doppi e tripli legami <senza_numero>
+
+Il legame $pi$ (pi greco) si verifica esclusivamente in presenza di un legame $sigma$ (sigma) ed è fondamentale per la formazione di legami multipli. Questi includono doppi legami (un legame $sigma$ accompagnato da un legame $pi$) e tripli legami (un legame $sigma$ unito a due legami $pi$), come osservato in diverse molecole organiche in cui il carbonio assume un ruolo centrale.
+
+//#sidenote[#TODO[Immagine etilene]]
+Un esempio significativo di doppio legame è rappresentato dalla molecola di etilene ($"H"_2"C"="CH"_2$). Secondo la teoria del legame di valenza, ciascun atomo di carbonio nella molecola sviluppa tre orbitali ibridi $"sp"^2$ disposti su un piano con angoli di 120° tra loro. Questi orbitali formano tre legami $sigma$: due con gli atomi di idrogeno e uno con l'altro atomo di carbonio.
+
+La presenza del legame $pi$ introduce restrizioni alla libera rotazione intorno all'asse C—C, conferendo alla molecola una geometria planare in cui tutti e sei gli atomi dell'etilene giacciono sullo stesso piano. Al di sopra e al di sotto di tale piano si estendono le due nuvole elettroniche associate al legame $pi$.]
+#v(2em)
 Esempio:
 
 $ #skeletize({
@@ -93,7 +117,7 @@ $ #skeletize({
  lewis-single(angle: 90deg),
  ))
 }) 
---> 
+-> 
 #skeletize({
  fragment("H", lewis:(
  lewis-single(),
@@ -129,7 +153,7 @@ $ #skeletize({
  lewis-double(angle: -90deg)
  ))
 })
---> #skeletize({
+-> #skeletize({
  fragment("Cl", lewis:(
  lewis-single(),
  lewis-double(angle: 90deg),
@@ -180,7 +204,7 @@ $ #skeletize({
  lewis-single(angle: -90deg)
  ))
 })
---> #skeletize({
+-> #skeletize({
  fragment("O", lewis:(
  lewis-double(),
  lewis-double(angle: 90deg),
@@ -228,9 +252,9 @@ $ #skeletize({
  lewis-double(angle: -90deg)
  ))  
 })  
--->
-underbrace("H", delta +)
-underbrace(#skeletize({
+->
+underparen("H", delta +)
+underparen(#skeletize({
  fragment("Cl", lewis:(
  lewis-double(),
  lewis-double(angle: 90deg),
@@ -239,18 +263,18 @@ underbrace(#skeletize({
  ))  
 }), delta -)
 " oppure " 
-underbrace(#skeletize({
+underparen(#skeletize({
  fragment("H")
 }), delta +)
 bar.h
-underbrace(#skeletize({
+underparen(#skeletize({
  fragment("Cl")
 }), delta -)
 $
 
 Tuttavia, nelle molecole composte da più di due atomi, la semplice presenza di legami polari non è sufficiente a determinare se la molecola presenta un momento dipolare. Ciò dipende sia dai doppietti elettronici liberi che potrebbero essere presenti, sia dalla configurazione geometrica della molecola.
 
-Il legame covalente dativo, invece, si forma quando la coppia di elettroni che costituisce il legame proviene interamente da uno dei due atomi (l'atomo donatore) e viene "accolta" dall'altro atomo (l'atomo accettore). Un esempio è rappresentato dall'acido clorico, $"HClO"_3$, in cui l'atomo di cloro, fungendo da donatore, stabilisce legami dativi con due atomi di ossigeno che agiscono come accettori (tali legami sono rappresentati graficamente da una freccia $-->$ oppure  $#skeletize(
+Il legame covalente dativo, invece, si forma quando la coppia di elettroni che costituisce il legame proviene interamente da uno dei due atomi (l'atomo donatore) e viene "accolta" dall'altro atomo (l'atomo accettore). Un esempio è rappresentato dall'acido clorico, $"HClO"_3$, in cui l'atomo di cloro, fungendo da donatore, stabilisce legami dativi con due atomi di ossigeno che agiscono come accettori (tali legami sono rappresentati graficamente da una freccia $->$ oppure  $#skeletize(
 cram-filled-left())$ ).
 #import "@preview/alchemist:0.1.8": * // Alchemist formulae
 
@@ -513,7 +537,6 @@ Quando l'atomo centrale in una molecola presenta una o più coppie di elettroni 
 
 Un esempio tipico è dato dalla molecola dell'acqua ($"H"_2"O"$) e dall'ammoniaca ($"NH"_3$).
 
-#wideblock[
 #figure(
   caption: [Forma della molecola di alcuni composti],
   table(
@@ -561,7 +584,7 @@ Un esempio tipico è dato dalla molecola dell'acqua ($"H"_2"O"$) e dall'ammoniac
   )], [$"IF"_7$],
 )  
 )
-]
+
 == Risonanza e delocalizzazione degli elettroni
 
 Le molecole di alcuni composti possono essere rappresentate attraverso due o più formule strutturali differenti.  
@@ -651,44 +674,18 @@ Le interazioni tra molecole apolari sono legate alla formazione di dipoli istant
 
 Il legame a idrogeno consiste in un'attrazione elettrostatica tra un atomo di idrogeno covalentemente legato a un elemento di dimensioni ridotte e altamente elettronegativo (quali fluoro, ossigeno o azoto) e un altro atomo analogo appartenente a una molecola vicina.  
 
-Questo tipo di legame è caratteristico di molecole fortemente polari come il fluoruro di idrogeno ($"HF"$), l'acqua ($"H"_2"O"$) e l'ammoniaca ($"NH"_3$). Le peculiari proprietà chimico-fisiche dell'acqua derivano dalla capacità delle sue molecole di instaurare legami a idrogeno con le molecole circostanti.  
-#pagebreak()
-== Approfondimenti <senza_numero>
+Questo tipo di legame è caratteristico di molecole fortemente polari come il fluoruro di idrogeno ($"HF"$), l'acqua ($"H"_2"O"$) e l'ammoniaca ($"NH"_3$). Le peculiari proprietà chimico-fisiche dell'acqua derivano dalla capacità delle sue molecole di instaurare legami a idrogeno con le molecole circostanti. 
 
-=== Distanza di legame e legge di Coulomb <senza_numero>
-
-La formazione di una molecola richiede che due o più atomi si avvicinino sufficientemente per superare le forze di repulsione che agiscono tra i rispettivi nuclei positivamente carichi e gli elettroni circostanti negativamente carichi.  
-
-L'intensità delle forze elettrostatiche, tanto attrattive quanto repulsive, dipende dal valore delle cariche elettriche coinvolte e dalla distanza reciproca, in accordo con la legge di Coulomb. Tale legge stabilisce che la forza di attrazione o repulsione ($F$) tra due cariche elettriche $q_1$ e $q_2$ è direttamente proporzionale al prodotto delle cariche e inversamente proporzionale al quadrato della loro distanza ($r$).  
-
-Per una determinata coppia di atomi appartenenti a una molecola, si individua una distanza specifica alla quale le forze attrattive e repulsive si equilibrano reciprocamente. Questa distanza, nota come distanza di legame, corrisponde in pratica alla separazione tra i nuclei degli atomi considerati. Il suo valore varia in funzione delle caratteristiche degli atomi coinvolti e del tipo di legame che si instaura tra di essi.  
-
-=== Formule di struttura e formule di Lewis <senza_numero>
-
-Le formule di struttura risultano utili per illustrare il modo in cui gli atomi si legano all'interno di una molecola. In queste rappresentazioni grafiche, ogni legame chimico, corrispondente alla valenza degli atomi coinvolti, viene visualizzato tramite un trattino lineare.
-
-Le formule di Lewis, invece, enfatizzano il completamento dell'ottetto elettronico per ciascun atomo presente nella molecola, mediante le coppie di elettroni condivise nei legami chimici. Gli elettroni di valenza sono raffigurati come puntini disposti attorno al simbolo chimico dell'elemento, con una configurazione che consente agli elettroni condivisi di essere comuni agli atomi partecipanti al legame.
-
-// Tabella
-
-=== Doppi e tripli legami <senza_numero>
-
-Il legame $pi$ (pi greco) si verifica esclusivamente in presenza di un legame $sigma$ (sigma) ed è fondamentale per la formazione di legami multipli. Questi includono doppi legami (un legame $sigma$ accompagnato da un legame $pi$) e tripli legami (un legame $sigma$ unito a due legami $pi$), come osservato in diverse molecole organiche in cui il carbonio assume un ruolo centrale.
-
-#TODO[Immagine etilene]
-
-Un esempio significativo di doppio legame è rappresentato dalla molecola di etilene ($"H"_2"C"="CH"_2$). Secondo la teoria del legame di valenza, ciascun atomo di carbonio nella molecola sviluppa tre orbitali ibridi $"sp"^2$ disposti su un piano con angoli di 120° tra loro. Questi orbitali formano tre legami $sigma$: due con gli atomi di idrogeno e uno con l'altro atomo di carbonio.
-
-La presenza del legame $pi$ introduce restrizioni alla libera rotazione intorno all'asse C—C, conferendo alla molecola una geometria planare in cui tutti e sei gli atomi dell'etilene giacciono sullo stesso piano. Al di sopra e al di sotto di tale piano si estendono le due nuvole elettroniche associate al legame $pi$.
-
-=== Influenza dei legami a idrogeno su alcune proprietà chimico-fisiche dell'acqua <senza_numero>
+#note(top)[== *🧩* Influenza dei legami a idrogeno su alcune proprietà chimico-fisiche dell'acqua <senza_numero>
 
 Punto di ebollizione: Sotto una pressione atmosferica di 760 mmHg, l'acqua passa allo stato gassoso a 100 °C. In assenza dei legami a idrogeno, tuttavia, si stima che il punto di ebollizione sarebbe significativamente più basso, circa −80 °C. La presenza dei legami a idrogeno richiede una notevole quantità di energia per separare le molecole d'acqua e consentire il passaggio allo stato aeriforme.
 
 Punto di fusione o solidificazione: Sempre a 760 mmHg, l'acqua solida trasforma nello stato liquido a 0 °C. Senza i legami a idrogeno, il punto di fusione sarebbe approssimativamente −95 °C. Il ghiaccio possiede un elevato calore latente di fusione poiché necessita di grande energia per rompere i legami che mantengono le sue molecole in una disposizione cristallina ordinata. Inoltre, queste molecole occupano un volume maggiore rispetto alla loro disposizione nell'acqua liquida, motivo per cui il ghiaccio ha una densità inferiore e tende a galleggiare. Questo fenomeno è cruciale per la sopravvivenza degli ecosistemi acquatici, soprattutto in condizioni climatiche fredde.
 
-Densità: L'acqua raggiunge la sua densità massima, pari a circa 1 g/cm³, a una temperatura prossima ai 4 °C (3,98 °C). Al di sotto dei 4 °C e fino a 0 °C, la densità diminuisce progressivamente; con la formazione del ghiaccio, si osserva un ulteriore calo brusco fino a circa 0,92 g/cm³, dovuto alla riorganizzazione molecolare nella struttura cristallina del ghiaccio. Questo comportamento anomalo della densità è direttamente correlato alla disposizione ordinata delle molecole nel reticolo cristallino e riveste un'importanza essenziale nel mantenimento della vita acquatica al di sotto delle superfici ghiacciate.
+Densità: L'acqua raggiunge la sua densità massima, pari a circa 1 g/cm³, a una temperatura prossima ai 4 °C (3,98 °C). Al di sotto dei 4 °C e fino a 0 °C, la densità diminuisce progressivamente; con la formazione del ghiaccio, si osserva un ulteriore calo brusco fino a circa 0,92 g/cm³, dovuto alla riorganizzazione molecolare nella struttura cristallina del ghiaccio. Questo comportamento anomalo della densità è direttamente correlato alla disposizione ordinata delle molecole nel reticolo cristallino e riveste un'importanza essenziale nel mantenimento della vita acquatica al di sotto delle superfici ghiacciate.]
 
+#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
 == Glossario <senza_numero>
 
 / Legame chimico: Forza attrattiva che permette agli atomi di unirsi per formare strutture più stabili.  
@@ -696,15 +693,15 @@ Densità: L'acqua raggiunge la sua densità massima, pari a circa 1 g/cm³, a un
 / Valenza: Numero di elettroni coinvolti da un atomo nella formazione dei legami chimici. 
 
 / Legami forti: Legami che impegnano gli elettroni di valenza e comprendono:  
-- Legame ionico. Attrazione elettrostatica tra ioni con cariche opposte;  
-- Legame covalente. Condivisione di elettroni, che può essere omopolare, polare o dativo;  
-- Legame metallico. Ioni positivi mantenuti insieme da una nube elettronica costituita dagli elettroni di valenza.
+  - Legame ionico. Attrazione elettrostatica tra ioni con cariche opposte;  
+  - Legame covalente. Condivisione di elettroni, che può essere omopolare, polare o dativo;  
+  - Legame metallico. Ioni positivi mantenuti insieme da una nube elettronica costituita dagli elettroni di valenza.
 
 / Legami deboli: Interazioni basate su attrazioni elettrostatiche tra molecole o tra ioni e molecole.
 
 / Orbitali nelle molecole:  
-+ Teoria del legame di valenza: sovrapposizione degli orbitali atomici;  
-+ Teoria degli orbitali molecolari: formazione di orbitali nuovi appartenenti all'intera molecola. 
+  + Teoria del legame di valenza: sovrapposizione degli orbitali atomici;  
+  + Teoria degli orbitali molecolari: formazione di orbitali nuovi appartenenti all'intera molecola. 
 
 / Forma delle molecole: Disposizione geometrica che minimizza le repulsioni tra le coppie di elettroni intorno a un atomo centrale.  
 

@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Le onde elettromagnetiche nascono dall'interazione tra campi elettrici e campi magnetici variabili, come previsto dalla teoria ideata da Maxwell. Queste onde si propagano anche nello spazio vuoto alla straordinaria velocità di circa 300.000 km/s.  
 
@@ -23,9 +23,13 @@ Queste onde sono di tipo trasversale perché i campi elettrici e magnetici oscil
 
 Basandosi su calcoli teorici, Maxwell arrivò alla conclusione che la velocità di propagazione delle onde elettromagnetiche nel vuoto fosse di circa 300.000 km/s, corrispondente alla velocità della luce nel vuoto, un dato già noto in quel periodo. Questa osservazione lo condusse a ipotizzare che la luce stessa fosse una forma particolare di onda elettromagnetica.
 
-Oggi sappiamo che l'intuizione di Maxwell era corretta: le onde elettromagnetiche comprendono un'ampia gamma di tipi di onde oltre a quelle luminose, ogni tipo differente per lunghezza d'onda e quindi frequenza. Questi parametri sono legati dalla relazione universale delle onde, dove la velocità di propagazione (v) è determinata dal mezzo in cui si diffondono.
+Oggi sappiamo che l'intuizione di Maxwell era corretta: le onde elettromagnetiche comprendono un'ampia gamma di tipi di onde oltre a quelle luminose, ogni tipo differente per lunghezza d'onda (λ) e quindi frequenza (_ν_). Questi parametri sono legati dalla relazione universale delle onde, dove la velocità di propagazione (_v_) è determinata dal mezzo in cui si diffondono.
 
-La velocità delle onde elettromagnetiche varia in base al mezzo in cui si propagano: nel vuoto essa è pari a circa 2,9979 x 10⁸ m/s, mentre nell'aria si riduce di circa l'1% e nel vetro scende fino a circa 10⁸ m/s.
+$ 
+  nu = v/lambda
+$
+
+La velocità delle onde elettromagnetiche varia in base al mezzo in cui si propagano: nel vuoto essa è pari a circa 2,9979 x 10#super[8] m/s, mentre nell'aria si riduce di circa l'1% e nel vetro scende fino a circa 10#super[8] m/s.
 
 Come tutte le altre tipologie di onde, anche le onde elettromagnetiche sono soggette ai fenomeni di riflessione, rifrazione, diffrazione e interferenza. Non trasportano materia, bensì energia sotto forma di energia elettromagnetica, o radiante, che viene trasferita in quantità proporzionali alla frequenza dell'onda.
 
@@ -38,23 +42,40 @@ L'intera gamma delle onde elettromagnetiche di differenti frequenze (e lunghezze
 La varietà di frequenze comporta comportamenti diversi nelle interazioni con la materia, influenzando così gli utilizzi e le applicazioni tecnologiche delle onde elettromagnetiche. Queste vengono anche definite radiazioni elettromagnetiche per il fatto che irradiano energia mentre si propagano.
 
 Procedendo lungo lo spettro elettromagnetico con frequenze decrescenti si incontrano:  
+- raggi gamma, con frequenze dell'ordine delle centinaia di miliardi di GHz, emessi dai nuclei di elementi radioattivi;  
+- raggi X, con frequenze fino a circa 10#super[7] GHz;  
+- raggi ultravioletti, di frequenza compresa tra 10#super[7] GHz e 7,5 x 10#super[5] GHz;  
+- radiazione visibile, ovvero la luce percepibile dagli occhi umani, che costituisce una piccola porzione dello spettro elettromagnetico, con frequenze tra 7,5 x 10#super[5] GHz e 4,1 x 10#super[5] GHz;  
+- radiazione infrarossa, con frequenze tra 4,1 x 10#super[5] GHz e 3 x 10#super[2] GHz;  
+- onde radio, caratterizzate da un vasto intervallo di frequenze, che va da circa 300 GHz a 300 Hz, corrispondenti a lunghezze d'onda che possono variare da 1 mm a circa 1000 km.  
 
-- Raggi gamma, con frequenze dell'ordine delle centinaia di miliardi di GHz, emessi dai nuclei di elementi radioattivi;  
-- Raggi X, con frequenze fino a circa 10⁷ GHz;  
-- Raggi ultravioletti, di frequenza compresa tra 10⁷ GHz e 7,5 x 10⁵ GHz;  
-- Radiazione visibile, ovvero la luce percepibile dagli occhi umani, che costituisce una piccola porzione dello spettro elettromagnetico, con frequenze tra 7,5 x 10⁵ GHz e 4,1 x 10⁵ GHz;  
-- Radiazione infrarossa, con frequenze tra 4,1 x 10⁵ GHz e 3 x 10² GHz;  
-- Onde radio, caratterizzate da un vasto intervallo di frequenze, che va da circa 300 GHz a 300 Hz, corrispondenti a lunghezze d'onda che possono variare da 1 mm a circa 1000 km.  
+Tutte le onde elettromagnetiche sono generate da cariche accelerate. La lunghezza d'onda dipende dalla dimensione della sorgente emissiva: più piccolo è il dispositivo di emissione, minore sarà la lunghezza d'onda prodotta. Per questo motivo, le onde radio—che occupano la parte dello spettro caratterizzata dalle maggiori lunghezze d'onda—richiedono dispositivi elettronici e antenne di grande dimensioni per essere generate. Al contrario, radiazioni infrarosse, visibili e ultraviolette sono create all'interno di molecole e atomi, mentre le radiazioni gamma si originano nei nuclei atomici.
 
-Tutte le onde elettromagnetiche sono generate da cariche accelerate. La lunghezza d'onda dipende dalla dimensione della sorgente emissiva: più piccolo è il dispositivo di emissione, minore sarà la lunghezza d'onda prodotta.
+#note(bottom)[== *🧩* La produzione di onde elettromagnetiche <senza_numero>
 
-Per questo motivo, le onde radio—che occupano la parte dello spettro caratterizzata dalle maggiori lunghezze d'onda—richiedono dispositivi elettronici e antenne di grande dimensioni per essere generate. Al contrario, radiazioni infrarosse, visibili e ultraviolette sono create all'interno di molecole e atomi, mentre le radiazioni gamma si originano nei nuclei atomici.
+A causa della loro lunga lunghezza d'onda, le onde radio non vengono ostacolate nel loro percorso da oggetti di dimensioni medie, come edifici o alberi, sebbene possano essere bloccate da strutture più imponenti come montagne, che causano zone d'ombra. Esse possono propagarsi su grandi distanze grazie alla capacità di essere riflesse dagli strati ionizzati dell'atmosfera.
 
-I raggi γ e i raggi X si trovano nella parte dello spettro elettromagnetico caratterizzata da lunghezze d'onda più brevi e frequenze più elevate. I raggi γ, con lunghezze d'onda inferiori a 10⁻¹² m e frequenze superiori a 3×10⁹ GHz, vengono emessi durante processi di trasformazione nucleare e di decadimento radioattivo. Queste radiazioni sono estremamente penetranti, trasportano grandi quantità di energia e risultano molto pericolose per gli esseri viventi, poiché possono ionizzare gli atomi che compongono i tessuti biologici.
+I ripetitori giocano un ruolo fondamentale nel processo di trasmissione. Essi intercettano le onde radio e le riemettono dopo averle amplificate nuovamente, al fine di garantire che il segnale possa raggiungere distanze considerevoli mantenendo una potenza efficace.
+
+Con l'aumento significativo del traffico radio, si è reso necessario il ricorso a ripetitori collocati su satelliti geostazionari. Questi satelliti, orbitando nello spazio alla stessa velocità di rotazione della Terra, mantengono costantemente sotto osservazione la medesima area geografica.
+
+Le frequenze impiegate nelle radiocomunicazioni coprono un intervallo tra 3 kHz e 300 GHz e sono suddivise in bande specifiche. Le onde a bassa frequenza (Low Frequency, LF), che oscillano tra 30 e 300 kHz, trovano principalmente utilizzo nella navigazione aerea e navale. Le onde medie (Medium Frequency, MF), con frequenze comprese tra 300 kHz e 3 MHz, sono sfruttate per la radiodiffusione a modulazione di ampiezza. Le onde corte (High Frequency, HF), che vanno da 3 MHz a 30 MHz, sono utilizzate per le telecomunicazioni satellitari. Le onde ultracorte (Very High Frequency, VHF), con frequenze tra 30 MHz e 300 MHz, e le microonde (Ultra High Frequency, UHF) sono impiegate per vari scopi, tra cui trasmissioni radiofoniche e televisive, comunicazioni da mezzi mobili e radar.
+
+Le frequenze dedicate ai diversi servizi di radiocomunicazione sono stabilite su scale internazionali e sono distribuite in modo da ridurre al minimo interferenze o sovrapposizioni tra i segnali. Il tipo più basilare di antenna, noto come dipolo semplice, è costituito da un conduttore lineare. Questo tipo include, ad esempio, le antenne utilizzate per autoradio e telefoni cellulari.  
+
+Le dimensioni di un'antenna influenzano la lunghezza d'onda della radiazione elettromagnetica che si intende generare: quanto più breve è la lunghezza d'onda desiderata, tanto minori dovranno essere le dimensioni dell'antenna. Viceversa, lunghezze d'onda molto ampie richiedono antenne di dimensioni considerevoli, che nelle onde lunghe possono raggiungere anche diversi metri.  
+
+La lunghezza di un'antenna lineare, in genere, deve corrispondere a metà della lunghezza d'onda che si desidera produrre. Per la ricezione di onde elettromagnetiche si utilizzano antenne riceventi, anche queste composte da uno o più conduttori. Quando tali conduttori sono attraversati da un fascio di onde elettromagnetiche, generano correnti che vengono rilevate e amplificate, consentendo la riproduzione del segnale.  
+
+Oltre alle antenne costituite da conduttori lineari, esistono altre tipologie, come le antenne a paraboloide dotate di riflettori parabolici, largamente impiegate per la produzione e ricezione di microonde. Vi sono anche antenne multi-elemento, come quelle utilizzate per la ricezione delle immagini televisive. ]
+
+== I raggi γ e i raggi X
+
+I raggi γ e i raggi X si trovano nella parte dello spettro elettromagnetico caratterizzata da lunghezze d'onda più brevi e frequenze più elevate. I raggi γ, con lunghezze d'onda inferiori a 10#super[12] m e frequenze superiori a 3×10#super[9] GHz, vengono emessi durante processi di trasformazione nucleare e di decadimento radioattivo. Queste radiazioni sono estremamente penetranti, trasportano grandi quantità di energia e risultano molto pericolose per gli esseri viventi, poiché possono ionizzare gli atomi che compongono i tessuti biologici.
 
 I raggi X, invece, furono scoperti nel 1895 dallo scienziato tedesco Wilhelm Roentgen (1845-1923) in modo accidentale. Durante un esperimento nel quale accelerava un fascio di elettroni all'interno di un tubo a vuoto applicando una forte differenza di potenziale agli elettrodi, notò che quando gli elettroni colpivano l'anodo metallico, il tubo emetteva una luce che attribuì a una radiazione sconosciuta, che chiamò "X". Oggi sappiamo che i raggi X sono onde elettromagnetiche generate dagli elettroni accelerati da differenze di potenziale superiori a 20.000 V, che, impattando con la materia, producono questa radiazione.
 
-Questi raggi hanno lunghezze d'onda comprese tra 10⁻⁸ e 10⁻¹² m (frequenze tra circa 10¹¹ GHz e 10⁷ GHz) e possiedono una grande capacità di penetrazione. Ciò permette loro di impressionare lastre fotografiche e li rende strumenti fondamentali in ambito diagnostico. Grazie alla loro natura, infatti, i tessuti molli del corpo lasciano passare i raggi X, mentre le ossa li assorbono, consentendo la creazione di immagini radiografiche utili per lo studio della struttura ossea. La prima radiografia della storia fu eseguita proprio da Roentgen sulla mano di sua moglie.
+Questi raggi hanno lunghezze d'onda comprese tra 10#super[-8] e 10#super[-12] m (frequenze tra circa 10#super[11] GHz e 10#super[7] GHz) e possiedono una grande capacità di penetrazione. Ciò permette loro di impressionare lastre fotografiche e li rende strumenti fondamentali in ambito diagnostico. Grazie alla loro natura, infatti, i tessuti molli del corpo lasciano passare i raggi X, mentre le ossa li assorbono, consentendo la creazione di immagini radiografiche utili per lo studio della struttura ossea. La prima radiografia della storia fu eseguita proprio da Roentgen sulla mano di sua moglie.
 
 Tuttavia, i raggi X presentano anche una significativa capacità ionizzante e possono danneggiare le cellule, motivo per cui il loro utilizzo deve essere controllato e limitato.
 
@@ -108,29 +129,34 @@ Le frequenze impiegate nelle radiocomunicazioni coprono un intervallo tra 3 kHz 
 
 Le frequenze dedicate ai diversi servizi di radiocomunicazione sono stabilite su scale internazionali e sono distribuite in modo da ridurre al minimo interferenze o sovrapposizioni tra i segnali.
 
-== Approfo. La produzione di onde elettromagnetiche
+#figure(
+  caption: [Spettro delle frequenze più utilizzate.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (5),
+  table.header[Tipologia][Nome][Gamma di frequenze][Gamma di \ lunghezze d'onda][Utilizzi],
+  [Bassa frequenza o Low Frequency (LF)],[onde lunghe o chilometriche], [da 30 a 300 kHz], [da 10 km a 1 km], [applicazioni speciali], 
+  [Media frequenza o Medium Frequency (MF)], [onde medie o ettometriche], [da 300 kHz  a 3 MHz], [da 1 km a 100 m], [radiodiffusione  a modulazione
+  di ampiezza e radiofari],
+  [Alta frequenza  o High Frequency (HF)], [onde corte o decametriche], [da 3 MHz  a 30 MHz], [da 100 m   a 10 m], [comunicazioni a grandi  e grandissime distanze],
+  [Altissima frequenza  o Very High Frequency (VHF)], [onde ultracorte o metriche], [da 30 MHz  a 300 MHz], [da 10 m  a 1 m], [televisione, radiodiffusione a modulazione di frequenza, ponti radio, radar],
+  [Frequenza ultra alta  o Ultra High Frequency (UHF)], [microonde o onde decimetriche], [da 300 MHz  a 3 GHz], [da 1 m  a 10 cm]
+)  
+)
 
-A causa della loro lunga lunghezza d'onda, le onde radio non vengono ostacolate nel loro percorso da oggetti di dimensioni medie, come edifici o alberi, sebbene possano essere bloccate da strutture più imponenti come montagne, che causano zone d'ombra. Esse possono propagarsi su grandi distanze grazie alla capacità di essere riflesse dagli strati ionizzati dell'atmosfera.
-
-I ripetitori giocano un ruolo fondamentale nel processo di trasmissione. Essi intercettano le onde radio e le riemettono dopo averle amplificate nuovamente, al fine di garantire che il segnale possa raggiungere distanze considerevoli mantenendo una potenza efficace.
-
-Con l'aumento significativo del traffico radio, si è reso necessario il ricorso a ripetitori collocati su satelliti geostazionari. Questi satelliti, orbitando nello spazio alla stessa velocità di rotazione della Terra, mantengono costantemente sotto osservazione la medesima area geografica.
-
-Le frequenze impiegate nelle radiocomunicazioni coprono un intervallo tra 3 kHz e 300 GHz e sono suddivise in bande specifiche. Le onde a bassa frequenza (Low Frequency, LF), che oscillano tra 30 e 300 kHz, trovano principalmente utilizzo nella navigazione aerea e navale. Le onde medie (Medium Frequency, MF), con frequenze comprese tra 300 kHz e 3 MHz, sono sfruttate per la radiodiffusione a modulazione di ampiezza. Le onde corte (High Frequency, HF), che vanno da 3 MHz a 30 MHz, sono utilizzate per le telecomunicazioni satellitari. Le onde ultracorte (Very High Frequency, VHF), con frequenze tra 30 MHz e 300 MHz, e le microonde (Ultra High Frequency, UHF) sono impiegate per vari scopi, tra cui trasmissioni radiofoniche e televisive, comunicazioni da mezzi mobili e radar.
-
-Le frequenze dedicate ai diversi servizi di radiocomunicazione sono stabilite su scale internazionali e sono distribuite in modo da ridurre al minimo interferenze o sovrapposizioni tra i segnali.
-
-Il tipo più basilare di antenna, noto come dipolo semplice, è costituito da un conduttore lineare. Questo tipo include, ad esempio, le antenne utilizzate per autoradio e telefoni cellulari.  
-
-Le dimensioni di un'antenna influenzano la lunghezza d'onda della radiazione elettromagnetica che si intende generare: quanto più breve è la lunghezza d'onda desiderata, tanto minori dovranno essere le dimensioni dell'antenna.  
-
-Viceversa, lunghezze d'onda molto ampie richiedono antenne di dimensioni considerevoli, che nelle onde lunghe possono raggiungere anche diversi metri.  
-
-La lunghezza di un'antenna lineare, in genere, deve corrispondere a metà della lunghezza d'onda che si desidera produrre. Per la ricezione di onde elettromagnetiche si utilizzano antenne riceventi, anche queste composte da uno o più conduttori. Quando tali conduttori sono attraversati da un fascio di onde elettromagnetiche, generano correnti che vengono rilevate e amplificate, consentendo la riproduzione del segnale.  
-
-Oltre alle antenne costituite da conduttori lineari, esistono altre tipologie, come le antenne a paraboloide dotate di riflettori parabolici, largamente impiegate per la produzione e ricezione di microonde. Vi sono anche antenne multi-elemento, come quelle utilizzate per la ricezione delle immagini televisive.  
-
-== Approf. L'effetto serra
+#note(bottom)[== *🧩* L'effetto serra <senza_numero>
 
 La Terra riceve energia dal Sole sotto forma di radiazione elettromagnetica. La superficie solare, con una temperatura di circa 6000 °C, emette radiazioni principalmente nella gamma del visibile e dell'ultravioletto.  
 
@@ -150,9 +176,29 @@ L'effetto serra naturale è quindi essenziale per garantire il mantenimento dell
 
 Molti scienziati ritengono che questa crescita possa intensificare l'effetto serra, causando un aumento della temperatura media globale. Tra le conseguenze previste ci sono lo scioglimento dei ghiacciai perenni e l'innalzamento del livello dei mari.  
 
-Il termine "effetto serra" deriva da una similitudine con ciò che avviene all'interno di una vera serra: mentre la radiazione visibile attraversa liberamente gli strati atmosferici più bassi, quella infrarossa rimane intrappolata, provocando un riscaldamento dello spazio circostante.  
+Il termine "effetto serra" deriva da una similitudine con ciò che avviene all'interno di una vera serra: mentre la radiazione visibile attraversa liberamente gli strati atmosferici più bassi, quella infrarossa rimane intrappolata, provocando un riscaldamento dello spazio circostante.  ]
 
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
+/ Microonde: Le microonde rappresentano una specifica tipologia di onde radio caratterizzate da alta frequenza, generalmente superiore a 300 MHz. Esse trovano applicazione predominante nelle comunicazioni satellitari e nei sistemi radar.
+
+/ Onda elettromagnetica: Un'onda elettromagnetica è una perturbazione generata da cariche elettriche oscillanti, che producono un campo elettrico e magnetico variabile, correlati tra loro. Queste onde si propagano nello spazio assumendo la forma di oscillazioni e viaggiano nel vuoto alla velocità di circa 300.000 km/s. Il loro comportamento è descritto matematicamente dalle equazioni di Maxwell.
+
+/ Onde radio: Le onde radio sono radiazioni elettromagnetiche con frequenze che non superano il gigahertz (GHz). Sono comunemente impiegate nel settore delle telecomunicazioni, in particolar modo per la trasmissione telefonica, televisiva e radiofonica.
+
+/ Radiazione infrarossa: La radiazione infrarossa comprende un insieme di radiazioni elettromagnetiche con frequenze comprese tra 4,14 × 10⁵ GHz e circa 10² GHz. Tali radiazioni sono emesse da corpi aventi temperature superiori allo zero assoluto.
+
+/ Radiazione ultravioletta: La radiazione ultravioletta include radiazioni elettromagnetiche con frequenze comprese tra 10⁷ GHz e 7,5 × 10⁵ GHz. Essa è presente anche nella luce solare e possiede sufficiente energia per interagire con la materia organica, contribuendo a processi come l'abbronzatura.
+
+/ Radiazione visibile: La radiazione visibile consiste in quella porzione dello spettro elettromagnetico a cui l'occhio umano è sensibile. Le lunghezze d'onda di questa radiazione variano tra i 400 nm e i 750 nm.
+
+/ Raggi gamma: I raggi gamma sono radiazioni elettromagnetiche caratterizzate da frequenze superiori a 3 × 10⁹ GHz. Essi vengono emessi dai nuclei atomici di determinate sostanze durante processi di transizione nucleare o decadimento.
+
+/ Raggi X: I raggi X sono generati dall'accelerazione di elettroni attraverso differenze di potenziale superiori a 20.000 V che, impattando contro la materia, producono radiazioni. Essi possiedono frequenze comprese tra circa 10¹¹ GHz e 10⁷ GHz e sono noti per la loro notevole capacità di penetrazione.
+
+/ Spettro elettromagnetico: Lo spettro elettromagnetico rappresenta l'intero intervallo delle frequenze a cui possono manifestarsi le onde elettromagnetiche, includendo tutte le tipologie descritte sopra.
 
 
 

@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Nell'affermarsi come nuova religione, il cristianesimo esercita un'influenza profonda sulla filosofia, introducendo concetti originali e nuovi stimoli che mirano a definire, anche in termini razionali, le principali verità di fede. 
 
@@ -22,9 +22,9 @@ Non si può negare che il cristianesimo, pur mantenendo i suoi obiettivi spiritu
 + la teoria della creazione del mondo dal nulla, considerata irrealizzabile dalla filosofia classica;
 + la centralità dell'uomo, portatore di un principio divino (la somiglianza con Dio) che va oltre la semplice razionalità e lo pone al di sopra di tutti gli altri esseri.
 
-Tra i quattro Vangeli, quello di Giovanni si distingue per la ricchezza di riferimenti filosofici. Giovanni parla di Cristo come Lógos, un concetto cardine della speculazione greco-ellenistica; tuttavia, contrariamente alla visione classica, attribuisce al Lógos una dimensione storica e umana piuttosto che astratta e simbolica.
+Tra i quattro Vangeli, quello di Giovanni si distingue per la ricchezza di riferimenti filosofici. Giovanni parla di Cristo come _Lógos_, un concetto cardine della speculazione greco-ellenistica; tuttavia, contrariamente alla visione classica, attribuisce al _Lógos_ una dimensione storica e umana piuttosto che astratta e simbolica.
 
-Giovanni enfatizza l'identità tra la figura storica di Gesù, il Lógos capace di operare miracoli e suscitare risposte umane, e il Lógos come parola divina creatrice e fonte di autocomunicazione. Questo concetto sarà centrale nella riflessione dei Padri della Chiesa, consentendo loro un'interazione ancora più profonda tra la filosofia greca e il messaggio cristiano.
+Giovanni enfatizza l'identità tra la figura storica di Gesù, il _Lógos_ capace di operare miracoli e suscitare risposte umane, e il _Lógos_ come parola divina creatrice e fonte di autocomunicazione. Questo concetto sarà centrale nella riflessione dei Padri della Chiesa, consentendo loro un'interazione ancora più profonda tra la filosofia greca e il messaggio cristiano.
 
 == La dottrina cristiana e i Padri della Chiesa
 
@@ -43,14 +43,15 @@ Il periodo dei Padri apologisti, che si inserisce nel II secolo, è caratterizza
 Infine, la patristica, che abbraccia un periodo compreso tra il III e l'VIII secolo, si dedica alla sistematizzazione e razionalizzazione delle verità di fede attraverso l'utilizzo dell'apparato concettuale derivato dal platonismo. Essa trova il suo principale centro intellettuale nella scuola di Alessandria d'Egitto, luogo di interazione tra culture diverse. Tra i suoi esponenti più rilevanti si annoverano Clemente d'Alessandria (II-III secolo) e Origene (185-253), figure che contribuiscono significativamente allo sviluppo del pensiero cristiano. 
 
 Clemente enfatizza la supremazia della sapienza cristiana rispetto a ogni altra forma di conoscenza, sostenendo che il cristianesimo costituisca il compimento naturale e il risultato ultimo della filosofia greca. Origene, proseguendo l'approccio allegorico all'interpretazione delle Scritture, inaugurato da Filone di Alessandria, approfondisce un'esegesi analitica dei testi biblici, rifiutando la validità del significato meramente letterale. Sul piano teologico, Origene tende a concepire la Trinità come una struttura gerarchica discendente di matrice neoplatonica, dove il Padre occupa una posizione superiore rispetto al Figlio, il quale, a sua volta, è sovraordinato allo Spirito Santo.
-
+#note(bottom)[Filone di Alessandria, filosofo ebreo vissuto tra il I secolo a.C. e il I secolo d.C., si distingue per essere stato il primo a sviluppare un'applicazione sistematica del metodo allegorico-filosofico nell'interpretazione della Bibbia, traendone implicazioni anche di carattere filosofico. Egli concepiva la filosofia come un supporto subordinato alla teologia, adattandone le dottrine in funzione dei valori religiosi. In ambito teologico, innovò in modo significativo la dottrina platonica, in particolare rispetto alla relazione tra Dio e le Idee, interpretando queste ultime come pensieri divini.]
 Nel corso dei secoli IV e V, i Padri della Chiesa e i primi concili ecumenici si concentrano progressivamente nella delineazione delle verità di fede ortodosse, rispondendo alla proliferazione di dottrine eretiche non conformi. Queste ultime mettevano in discussione la doppia natura di Cristo, sia umana che divina, sostenendo posizioni quali: la prevalenza della natura umana su quella divina (arianesimo), l'assorbimento della natura umana in quella divina (monofisismo) o la separazione completa tra le due nature (nestorianesimo).
 
 Fra i protagonisti di questa chiarificazione della fede cristiana emergono i Padri della Cappadocia, in particolare Gregorio di Nissa (335-394) e Gregorio di Nazianzo (330-390). Gregorio di Nissa adatta le categorie concettuali platoniche per trattare tematiche legate alla fede, riconoscendo allo Spirito Santo una natura divina, identica alla sostanza del Padre, da cui esso procede attraverso la mediazione del Figlio. Quest'ultimo è presentato come portatore di una chiara distinzione tra natura umana e divina, pur mantenendo l'unità personale.
 
 Gregorio di Nazianzo adotta un approccio focalizzato sulle relazioni interne alla Trinità per dimostrare l'unità sostanziale delle tre persone. Gli appellativi "Padre" e "Figlio" sono interpretati come espressione di un rapporto preciso tra due ipostasi della medesima sostanza, benché tale rapporto rimanga inconoscibile per l'intelletto umano.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Cristianesimo e filosofia: La religione cristiana ha influenzato profondamente la filosofia tardoellenista, introducendo nuovi paradigmi come il monoteismo, la creazione ex nihilo, la centralità dell'essere umano, l'imperscrutabilità della grazia divina e il ruolo cruciale della volontà umana.  
 
@@ -59,9 +60,9 @@ Gregorio di Nazianzo adotta un approccio focalizzato sulle relazioni interne all
 / I Padri della Chiesa: I Padri della Chiesa hanno avuto il compito di chiarire e definire i principi dottrinali del cristianesimo. Essi godono di un'autorità normativa e dottrinale seconda solo a quella della Bibbia.  
 
 / Le tre fasi: La storia dei Padri della Chiesa si suddivide in tre principali epoche:  
-   / I padri apostolici (I secolo): figure come Clemente di Roma, Ignazio di Antiochia e Policarpo di Smirne si concentrano su tematiche ecclesiali e morali.  
-   / I padri apologisti (II secolo): autori come Giustino e Tertulliano si dedicano prevalentemente all'apologetica.  
-   / La patristica (III-VIII secolo): questa fase sistematizza i contenuti di fede servendosi degli strumenti concettuali della filosofia platonica. Clemente Alessandrino interpreta il cristianesimo come l'evoluzione naturale della filosofia greca, mentre Origene struttura la Trinità come una gerarchia discendente ispirata al neoplatonismo.  
+   - I padri apostolici (I secolo): figure come Clemente di Roma, Ignazio di Antiochia e Policarpo di Smirne si concentrano su tematiche ecclesiali e morali.  
+   - I padri apologisti (II secolo): autori come Giustino e Tertulliano si dedicano prevalentemente all'apologetica.  
+   - La patristica (III-VIII secolo): questa fase sistematizza i contenuti di fede servendosi degli strumenti concettuali della filosofia platonica. Clemente Alessandrino interpreta il cristianesimo come l'evoluzione naturale della filosofia greca, mentre Origene struttura la Trinità come una gerarchia discendente ispirata al neoplatonismo.  
 
 / Le eresie cristologiche: Tra il IV e il V secolo, i Padri della Chiesa e i primi concili ecumenici affrontano le eresie cristologiche, cioè interpretazioni non ortodosse della fede. Queste mettono in discussione la duplice natura di Cristo (umana e divina), privilegiando spesso solo quella umana.  
 

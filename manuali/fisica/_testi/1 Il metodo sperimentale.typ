@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La fisica è una disciplina scientifica che ha reso profondamente interconnessi l'utilizzo della matematica per la formulazione dei concetti teorici e l'esperimento per la verifica delle teorie. Questi due aspetti sono strettamente legati grazie a quello che viene definito il metodo sperimentale, considerato la massima eredità della rivoluzione scientifica avviata nel XVII secolo da Galileo Galilei.
 
@@ -37,7 +37,7 @@ Sebbene i modelli forniscono spesso solo una somiglianza strutturale con il comp
 
 Un altro esempio è il modello che rappresenta l'atomo come un sistema planetario in miniatura, con gli elettroni che orbitano attorno al nucleo similmente ai pianeti attorno al Sole. Sebbene questo schema aiuti a visualizzare alcune caratteristiche dell'atomo, non è sufficiente per spiegare molteplici aspetti del suo comportamento.
 
-=== Le grandezze fisiche e le unità di misura
+== Le grandezze fisiche e le unità di misura
 
 Una grandezza fisica è qualsiasi caratteristica misurabile di un fenomeno naturale. La misurazione avviene attraverso il confronto con una grandezza dello stesso tipo presa come riferimento, nota come unità di misura.
 
@@ -46,10 +46,38 @@ Questo confronto determina quante volte la grandezza di riferimento è maggiore 
 Dato che esistono moltissime grandezze fisiche e conseguentemente altrettante unità di misura, nel 1960 la IX Conferenza Internazionale dei Pesi e delle Misure ha istituito un sistema decimale, uniforme e invariabile: il Sistema Internazionale delle unità di misura (SI). Questo sistema ha l'obiettivo di semplificare la comunicazione scientifica tra studiosi di paesi diversi.
 
 Il SI è l'evoluzione moderna del sistema metrico decimale introdotto in Francia verso la fine del Settecento. Va notato che i Paesi anglosassoni utilizzano ancora oggi un sistema non decimale nelle applicazioni quotidiane, ma questo è generalmente escluso dall'ambito scientifico.
-----
-Il Sistema Internazionale, oggi accettato universalmente, si basa su sette grandezze e sulle loro unità di misura fondamentali, scelti arbitrariamente. Da queste derivano tutte le altre unità.  
 
-Nella Tabella 1.1 sono riportate le sette grandezze fondamentali con le relative unità di misura. L'unità di lunghezza è il metro (simbolo m), inizialmente definito in Francia nel 1799 come la quarantamilionesima parte della lunghezza di un meridiano terrestre. Per evitare eventuali ambiguità legate a questa definizione, dal 1875 fu conservato presso l'Ufficio Internazionale dei Pesi e delle Misure a Sèvres (vicino Parigi) un campione di riferimento in platino-iridio, utilizzato come standard per il metro.
+Il Sistema Internazionale, oggi accettato universalmente, si basa su sette grandezze e sulle loro unità di misura fondamentali, scelti arbitrariamente. Da queste derivano tutte le altre unità. 
+
+#figure(  
+  caption: [Grandezze fondamentali del Sistema Internazionale e relative unità di misura.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (3),
+  table.header[Grandezza][Unità di misura][Simbolo],
+[lunghezza], [metro], [m],
+[massa], [chilogrammo], [kg],
+[intervallo di tempo], [secondo], [s],
+[intensità di corrente elettrica ], [ampere], [A],
+[temperatura], [kelvin], [K],
+[quantità di sostanza], [mole], [mol],
+[intensità luminosa], [candela ], [cd],
+)  
+)
+
+L'unità di lunghezza è il metro (simbolo m), inizialmente definito in Francia nel 1799 come la quarantamilionesima parte della lunghezza di un meridiano terrestre. Per evitare eventuali ambiguità legate a questa definizione, dal 1875 fu conservato presso l'Ufficio Internazionale dei Pesi e delle Misure a Sèvres (vicino Parigi) un campione di riferimento in platino-iridio, utilizzato come standard per il metro.
 
 Di recente, il metro è stato ridefinito come la distanza percorsa nel vuoto dalla luce nell'intervallo di tempo pari a 1/299.792.458 secondi. Questa definizione si basa sulla necessità di includere anche l'unità di misura del tempo, ovvero il secondo (simbolo s).
 
@@ -65,7 +93,11 @@ La formulazione delle grandezze derivate attraverso combinazioni di grandezze fo
 
 Ogni grandezza fisica derivata può essere espressa tramite un'equazione dimensionale in termini delle grandezze fondamentali utilizzando una particolare notazione. Le grandezze fondamentali vengono rappresentate attraverso una lettera racchiusa tra parentesi quadre: ad esempio, [L] rappresenta la lunghezza e [T] il tempo.  
 
-Un esempio tipico è la velocità, che costituisce una grandezza derivata ottenuta dal rapporto tra la lunghezza percorsa e il tempo impiegato. La sua equazione dimensionale è del tipo [L][T⁻¹].  
+Un esempio tipico è la velocità, che costituisce una grandezza derivata ottenuta dal rapporto tra la lunghezza percorsa e il tempo impiegato. La sua equazione dimensionale è del tipo 
+
+$ 
+  [v] = [L] / [T]
+$  
 
 Affinché una legge fisica sia corretta, deve verificarsi la condizione di uguaglianza tra le grandezze presenti nel primo membro e quelle nel secondo membro dell'equazione. L'analisi dimensionale viene quindi impiegata per valutare la coerenza interna delle leggi fisiche. Se una legge non soddisfa i criteri dell'analisi dimensionale, essa risulterà sicuramente errata.  
 
@@ -73,19 +105,52 @@ Va sottolineato, tuttavia, che passare l'analisi dimensionale non implica necess
 
 === Notazione esponenziale e ordine di grandezza
 
+#figure(
+  caption: [I principali multipli e sottomultipli decimali nel Sistema Internazionale.],
+  table(
+  stroke: 0.5pt + main_scienze.lighten(90%),
+  fill: (x, y) => {
+  if y == 0 {
+  return main_scienze // Colore header
+  } else if calc.even(y) {
+  // Colore righe dispari
+  return main_scienze.lighten(90%)
+  } else {
+  // Colore righe pari
+  return white
+  }
+  },
+  align: left + horizon,
+  columns: (8em, 5em, 5em,),
+  table.header[Fattori di \ moltiplicazione][Prefisso][Simbolo],  
+  [10#super[12]], [tera], [T],
+  [10#super[9]], [giga], [G],
+  [10#super[6]], [mega], [M],
+  [10#super[3]], [chilo], [k],
+  [10#super[2]], [etto], [h],
+  [10#super[1]], [deca], [da],
+  [10#super[-1]], [deci], [d],
+  [10#super[-2]], [centi], [c],
+  [10#super[-3]], [milli], [m],
+  [10#super[-6]], [micro], [μ],
+  [10#super[-9]], [nano], [n],
+  [10#super[-12]], [pico], [p],
+  [10#super[-15]], [femto], [f],
+  [10#super[-18]], [atto], [a],
+)  
+)
+
 In fisica è frequente imbattersi in grandezze rappresentate da numeri estremamente grandi, come le distanze tra pianeti o stelle, oppure da numeri molto piccoli, come le dimensioni delle particelle elementari all'interno di un nucleo atomico. Spesso risulta poco pratico scrivere questi numeri per intero.
 
 Per semplificare, si utilizza la notazione esponenziale, che sfrutta le potenze di dieci per sostituire la lunga serie di zeri nei numeri grandi o i decimali nei numeri piccoli. 
 
-Ad esempio, invece di scrivere 3.000.000, si ricorre alla notazione 3·10⁶, che risulta più compatta e agevole. Analogamente, un valore come 0,005 può essere espresso in forma esponenziale come 5·10⁻³. Questo strumento consente di ottimizzare spazio e semplificare i calcoli.
+Ad esempio, invece di scrivere 3.000.000, si ricorre alla notazione 3·10#super[6], che risulta più compatta e agevole. Analogamente, un valore come 0,005 può essere espresso in forma esponenziale come 5·10#super[-3]. Questo strumento consente di ottimizzare spazio e semplificare i calcoli.
 
 In certi contesti non è necessario individuare il risultato esatto di un'operazione; ciò che interessa è piuttosto una stima per comprendere le dimensioni coinvolte nel fenomeno studiato. Per questo si fa riferimento all'ordine di grandezza di un numero, ossia la potenza di dieci che meglio approssima il valore considerato.
 
-Un esempio pratico è la massa del Sole, il cui ordine di grandezza è pari a 10³³ g. Le potenze di dieci trovano applicazione anche nei multipli e sottomultipli delle unità di misura, utili quando le unità di base risultano troppo grandi o troppo piccole per descrivere adeguatamente i fenomeni fisici.
+Un esempio pratico è la massa del Sole, il cui ordine di grandezza è pari a 10#super[33] g. Le potenze di dieci trovano applicazione anche nei multipli e sottomultipli delle unità di misura, utili quando le unità di base risultano troppo grandi o troppo piccole per descrivere adeguatamente i fenomeni fisici.
 
 Si utilizzano dunque prefissi associati ai multipli e ai sottomultipli delle unità. Ad esempio, poiché 1000 metri equivalgono a 1 chilometro, ogni volta che una misura viene moltiplicata per 10³ si antepone il prefisso "chilo" al nome dell'unità. Allo stesso modo, per un valore pari a 10⁻³ si utilizza il prefisso "milli".
-
-La tabella 1.2 illustra i principali multipli e sottomultipli decimali nel Sistema Internazionale.
 
 === Misure dirette e misure indirette
 
@@ -109,9 +174,24 @@ Gli errori accidentali, al contrario, sono provocati da cause non facilmente ind
 
 La possibilità di commettere un errore è intrinseca nel processo di misurazione. Per questo motivo, anziché cercare il valore esatto di una grandezza fisica, si fa riferimento al suo valore più attendibile, ovvero quello con la maggiore probabilità di verificarsi. La disciplina che analizza il comportamento delle misurazioni e mira alla riduzione degli errori prende il nome di teoria degli errori.
 
-Una misurazione accurata richiede che l'operazione venga ripetuta più volte. Ogni ripetizione produrrà risultati leggermente differenti. Il valore che più si avvicina alla grandezza reale sarà rappresentato dalla media aritmetica dei valori ottenuti, indicata con x̅, che si calcola sommando i risultati delle n misurazioni e dividendo la somma per il numero di esperimenti effettuati.
+Una misurazione accurata richiede che l'operazione venga ripetuta più volte. Ogni ripetizione produrrà risultati leggermente differenti. Il valore che più si avvicina alla grandezza reale sarà rappresentato dalla media aritmetica dei valori ottenuti, indicata con #overline[x], che si calcola sommando i risultati delle n misurazioni e dividendo la somma per il numero di esperimenti effettuati.
 
-Il risultato della misurazione dovrebbe essere accompagnato da una stima dell'errore, così da definire l'intervallo di incertezza della misura stessa. Quando il numero delle misurazioni è limitato, l'approccio più semplice per determinare tale errore consiste nel calcolo dell'errore massimo o errore assoluto, indicato con ε. Questo si ottiene dalla differenza tra il valore massimo rilevato e quello minimo, divisa per due. In tal caso, il risultato della misura viene espresso combinando il valore medio e l'errore assoluto.
+$ 
+  overline(x) = ((x_1 + x_2 + ... + x_n)) / n
+$
+
+
+Il risultato della misurazione dovrebbe essere accompagnato da una stima dell'errore, così da definire l'intervallo di incertezza della misura stessa. Quando il numero delle misurazioni è limitato, l'approccio più semplice per determinare tale errore consiste nel calcolo dell'errore massimo o errore assoluto, indicato con ε. Questo si ottiene dalla differenza tra il valore massimo rilevato e quello minimo, divisa per due. 
+
+$ 
+  epsilon = (("valore"_("max") - "valore"_("min"))) / 2
+$
+
+In tal caso, il risultato della misura viene espresso combinando il valore medio e l'errore assoluto:
+
+$ 
+  "valore cercato" = overline(x) \u{00B1} epsilon 
+$
 
 Se si desidera valutare il grado di precisione di una misurazione, si ricorre invece all'errore relativo, che indica quanto l'errore massimo incide rispetto al valore medio della misura. L'errore relativo si calcola come il rapporto tra l'errore massimo e la media aritmetica dei valori ottenuti, espresso solitamente in percentuale.
 
@@ -124,8 +204,9 @@ Le misure delle grandezze fisiche non possono essere espresse con totale precisi
 La cifra più a destra si considera significativa e deve avere necessariamente un ordine di grandezza pari a quello dell'errore di misura. Quando si effettuano operazioni tra grandezze, è indispensabile considerare il numero di queste cifre.
 
 In particolare, nelle operazioni di somma o sottrazione, il risultato deve essere riportato in modo che l'ultima cifra significativa si ottenga sommando o sottraendo solo cifre significanti. Per le operazioni di moltiplicazione o divisione, invece, il totale avrà un numero di cifre significative pari al minimo tra quelle contenute nei valori iniziali.
-
-== Approfondimento: Gli altri sistemi di misura
+#pagebreak()
+#set page(fill: black.lighten(90%))
+== *🧩* Gli altri sistemi di misura <senza_numero>
 
 La metrologia è la disciplina che si occupa della definizione delle unità di misura, della scelta di quelle fondamentali e della creazione, diffusione e conservazione dei relativi campioni. Questa disciplina è nata dall'esigenza di adottare unità universali condivise.
 
@@ -140,6 +221,25 @@ Il sistema MKS (Metro Chilogrammo Secondo), introdotto nel 1938, utilizzava le m
 Entrambi questi sistemi seguivano lo schema metrico decimale, adottato in tutti i paesi dell'Europa continentale. Tuttavia, nel Regno Unito e negli Stati Uniti persiste ancora oggi un sistema di unità non decimale, utilizzato in ambito non scientifico, sebbene la comunità scientifica internazionale faccia riferimento al Sistema Internazionale.
 
 Ad esempio, in questo sistema l'unità di lunghezza è la yarda (pari a 91,94 cm), con i suoi sottomultipli: il piede (1/3 di yarda) e il pollice (1/36 di yarda). Per la massa, invece, l'unità principale è la libbra (pari a 453,59 g), con il sottomultiplo più comune rappresentato dall'oncia (1/16 di libbra).
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
+/ Errore accidentale: Errore nelle misurazioni derivante da cause non identificabili e poco definite, che può influire sui risultati in modo casuale, talvolta per difetto, talvolta per eccesso.  
 
+/ Errore sistematico: Errore nelle misurazioni causato da imperfezioni degli strumenti, che influenza i risultati sempre nello stesso modo, sia per difetto che per eccesso.  
+
+/ Grandezza fisica: Qualsiasi aspetto di un fenomeno naturale che sia misurabile.  
+
+/ Metodo sperimentale: Procedura di ricerca utilizzata in fisica, articolata in tre fasi principali: osservazione, formulazione della teoria e verifica sperimentale, al fine di riprodurre un fenomeno fisico.  
+
+/ Metro: Unità di misura fondamentale della lunghezza nel Sistema Internazionale (SI), definita come la distanza percorsa dalla luce nel vuoto in un intervallo di tempo di 1/299.792.458 secondi.  
+
+/ Modello: Rappresentazione ideale di un fenomeno fisico, utile a simularne il comportamento.  
+
+/ Secondo: Unità di misura del tempo nel SI, definita come la durata di 9.192.631.770 oscillazioni della radiazione relativa alla transizione tra due livelli iperfini dell’atomo di cesio-133 nello stato fondamentale.  
+
+/ Sistema Internazionale: Sistema di unità di misura introdotto nel 1960 e oggi universalmente accettato, composto da sette unità fondamentali dalle quali derivano tutte le altre misure.  
+
+/ Unità di misura: Riferimento standard utilizzato per quantificare una grandezza omogenea, a cui è assegnato valore unitario.
 

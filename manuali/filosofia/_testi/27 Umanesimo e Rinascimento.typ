@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il fenomeno culturale dell'Umanesimo e del Rinascimento è difficilmente circoscrivibile mediante una definizione univoca, poiché ingloba tanto elementi di continuità quanto tratti di innovazione rispetto alla precedente epoca medievale, configurandosi primariamente come una fase di transizione verso la modernità. 
 
@@ -7,7 +7,7 @@ Questa ambivalenza intrinseca ha indotto gli studiosi a superare le interpretazi
 
 == L'umanesimo
 
-Con il termine Umanesimo si indica comunemente quel movimento culturale sviluppatosi tra Trecento e Quattrocento, centrato sulle humanae litterae, ossia quelle discipline finalizzate al recupero e alla interpretazione critica dei testi classici dell'antichità greco-romana. 
+Con il termine Umanesimo si indica comunemente quel movimento culturale sviluppatosi tra Trecento e Quattrocento, centrato sulle _humanae litterae_, ossia quelle discipline finalizzate al recupero e alla interpretazione critica dei testi classici dell'antichità greco-romana. 
 
 L'Umanesimo delinea una nuova epoca contrassegnata da un approccio innovativo al sapere e da un deciso interesse per la vita attiva. Gli intellettuali umanisti, infatti, orientano la loro attenzione verso l'impegno dell'uomo nelle sfere pubbliche e nelle funzioni civili. L'apprendimento e la formazione dottrinale non sono concepiti come fini autonomi, bensì subordinati alla realizzazione di attività rivolte al bene comune. 
 
@@ -32,32 +32,25 @@ Il panorama riflesso nelle arti figurative, nella letteratura e negli ideali edu
 La letteratura, invece, fatica a raggiungere un risultato altrettanto maturo, poiché ostacolata dal divario tra il predominio culturale della lingua latina, considerata il riferimento per i modelli letterari, e l'affermazione del volgare come lingua principale dell'espressione artistica. 
 
 La pratica del mecenatismo svolge un ruolo cruciale nella circolazione degli intellettuali e degli artisti all'interno delle diverse città della penisola italiana. Il mecenate non si limita ad essere un benevolo protettore della cultura, ma assume anche la funzione di pianificatore strategico degli investimenti nel campo delle lettere, delle arti e dell'architettura urbana, contribuendo a materializzare i valori dell'umanesimo.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ Il rapporto tra Medioevo e Rinascimento: L'epoca umanistica e rinascimentale, a lungo concepita come una rottura netta rispetto al Medioevo, viene oggi interpretata come una fase di transizione verso l'età moderna.
 
-Il rapporto tra Medioevo e Rinascimento  
-L'epoca umanistica e rinascimentale, a lungo concepita come una rottura netta rispetto al Medioevo, viene oggi interpretata come una fase di transizione verso l'età moderna.  
+/ Il concetto di umanesimo: L'umanesimo si collega alla cultura del Trecento e Quattrocento ed è strettamente associato alle humanae litterae, ovvero quelle discipline focalizzate sulla riscoperta e interpretazione dei testi classici dell'Antichità greco-romana.
 
-Il concetto di umanesimo  
-L'umanesimo si collega alla cultura del Trecento e Quattrocento ed è strettamente associato alle humanae litterae, ovvero quelle discipline focalizzate sulla riscoperta e interpretazione dei testi classici dell'Antichità greco-romana.  
+/ L'attenzione alla dimensione pubblica e politica: Gli umanisti pongono particolare enfasi sull'impegno dell'uomo nelle relazioni pubbliche e nelle funzioni civili, aspirando a costruire una società nuova grazie allo studio dei classici.
 
-L'attenzione alla dimensione pubblica e politica  
-Gli umanisti pongono particolare enfasi sull'impegno dell'uomo nelle relazioni pubbliche e nelle funzioni civili, aspirando a costruire una società nuova grazie allo studio dei classici.  
+/ Il mutamento dei criteri di verità: Il rinnovato interesse per la letteratura e la filologia porta l'umanesimo a rivedere il concetto di verità, che viene reinterpretato alla luce delle regole retoriche.
 
-Il mutamento dei criteri di verità  
-Il rinnovato interesse per la letteratura e la filologia porta l'umanesimo a rivedere il concetto di verità, che viene reinterpretato alla luce delle regole retoriche.  
+/ La nascita di nuovi spazi culturali: Avviene un rinnovamento parziale dei luoghi tradizionali di studio: gli intellettuali si organizzano in accademie o gravitano intorno alle corti di principi e mecenati. La dignità, la miseria e la fortuna dell'uomo diventano temi ricorrenti nella riflessione culturale.
 
-La nascita di nuovi spazi culturali  
-Avviene un rinnovamento parziale dei luoghi tradizionali di studio: gli intellettuali si organizzano in accademie o gravitano intorno alle corti di principi e mecenati. La dignità, la miseria e la fortuna dell'uomo diventano temi ricorrenti nella riflessione culturale.  
+/ Il significato del Rinascimento: Il Rinascimento comprende un periodo che va dal XIV al XVI secolo, contraddistinto da un ampio progetto di rinnovamento spirituale, religioso, politico e culturale, ispirato ai principi e alle forme della vita intellettuale e artistica dell'età classica.
 
-Il significato del Rinascimento  
-Il Rinascimento comprende un periodo che va dal XIV al XVI secolo, contraddistinto da un ampio progetto di rinnovamento spirituale, religioso, politico e culturale, ispirato ai principi e alle forme della vita intellettuale e artistica dell'età classica.  
+/ Le arti figurative e la letteratura: Le arti figurative raggiungono una sintesi innovativa tra natura e proporzione, mentre la letteratura incontra ostacoli nel raggiungimento di risultati analoghi, dovuti al contrasto tra la prevalenza della lingua latina e l'emergere del volgare. L'uomo diventa il riferimento teorico e formale centrale della cultura rinascimentale, accostato alla consapevolezza della sua condizione storica.
 
-Le arti figurative e la letteratura  
-Le arti figurative raggiungono una sintesi innovativa tra natura e proporzione, mentre la letteratura incontra ostacoli nel raggiungimento di risultati analoghi, dovuti al contrasto tra la prevalenza della lingua latina e l'emergere del volgare. L'uomo diventa il riferimento teorico e formale centrale della cultura rinascimentale, accostato alla consapevolezza della sua condizione storica.  
-
-Il mecenatismo  
-Il fenomeno del mecenatismo favorisce la mobilità di intellettuali e artisti, rendendo possibile la diffusione dei loro lavori e idee attraverso le corti e altri contesti culturali.  
+/ Il mecenatismo: Il fenomeno del mecenatismo favorisce la mobilità di intellettuali e artisti, rendendo possibile la diffusione dei loro lavori e idee attraverso le corti e altri contesti culturali.
 
 
 

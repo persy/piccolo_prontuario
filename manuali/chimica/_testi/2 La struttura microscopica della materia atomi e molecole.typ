@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La teoria atomica di Dalton, formulata nel 1808, rappresenta una pietra miliare nella comprensione e interpretazione del comportamento della materia. Essa nasce da un insieme di osservazioni sperimentali che portarono alla codifica delle leggi delle combinazioni chimiche, le quali regolano il funzionamento delle reazioni chimiche secondo principi quantitativi precisi.
 
@@ -33,9 +33,29 @@ Infine, l'atomo è definito come la più piccola particella in cui un elemento p
 
 La teoria atomica di Dalton mostrò presto una debolezza: non era in grado di spiegare le reazioni tra sostanze elementari gassose, governate dalla legge dei volumi di combinazione, enunciata nel 1808 dal chimico francese Joseph Louis Gay-Lussac (1778-1850). Secondo questa legge, quando due gas si combinano alle medesime condizioni di temperatura e pressione, i loro volumi sono in rapporti numerici semplici tra di loro e con i prodotti della reazione, se anche questi sono gassosi.
 
-$ underbrace("cloro", "1 volume") + underbrace("idrogeno", "1 volume") --> underbrace("acido cloridrico", "2 volumi") $
+$
+  mark("cloro", tag: #<1>)
+  +
+  mark("idrogeno", tag: #<2>)
+  //xarrow("acqua")
+  ->
+  mark("acido cloridrico", tag: #<3>)  
 
-$ underbrace("ossigeno", "1 volume") + underbrace("idrogeno", "2 volumi") --> underbrace("vapore acqueo", "2 volumi") $
+  #annot(<1>)[#align(center)[1 volume]]
+  #annot(<2>)[#align(center)[1 volume]]
+  #annot(<3>)[#align(center)[2 volumi]]  
+\ \ \ \
+  mark("ossigeno", tag: #<1>)
+  +
+  mark("idrogeno", tag: #<2>)
+  //xarrow("acqua")
+  ->
+  mark("vapore acqueo", tag: #<3>)  
+
+  #annot(<1>)[#align(center)[1 volume]]
+  #annot(<2>)[#align(center)[2 volumi]]
+  #annot(<3>)[#align(center)[2 volumi]] 
+$
 
 
 Secondo Dalton, le sostanze elementari erano formate da singoli atomi. Pertanto, in volumi uguali di gas avrebbero dovuto esserci lo stesso numero di atomi. Tuttavia, secondo questo modello, nelle reazioni chimiche considerate (come la formazione di acqua o ammoniaca), dovrebbe derivare un solo volume di prodotto e non due, come invece osservato.
@@ -54,7 +74,7 @@ Le molecole si distinguono mediante formule chimiche. La formula di un elemento 
 
 La formula di un composto si costruisce utilizzando i simboli degli elementi presenti nella sua molecola e indicando il numero dei rispettivi atomi con indici. Ad esempio: H#sub[2]O (acqua) indica una molecola composta da due atomi di idrogeno e uno di ossigeno; H#sub[2]SO#sub[4] (acido solforico) indica una molecola formata da due atomi di idrogeno, uno di zolfo e quattro di ossigeno. Nel caso in cui ci sia un numero superiore a uno per il totale degli atomi o delle molecole di un elemento, si utilizza un coefficiente numerico che precede il simbolo o la formula: 2H (due atomi di idrogeno), 3O#sub[2] (tre molecole di ossigeno), 2H#sub[2]O (due molecole d'acqua).
 
-Le formule chimiche appena descritte sono chiamate formule grezze e servono a indicare solo il tipo e il numero degli atomi che compongono una molecola. Esistono però anche le formule di struttura, che mostrano graficamente come gli atomi sono legati tra loro usando i trattini per rappresentare i legami chimici. Ad esempio, la formula strutturale dell'idrogeno (H#sub[2]) è H–H.
+Le formule chimiche appena descritte sono chiamate formule grezze e servono a indicare solo il tipo e il numero degli atomi che compongono una molecola. Esistono però anche le formule di struttura, che mostrano graficamente come gli atomi sono legati tra loro usando i trattini per rappresentare i legami chimici. Ad esempio, la formula strutturale dell'idrogeno (H#sub[2]) è H–H. 
 
 == La massa atomica relativa e la massa molecolare relativa
 
@@ -72,12 +92,22 @@ Va inoltre ricordato che gli elementi in natura sono spesso costituiti da miscel
 
 Prendiamo come esempio il caso del cloro. Questo elemento è formato per il 75,77% dal suo isotopo più comune, il #super[35]Cl, e per il restante 24,23% dal #super[37]Cl. Le masse atomiche relative dei due isotopi sono rispettivamente 34,9689 u e 36,9659 u. La massa atomica del cloro può essere determinata attraverso la formula per la media ponderata:
 
-$ (34,9689u ⋅ 75,77 + 36,9659u ⋅ 24,23u = 35,45u) / 100 $
+$ (34,9689 ⋅ 75,77 + 36,9659 ⋅ 24,23) / 100 space u = 35,45u $
 
-#pagebreak()
+#note(bottom)[== *🧩* Gli isotopi <senza_numero>
+
+Gli isotopi sono stati scoperti intorno al 1918-1919 e si riferiscono a quegli atomi che presentano identiche proprietà chimiche ma differenze nella massa. Questa variazione deriva dalla composizione interna dell'atomo. 
+
+Studi condotti tra la fine del XIX secolo e il corso del XX secolo hanno dimostrato che l'atomo non è indivisibile, bensì costituito da tre particelle fondamentali: protoni (con carica positiva), neutroni (carica neutra) ed elettroni (carica negativa). I protoni e neutroni si trovano concentrati nel nucleo dell'atomo, mentre gli elettroni orbitano attorno ad esso. 
+
+Le proprietà chimiche dell'atomo dipendono dal numero dei protoni presenti nel nucleo (uguale al numero degli elettroni per un atomo neutro), conosciuto come numero atomico e specifico per ogni elemento. Al contrario, il numero dei neutroni può variare senza influire sulla chimica dell'elemento. Gli atomi dello stesso elemento con un differente numero di neutroni sono detti isotopi. 
+
+La somma del numero dei protoni e dei neutroni è chiamata numero di massa e viene indicata in alto a sinistra del simbolo chimico dell'elemento. Per esempio, il carbonio-12 è rappresentato come #super[12]C.]
+#v(4em)
+
 // Tabella elementi chimici e le loro masse atomiche relative
+#pad(left: -3em, right: -3em)[
 #show table.cell: set text(size: 7pt, font: sans-fonts)
-#wideblock[
 #grid(
   columns: 3,
   gutter: 10pt,
@@ -255,13 +285,11 @@ figure(
 )
 )
 ]
-#wideblock[#align(center)[Tabella degli elementi chimici, i loro simboli e le loro masse ]atomiche relative]
-
+#align(center)[Tabella degli elementi chimici, i loro simboli e le loro masse atomiche relative] // #TODO: Trova un modo per integrare la caption
+#pagebreak(weak: true)
 == La mole, la massa molare e il volume molare
 
-La massa atomica relativa dell'atomo di carbonio-12 è pari a 12 u. 
-
-Se ipotizziamo di avere una quantità pari a 12 grammi (g) di carbonio, equivalente alla sua massa atomica relativa, questa contiene un numero enorme di atomi: 6,022 × 10#super[23]. Questo valore è noto come numero o costante di Avogadro (NA). 
+La massa atomica relativa dell'atomo di carbonio-12 è pari a 12 u. Se ipotizziamo di avere una quantità pari a 12 grammi (g) di carbonio, equivalente alla sua massa atomica relativa, questa contiene un numero enorme di atomi: 6,022 × 10#super[23]. Questo valore è noto come numero o costante di Avogadro (NA). 
 
 Analogamente, se prendiamo una quantità espressa in grammi di un atomo o di una molecola pari rispettivamente alla massa atomica relativa o alla massa molecolare relativa, essa conterrà lo stesso numero di unità (atomi o molecole), pari al numero di Avogadro (6,022 × 10#super[23]). 
 
@@ -279,19 +307,10 @@ La massa molare rappresenta la quantità in grammi relativa a una mole di una so
 Secondo la legge di Avogadro e la definizione di mole, si deduce che la quantità molare di qualsiasi sostanza allo stato gassoso occupa lo stesso volume nelle medesime condizioni di temperatura e pressione. Questo volume, noto come volume molare, corrisponde a 22,4141 litri nelle condizioni normali (c.n., cioè 1 atm e 273 K).  
 
 // Tabella conversione moli in grammi e viceversa
+
 #pagebreak()
-== Approfondimento: gli isotopi <senza_numero>
-
-Gli isotopi sono stati scoperti intorno al 1918-1919 e si riferiscono a quegli atomi che presentano identiche proprietà chimiche ma differenze nella massa. Questa variazione deriva dalla composizione interna dell'atomo. 
-
-Studi condotti tra la fine del XIX secolo e il corso del XX secolo hanno dimostrato che l'atomo non è indivisibile, bensì costituito da tre particelle fondamentali: protoni (con carica positiva), neutroni (carica neutra) ed elettroni (carica negativa). I protoni e neutroni si trovano concentrati nel nucleo dell'atomo, mentre gli elettroni orbitano attorno ad esso. 
-
-Le proprietà chimiche dell'atomo dipendono dal numero dei protoni presenti nel nucleo (uguale al numero degli elettroni per un atomo neutro), conosciuto come numero atomico e specifico per ogni elemento. Al contrario, il numero dei neutroni può variare senza influire sulla chimica dell'elemento. Gli atomi dello stesso elemento con un differente numero di neutroni sono detti isotopi. 
-
-La somma del numero dei protoni e dei neutroni è chiamata numero di massa e viene indicata in alto a sinistra del simbolo chimico dell'elemento. Per esempio, il carbonio-12 è rappresentato come ¹²C.
-
+#set page(fill: main_tecnologia.lighten(90%))
 == Glossario <senza_numero>
-
 
 / Atomo: La particella più piccola di un elemento che ne conserva le caratteristiche chimiche.  
 

@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[L'immensa varietà di specie animali e vegetali che si sono evolute sulla Terra nel corso di milioni di anni ha reso indispensabile la creazione di un sistema logico per identificare ogni organismo e collocarlo in categorie specifiche. Questo metodo non solo permette di attribuire un ordine ai viventi, ma facilita anche il confronto tra le diverse specie, aiutando a individuare le affinità evolutive e le interconnessioni tra gli organismi.]
 
@@ -21,7 +21,7 @@ Durante il XIX secolo, con la diffusione delle teorie evoluzionistiche e la nuov
 
 Oggi la tassonomia punta a individuare con maggiore precisione le affinità evolutive fra gli organismi grazie a contributi provenienti da discipline diverse. Oltre agli studi su anatomia ed embriologia, riveste particolare importanza la biochimica, che permette di analizzare la sequenza di amminoacidi nelle proteine. Dato che le proteine sono codificate dal DNA, una maggiore somiglianza nella composizione proteica tra due specie suggerisce rapporti evolutivi più vicini.
 
-Pur essendo una scienza complessa, la sistematica degli organismi, soprattutto quelli meno evoluti, resta ancora oggetto di dibattito. I gruppi tassonomici, i cosiddetti taxa, vengono continuamente revisionati alla luce dei nuovi risultati emersi dalle ricerche nei diversi ambiti scientifici.
+Pur essendo una scienza complessa, la sistematica degli organismi, soprattutto quelli meno evoluti, resta ancora oggetto di dibattito. I gruppi tassonomici, i cosiddetti _taxa_, vengono continuamente revisionati alla luce dei nuovi risultati emersi dalle ricerche nei diversi ambiti scientifici.
 
 === I regni viventi
 
@@ -35,11 +35,10 @@ Di recente, alcuni studiosi hanno proposto una diversa suddivisione degli organi
 
 I virus, per loro natura peculiare, non appartengono a nessuno dei suddetti regni. Essi vengono considerati entità separate, collocate ai margini del mondo vivente.
 
-#wideblock[
 #figure(
   caption: [I cinque regni dei viventi],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -61,7 +60,6 @@ I virus, per loro natura peculiare, non appartengono a nessuno dei suddetti regn
     [Animali], [Poriferi, Cnidari, Platelminti, Nematodi, Anellidi, Artropodi, Molluschi, Echinodermi, Cordati],
 )  
 )
-]
 
 === Gli alberi evolutivi
 
@@ -71,15 +69,13 @@ Tuttavia, la storia evolutiva della vita sulla Terra è straordinariamente compl
 
 Di conseguenza, i sistemi evolutivi, così come i modelli tassonomici derivati da essi, sono generalmente strutturati sotto forma di alberi ramificati: i cosiddetti alberi evolutivi. In questi schemi, il tronco rappresenta gli antenati comuni; i grandi rami evidenziano le principali suddivisioni del mondo vivente; le ramificazioni più piccole mostrano i percorsi evolutivi di gruppi specifici di organismi.
 
-== I cicli vitali
+== I cicli vitali e le generazioni
 
 Il ciclo vitale descrive l'intera sequenza delle fasi che caratterizzano lo sviluppo di un organismo. Questo percorso inizia dalla formazione dello zigote, la cellula fecondata, e arriva alla produzione dei gameti, ovvero le cellule sessuali necessarie per la riproduzione. 
 
 Il ciclo vitale di un organismo costituisce un fattore chiave per valutare il livello di evoluzione della specie di appartenenza. Proprio per questo motivo il ciclo rappresenta anche un elemento di rilevante importanza nella classificazione biologica delle specie.
 
-== Le generazioni
-
-Il ciclo vitale di un organismo vivente è scandito da fasi cellulari in cui il numero di cromosomi rimane invariato, definite generazioni. Negli organismi che si riproducono asessualmente mediante la semplice divisione cellulare (mitosi), il numero di cromosomi per cellula non cambia, e il ciclo si completa tra due divisioni consecutive, comprendendo un'unica generazione. Al contrario, nei organismi con riproduzione sessuata, la formazione dei gameti comporta un dimezzamento del numero di cromosomi attraverso la meiosi (indicati con n), seguito da un loro raddoppiamento durante la fecondazione (2n). Di conseguenza, il ciclo vitale in questi organismi si articola in un'alternanza tra una generazione aploide (metà del numero di cromosomi, che si estende dalla meiosi alla fecondazione) e una diploide (numero completo di cromosomi, che va dalla fecondazione alla meiosi).
+Esso è scandito da fasi cellulari in cui il numero di cromosomi rimane invariato, definite generazioni. Negli organismi che si riproducono asessualmente mediante la semplice divisione cellulare (mitosi), il numero di cromosomi per cellula non cambia, e il ciclo si completa tra due divisioni consecutive, comprendendo un'unica generazione. Al contrario, nei organismi con riproduzione sessuata, la formazione dei gameti comporta un dimezzamento del numero di cromosomi attraverso la meiosi (indicati con n), seguito da un loro raddoppiamento durante la fecondazione (2n). Di conseguenza, il ciclo vitale in questi organismi si articola in un'alternanza tra una generazione aploide (metà del numero di cromosomi, che si estende dalla meiosi alla fecondazione) e una diploide (numero completo di cromosomi, che va dalla fecondazione alla meiosi).
 
 In diversi gruppi di organismi, il predominio di una generazione rispetto all'altra rappresenta una caratteristica che riflette un livello evolutivo diverso. Si possono così individuare organismi aplonti (dove prevale la generazione aploide, come in molti protisti, alghe e funghi), diplonti (di predominante generazione diploide, tipica degli animali) e aplodiplonti (con equilibrio tra le due generazioni, riscontrabile in molte piante).
 
@@ -105,6 +101,7 @@ Nei DNA virus, il doppio filamento di DNA che viene introdotto nella cellula pu�
 
 Negli RNA virus è necessario che il materiale genetico venga prima trascritto in una molecola di DNA tramite un enzima chiamato trascrittasi inversa, prima di potersi integrare nella cellula ospite. Un esempio emblematico di RNA virus è il retrovirus HIV, responsabile dell'insorgenza dell'AIDS (sindrome da immunodeficienza acquisita).
 #pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario  <senza_numero>
 
 / Aplodiplonti: Organismi il cui ciclo vitale presenta un'alternanza di generazioni aploidi e diploidi, come avviene in molte piante.

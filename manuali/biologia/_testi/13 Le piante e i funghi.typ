@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il regno delle piante comprende organismi che mostrano un'incredibile varietà di forme, ciascuna rappresentativa di diversi stadi evolutivi. Si parte dalle alghe, le prime piante apparse sulla Terra, che si svilupparono originariamente nell'ambiente marino e che non presentano tessuti differenziati, fino ad arrivare alle tracheofite, ossia le piante terrestri più evolute. Queste ultime includono le spermatofite, piante dotate di semi e suddivise principalmente in angiosperme, ovvero quelle con fiori. Il passaggio dall'ambiente acquatico a quello terrestre è segnato dalle briofite, che rappresentano uno stadio di transizione cruciale.  
 
@@ -20,6 +20,14 @@ La riproduzione asessuata avviene tramite la frammentazione del micelio. Con per
 === Importanza ecologica
 
 I funghi crescono principalmente in ambienti umidi del sottobosco e svolgono un ruolo fondamentale come decompositori insieme ai batteri. La maggior parte dei funghi è saprofita, nutrendosi di materia organica in decomposizione, mentre altri agiscono come parassiti. Alcuni instaurano simbiosi mutualistiche con altre specie; esempi significativi includono i licheni, associazioni tra funghi e alghe, e le micorrize, che penetrano nelle cellule radicali di molte piante vascolari e condividono con esse sostanze nutritive.
+
+#note(bottom)[== *🧩* I licheni <senza_numero>
+
+I licheni sono strutture vegetali complesse formate dall'associazione simbiotica tra funghi e alghe. Questa collaborazione stretto consente loro di formare un unico tallo: il micelio dei funghi, prevalentemente ascomiceti, assorbe acqua e sali minerali dal substrato e trattiene l'umidità, mentre le alghe, unicellulari clorofite o cianobatteri, provvedono alla produzione di zuccheri grazie alla fotosintesi.
+
+Le alghe, con i loro pigmenti, conferiscono ai licheni una gamma di colori vivaci che spazia dal verde all'arancione. Il processo riproduttivo dei licheni avviene principalmente in due modi: attraverso la diffusione delle spore fungine, che possono dar vita a nuovi licheni se incontrano un'alga compatibile; oppure per frammentazione del tallo, tramite piccoli frammenti chiamati isidi e soredi. Tuttavia, il loro ritmo di crescita è estremamente lento.
+
+I licheni vengono classificati in base alla forma del tallo: quelli crostosi hanno un tallo sottile aderente completamente al substrato; quelli fogliosi si estendono orizzontalmente, somigliando a foglie; quelli fruticosi si sviluppano in forma eretta o cespugliosa, crescendo direttamente sul terreno o pendendo dai rami degli alberi. Questi organismi pionieri sono essenziali nel processo di colonizzazione delle rocce, contribuendo alla loro erosione mediante il rilascio di acidi che avviano la formazione del suolo. I licheni possono prosperare in una vasta gamma di ambienti con abbondante luce e sono estremamente resistenti ai periodi prolungati di siccità.]
 
 === Classificazione
 
@@ -61,11 +69,10 @@ Le feofite includono il pigmento fucoxantina accanto alla clorofilla, conferendo
 
 Le clorofite comprendono forme unicellulari, che possono essere flagellate o coccoidi (rotondeggianti e prive di flagelli), isolate o aggregate in colonie; da queste ultime sembrano derivare le forme pluricellulari. La presenza di xantofille nei loro pigmenti non ostacola il tipico colore verde. Queste alghe sono considerate le più evolute per via del tipo di cloroplasti e delle riserve energetiche sotto forma di amido, caratteristiche simili a quelle delle piante superiori.
 
-#wideblock[
 #figure(
   caption: [Le principali divisioni di alghe],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -85,7 +92,6 @@ Le clorofite comprendono forme unicellulari, che possono essere flagellate o coc
     [clorofite o \ alghe verdi],[clorofilla],[Per lo più di acqua dolce, ma anche marine],[Unicellulari: _Volvox_, che forma colonie sferiche in cui alcune cellule si sono specializzate per la riproduzione e vive per lo più nelle acque dolci; _Chlamydomonas_, flagellata; _Chlorella_, che produce un antibiotico;  \ Pluricellulari: _Ulva lactuca_, detta lattuga di mare per la forma e le dimensioni, comune nel Mediterraneo],
 )  
 )
-]
 
 === Le briofite
 
@@ -106,16 +112,10 @@ I tessuti meccanici svolgono funzioni primarie di sostegno e protezione contro i
 Dal punto di vista evolutivo, nelle tracheofite lo sporofito prevale sul gametofito. Queste piante vengono suddivise in base al tipo di riproduzione: le tracheofite con spore (pteridofite), tra cui si annoverano licopodi, equiseti e felci; e le tracheofite con seme (spermatofite), che comprendono gimnosperme e angiosperme.
 
 === Pteridofite
-
-Le pteridofite erano estremamente comuni durante il periodo Carbonifero, dove formavano ampie foreste con organismi di notevoli dimensioni. Oggi, invece, si trovano principalmente come specie di dimensioni ridotte, tipiche degli ambienti del sottobosco.
-
-La loro riproduzione avviene attraverso spore aploidi che generano un gametofito di dimensioni modeste, spesso di forma laminare, noto come protallo. È proprio nel gametofito che si sviluppano i gameti maschili e femminili; una volta avvenuta la fecondazione, si origina uno sporofito caratterizzato da fronde. Analogamente alle briofite, le pteridofite mantengono una dipendenza dagli ambienti acquatici per la riproduzione: i gameti maschili si spostano attraverso un velo d'acqua per raggiungere i gameti femminili immobili. Va inoltre notato che i gametofiti non sono dotati di tessuti vascolari. Tra le pteridofite rientrano le felci. 
-
-#wideblock[
 #figure(
   caption: [Le principali pteridofite],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -135,7 +135,11 @@ La loro riproduzione avviene attraverso spore aploidi che generano un gametofito
     [pterofite], [Comprendono 12.000 specie di felci, con foglie larghe, dette fronde; sulla pagina inferiore portano le spore riunite in sporangi detti sori. Oggi solo le felci tropicali sono arboree]
 )  
 )
-]
+
+Le pteridofite erano estremamente comuni durante il periodo Carbonifero, dove formavano ampie foreste con organismi di notevoli dimensioni. Oggi, invece, si trovano principalmente come specie di dimensioni ridotte, tipiche degli ambienti del sottobosco.
+
+La loro riproduzione avviene attraverso spore aploidi che generano un gametofito di dimensioni modeste, spesso di forma laminare, noto come protallo. È proprio nel gametofito che si sviluppano i gameti maschili e femminili; una volta avvenuta la fecondazione, si origina uno sporofito caratterizzato da fronde. Analogamente alle briofite, le pteridofite mantengono una dipendenza dagli ambienti acquatici per la riproduzione: i gameti maschili si spostano attraverso un velo d'acqua per raggiungere i gameti femminili immobili. Va inoltre notato che i gametofiti non sono dotati di tessuti vascolari. Tra le pteridofite rientrano le felci. 
+
 
 === Spermatofite
 
@@ -151,11 +155,10 @@ Il processo di impollinazione avviene esclusivamente tramite il vento (anemofila
 
 Dopo la fecondazione, la cellula uovo rimane all'interno dell'ovulo, il quale si trasforma in una struttura resistente: il seme. In esso si sviluppa l'embrione. Durante questo periodo, i macrosporofilli subiscono un processo di lignificazione e, una volta maturi, si aprono per liberare i semi. Le gimnosperme sono completamente piante legnose e si suddividono in tre gruppi principali: ginkgofite, cicadofite e coniferofite.
 
-#wideblock[
 #figure(
   caption: [Le principali gimnosperme],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -175,7 +178,7 @@ Dopo la fecondazione, la cellula uovo rimane all'interno dell'ovulo, il quale si
     [Coniferofite], [Queste piante prendono il nome dai coni o pigne che producono. Le loro foglie sono aghiformi, cioè sottili, allungate e generalmente appuntite, una forma che consente loro di adattarsi alla carenza d'acqua. Vivono prevalentemente in zone di alta montagna, dove l'acqua, a causa delle basse temperature invernali, gela e non è disponibile per molti mesi, oppure nelle regioni mediterranee caratterizzate da scarsa piovosità. La loro linfa contiene resina, una sostanza che funge da antigelo, garantendo il trasporto dei nutrienti anche a temperature inferiori allo zero. Tra le Coniferofite rientrano i pini, gli abeti, il larice, il cipresso, il tasso e il ginepro. Sono quasi tutte sempreverdi, eccetto il larice. Conservare le foglie durante tutto l'anno consente a queste piante di risparmiare in primavera sia acqua che energia necessarie per la produzione di nuovi germogli]
 )  
 )
-]
+
 
 === Le angiosperme
 
@@ -189,14 +192,8 @@ La fecondazione avviene all'interno del fiore, dove lo zigote rimane racchiuso n
 
 La classificazione sistematica delle angiosperme si basa principalmente sulle caratteristiche dei fiori e sul numero di cotiledoni presenti nei semi: una o due foglioline embrionali. Da questa distinzione nascono due gruppi principali: le monocotiledoni e le dicotiledoni. Le monocotiledoni, dotate di un solo cotiledone, includono piante chiave come i cereali (essenziali per la dieta umana), palme, banani e specie note per i loro fiori come le liliacee e orchidee. Le dicotiledoni, invece, sono molto più diffuse e comprendono una vasta gamma di piante da frutto oltre a numerose specie arboree, arbustive ed erbacee.
 
-== Approfondimento: i licheni <senza_numero>
-
-I licheni sono strutture vegetali complesse formate dall'associazione simbiotica tra funghi e alghe. Questa collaborazione stretto consente loro di formare un unico tallo: il micelio dei funghi, prevalentemente ascomiceti, assorbe acqua e sali minerali dal substrato e trattiene l'umidità, mentre le alghe, unicellulari clorofite o cianobatteri, provvedono alla produzione di zuccheri grazie alla fotosintesi.
-
-Le alghe, con i loro pigmenti, conferiscono ai licheni una gamma di colori vivaci che spazia dal verde all'arancione. Il processo riproduttivo dei licheni avviene principalmente in due modi: attraverso la diffusione delle spore fungine, che possono dar vita a nuovi licheni se incontrano un'alga compatibile; oppure per frammentazione del tallo, tramite piccoli frammenti chiamati isidi e soredi. Tuttavia, il loro ritmo di crescita è estremamente lento.
-
-I licheni vengono classificati in base alla forma del tallo: quelli crostosi hanno un tallo sottile aderente completamente al substrato; quelli fogliosi si estendono orizzontalmente, somigliando a foglie; quelli fruticosi si sviluppano in forma eretta o cespugliosa, crescendo direttamente sul terreno o pendendo dai rami degli alberi. Questi organismi pionieri sono essenziali nel processo di colonizzazione delle rocce, contribuendo alla loro erosione mediante il rilascio di acidi che avviano la formazione del suolo. I licheni possono prosperare in una vasta gamma di ambienti con abbondante luce e sono estremamente resistenti ai periodi prolungati di siccità.
-
+#pagebreak
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Angiosperme: Piante a seme dotate di fiore, i cui ovuli sono racchiusi in una struttura chiusa chiamata ovario.  

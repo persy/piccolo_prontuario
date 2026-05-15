@@ -1,5 +1,5 @@
-#import "../../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[A partire dal XIII secolo, la crisi delle due principali istituzioni, l'Impero e il Papato, coincise con l'ascesa delle grandi monarchie nazionali di Inghilterra, Francia e Spagna. Questi regni si consolidarono nei due secoli successivi, dando origine a monarchie di carattere "assoluto", libere da qualsiasi influenza o condizionamento sovranazionale. Il progresso delle monarchie assolute comportò la decadenza economica della nobiltà feudale e l'emergere dei ceti borghesi, che si posizionarono come alleati chiave del potere monarchico.
 
@@ -19,7 +19,17 @@ La Chiesa affrontò un'altra profonda crisi nel 1378, quando, in un clima di pro
 
 Mentre la Chiesa attraversava queste difficoltà, anche l'Impero versava in una condizione di crisi. Tentativi di ristabilirne il prestigio furono promossi da Enrico VII di Lussemburgo, celebrato da Dante, e successivamente da Ludovico il Bavaro. Quest'ultimo, scomunicato dal papa Giovanni XXII, intraprese una spedizione in Italia nel 1327 e si fece incoronare da un antipapa, Niccolò V, che egli stesso aveva insediato. La sua politica culminò nel 1338 con la decisione degli elettori imperiali secondo cui l'elezione a re di Germania implicava automaticamente l'assunzione del titolo imperiale senza la necessità dell'incoronazione papale, una proposta ispirata dalle teorie di Marsilio da Padova.
 
-Nel 1356 l'imperatore Carlo IV regolamentò formalmente il processo elettorale dell'Impero mediante la celebre “Bolla d'oro”. Tale decreto affidava l'elezione a un collegio composto da tre membri ecclesiastici e quattro rappresentanti laici. Con questo atto si determinò il graduale tramonto del principio universale dell'Impero, riflesso anche nel declino del potere universale della Chiesa.
+Nel 1356 l'imperatore Carlo IV regolamentò formalmente il processo elettorale dell'Impero mediante la celebre _Bolla d'Oro_. Tale decreto affidava l'elezione a un collegio composto da tre membri ecclesiastici e quattro rappresentanti laici. Con questo atto si determinò il graduale tramonto del principio universale dell'Impero, riflesso anche nel declino del potere universale della Chiesa.
+
+#note(bottom)[== *🧩* Il _Defensor Pacis_ di Marsilio da Padova <senza_numero>
+
+Nel 1324 Marsilio da Padova, un professore parigino, pubblicò un trattato politico rivoluzionario destinato a influenzare profondamente le idee dell'epoca: il _Defensor Pacis._
+
+In questo testo l'autore sosteneva l'origine laica dello Stato, considerato un prodotto della naturale inclinazione dell'uomo a vivere in comunità. Secondo Marsilio, la sovranità risiede nel popolo, inteso come università dei cittadini (_universitas civium_), oppure nella sua componente più influente (_pars valentior_), la quale ha il diritto di investire il sovrano senza necessità di alcuna legittimazione ecclesiastica.
+
+Moltiplicando questa visione anche al contesto ecclesiastico, Marsilio affermava che l'autorità dei vescovi derivava dalla scelta dei fedeli. Per questo motivo il governo della Chiesa non doveva spettare al papa, bensì al Concilio dei vescovi, come rappresentazione della totalità dei fedeli (_universitas fidelium_).
+
+Le idee di Marsilio saranno riprese durante lo scisma d'Occidente dai sostenitori della superiorità del Concilio rispetto al papa e da Ludovico il Bavaro per avvalorare la legittimità dell'autorità imperiale a prescindere dall'investitura ecclesiastica.]
 
 == Le grandi monarchie: la Francia
 
@@ -37,7 +47,7 @@ I Francesi, invece, proclamarono re Filippo VI di Valois, appartenente a un ramo
 
 Nel 1415, con la vittoria inglese ad Azincourt, Enrico V d'Inghilterra ottenne da Carlo VI il diritto alla successione al trono di Francia, sancito dal Trattato di Troyes. Successivamente Enrico VI Plantageneto fu incoronato nel 1431 re di Francia oltre che d'Inghilterra. Nel frattempo, il figlio di Carlo VI, considerato da una parte dei Francesi il legittimo erede, si rifugiò a Bourges.
 
-La guerra fu caratterizzata da eventi complessi e lunghi, intervallati da tregue, lotte interne e rivolte popolari, tra cui le sommosse contadine note come *jacquerie*, termine derivato dal nome del corto abito (*jacque*) indossato dai ribelli.
+La guerra fu caratterizzata da eventi complessi e lunghi, intervallati da tregue, lotte interne e rivolte popolari, tra cui le sommosse contadine note come _jacquerie_, termine derivato dal nome del corto abito (_jacque_) indossato dai ribelli.
 
 La Francia, dopo aver ceduto la parte sud-occidentale con la Pace di Brétigny (1360), risorse grazie al re Carlo V (1364-1380), che ricostituì l'esercito nazionale, e all'intervento decisivo di Giovanna d'Arco. Questa giovane donna prese il comando dell'esercito francese, spingendo il Delfino a farsi incoronare re con il nome di Carlo VII nel 1429.
 
@@ -55,11 +65,11 @@ Enrico I (1100-1135) innovò l'organizzazione amministrativa istituendo i giudic
 
 Il potere passò ai Plantageneti nel 1141 con l'ascesa al trono di Enrico II (1154-1189), figlio di Matilde. Enrico affrontò conflitti con la Chiesa che si opponeva al giudizio dei chierici nei tribunali laici. La disputa culminò con l'assassinio dell'arcivescovo di Canterbury, Tommaso Becket, dopo le sue critiche alle Costituzioni di Clarendon, attraverso le quali il sovrano rivendicava il controllo delle nomine ecclesiastiche. Becket fu riconosciuto come martire dall'opinione pubblica, costringendo Enrico II ad annullare diverse disposizioni.
 
-Durante il regno di Riccardo Cuor di Leone (1189-1199), l'Inghilterra combatté contro la Francia e partecipò alla Terza Crociata, finanziata tramite un aumento delle tasse. Il suo successore, Giovanni Senza Terra (1199-1216), ereditò una situazione critica causata dalla guerra persistente con la Francia e dalla perdita di territori. Nel 1215 i baroni si ribellarono contro Giovanni, costringendolo a firmare la Magna Charta Libertatum. Questo documento stabiliva diritti fondamentali per vescovi, conti, baroni e cittadini liberi, e prevedeva l'istituzione del Consiglio Comune, un'assemblea di rappresentanti nobili. Più tardi, nel 1265, venne affiancato da un'assemblea dei ceti cittadini, formando il primo parlamento bicamerale.
+Durante il regno di Riccardo Cuor di Leone (1189-1199), l'Inghilterra combatté contro la Francia e partecipò alla Terza Crociata, finanziata tramite un aumento delle tasse. Il suo successore, Giovanni Senza Terra (1199-1216), ereditò una situazione critica causata dalla guerra persistente con la Francia e dalla perdita di territori. Nel 1215 i baroni si ribellarono contro Giovanni, costringendolo a firmare la _Magna Charta Libertatum_. Questo documento stabiliva diritti fondamentali per vescovi, conti, baroni e cittadini liberi, e prevedeva l'istituzione del Consiglio Comune, un'assemblea di rappresentanti nobili. Più tardi, nel 1265, venne affiancato da un'assemblea dei ceti cittadini, formando il primo parlamento bicamerale.
 
-La tensione tra monarchia e baronaggio continuò nei regni successivi. Edoardo I (1272–1307) fu costretto a convocare annualmente il parlamento. La dinastia dei Plantageneti si concluse con la deposizione di Riccardo II, sostituito da Enrico IV di Bolingbroke, che inaugurò la dinastia dei Lancaster.
+La tensione tra monarchia e baronaggio continuò nei regni successivi. Edoardo I (1272-1307) fu costretto a convocare annualmente il parlamento. La dinastia dei Plantageneti si concluse con la deposizione di Riccardo II, sostituito da Enrico IV di Bolingbroke, che inaugurò la dinastia dei Lancaster.
 
-Durante il regno di Enrico VI, segnato da episodi di instabilità mentale, Riccardo di York fu nominato protettore del Regno. L'Inghilterra fu sconvolta per trent'anni dalla “Guerra delle due rose”, una lotta tra le casate dei Lancaster e degli York contraddistinte dai loro simboli floreali. La vittoria degli York si consolidò nel 1471, anche se Edoardo IV di York era stato proclamato re già dal 1461. Alla sua morte, i contrasti interni favorirono l'ascesa al trono di Enrico Tudor, ultimo discendente dei Lancaster, che inaugurò la dinastia Tudor.
+Durante il regno di Enrico VI, segnato da episodi di instabilità mentale, Riccardo di York fu nominato protettore del Regno. L'Inghilterra fu sconvolta per trent'anni dalla Guerra delle Due Rose, una lotta tra le casate dei Lancaster e degli York contraddistinte dai loro simboli floreali. La vittoria degli York si consolidò nel 1471, anche se Edoardo IV di York era stato proclamato re già dal 1461. Alla sua morte, i contrasti interni favorirono l'ascesa al trono di Enrico Tudor, ultimo discendente dei Lancaster, che inaugurò la dinastia Tudor.
 
 == Spagna e Portogallo
 
@@ -71,38 +81,17 @@ La svolta per l'unificazione della Spagna arrivò con il matrimonio di Ferdinand
 
 Nonostante gli sforzi, l'unificazione completa non fu raggiunta immediatamente, ma queste iniziative rappresentarono la premessa di una tendenza all'unità che caratterizzerà il XV secolo.
 
-== Approfondimento: Il “Defensor Pacis” di Marsilio da Padova
+#pagebreak()
+#set page(fill: main_storia.lighten(90%))
+== In sintesi <senza_numero>
 
-Nel 1324 Marsilio da Padova, un professore parigino, pubblicò un trattato politico rivoluzionario destinato a influenzare profondamente le idee dell'epoca: il *Defensor Pacis.*
+/ Crisi dell'Impero: Bonifacio VIII, noto per aver indetto il Giubileo del 1300, si confrontò aspramente con Filippo IV il Bello, re di Francia (1285-1324). La tensione culminò nel 1303 con la prigionia del pontefice ad Anagni, orchestrata da Filippo. Successivamente, con l'elezione di Clemente V nel 1309, la sede papale venne trasferita ad Avignone, rimanendovi fino al 1377. \ Nel 1324 Marsilio da Padova pubblicò il _Defensor Pacis_, opera cardine del pensiero politico medievale. Nel 1338 Ludovico il Bavaro decretò che il papa non avrebbe dovuto interferire nell'elezione dell'imperatore. A Roma, il tentativo di Cola di Rienzo di restaurare la repubblica fallì nel 1347. Nel 1356 Carlo IV istituì un collegio composto da tre ecclesiastici e quattro laici per la nomina dell'imperatore. La crisi della Chiesa raggiunse il culmine nel 1378 con l'inizio dello Scisma d'Occidente, caratterizzato dalla contemporanea elezione di due papi, evento che si protrasse fino al 1417.
 
-In questo testo l'autore sosteneva l'origine laica dello Stato, considerato un prodotto della naturale inclinazione dell'uomo a vivere in comunità. Secondo Marsilio, la sovranità risiede nel popolo, inteso come università dei cittadini (universitas civium), oppure nella sua componente più influente (pars valentior), la quale ha il diritto di investire il sovrano senza necessità di alcuna legittimazione ecclesiastica.
+/ Francia e Inghilterra: Luigi VI, Filippo II Augusto e Luigi IX (1108-1270) contribuirono significativamente alla centralizzazione monarchica e all'unificazione territoriale del regno francese.
 
-Moltiplicando questa visione anche al contesto ecclesiastico, Marsilio affermava che l'autorità dei vescovi derivava dalla scelta dei fedeli. Per questo motivo il governo della Chiesa non doveva spettare al papa, bensì al Concilio dei vescovi, come rappresentazione della totalità dei fedeli (universitas fidelium).
+/ Guerra dei Cent'anni: Dal 1337 al 1453 Inghilterra e Francia furono impegnate nella lunga Guerra dei Cent'anni, originata dalle rivendicazioni dinastiche legate alla successione al trono di Francia. Nonostante gli esiti alterni, la Francia vide un decisivo recupero grazie a Carlo V (1364-1380) e all'intervento di Giovanna d'Arco. Nel 1429 Carlo VII fu consacrato re, rafforzando ulteriormente il dominio francese. Successivamente, Luigi XI (1461-1483) fronteggiò con successo l'opposizione feudale e la potenza di Carlo il Temerario, duca di Borgogna.
 
-Le idee di Marsilio saranno riprese durante lo scisma d'Occidente dai sostenitori della superiorità del Concilio rispetto al papa e da Ludovico il Bavaro per avvalorare la legittimità dell'autorità imperiale a prescindere dall'investitura ecclesiastica.
+/ Guerra delle Due Rose: In Inghilterra la monarchia ebbe origine con Guglielmo il Conquistatore nel 1066. Dopo la morte di Stefano di Blois, successore di Enrico I (1100-1135), salì al potere Enrico II, inaugurando la dinastia Plantageneta. Durante il suo regno fu assassinato Tommaso Becket, primate della Chiesa inglese. Riccardo Cuor di Leone (1189-1199) si distinse per le sue campagne contro la Francia e per la partecipazione alla Terza Crociata. \ Il successore Giovanni Senza Terra (1199-1216), sotto pressione dei baroni ribelli, promulgò la Magna Charta Libertatum nel 1215. La dinastia Plantageneta si concluse con la deposizione di Riccardo II, sostituito da Enrico IV della casa Lancaster. Il Paese fu poi sconvolto da un conflitto dinastico per trent'anni tra Lancaster e York, noto come la Guerra Delle Due Rose. Nel 1461 Edoardo IV, appartenente alla casata degli York, salì al trono; ma alla sua morte, dopo molteplici tensioni interne, il potere passò a Enrico VII della dinastia dei Tudor.
 
-== In sintesi
-
-
-LA CRISI DELL'IMPERO  
-
-Bonifacio VIII, noto per aver indetto il Giubileo del 1300, si confrontò aspramente con Filippo IV il Bello, re di Francia (1285-1324). La tensione culminò nel 1303 con la prigionia del pontefice ad Anagni, orchestrata da Filippo. Successivamente, con l'elezione di Clemente V nel 1309, la sede papale venne trasferita ad Avignone, rimanendovi fino al 1377.
-
-Nel 1324 Marsilio da Padova pubblicò il *Defensor Pacis*, opera cardine del pensiero politico medievale. Nel 1338 Ludovico il Bavaro decretò che il papa non avrebbe dovuto interferire nell'elezione dell'imperatore. A Roma, il tentativo di Cola di Rienzo di restaurare la repubblica fallì nel 1347. Nel 1356 Carlo IV istituì un collegio composto da tre ecclesiastici e quattro laici per la nomina dell'imperatore. La crisi della Chiesa raggiunse il culmine nel 1378 con l'inizio dello Scisma d'Occidente, caratterizzato dalla contemporanea elezione di due papi, evento che si protrasse fino al 1417.
-
-FRANCIA E INGHILTERRA  
-
-Luigi VI, Filippo II Augusto e Luigi IX (1108-1270) contribuirono significativamente alla centralizzazione monarchica e all'unificazione territoriale del regno francese.
-
-/ La Guerra dei Cent'anni:  
-Dal 1337 al 1453 Inghilterra e Francia furono impegnate nella lunga Guerra dei Cent'anni, originata dalle rivendicazioni dinastiche legate alla successione al trono di Francia. Nonostante gli esiti alterni, la Francia vide un decisivo recupero grazie a Carlo V (1364-1380) e all'intervento di Giovanna d'Arco. Nel 1429 Carlo VII fu consacrato re, rafforzando ulteriormente il dominio francese. Successivamente, Luigi XI (1461-1483) fronteggiò con successo l'opposizione feudale e la potenza di Carlo il Temerario, duca di Borgogna.
-
-/ La Guerra delle due rose:  
-In Inghilterra la monarchia ebbe origine con Guglielmo il Conquistatore nel 1066. Dopo la morte di Stefano di Blois, successore di Enrico I (1100-1135), salì al potere Enrico II, inaugurando la dinastia Plantageneta. Durante il suo regno fu assassinato Tommaso Becket, primate della Chiesa inglese. Riccardo Cuor di Leone (1189-1199) si distinse per le sue campagne contro la Francia e per la partecipazione alla Terza Crociata.
-
-Il successore Giovanni Senza Terra (1199-1216), sotto pressione dei baroni ribelli, promulgò la Magna Charta Libertatum nel 1215. La dinastia Plantageneta si concluse con la deposizione di Riccardo II, sostituito da Enrico IV della casa Lancaster. Il Paese fu poi sconvolto da un conflitto dinastico per trent'anni tra Lancaster e York, noto come la Guerra delle due rose. Nel 1461 Edoardo IV, appartenente alla casata degli York, salì al trono; ma alla sua morte, dopo molteplici tensioni interne, il potere passò a Enrico VII della dinastia dei Tudor.
-
-SPAGNA E PORTOGALLO  
-
-L'unificazione territoriale della Spagna si realizzò con il matrimonio tra Ferdinando d'Aragona e Isabella di Castiglia nel 1469, segnando l'inizio dell'unità nazionale. Parallelamente, in Portogallo vennero avviati i primi tentativi di centralizzazione e consolidamento dello Stato.  
+/ Spagna e Portogallo: L'unificazione territoriale della Spagna si realizzò con il matrimonio tra Ferdinando d'Aragona e Isabella di Castiglia nel 1469, segnando l'inizio dell'unità nazionale. Parallelamente, in Portogallo vennero avviati i primi tentativi di centralizzazione e consolidamento dello Stato.  
 

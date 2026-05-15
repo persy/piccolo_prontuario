@@ -1,4 +1,4 @@
-#import "../../template_tufte.typ": *
+#import "../../template_normal.typ": *
 
 == Il limite e la derivata di una funzione
 

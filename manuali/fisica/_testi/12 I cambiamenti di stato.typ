@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[La materia, nelle normali condizioni ambientali, può presentarsi in tre diversi stati fisici o stati di aggregazione: solido, liquido e aeriforme (distinguibile tra stato gassoso e stato di vapore).
 
@@ -37,9 +37,7 @@ I cambiamenti di stato rappresentano il passaggio di una sostanza da uno stato d
 
 La pressione esercita un'effetto opposto rispetto alla temperatura: un aumento della pressione facilita i passaggi dallo stato gassoso a quello liquido e da quello liquido a quello solido. Al contrario, una diminuzione di pressione facilita i cambiamenti dagli stati più compatti verso quelli meno compatti.
 
-Tutti i cambiamenti di stato avvengono a temperature ben precise, il cui valore dipende dalla pressione esercitata (generalmente si considera la pressione atmosferica normale, pari a 1013,2 hPa).
-
-Durante un cambiamento di stato, fino a quando l'intera massa della sostanza coinvolta non completa la trasformazione (ad esempio, da solido a liquido o da liquido a gas), la sua temperatura rimane costante.
+Tutti i cambiamenti di stato avvengono a temperature ben precise, il cui valore dipende dalla pressione esercitata (generalmente si considera la pressione atmosferica normale, pari a 1013,2 hPa). Durante un cambiamento di stato, fino a quando l'intera massa della sostanza coinvolta non completa la trasformazione (ad esempio, da solido a liquido o da liquido a gas), la sua temperatura rimane costante.
 
 Un esempio comune è il processo di ebollizione dell'acqua: quando l'acqua passa dallo stato liquido a quello di vapore, anche se si continua a fornire energia sotto forma di calore, la temperatura non subisce variazioni.
 
@@ -49,9 +47,42 @@ Questo calore, riferito all'unità di massa, prende il nome di calore latente. A
 
 Ogni passaggio di stato comporta quindi l'assorbimento o la liberazione di calore. Per esempio, la fusione di un solido e l'evaporazione di un liquido richiedono energia sotto forma di calore fornito dall'esterno. Al contrario, la condensazione del vapore e la solidificazione di un liquido comportano una cessione di calore verso l'esterno.
 
-La quantità di calore necessaria per fondere una massa m di un solido si calcola attraverso la formula \(Q = m · cf\), dove cf rappresenta il calore latente di fusione, misurato in J/kg secondo il Sistema Internazionale.
+La quantità di calore necessaria per fondere una massa _m_ di un solido si calcola attraverso la formula:
 
-=== La fusione e la solidificazione
+$ 
+  Q = m dot c_f
+$
+
+dove _c#sub[f]_ rappresenta il calore latente di fusione, misurato in J/kg secondo il Sistema Internazionale.
+#figure(
+  caption: [I vari tipi di passaggi di stato.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (3),
+  table.header[Nome][Definizione][Esempio],
+[Fusione], [trasformazione dallo stato solido a quello liquido], [ghiaccio o un metallo che si scioglie], 
+[Solidificazione], [passaggio dallo stato liquido a quello solido],[congelamento dell'acqua o la solidificazione di un metallo],  
+[Evaporazione#footnote[Denominati collettivamente vaporizzazione.]<vaporizzazione>], [transizione dallo stato liquido allo stato aeriforme in modo lento e graduale, coinvolgendo solo la superficie del liquido], [l'acqua che evapora dai panni umidi o l'alcol che svanisce a contatto con la pelle], 
+[Ebollizione#footnote(<vaporizzazione>)], [passaggio dallo stato liquido allo stato aeriforme caratterizzato da un processo più rapido e tumultuoso che interessa l'intera massa del liquido], [l'acqua durante la bollitura ], 
+[Condensazione], [trasformazione dallo stato aeriforme di vapore a quello liquido], [formazione di rugiada o pioggia],  
+[Liquefazione], [passaggio dallo stato aeriforme di gas a quello liquido],  [liquefazione dell'idrogeno],  
+[Sublimazione], [trasformazione diretta dallo stato solido a quello aeriforme e viceversa], [naftalina]
+)  
+)
+
+== La fusione e la solidificazione
 
 La fusione è una trasformazione che consente il passaggio di una sostanza dallo stato solido allo stato liquido. Perché avvenga, è necessario fornire calore alla sostanza mantenendo costante la pressione; raggiunta una precisa temperatura, definita temperatura di fusione o punto di fusione, ha inizio il processo.
 
@@ -70,6 +101,34 @@ In conformità con la legge di conservazione dell'energia, durante il passaggio 
 Per una data sostanza, il calore latente di fusione e quello di solidificazione sono sempre equivalenti, così come le temperature di fusione e solidificazione, purché la pressione rimanga invariata. Tuttavia, modificando la pressione esercitata sul liquido, cambia anche il punto di solidificazione.
 
 Nel caso dell'acqua, se sottoposta a pressioni superiori a quella atmosferica, essa ghiaccia a temperature inferiori rispetto al normale punto di solidificazione. È proprio per questa ragione che grandi masse d'acqua, come un lago, ghiacciano solo in superficie mentre in profondità rimangono liquide anche a temperature inferiori allo zero. Questo fenomeno si verifica perché la pressione sul fondo del lago è data dalla somma della pressione atmosferica esterna e della pressione esercitata dalla colonna d'acqua sovrastante.
+#figure(
+  caption: [Temperature di fusione di alcune sostanze e calori latenti di fusione a pressione normale.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (3),
+  table.header[Sostanza][Temperatura di  \ fusione in °C (in K)][Calore latente \ (· 10#super[6] J/kg)],
+[elio],	[−269,7	(3,5)],	[0,005],
+[idrogeno],	[−259,3	(13,9)],	[0,059],
+[ossigeno],	[−218,8	(54,4)],	[0,014],
+[alcol etilico],	[−114,0	(159,2)],	[0,105],
+[acqua],	[0	(273,15)],	[0,012],
+[mercurio],	[−39,0	(234,2)],	[0,334],
+[piombo],	[327,3	(600,5)],	[0,025],
+[argento],	[960,8	(1234)],	[0,105]
+)  
+)
 
 == La vaporizzazione
 
@@ -77,9 +136,7 @@ La vaporizzazione è un fenomeno che consiste nella transizione dallo stato liqu
 
 L'evaporazione può verificarsi a qualsiasi temperatura ma con intensità variabile. Un aumento della temperatura incrementa l'energia cinetica delle molecole del liquido e, di conseguenza, accelera il processo di evaporazione.
 
-La quantità di particelle che evaporano dipende dalla superficie esposta del liquido: una superficie più ampia favorisce l'evaporazione. 
-
-Se l'evaporazione avviene in un ambiente chiuso, si stabilisce un equilibrio tra il liquido e il vapore. In questa condizione, il numero di particelle liquide che si trasformano in vapore risulta uguale al numero di particelle di vapore che si condensano tornando allo stato liquido. In tale situazione si dice che il vapore è saturo, mentre la pressione corrispondente a questo equilibrio è chiamata tensione di vapore (o pressione del vapore saturo).
+La quantità di particelle che evaporano dipende dalla superficie esposta del liquido: una superficie più ampia favorisce l'evaporazione. Se l'evaporazione avviene in un ambiente chiuso, si stabilisce un equilibrio tra il liquido e il vapore. In questa condizione, il numero di particelle liquide che si trasformano in vapore risulta uguale al numero di particelle di vapore che si condensano tornando allo stato liquido. In tale situazione si dice che il vapore è saturo, mentre la pressione corrispondente a questo equilibrio è chiamata tensione di vapore (o pressione del vapore saturo).
 
 La tensione di vapore varia da un liquido all'altro ed aumenta con l'incremento della temperatura, ma non dipende dalla quantità di liquido presente. Essa rappresenta una misura della volatilità di una sostanza, ovvero la sua capacità di evaporare a una data temperatura. Ad esempio, l'alcol è più volatile dell'acqua a temperatura ambiente.
 
@@ -91,11 +148,82 @@ L'ebollizione avviene a una temperatura specifica per una determinata pressione 
 
 La temperatura di ebollizione corrisponde alla condizione in cui la tensione di vapore del liquido eguaglia la pressione esterna esercitata sulla sua superficie. Tuttavia, essa varia con i cambiamenti nella pressione: aumenta all'aumentare della pressione esterna e diminuisce al diminuire della stessa. Una diminuzione della pressione esterna comporta un abbassamento della temperatura necessaria per l'ebollizione; al contrario, un aumento della pressione richiede una temperatura più alta per raggiungere l'ebollizione.
 
-Ad esempio, l'acqua bolle a 100 °C a pressione atmosferica normale (101,32 kPa). Tuttavia, ad altitudini elevate, come a circa 5500 metri dove la pressione atmosferica è circa la metà (50 kPa), l'acqua bolle a una temperatura inferiore, pari a 86 °C. Viceversa, aumentando la pressione esterna, come nel caso della pentola a pressione, l'acqua può bollire a temperature superiori a 100 °C.
+Ad esempio, l'acqua bolle a 100 °C a pressione atmosferica normale (101,32 kPa). Tuttavia, ad altitudini elevate, come a circa 5500 metri dove la pressione atmosferica è circa la metà (50 kPa), l'acqua bolle a una temperatura inferiore, pari a 86 °C. Viceversa, aumentando la pressione esterna, come nel caso della pentola a pressione, l'acqua può bollire a temperature superiori a 100 °C. La quantità di calore necessaria per portare una massa unità di liquido alla completa ebollizione è chiamata calore latente di ebollizione.
 
-La quantità di calore necessaria per portare una massa unità di liquido alla completa ebollizione è chiamata calore latente di ebollizione. Nella tabella 12.3 sono riportati i valori delle temperature di ebollizione e dei rispettivi calori latenti per alcuni liquidi alla pressione normale.
----
+#figure(
+  caption: [Temperature di ebollizione e calori latenti di alcune sostanze a pressione normale.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (3),
+  table.header[Sostanza][Temperatura di \ ebollizione in °C (in K)][Calore latente \ (· 10#super[6] J/kg)],
+  [elio],	[−268,9	(4,22)],	[0,021],
+  [idrogeno],	[−252,9	(20,3)],	[0,452],
+  [ossigeno],	[−239,9	(90,2)],	[0,213],
+  [alcol etilico],	[78	(351)],	[0,854],
+  [acqua],	[100	(373,15)],	[2,253],
+  [mercurio],	[357	(630,2)],	[0,272],
+  [piombo],	[1750	(2023,2)],	[0,871],
+  [argento],	[2193	(2466,2)],	[2,336],
+)  
+)
+
+#note(bottom)[== *🧩* Il vapore d'acqua nell'atmosfera <senza_numero>
+
+Il vapore acqueo, pur essendo presente nell'atmosfera terrestre in quantità piccole e variabili, rappresenta uno dei suoi componenti più rilevanti, poiché dalla sua condensazione prendono origine tutti i fenomeni meteorologici.
+
+La quantità di vapore acqueo nell'atmosfera viene misurata come umidità dell'aria. L'umidità relativa, in particolare, è il rapporto percentuale tra la quantità effettiva di vapore presente in un dato volume di aria e la quantità massima che quell'aria può contenere alla stessa temperatura senza che si verifichi condensazione. Quando l'umidità relativa raggiunge il 100%, l'aria diventa satura e il vapore inizia a condensarsi.
+
+La condensazione del vapore avviene solitamente attorno a superfici solide o liquide. In mancanza di tali superfici, l'aria può trattenere un quantitativo maggiore di vapore senza dar luogo alla condensazione, condizione nota come soprassaturazione.
+
+La condensazione del vapore acqueo può manifestarsi al suolo, dando origine alla rugiada o alla brina se la temperatura scende sotto gli 0 °C. Oppure può avvenire in aria, causando la formazione di nubi, nebbie e precipitazioni.
+
+Il processo di formazione delle nubi e delle precipitazioni è complesso e dipende dalla presenza di corpuscoli atmosferici che fungono da nuclei di condensazione per il vapore acqueo. Questi nuclei possono essere particelle di sale marino, fumo, o materiali generati dall'erosione del terreno.
+
+Quando una massa d'aria si raffredda al di sotto del punto di saturazione, il vapore condensa attorno ai nuclei di condensazione, formando goccioline d'acqua o piccoli cristalli di ghiaccio, in base alla temperatura dell'aria. Tali goccioline costituiscono le nubi. Scontrandosi tra loro, possono aumentare di dimensioni fino a quando, per effetto della gravità, precipitano all'interno della nube.
+
+Durante la loro caduta, le gocce tendono a fondersi con altre presenti nella nube, ingrandendosi ulteriormente. Se sono abbastanza pesanti, raggiungono il suolo sotto forma di pioggia. Nel caso in cui la temperatura rimanga sufficientemente bassa lungo tutto il percorso, le precipitazioni si presentano sotto forma di neve.
+
+Se la formazione della nube avviene vicino al suolo, si genera la nebbia. Le goccioline di vapore acqueo condensato presenti in essa riducono significativamente la visibilità.]
+
 == La liquefazione e la condensazione
+
+#figure(
+  caption: [Temperatura critica di alcuni gas.],
+  table(
+    stroke: 0.5pt + main_scienze.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_scienze // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_scienze.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (2),
+  table.header[Gas][Temperatura critica \ in °C (in K)],
+[azoto], [−147,1 (126,1)],
+[elio], [−267,9 (5,3)],
+[idrogeno], [−239,9 (33,3)],
+[neon], [−228,7 (44,5)],
+[ossigeno], [−118,7 (154,5)],
+)  
+)
 
 Il passaggio dallo stato aeriforme a quello liquido prende il nome di liquefazione nel caso dei gas e condensazione nel caso dei vapori.
 
@@ -133,20 +261,22 @@ Nel caso dell'acqua, il punto triplo corrisponde a una temperatura di 0,01 °C e
 
 Dal 1954 il punto triplo dell'acqua ha sostituito il punto di fusione del ghiaccio come riferimento per la taratura della scala termometrica. In base a questa definizione, il kelvin è considerato pari a 1/273,16 del punto triplo dell'acqua.
 
-== Appr. Il vapore d'acqua nell'atmosfera
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
+== Glossario <senza_numero>
 
-Il vapore acqueo, pur essendo presente nell'atmosfera terrestre in quantità piccole e variabili, rappresenta uno dei suoi componenti più rilevanti, poiché dalla sua condensazione prendono origine tutti i fenomeni meteorologici.
+/ Calore latente: Quantità di energia termica necessaria per trasformare lo stato fisico di una sostanza senza variarne la temperatura.  
 
-La quantità di vapore acqueo nell'atmosfera viene misurata come umidità dell'aria. L'umidità relativa, in particolare, è il rapporto percentuale tra la quantità effettiva di vapore presente in un dato volume di aria e la quantità massima che quell'aria può contenere alla stessa temperatura senza che si verifichi condensazione. Quando l'umidità relativa raggiunge il 100%, l'aria diventa satura e il vapore inizia a condensarsi.
+/ Condensazione: Trasformazione di una sostanza dal suo stato di vapore a quello liquido.  
 
-La condensazione del vapore avviene solitamente attorno a superfici solide o liquide. In mancanza di tali superfici, l'aria può trattenere un quantitativo maggiore di vapore senza dar luogo alla condensazione, condizione nota come soprassaturazione.
+/ Fusione: Trasformazione di una sostanza dallo stato solido a quello liquido.  
 
-La condensazione del vapore acqueo può manifestarsi al suolo, dando origine alla rugiada o alla brina se la temperatura scende sotto gli 0 °C. Oppure può avvenire in aria, causando la formazione di nubi, nebbie e precipitazioni.
+/ Liquefazione: Conversione di una sostanza dallo stato gassoso a quello liquido.  
 
-Il processo di formazione delle nubi e delle precipitazioni è complesso e dipende dalla presenza di corpuscoli atmosferici che fungono da nuclei di condensazione per il vapore acqueo. Questi nuclei possono essere particelle di sale marino, fumo, o materiali generati dall'erosione del terreno.
+/ Solidificazione: Processo in cui una sostanza passa dallo stato liquido a quello solido.  
 
-Quando una massa d'aria si raffredda al di sotto del punto di saturazione, il vapore condensa attorno ai nuclei di condensazione, formando goccioline d'acqua o piccoli cristalli di ghiaccio, in base alla temperatura dell'aria. Tali goccioline costituiscono le nubi. Scontrandosi tra loro, possono aumentare di dimensioni fino a quando, per effetto della gravità, precipitano all'interno della nube.
+/ Sublimazione: Transizione diretta di una sostanza dallo stato solido a quello aeriforme, o viceversa dallo stato aeriforme a quello solido, senza attraversare lo stato liquido.  
 
-Durante la loro caduta, le gocce tendono a fondersi con altre presenti nella nube, ingrandendosi ulteriormente. Se sono abbastanza pesanti, raggiungono il suolo sotto forma di pioggia. Nel caso in cui la temperatura rimanga sufficientemente bassa lungo tutto il percorso, le precipitazioni si presentano sotto forma di neve.
+/ Tensione di vapore: Pressione esercitata da un vapore saturo sopra il liquido con cui si trova in equilibrio. Aumenta all'aumentare della temperatura e rappresenta il grado di volatilità di una sostanza, ovvero la sua tendenza a evaporare (o sublimare, nel caso di un solido).  
 
-Se la formazione della nube avviene vicino al suolo, si genera la nebbia. Le goccioline di vapore acqueo condensato presenti in essa riducono significativamente la visibilità.
+/ Vaporizzazione: Passaggio di una sostanza dallo stato liquido a quello aeriforme, che può avvenire tramite due modalità: l’evaporazione, che interessa la superficie del liquido, e l’ebollizione, che coinvolge l’intera massa del liquido.

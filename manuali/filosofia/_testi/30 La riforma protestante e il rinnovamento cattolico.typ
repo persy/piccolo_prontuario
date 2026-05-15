@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Fin dagli albori dell'età umanistica, la religione è stata attraversata da un processo di rinnovamento teorico e pratico, che ha trovato il suo apice nel Cinquecento con la Riforma Cattolica e la Riforma Protestante. La prima si concentra in particolare sull'urgenza di una rigenerazione morale, perseguendo un ritorno all'autenticità dello spirito evangelico. La seconda, invece, apre le porte a un ripensamento teologico più radicale, che conduce alla frattura dell'unità cristiana in Europa e alla nascita delle Chiese protestanti.]
 
@@ -44,10 +44,11 @@ Il concilio di Trento (1545-1563) rappresenta il momento culminante di questa vo
 La vita ecclesiastica viene ristrutturata con provvedimenti significativi. Tra questi spiccano la promulgazione del Catechismo romano (1566), l'istituzione dei seminari (1563) per la formazione dei sacerdoti e l'unificazione delle pratiche liturgiche mediante il Breviario e il Messale romano. La custodia della dottrina viene affidata a un magistero centrale considerato infallibile, insieme a una rigida disciplina, limitando la libera ricerca della verità. Questa impostazione è evidente nella creazione della Congregazione dell'Inquisizione (o Sant'Ufficio) e nell'Indice dei Libri proibiti.
 
 Dal punto di vista teologico si registra uno sviluppo significativo nella teologia controversistica, che parte dalla convinzione che l'interpretazione della Bibbia debba essere guidata dalla tradizione dei papi, dei Padri della Chiesa e dei concili, con l'obiettivo di confutare il pensiero protestante. Si assiste inoltre a una nuova vitalità della scolastica, grazie al "tomismo moderno" promosso dalla scuola domenicana, oltre che alla riflessione casistica sulla morale portata avanti dai gesuiti.
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
-
-/ La riforma cattolica: La "riforma cattolica" designa il processo di rinnovamento avviato dalla Chiesa cattolica volto a eliminare gli abusi, promuovendo una fedeltà alle origini evangeliche e una rinnovata purezza spirituale.
+/ La riforma cattolica: La riforma cattolica designa il processo di rinnovamento avviato dalla Chiesa cattolica volto a eliminare gli abusi, promuovendo una fedeltà alle origini evangeliche e una rinnovata purezza spirituale.
 
 / Erasmo da Rotterdam: Figura cruciale di questo movimento è Erasmo da Rotterdam, umanista olandese che propone come ideale comune la perfezione cristiana e il ritorno allo spirito autentico del Vangelo. Nel suo _Elogio della pazzia_, contrappone la "superiore" follia della vita cristiana ai valori effimeri e convenzionali che dominano la società.
 

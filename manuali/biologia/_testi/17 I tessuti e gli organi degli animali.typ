@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Gli animali, rispetto alle piante, possiedono un numero di cellule mediamente molto maggiore. Questa caratteristica è legata alla loro complessità e alla diversificazione delle funzioni corporee. Tutte le cellule di un organismo animale nascono attraverso successive divisioni mitotiche di una cellula iniziale, lo zigote. Durante il processo di sviluppo embrionale, le cellule si dividono e si differenziano, diventando capaci di svolgere compiti specifici all'interno dell'organismo. Una volta raggiunta la specializzazione, le cellule adulte possono replicarsi solo producendo copie identiche a sé stesse. Gruppi di cellule specializzate che condividono la stessa funzione si uniscono per formare i tessuti, che a loro volta si organizzano durante lo sviluppo embrionale per generare strutture più complesse, gli organi.]
 
@@ -58,6 +58,7 @@ Gli organi animali sono composti da diversi tessuti, ma uno di essi è responsab
 
 Gli organi cavi, come lo stomaco, hanno una struttura stratificata: l'epitelio interno (o mucosa), uno strato sottomucoso di tessuto connettivo e uno strato muscolare esterno. Gli organi ghiandolari, come il fegato, sono composti da unità funzionali (adenomeri) organizzate in lobuli o lobi più grandi e sostenute da un reticolo di tessuto connettivo (stroma). Gli organi a struttura filamentosa, come i muscoli, sono formati da fasci di unità contrattili che permettono la loro funzione. Infine, gli organi nervosi, come l'occhio, sono costituiti da cellule strettamente interconnesse che collaborano nella ricezione degli stimoli e nella trasmissione degli impulsi.
 #pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Cellule della glia: Cellule che circondano i neuroni, fornendo supporto strutturale e protezione.  

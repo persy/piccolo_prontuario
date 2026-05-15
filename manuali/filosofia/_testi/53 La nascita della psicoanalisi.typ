@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Con il termine psicoanalisi si intende il metodo di investigazione dei processi psichici, la tecnica di trattamento delle patologie mentali e la teoria sulla struttura e il funzionamento della mente, sviluppati da Sigmund Freud.
 
@@ -9,9 +9,9 @@ La teoria freudiana, pur innovativa, suscita fin da subito dibattiti e critiche,
 
 == Sigmund Freud
 
-Sigmund Freud (Freiberg, Moravia, oggi Pribor, 1856 - Londra 1939) fu un medico neurologo austriaco. Iniziò la sua carriera presso l'ospedale generale di Vienna sotto la guida dello psichiatra T. Meynert e continuò i suoi studi a Parigi con J.-M. Charcot. Successivamente aprì uno studio privato, dedicandosi prevalentemente ai pazienti affetti da nevrosi e collaborando con J. Breuer nella stesura degli "Studi sull'isteria" (1892-95). 
+Sigmund Freud (Freiberg, Moravia, oggi Pribor, 1856 - Londra 1939) fu un medico neurologo austriaco. Iniziò la sua carriera presso l'ospedale generale di Vienna sotto la guida dello psichiatra T. Meynert e continuò i suoi studi a Parigi con J.-M. Charcot. Successivamente aprì uno studio privato, dedicandosi prevalentemente ai pazienti affetti da nevrosi e collaborando con J. Breuer nella stesura degli _Studi sull'isteria_ (1892-95). 
 
-Nel 1900 pubblicò "L'interpretazione dei sogni", portando al grande pubblico la sua teoria dell'inconscio. Nel 1910 fondò, insieme ai suoi discepoli, l'Associazione Psicoanalitica Internazionale. Tra il primo e il secondo dopoguerra delineò una visione filosofica della personalità umana fondata su una lotta cosmica tra vita e morte. Si confrontò inoltre con grandi temi della cultura, della società e della religione, riflettendo sulle sue radici ebraiche nell'opera "L'uomo Mosè e la religione monoteista" (1938). 
+Nel 1900 pubblicò _L'interpretazione dei sogni_, portando al grande pubblico la sua teoria dell'inconscio. Nel 1910 fondò, insieme ai suoi discepoli, l'Associazione Psicoanalitica Internazionale. Tra il primo e il secondo dopoguerra delineò una visione filosofica della personalità umana fondata su una lotta cosmica tra vita e morte. Si confrontò inoltre con grandi temi della cultura, della società e della religione, riflettendo sulle sue radici ebraiche nell'opera _L'uomo Mosè e la religione monoteista_ (1938). 
 
 L'avvento del nazismo portò alla censura delle sue opere e lo costrinse a rifugiarsi a Londra nel 1938.
 
@@ -21,9 +21,9 @@ Freud cominciò le sue ricerche criticando le concezioni tradizionali sulle nevr
 
 Questi studi portarono alla formulazione di tre principi fondamentali della psicoanalisi: la causalità psichica, il carattere conflittuale della psiche e l'esistenza stessa dell'inconscio. Tra il 1897 e il 1905 Freud iniziò a spiegare con queste nuove nozioni alcuni fenomeni mentali normali.
 
-"L'interpretazione dei sogni", oltre a rivelare che il sogno rappresenta desideri censurati, evidenzia i meccanismi attraverso cui le rappresentazioni inconsce vengono trasformate prima di arrivare alla coscienza. Tra i principali vi sono la condensazione, che consente a una rappresentazione psichica di unire più immagini e associazioni, e lo spostamento, per cui pulsioni o desideri si indirizzano verso un oggetto alternativo associativo piuttosto che verso quello originale.
+_L'interpretazione dei sogni_, oltre a rivelare che il sogno rappresenta desideri censurati, evidenzia i meccanismi attraverso cui le rappresentazioni inconsce vengono trasformate prima di arrivare alla coscienza. Tra i principali vi sono la condensazione, che consente a una rappresentazione psichica di unire più immagini e associazioni, e lo spostamento, per cui pulsioni o desideri si indirizzano verso un oggetto alternativo associativo piuttosto che verso quello originale.
 
-Gli stessi meccanismi sono individuati da Freud anche nei lapsus e nei motti di spirito ("Psicopatologia della vita quotidiana", 1901; "Il motto di spirito", 1905). L'interpretazione onirica attraverso le libere associazioni e il transfert tra paziente e analista costituiscono le principali vie d'accesso all'inconscio.
+Gli stessi meccanismi sono individuati da Freud anche nei lapsus e nei motti di spirito (_Psicopatologia della vita quotidiana_, 1901; _Il motto di spirito_, 1905). L'interpretazione onirica attraverso le libere associazioni e il transfert tra paziente e analista costituiscono le principali vie d'accesso all'inconscio.
 
 Infine, l'importanza attribuita da Freud alla sessualità come fattore determinante nelle cause della nevrosi lo conduce a studiarne in modo sistematico le fasi di sviluppo, a partire dalla prima infanzia. Egli distingue il piacere autoerotico e pregenitale dalla sessualità genitale dell'adulto (Tre saggi sulla teoria sessuale, 1905), individuando nel "complesso di Edipo" un elemento centrale per l'organizzazione del rapporto tra bambino, padre e madre dal punto di vista infantile. Nel caso del bambino maschio, questo complesso si manifesta nell'amore sessuale verso la madre e nella rivalità nei confronti del padre.
 
@@ -76,8 +76,9 @@ L'individuazione avviene tramite la creazione di simboli, che non rimandano a si
 Il simbolo non rappresenta un significato statico, bensì un'azione che mantiene in tensione gli opposti, dando forma alla vita psichica. Secondo Jung, la produzione simbolica individuale e collettiva supera i confini dei significati codificati e rappresenta l'essenza della biografia personale e della storia condivisa.  
 
 Jung amplia così il concetto di psiche rispetto alla visione naturalistica proposta da Freud, dove questa era identificata con le pulsioni biologiche dell'uomo come organismo. Jung integra invece la psiche con la dimensione storica, considerando la storia come il contesto in cui la psiche si modifica in relazione alle trasformazioni epocali.  
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Freud e la psicoanalisi:  Freud giunge alla formulazione del concetto di inconscio studiando le nevrosi, individuandone la causa in rappresentazioni mentali vissute come inaccettabili e che il soggetto respinge, creando un conflitto interno che le spinge nell'inconscio.  
 

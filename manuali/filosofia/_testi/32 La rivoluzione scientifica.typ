@@ -1,10 +1,10 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il concetto di rivoluzione scientifica è comunemente associato al periodo compreso tra il 1543, anno in cui Copernico pubblicò _De revolutionibus orbium coelestium_, e il 1687, anno dell'apparizione dei _Principia Mathematica_ di Isaac Newton. Questo intervallo di tempo segna una fase di profondo cambiamento culturale, caratterizzata dalla nascita della scienza moderna e dalla sua definitiva emancipazione dalla filosofia tradizionale, grazie al contributo fondamentale di Galilei.]
 
 == La nascita della scienza moderna
-
+#note(bottom)[/ Ipotesi: In epistemologia, l'ipotesi rappresenta una premessa di una dimostrazione che non è necessariamente vera. Newton utilizza inizialmente il termine ipotesi per indicare sia i "principi", ossia le affermazioni riguardanti le "vere cause" dei fenomeni che necessitano ancora di verifica, sia congetture altamente discutibili scambiate erroneamente per verità indiscutibili. \ Con il celebre detto _hypotheses non fingo_ ("non invento ipotesi"), Newton intende escludere, perché prematuro, qualsiasi introduzione di supposizioni sulle proprietà fondamentali alla base della gravitazione. \ La sua posizione sulla rinuncia alle ipotesi non va interpretata come un'idea della scienza ridotta a semplice accumulo di fatti empirici senza formulazioni generali di leggi attraverso una metodologia ipotetica. Piuttosto, riflette il rifiuto di costruzioni arbitrarie che mancano di un legame con i fenomeni realmente osservabili.]
 La nascita della scienza moderna è un fenomeno articolato, le cui radici si trovano nel Rinascimento. Da questa epoca eredita elementi chiave come la fiducia nella capacità conoscitiva dell'essere umano, l'abbandono di spiegazioni trascendenti per comprendere la realtà naturale, la valorizzazione dei sensi e dell'esperienza diretta, e l'aspirazione a un sapere non solo teorico, ma pratico e operativo. Inoltre, si oppone al principio di autorità come criterio di verità. 
 
 Nel Cinquecento, tuttavia, la scienza si fonda ancora su una visione qualitativa del mondo, concepito come un organismo vivente dotato di fini propri. Nel Seicento, invece, si afferma una concezione basata su un sapere verificabile e controllabile pubblicamente. La scienza moderna esclude dal proprio ambito conoscitivo ogni questione di tipo metafisico relativa all'essenza o alla struttura profonda dei fenomeni, concentrandosi sull'analisi delle cause, sulla scoperta di leggi e sull'elaborazione di ipotesi sperimentali espresse mediante il linguaggio matematico.
@@ -20,7 +20,7 @@ Le motivazioni alla base dell'ipotesi copernicana sono principalmente astronomic
 La perdita della centralità terrestre non ha solo valenze astronomiche, ma anche metafisiche. L'uomo viene proiettato in un universo infinito, privo di un centro definito e governato dalle stesse leggi fisico-matematiche ovunque. Questo nuovo quadro obbliga a ripensare non solo l'immagine della natura, ma anche temi fondamentali legati all'origine e al destino dell'uomo, oltre che al suo rapporto con la divinità, così come delineato dalla tradizione biblica.
 
 == Galileo Galilei
-
+#note(bottom)[/ Esperimento: Evento replicabile condotto da un osservatore con l'obiettivo di verificare una teoria o un'ipotesi scientifica. \ Nel pensiero antico e medievale, tali pratiche erano estremamente rare. Solo verso la fine del XVI secolo la sperimentazione inizia a giocare un ruolo cruciale nella costruzione del sapere. Francesco Bacone nella sua filosofia attribuisce grande importanza all'esperimento come mezzo per produrre conoscenza. Tuttavia, è con Galileo Galilei che l'esperimento assume un carattere rigoroso e strutturato, includendo procedure prestabilite che consentono il controllo numerico di ipotesi quantitative. \ Nel caso in cui alcuni fattori di disturbo non possano essere concretamente eliminati, Galilei introduce il concetto di esperimenti "ideali" o immaginati, i cui risultati vengono dedotti attraverso il ragionamento. A partire dalle indagini sperimentali di Isaac Newton sulla natura della luce, lo sperimentalismo diviene uno degli approcci fondamentali, tanto da essere spesso associato al metodo scientifico in senso ampio. \ Durante l'epoca del positivismo, l'esperimento viene considerato la fonte più autorevole di conoscenza, rappresentando una base oggettiva e certa per la scienza. I cosiddetti "fatti sperimentali" vengono opposti alle ipotesi e alle teorizzazioni, ritenute meno affidabili e soggettive. Tuttavia, la critica del convenzionalismo ha evidenziato che ogni esperimento incorpora inevitabilmente presupposti ipotetici e convinzioni teoriche. Pertanto, è errato ritenere l'esperimento completamente separato dalla teorizzazione.]
 Galileo Galilei (Pisa 1564 - Arcetri 1642) è considerato, al pari di Newton, Francesco Bacone e Cartesio, uno dei principali artefici della rivoluzione scientifica del Seicento. Matematico, fisico e astronomo, la sua figura assume una rilevanza multidisciplinare, con implicazioni significative anche in ambito filosofico. Tra le sue opere, particolare diffusione e influenza ha avuto il _Dialogo sopra i due massimi sistemi del mondo_, che rappresenta un punto di riferimento per il dibattito scientifico dell'epoca.
 
 La notorietà di Galileo presso i suoi contemporanei è forse maggiormente legata alle sue innovative osservazioni astronomiche, rese possibili dall'utilizzo di un telescopio perfezionato. Sebbene questa tecnologia fosse già nota da alcuni anni, egli riuscì ad impiegarla in modo decisivo per mettere in discussione alcuni principi fondamentali della cosmologia aristotelica. Convinto sostenitore del sistema copernicano, Galileo difende la superiorità del modello eliocentrico attraverso argomentazioni che non solo trasformano il paradigma scientifico, ma sfidano anche le tradizioni consolidatesi nei secoli precedenti.
@@ -44,29 +44,23 @@ Questa teoria portò a concepire il mondo come una sorta di macchina regolata da
 Il metodo adottato nei _Principia_ si distingue notevolmente dall'empirismo sperimentale che caratterizzava le sue ricerche in ambito ottico. La teoria astronomica di Newton segue un'impostazione assiomatica, ispirata al modello geometrico di Euclide: i suoi principi non derivano direttamente dall'osservazione, bensì trovano la loro validazione nelle conseguenze dedotte, che sono coerenti con l'esperienza empirica.
 
 Profondamente coinvolto nelle questioni religiose, Newton dedicò parte significativa delle sue energie agli studi biblici. Egli era fermamente convinto della compatibilità tra la propria visione scientifica e la religione, sostenendo che le sue teorie offrivano nuovi argomenti a favore dell'esistenza di Dio. Secondo Newton, il Creatore aveva costruito l'universo seguendo principi semplici e intelligibili, che le sue scoperte scientifiche avevano permesso di svelare e rendere accessibili all'umanità. 
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
-== In sintesi
+/ La nascita della scienza moderna: La scienza moderna si afferma nel XVII secolo caratterizzandosi come un sapere oggettivo, verificabile, e soggetto a controllo pubblico. Tale sviluppo segna una svolta rispetto agli approcci precedenti, ponendo le basi per il metodo scientifico occidentale.
 
-La nascita della scienza moderna  
-La scienza moderna si afferma nel XVII secolo caratterizzandosi come un sapere oggettivo, verificabile, e soggetto a controllo pubblico. Tale sviluppo segna una svolta rispetto agli approcci precedenti, ponendo le basi per il metodo scientifico occidentale.
+/ La rivoluzione copernicana: L'opera di Niccolò Copernico rappresenta un superamento del sistema tolemaico, abbandonando la visione geocentrica a favore di un modello eliocentrico. Questa innovazione non solo rimuove la Terra dal suo ruolo centrale nell'universo, ma implica profonde implicazioni filosofiche e teologiche, inducendo l'uomo a ripensare il proprio posto nella natura e il rapporto con il divino.
 
-La rivoluzione copernicana  
-L'opera di Niccolò Copernico rappresenta un superamento del sistema tolemaico, abbandonando la visione geocentrica a favore di un modello eliocentrico. Questa innovazione non solo rimuove la Terra dal suo ruolo centrale nell'universo, ma implica profonde implicazioni filosofiche e teologiche, inducendo l'uomo a ripensare il proprio posto nella natura e il rapporto con il divino.
+/ Galileo Galilei: Galileo Galilei fornisce un solido supporto al sistema copernicano attraverso argomentazioni in cui il principio d'inerzia riveste un ruolo cruciale. I suoi studi consolidano l'idea di un universo governato da leggi razionali.
 
-Galileo Galilei  
-Galileo Galilei fornisce un solido supporto al sistema copernicano attraverso argomentazioni in cui il principio d'inerzia riveste un ruolo cruciale. I suoi studi consolidano l'idea di un universo governato da leggi razionali.
+/ Il metodo sperimentale: Con Galileo ha inizio l'approccio sperimentale moderno: l'esperimento diventa un mezzo rigoroso per analizzare i fenomeni naturali, basandosi su misurazioni precise e condizioni controllate.
 
-Il metodo sperimentale  
-Con Galileo ha inizio l'approccio sperimentale moderno: l'esperimento diventa un mezzo rigoroso per analizzare i fenomeni naturali, basandosi su misurazioni precise e condizioni controllate.
+/ Galileo e la religione: Secondo Galileo, il sistema copernicano non è in contrasto con le Sacre Scritture, purché queste siano interpretate in senso allegorico, riconoscendo alle verità scientifiche autonomia rispetto alle questioni di fede.
 
-Galileo e la religione  
-Secondo Galileo, il sistema copernicano non è in contrasto con le Sacre Scritture, purché queste siano interpretate in senso allegorico, riconoscendo alle verità scientifiche autonomia rispetto alle questioni di fede.
+/ Isaac Newton: Isaac Newton si distingue per le sue ricerche sull'ottica e, soprattutto, per la formulazione delle leggi della meccanica classica e della gravitazione universale. Tali principi spiegano un ampio ventaglio di fenomeni terrestri e astronomici, presentandosi come validi in tutto l'universo.
 
-Isaac Newton  
-Isaac Newton si distingue per le sue ricerche sull'ottica e, soprattutto, per la formulazione delle leggi della meccanica classica e della gravitazione universale. Tali principi spiegano un ampio ventaglio di fenomeni terrestri e astronomici, presentandosi come validi in tutto l'universo.
-
-Newton e la religione  
-Anche Newton ritiene che tra scienza e religione non vi sia alcun conflitto; egli percepisce il suo lavoro scientifico come perfettamente consistente con la fede.
+/ Newton e la religione: Anche Newton ritiene che tra scienza e religione non vi sia alcun conflitto; egli percepisce il suo lavoro scientifico come perfettamente consistente con la fede.
 
 
 

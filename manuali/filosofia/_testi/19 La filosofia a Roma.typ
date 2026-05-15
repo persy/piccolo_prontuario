@@ -1,10 +1,10 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Alla fine del I secolo a.C., Roma domina incontrastata tutto il bacino del Mediterraneo. In particolare, è la cultura greca, pur già in una fase di decadenza, a catturare l'interesse del mondo romano, che si distingue per un approccio essenzialmente pratico e poco incline a riflessioni filosofiche. La filosofia greca viene ammirata soprattutto per la sua ricchezza e profondità culturale, in grado di educare e preparare i giovani alla carriera politica e forense.]
 
 == Cicerone e la diffusione della cultura greca
-
+#note(bottom)[/ Eccletismo: Dottrina filosofica che si sviluppa attraverso la selezione dei principi più validi appartenenti a correnti di pensiero precedenti. Durante il periodo ellenistico e romano, esso emerge come una modalità caratteristica rivolta a conseguire una sintesi armoniosa tra orientamenti filosofici rivali. Un esponente di spicco di tale atteggiamento è Cicerone, il quale adotta un approccio profondamente antidogmatico. Egli rielabora la dottrina stoica sulla concezione dell'universo, integrandola in una visione morale che valorizza i contributi delle diverse scuole filosofiche, sostenuta dall'idea di un consenso universale come fondamento unificante.]
 Uno dei principali divulgatori della cultura greca a Roma è Marco Tullio Cicerone (106-43 a.C.), noto filosofo, oratore e politico. La sua attenzione si concentra maggiormente su temi etici piuttosto che su quelli cosmologici e ontologici. Con un approccio eclettico, Cicerone rielabora la morale stoica, smorzandone l'astrattezza e il rigore, e favorisce una maggiore sintonia con la vita pratica e biologica.
 
 == Il neostoicismo
@@ -23,7 +23,7 @@ Secondo Marco Aurelio, l'uomo occupa una posizione privilegiata nel cosmo che lo
 
 == L'epicureismo
 
-Anche l'epicureismo, avversario storico dello stoicismo, conosce notevole fortuna a Roma. Il suo più illustre rappresentante è Tito Lucrezio Caro (circa 98-circa 54 a.C.), autore di un importante e famosissimo poema filosofico, il De rerum natura (La natura).
+Anche l'epicureismo, avversario storico dello stoicismo, conosce notevole fortuna a Roma. Il suo più illustre rappresentante è Tito Lucrezio Caro (circa 98-circa 54 a.C.), autore di un importante e famosissimo poema filosofico, il _De rerum natura_ (_Sulla natura_).
 
 Il punto di partenza di Lucrezio è il riconoscimento del male quale dimensione dominante nel mondo nel quadro epicureo di una concezione antifinalistica della natura, per cui cioè il divenire non ha alcun fine. Il superamento del pessimismo avviene tramite la scienza e la sapienza predicate da Epicuro, che hanno il potere di liberare dall'ignoranza, dal male e soprattutto dal timore della morte. 
 
@@ -36,8 +36,9 @@ A Roma si diffonde anche il neoscetticismo, che con Enesidemo (I sec. a.C.) e Ag
 Il neoscetticismo si distingue per l'apertura costante della ricerca, sottraendosi a qualsiasi affermazione definitiva. Neanche il dogmatismo negativo, che rifiuta la possibilità di conoscere, viene accettato, in ossequio all'intenzione originaria dello scetticismo: indagare senza preconcetti. 
 
 Il modello della "vita senza dogmi" conduce alla pace interiore e alla sospensione dall'agitazione dell'esistenza, incarnando fin dalle origini l'ideale del saggio.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Marco Tullio Cicerone: Marco Tullio Cicerone si distingue come il principale veicolo della cultura greca a Roma. Il suo interesse filosofico si concentra prevalentemente sull'etica, adottando un approccio eclettico che riformula i principi della morale stoica in una versione più temperata.
 

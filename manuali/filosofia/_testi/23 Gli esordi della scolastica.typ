@@ -1,10 +1,10 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Il Medioevo rappresenta un periodo storico caratterizzato da una notevole complessità e turbolenza, anche sul piano intellettuale. La filosofia medievale, comunemente identificata con il termine "Scolastica" poiché si sviluppa nelle scuole monastiche, nelle cattedrali e successivamente nelle università, si configura come un momento di duplice transizione: da un lato segna la definitiva affermazione del pensiero cristiano; dall'altro, comporta una trasformazione e rielaborazione profonda del pensiero classico, interpretato attraverso la lente della fede cristiana.]
 
 == Severino Boezio
-
+#note(bottom)[/ Universale: Rappresenta il concetto che identifica ciò che è comune a una pluralità di oggetti particolari. L'indagine sulla sua essenza e sul legame con questi oggetti costituisce uno dei temi fondamentali del pensiero filosofico, affrontato e discusso in ogni periodo storico. Aristotele lo descrive come "il termine applicabile a molteplici realtà particolari", ad esempio il bello, il bianco e il bene, che possono essere attribuiti a diversi elementi individuali, definiti dunque belli, bianchi o buoni. Anche nel linguaggio comune si usano termini che non indicano specifici dati particolari, il che apre una questione filosofica su ciò che effettivamente rappresentano tali termini. \ Le prospettive per spiegare questo enigma sono numerose. Nella filosofia classica, l'analisi era principalmente di natura ontologica, concentrandosi sull'essenza stessa degli universali: sono oggetti concreti? Idee? Oppure sono semplicemente parole? In epoca contemporanea, invece, l'approccio si è spostato maggiormente sul piano logico-semantico. L'interrogativo fondamentale si trasforma: la questione degli universali si riduce a una classificazione linguistica o è un problema intrinsecamente legato alla struttura stessa del linguaggio? L'indagine, allora, si orienta verso il rapporto tra linguaggio e realtà, chiedendosi quale sia la ragione per cui attribuiamo lo stesso nome a oggetti singoli e differenti.]
 Nel contesto delle fasi iniziali del Medioevo emerge la figura centrale di Anicio Manlio Torquato Severino Boezio (circa 480-524), il quale assume un ruolo cruciale nel processo di trasmissione della tradizione filosofica classica. Politico attivo e animato dall'intento di realizzare una conciliazione armonica tra la popolazione romana e i governanti goti, sotto il re Teodorico, Boezio viene però accusato ingiustamente di tradimento e condotto alla condanna capitale.
 
 Nel periodo che precede la sua morte, Boezio redige in carcere il trattato _De consolatione philosophiae_ (La consolazione della filosofia), opera in cui, adottando una prospettiva neoplatonica, espone una visione dell'universo governato da un Dio supremo identificato come "Sommo Bene" e da una provvidenza capace di guidare le vicende umane. Egli sostiene che tali eventi, pur apparendo mutevoli e imprevedibili, possono essere compresi grazie alla filosofia, che occupa una posizione primaria rispetto alle altre scienze e arti.
@@ -65,8 +65,9 @@ Il realismo moderato, invece, elaborato da Boezio e sostenuto anche da Tommaso d
 Il nominalismo estremo, generalmente attribuito a Roscellino di Compiègne (1050-1120), rifiuta ogni forma di esistenza dell'universale, sia nelle cose sia nella mente umana. Gli universali non sono altro che un "flatus vocis", una semplice emissione vocale priva di alcuna corrispondenza nella realtà. Al contrario, il nominalismo moderato, meglio noto come "concettualismo", attribuisce agli universali un'esistenza limitata alla sfera mentale. Non trovano corrispettivi nelle cose, ma funzionano solo come strumenti del pensiero umano.
 
 Per Abelardo, gli universali si configurano come segni mentali o "sermones" (discorsi, parole), ovvero termini dotati di significato. In questa prospettiva, l'universale non è altro che un nome che designa un'immagine mentale confusa, estratta dal pensiero grazie alla comparazione fra una pluralità di individui con natura simile. Gugliemo di Ockham spinge ulteriormente questa interpretazione, identificando l'universale con l'atto stesso con cui la nostra mente coglie la realtà.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Severino Boezio: Severino Boezio, nel suo _De consolatione philosophiae_, si dedica non solo a tradurre e commentare i testi logici di Aristotele e Porfirio, ma anche a garantire la continuità tra il pensiero antico e quello medievale. Nelle sue riflessioni logiche, affronta in modo articolato la questione degli universali, sostenendo una posizione di realismo moderato.
 
@@ -75,9 +76,9 @@ Per Abelardo, gli universali si configurano come segni mentali o "sermones" (dis
 / Prima fase della scolastica: La prima fase della scolastica (secoli VI-XI) è caratterizzata dall'applicazione della razionalità alla fede, attraverso il ricorso alla filosofia neoplatonica. Tra i principali esponenti di questo periodo si annoverano Giovanni Scoto Eriugena, Anselmo d'Aosta e Pietro Abelardo.
 
 / Seconda fase della scolastica: Il secondo periodo (XIII secolo) si distingue per il confronto tra la teologia cristiana e la metafisica aristotelica. Questo dialogo si articola in tre diverse correnti interpretative:  
-a) Bonaventura da Bagnoregio, insieme al suo seguito, respinge l'aristotelismo a favore dell'agostinismo e del tradizionale neoplatonismo cristiano;  
-b) gli averroisti latini, rappresentati da Sigieri di Brabante e Boezio di Dacia, promuovono un aristotelismo radicale;  
-c) Tommaso d'Aquino propone una sintesi equilibrata tra teologia cristiana e metafisica aristotelica.
+  + Bonaventura da Bagnoregio, insieme al suo seguito, respinge l'aristotelismo a favore dell'agostinismo e del tradizionale neoplatonismo cristiano;  
+  + gli averroisti latini, rappresentati da Sigieri di Brabante e Boezio di Dacia, promuovono un aristotelismo radicale;  
+  + Tommaso d'Aquino propone una sintesi equilibrata tra teologia cristiana e metafisica aristotelica.
 
 / Terza fase della scolastica: La terza fase della scolastica (XIV secolo) è contraddistinta dalla ricerca di nuovi equilibri, attraverso uno studio rigoroso dei metodi e dei linguaggi specifici delle diverse discipline. Tra i principali protagonisti di questo periodo figurano Guglielmo di Ockham, Marsilio da Padova e Giovanni Buridano.
 

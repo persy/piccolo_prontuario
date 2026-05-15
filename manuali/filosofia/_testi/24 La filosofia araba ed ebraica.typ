@@ -1,10 +1,10 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Nella filosofia e, più in generale, nella cultura cristiana medievale, gli arabi e gli ebrei, pur seguendo religioni diverse dal cristianesimo, svolgono un ruolo cruciale come mediatori e promotori di scambi culturali. Grazie a loro, i preziosi tesori della scienza e della cultura classica, che erano stati dispersi durante la crisi successiva al crollo dell'Impero romano, vengono reintegrati in Occidente.]
 
 == La filosofia araba
-
+#note(bottom)[/ Intelletto agente: Nella filosofia di Aristotele, rappresenta l'aspetto attivo dell'intelletto. \ Secondo il filosofo, l'intelletto si basa sulla sensibilità per la possibilità stessa di conoscere, ma al contempo si configura come conoscenza dell'universale, che è essenzialmente diversa dalla sensazione. Ne deriva la questione di spiegare il processo della vita intellettuale, che non può scaturire direttamente da un'azione corporea delle cose. \ Aristotele introduce l'idea di una luce intellettuale in grado di rendere accessibile l'universale intelligibile contenuto nelle forme sensibili, così come la luce permette ai colori, visibili solo in potenza, di diventare visibili in atto. Questa funzione attiva consente all'intelletto di portare all'attualità la propria capacità ricettiva verso le forme intelligibili, trasformando quindi l'intelletto possibile, ossia quello in potenza, in intelletto attuale capace di accogliere ogni forma. \ In tal modo, Aristotele avvia una riflessione profonda sull'intelligenza intesa come un movimento dinamico dotato di vita interiore, capace di instaurare relazioni dialogiche e di generare espressioni creative. Questa prospettiva costituisce il fondamento delle teorie e delle dispute sviluppate nella filosofia araba e nella scolastica medievale riguardo alla natura e all'immortalità dell'anima, così come alla relazione tra anima e corpo.]
 La filosofia araba esercita un impatto significativo sull'Occidente, fungendo da ponte tra il pensiero antico e quello moderno. Durante le loro conquiste nei territori bizantini del Mediterraneo orientale, gli arabi assimilano una vasta eredità filosofica e scientifica del mondo classico. Questo patrimonio, attraverso complessi percorsi di traduzione dal greco al siriaco, poi all'arabo, e infine al latino (spesso con il supporto della lingua ebraica), raggiunge l'Europa.
 
 A partire dall'XI secolo, si diffondono in Europa sia le opere di Aristotele, fino ad allora poco conosciute nella loro completezza, sia i testi fondamentali dei filosofi arabi. Questi autori, nei loro lavori spesso intrecciati con influenze neoplatoniche derivate dalle traduzioni aristoteliche, sviluppano visioni filosofiche diversificate, spaziate tra prospettive mistiche, naturalistiche o materialistiche.
@@ -44,8 +44,9 @@ Mosè Maimonide (1135–1204), figura di spicco nella filosofia e medicina ebrai
 Profondamente convinto della compatibilità tra ragione e fede, Maimonide considera la filosofia uno strumento essenziale per interpretare la rivelazione biblica e talvolta per confermarla attraverso argomentazioni razionali. Egli predilige la filosofia aristotelica, mediata dalla riflessione araba, specialmente quella di Avicenna, e da quella ebraica, arricchendola con elementi neoplatonici. Maimonide dimostra l'unicità di Dio fondandola sulla concezione del primo motore: un principio puramente attuale, privo di potenzialità e perciò necessario.
 
 Secondo il filosofo, se il mondo fosse coeterno a Dio, come sostenuto da Aristotele, Dio risulterebbe vincolato alla necessità dell'esistenza del mondo stesso; ciò contrasterebbe con il concetto della creazione che avviene in un punto determinato del tempo. Da Dio emanano le intelligenze che regolano il movimento dell'universo e l'intelletto agente, il quale attiva l'intelligenza umana potenziale. Il profeta, colui che riceve pienamente l'influsso divino, si distingue per la contemplazione dell'amore divino e svolge il ruolo di guida spirituale per gli altri uomini.
-
-== In sintesi
+#pagebreak()
+#set page(fill: main_umane.lighten(90%))
+== In sintesi <senza_numero>
 
 / Ruolo della filosofia araba ed ebraica: La filosofia araba, mediata dai pensatori ebrei, ha avuto un profondo impatto sulla filosofia cristiana medievale, favorendo la diffusione del pensiero aristotelico in Europa.  
 

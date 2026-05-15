@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Gli acidi nucleici, il DNA (acido desossiribonucleico) e l'RNA (acido ribonucleico), sono molecole di fondamentale importanza biologica. Essi custodiscono l'informazione genetica, che viene trasmessa di generazione in generazione tramite il processo riproduttivo, e regolano la sintesi proteica nelle cellule. Le istruzioni genetiche sono codificate a livello molecolare nella sequenza di nucleotidi, che rappresentano le unità strutturali del DNA e formano il codice genetico. Poiché il DNA è situato esclusivamente nel nucleo cellulare, le sue informazioni vengono trascritte in un tipo specifico di RNA chiamato RNA messaggero. Questo è incaricato di trasferire le istruzioni ai luoghi cellulari deputati alla sintesi proteica, coordinando il processo con l'aiuto di altri due tipi di RNA: l'RNA di trasporto e l'RNA ribosomiale.]
 
@@ -22,6 +22,10 @@ La struttura della molecola del DNA è stata chiarita nel 1953 grazie agli studi
 
 Secondo la regola dell'appaiamento delle basi, l'accoppiamento avviene esclusivamente tra basi di categorie diverse: l'adenina (base purinica) si lega alla timina (base pirimidinica) e la guanina (purinica) alla citosina (pirimidinica). Questo garantisce una lunghezza uniforme dei "gradini" e il parallelismo tra le "ringhiere". Sebbene la sequenza alternata di zucchero e gruppo fosfato sia identica in tutti gli organismi viventi, la disposizione specifica delle coppie di basi azotate (A-T e C-G) varia ed è unica per ogni specie, rappresentando la sua firma genetica.
 
+#note(bottom)[== *🧩* I geni discontinui degli eucarioti <senza_numero>
+
+Negli anni '70 del XX secolo si è scoperto che gli organismi eucarioti possiedono una quantità di DNA molto maggiore rispetto a quella strettamente necessaria per la sintesi delle proteine. I loro geni, infatti, si caratterizzano per la presenza di sequenze di nucleotidi codificanti proteine, chiamate esoni, intervallate da sequenze non codificanti, note come introni. Durante la trascrizione di un gene strutturato in questo modo, viene prodotto inizialmente un lungo filamento di mRNA, o trascritto primario, che include sia gli esoni che gli introni. In seguito, avviene un processo chiamato _splicing_, in cui gli introni vengono eliminati e le estremità degli esoni vengono unite tra loro. Solo al termine di questa fase, il mRNA maturo esce dal nucleo per essere tradotto. Questo sistema sembra rappresentare una strategia per migliorare l'efficienza e la versatilità nella produzione di proteine.]
+
 == I tre tipi di RNA
 
 Esistono tre principali tipi di RNA, ognuno con un ruolo specifico nella sintesi proteica: 
@@ -35,20 +39,16 @@ L'RNA di trasporto ha il compito di interpretare le informazioni contenute nell'
 
 L'RNA ribosomiale, infine, si combina con alcune proteine per formare i ribosomi, strutture costituite da due subunità di dimensione diversa. Questi organuli sono il luogo in cui avviene la sintesi delle proteine.
 
-
 == Il codice genetico
 
 Il codice genetico rappresenta il sistema attraverso cui le informazioni codificate nel DNA vengono tradotte per produrre le proteine indispensabili alla vita degli organismi. Si basa su un linguaggio molecolare che utilizza la sequenza dei nucleotidi del DNA per determinare quella degli amminoacidi di una proteina. Questo codice sfrutta le quattro "lettere" delle basi azotate che, raggruppate in triplette o codoni, possono formare 64 combinazioni possibili. Tra queste, tre triplette non senso segnalano la fine della catena proteica, mentre la tripletta AUG indica l'inizio della sintesi e codifica anche l'amminoacido metionina. La sequenza di triplette che codifica una proteina prende il nome di gene.
 
 Una caratteristica importante del codice genetico è la sua ridondanza: ogni amminoacido può essere codificato da più triplette diverse. Queste solitamente differiscono solo nell'ultima base azotata, portando gli scienziati a ipotizzare che le prime due basi siano fondamentali per l'informazione, mentre la terza contribuisca a garantire precisione. Il codice è inoltre universale, poiché ogni tripletta ha lo stesso significato in tutti gli organismi viventi.
 
-#pagebreak()
-
-#wideblock[
 #figure(
   caption: [Tabella con i sessantaquattro codoni e gli amminoacidi corrispondenti ad ognuno di essi.],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + main_scienze.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
       return main_scienze // Colore header
@@ -83,7 +83,8 @@ Una caratteristica importante del codice genetico è la sua ridondanza: ogni amm
     [ GUG ], [  ], [ GCG ], [  ], [ GAG ], [  ], [ GGG ], [  ], [ #align(center)[*G*] ]
 )  
 )
-]
+
+#pagebreak(weak: true)
 == La sintesi proteica
 
 La sintesi proteica è il processo tramite il quale una sequenza di nucleotidi viene tradotta in una catena di amminoacidi che costituisce una proteina. Gli elementi coinvolti attivamente in questo processo sono l'm-RNA, il t-RNA e l'r-RNA.
@@ -120,10 +121,8 @@ Nelle cellule eucariote, invece, la doppia elica di DNA è associata a proteine 
 
 La replicazione deve essere estremamente precisa affinché le cellule figlie funzionino correttamente. A questo scopo, la DNA-polimerasi svolge un ruolo cruciale nel correggere o prevenire errori nel riconoscimento e nell'appaiamento delle basi. Tuttavia, nonostante l'efficienza del meccanismo di controllo, possono verificarsi mutazioni con una frequenza minima (circa un errore ogni 100 milioni di nucleotidi appaiati correttamente). Queste mutazioni alterano la sequenza delle basi azotate e, di conseguenza, l'informazione genetica. Pur rappresentando un potenziale problema, le mutazioni sono anche alla base della variabilità genetica e quindi dell'evoluzione biologica.
 
-== Approfondimento: i geni discontinui degli eucarioti <senza_numero>
-
-Negli anni '70 del XX secolo si è scoperto che gli organismi eucarioti possiedono una quantità di DNA molto maggiore rispetto a quella strettamente necessaria per la sintesi delle proteine. I loro geni, infatti, si caratterizzano per la presenza di sequenze di nucleotidi codificanti proteine, chiamate esoni, intervallate da sequenze non codificanti, note come introni. Durante la trascrizione di un gene strutturato in questo modo, viene prodotto inizialmente un lungo filamento di mRNA, o trascritto primario, che include sia gli esoni che gli introni. In seguito, avviene un processo chiamato ''splicing'', in cui gli introni vengono eliminati e le estremità degli esoni vengono unite tra loro. Solo al termine di questa fase, il mRNA maturo esce dal nucleo per essere tradotto. Questo sistema sembra rappresentare una strategia per migliorare l'efficienza e la versatilità nella produzione di proteine.
-
+#pagebreak()
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Anticodone:  L'anticodone è una sequenza composta da tre basi azotate sul t-RNA che, durante il processo di sintesi proteica, si lega al codone complementare presente sull'm-RNA.
@@ -138,5 +137,4 @@ Negli anni '70 del XX secolo si è scoperto che gli organismi eucarioti possiedo
 
 / Trascrizione:  La trascrizione è la sintesi dell'm-RNA effettuata utilizzando il DNA come stampo.
 
-/ Tripletta, o codone: 
-La tripletta, detta anche codone, è una sequenza di tre nucleotidi sull'm-RNA che codifica per uno specifico amminoacido.
+/ Tripletta, o codone: La tripletta, detta anche codone, è una sequenza di tre nucleotidi sull'm-RNA che codifica per uno specifico amminoacido.

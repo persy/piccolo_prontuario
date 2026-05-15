@@ -1,7 +1,7 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
-#evidenzia[Nelle reazioni nucleari si altera direttamente la struttura interna del nucleo di un atomo, trasformandolo in un elemento completamente diverso. Contrariamente alle reazioni chimiche, che coinvolgono unicamente gli elettroni esterni legati alla formazione dei legami atomici, le reazioni nucleari agiscono sui nucleoni (protoni e neutroni) all'interno del nucleo.
+#evidenzia[Nelle reazioni nucleari si altera direttamente la struttura interna del nucleo di un atomo, trasformandolo in un elemento completamente diverso. Contrariamente alle reazioni chimiche, che coinvolgono unicamente gli elettroni esterni legati alla formazione dei legami atomici, le reazioni nucleari agiscono sui nucleoni (protoni e neutroni) all'interno del nucleo. 
 
 Queste trasformazioni nucleari liberano grandi quantità di energia, derivanti dall'elevata intensità delle forze che mantengono unite le particelle del nucleo rispetto alle energie più contenute dei legami chimici tra gli atomi. Lo studio della materia in ambito nucleare prese avvio alla fine del XIX secolo (1896) con la scoperta della radioattività naturale. Questo fenomeno coinvolge nuclei instabili che si disgregano emettendo radiazioni di tipo corpuscolare (particelle α e β) o ondulatorio (raggi γ).
 
@@ -9,18 +9,43 @@ Nel 1919 venne individuata la radioattività indotta o artificiale, evento che s
 
 == La radioattività
 
-La radioattività, scoperta nel 1896 dal fisico francese Henri Becquerel, è un fenomeno in cui un nucleo atomico instabile (radioisotopo o radionuclide) si trasforma spontaneamente emettendo radiazioni (decadimento radioattivo). Questo processo porta alla formazione del nucleo di un elemento differente e stabile o al passaggio del nucleo a uno stato energetico più stabile. 
-
-A seconda del tipo di decadimento radioattivo, si distinguono i seguenti tipi di radiazioni:  
+La radioattività, scoperta nel 1896 dal fisico francese Henri Becquerel, è un fenomeno in cui un nucleo atomico instabile (radioisotopo o radionuclide) si trasforma spontaneamente emettendo radiazioni (decadimento radioattivo). Questo processo porta alla formazione del nucleo di un elemento differente e stabile o al passaggio del nucleo a uno stato energetico più stabile. A seconda del tipo di decadimento radioattivo, si distinguono i seguenti tipi di radiazioni:  
 - Raggi α (alfa)  o particelle α, composti da nuclei di elio (due protoni e due neutroni), con carica elettrica +2;  
-- Raggi β (beta)  o particelle β, costituiti da elettroni (β−) con carica elettrica −1, oppure positroni (β+) che sono le antiparticelle degli elettroni, con carica elettrica +1;  
+- Raggi β (beta)  o particelle β, costituiti da elettroni (β#super[--]) con carica elettrica −1, oppure positroni (β#super[+]) che sono le antiparticelle degli elettroni, con carica elettrica +1;  
 - Raggi γ (gamma) , radiazioni elettromagnetiche di altissima energia.  
 
 A seguito dell'emissione della radiazione, il nucleo subisce le seguenti variazioni in termini di numero atomico Z e numero di massa A:  
 - Emissione α : Z diminuisce di 2 unità, A diminuisce di 4 unità;  
-- Emissione β− : Z aumenta di 1 unità, A rimane invariato;  
-- Emissione β+ : Z diminuisce di 1 unità, A rimane invariato;  
+- Emissione β#super[--] : Z aumenta di 1 unità, A rimane invariato;  
+- Emissione β#super[+] : Z diminuisce di 1 unità, A rimane invariato;  
 - Emissione γ : Z e A rimangono invariati (generalmente l'emissione γ segue un decadimento α o β e permette al nucleo in uno stato eccitato di raggiungere uno stato più stabile).  
+
+#v(-.3em)
+#figure(
+  caption: [Principali caratteristiche delle particelle α, β e dei raggi γ],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (4),
+  table.header[Caratteristiche][Raggi α][Raggi β][Raggi γ],
+  [Natura], [nuclei di elio #box[#place()[#sub[2]]#super[4]He]], [elettroni (e#super[--] e β#super[--])], [onde elettromagnetiche \ (fotoni ad alta energia)],
+  [Massa], [4u], [0,00055u], [0],
+  [Carica elettrica], [+2], [-1 (e#super[--]) \ +1 (e#super[+])], [0],
+  [Capacità di \ penetrazione], [relativamente debole (possono venire fermati da un semplice foglio di carta)], [maggiore dei raggi α (possono venire fermati da un foglio sottile di alluminio)], [assai elevata (per fermarli è necessaria una lastra di piombo dello spessore di diversi centimetri)],
+  [capacità ionizzante], [ionizzano le molecole dei gas], [ionizzano le molecole dei gas], [ionizzano gli atomi dei tessuti biologici, causando danni alle cellule],
+)  
+)
 
 == Cause della radioattività
 
@@ -28,27 +53,73 @@ Nonostante la naturale repulsione tra i protoni dovuta alla loro carica positiva
 
 Nei nuclei degli elementi pesanti, come quelli dell'uranio, aumenta la probabilità di instabilità a causa dell'elevato numero di nucleoni. Per raggiungere una condizione più stabile, tali nuclei tendono a emettere particelle radioattive. Inoltre, si riscontra una maggiore instabilità nei nuclei con un numero dispari di protoni e neutroni. 
 
-Il decadimento radioattivo segue una legge statistica determinata dal tempo di dimezzamento T_1/2, che rappresenta l'intervallo necessario affinché metà dei nuclei iniziali si disintegri. Durante il processo di decadimento, il nucleo di un radioisotopo si trasforma in un isotopo di un altro elemento, spesso anch'esso instabile. Si sviluppano così catene di decadimenti (serie radioattive) che terminano quando si forma un isotopo stabile. 
+Il decadimento radioattivo segue una legge statistica determinata dal tempo di dimezzamento T#sub[1/2], che rappresenta l'intervallo necessario affinché metà dei nuclei iniziali si disintegri. Durante il processo di decadimento, il nucleo di un radioisotopo si trasforma in un isotopo di un altro elemento, spesso anch'esso instabile. Si sviluppano così catene di decadimenti (serie radioattive) che terminano quando si forma un isotopo stabile. 
 
 In natura esistono tre principali catene di decadimento: quella dell'uranio-238, dell'attinio e del torio, ciascuna culminante con la formazione di isotopi del piombo. 
 
 La radioattività artificiale , invece, fu scoperta nel 1919 dal fisico neozelandese Ernest Rutherford. I processi di disintegrazione nucleare osservati spontaneamente in natura possono essere riprodotti attraverso il bombardamento di nuclei stabili con particelle subatomiche come protoni, particelle β o neutroni. Queste particelle devono essere accelerate fino a raggiungere velocità elevate per aumentare la loro energia cinetica, superando così le intense forze respingenti dei campi elettrici attorno ai nuclei. Questo risultato si ottiene mediante l'uso di acceleratori di particelle, come ciclotroni, sincrotroni e betatroni.  
 
-I radioisotopi artificiali trovano applicazione in numerosi ambiti. Tuttavia, il progresso più rilevante derivato dallo studio della radioattività è stato la possibilità di sfruttare l'immensa energia contenuta nei nuclei atomici.  
+I radioisotopi artificiali trovano applicazione in numerosi ambiti. Tuttavia, il progresso più rilevante derivato dallo studio della radioattività è stato la possibilità di sfruttare l'immensa energia contenuta nei nuclei atomici. 
 
-== Misurazione delle Radiazioni
+#note(top)[== *🧩* L'acceleretore di particelle <senza_numero> 
+
+Gli acceleratori di particelle sono strumenti utilizzati per indagare le proprietà della materia. Essi accelerano particelle elettricamente cariche, come protoni ed elettroni, oltre a ioni, mediante l'uso di campi elettromagnetici e le fanno collidere tra loro o con bersagli specifici per studiare le interazioni risultanti. Le energie prodotte da queste collisioni possono anche dare origine a nuove particelle, dalla durata estremamente breve e non osservabili in condizioni normali.
+
+Gli acceleratori si classificano principalmente in base al sistema di accelerazione e alla traiettoria seguita dalle particelle. Gli acceleratori lineari, che seguono una traiettoria rettilinea, vengono impiegati per accelerare protoni, elettroni, particelle α e ioni. Questi consistono in tubi di lunghezza crescente posizionati in una struttura lineare, dove le particelle vengono accelerate da campi elettrici alternati e indirizzate verso un bersaglio. Tra gli acceleratori lineari più potenti vi è lo SLC (Stanford Linear Collider) negli Stati Uniti, che raggiunge energie superiori ai 100 GeV.
+
+Negli acceleratori circolari, come ciclotrone, betatrone e sincrotrone, la traiettoria delle particelle viene curvata dalla forza di Lorentz generata da un campo magnetico, mentre l'accelerazione viene impressa da campi elettrici o magnetici variabili. Fra gli acceleratori circolari più avanzati si annovera il LEP (Large Electron-Positron Accelerator) del CERN di Ginevra. Il LEP è formato da un anello di accumulazione lungo 27 km che opera su due fasci di particelle (elettroni e positroni) viaggianti in direzioni opposte per farli collidere frontalmente. Con un'energia operativa massima di 200 GeV, sullo stesso anello del LEP è attualmente in costruzione l'LHC (Large Hadron Collider), un acceleratore dotato di magneti estremamente più potenti in grado di raggiungere energie fino a 14 TeV (teraelettronvolt = 10#super[12] eV).]
+
+#figure(
+  caption: [Tempi di dimezzamento di alcuni isotopi radioattivi],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (4),
+  table.header[Elemento][Radioisotopo][Tempo di \ dimezzamento][Radiazione \ emessa],
+[calcio], [#box[#place()[#sub[20]]#super[45]Ca]], [164 giorni], [beta],
+[carbonio], [#box[#place(dx: 3pt)[#sub[6]]#super[14]C]], [5730 anni], [beta],
+[cesio], [#box[#place(dx: 3pt)[#sub[55]]#super[137]Cs]], [30 anni], [beta, gamma],
+[fosforo], [#box[#place()[#sub[15]]#super[32]P]], [14,3 giorni], [beta],
+[idrogeno], [#box[#place()[#sub[1]]#super[3]H] (trizio)], [12,26 anni], [beta],
+[iodio], [#box[#place(dx: 3pt)[#sub[53]]#super[131]I]], [8,07 giorni], [beta],
+[potassio], [#box[#place()[#sub[19]]#super[40]K]], [1,3 · 109 anni], [beta, gamma],
+[radio], [#box[#place(dx: 3pt)[#sub[88]]#super[226]Ra]], [1590 anni], [alfa, gamma],
+[sodio], [#box[#place()[#sub[11]]#super[24]Na]], [15 ore], [beta],
+[stronzio], [#box[#place()[#sub[38]]#super[90]Sr]], [28,1 anni], [beta],
+[uranio], [#box[#place(dx: 3pt)[#sub[92]]#super[238]U]], [4,51 · 109 anni], [alfa, gamma],
+)  
+)
+
+== Misurazione delle radiazioni
 
 Il dispositivo maggiormente impiegato per la rilevazione della radioattività è il contatore Geiger-Müller, che sfrutta il principio di ionizzazione provocata da radiazioni ionizzanti all'interno di un cilindro contenente gas a bassa pressione.
 
-L'attività di una sostanza radioattiva, definita come il numero di disintegrazioni che avvengono per unità di tempo, viene generalmente indicata in curie (simbolo Ci), dove 1 Ci corrisponde a 3,7 × 10¹⁰ disintegrazioni al secondo. Tuttavia, l'unità di misura ufficiale nel Sistema Internazionale (SI) è il becquerel (simbolo Bq), equivalente a una disintegrazione al secondo: quindi, 1 Bq rappresenta 2,7 × 10⁻¹¹ Ci.
+L'attività di una sostanza radioattiva, definita come il numero di disintegrazioni che avvengono per unità di tempo, viene generalmente indicata in curie (simbolo Ci), dove 1 Ci corrisponde a 3,7 · 10#super[10] disintegrazioni al secondo. Tuttavia, l'unità di misura ufficiale nel Sistema Internazionale (SI) è il becquerel (simbolo Bq), equivalente a una disintegrazione al secondo: quindi, 1 Bq rappresenta 2,7 · 10#super[-11] Ci.
 
 Le radiazioni α, β e γ esercitano un'interazione con la materia grazie alle loro proprietà ionizzanti, in grado di modificare la struttura atomica e molecolare del mezzo attraversato. Questi fenomeni possono rompere legami chimici, determinando effetti biologici potenzialmente gravi, specialmente nel caso di danni al DNA presente nei cromosomi cellulari. Gli effetti biologici delle radiazioni vengono classificati tramite due concetti principali: la dose assorbita e la dose equivalente.
 
 Nel Sistema Internazionale, la dose assorbita si misura in gray (simbolo Gy), dove 1 gray corrisponde a una quantità di radiazione che trasferisce un joule di energia per chilogrammo di materiale irradiato, quindi 1 Gy = 1 J/kg. La dose equivalente, invece, è misurata in sievert (simbolo Sv) e rappresenta l'efficacia biologica di una radiazione ionizzante; essa indica la dose necessaria affinché la radiazione produca un effetto biologico comparabile a quello di 1 Gy di raggi X.
 
-== Fissione e Fusione Nucleari
+== Fissione e fusione Nucleari
 
-Durante i processi di trasformazione nucleare avviene il rilascio di quantità significative di energia, che derivano dalla variazione della massa dei nuclei originari secondo la celebre relazione di Einstein. Questi meccanismi costituiscono il principio alla base della fissione nucleare e della fusione nucleare.
+Durante i processi di trasformazione nucleare avviene il rilascio di quantità significative di energia, che derivano dalla variazione della massa (Δm) dei nuclei originari secondo la celebre relazione di Einstein: 
+
+$ 
+  Delta E = Delta m dot c^2
+$
+
+dove c è la velocità della luce (299.792.458 m/s). Questi meccanismi costituiscono il principio alla base della fissione nucleare e della fusione nucleare.
 
 La fissione nucleare consiste nella frammentazione di un nucleo pesante in due (raramente tre) nuclei più piccoli. In tale processo, la massa del nucleo originario risulta superiore alla somma delle masse dei nuclei prodotti, e questa differenza di massa viene convertita in energia.
 
@@ -66,25 +137,45 @@ La reazione a catena non controllata è alla base della tecnologia impiegata nel
 
 In questo scenario tutti i neutroni generati vengono sfruttati per alimentare ulteriori eventi di fissione, incrementando progressivamente il numero delle reazioni (reazione a catena divergente). Viceversa, qualora una parte dei neutroni venga assorbita da altre sostanze e solo una frazione possa innescare nuove fissioni, il sistema prende il nome di fissione controllata. Questo approccio costituisce la base operativa dei reattori nucleari a fissione, progettati per produrre energia in modo regolato e sicuro.
 
+#note(bottom)[== *🧩* I reattori nucleari <senza_numero> 
+
+Il primo reattore nucleare a fissione fu costruito nel 1942 a Chicago ad opera di Enrico Fermi e dei suoi collaboratori, venendo denominato "pila atomica". Il principio operativo di tale dispositivo è sostanzialmente analogo a quello dei reattori attualmente in utilizzo. Durante quel periodo storico dominato dalla seconda guerra mondiale, lo sviluppo della tecnologia legata alla fissione nucleare fu immediatamente correlato alle sue potenziali applicazioni di natura militare.
+
+Nel giro di pochi anni, alimentati dal timore che la Germania nazista acquisisse la capacità di sfruttare queste tecnologie, gli Stati Uniti realizzarono la prima bomba atomica, la quale venne impiegata sul campo con il bombardamento di Hiroshima il 6 agosto 1945. Questo evento si inserì nel contesto del cosiddetto "Progetto Manhattan", un'iniziativa che riunì i maggiori esperti mondiali di fisica atomica e nucleare sotto la direzione del fisico statunitense J. Robert Oppenheimer (1904-1967).
+
+Dopo la conclusione del conflitto mondiale, si avviò un processo di promozione per un utilizzo esclusivamente pacifico dell'energia nucleare. A partire dal 1955-56 furono costruiti i primi reattori destinati alla produzione di energia elettrica. 
+
+Dal punto di vista funzionale, i reattori nucleari operano come centrali energetiche che convertono l'energia di legame dei nucleoni di alcuni elementi in energia termica, successivamente trasformata in energia elettrica mediante opportuni processi tecnologici.
+
+I reattori nucleari si basano sul processo di fissione e utilizzano principalmente isotopi dell'uranio come materiale attivo. Strutturalmente, sono costituiti da un componente centrale, chiamato nocciolo, dove si verificano le reazioni di fissione, e da una serie di apparecchiature accessorie che hanno il compito di trasportare il calore generato e, in alcuni casi, convertirlo in altre forme di energia.
+
+All'interno del nocciolo, il combustibile nucleare è generalmente disposto sotto forma di barre o pastiglie, intervallate da un materiale moderatore (come acqua, acqua pesante o grafite) incaricato di rallentare i neutroni prodotti durante la fissione. Per regolare la reazione nucleare, vengono introdotte barre di controllo realizzate con materiali capaci di assorbire i neutroni in eccesso.
+
+I rischi correlati all'utilizzo dell'energia nucleare riguardano principalmente la gestione delle scorie. I prodotti della fissione, infatti, sono spesso elementi radioattivi con lunghi tempi di dimezzamento, rendendo difficile la creazione di sistemi sicuri per la conservazione e l'isolamento di tali materiali. Un ulteriore problema riguarda la sicurezza: la pericolosità del combustibile nucleare e dei suoi residui richiede misure rigorose per minimizzare il rischio di incidenti, che, come dimostrato dall'evento di Chernobyl nel 1986, possono causare gravi perdite umane e liberare nell'ambiente grandi quantità di sostanze tossiche.]
+
 == La fusione nucleare  
 
 La fusione nucleare rappresenta il processo opposto rispetto alla fissione: in essa due nuclei di un elemento con basso numero atomico si combinano per formare un nucleo con numero atomico più alto.  
 
-Il caso più comune di fusione è quello che avviene naturalmente nelle stelle, incluso il Sole, dove quattro nuclei di idrogeno (ossia quattro protoni, ¹¹H) si uniscono per generare un nucleo di elio (composto da due protoni e due neutroni, ⁴²He). Questo processo si realizza tramite molteplici reazioni intermedie, tra cui la conversione di due protoni in neutroni, e comporta la liberazione di enormi quantità di energia.  
+Il caso più comune di fusione è quello che avviene naturalmente nelle stelle, incluso il Sole, dove quattro nuclei di idrogeno (ossia quattro protoni, #box[#place()[#sub[1]]#super[1]H]) si uniscono per generare un nucleo di elio (composto da due protoni e due neutroni, #box[#place()[#sub[2]]#super[4]He]). Questo processo si realizza tramite molteplici reazioni intermedie, tra cui la conversione di due protoni in neutroni, e comporta la liberazione di enormi quantità di energia.  
 
 Le alte temperature presenti nelle stelle conferiscono ai nuclei di idrogeno una quantità di energia cinetica tale da superare le forze di repulsione elettrostatica, permettendo loro di fondersi in nuclei più pesanti. I nuclei di idrogeno, che nelle stelle sono presenti abbondantemente sotto forma di plasma, cioè un gas composto da particelle ionizzate, sono fondamentali per la fusione.  
 
 Perché due nuclei riescano ad avvicinarsi abbastanza da avviare il processo di fusione, occorrono temperature pari a milioni o decine di milioni di gradi. Questo rende estremamente complessa l'attivazione artificiale della fusione e il suo utilizzo per produrre una quantità di energia superiore a quella consumata per generarla.  
 
-Nei laboratori, le reazioni di fusione non sfruttano nuclei di idrogeno ordinario, ma quelli dei suoi isotopi: deuterio (²¹H), costituito da un protone e un neutrone, e trizio (³¹H), formato da un protone e due neutroni. Questi isotopi reagiscono tra loro per generare elio secondo la seguente reazione:  
+Nei laboratori, le reazioni di fusione non sfruttano nuclei di idrogeno ordinario, ma quelli dei suoi isotopi: deuterio (#box[#place()[#sub[1]]#super[2]H]), costituito da un protone e un neutrone, e trizio (#box[#place()[#sub[1]]#super[3]H]), formato da un protone e due neutroni. Questi isotopi reagiscono tra loro per generare elio secondo la seguente reazione:  
 
-// Formula  
+$ 
+  #hide[]^2_1"H" + #hide[]^3_1"H" -> #hide[]^4_1"He" + n + "energia"
+$ 
 
 Questa reazione libera un'energia pari a 17,6 MeV, derivante dalla differenza tra le masse iniziali e finali.  
 
 Un'ulteriore reazione considerata promettente è quella tra deuterio e trizio, quest'ultimo ottenibile tramite la fusione di due nuclei di deuterio o, più facilmente, bombardando il litio-6 con neutroni:  
 
-// Formula  
+$ 
+  #hide[]^6_3"Li" + n -> #hide[]^4_1"He" + #hide[]^3_1"H" + "energia"
+$ 
 
 Per sfruttare l'energia ottenuta dalla fusione sarebbe necessario realizzare un reattore capace di confinare il plasma e riscaldarlo a temperature dell'ordine di decine di milioni di gradi. I reattori sperimentali attualmente in fase di studio utilizzano campi magnetici intensi per confinare il plasma, sfruttando il fatto che le particelle ionizzate, essendo elettricamente cariche, possono essere influenzate dalla forza magnetica. Il riscaldamento del plasma avviene principalmente mediante correnti elettriche molto intense.  
 
@@ -92,7 +183,7 @@ La fusione nucleare è considerata una potenziale fonte energetica del futuro, m
 
 Un annuncio particolarmente promettente è arrivato nel dicembre 2022 dagli scienziati del Lawrence Livermore National Laboratory (un centro di ricerca del Dipartimento dell'Energia degli Stati Uniti d'America). Essi hanno dichiarato di aver realizzato una fusione nucleare che, per la prima volta nella storia, ha prodotto una quantità di energia superiore a quella necessaria per attivarla.  
 
-L'esperimento è stato condotto concentrando 192 fasci laser su un piccolo cilindro contenente deuterio e trizio, generando una notevole quantità di energia a fronte di un consumo minimo di combustibile. Questo risultato potrebbe rappresentare una svolta decisiva verso una produzione energetica abbondante, sicura ed eco-sostenibile.
+L'esperimento è stato condotto concentrando 192 fasci laser su un piccolo cilindro contenente deuterio e trizio, generando una notevole quantità di energia a fronte di un consumo minimo di combustibile. Questo risultato potrebbe rappresentare una svolta decisiva verso una produzione energetica abbondante, sicura ed ecosostenibile.
 
 == Le particelle elementari  
 
@@ -104,7 +195,7 @@ Negli stessi anni iniziò a emergere un'idea innovativa: le forze che agiscono a
 
 Questa teoria fu in seguito perfezionata e costituisce tutt'oggi la base delle moderne teorie fisiche, in particolare dell'elettrodinamica quantistica. Essa permise di organizzare e classificare le numerose particelle scoperte nel tempo, raggruppandole in base al tipo di interazione a cui risultano sensibili.  
 
-La definizione stessa di particella elementare dipende dai metodi di indagine disponibili in ciascun periodo storico. Negli anni '60 venne avanzata l'ipotesi che alcune particelle, come il neutrone e il protone, non fossero realmente elementari ma costituite da “particelle ancora più fondamentali”, ovvero i quark. Questi ultimi sono così difficili da osservare che la loro identificazione richiede tecnologie estremamente avanzate.  
+La definizione stessa di particella elementare dipende dai metodi di indagine disponibili in ciascun periodo storico. Negli anni '60 venne avanzata l'ipotesi che alcune particelle, come il neutrone e il protone, non fossero realmente elementari ma costituite da "particelle ancora più fondamentali", ovvero i quark. Questi ultimi sono così difficili da osservare che la loro identificazione richiede tecnologie estremamente avanzate.  
 
 La fisica delle particelle ha raggiunto una solida struttura concettuale, sostenuta da molteplici evidenze sperimentali, grazie all'utilizzo degli acceleratori moderni capaci di raggiungere energie molto elevate. Si ipotizza che lo studio della materia in condizioni di alta energia possa permettere di simulare i primi istanti dell'Universo e comprendere meglio il comportamento della materia durante il Big Bang.  
 
@@ -120,9 +211,9 @@ Secondo i fisici, nei primi istanti di vita dell'Universo materia e antimateria 
 
 === I quark
 
-Verso la metà del XX secolo, il fisico statunitense Murray Gell-Mann propose un'ipotesi rivoluzionaria, attualmente riconosciuta e accettata nella comunità scientifica, secondo cui le particelle che costituiscono il nucleo atomico, ovvero protoni e neutroni, sarebbero a loro volta formate da una combinazione di tre particelle fondamentali, da lui denominate quark. Il termine "quark" sembra essere stato ispirato da un enigmatico passaggio contenuto nel romanzo *La veglia di Finnegan* di James Joyce, dove si legge: "Three quarks for Muster Mark!".
+Verso la metà del XX secolo, il fisico statunitense Murray Gell-Mann propose un'ipotesi rivoluzionaria, attualmente riconosciuta e accettata nella comunità scientifica, secondo cui le particelle che costituiscono il nucleo atomico, ovvero protoni e neutroni, sarebbero a loro volta formate da una combinazione di tre particelle fondamentali, da lui denominate quark. Il termine "quark" sembra essere stato ispirato da un enigmatico passaggio contenuto nel romanzo _La veglia di Finnegan_ di James Joyce, dove si legge: "Three quarks for Muster Mark!".
 
-I quark si distinguono per possedere una carica elettrica frazionaria, positiva o negativa, equivalente a 1/3 o 2/3 della carica elementare dell'elettrone, e presentano uno spin pari a 1/2. Secondo Gell-Mann, esistono sei tipi di quark, ciascuno caratterizzato da un attributo noto come "sapore", un concetto puramente convenzionale che non corrisponde al significato associato ai sapori percepiti sensorialmente. I sei sapori identificati sono: *up* (su), *down* (giù), *strange* (strano), *beauty* (bellezza), *charm* (fascino) e *top* (alto).
+I quark si distinguono per possedere una carica elettrica frazionaria, positiva o negativa, equivalente a 1/3 o 2/3 della carica elementare dell'elettrone, e presentano uno spin pari a 1/2. Secondo Gell-Mann, esistono sei tipi di quark, ciascuno caratterizzato da un attributo noto come "sapore", un concetto puramente convenzionale che non corrisponde al significato associato ai sapori percepiti sensorialmente. I sei sapori identificati sono: up (su), down (giù), strange (strano), beauty (bellezza), charm (fascino) e top (alto).
 
 Per soddisfare il principio di esclusione di Pauli, applicabile alle particelle con spin semintero, Gell-Mann introdusse inoltre un'altra proprietà fondamentale, definita "colore", la quale, analogamente al concetto di sapore, non ha alcuna correlazione con il significato comunemente attribuito ai colori. Ogni quark, dunque, può assumere uno dei tre "colori": rosso, blu o verde. I sapori e i colori possono essere considerati numeri quantici che descrivono i diversi stati possibili di un quark, generando un totale di nove combinazioni (sei sapori moltiplicati per tre colori).
 
@@ -132,11 +223,38 @@ La somma algebrica delle cariche frazionarie dei quark che costituiscono un neut
 
 Le evidenze sperimentali sull'esistenza dei quark risultano indirette ma significative. L'ultima conferma risale al 1994 ed è stata ottenuta presso il Fermilab di Chicago, dove un team guidato dal fisico italiano Giorgio Bellettini ha individuato tracce dell'unico quark precedentemente non osservato: il quark top. Questo risultato è stato raggiunto grazie agli esperimenti condotti con il Collider Detector at Fermilab (CDF), un acceleratore di protoni progettato per indagare sulle proprietà delle particelle fondamentali. 
 
+#figure(
+  caption: [I sei quark e le loro caratteristiche principali],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (5),
+  table.header[Sapore][Simbolo][Massa / (GeV)][Carica][Conferma \ Sperimentale],
+  [up], [u], [0,005], [+2/3], [1963],
+  [down], [d], [0,010], [-1/3], [1963],
+  [strange], [s], [0,15], [-1/3], [1974],
+  [charm], [t], [1,35], [+2/3], [1974],
+  [top], [c], [>89], [+2/3], [1994],
+  [beauty], [b], [4,5], [-1/3], [1997],
+)  
+)
+
 === L'interazione debole e le interazioni fondamentali
 
 L'elenco delle possibili interazioni tra i corpi comprende quattro forze fondamentali: l'interazione gravitazionale, l'interazione elettromagnetica, l'interazione nucleare forte — responsabile della coesione dei nuclei atomici — e infine l'interazione debole. Quest'ultima opera su particolari tipi di particelle elementari chiamate leptoni, tra cui l'elettrone e il neutrino, ed è implicata nel fenomeno del decadimento radioattivo β all'interno dei nuclei.
 
-L'interazione debole si distingue per due caratteristiche principali: è circa 10⁻¹⁰ volte meno intensa dell'interazione elettromagnetica e possiede un raggio d'azione ben più ridotto, pari a circa 10⁻² volte quello dell'interazione forte. Analogamente a quest'ultima, non esiste una formula matematica che descriva esplicitamente il comportamento dell'interazione debole. Tuttavia, nella moderna interpretazione della fisica — basata sulla teoria dell'elettrodinamica quantistica — tutte e quattro le interazioni fondamentali vengono descritte come il risultato dello scambio di "quanti d'azione" tra i corpi coinvolti. In questo contesto, ciascuna interazione è mediata da una particolare particella.
+L'interazione debole si distingue per due caratteristiche principali: è circa 10#super[-10] volte meno intensa dell'interazione elettromagnetica e possiede un raggio d'azione ben più ridotto, pari a circa 10#super[-2] volte quello dell'interazione forte. Analogamente a quest'ultima, non esiste una formula matematica che descriva esplicitamente il comportamento dell'interazione debole. Tuttavia, nella moderna interpretazione della fisica — basata sulla teoria dell'elettrodinamica quantistica — tutte e quattro le interazioni fondamentali vengono descritte come il risultato dello scambio di "quanti d'azione" tra i corpi coinvolti. In questo contesto, ciascuna interazione è mediata da una particolare particella.
 
 Per l'interazione gravitazionale il quanto d'azione ipotetico è il gravitone, una particella che finora non è stata osservata. L'interazione elettromagnetica è mediata dal fotone, mentre l'interazione forte si basa sul gluone, la cui esistenza è prevista teoricamente ma non ancora completamente verificata. Infine, l'interazione debole è associata ai bosoni intermedi — osservati per la prima volta nel 1983 dal gruppo di Carlo Rubbia presso i laboratori del CERN di Ginevra.
 
@@ -145,6 +263,31 @@ Un esempio del ruolo dei mediatori di forza è evidente nel processo di decadime
 Uno degli obiettivi principali della fisica contemporanea consiste nell'unificare tutte le interazioni fondamentali in un unico modello teorico. Secondo questa visione, ciascuna forza rappresenterebbe una manifestazione diversa di una singola forza originaria, presumibilmente presente nei primi istanti di vita dell'Universo. Una parziale realizzazione di questo concetto si trova nella teoria elettrodebole formulata negli anni '70, che combina le interazioni elettromagnetica e debole in un'entità comune. Tuttavia, gli sforzi per includere anche le interazioni gravitazionale e forte non hanno ancora prodotto risultati sperimentalmente verificabili, sebbene abbiano dato vita a teorie estremamente complesse dal punto di vista matematico.
 
 Lo studio delle interazioni fondamentali e della loro possibile unificazione rientra nella ricerca sviluppata dalla Teoria della Grande Unificazione (GUT, Grand Unified Theory).
+
+#figure(
+  caption: [Le quattro interazioni fondamentali e le loro caratteristiche],
+  table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (4),
+  table.header[Interazione][Mediatori][Intensità \ relativa][Raggio d'azione],
+  [Gravitazione], [gravitoni], [10#super[-39]], [infinito],
+  [Elettromagnetismo], [fotoni], [10#super[-2]], [infinito],
+  [Forza nucleare forte], [gluoni], [1], [10#super[-13] cm],
+  [Forza nucleare debole], [bosoni intermedi], [10#super[-13]], [10#super[-15] cm],
+)  
+)
 
 === Le famiglie di particelle
 
@@ -158,31 +301,45 @@ La terza famiglia, più numerosa rispetto alle precedenti, è costituita dagli a
 
 Contrariamente ai leptoni, gli adroni non sono particelle fondamentali, poiché sono costituiti da quark. I barioni sono formati da un aggregato di tre quark (non necessariamente differenti), mentre i mesoni sono composti da un quark e un antiquark, anche in questo caso non necessariamente dello stesso tipo.
 
-=== Approfondimento sui reattori nucleari
+#figure(
+  caption: [Classificazione delle particelle elementari e loro caratteristiche],   table(
+    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    fill: (x, y) => {
+  if y == 0 {
+    return main_tecnologia // Colore header
+  } else if calc.even(y) {
+    // Colore righe dispari
+    return main_tecnologia.lighten(90%)
+  } else {
+    // Colore righe pari
+    return white
+  }
+  },
+  align: left + horizon,
+  columns: (7),
+  table.header[Tipi di particella][][][Simbolo][Quark componenti][Carica elettrica][Antiparticella], 
+  table.cell(rowspan: 5)[mediatori o portatori],	[fotone], [], [γ], [-], [0], [],
+  [gluone], [],	  [g],  [-],  [0], [],   
+  [bosone], [],   [W#super[+]],  [-],  [-1], [],
+   [], [], [W#super[--]],  [-],  [-1], [],
+   [], [],  [Z#super[0]],  [-],  [0],  [],
+  table.cell(rowspan: 6)[leptoni],	[elettrone], [], [e#super[--]],  [-],  [-1], [e#super[+]],   
+  [neutrino elettronico], [],	[ν#sub[e]],   [-],   [0],   [#overline[ν]#sub[e]],   [muone], [],  [μ#super[--]],   [-],   [-1],   [μ#super[+]], 
+  [neutrino muonico], [],  [ν#sub[μ]],   [-],   [0],   [#overline[ν]#sub[μ]], 
+  [tauone],	[], [τ#super[--]],   [-],   [-1],   [τ#super[+]], 
+  [neutrino tauonico],	[],  [ν#sub[τ]],   [-],   [0],   [#overline[ν]#sub[τ]],   table.cell(rowspan: 9)[adroni],	table.cell(rowspan: 2)[mesoni],	[pione],   [π+],   [u d],   [+1],   [π#super[--]],   
+  [kaone],	[K#super[+]],   [u #overline[s]],   [+1],   [K#super[--]],   
+  table.cell(rowspan: 7)[barioni],	[protone],	[p],   [u u d],   [+1],   [p#super[--]],   [neutrone],	[n],   [d d u],   [0],   [#overline[n]#super[0]], 
+  [lambda],	 [Λ#super[0]],   [s u d],   [0],   [#overline[Λ]#super[0]],   
+  table.cell(rowspan: 2)[sigma],  [Σ#super[+]],   [u u s],   [+1],   [#overline[Σ]#super[+]], 
+  [Σ#super[--]],   [d d s],   [-1],   [#overline[Σ]#super[--]],   
+  table.cell(rowspan: 2)[xi],	[Ξ#super[0]],   [u s s],   [0],   [#overline[Ξ]#super[0]],  
+  [Ξ#super[--]],   [d s s],   [-1], [#overline[Ξ]#super[+]] )  
+)
 
-Il primo reattore nucleare a fissione fu costruito nel 1942 a Chicago ad opera di Enrico Fermi e dei suoi collaboratori, venendo denominato "pila atomica". Il principio operativo di tale dispositivo è sostanzialmente analogo a quello dei reattori attualmente in utilizzo. Durante quel periodo storico dominato dalla seconda guerra mondiale, lo sviluppo della tecnologia legata alla fissione nucleare fu immediatamente correlato alle sue potenziali applicazioni di natura militare.
-
-Nel giro di pochi anni, alimentati dal timore che la Germania nazista acquisisse la capacità di sfruttare queste tecnologie, gli Stati Uniti realizzarono la prima bomba atomica, la quale venne impiegata sul campo con il bombardamento di Hiroshima il 6 agosto 1945. Questo evento si inserì nel contesto del cosiddetto "Progetto Manhattan", un'iniziativa che riunì i maggiori esperti mondiali di fisica atomica e nucleare sotto la direzione del fisico statunitense J. Robert Oppenheimer (1904-1967).
-
-Dopo la conclusione del conflitto mondiale, si avviò un processo di promozione per un utilizzo esclusivamente pacifico dell'energia nucleare. A partire dal 1955-56 furono costruiti i primi reattori destinati alla produzione di energia elettrica. 
-
-Dal punto di vista funzionale, i reattori nucleari operano come centrali energetiche che convertono l'energia di legame dei nucleoni di alcuni elementi in energia termica, successivamente trasformata in energia elettrica mediante opportuni processi tecnologici.
-
-I reattori nucleari si basano sul processo di fissione e utilizzano principalmente isotopi dell'uranio come materiale attivo. Strutturalmente, sono costituiti da un componente centrale, chiamato nocciolo, dove si verificano le reazioni di fissione, e da una serie di apparecchiature accessorie che hanno il compito di trasportare il calore generato e, in alcuni casi, convertirlo in altre forme di energia.
-
-All'interno del nocciolo, il combustibile nucleare è generalmente disposto sotto forma di barre o pastiglie, intervallate da un materiale moderatore (come acqua, acqua pesante o grafite) incaricato di rallentare i neutroni prodotti durante la fissione. Per regolare la reazione nucleare, vengono introdotte barre di controllo realizzate con materiali capaci di assorbire i neutroni in eccesso.
-
-I rischi correlati all'utilizzo dell'energia nucleare riguardano principalmente la gestione delle scorie. I prodotti della fissione, infatti, sono spesso elementi radioattivi con lunghi tempi di dimezzamento, rendendo difficile la creazione di sistemi sicuri per la conservazione e l'isolamento di tali materiali. Un ulteriore problema riguarda la sicurezza: la pericolosità del combustibile nucleare e dei suoi residui richiede misure rigorose per minimizzare il rischio di incidenti, che, come dimostrato dall'evento di Chernobyl nel 1986, possono causare gravi perdite umane e liberare nell'ambiente grandi quantità di sostanze tossiche.
-
-== Approfondimento acceleretore di particelle
-
-Gli acceleratori di particelle sono strumenti utilizzati per indagare le proprietà della materia. Essi accelerano particelle elettricamente cariche, come protoni ed elettroni, oltre a ioni, mediante l'uso di campi elettromagnetici e le fanno collidere tra loro o con bersagli specifici per studiare le interazioni risultanti. Le energie prodotte da queste collisioni possono anche dare origine a nuove particelle, dalla durata estremamente breve e non osservabili in condizioni normali.
-
-Gli acceleratori si classificano principalmente in base al sistema di accelerazione e alla traiettoria seguita dalle particelle. Gli acceleratori lineari, che seguono una traiettoria rettilinea, vengono impiegati per accelerare protoni, elettroni, particelle α e ioni. Questi consistono in tubi di lunghezza crescente posizionati in una struttura lineare, dove le particelle vengono accelerate da campi elettrici alternati e indirizzate verso un bersaglio. Tra gli acceleratori lineari più potenti vi è lo SLC (Stanford Linear Collider) negli Stati Uniti, che raggiunge energie superiori ai 100 GeV.
-
-Negli acceleratori circolari, come ciclotrone, betatrone e sincrotrone, la traiettoria delle particelle viene curvata dalla forza di Lorentz generata da un campo magnetico, mentre l'accelerazione viene impressa da campi elettrici o magnetici variabili. Fra gli acceleratori circolari più avanzati si annovera il LEP (Large Electron-Positron Accelerator) del CERN di Ginevra. Il LEP è formato da un anello di accumulazione lungo 27 km che opera su due fasci di particelle (elettroni e positroni) viaggianti in direzioni opposte per farli collidere frontalmente. Con un'energia operativa massima di 200 GeV, sullo stesso anello del LEP è attualmente in costruzione l'LHC (Large Hadron Collider), un acceleratore dotato di magneti estremamente più potenti in grado di raggiungere energie fino a 14 TeV (teraelettronvolt = 10^12 eV).
-
-== Glossario
+#pagebreak()
+#set page(fill: main_tecnologia.lighten(90%))
+== Glossario <senza_numero> 
 
 / Radioattività: Fenomeno in cui nuclei instabili emettono spontaneamente radiazioni (raggi α, β o γ) trasformandosi in nuclei più stabili.  
 / Tempo di dimezzamento: Periodo necessario affinché si disintegri la metà dei nuclei di un elemento radioattivo.  

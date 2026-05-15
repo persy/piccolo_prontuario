@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[L'organismo umano si confronta costantemente con l'attacco di agenti esterni che possono comprometterne l'integrità, oltre a essere esposto all'intrusione di microrganismi patogeni. Per proteggersi, dispone di una doppia linea di difesa: una barriera fisica esterna, composta dalla pelle e dalle mucose, e un sistema di protezione interna basato sul funzionamento del sistema immunitario. Quest'ultimo, attraverso l'azione coordinata di vari tipi di globuli bianchi (leucociti) altamente specializzati, garantisce una difesa mirata ed efficace grazie a un complesso sistema di comunicazione interno.]
 
@@ -9,6 +9,14 @@ La protezione contro microrganismi patogeni (virus, batteri, protozoi, funghi) e
 - Una barriera fisica esterna costituita dalla pelle e dalle mucose impedisce l'accesso ai microrganismi.  
 - Difese interne non specifiche, proprie dell'immunità innata, riconoscono rapidamente e neutralizzano certi microrganismi considerati estranei sin dalla nascita.  
 - Un sistema di difesa interna specifico interviene in uno stadio successivo quando l'immunità innata non è sufficiente a contrastare gli agenti infettivi. Questo meccanismo genera una risposta immunologica mirata e consente all'organismo di sviluppare una memoria immunitaria (immunità acquisita o adattativa).
+
+#note(bottom)[== *🧩* Le barriere fisiche <senza_numero>
+
+La cute rappresenta una difesa essenziale contro la penetrazione di sostanze nocive e patogeni grazie a una combinazione di proprietà strutturali e funzionali. Il suo strato corneo, costituito da cellule morte ricche di cheratina, opera come uno scudo impermeabile capace di limitare l'assorbimento di acqua, molecole idrosolubili e persino enzimi secreti da alcuni batteri. Inoltre, il processo di rigenerazione delle cellule cutanee attraverso mitosi consente una rapida riparazione in caso di danno. A completare questa barriera, sebo e sudore svolgono un ruolo aggiuntivo grazie alle loro potenti proprietà battericide.
+
+Parallelamente, le mucose rivestono le cavità corporee che comunicano, direttamente o indirettamente, con l'esterno (vie respiratorie, digestive, riproduttive e urinarie). La loro struttura multifasica include uno strato di epitelio, un tessuto connettivo sottostante arricchito di fibre elastiche e linfociti per sostenere l'epitelio, e un sottile strato di tessuto muscolare. Le cellule mucipare presenti in tali membrane sintetizzano muco, che funge da barriera fisica intrappolando agenti estranei. Il muco contiene inoltre enzimi antibatterici come il lisozima, capace di danneggiare la parete cellulare dei batteri. 
+
+Nell'apparato respiratorio, la presenza di ciglia epiteliali favorisce il trasporto del muco e facilita l'eliminazione delle sostanze estranee. Numerose secrezioni corporee, come saliva e lacrime contenenti lisozima, così come l'acido cloridrico del succo gastrico e l'acido lattico delle mucose genitali, si distinguono per la loro efficacia antibatterica.]
 
 === Il sistema immunitario
 
@@ -102,31 +110,25 @@ Quando un antigene penetra nell'organismo per una seconda volta, si verifica una
 === La vaccinazione
 
 La vaccinazione rappresenta una strategia preventiva contro alcune patologie infettive, mirata a stimolare il sistema immunitario attraverso l'introduzione di vaccini. I vaccini sono preparati contenenti tossine prodotte da microrganismi patogeni, opportunamente trattate per ridurre drasticamente la loro virulenza nel caso di vaccini vivi attenuati, o per eliminarla completamente nel caso di vaccini inattivati. Questi possono essere somministrati per via orale o mediante iniezione e inducono la produzione di anticorpi che permangono nell'organismo per un periodo prolungato; in alcuni casi, tale protezione può protrarsi per l'intera vita. Quando il soggetto vaccinato entra in contatto con il microrganismo patogeno, il sistema immunitario è in grado di reagire con una risposta rapida, intensa e specifica, impedendo così l'insorgenza dell'infezione: il soggetto viene dunque considerato immune.
-
+ 
 == Risposte immunitarie difettose
 
 Alcune patologie insorgono a seguito di disfunzioni del sistema immunitario. Le malattie autoimmuni si verificano quando il sistema immunitario produce anticorpi che attaccano i tessuti del proprio organismo, evidenziando un'alterazione nel riconoscimento del "self". Al contrario, le malattie da immunodeficienza si manifestano quando il sistema immunitario è incapace di generare una risposta adeguata a causa del numero insufficiente di linfociti funzionali; un esempio emblematico è l'AIDS, la forma più comune di immunodeficienza.
 
-=== Le allergie
-
-Le allergie consistono in una reazione esagerata del sistema immunitario causata dall'introduzione di sostanze estranee denominate allergeni, che in individui sensibilizzati da esposizioni precedenti risultano capaci di indurre la produzione di anticorpi specifici (IgE). Gli anticorpi IgE si legano agli allergeni presenti sulla superficie dei granulociti basofili e dei mastociti, cellule presenti nei tessuti connettivi. Questo legame provoca il rilascio di mediatori chimici, come l'istamina, responsabili dei processi infiammatori. Tali fenomeni includono la dilatazione e l'aumento della permeabilità dei vasi sanguigni di piccolo calibro e la contrazione della muscolatura liscia.
-#pagebreak()
-== Approfondimenti <senza_numero>
-
-=== Le barriere fisiche <senza_numero>
-
-La cute rappresenta una difesa essenziale contro la penetrazione di sostanze nocive e patogeni grazie a una combinazione di proprietà strutturali e funzionali. Il suo strato corneo, costituito da cellule morte ricche di cheratina, opera come uno scudo impermeabile capace di limitare l'assorbimento di acqua, molecole idrosolubili e persino enzimi secreti da alcuni batteri. Inoltre, il processo di rigenerazione delle cellule cutanee attraverso mitosi consente una rapida riparazione in caso di danno. A completare questa barriera, sebo e sudore svolgono un ruolo aggiuntivo grazie alle loro potenti proprietà battericide.
-
-Parallelamente, le mucose rivestono le cavità corporee che comunicano, direttamente o indirettamente, con l'esterno (vie respiratorie, digestive, riproduttive e urinarie). La loro struttura multifasica include uno strato di epitelio, un tessuto connettivo sottostante arricchito di fibre elastiche e linfociti per sostenere l'epitelio, e un sottile strato di tessuto muscolare. Le cellule mucipare presenti in tali membrane sintetizzano muco, che funge da barriera fisica intrappolando agenti estranei. Il muco contiene inoltre enzimi antibatterici come il lisozima, capace di danneggiare la parete cellulare dei batteri. Nell'apparato respiratorio, la presenza di ciglia epiteliali favorisce il trasporto del muco e facilita l'eliminazione delle sostanze estranee. Numerose secrezioni corporee, come saliva e lacrime contenenti lisozima, così come l'acido cloridrico del succo gastrico e l'acido lattico delle mucose genitali, si distinguono per la loro efficacia antibatterica.
-
-=== L'AIDS <senza_numero>
+#note(top)[== *🧩* L'AIDS <senza_numero>
 
 L'AIDS, acronimo di sindrome da immunodeficienza acquisita, è una patologia epidemica provocata dal virus HIV (Human Immunodeficiency Virus), classificato come retrovirus per la sua capacità di integrarsi nel materiale genetico della cellula ospite. Questo patogeno attacca selettivamente i linfociti T helper e i macrofagi, entrambi fondamentali per l'attivazione della risposta immunitaria. La progressione della malattia comporta un'alterazione del sistema autoimmune: l'incapacità dell'organismo di discriminare tra antigeni estranei e self induce i linfociti T e gli anticorpi a colpire i propri tessuti. Tale reazione autoimmune, combinata con l'azione citotossica del virus, deteriora le cellule infettate e compromette l'intero sistema immunitario, conducendo a una condizione di immunodeficienza.
 
 La trasmissione avviene attraverso il contatto con liquidi biologici infetti, quali sangue, sperma e secrezioni vaginali. I soggetti affetti da AIDS presentano una vulnerabilità accresciuta alle infezioni opportunistiche causate da funghi e protozoi, oltre che a specifiche neoplasie. Sebbene le origini del virus HIV siano datate alla sua presenza endemica in primati dell'Africa centrale, si ritiene che mutazioni genetiche lo abbiano reso patogeno anche per l'uomo. Le prime manifestazioni della malattia furono osservate ad Haiti e tra le comunità omosessuali della California negli anni Settanta; nel 1979 i primi casi documentati furono registrati a New York. Nel 1983, studiosi dell'Istituto Pasteur di Parigi riuscirono a isolare il retrovirus da un linfonodo infetto.
 
-La terapia attuale si concentra sul trattamento delle patologie correlate alla malattia piuttosto che su una cura definitiva. La sfida nella creazione di un vaccino efficace risiede nella straordinaria variabilità genetica del virus e nella sua capacità di integrarsi nel genoma dei linfociti come retrovirus.
+La terapia attuale si concentra sul trattamento delle patologie correlate alla malattia piuttosto che su una cura definitiva. La sfida nella creazione di un vaccino efficace risiede nella straordinaria variabilità genetica del virus e nella sua capacità di integrarsi nel genoma dei linfociti come retrovirus.]
 
+=== Le allergie
+
+Le allergie consistono in una reazione esagerata del sistema immunitario causata dall'introduzione di sostanze estranee denominate allergeni, che in individui sensibilizzati da esposizioni precedenti risultano capaci di indurre la produzione di anticorpi specifici (IgE). Gli anticorpi IgE si legano agli allergeni presenti sulla superficie dei granulociti basofili e dei mastociti, cellule presenti nei tessuti connettivi. Questo legame provoca il rilascio di mediatori chimici, come l'istamina, responsabili dei processi infiammatori. Tali fenomeni includono la dilatazione e l'aumento della permeabilità dei vasi sanguigni di piccolo calibro e la contrazione della muscolatura liscia.
+
+#pagebreak() 
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Anticorpi, o immunoglobuline (Ig): Proteine presenti nel sangue che hanno il compito di riconoscere e legarsi a ciascun antigene specifico per neutralizzarlo o distruggerlo.

@@ -1,5 +1,5 @@
-#import "../../template_tufte.typ": *
-#show: frame-style(styles.thmbox)
+#import "../../template_normal.typ": *
+//#show: frame-style(styles.thmbox)
 
 #evidenzia[Una delle proprietà principali della cellula è la capacità di replicarsi. Nei organismi unicellulari, questa funzione avviene tramite la divisione della loro unica cellula, garantendo esclusivamente la continuità della specie nel corso del tempo. 
 
@@ -35,6 +35,12 @@ Infine, nella telofase i cromatidi subiscono un processo di despiralizzazione ch
 
 La citodieresi rappresenta il processo mediante il quale il citoplasma delle due cellule figlie viene separato, completando la divisione cellulare. Questo fenomeno si manifesta secondo modalità distinte nelle cellule animali e vegetali. Nelle cellule animali, nella regione equatoriale si forma una strozzatura progressivamente più profonda, che culmina nella separazione completa delle cellule figlie. Al contrario, nelle cellule vegetali, la divisione avviene attraverso la formazione di una nuova parete cellulare derivante dalla placca cellulare, che si sviluppa al centro del fuso mitotico.
 
+#note(bottom)[== *🧩* La divisione cellulare nei procarioti <senza_numero>
+
+La divisione cellulare nei procarioti presenta differenze significative rispetto a quella degli eucarioti, data l'assenza della membrana nucleare e la presenza di un singolo cromosoma di forma circolare. Quest'ultimo, fissato a un punto specifico della membrana plasmatica, si duplica; successivamente le due copie si ancorano a punti vicini della membrana.
+
+Quando la cellula inizia ad allungarsi, viene sintetizzata nuova membrana plasmatica tra i punti di attacco dei cromosomi, determinando il loro allontanamento spaziale. Infine, nella regione centrale della cellula, la membrana plasmatica si invagina verso l'interno fino a separare la cellula madre in due cellule figlie, ciascuna dotata di un cromosoma identico all'originale.]
+
 == La riproduzione sessuale
 
 La riproduzione sessuale è definita come il processo che porta alla formazione di un nuovo individuo mediante l'unione di due gameti provenienti da ciascuno dei due genitori. I gameti maschili, denominati spermatozoi, e quelli femminili, chiamati cellule uovo, partecipano a tale processo. 
@@ -58,13 +64,9 @@ Gli organismi che si riproducono sessualmente espongono una notevole unicità ge
 Le mutazioni consistono in errori durante la duplicazione del DNA, che comportano modifiche nei nucleotidi o nell'organizzazione dei geni sui cromosomi. Questo processo può portare alla sintesi di proteine diverse rispetto a quelle originarie.
 Il crossing-over può verificarsi in qualunque punto del cromosoma e addirittura in più punti simultaneamente sullo stesso cromosoma. Questo meccanismo produce cromosomi con configurazioni diverse rispetto a quelli parentali. 
 La segregazione e l'assortimento indipendente contribuiscono ulteriormente alla diversità: il numero di combinazioni possibili nei gameti è pari a 2n, dove "n" rappresenta il numero di coppie di cromosomi. Ad esempio, nell'uomo, che possiede 23 coppie di cromosomi omologhi, i gameti distinti generabili sono 2#super[23], ossia 8.388.608. La fecondazione, che avviene con la fusione dei gameti di due individui distinti, offre un numero teorico quasi incalcolabile di zigoti possibili (8.388.608 × 8.388.608 = oltre 70.369 miliardi).
+
 #pagebreak()
-== Approfondimento: La divisione cellulare nei procarioti <senza_numero>
-
-La divisione cellulare nei procarioti presenta differenze significative rispetto a quella degli eucarioti, data l'assenza della membrana nucleare e la presenza di un singolo cromosoma di forma circolare. Quest'ultimo, fissato a un punto specifico della membrana plasmatica, si duplica; successivamente le due copie si ancorano a punti vicini della membrana.
-
-Quando la cellula inizia ad allungarsi, viene sintetizzata nuova membrana plasmatica tra i punti di attacco dei cromosomi, determinando il loro allontanamento spaziale. Infine, nella regione centrale della cellula, la membrana plasmatica si invagina verso l'interno fino a separare la cellula madre in due cellule figlie, ciascuna dotata di un cromosoma identico all'originale.
-
+#set page(fill: main_scienze.lighten(90%))
 == Glossario <senza_numero>
 
 / Assortimento indipendente: Distribuzione dei cromosomi omologhi di una coppia nei due nuclei figli senza che questa sia influenzata dai cromosomi di un'altra coppia.  
