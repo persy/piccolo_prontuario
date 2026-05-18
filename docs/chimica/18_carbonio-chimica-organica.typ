@@ -1,6 +1,7 @@
 #import "../../template/chimica/var.typ" : * // Variabili
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#set math.equation(numbering: "1", supplement: none, number-align: end)
 
 #intro[Il carbonio si distingue come l'elemento più versatile nel panorama chimico per la sua capacità unica di formare una vasta gamma di molecole complesse che costituiscono la base dei composti organici. Il numero di tali composti supera nettamente quello delle sostanze inorganiche formate dagli altri elementi.
 
