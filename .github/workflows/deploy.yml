@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       # --- AGGIORNATO AL REPOSITORY UFFICIALE DELLA COMMUNITY ---
       - name: Setup Typst
@@ -32,29 +32,53 @@ jobs:
 
       - name: Compile and Organize PDFs
         run: |
-          # 1. Crea la struttura finale dentro la cartella di deploy 'dist'
+          # 1. Forza la creazione pulita della cartella dist e dist/pdf
           mkdir -p dist/pdf
 
           # 2. Copia la homepage HTML nella radice del sito finale
-          cp docs/index.html dist/ 2>/dev/null || true
+          if [ -f "docs/index.html" ]; then
+            cp docs/index.html dist/
+            echo "✅ Homepage index.html copiata con successo."
+          else
+            echo "⚠️ ATTENZIONE: docs/index.html non trovato!"
+          fi
           
-          # 3. Cerca tutti i file che si chiamano esattamente 'main.typ'
-          find docs -name "main.typ" | while read -r file; do
+          # 3. Scansione ROBUSTA (cerca sia main.typ che Main.typ usando -iname)
+          echo "Inizio scansione dei file sorgente Typst..."
+          
+          # Verifichiamo prima se esistono file utili per evitare che il ciclo giri a vuoto
+          find docs -type f -iname "main.typ"
+          
+          find docs -type f -iname "main.typ" | while read -r file; do
+            echo "------------------------------------------------"
+            echo "📄 Trovato sorgente: $file"
             
             # Estrae il nome della cartella superiore (es. biologia)
             folder_name=$(basename "$(dirname "$file")")
+            echo "📁 Materia rilevata: $folder_name"
             
             # Definisce il percorso finale (es. dist/pdf/biologia.pdf)
             target_pdf="dist/pdf/${folder_name}.pdf"
             
-            echo "Compilazione in corso: $file -> $target_pdf"
+            echo "🚀 Compilazione in corso: $file -> $target_pdf"
             
-            # Compila il file Typst direttamente nel PDF finale rinominandolo con il nome della cartella
-            typst compile --root . "$file" "$target_pdf"
+            # Esegue la compilazione forzando l'uscita in caso di errore interno a Typst
+            typst compile --root . "$file" "$target_pdf" || { echo "❌ Errore critico durante la compilazione di $file"; exit 1; }
+            
+            # Controllo di sicurezza per verificare se il PDF è stato davvero creato
+            if [ -f "$target_pdf" ]; then
+              echo "✨ PDF creato con successo! Dimensione: $(du -sh "$target_pdf" | cut -f1)"
+            else
+              echo "❌ Errore ignoto: Il comando è riuscito ma il file $target_pdf non esiste!"
+            fi
           done
+          
+          echo "------------------------------------------------"
+          echo "Visualizzazione contenuto finale della cartella dist/pdf:"
+          ls -la dist/pdf/
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
@@ -63,4 +87,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
