@@ -22,12 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Typst
-        uses: chiahansen/setup-typst@v1
-        with:
-          version: '0.14.2' 
+        uses: typst-community/setup-typst@v5        
 
       - name: Compile Site Automatically
         env:
