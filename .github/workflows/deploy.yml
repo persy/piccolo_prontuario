@@ -32,34 +32,47 @@ jobs:
 
       - name: Compile and Organize PDFs
         run: |
-          # 1. Crea la struttura finale dentro la cartella di deploy 'dist'
-          mkdir -p dist/pdf
+          # 1. Crea la cartella finale di deploy 'dist'
+          mkdir -p dist
 
-          # 2. Copia la homepage HTML nella radice del sito finale
-          cp docs/index.html dist/ 2>/dev/null || true
+          # 2. Copia TUTTO il contenuto di 'site/' (HTML, immagini, ecc.) dentro 'dist'
+          if [ -d "site" ]; then
+            cp -r site/* dist/
+            echo "✅ Risorse del sito (HTML e Assets) copiate con successo in dist/"
+          else
+            echo "⚠️ ATTENZIONE: La cartella 'site/' non è stata trovata nella radice!"
+          fi
+
+          # 3. Forza la creazione della cartella per i PDF all'interno di dist
+          mkdir -p dist/pdf
           
-          # 3. Cerca tutti i file che si chiamano esattamente 'main.typ'
+          # 4. Cerca tutti i file 'main.typ' e li compila
           find . -type f -iname "main.typ" | while read -r file; do
+            # Salta i file che si trovano già dentro la cartella 'dist' o 'site' per sicurezza
+            if [[ "$file" == *"./dist/"* ]] || [[ "$file" == *"./site/"* ]]; then
+              continue
+            fi
+
             echo "------------------------------------------------"
             echo "📄 Trovato sorgente: $file"
             
             # Estrae il nome della cartella superiore (es. chimica)
             folder_name=$(basename "$(dirname "$file")")
             
-            # Evita che prenda cartelle di sistema o la radice se il file fosse fuori posto
+            # Evita di usare nomi di cartelle strutturali
             if [ "$folder_name" = "docs" ] || [ "$folder_name" = "." ] || [ "$folder_name" = "template" ]; then
               folder_name="generale"
             fi
             
             target_pdf="dist/pdf/${folder_name}.pdf"
-            echo "🚀 Compilazione in corso con Font personalizzati: $file -> $target_pdf"            
+            echo "🚀 Compilazione in corso: $file -> $target_pdf"
             
             typst compile --root . --font-path ./fonts "$file" "$target_pdf" || { echo "❌ Errore critico in Typst per $file"; exit 1; }
           done
           
           echo "------------------------------------------------"
-          echo "Contenuto finale della cartella dist/pdf:"
-          ls -la dist/pdf/
+          echo "Contenuto finale della cartella dist (pronta per il web):"
+          ls -R dist/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
