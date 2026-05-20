@@ -122,7 +122,7 @@ Tra gli autori che hanno debuttato dopo la fine degli anni Cinquanta si ricordan
 Infine, Tom Stoppard (1937-2025) ha raggiunto un successo significativo con la sua opera d'esordio _Rosencrantz and Guildenstern are dead_ (_Rosencrantz e Guildenstern sono morti_, 1967), che rivisita la tragedia di Amleto dal punto di vista di due personaggi secondari. Questi si trovano intrappolati in un gioco che non comprendono, in attesa di direttive, spinti a riflessioni filosofiche: perfette metafore dell'uomo contemporaneo, trascinato dagli eventi senza possibilità di controllo.
 #pagebreak()
 
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Irish Dramatic Movement: L'Irish Dramatic Movement nacque con l'obiettivo di istituire un teatro nazionale in Irlanda, stimolando la creazione di opere ispirate alla cultura, alla storia e alla vita irlandese contemporanea, scritte da autori locali. Il linguaggio teatrale aspirava a preservare la ricchezza espressiva e l'immaginazione legata al "linguaggio vivo del popolo". \ Tra i principali protagonisti, oltre a W.B. Yeats, spiccano John Millington Synge (1871-1909) e Sean O'Casey (1880-1964), quest'ultimo noto come il cronista teatrale dei quartieri degradati di Dublino.

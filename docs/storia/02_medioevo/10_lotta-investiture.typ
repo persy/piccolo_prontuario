@@ -74,7 +74,7 @@ La tensione tra Impero e Chiesa proseguì sotto il pontificato di Pasquale II (1
 Una soluzione alla controversia delle investiture giunse durante il pontificato di Callisto II (1119-1124). Nel 1122, grazie al Concordato di Worms, papa e imperatore giunsero a un accordo. Enrico V rinunciò al diritto di conferire le investiture ecclesiastiche mentre Callisto II accettò che queste avvenissero in Germania alla presenza dell'imperatore, che avrebbe assegnato i benefici temporali prima della consacrazione religiosa. Questo accordo rappresentò un compromesso significativo per la definizione del rapporto tra Chiesa e Impero nella lotta per la supremazia.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Imperatori sassoni e i vescovi-conti: In Germania, a partire dal 919 con l'avvento della dinastia sassone, i sovrani iniziano a conferire feudi e poteri di giurisdizione agli ecclesiastici. Ottone I, incoronato imperatore a Roma nel 962, stabilisce con il _Privilegium Othonis_ che l'elezione del pontefice debba avvenire con il consenso dell'imperatore. Successivamente, Ottone III interviene direttamente nelle nomine papali.

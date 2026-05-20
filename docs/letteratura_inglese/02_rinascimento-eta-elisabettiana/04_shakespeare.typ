@@ -143,7 +143,7 @@ I romantici furono decisivi nel rivalutarlo. Nelle sue più grandi tragedie essi
 
 Nel Novecento, Shakespeare venne consacrato senza riserve come uno dei massimi autori della letteratura universale. Gli studi filologici permisero inoltre di apprezzare non solo il valore poetico delle sue opere, ma soprattutto la loro insuperata capacità di essere rappresentate. Proprio perché create per il palcoscenico, le opere shakespeariane rivelano una vitalità inesauribile sia nelle rappresentazioni teatrali che nelle trasposizioni cinematografiche.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / La vita: William Shakespeare (1564-1616) nacque a Stratford-upon-Avon. Dopo aver frequentato le scuole locali, nel 1582 sposò Ann Hathaway, con cui ebbe tre figli. Degli anni immediatamente successivi si conosce poco, ma nel 1592 risulta stabilito a Londra, dove lavorava come autore teatrale. In seguito al crescente successo ottenuto come drammaturgo, Shakespeare si ritirò dall'attività teatrale intorno al 1613, tornando a vivere a Stratford fino alla morte avvenuta tre anni più tardi.

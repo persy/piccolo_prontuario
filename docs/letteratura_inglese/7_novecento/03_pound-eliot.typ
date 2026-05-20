@@ -129,7 +129,7 @@ Riguardo alla natura della poesia, Eliot affermava che essa non consiste nell'es
 
 L'opera poetica di T.S. Eliot ha segnato profondamente la poesia del Novecento, anche quando non è stata universalmente accolta come modello di riferimento. Tutti i poeti, non soltanto quelli di lingua inglese, si sono sentiti in dovere di confrontarsi con il suo contributo, accogliendolo come fonte d'ispirazione o scelto di opporsi ai suoi principi poetici.  
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Movimento imagista: Il movimento imagista include figure come T.E. Hulme, Ezra Pound, Hilda Doolittle e Amy Lowell. Questo movimento rappresenta una reazione contro gli elementi più facili e generici, sia nello stile che nelle emozioni, della poesia tardo vittoriana e georgiana. Il manifesto stilato nel 1912 presenta i pilastri della poetica imagista: linguaggio colloquiale, ritmi innovativi, una grande libertà nei temi trattati, e immagini dotate di immediatezza e forza evocativa.  

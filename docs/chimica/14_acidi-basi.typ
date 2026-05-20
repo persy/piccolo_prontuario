@@ -1,6 +1,8 @@
 #import "@preview/xarrow:0.3.1": xarrow // Frecce
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
+#import "@preview/alchemist:0.1.9": * // Alchemist, per evidenziazione dinamica di formule matematiche
 
 #intro[Gli equilibri ionici in soluzione riguardano equilibri omogenei relativi alle reazioni acido-base. La prima definizione di acidi e basi venne introdotta attraverso la teoria di Arrhenius, sviluppata studiando la dissociazione degli elettroliti in soluzione acquosa. 
 
@@ -62,13 +64,13 @@ Tuttavia, la teoria di Arrhenius presenta alcune limitazioni: si applica esclusi
 La teoria acido-base di Brønsted-Lowry definisce un acido come un composto capace di cedere uno o più protoni a una base, e una base come un composto in grado di accettare uno o più protoni ceduti da un acido. In altre parole, le proprietà acide di una sostanza si manifestano solo in presenza di una specie che possa comportarsi da base, e viceversa, secondo il seguente schema:
 #v(2em)
 $
-  markhl("HA", tag: #<1>, color: #main_spettacolo) 
+  markhl("HA", tag: #<1>, color: #accent.chi.lighten(50%)) 
   + 
-  markhl("B", tag: #<2>, color: #main_tecnologia) 
+  markhl("B", tag: #<2>, color: #accent.chi) 
   arrows.rl 
-  markhl(A^(-), tag: #<3>, color: #main_spettacolo)
+  markhl(A^(-), tag: #<3>, color: #accent.chi.lighten(50%))
   + 
-  markhl("HB"^(+), tag: #<4>, color: #main_tecnologia) 
+  markhl("HB"^(+), tag: #<4>, color: #accent.chi) 
   #annot(<1>)[acido 1]
   #annot(<2>)[base 2]
   #annot(<3>)[base 1]
@@ -93,13 +95,13 @@ $
   + 
   mark("H"_(3)"O"^(+), tag: #<4>) 
   #annot(<1>)[#align(center)[acido \ cloridrico]]
-  #annot(<1>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]
+  #annot(<1>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]
   #annot(<2>)[#align(center)[acqua]]
-  #annot(<2>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]
+  #annot(<2>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]
   #annot(<3>)[#align(center)[ione \ cloruro]]
-  #annot(<3>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]
+  #annot(<3>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]
   #annot(<4>)[#align(center)[ione \ ossonio]]
-  #annot(<4>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]
+  #annot(<4>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]
   #annot((<1>, <3>), pos: top, dy: -1.5em, dx: 3.6em)[coppia coniugata]
   #annot((<2>, <4>), pos: bottom, dy: 2.5em, dx: 3.6em)[coppia coniugata]
 $
@@ -117,13 +119,13 @@ $
   + 
   mark("OH", tag: #<4>)^(-) 
   #annot(<1>)[#align(center)[ammoniaca]]
-  #annot(<1>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]
+  #annot(<1>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]
   #annot(<2>)[#align(center)[acqua]]
-  #annot(<2>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]
+  #annot(<2>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]
   #annot(<3>)[#align(center)[ione \ ammonio]]
-  #annot(<3>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]
+  #annot(<3>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]
   #annot(<4>)[#align(center)[ione \ ossidrile]]
-  #annot(<4>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]
+  #annot(<4>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]
   #annot((<1>, <3>), pos: top, dy: -1.6em, dx: 3.6em)[coppia coniugata]
   #annot((<2>, <4>), pos: bottom, dy: 2.7em, dx: 3.6em)[coppia coniugata]
 $
@@ -141,13 +143,13 @@ $
   + 
   mark("H"_(3)"O", tag: #<4>)^(+) 
   #annot(<1>)[#align(center)[acqua]]
-  #annot(<1>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]
+  #annot(<1>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]
   #annot(<2>)[#align(center)[acqua]]
-  #annot(<2>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]
+  #annot(<2>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]
   #annot(<3>)[#align(center)[ione \ ossidrile]]
-  #annot(<3>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]
+  #annot(<3>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]
   #annot(<4>)[#align(center)[ione \ ossonio ]]
-  #annot(<4>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]
+  #annot(<4>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]
   #annot((<1>, <3>), pos: top, dy: -1.5em, dx: 3.6em)[coppia coniugata]
   #annot((<2>, <4>), pos: bottom, dy: 2.5em, dx: 3.6em)[coppia coniugata]
 $
@@ -165,10 +167,10 @@ $
   + 
   mark("H"_(3)"O", tag: #<4>)^(+) 
   
-  #annot(<1>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido₁]]]  
-  #annot(<2>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base₂]]]  
-  #annot(<3>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base₁]]]  
-  #annot(<4>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido₂]]]
+  #annot(<1>, pos: top)[#align(center)[#text(fill: accent.chi)[acido₁]]]  
+  #annot(<2>, pos: top)[#align(center)[#text(fill: accent.chi)[base₂]]]  
+  #annot(<3>, pos: top)[#align(center)[#text(fill: accent.chi)[base₁]]]  
+  #annot(<4>, pos: top)[#align(center)[#text(fill: accent.chi)[acido₂]]]
   #annot((<1>, <3>), pos: top, dy: -1.5em, dx: 4em)[coppia coniugata]
   #annot((<2>, <4>), pos: bottom, dy: 1em, dx: 5em)[coppia coniugata]
 $ <reaz_a>
@@ -184,10 +186,10 @@ $
   + 
   mark("ClO", tag: #<4>)_(4)^(-) 
   
-  #annot(<1>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base₁]]]  
-  #annot(<2>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido₂]]]  
-  #annot(<3>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido₁]]]  
-  #annot(<4>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base₂]]]
+  #annot(<1>, pos: top)[#align(center)[#text(fill: accent.chi)[base₁]]]  
+  #annot(<2>, pos: top)[#align(center)[#text(fill: accent.chi)[acido₂]]]  
+  #annot(<3>, pos: top)[#align(center)[#text(fill: accent.chi)[acido₁]]]  
+  #annot(<4>, pos: top)[#align(center)[#text(fill: accent.chi)[base₂]]]
   #annot((<1>, <3>), pos: top, dy: -1.5em, dx: 5em)[coppia coniugata]
   #annot((<2>, <4>), pos: bottom, dy: 1em, dx: 6em)[coppia coniugata]
 $ #v(2.5em) 
@@ -280,10 +282,10 @@ $
   + 
   mark("H"_(3)"O", tag: #<4>)^(+) 
   
-  #annot(<1>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido₁]]]  
-  #annot(<2>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base₂]]]  
-  #annot(<3>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base₁]]]  
-  #annot(<4>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido₂]]]
+  #annot(<1>, pos: top)[#align(center)[#text(fill: accent.chi)[acido₁]]]  
+  #annot(<2>, pos: top)[#align(center)[#text(fill: accent.chi)[base₂]]]  
+  #annot(<3>, pos: top)[#align(center)[#text(fill: accent.chi)[base₁]]]  
+  #annot(<4>, pos: top)[#align(center)[#text(fill: accent.chi)[acido₂]]]
   #annot((<1>, <3>), pos: top, dy: -1.5em, dx: 4em)[coppia coniugata]
   #annot((<2>, <4>), pos: bottom, dy: .7em, dx: 5em)[coppia coniugata]
 $ 
@@ -299,10 +301,10 @@ $
   + 
   mark("OH", tag: #<4>)^(-) 
   
-  #annot(<1>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]  
-  #annot(<2>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]  
-  #annot(<3>, pos: top)[#align(center)[#text(fill: main_tecnologia)[acido]]]  
-  #annot(<4>, pos: top)[#align(center)[#text(fill: main_tecnologia)[base]]]
+  #annot(<1>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]  
+  #annot(<2>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]  
+  #annot(<3>, pos: top)[#align(center)[#text(fill: accent.chi)[acido]]]  
+  #annot(<4>, pos: top)[#align(center)[#text(fill: accent.chi)[base]]]
   #annot((<1>, <3>), pos: top, dy: -1.6em, dx: 3.6em)[coppia coniugata]
   #annot((<2>, <4>), pos: bottom, dy: .7em, dx: 3.6em)[coppia coniugata]
 $
@@ -311,13 +313,13 @@ $
 #figure(
   caption: [Valori di K#sub[a] per gli acidi],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -589,13 +591,13 @@ Nella pratica, l'occhio umano riesce a percepire nettamente uno dei due colori q
 #figure(
   caption: [Comuni indicatori acido-base],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -694,13 +696,13 @@ In ogni caso, l'effetto tampone del sistema dipende dalla presenza simultanea di
 #figure(
   caption: [Prodotto di solubilità K#sub[ps] di alcuni sali a 25°C],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -762,7 +764,7 @@ Per effettuare una titolazione, si riempie una buretta graduata con la soluzione
 Il punto in cui l'indicatore vira consente di individuare il punto di equivalenza della reazione chimica specifica, cioè il momento in cui alla soluzione da titolare è stato aggiunto un quantitativo stechiometrico del titolante. Nelle titolazioni acido-base, si verifica una reazione di neutralizzazione tra l'acido presente e la base aggiunta o viceversa.
 #pagebreak()
 == Glossario <senza_numero>
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 / Acidi e basi secondo Arrhenius: In soluzione acquosa, gli acidi rilasciano ioni H+, mentre le basi producono ioni OH#super[--]. 
 
 / Acidi e basi secondo Brønsted-Lowry: Gli acidi sono specie in grado di donare ioni H#super[+], mentre le basi sono specie capaci di accettare ioni H#super[+].  

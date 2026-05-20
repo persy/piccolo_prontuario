@@ -55,7 +55,7 @@ Un'altra serie di critiche alla metafisica è emersa dall'ambito del neopositivi
 
 Con il tramonto del neopositivismo, i suoi eredi all'interno della filosofia analitica, influenzati dal "secondo" Wittgenstein, hanno scelto di attribuire alla metafisica un valore non conoscitivo, interpretandola al massimo come espressione di una visione del mondo non argomentabile, priva di fondamento razionale e dunque impossibile da considerare valida in senso strettamente filosofico.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'origine del termine metafisica: Il termine "metafisica" venne introdotto da Andronico di Rodi nel I secolo d.C., per designare, nella sua edizione delle opere di Aristotele, gli scritti collocati dopo la _Fisica_. Questi testi riguardavano le realtà sovrasensibili. \ Con il tempo, il termine ha assunto un significato più esteso, diventando il nome della disciplina che si occupa di studiare l'essere in quanto tale, esaminandone le caratteristiche essenziali e i significati fondamentali.

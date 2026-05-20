@@ -1,3 +1,3 @@
-#import "../_global/template.typ": * 
+#import "../_global/template_retro.typ": * 
 
-#retro(color: main_letteratura)[Copertina: Particolare del _Patrizio Torlonia_, busto identificato con Catone il Censore, I sec. a.C., Collezione Torlonia, Roma.]
+#retro[Copertina: foto di _Nick Fewings_, disponibile  su #link("https://unsplash.com/it/foto/edificio-in-cemento-marrone-durante-il-giorno-sKYsYzEG2Lg")[Unsplash].]

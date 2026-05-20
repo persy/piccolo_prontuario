@@ -160,7 +160,7 @@ Le equazioni di Maxwell stabiliscono una correlazione fondamentale tra campi ele
 Le equazioni di Maxwell per lo studio dei fenomeni elettrici e magnetici possono essere considerate paragonabili alle leggi di Newton per la meccanica. Esse infatti consentono, almeno in linea teorica, di determinare lo stato evolutivo del sistema in un momento futuro o passato, purché siano note con precisione le condizioni iniziali del sistema stesso.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Autoinduzione: È il fenomeno in cui il flusso magnetico collegato a un circuito varia a causa della variazione dell'intensità della corrente che scorre nello stesso circuito.

@@ -309,7 +309,7 @@ $
 Questo implica che l'energia totale dell'Universo, seppur costante (come previsto dal primo principio della termodinamica), tende a degradarsi. In altre parole, la parte di energia utile del sistema Universale, quella capace di trasformarsi spontaneamente in lavoro, diminuisce progressivamente, mentre aumenta la quota di energia termica, accumulata sotto forma di calore per via degli attriti.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Energia interna: Una funzione di stato che descrive l'energia presente in un sistema a causa del movimento interno di atomi e molecole.

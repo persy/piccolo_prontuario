@@ -78,7 +78,7 @@ I contadini vennero obbligati a lavorare in _kolchoz_ (fattorie collettive dove 
 Il piano successivo (1933-1937) registrò una crescita straordinaria della produzione industriale (+121%). Il terzo piano quinquennale, progettato per realizzare pienamente il comunismo, fu interrotto nel 1939 con lo scoppio della Seconda Guerra Mondiale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1917: Durante la Prima Guerra Mondiale, la Russia è travolta dalla miseria, che esaspera la popolazione e provoca tensioni crescenti. \ 10 marzo 1917 (25 febbraio secondo il calendario giuliano allora in vigore): scoppia la Rivoluzione di Febbraio. \ 15 marzo: viene istituito un governo guidato da L'vov con l'appoggio dei socialrivoluzionari, tra cui figura Kerenskij. Nella stessa serata, lo zar Nicola II abdica. Si instaura una situazione di dualismo tra i soviet e il governo provvisorio. \ Aprile: Lenin, leader dei bolscevichi, pubblica le celebri "Tesi d'aprile", con cui sollecita una rivoluzione proletaria. \ Tra marzo e ottobre si succedono tre governi provvisori, mentre Lenin organizza e pianifica l'insurrezione. \ 7 novembre (25 ottobre secondo il calendario giuliano): la Rivoluzione d'Ottobre entra nel vivo. I bolscevichi attuano immediatamente misure radicali: eliminazione della proprietà privata delle terre e redistribuzione ai contadini, smobilitazione dell'esercito, avvio dei negoziati di pace con la Germania, controllo operaio sulle fabbriche e nazionalizzazione delle banche.

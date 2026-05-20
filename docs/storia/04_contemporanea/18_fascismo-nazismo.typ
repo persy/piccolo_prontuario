@@ -76,7 +76,7 @@ Il termine "totalitarismo" fa riferimento al concetto di "Stato totalitario", un
 Nel contesto dello Stato totalitario, emerge una sola volontà politica dominante, che viene riconosciuta come unica e alla quale ogni individuo deve conformarsi. Qualsiasi forma di opposizione è eliminata, spesso ricorrendo alla violenza attraverso i meccanismi repressivi del regime. Inoltre, in tale sistema si assiste a una completa deresponsabilizzazione morale degli individui coinvolti nell'esecuzione degli ordini impartiti dal potere centrale, accompagnata da una radicale negazione dei principi fondamentali del pluralismo democratico e liberale, portata al massimo livello.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 

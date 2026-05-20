@@ -56,7 +56,7 @@ La Francia fece il suo ingresso tardivo sulla scena coloniale, spinta dall'ambiz
 L'impero coloniale olandese nacque grazie all'iniziativa di mercanti ed era motivato esclusivamente da ragioni economiche, senza alcun intento religioso o politico. L'Olanda fondò colonie commerciali e di sfruttamento nell'arcipelago indonesiano, nella penisola indiana, in Nuova Guinea, in Africa e in America (Antille e Suriname). L'unica colonia di popolamento fu quella fondata nel 1652 nell'attuale Sudafrica dai coloni olandesi, dai quali in seguito discese la comunità boera.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Colombo: Cristoforo Colombo, convinto che la Terra fosse sferica, ottenne il finanziamento della corona spagnola per intraprendere un viaggio alla ricerca di una nuova rotta verso le Indie nel 1492. Tuttavia, il suo approdo il 12 ottobre dello stesso anno segnò la scoperta del continente americano. Nei successivi viaggi Colombo proseguì l'esplorazione delle terre appena scoperte. 

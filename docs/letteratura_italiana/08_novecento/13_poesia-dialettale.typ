@@ -40,7 +40,7 @@ Raffaello Baldini (1924-2005), anch'egli originario di Santarcangelo di Romagna,
 Franco Loi (1930-2021), genovese vissuto fin da giovane a Milano, ha utilizzato un milanese lontano dal dialetto parlato per dar vita a racconti realistici intrisi di speranza e dolore. Le sue opere principali includono _Stròlegh_ (1975), _Teater_ (1978), _Liber_ (1988), _Umber_ (1992) e _L'Angel_ (1981-94), in cui la sua scrittura raggiunge momenti di grande intensità espressiva.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Poesia dialettale: La poesia dialettale del XX secolo rappresenta un perno fondamentale nella rivisitazione del linguaggio poetico italiano, abbandonando il vernacolo inteso esclusivamente come espressione di realismo popolare per trasformarlo in veicolo di autenticità e sincerità umana. Questa evoluzione è ben esemplificata dalle opere di alcuni degli autori più significativi del periodo.

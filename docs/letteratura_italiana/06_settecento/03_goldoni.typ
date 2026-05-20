@@ -56,7 +56,7 @@ Carlo Gozzi (1720-1806), invece, adottò un atteggiamento più conservatore risp
 Tra il 1761 e il 1765 compose nove Fiabe teatrali, dove il meraviglioso si opponeva ai valori borghesi, considerati mediocri: Il corvo; Il re Cervo; Turandot; La donna serpente; La Zobeide; I pitocchi fortunati; Il mostro turchino; L'augellin belvedere; Zeim re dei geni. Il poema eroicomico La Marfisa bizzarra (1761-68) si distingue per una satira pungente sui costumi del tempo e per la polemica anti-illuminista. Le Memorie inutili (1797-98), infine, sono un'autobiografia che riflette il carattere polemico dello scrittore sullo sfondo di una società veneziana ormai in declino.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Goldoni: Luigi Goldoni nasce nel 1707 a Venezia e collega la propria vita alla sua attività di drammaturgo. Collaborazioni rilevanti includono quelle con il teatro Sant'Angelo (1749-1753) e con il teatro San Luca; nel 1762 si trasferisce a Parigi per lavorare presso la _Comédie italienne_. Muore nella capitale francese nel 1793.

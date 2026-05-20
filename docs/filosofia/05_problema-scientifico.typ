@@ -26,7 +26,7 @@ L'epistemologia ha ricevuto nel tempo interpretazioni diverse. Con il Circolo di
 
 A partire dagli anni Sessanta, l'attenzione si spostò verso la semantica scientifica, focalizzandosi sul significato dei termini utilizzati nelle teorie. Gli sviluppi più recenti hanno orientato il dibattito verso la pragmatica, ovvero l'analisi degli utilizzi pratici degli enunciati teorici e delle loro implicazioni operative.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La definizione di scienza: Il termine "scienza", benché nel linguaggio contemporaneo sia spesso sinonimo di scienza sperimentale, può essere interpretato in senso più ampio come un insieme di conoscenze che assicurano la propria validità. In questa accezione, la filosofia ha da sempre rivendicato il titolo di "scienza".

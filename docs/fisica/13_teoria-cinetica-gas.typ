@@ -254,7 +254,7 @@ Tuttavia, nel caso di sistemi in cui le influenze quantistiche risultano signifi
 Entrambe queste statistiche tornano alla forma della statistica di Maxwell-Boltzmann solo quando la densità di particelle è bassa.]
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Equazione di stato dei gas perfetti: Rappresenta la relazione fondamentale per i gas ideali, stabilendo che pressione (p), volume (V) e temperatura (T) sono legati dalla formula pV = nRT. In questa equazione, n indica il numero di moli e R rappresenta la costante universale dei gas.  

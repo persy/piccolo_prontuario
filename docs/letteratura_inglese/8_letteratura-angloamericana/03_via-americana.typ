@@ -85,7 +85,7 @@ Sebbene l'opera di Cooper non sempre si distingua per la cura stilistica ed evid
 
 Dopo la sua morte nel 1851, Cooper fu largamente trascurato dalla critica, ma a partire dagli anni venti del XX secolo il suo lavoro ha progressivamente guadagnato riconoscimento. Oggi è considerato uno dei primi grandi osservatori e narratori delle dinamiche socio-culturali degli americani.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / "Rinascimento americano": Nei primi decenni dell'Ottocento, la produzione letteraria americana si distaccò progressivamente dalle convenzioni ereditate dalla tradizione europea e acquisì una propria consapevolezza linguistica e storica. In questo contesto si delinearono due grandi tendenze: da un lato, il gruppo dei cosiddetti "bramini", che sottolineava una continuità con l'eredità culturale anglo-europea promuovendo un ruolo di sintesi per la cultura americana; dall'altro, una corrente che mirava a promuovere forme più "originali", caratterizzate da linguaggi e contenuti innovativi capaci di riflettere le nuove esperienze del Nuovo Mondo. \ Un esempio significativo di questa doppia tensione si trova nella poesia di William Cullen Bryant, il quale riuscì a combinare entrambe le posizioni. 

@@ -162,7 +162,7 @@ La concezione estetica di De Sanctis, pur influenzata in parte da Hegel, si dist
 L'artista non crea dal nulla, ma rielabora un "argomento" dato che a sua volta prevede una "situazione", la quale determina l'ossatura dell'opera e, indirettamente, il suo stile. Al contempo, l'artista non è isolato né estraneo alla società, ma riflette nel proprio animo le condizioni e gli eventi della nazione a cui appartiene, oltre che la sua tradizione artistica. Questi elementi esterni servono a stimolare la fantasia dell'artista, spingendolo a "rappresentare", senza tuttavia instaurare una connessione meccanica di causa-effetto tra realtà esterna e creazione artistica.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Scuola democratica:  Per gli esponenti della scuola democratica, scrivere significa combattere, educando il popolo a una nuova coscienza nazionale basata su libertà e repubblica. Tra le figure principali troviamo Giuseppe Mazzini (1805-1872), patriota e pensatore, fondatore della Giovine Italia e autore di saggi come _Scritti letterari di un italiano vivente_ (1847) e _Dei doveri dell'uomo_ (1861). A lui si affiancano i romanzieri Giovanni Ruffini (1807-1881) e Francesco Domenico Guerrazzi (1804-1873).  

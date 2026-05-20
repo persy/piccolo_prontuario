@@ -75,7 +75,7 @@ Benché William Blake non ricorra mai nei suoi scritti a un vocabolario dichiara
 
 L'apprezzamento nei confronti della poesia di Blake si è manifestato pienamente soltanto con il movimento preraffaellita, ma la sua influenza si è estesa ben oltre, segnando profondamente molti autori del ventesimo secolo. Fra questi, in ambito anglofono, si possono annoverare W.B. Yeats, Dylan Thomas e James Joyce; negli Stati Uniti Allen Ginsberg; mentre in Europa autori come André Gide in Francia e Giuseppe Ungaretti in Italia hanno raccolto l'eredità culturale e poetica del grande visionario inglese. 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Romanticismo: Rappresenta un movimento letterario caratterizzato da un rinnovato risveglio della sensibilità artistica e dell'immaginazione creativa, privilegiando un approccio soggettivo all'esperienza umana. Esso manifesta una spiccata inclinazione verso il gusto per il gotico sia nella letteratura sia nell'architettura, e attribuisce alla poesia il ruolo di veicolo privilegiato per esprimere l'emozione individuale del poeta, incaricandola di svelare la realtà più intima delle cose. \ L'arte non si limita a imitare la realtà, ma la reinventa, poiché l'immaginazione, considerata potere creativo originale, detiene la capacità di conferire un nuovo ordine al mondo. In questo contesto, il poeta assume una funzione quasi profetica: è individuo sognatore, spesso solitario e incline all'esotico, al sublime e al soprannaturale; si distacca da un mondo percepito come estraneo per fondare il proprio discorso sull'esperienza personale.  

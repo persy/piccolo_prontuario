@@ -93,13 +93,13 @@ La velocità complessiva della reazione è determinata dallo stadio più lento, 
 #figure(
   caption: [Fattori che influiscono sulla velicità di reazione in base alla teoria delle collisioni],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -183,7 +183,7 @@ Secondo la legge di azione di massa, le concentrazioni dei reagenti e dei prodot
 Gli effetti dei diversi fattori sulla posizione dell'equilibrio sono descritti qualitativamente dal principio dell'equilibrio mobile o di Le Chatelier-Brown. Questo principio afferma che, se un sistema all'equilibrio viene perturbato, esso reagirà spostandosi in modo da contrastare gli effetti della perturbazione, ristabilendo un nuovo stato di equilibrio.
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Velocità di reazione: Modifica della concentrazione dei reagenti e dei prodotti rispetto al tempo.  

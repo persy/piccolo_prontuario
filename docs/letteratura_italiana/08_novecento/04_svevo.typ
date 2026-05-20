@@ -38,7 +38,7 @@ Questa impostazione narrativa influenza anche lo stile caratteristico di Svevo, 
 L'opera di Svevo si colloca all'interno della grande stagione narrativa europea, accanto a autori come Joyce, Proust, Kafka, Thomas Mann e Musil. Tutti questi scrittori condividono l'esplorazione della crisi della ragione rispetto agli oscuri e incontrollabili abissi dell'animo umano. Sotto la sottile ironia e autoironia dei suoi personaggi, Svevo cela la tragica incapacità, o "inettitudine", di vivere il presente come una realtà concreta e pienamente consapevole.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Aron Ettore Schmitz, noto come Italo Svevo (1861-1928), era triestino di origine ebraico-tedesca. Dopo studi tecnico-commerciali, lavorò inizialmente in banca, per poi dirigere l'azienda del suocero. Parallelamente si dedicò alla scrittura, ottenendo un riconoscimento principalmente internazionale.  

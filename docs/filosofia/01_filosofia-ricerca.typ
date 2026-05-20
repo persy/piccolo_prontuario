@@ -73,7 +73,7 @@ Tuttavia, oltre le diverse interpretazioni, emerge una serie di tematiche ricorr
 + il problema religioso, oggetto della filosofia della religione, orientato alla comprensione razionale delle caratteristiche principali del fenomeno religioso;
 + il problema estetico, tema dell'estetica, dedicato allo studio del sentire, del bello e dell'espressione artistica.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Filosofia e scienze: La filosofia si caratterizza come la scienza del tutto, abbracciando l'essere e l'esistenza nella loro totalità, mentre le altre discipline scientifiche si concentrano su ambiti specifici e ben definiti della realtà. \ Dal punto di vista metodologico, la filosofia si avvale di procedimenti razionali e rigorosi, basati su evidenze logico-concettuali. \ Invece, le scienze naturali, matematiche e umane integrano tali metodi con l'impiego dell'esperimento. Mentre gli obiettivi delle scienze sono prevalentemente pratici o conoscitivi, la filosofia persegue un sapere che offra significato alla vita umana e alla sua esperienza.

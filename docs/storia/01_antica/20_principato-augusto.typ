@@ -54,7 +54,7 @@ Augusto si preoccupò di garantire una transizione pacifica del potere. Sebbene 
 Il principe optò per una successione ereditaria: non avendo figli maschi, identificò via via possibili eredi che adottò formalmente, tra cui i nipoti Marcello, Gaio e Lucio. Tuttavia, sopravvivendo a tutti loro, nel 5 d.C. fu indotto ad adottare Tiberio, membro della potente gens Claudia e figlio del primo matrimonio della sua seconda moglie Livia. A Tiberio Augusto concesse importanti prerogative istituzionali come la potestà tribunizia e l'imperium proconsulare maius, integrandolo gradualmente nel governo imperiale e predisponendolo per ricevere la sua eredità.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Principato di Augusto: Dal 31 al 23 a.C., Ottaviano ricopre senza interruzioni la carica di console. Nel 27 a.C., il Senato gli conferisce l'imperium, ovvero il potere militare, insieme al governo di un certo numero di province. In questa occasione, ottiene anche il titolo di Augusto e altre onorificenze simboliche. Nel 23 a.C., gli viene assegnato l'_imperium proconsulare maius et infinitum_, che gli garantisce un'autorità superiore rispetto ai proconsoli sulle province e sull'esercito, oltre alla _tribunicia potestas_, ovvero l'insieme dei poteri tipici dei tribuni.

@@ -135,7 +135,7 @@ Per esplicita volontà dell'autore, il romanzo _Maurice_, completato nel 1914, f
 
 Alcuni dei suoi romanzi hanno avuto con grande successo adattamenti cinematografici diretti dal regista inglese David Lean e dallo statunitense James Ivory.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Romanzo fra XIX e XX sec.: Il romanzo tra Ottocento e Novecento è segnato dalla crisi del positivismo e dall'introduzione di nuovi valori provenienti dalla psicologia, filosofia e antropologia. Questi cambiamenti conducono la narrativa inglese verso forme più intime e individuali, dove l'analisi interiore prevale sulla costruzione narrativa ampia.

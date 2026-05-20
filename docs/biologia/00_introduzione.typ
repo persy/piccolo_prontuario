@@ -11,13 +11,13 @@ Oggi, la biologia è una scienza in continua crescita, articolata in settori sem
 #figure(
   caption: [I principali settori disciplinari della biologia],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white

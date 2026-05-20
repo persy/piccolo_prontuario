@@ -1,22 +1,21 @@
-#import "../_global/template.typ": *
-#import "../_global/config.typ": main_scienze, main_color
+#import "../_global/template_old.typ": *
+#import "../_global/config.typ": *
+
+// ==========================================
+// CONFIGURAZIONE UNICA DEL LIBRO
+// ==========================================
+#accent_color.update(accent.mat)
+#gradient_color.update(gradient.mat)
+
+// ==========================================
 
 // Copertina
 #include "cover.typ"
 
-// Colore della materia
-#let selected_color = main_scienze
-
-// Aggiorna lo stato globale per subfile
-#main_color.update(selected_color)
-
-// 3. Applichiamo il layout del template
+// Layout del template
 #show: template.with(
   title: "Matematica",
-  color: selected_color,  
 )
-
-#set math.equation(numbering: "1", supplement: none, number-align: end)
 
 // Capitoli
 = Introduzione <senza_numero>

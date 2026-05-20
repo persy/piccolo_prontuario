@@ -179,13 +179,13 @@ tramite la quale si può ottenere la costante d'equilibrio K#sub[c] della reazio
 #figure(
   caption: [Potenziali standard, E° di alcune semicoppie],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -290,7 +290,7 @@ $
 $
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Elettrodo o semielemento: Sistema composto da una semicoppia redox con una forma ossidata e una forma ridotta.  

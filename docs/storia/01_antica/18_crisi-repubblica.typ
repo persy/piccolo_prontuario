@@ -44,7 +44,7 @@ Silla, furioso, sconfisse i sostenitori di Mario, costringendolo alla fuga, e ma
 Silla, impegnato in Asia, riportò vittoria contro Mitridate e, nell'83 a.C., fece ritorno in Italia. Con l'aiuto di Gneo Pompeo, combatté gli Italici e i seguaci di Mario, sconfiggendoli entrambi. Dopo aver consolidato la propria posizione, si fece nominare dittatore e avviò una serie di repressioni brutali verso gli oppositori. Confiscò numerose terre per distribuirle ai suoi soldati e accrebbe la propria ricchezza approfittando delle persecuzioni. Sul piano politico, restaurò l'autorità del Senato limitando il potere dei tribuni e dei cavalieri. Infine, con grande sorpresa, abdicò dalla dittatura e si ritirò a Pozzuoli dove morì nel 78 a.C.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Crisi economico-sociale e riforma dei Gracchi: Dopo il confronto con l'Oriente, Roma si trova ad affrontare una grave crisi amministrativa. I senatori rafforzano il loro potere, entrando in conflitto con i cavalieri, mentre gli ottimati si appropriano delle terre dell'ager publicus, impoverendo ulteriormente le classi medie. Nel 133 a.C., Tiberio Gracco viene eletto tribuno della plebe e introduce una riforma per la redistribuzione delle terre, ma trova la morte durante un tumulto. \ Dieci anni dopo, nel 123 a.C., il fratello Caio Gracco assume la carica di tribuno e propone una nuova serie di riforme, incontrando però l'opposizione del Senato. Nel 121 a.C. il Senato emana il senatus consultum ultimum, che assegna pieni poteri ai consoli, tra cui Lucio Opimio, accanito oppositore di Caio. Sentendosi sconfitto, Caio decide di togliersi la vita, mentre i suoi sostenitori vengono brutalmente eliminati.

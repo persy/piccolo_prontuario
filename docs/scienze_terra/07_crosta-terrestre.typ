@@ -84,13 +84,13 @@ Il colore rappresenta una caratteristica evidente ma non sempre indicativa per l
 #figure(
   caption: [Scala delle durezze di Mohs],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.ter.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.ter // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.ter.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -201,7 +201,7 @@ Sia le rocce ignee sia quelle sedimentarie possono trasformarsi in rocce metamor
 Spesso, il ciclo litogenetico si manifesta solo in parte o dà luogo a una trasformazione interna tra rocce dello stesso tipo. Ad esempio, la fusione di rocce ignee genera magma che, solidificando, diventa ancora rocce ignee; analogamente, i detriti prodotti dall'erosione di rocce sedimentarie possono formare una nuova roccia dello stesso genere. Una roccia metamorfica, infine, può subire ulteriormente il metamorfismo, originando un'altra roccia metamorfica.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Atomo: La più piccola unità fondamentale degli elementi chimici che mantiene intatte le proprietà chimico-fisiche. È composto da particelle elementari: protoni, neutroni ed elettroni.  

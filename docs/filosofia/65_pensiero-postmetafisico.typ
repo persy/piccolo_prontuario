@@ -65,7 +65,7 @@ Deleuze si ispira a Nietzsche e Spinoza per superare la dialettica e l'analogia,
 
 Tra le sue opere principali si ricordano: _Differenza e ripetizione_ (1968), _Logica del senso_ (1969) e _L'Anti-Edipo_ (1972).
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Lévinas e l'etica del volto: Emmanuel Lévinas contrappone al predominio della totalità ontologica, che ha caratterizzato la filosofia occidentale, l'idea di una rottura della totalità su basi etiche. Questo avviene grazie all'appello etico proveniente dall'alterità radicale del "volto" dell'altro.

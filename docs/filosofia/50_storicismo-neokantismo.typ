@@ -83,7 +83,7 @@ Un capitolo a sé stante all'interno del neokantismo è rappresentato dalla cosi
 
 Nonostante ciò, l'attività dei neokantiani più giovani si è protratta oltre questa delimitazione temporale rigida. Inoltre, autorevoli pensatori quali W. Cramer, H. Wagner, R. Zocher, H. Holz e H. Holzhey hanno contribuito a estendere e rinnovare il dibattito neokantiano anche dopo la seconda guerra mondiale e ancora oggi si assiste a una riscoperta dei temi neokantisti, una autentica "rinascita", della "filosofia trascendentale".
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Dilthey e la fondazione della conoscenza storica: Wilhelm Dilthey si propone di fornire una base filosofica alla comprensione della conoscenza storica, sostenendo che il mondo della storia prende vita quando viene rielaborato e ricostruito dal soggetto storico attraverso l'affinità essenziale con l'"esperienza vissuta" (_Erlebnis_).  

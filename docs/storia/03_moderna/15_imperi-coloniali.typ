@@ -60,7 +60,7 @@ La Guerra dei Sette Anni (1756-1763) rappresenta un momento cruciale per la ride
 La conclusione del conflitto avvenne con il Trattato di Parigi del febbraio 1763, che ridisegnò gli equilibri geopolitici globali. La Francia cedette il Canada, le Antille, il Senegal e alcune basi in India alla Gran Bretagna, mentre alla Spagna fu trasferita la Louisiana come compensazione per la cessione forzata della Florida agli Inglesi. Con un ulteriore trattato, l'Impero asburgico confermò il possesso della Slesia alla Prussia. Tali eventi sancirono l'affermazione della supremazia coloniale britannica e l'ascesa definitiva della Prussia quale potenza di primo piano nella scena continentale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / XVI sec.: Spagna e Portogallo iniziano la colonizzazione dell'America Latina. Il Portogallo amplia il proprio dominio, fondando un vasto impero basato sullo sfruttamento che include anche le Filippine a partire dal 1565.  

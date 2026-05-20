@@ -63,7 +63,7 @@ Alla morte di Clodoveo, il suo territorio fu diviso tra i figli che regnarono st
 I re merovingi dimostrarono un'incapacità politica, cedendo progressivamente il potere ai "maggiordomi" o "maestri di palazzo". Questi funzionari amministrativi, rappresentanti dei nobili laici ed ecclesiastici, gestivano i territori reali. Nel 687, il maggiordomo d'Austrasia sconfisse il rivale di Neustria e ristabilì l'unità del Regno.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Regno Visigotico di Tolosa: I Visigoti, incaricati dall'imperatore d'Oriente di contrastare Vandali, Alani e Suebi, fondarono un regno in Aquitania nel l419. Questo dominio fu assorbito dai Franchi nel 507.

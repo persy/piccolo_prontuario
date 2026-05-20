@@ -60,13 +60,13 @@ Non esistono confini netti tra le zone che appartengono a diversi gruppi o tipi 
 #figure(
   caption: [Classificazione dei climi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -156,7 +156,7 @@ Fortemente condizionati dal mare, si dividono in quattro sottotipi principali:
 - Clima delle isole: caratterizzato da estati lunghe, calde e aride e inverni brevi e umidi con precipitazioni concentrate tra l'inverno e la primavera. La scarsità d'acqua rappresenta una sfida nelle zone costiere. Nelle aree interne ed elevate delle isole il clima assume invece caratteristiche più continentali. Infine, sui rilievi più alti come l'Etna, prevalgono aspetti propri dei climi montani.]
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Clima: Complesso di condizioni meteorologiche che, in media, definiscono le caratteristiche di una regione nel corso di un anno. Tali condizioni sono determinate sulla base di rilevazioni protratte per un periodo esteso, generalmente di almeno 30 anni.

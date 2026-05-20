@@ -54,7 +54,7 @@ Il culto dei morti occupava un ruolo centrale nella cultura etrusca, come testim
 La struttura sociale della civiltà etrusca era articolata tra nobili, discendenti dei primi colonizzatori, e servi, eredi delle popolazioni sottomesse. La classe degli schiavi comprendeva coloro destinati ai lavori più faticosi, ma anche schiavi semiliberi che, grazie ai loro meriti personali, potevano godere di condizioni di vita migliori e persino aspirare a un'ascensione sociale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Preistoria in Italia: Nel corso della seconda metà del III millennio a.C., si assiste alla lavorazione del rame, una delle prime espressioni della metallurgia. All'inizio del II millennio a.C., in Lombardia emergono le prime strutture civili organizzate. Verso la fine dello stesso millennio fiorisce la civiltà delle "terramare", localizzata principalmente nelle aree di Modena e Piacenza. Contemporaneamente, prende forma la civiltà villanoviana, considerata la più avanzata dell'epoca; essa si estende dalla zona di Bologna verso sud, raggiungendo il territorio del Piceno. \ Dal XIV secolo a.C., lungo l'Appennino centrale, si diffonde la cultura "appenninica", caratterizzata da una maggiore coesione sociale e da sviluppi nell'agricoltura e nella pastorizia. Successivamente, a partire dall'VIII secolo a.C., giungono le popolazioni indoeuropee, conosciute come Italici, provenienti dall'Europa centro-orientale, le quali contribuiranno ad arricchire il panorama culturale della penisola.

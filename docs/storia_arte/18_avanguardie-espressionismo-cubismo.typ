@@ -172,7 +172,7 @@ La sua ricerca di una pittura "pura", fondata su movimento e luce, lo portò dal
 L'orfismo influenzò anche altri artisti legati alla ricerca astratta, tra cui i membri del Blaue Reiter, in particolare Paul Klee. Marcel Duchamp, superando il cubismo, approdò a composizioni in cui la dinamica del colore prevale sulla forma.
 
 #pagebreak()
-#set page(fill: main_arte.lighten(90%))
+#set page(fill: accent.art.lighten(90%))
 == In sintesi <senza_numero>
 
 / Espressionismo: Viene considerato il primo movimento d'avanguardia e si sviluppò principalmente in Francia, Germania e Austria nei primi decenni del Novecento. Questo movimento recuperò tendenze spiritualistiche e primitivistiche dell'Ottocento, contrapponendosi all'impressionismo, che si limitava a un'esperienza puramente visiva della realtà. \ L'espressionismo mirava a una dimensione spirituale che superasse le barriere razionali, semplificando le forme e puntando su un cromatismo esasperato come fulcro artistico.

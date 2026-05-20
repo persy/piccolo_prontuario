@@ -146,7 +146,7 @@ Nel romanzo _Piccolo mondo moderno_ (1901), continuazione del precedente, Fogazz
 La scrittura di Fogazzaro si colloca in una posizione intermedia tra la tradizione naturalista e l'affascinante influenza del decadentismo europeo, evidenziando una sensibilità innovativa che anticipa nuove traiettorie letterarie.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Verismo: Il verismo, in linea con le teorie naturalistiche, mira a rappresentare la realtà in modo oggettivo, senza l'intervento esplicito dell'autore. Tuttavia, a differenza del Naturalismo, considera la letteratura non come una scienza ma come un'espressione misteriosa dell'inspiegabile destino umano. Le ambientazioni tipiche delle opere veriste si concentrano principalmente sulle campagne del Sud Italia. 

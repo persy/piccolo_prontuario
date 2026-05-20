@@ -36,13 +36,13 @@ La membrana plasmatica, nota anche come membrana cellulare, è una struttura sot
 #figure(
   caption: [Strutture delle cellule eucarioti animali e vegetali],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -167,7 +167,7 @@ Per garantire un efficace funzionamento dell'organismo pluricellulare, è fondam
 Ogni apparato e sistema ha il compito di svolgere una funzione ben definita; tuttavia, l'insieme del loro lavoro è perfettamente integrato per mantenere l'organismo in equilibrio. Questo permette di stabilizzare le condizioni interne necessarie alla vita delle cellule e al loro corretto funzionamento, garantendo così la sopravvivenza dell'organismo nel suo complesso.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Apparato e sistema: Gruppo di organi che cooperano per svolgere una funzione comune.  

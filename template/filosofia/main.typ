@@ -1,19 +1,20 @@
 #import "../_global/template.typ": *
-#import "../_global/config.typ": main_umane, main_color
+#import "../_global/config.typ": accent, accent_color, gradient_color
+
+// ==========================================
+// CONFIGURAZIONE UNICA DEL LIBRO
+// ==========================================
+#accent_color.update(accent.fil)
+#gradient_color.update(gradient.fil)
+
+// ==========================================
 
 // Copertina
 #include "cover.typ"
 
-// Colore della materia
-#let selected_color = main_umane
-
-// Aggiorna lo stato globale per subfile
-#main_color.update(selected_color)
-
-// 3. Applichiamo il layout del template
+// Layout del template
 #show: template.with(
   title: "Filosofia",
-  color: selected_color,  
 )
 
 // Capitoli

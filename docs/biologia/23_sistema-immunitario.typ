@@ -128,7 +128,7 @@ La terapia attuale si concentra sul trattamento delle patologie correlate alla m
 Le allergie consistono in una reazione esagerata del sistema immunitario causata dall'introduzione di sostanze estranee denominate allergeni, che in individui sensibilizzati da esposizioni precedenti risultano capaci di indurre la produzione di anticorpi specifici (IgE). Gli anticorpi IgE si legano agli allergeni presenti sulla superficie dei granulociti basofili e dei mastociti, cellule presenti nei tessuti connettivi. Questo legame provoca il rilascio di mediatori chimici, come l'istamina, responsabili dei processi infiammatori. Tali fenomeni includono la dilatazione e l'aumento della permeabilità dei vasi sanguigni di piccolo calibro e la contrazione della muscolatura liscia.
 
 #pagebreak() 
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Anticorpi, o immunoglobuline (Ig): Proteine presenti nel sangue che hanno il compito di riconoscere e legarsi a ciascun antigene specifico per neutralizzarlo o distruggerlo.

@@ -62,7 +62,7 @@ Il suo pensiero, fondamentalmente materialista, razionalista e meccanicista, sos
 La soluzione a tale stato di guerra è rappresentata dalla razionalità, che induce gli individui a stipulare un accordo per conferire tutto il potere politico allo Stato, simbolicamente assimilato al Leviatano biblico. Questo concetto è approfondito nella sua celebre opera _Il Leviatano_, dove il monarca, grazie al suo potere assoluto sui sudditi, è incaricato di garantire la pace interna e la protezione dalle minacce esterne.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Rivoluzione scientifica ed evoluzione del pensiero politico: 

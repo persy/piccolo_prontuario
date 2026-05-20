@@ -1,6 +1,7 @@
 #import "../../template/chimica/var.typ" : * // Variabili
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
 #intro[Alcune categorie di composti organici rivestono un ruolo essenziale per gli organismi viventi. Essi formano i costituenti chimici delle cellule e permettono il funzionamento di numerosi processi biologici. Tra i composti organici di rilevanza biologica – definiti anche biomolecole – troviamo i glucidi (zuccheri), i lipidi, le proteine e gli acidi nucleici (DNA e RNA). Queste molecole sono generalmente caratterizzate da una struttura complessa che permette loro di svolgere funzioni vitali.]
 
@@ -59,13 +60,13 @@ I disaccaridi originano dal processo di condensazione tra due molecole di monosa
 #figure(
   caption: [I principali disaccaridi.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -180,13 +181,13 @@ Quando la temperatura supera i 70 °C circa o l'ambiente risulta particolarmente
 #figure(
   caption: [Amminoacidi naturali.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -229,13 +230,13 @@ le proteine fibrose, o strutturali, che contribuiscono alla formazione delle str
 #figure(
   caption: [Principali funzioni delle proteine.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -288,7 +289,7 @@ Le vitamine sono composti organici dalla struttura eterogenea, essenziali per mo
 Le vitamine spesso agiscono come coenzimi, supportando l'attività degli enzimi. Si suddividono in due gruppi principali in base alla solubilità: le vitamine idrosolubili, che comprendono il gruppo B, la vitamina C e la vitamina H; e le vitamine liposolubili, che includono la vitamina A, D, E e K.
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Glucidi o zuccheri: Composti chimici costituiti da carbonio, idrogeno e ossigeno, suddivisi in monosaccaridi, disaccaridi e polisaccaridi. Conosciuti anche come carboidrati, rappresentano una fonte primaria di energia per gli organismi viventi e contribuiscono alla formazione delle strutture nelle piante.

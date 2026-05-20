@@ -14,13 +14,13 @@ L'importanza della genetica si riflette nello sviluppo di discipline specializza
 #figure(
   caption: [I sette caratteri studiati da Mendel],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -91,13 +91,13 @@ Ad esempio, incrociando due individui diibridi con genotipo RrGg, ciascun genito
 #figure(
   caption: [Alleli e gruppi sanguigni umani],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -132,7 +132,7 @@ Durante la formazione delle cellule riproduttive (uova e spermatozoi), i cromoso
 Il sesso del nascituro viene pertanto stabilito al momento della fecondazione ed è determinato dal tipo di spermatozoo coinvolto. A differenza di quanto si pensava in passato, non è la madre, ma il padre a influire sul sesso del bambino.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Allele: Le diverse forme alternative di un gene, generalmente due o più.  

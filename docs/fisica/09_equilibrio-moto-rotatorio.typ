@@ -187,7 +187,7 @@ $
 Dove _I_ rappresenta il momento di inerzia del corpo e *ɷ* la sua velocità angolare.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Centro di massa: Punto di un corpo rigido in cui si considera concentrata tutta la sua massa. Analogamente, il centro di gravità, o baricentro, indica il punto in un campo gravitazionale dove si ritiene concentrata tutta la forza peso del corpo.

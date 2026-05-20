@@ -156,7 +156,7 @@ L'ambiente predominante nei suoi romanzi è Siena, descritta come una città sof
 L'intero contenuto esistenziale delle sue opere – evidente sia nei frammenti quasi urlati di _Bestie_ sia nei _Ricordi di un impiegato_ – si traduce sulla pagina in una scrittura fortemente personale. Pur mantenendosi vicina alla lingua parlata nella costruzione dei periodi e dei costrutti verbali, essa acquisisce una forza espressionistica grazie alla prospettiva unica con cui l'autore osserva la realtà, in essa intravedendo il riflesso del proprio disagio interiore.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Crepuscolarismo: Il fenomeno poetico crepuscolare si sviluppa attorno a un universo tematico costruito su scenari ricorrenti, spesso associati al piccolo mondo provinciale. I poeti crepuscolari si caratterizzano per un rifiuto dei valori tradizionali dominanti, siano essi filosofici, politici o scientifici, e si distinguono per un sentimento di solitudine e alienazione che li porta a una chiusura esistenziale nel proprio disagio. La lingua adoperata è generalmente sobria e prosastica, priva di enfasi, con l'eccezione di Guido Gozzano, il cui contributo poetico si arricchisce di un'ironia e autoironia tagliente. \ Tra i principali rappresentanti del crepuscolarismo figurano Guido Gozzano (1883-1916), Sergio Corazzini (1886-1907), Marino Moretti (1885-1979) e Corrado Govoni (1884-1965).

@@ -62,7 +62,7 @@ Nel XII secolo, anche la Chiesa, con la riforma promossa da Gregorio VII, cercò
 Questo fenomeno trovò particolare applicazione nei Regni normanni d'Inghilterra e del Sud Italia, nei principati franco-latini d'Oriente, nel Regno di Francia sotto i Capetingi e nei principati tedeschi. Al potere centrale del sovrano si affiancava quello dei singoli feudatari, una dinamica che venne progressivamente contrastata dalle nascenti monarchie nazionali, le quali iniziarono a limitare la formazione di nuovi centri autonomi di potere e a imporre la loro autorità sui potentati feudali esistenti.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Sistema feudale: Il sistema feudale ha le sue prime radici nel periodo successivo alla caduta dell'Impero Romano. Tra gli elementi fondamentali che ne hanno favorito l'evoluzione, spiccano le istituzioni della _commendatio_ e del _comitatus_.

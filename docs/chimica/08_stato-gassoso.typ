@@ -250,7 +250,7 @@ Poiché PV è direttamente proporzionale alla temperatura assoluta T (PV = RT), 
 - Legge di Charles: a pressione costante, un aumento della temperatura determina un incremento dell'energia cinetica media delle molecole. Per mantenere invariato il numero di urti nell'unità di superficie e nell'unità di tempo, deve verificarsi una dilatazione del volume del gas.
 - Seconda legge di Gay-Lussac: quando il volume di un gas resta costante, un aumento della temperatura comporta un incremento dell'energia cinetica media delle particelle. Questo determina sia un aumento della forza degli urti delle particelle contro le pareti, sia un incremento del numero di tali urti per unità di superficie e di tempo. Di conseguenza, la pressione del gas aumenta.
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Gas ideale: Modello teorico di gas descritto dalla teoria cinetica, in cui le particelle sono puntiformi, prive di interazioni e caratterizzate da urti completamente elastici. 

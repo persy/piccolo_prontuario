@@ -59,7 +59,7 @@ Abbandonando la verificabilità come unico criterio di significatività degli en
 
 Negli anni successivi, con opere come _Introduzione alla semantica_ (1942) e _Significato e necessità_ (1947), Carnap amplia ulteriormente il proprio orizzonte teorico. Sostiene che il linguaggio non può essere concepito esclusivamente a livello formale, come nella sintassi. Deve infatti essere visto come un sistema di atti e comportamenti finalizzati alla comunicazione, dove il significato emerge in relazione all'intenzione espressiva dei soggetti, introducendo così la dimensione semantica.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Wittgenstein: Wittgenstein rifiuta l'interpretazione neopositivista del suo _Tractatus logico-philosophicus_, che viene letto come una riduzione della filosofia alla logica.  

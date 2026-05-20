@@ -1,5 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
 #intro[La teoria atomica di Dalton, formulata nel 1808, rappresenta una pietra miliare nella comprensione e interpretazione del comportamento della materia. Essa nasce da un insieme di osservazioni sperimentali che portarono alla codifica delle leggi delle combinazioni chimiche, le quali regolano il funzionamento delle reazioni chimiche secondo principi quantitativi precisi.
 
@@ -113,13 +114,13 @@ La somma del numero dei protoni e dei neutroni è chiamata numero di massa e vie
   gutter: 10pt,
 figure(
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -175,13 +176,13 @@ figure(
 
 figure(
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -234,13 +235,13 @@ figure(
 
 figure(
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
       if y == 0 {
-        return main_tecnologia // Colore header
+        return accent.chi // Colore header
       } else if calc.even(y) {
         // Colore righe dispari
-        return main_tecnologia.lighten(90%)
+        return accent.chi.lighten(90%)
       } else {
         // Colore righe pari
         return white
@@ -309,7 +310,7 @@ Secondo la legge di Avogadro e la definizione di mole, si deduce che la quantit�
 // Tabella conversione moli in grammi e viceversa
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Atomo: La particella più piccola di un elemento che ne conserva le caratteristiche chimiche.  

@@ -60,7 +60,7 @@ Nello stesso anno, nell'agosto del 1923, Gustav Stresemann, leader del Partito P
 Oltre alla situazione in Germania, altri paesi europei vivevano profonde trasformazioni istituzionali nel periodo successivo alla Prima Guerra Mondiale. L'Austria divenne una Repubblica Federale nel giugno 1920, sotto la guida del Partito Cristiano Sociali. In Ungheria, dopo il breve dominio comunista di Béla Kun nel marzo 1919, terminato con la sua fuga e sconfitta, il potere fu assunto dal controrivoluzionario ammiraglio Miklós Horthy.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Italia: Diffusa amarezza per le clausole del Trattato di pace, percepite come una "vittoria mutilata". Il 12 settembre 1919, Gabriele d'Annunzio guida l'occupazione di Fiume. In questo periodo il Paese affronta una pesante crisi economica e un'ascesa del movimento socialista. La Chiesa, nel 1919, consente la fondazione del Partito Popolare Italiano (PPI) sotto la guida di Don Luigi Sturzo. Il 23 marzo 1919 vengono istituiti i Fasci di combattimento da Benito Mussolini, segnando l'inizio di una crisi del sistema liberale. Tra il 1919 e il 1920, l'Italia attraversa il cosiddetto "biennio rosso". Nel gennaio 1921 nasce il Partito Comunista Italiano (PCI).

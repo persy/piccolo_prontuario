@@ -70,7 +70,7 @@ Dopo questi eventi, il PCUS fu sciolto e, a dicembre, Gorbačëv si vide costret
 Le Repubbliche decisero di porre fine all'URSS e si unirono nella Comunità degli Stati Indipendenti (CSI). Al di fuori dell'Europa, il comunismo sopravviveva in Cina, a Cuba e in poche nazioni del Terzo Mondo.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Solidarność (1980-1987): Nell'estate del 1980 in Polonia nasce Solidarność, il primo sindacato autonomo guidato dai lavoratori di Danzica sotto la leadership di Lech Wałęsa. Nel dicembre 1981, il sindacato viene dichiarato illegale e costretto a operare clandestinamente fino al 1987.

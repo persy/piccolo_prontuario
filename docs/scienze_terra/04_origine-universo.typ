@@ -116,7 +116,7 @@ Diversi problemi ancora irrisolti ostacolano la comprensione definitiva: il tass
 Quest'ultima si riferisce al mistero della quantità di materia visibile nella Via Lattea, apparentemente insufficiente a spiegare il legame gravitazionale tra i suoi corpi celesti.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Radiazione: Energia emessa da una sorgente che si propaga sotto forma di onde o particelle, attraversando l'aria o il vuoto. Il termine è generalmente associato alla radiazione elettromagnetica (come onde radio, infrarossi, luce visibile, raggi X).

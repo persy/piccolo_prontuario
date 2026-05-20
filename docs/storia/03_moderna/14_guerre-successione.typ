@@ -60,7 +60,7 @@ La Guerra di successione austriaca si concluse nell'ottobre del 1748 con il Trat
 Nonostante la fine del conflitto, le tensioni internazionali tra Francia e Inghilterra e tra Austria e Prussia perdurarono e riemersero con la Guerra dei Sette Anni (1756-1763). In tale contesto, l'Austria, alleata con Francia e Russia, tentò invano di recuperare la Slesia dalla Prussia, che godeva dell'appoggio britannico.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Successione spagnola: 

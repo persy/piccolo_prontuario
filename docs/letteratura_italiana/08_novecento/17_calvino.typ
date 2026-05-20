@@ -32,7 +32,7 @@ Il divertito pessimismo di Calvino raggiunge qui il suo culmine: queste narrazio
 Con _Palomar_ (1983), raccolta di prose autobiografiche, Calvino volge il suo sguardo verso gli aspetti minimi ma essenziali del mondo. Tra le opere pubblicate postume si trovano _Sotto il sole giaguaro_ (1986), una trilogia sui sensi dell'odorato, del gusto e della vista; la raccolta _Sulla fiaba_ (1988); e _Perché leggere i classici_ (1991), che riflette sul valore intramontabile della letteratura.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Tematiche: Italo Calvino (1923-1985) rappresenta un modello di grande mediazione culturale tra la tradizione e la modernità. Nei suoi scritti confluiscono temi quali l'infanzia, la prospettiva comica e fiabesca, e una narrazione vivace ed esuberante, elementi caratteristici della novellistica italiana, arricchiti dall'influenza delle migliori teorie culturali internazionali.

@@ -105,13 +105,13 @@ Non esiste una corrispondenza esatta tra l'intensità stimata tramite la scala M
 #figure(
   caption: [Scala Mercalli modificata],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -148,7 +148,7 @@ Un altro 20% circa dei terremoti è concentrato lungo le catene montuose di form
 Infine, una moderata attività sismica si osserva anche lungo le dorsali oceaniche e nella regione della fossa tettonica dell'Africa orientale. Questo tipo di sismicità è strettamente legato ai movimenti divergenti tra le placche e si distingue per la prevalenza di ipocentri superficiali.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Asismica: Area quasi priva di attività sismica.  

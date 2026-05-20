@@ -37,7 +37,7 @@ Nel 1549, durante il breve regno di Edoardo VI, fu pubblicato sotto la supervisi
 
 Qualche anno più tardi, nel 1553, con gli _Articles of Faith_ (_Articoli di Fede_), vennero stabilite le basi dottrinali della nuova Chiesa inglese, assumendo una posizione più affine alle idee protestanti.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Umanesimo: Si sviluppano gli studi classici e prendono forma nuovi ideali letterari e concezioni culturali. Tra i principali esponenti si annoverano Thomas More (1478-1535), autore di _Utopia_ (1516), opera in cui immagina una repubblica ideale in contrasto con l'Europa e in particolare l'Inghilterra del tempo, John Colet (circa 1466-1519), Roger Ascham (1515-1568) e Thomas Hoby (1530-1566). 

@@ -168,7 +168,7 @@ La legge di Coulomb permette anche di distinguere se la forza tra le due cariche
 Questa legge per l'interazione elettrostatica presenta una struttura analoga alla legge di gravitazione universale: entrambe le forze sono direttamente proporzionali al prodotto tra le proprietà dei corpi (massa per la gravitazione e carica elettrica per l'interazione elettrostatica) e inversamente proporzionali al quadrato della distanza tra gli stessi. Tuttavia, va ricordato che la forza gravitazionale è sempre attrattiva, mentre quella elettrica può essere sia attrattiva che repulsiva. Inoltre, l'intensità della forza elettrica è enormemente superiore rispetto a quella gravitazionale: basti pensare che all'interno dell'atomo di idrogeno la forza di attrazione tra un protone e un elettrone è di circa 10#super[39] volte superiore rispetto a quella gravitazionale.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Carica elettrica: La carica elettrica è una grandezza fisica fondamentale, definita come la quantità di elettricità posseduta da un corpo. L'unità di misura adottata per quantificare questa grandezza è il coulomb.  

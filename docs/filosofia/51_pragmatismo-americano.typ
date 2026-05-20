@@ -57,7 +57,7 @@ Anche la volontà gioca un ruolo nel produrre convinzioni e credenze quando l'es
 
 Secondo James, Dio collabora con l'uomo per migliorare il mondo, ma non è onnipotente e infinito; se lo fosse, non permetterebbe l'esistenza del male né sarebbe compatibile con l'esercizio della libera e attiva volontà umana. Il "migliorismo" proposto da James sostiene che la salvezza dell'universo possa essere raggiunta solo grazie alla cooperazione di tutte le sue componenti.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Peirce: Peirce è riconosciuto come il padre del pragmatismo, definito da lui come dottrina del significato logico: il significato di un oggetto o di un concetto si identifica con il complesso di azioni di risposta che siamo disposti a intraprendere. 

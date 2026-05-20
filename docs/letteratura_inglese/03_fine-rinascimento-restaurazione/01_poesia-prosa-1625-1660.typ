@@ -53,7 +53,7 @@ Come prosatore, Hobbes privilegiava la sostanza rispetto alla forma: il suo stil
 
 Mentre Francis Bacon aveva introdotto una metodologia scientifica di tipo induttivo, opponendosi alla filosofia scolastica e ai sistemi di pensiero aprioristici, Hobbes cercò di colmare il vuoto lasciato dalla frantumazione del pensiero medievale. Per questo motivo, insieme a Machiavelli, può essere considerato uno dei fondatori della moderna scienza politica.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / La poesia: La poesia di quest'epoca si divide principalmente in due scuole: quella dei "poeti metafisici" e quella dei "poeti cavalieri".

@@ -84,7 +84,7 @@ Nel periodo compreso tra la metà del I secolo a.C. e l'inizio del III secolo d.
 
 Tra i secoli III e IV d.C., il neoplatonismo riprende il pensiero platonico, elaborandolo in una visione gerarchica del reale. Questa corrente integra elementi della logica aristotelica, considerata strumentale per una solida base nella teologia fondata sul platonismo.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Scrittura e oralità: Platone non ha affidato interamente i suoi insegnamenti filosofici alla scrittura, cercando un equilibrio tra la cultura scritta e quella orale. Sebbene possa trasmettere molti concetti tramite la scrittura, Platone riteneva che i più preziosi fossero riservati ai discepoli scelti con cura.

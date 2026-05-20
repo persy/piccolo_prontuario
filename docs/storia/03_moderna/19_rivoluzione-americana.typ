@@ -66,7 +66,7 @@ La creazione di nuove tasse federali per ripagare i debiti accumulati durante la
 Con la presidenza di Thomas Jefferson tra il 1801 e il 1809 si assistette a un importante decentramento governativo. Tra i risultati principali si annoverano il trasferimento della capitale a Washington e l'acquisto dalla Francia dei territori della Louisiana nel 1803. Nonostante la difficile guerra contro l'Inghilterra per l'Alto Canada tra il 1812 e il 1814, gli Stati Uniti iniziarono una lenta ma costante ascesa verso il potere globale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / La prima opposizione organizzata: Dopo la Guerra dei Sette Anni, il governo britannico impose varie tasse indirette ai coloni americani per finanziare le proprie guarnigioni. Questo portò al malcontento delle colonie, culminato nello Stamp Act Congress, dove venne richiesto un maggior controllo locale sulla gestione delle imposte. La necessità di fondi spingeva re Giorgio III ad aumentare i dazi sui beni coloniali, provocando il boicottaggio delle merci inglesi da parte dei coloni. \ Quando fu concesso alla Compagnia Inglese delle Indie Orientali il monopolio commerciale su determinati prodotti, si arrivò all'episodio del Boston Tea Party. Il governatore rispose dichiarando lo stato d'assedio (1773). Nel 1774 i delegati delle colonie si riunirono a Filadelfia per dar vita al primo Congresso Continentale; fu creato l'esercito continentale sotto il comando di Washington e cominciò la guerra.  

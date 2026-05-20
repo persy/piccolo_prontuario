@@ -70,7 +70,7 @@ Parallelamente alla persecuzione dei calvinisti, Luigi XIV si scagliò contro i 
 Malgrado la ferma adesione all'ortodossia cattolica, Luigi XIV rivendicò il diritto dello Stato ad intervenire in questioni ecclesiastiche tramite le cosiddette "libertà gallicane". Queste vennero formalizzate nella Dichiarazione dei Quattro Articoli del 1682 ma furono ritirate nel 1693 a seguito di un compromesso raggiunto con la Curia romana.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / La Reggenza (1642-1661): In seguito alla morte del cardinale Richelieu e di Luigi XIII, la reggenza della corona francese venne affidata alla regina Anna d'Austria, assistita dal cardinale Mazzarino. Durante tale periodo, la Francia consolidò la propria posizione internazionale grazie alle vittorie riportate nella Guerra dei Trent'anni, che si concluse con la Pace di Vestfalia (1648) e l'annessione dell'Alsazia. \ Gli anni tra il 1648 e il 1651 furono segnati da agitazioni interne. La Fronda Parlamentare, insorta nel 1648, obbligò la famiglia reale a lasciare Parigi. Tuttavia, nelle campagne successive (1649-1651), anche la Fronda dei Principi fu sconfitta dalle truppe regie. Le tensioni politiche interne non impedirono alla Francia di rafforzarsi ulteriormente sul piano europeo, come dimostrato dalla stipula della Pace dei Pirenei, attraverso la quale venne raggiunto il primato politico e militare sul continente.

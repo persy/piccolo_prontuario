@@ -130,7 +130,7 @@ Pollock si distinse per l'adozione di tecniche innovative, tra le quali il _drip
 Tra le sue opere più significative si annoverano _Sentieri ondulati_ (1947, Roma, Galleria nazionale d'arte moderna), _Numero 1_ (1948, New York, Museum of Modern Art), _Grigiore sull'oceano_ (1953, New York, Solomon R. Guggenheim Museum) e _Pali azzurri_ (1953, New York, collezione privata).
 
 #pagebreak()
-#set page(fill: main_arte.lighten(90%))
+#set page(fill: accent.art.lighten(90%))
 == In sintesi <senza_numero>
 
 / Italia: La contrapposizione al Gruppo Novecento, formatosi a Milano nel 1922, trovò espressione in diverse correnti locali. 

@@ -211,7 +211,7 @@ Ottavio rimprovera Minucio per aver permesso al loro amico di abbandonarsi alla 
 Quando sembra che Minucio stia per intervenire come mediatore nella disputa, Cecilio riconosce di essere stato sconfitto, ma al contempo di aver vinto. Egli dichiara: "Come Ottavio mi ha sconfitto, così io ho trionfato sull'errore".
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Apologetica cristiana: Tra il II e il III secolo si sviluppa l'apologetica cristiana, volta a difendere i fedeli dalle persecuzioni e a ribattere alle accuse contro la religione cristiana.  

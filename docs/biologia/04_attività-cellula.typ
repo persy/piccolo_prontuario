@@ -92,14 +92,14 @@ L'acetil-CoA successivamente entra nel ciclo di Krebs, noto anche come ciclo del
 #figure(
   caption: [Confronto tra fotosintesi e respirazione cellulare],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     inset: (right: 0.5em),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -136,7 +136,7 @@ La fermentazione è un processo biochimico che avviene in condizioni anaerobiche
 
 La fermentazione rappresenta il metodo che alcuni microrganismi, come funghi e batteri, utilizzano per ottenere energia dalle sostanze organiche, principalmente zuccheri, ma anche proteine, acidi e alcoli. Tuttavia, il rendimento energetico di questo processo è notevolmente inferiore rispetto a quello della respirazione cellulare. Anche nei tessuti animali può verificarsi fermentazione; per esempio, la fermentazione lattica si presenta nei muscoli quando, a seguito di un'intensa o prolungata attività fisica, l'apporto di ossigeno risulta insufficiente per supportare la respirazione cellulare.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Autotrofi: Gli autotrofi sono organismi capaci di sintetizzare sostanze nutritive organiche a partire da composti inorganici semplici tramite il processo di fotosintesi. Appartengono a questa categoria le piante, le alghe e alcuni tipi di batteri.

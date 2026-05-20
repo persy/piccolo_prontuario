@@ -1,3 +1,3 @@
-#import "../_global/template.typ": * 
+#import "../_global/template_retro.typ": * 
 
-#retro(color: main_arte)[Copertina: Raffaello Sanzio, _Madonna della Seggiola_, 1513-1514, Galleria Palatina di Palazzo Pitti, Firenze.]
+#retro[Copertina: foto di _Ilia Bronskiy_, disponibile su #link("https://unsplash.com/it/foto/il-massimale-del-sise-del-sise-del-sise-del-MIDuvjf_Tl0")[Unsplash].]

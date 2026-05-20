@@ -72,7 +72,7 @@ Nel dialogo _Il castellano_ (1529), affrontò il problema linguistico promuovend
 Le sue opere teatrali furono l'applicazione più evidente di tali principi: la commedia _I simillimi_ (1548), ispirata ad Aristofane e Plauto, e soprattutto la _Sofonisba_ (1524), considerata la prima tragedia "regolare" in lingua italiana, scritta in endecasillabi sciolti e modellata sui canoni della tragedia greca. Compose anche la raccolta di _Rime volgari_ (1529), notevole per le sperimentazioni metriche, e l'epopea _L'Italia liberata dai Goti_ (1547-1548).
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Novelle: Si osserva il proseguimento dell'influenza del Boccaccio. Il principale rappresentante di questo genere è Matteo Bandello (1485-1561), autore di novelle che non sono organizzate secondo una struttura narrativa generale né seguono un preciso ordine tematico. Le sue opere spaziano tra una vasta gamma di registri e temi, includendo il tragico, il grottesco, il comico, il farsesco, l'osceno e il patetico. Prevale tuttavia una certa inclinazione verso il genere erotico e le storie di "amori sfortunati".  

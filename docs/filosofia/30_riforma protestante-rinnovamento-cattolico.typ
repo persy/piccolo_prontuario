@@ -45,7 +45,7 @@ La vita ecclesiastica viene ristrutturata con provvedimenti significativi. Tra q
 
 Dal punto di vista teologico si registra uno sviluppo significativo nella teologia controversistica, che parte dalla convinzione che l'interpretazione della Bibbia debba essere guidata dalla tradizione dei papi, dei Padri della Chiesa e dei concili, con l'obiettivo di confutare il pensiero protestante. Si assiste inoltre a una nuova vitalità della scolastica, grazie al "tomismo moderno" promosso dalla scuola domenicana, oltre che alla riflessione casistica sulla morale portata avanti dai gesuiti.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La riforma cattolica: La riforma cattolica designa il processo di rinnovamento avviato dalla Chiesa cattolica volto a eliminare gli abusi, promuovendo una fedeltà alle origini evangeliche e una rinnovata purezza spirituale.

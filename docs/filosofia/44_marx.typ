@@ -63,7 +63,7 @@ Dopo la morte di Marx, Engels si occupò della revisione e pubblicazione dei vol
 
 La sua attività teorica fu particolarmente rilevante durante il periodo in cui il capitalismo, contrariamente alla previsione del suo imminente crollo, continuava a rafforzare le proprie capacità produttive. Tra le sue opere principali spicca _Anti-Dühring_ (1878), un testo nel quale difende il ruolo cruciale della dialettica come strumento per comprendere la contraddizione indispensabile per la "estinzione dello Stato" e l'approdo al "governo degli uomini". 
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La critica a Hegel: Marx si propone di svelare l'errore logico commesso da Hegel, che cerca di spiegare la realtà singolare partendo da un principio assoluto.

@@ -72,13 +72,13 @@ Le clorofite comprendono forme unicellulari, che possono essere flagellate o coc
 #figure(
   caption: [Le principali divisioni di alghe],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -115,13 +115,13 @@ Dal punto di vista evolutivo, nelle tracheofite lo sporofito prevale sul gametof
 #figure(
   caption: [Le principali pteridofite],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -158,13 +158,13 @@ Dopo la fecondazione, la cellula uovo rimane all'interno dell'ovulo, il quale si
 #figure(
   caption: [Le principali gimnosperme],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -193,7 +193,7 @@ La fecondazione avviene all'interno del fiore, dove lo zigote rimane racchiuso n
 La classificazione sistematica delle angiosperme si basa principalmente sulle caratteristiche dei fiori e sul numero di cotiledoni presenti nei semi: una o due foglioline embrionali. Da questa distinzione nascono due gruppi principali: le monocotiledoni e le dicotiledoni. Le monocotiledoni, dotate di un solo cotiledone, includono piante chiave come i cereali (essenziali per la dieta umana), palme, banani e specie note per i loro fiori come le liliacee e orchidee. Le dicotiledoni, invece, sono molto più diffuse e comprendono una vasta gamma di piante da frutto oltre a numerose specie arboree, arbustive ed erbacee.
 
 #pagebreak
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Angiosperme: Piante a seme dotate di fiore, i cui ovuli sono racchiusi in una struttura chiusa chiamata ovario.  

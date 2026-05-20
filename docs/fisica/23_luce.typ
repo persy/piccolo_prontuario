@@ -221,7 +221,7 @@ In un cosmo in espansione, il redshift fornisce informazioni sia sulla distanza 
 Questo fenomeno potrebbe far pensare che la Terra sia al centro dell'universo. Tuttavia, se si immagina l'universo come una superficie sferica in espansione, simile a un palloncino che viene gonfiato, è evidente che tutti i punti della superficie si allontanano reciprocamente. Se l'universo è in espansione continua, ne consegue che nel passato fosse più piccolo rispetto a oggi e, in principio, si trovasse in uno stato di dimensione estremamente compressa, con una densità di materia molto elevata. Queste osservazioni sono alla base della teoria del Big Bang, secondo cui l'universo ha avuto origine da un'enorme esplosione di questa massa compressa.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Aberrazione cromatica: Questo fenomeno si manifesta quando la luce bianca, attraversando una lente, si scompone nei suoi diversi colori, generando un'immagine circondata da un alone colorato a causa della variazione della rifrazione tra le diverse lunghezze d'onda.

@@ -111,7 +111,7 @@ Nel periodo successivo si assistette alla pubblicazione di opere satiriche e pic
 
 Tra le sue principali opere possiamo annoverare _Alcuin_ (1798), un dialogo sui diritti delle donne; il racconto macabro _Wieland, or the Transformation_ (1798); così come i romanzi sentimentali _Arthur Mervyn_ (1799), _Ormond_ (1799), _Edgar Huntly_ (1799), _Clara Howard_ (1801) e _Jane Talbot_ (1801).
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Verso l'Illuminismo: Nei primi anni del 1700, il puritanesimo si fonde con le nuove teorie empirico-razionalistiche. La ragione non è più considerata semplicemente un mezzo, ma diventa essa stessa fonte di verità, rafforzando il legame concettuale con Dio.

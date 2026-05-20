@@ -183,7 +183,7 @@ Christina Rossetti (1830-1894), sorella di Dante Gabriel Rossetti, fondatore del
 
 La sua principale fonte d'ispirazione fu una fede religiosa sincera e profonda. Le sue poesie a carattere spirituale – raccolte in numerose antologie come _Verses_ (_Versi_, 1847), _The prince's progress_ (_Il progresso del principe_, 1866) e _New poems_ (_Nuove poesie_, pubblicato postumo nel 1896) – rappresentano la parte più significativa della sua produzione. I suoi versi dal tono malinconico e, talvolta, lugubre sono percorsi da una persistente meditazione sulla morte. Nonostante ciò, il linguaggio scelto è chiaro e privo di artifici.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Tennyson: Alfred Tennyson, nato nel 1809 a Somersby e morto nel 1892, riceve una solida formazione sotto la guida del padre e prosegue gli studi a Cambridge. La pubblicazione delle sue raccolte poetiche gli garantisce un grande successo, che lo porta ad essere considerato il massimo poeta del suo tempo. Alla morte di Wordsworth, viene nominato Poeta Laureato, e alla sua scomparsa viene sepolto nell'Abbazia di Westminster. \ Tra le sue opere principali si ricordano: _Poesie soprattutto liriche_ (1830), _Poesie in due volumi_ (1842), _In memoriam_ (1850), _Maud e altre poesie_ (1855), _Idilli del re_ (1859) ed _Enoch Arden_ (1864). Si dedica anche al teatro con opere come _La regina Mary_ (1875), _Harold_ (1877) e _Beckett_ (1884). \ La sua poetica, raffinata e tecnicamente impeccabile, riflette lo spirito elegiaco dell'epoca vittoriana, ponendo l'accento su patriottismo, tradizioni e il ruolo morale dell'arte, spesso in tensione con il dibattito tra fede e scienza.

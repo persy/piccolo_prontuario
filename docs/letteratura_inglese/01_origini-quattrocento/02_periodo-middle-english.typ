@@ -129,7 +129,7 @@ Dal teatro del tardo Medioevo ci restano circa ottanta testi, che spaziano tra d
 
 Tra gli autori più significativi spicca John Heywood, autore di alcuni dei migliori interludi dell'epoca. Tra le sue opere più conosciute possiamo ricordare _A Dialogue Concerning Witty and Witless_ (1532), _The Play of Love_ (1533) e il celebre _The Four P's_ (1544), una vivace disputa contro le donne ricca di elementi comici. Questi testi avevano un intento principalmente d'intrattenimento, piuttosto che didattico o moraleggiante.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il periodo "_Middle English_": Il periodo inglese "middle English" si caratterizza per l'influenza predominante della tradizione francese, che si riflette in tematiche e stili. Le principali peculiarità della letteratura di quest'epoca comprendono impersonalità, margini di variabilità nei testi tramandati, rielaborazione di storie già note, interesse verso aspetti spirituali e finalità educative. Le opere sono scritte in tre lingue: latino (riservato a contesti ecclesiastici), francese (lingua della nobiltà, introdotta dopo la conquista normanna del 1066) e inglese volgare. Questo periodo rappresenta una fase di transizione in cui ai generi discendenti della letteratura cortese si affiancarono scritti a sfondo moralistico e composizioni satiriche.

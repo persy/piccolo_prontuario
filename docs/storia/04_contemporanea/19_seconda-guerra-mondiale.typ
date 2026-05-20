@@ -113,7 +113,7 @@ Mussolini, nel tentativo di fuggire verso la Svizzera, fu catturato a Dongo, vic
 
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 

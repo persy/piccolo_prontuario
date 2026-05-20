@@ -71,13 +71,13 @@ Il calore di reazione misurato in una bomba calorimetrica corrisponde al calore 
 #figure(
   caption: [Entalpie di formazione di alcuni composti inorganici#footnote[ΔH°#sub[f] KJ/mol a 25 °C e 1 atm.]],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -246,13 +246,13 @@ Le trasformazioni spontanee sono favorite dalla combinazione di un ΔH negativo 
 #figure(
   caption: [Effetti del segno di ΔH e ΔS sulla spontaneità di una trasformazione],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -313,7 +313,7 @@ Sia il calore che il lavoro sono modalità di trasferimento dell'energia, dunque
 
 La somma algebrica Q + L (con la convenzione che il calore e il lavoro scambiati positivamente con il sistema vengano considerati come guadagnati dal sistema, mentre quelli scambiati negativamente come ceduti) è tuttavia indipendente dal percorso seguito. Tale somma rappresenta la variazione dell'energia interna del sistema, espressa come: ΔU = U#sub[2] − U#sub[1] (dove U#sub[2] è l'energia interna dello stato finale e U1 quella dello stato iniziale).
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario
 
 / Energia interna (U): Somma totale delle energie possedute dalle particelle di un sistema.  

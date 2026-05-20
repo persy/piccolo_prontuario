@@ -45,7 +45,7 @@ Il metodo adottato nei _Principia_ si distingue notevolmente dall'empirismo sper
 
 Profondamente coinvolto nelle questioni religiose, Newton dedicò parte significativa delle sue energie agli studi biblici. Egli era fermamente convinto della compatibilità tra la propria visione scientifica e la religione, sostenendo che le sue teorie offrivano nuovi argomenti a favore dell'esistenza di Dio. Secondo Newton, il Creatore aveva costruito l'universo seguendo principi semplici e intelligibili, che le sue scoperte scientifiche avevano permesso di svelare e rendere accessibili all'umanità. 
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La nascita della scienza moderna: La scienza moderna si afferma nel XVII secolo caratterizzandosi come un sapere oggettivo, verificabile, e soggetto a controllo pubblico. Tale sviluppo segna una svolta rispetto agli approcci precedenti, ponendo le basi per il metodo scientifico occidentale.

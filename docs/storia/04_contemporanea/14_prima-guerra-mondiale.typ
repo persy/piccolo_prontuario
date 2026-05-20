@@ -134,7 +134,7 @@ Il Consiglio comprendeva cinque membri permanenti (Stati Uniti, Regno Unito, Fra
 La Germania e l'URSS ottennero un seggio permanente solo in seguito; nel tempo il numero dei membri elettivi del Consiglio salì fino a undici. Gli Stati aderenti si impegnavano a rispettare l'integrità territoriale e l'indipendenza politica degli altri membri, evitando il ricorso alla guerra e approvando sanzioni economiche contro i trasgressori delle regole stabilite.]
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 

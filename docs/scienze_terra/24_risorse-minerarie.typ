@@ -83,7 +83,7 @@ Le quantità di queste risorse disponibili nei giacimenti, che risultano sfrutta
 Anche considerando che le riserve totali stimate risultano superiori a quelle oggi sfruttabili, è comunque indispensabile adottare un approccio più razionale nell'uso delle risorse mineralogiche. Ciò implica sia una riduzione dei consumi sia un maggiore impegno nel recupero e nel riciclo dei materiali metallici già utilizzati.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Diagenesi: Processi chimico-fisici che avvengono all'interno di un sedimento tra i suoi minerali o con le soluzioni circolanti, dal momento della deposizione fino alla formazione della roccia sedimentaria.  

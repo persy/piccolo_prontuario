@@ -1,9 +1,10 @@
-#import "@preview/showybox:2.0.4": *
+#import "@preview/showybox:2.0.4": * // Blocchi grafici dinamici (definizione, esempio, dimostrazione)
 
 // ==========================================
-// STATO GLOBALE PER IL COLORE DINAMICO
+// STATO GLOBALE PER L'ACCENTO DINAMICO
 // ==========================================
-#let main_color = state("main_color", rgb("#1E90FF"))
+#let accent_color = state("accent_color", rgb("#1E90FF"))
+#let gradient_color = state("gradient_color", gradient.linear(rgb("#1E90FF"), rgb("#63B8FF")))
 
 // ==========================================
 // CONFIGURAZIONE FONT
@@ -15,24 +16,49 @@
 #let math-fonts = ("TeX Gyre Pagella Math",)
 
 // ==========================================
-// CONFIGURAZIONE COLORI DELLA COLLANA
+// CONFIGURAZIONE COLORI DELLA COLLANA (ACCENT)
 // ==========================================
-#let main_arte        = rgb("#DAA520") // goldenrod
-#let main_letteratura = rgb("#FF7F50") // coral
-#let main_umane       = rgb("#6A5ACD") // slateblue
-#let main_spettacolo  = rgb("#C71585") // mediumvioletred
-#let main_tecnologia  = rgb("#228B22") // forestgreen
-#let main_scienze     = rgb("#1E90FF") // dodgerblue
-#let main_storia      = rgb("#B22222") // firebrick
+#let accent = (
+  mat:  rgb("#2563eb"), // Matematica
+  fis:  rgb("#4f46e5"), // Fisica
+  chi:  rgb("#0d9488"), // Chimica
+  bio:  rgb("#059669"), // Biologia
+  ter:  rgb("#0284c7"), // Scienze della Terra
+  ita:  rgb("#ea580c"), // Lett. Italiana
+  eng:  rgb("#d97706"), // Lett. Inglese
+  lat:  rgb("#b45309"), // Lett. Latina
+  sto:  rgb("#991b1b"), // Storia
+  art:  rgb("#be185d"), // Storia dell'Arte
+  fil:  rgb("#e23eb1")  // Filosofia
+)
+
+#let gradient = (
+  mat:  gradient.linear(rgb("#2563eb"), rgb("#3b82f6")),
+  fis:  gradient.linear(rgb("#4f46e5"), rgb("#6366f1")),
+  chi:  gradient.linear(rgb("#0d9488"), rgb("#06b6d4")),
+  bio:  gradient.linear(rgb("#059669"), rgb("#10b981")),
+  ter:  gradient.linear(rgb("#0284c7"), rgb("#0ea5e9")),
+  ita:  gradient.linear(rgb("#ea580c"), rgb("#f97316")),
+  eng:  gradient.linear(rgb("#d97706"), rgb("#f59e0b")),
+  lat:  gradient.linear(rgb("#b45309"), rgb("#d97706")),
+  sto:  gradient.linear(rgb("#991b1b"), rgb("#dc2626")),
+  art:  gradient.linear(rgb("#be185d"), rgb("#ec4899")),
+  fil:  gradient.linear(rgb("#e23eb1"), rgb("#942372"))
+)
 
 // ==========================================
 // FUNZIONI DI UTILITÀ INDIPENDENTI
 // ==========================================
-#let intro(color: silver, body) = context {
-  let actual-color = if color != none { color } else { main_color.get() }
+#let intro(body) = context {
+  let act-accent = accent_color.get()
   showybox(
-    frame: (border-color: actual-color.darken(10%), body-color: actual-color.lighten(85%), radius: 0pt, thickness: (left: 2pt)),
-    body-style: (color: actual-color.darken(70%)),    
+    frame: (
+      border-color: act-accent.darken(10%), 
+      body-color: act-accent.lighten(90%), 
+      radius: (top-right: 5pt, rest: 0pt),      
+      thickness: (left: 1pt)
+    ),
+    body-style: (color: act-accent.darken(70%)),    
     { set text(font: sans-fonts, size: 11pt, style: "italic"); body }
   )
 }
@@ -62,3 +88,65 @@
 #let hl(body) = { highlight(body) }
 #let sh0 = h(0em)
 #let sv0 = v(0em)
+
+// =============================================================================
+// 1. BLOCCHI GRAFICI DINAMICI (Definizione, Esempio, Dimostrazione)
+// =============================================================================
+
+#let definizione(title: none, label: none, ..sections) = context {  
+  let accent = accent_color.get() 
+  
+  let def-numbering(def-num) = context {
+    let cap = counter(heading).get()
+    let cap-num = if cap.len() > 0 { cap.first() } else { 0 }
+    [#cap-num.#def-num]
+  }
+  
+  let box-content = {
+    let args = (
+      frame: (
+        border-color: accent.lighten(20%), 
+        title-color: accent.lighten(80%), 
+        body-color: accent.lighten(95%), 
+        radius: (top-right: 5pt, rest: 0pt), 
+        thickness: (left: 1pt)
+      ),
+      title-style: (color: accent.darken(40%), weight: "bold", sep-thickness: 0pt),
+      body-style: (color: accent.darken(50%)),    
+      sep: (thickness: 0.5pt, dash: "dashed", color: accent.lighten(20%)),
+      breakable: true,
+    )
+    let display-title = {      
+      let n = counter(figure.where(kind: "definizione")).display(def-numbering)
+      let t = if title != none and title != "" [: #title] else []
+      text(size: 0.8em, weight: "bold", font: sans-fonts)[Definizione #text(fill: accent.darken(20%))[#n]#t]
+    }
+    args.insert("title", display-title)
+    showybox(..args, ..sections.pos())
+  }
+  [#figure(box-content, kind: "definizione", supplement: none, numbering: def-numbering, caption: none)#label]
+}
+
+#let dimostrazione() = context {
+  let accent = accent_color.get()
+  block(width: 100%, height: 1em, outset: (x: 1em), inset: .0em,
+    align(left + bottom)[#text(size: 0.8em, weight: "bold", font: sans-fonts, fill: accent.darken(20%))[Dimostrazione]]
+  )
+}
+
+#let esempio(title: "Esempio", ..sections) = context {
+  let accent = accent_color.get().desaturate(85%)
+  let s = sections.pos()
+  if s.len() == 0 { return }
+  
+  counter("esempio").step()
+  showybox(
+    frame: (border-color: accent.darken(40%), title-color: accent.lighten(65%), body-color: accent.lighten(90%), radius: (top-right: 5pt, rest: 0pt), thickness: (left: 1pt)),
+    title-style: (color: accent.darken(70%), weight: "bold", sep-thickness: 0pt, size: 0.8em),
+    body-style: (color: accent.darken(70%)),
+    sep: (thickness: 0.5pt, dash: "dashed", color: accent.darken(20%)),
+    breakable: true,
+    title: text(size: 0.8em, font: sans-fonts)[#title #counter("esempio").display()],
+    ..s
+  )
+}

@@ -76,7 +76,7 @@ I monaci, sotto la guida dell'abate, coltivano virtù cristiane essenziali come 
 La carità occupa un ruolo centrale, vivificando sia la vita personale che quella comunitaria. Dopo la distruzione del monastero (577) per mano del duca longobardo Zotone, gli insegnamenti di Benedetto furono diffusi dai suoi monaci rifugiatisi a Roma. Nell'VIII secolo essi tornarono a Montecassino, ricostruendo l'abbazia e dal 817 la Regola benedettina si estese a tutti i monasteri carolingi.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Invasione longobarda e nascita del Regno d'Italia: Nel 568 i Longobardi, guidati da Alboino, penetrano nella pianura Padana. Milano viene occupata nel 569, mentre nel 572 cade Pavia, che diventa uno dei centri principali del dominio longobardo. Dopo l'assassinio di Alboino per mano della moglie Rosmunda, il potere passa a Clefi (572-574). A seguito di un decennio di instabilità politica, nel 584 sale al trono Autari (584-590), che avvia una gestione centralizzata attraverso il demanio regio. Il suo successore, Agilulfo (590-615), sposa Teodolinda e si converte al Cattolicesimo, iniziando così un'epoca di maggiore dialogo con la Chiesa. Nel frattempo, Papa Gregorio I (590-604) viene eletto e si distingue per la sua azione diplomatica: nel 593 negozia una tregua con Agilulfo, e nel 597 invia il monaco Agostino in Britannia con l'obiettivo di diffondere il Cristianesimo.

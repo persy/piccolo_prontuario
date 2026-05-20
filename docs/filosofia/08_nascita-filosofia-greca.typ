@@ -56,7 +56,7 @@ Tuttavia, il mito possiede alcune caratteristiche distintive rispetto al discors
 + si costituisce come un insieme di conoscenze fisse e consolidate, senza la possibilità di libere rielaborazioni che, invece, caratterizzano la tradizione filosofica;  
 + manca dei momenti di analisi critica e verifica, essenziali nella filosofia, che si impegna costantemente a esaminare e perfezionare la comprensione della verità e delle proprie certezze.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'amore per la sapienza: La filosofia, in quanto particolare forma di amore per la conoscenza e la saggezza, prende vita nella Grecia classica tra il VII e il VI secolo a.C., distinguendosi nettamente dalle tradizioni orientali anteriori o contemporanee.

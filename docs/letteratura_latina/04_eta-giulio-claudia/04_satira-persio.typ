@@ -36,7 +36,7 @@ Un aspetto distintivo delle Satire è il loro sperimentalismo linguistico raffin
 Nonostante la sua scrittura sofisticata fosse rivolta a una cerchia ristretta, Persio godette di grande ammirazione già ai suoi tempi. Nel Medioevo fu particolarmente celebrato per l'integrità morale espressa nelle sue opere.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Persio: (Volterra, 34 – Roma, 62 d.C.) proveniva da una famiglia agiata appartenente all'ordine equestre. A Roma frequentò le scuole migliori di retorica e grammatica, conducendo poi una vita austera e riservata, dedicata agli studi e agli affetti familiari.

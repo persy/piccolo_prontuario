@@ -60,7 +60,7 @@ I princìpi fondamentali delle dottrine neoplatoniche sono i seguenti:
 + la giustificazione razionale del politeismo come componente teologica della filosofia (con particolare attenzione a Proclo e Giamblico);
 + l'inserimento della fede teurgica, una pratica esoterica volta a evocare gli dèi mediante simboli o riti medianici, come parte essenziale e culminante della sapienza filosofica.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La rifondazione della metafisica: Plotino rappresenta un punto di svolta nella storia del pensiero filosofico, operando una rifondazione radicale della metafisica che sviluppa fino alle estreme conseguenze le "dottrine non scritte" di Platone.

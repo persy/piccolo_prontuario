@@ -44,7 +44,7 @@ L'idea centrale delle sue opere risiede nella convinzione che il rapporto aliena
 
 Contro le derive dell'irrazionalismo e del nichilismo morale contemporaneo, Jonas propone il suo "principio responsabilità" come aggiornamento dell'imperativo categorico kantiano: "Agisci in modo che le conseguenze della tua azione siano compatibili con la permanenza di un'autentica vita umana sulla terra". Allo stesso tempo, questo segna il punto teorico più elevato ottenuto dall'attuale etica ambientalistica.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Apel:  Apel individua le condizioni universali e necessarie del processo comunicativo, tra cui la comprensibilità grammaticale del discorso, la sincerità delle intenzioni del parlante, la verità delle sue affermazioni e la conformità alle norme condivise dalla comunità linguistica. Questi principi logici assumono una connotazione etica, poiché presuppongono il riconoscimento dell'uguaglianza tra gli interlocutori.

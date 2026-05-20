@@ -62,7 +62,7 @@ Oltre ai Pontefici, vi erano altri collegi di rilievo. Il collegio dei Salii era
 Tra le divinità, tre si distinguevano per importanza: _Iuppiter_ (Giove), Marte e Quirino. Notevole era anche il culto rivolto alle divinità familiari: i Lari, che rappresentavano gli spiriti degli antenati, e i Penati, protettori della dispensa domestica.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Origini storiche di Roma: Tra l'VIII e il VII secolo a.C., per proteggersi dall'avanzata etrusca, il villaggio del Palatino si unisce a quelli circostanti: Esquilino, Celio, Viminale, Quirinale e Capitolino. Da questo processo di fusione, insieme all'arrivo delle popolazioni sabine, nasce la città di Roma.

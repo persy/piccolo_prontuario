@@ -72,7 +72,7 @@ Seguendo la struttura del _Decameron_, le novelle sono narrate nell'arco di tre 
 Giambattista Gelli (1498-1563), altro importante letterato fiorentino e autodidatta, fu influenzato dal fermento culturale della corte medicea sotto Cosimo I. Tra il 1541 e il 1563 tenne lezioni pubbliche sull'opera dantesca, poi raccolte sotto il titolo _Letture sopra la 'Commedia' di Dante_. Oltre alla produzione critica, compose due commedie, _La sporta_ (1543) e _Lo errore_ (1553), entrambe ispirate ai modelli machiavelliani, caratterizzate da riflessioni morali e da un gusto popolare vivace. Altre opere significative includono _I ragionamenti di Giusto bottaio_ (1548) e _La Circe_ (1549), oltre a un trattato linguistico intitolato _Ragionamento sopra le difficoltà di mettere in regole la nostra lingua_ (1551). In quest'ultimo lavoro criticò le idee di Bembo sostenendo la superiorità del fiorentino parlato rispetto a quello letterario e alla lingua cortigiana che ne derivava.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Manierismo: A partire dal 1530, si sviluppa un movimento culturale di matrice artistica che trova espressione anche in ambito letterario. Questa tendenza si distingue per il virtuosismo formale, l'accentuazione di tonalità elegiache, effetti decorativi e descrizioni paesaggistiche, nonché per una marcata riflessione sul tema del dolore. Tra i fenomeni più rappresentativi di questa corrente si colloca il petrarchismo, che funge da emblema stilistico e tematico.

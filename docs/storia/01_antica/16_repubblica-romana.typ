@@ -56,7 +56,7 @@ Nel momento in cui Roma intervenne nelle dispute interne di Turi, si trovò a fr
 Quando Pirro si spostò in Sicilia per sostenere le città greche contro i Cartaginesi, il conflitto prese nuova forma e si concluse con la vittoria romana nel 275 a.C., nella battaglia di Maleventum (che venne allora rinominata Beneventum). Successivamente le due forze stabilirono un'alleanza nel 272 a.C. A quel punto Roma esercitava il proprio dominio fino allo stretto di Messina, adottando diverse modalità di amministrazione: i municipi mantennero una certa autonomia amministrativa ma dovevano fornire truppe e pagare tributi; alcuni godevano anche di diritti politici; le città federate, alleate liberamente a Roma, avevano autonomia amministrativa e non pagavano tributi, ma restavano prive di diritti politici e dovevano contribuire con truppe; infine, le colonie fondate nei territori sottratti ai vinti avevano diritti civili e politici se abitate da Romani, mentre quelle abitate da Latini avevano gli stessi diritti delle città federate.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Dalla Monarchia alla Repubblica: In seguito alla cacciata di Tarquinio il Superbo, ultimo re di Roma, ad opera di una rivolta patrizia, viene introdotta la carica di consolato. I primi due consoli eletti sono Bruto e Collatino.

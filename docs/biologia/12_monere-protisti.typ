@@ -91,7 +91,7 @@ Gli acrasiomiceti hanno una struttura cellulare; sono cellule ameboidi che si sp
 
 I mixomiceti, invece, si distinguono per l'assenza di una struttura cellulare individuale: formano una massa di citoplasma contenente miliardi di nuclei non separati da membrane cellulari. Tale massa può espandersi su superfici molto ampie, generando uno strato sottile. Di colore giallo-arancione, si trovano spesso sulle foglie e sui tronchi marcescenti e si riproducono per mezzo di spore.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Alghe: Protisti autotrofi che vivono principalmente in ambienti acquatici.

@@ -50,13 +50,13 @@ La distanza media dei pianeti dal Sole viene misurata in Unità Astronomiche (UA
 #figure(
   caption: [Distanze medie dei pianeti dal Solo e loro periodo di rivoluzione.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -246,7 +246,7 @@ Un satellite con queste caratteristiche viene definito geostazionario. I satelli
 Perché un corpo possa sfuggire all'attrazione gravitazionale terrestre (o di qualsiasi altro corpo celeste), è necessario conferirgli una velocità iniziale sufficiente. Tale velocità prende il nome di velocità di fuga e per la Terra è pari a 11.200 m/s. Va notato che questo valore è invariabile rispetto alla massa dell'oggetto in considerazione, assumendo trascurabili gli effetti dovuti all'attrito con l'atmosfera terrestre.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Campo gravitazionale: È la regione dello spazio che subisce l'influenza di una massa.

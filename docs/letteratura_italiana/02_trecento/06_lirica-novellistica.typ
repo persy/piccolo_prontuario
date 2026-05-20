@@ -26,7 +26,7 @@ La prima opera poetica di Sacchetti, _La battaglia delle belle donne di Firenze 
 L'intento etico diviene esplicito nel capolavoro di Sacchetti, _Il Trecentonovelle_, una raccolta iniziata intorno al 1392 e completata nel 1396-97, di cui sono pervenute 223 novelle. Benché ispirata al _Decameron_ di Boccaccio, questa non presenta una struttura cornice e adotta piuttosto un tono colloquiale e familiare. Tale scelta narrativa conferisce all'opera un carattere di libero vagabondare della memoria. Il linguaggio impiegato dall'autore si distingue per la semplicità spontanea: rifiuta i preziosismi letterari a favore di un registro quotidiano, elevando la parlata comune a dignità artistica. Ogni novella rappresenta un'affascinante istantanea della vita borghese e popolare dell'epoca, in cui i personaggi vengono descritti con vivace realismo comico. Il fine ultimo dell'opera è didattico ed esemplare: ciascun racconto culmina in una riflessione morale finalizzata a suggerire insegnamenti pratici e ammonimenti etici.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Lirica:  La poesia lirica del periodo si concentra essenzialmente sull'imitazione dello stilnovo. Tra gli autori principali troviamo Sennuccio del Bene, lucido continuatore di quella tradizione; Matteo Frescobaldi, che adotta uno stilnovismo semplice, sebbene a tratti prevedibile; e Antonio Beccari, il quale combina elementi danteschi con motivi provenienti dalla tradizione giullaresca. Nei rimatori realisti, il disordine ribelle del realismo duecentesco evolve in una visione più ordinata e borghese della vita, accompagnata da una certa inclinazione moralistica, come nel caso di Antonio Pucci.

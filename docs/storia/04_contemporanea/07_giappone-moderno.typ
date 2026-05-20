@@ -66,7 +66,7 @@ L'espansionismo giapponese sul continente asiatico creò preoccupazioni tra le g
 Questo gesto fu vissuto come un grave affronto che inasprì ulteriormente la politica militare del paese. La nuova potenza era ormai pronta ad assumere un ruolo decisivo nello scenario internazionale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1603-1853: Il Giappone, sotto il dominio degli _shogun_ Tokugawa a partire dal 1603, rimase isolato da ogni influenza esterna fino al 1853. In quell'anno, una flotta americana forzò l'apertura dei porti giapponesi alle navi occidentali, segnando la fine dell'isolamento.

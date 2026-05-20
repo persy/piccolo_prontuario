@@ -367,13 +367,13 @@ Ciò che entrambe le teorie condividono è il loro carattere statistico: esse po
 #figure(
   caption: [I quattro numeri quantici e il loro significato.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -404,13 +404,13 @@ Ogni livello energetico, definito dal numero quantico principale n, comprende un
     #figure(
       caption: [Relazione tra i valori di _n_, _l_, _m_ e rispettivi orbitali.],
       table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.fis.lighten(90%),
         fill: (x, y) => {
       if y == 0 {
-        return main_scienze // Colore header
+        return accent.fis // Colore header
       } else if calc.even(y) {
         // Colore righe dispari
-        return main_scienze.lighten(90%)
+        return accent.fis.lighten(90%)
       } else {
         // Colore righe pari
         return white
@@ -478,13 +478,13 @@ L'energia necessaria per separare un elettrone dal nucleo di un atomo è definit
 #figure(
   caption: [Diagrammi orbitali e relative configurazioni elettroniche dei primi 11 elementi.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -508,7 +508,7 @@ L'energia necessaria per separare un elettrone dal nucleo di un atomo è definit
 )
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Atomo: La più piccola unità di un elemento chimico, ovvero una sostanza che non può essere ulteriormente suddivisa in altre più semplici attraverso reazioni chimiche. Nonostante le sue dimensioni infinitesimali, l'atomo è in grado di mantenere le proprietà fisico-chimiche dell'elemento a cui appartiene. \ Al suo interno si distingue il nucleo centrale, dove si concentra quasi tutta la sua massa, circondato da un numero variabile di elettroni dotati di carica negativa. Il nucleo è costituito da protoni, con carica positiva, e neutroni, privi di carica elettrica. \ In un atomo neutro, il numero di elettroni corrisponde a quello dei protoni, noto come numero atomico (simbolo Z), caratteristico per ogni elemento chimico. La somma tra protoni e neutroni nel nucleo definisce il numero di massa (simbolo A). \ Gli isotopi sono nuclei dello stesso elemento chimico che condividono lo stesso numero di protoni, ma differiscono per il numero di neutroni.

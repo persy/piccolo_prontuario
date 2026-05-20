@@ -43,7 +43,7 @@ Secondo il costruttivismo etico di Rawls, il compito dell'etica non consiste nel
 
 Dopo vent'anni di approfondimenti e revisioni della sua originale teoria, nel saggio Liberalismo politico (1993) Rawls presenta una nuova formulazione della sua idea di giustizia sotto forma di liberalismo "politico". Questo approccio si fonda sul "consenso per intersezione", un accordo tra diverse visioni morali comprensive che condividono almeno alcuni valori comuni relativi alla giustizia, come la tolleranza, il pluralismo e il rispetto reciproco. La forza di questa nuova concezione risiede nell'argomento della "stabilità", intesa come capacità di generare condizioni durevoli in cui tale consenso possa continuare a essere condiviso.
 #pagebreak
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Schmitt e il decisionismo: Schmitt sviluppa una visione del diritto incentrata sull'importanza della "decisione", considerata il nucleo essenziale e fondativo dell'ordine sociale e giuridico, definita come decisionismo giuridico.

@@ -35,7 +35,7 @@ Sul piano religioso e antropologico, i pitagorici sviluppano una visione derivat
 
 Tuttavia, rispetto agli orfici, i pitagorici si distaccano significativamente per quanto riguarda i mezzi di purificazione. Mentre gli orfici prediligono una pratica basata sulla passiva osservanza di riti e precetti, i pitagorici identificano la via della purificazione nella scienza matematica. Quest'ultima ha infatti la capacità di astrarre l'uomo dal particolare e dal sensibile, elevandolo alla dimensione dell'eterno e del divino.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La scuola pitagorica: La scuola pitagorica, con la sua natura politica e religiosa, rappresenta un esempio emblematico della ricerca filosofica greca, associata a un forte senso di comunità e disciplina.

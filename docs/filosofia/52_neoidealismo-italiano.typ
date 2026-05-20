@@ -52,7 +52,7 @@ Gentile individua tre momenti fondamentali nella vita del pensiero:
 
 Questi tre momenti dialettici dell'atto corrispondono anche alle tre forme fondamentali dello spirito: arte, religione e filosofia. La scienza occupa una posizione incerta nell'interpretazione gentiliana ed è talvolta assimilata all'arte, altre volte alla religione.  
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Croce e la filosofia dello spirito: Nella filosofia dello spirito di Benedetto Croce, lo spirito rappresenta la storia universale, in cui l'individuale costituisce ciò che realmente esiste. Questo avviene come sintesi originaria tra il particolare e l'universale, espressa nei giudizi, che unificano un soggetto particolare e un predicato universale.

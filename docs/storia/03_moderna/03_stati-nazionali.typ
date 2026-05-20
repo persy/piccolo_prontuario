@@ -54,7 +54,7 @@ Passando al Sacro Romano Impero, si trattava di una struttura sovranazionale mol
 Gli Asburgo, grazie ai loro vasti territori e a una strategia dinastica accorta, ampliarono il loro controllo, come accadde nel 1526 con l'annessione del Regno di Boemia. Nonostante ciò, l'autorità imperiale era limitata dalla Dieta dell'Impero o Reichstag, composta dagli elettori, dai principi e dai rappresentanti delle città. Nemmeno Massimiliano I (1493-1519) riuscì a creare un organo centrale statale, pur avendo suddiviso l'Impero in circoscrizioni amministrative con il supporto della Dieta.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 

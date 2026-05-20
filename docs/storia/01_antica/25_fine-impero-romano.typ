@@ -50,7 +50,7 @@ Quando Attila tornò in Italia l'anno successivo, devastando il Veneto, fu invia
 Successivamente si susseguirono vari imperatori sotto l'influenza del barbaro Ricimero. Fu in questo contesto che il patrizio Oreste proclamò imperatore il proprio figlio Romolo Augustolo. Tuttavia, dopo pochi mesi Romolo Augustolo fu deposto da Odoacre, comandante dell'esercito barbarico al servizio dell'Impero. Accettando l'investitura da Zenone, imperatore d'Oriente, Odoacre governò l'Italia: questo decreto segnava la fine dell'Impero romano d'Occidente.  
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 

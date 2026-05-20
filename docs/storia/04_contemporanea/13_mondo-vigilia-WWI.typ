@@ -64,7 +64,7 @@ Nell'autunno del 1911 scoppiò anche la guerra italo-turca per il controllo dell
 Tuttavia, poco dopo la Bulgaria attaccò la Serbia, insoddisfatta dell'accordo raggiunto. La pronta reazione di Turchia, Grecia e Romania, che si schierarono al fianco della Serbia, portò alla sconfitta bulgara. La seconda guerra balcanica si concluse con la Pace di Bucarest nell'agosto 1913.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Inghilterra: Il periodo è segnato da un corso di riforme sociali e dal potenziamento militare, anche se l'economia si presenta stagnante.  

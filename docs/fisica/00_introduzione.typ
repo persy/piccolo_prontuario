@@ -16,13 +16,13 @@ Numerose sono le discipline che, pur mantenendo autonomia nei propri ambiti di s
 #figure(
   caption: [I principali indirizzi disciplinari della fisica.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white

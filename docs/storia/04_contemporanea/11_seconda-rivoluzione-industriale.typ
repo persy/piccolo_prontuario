@@ -58,7 +58,7 @@ Fu in questo contesto che emerse il revisionismo, guidato dal tedesco Eduard Ber
 Sotto il pontificato di Leone XIII (1878-1903), successore dell'intransigente Pio IX, la Chiesa cercò di riconquistare una posizione di influenza nella società moderna. Il 15 maggio 1891 il Papa pubblicò l'enciclica _Rerum Novarum_, in cui criticava capitalismo, liberalismo e socialismo, promuovendo invece una riorganizzazione della società fondata sulla piccola proprietà. Fra i cattolici si aprì una divisione tra conservatori e "democratici cristiani". Questi ultimi combinarono religione e politica, favorendo un impegno cristiano nel sociale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1873-1896: Un lungo periodo di crisi colpisce le economie avanzate a causa di un processo di assestamento legato all'industrializzazione (Grande depressione, 1873-1896). Durante questi anni avviene una profonda ristrutturazione dell'industria attraverso l'introduzione di nuove tecnologie. \ Nasce l'industria elettrica, segnata da importanti innovazioni: nel 1876 Alexander Bell perfeziona il telefono, già concepito da Meucci, mentre negli anni Ottanta si sviluppa il motore a scoppio. \ Nel 1887 Alfred Nobel inventa la dinamite e nel 1895 Guglielmo Marconi compie significativi progressi verso la radio. In risposta alla recessione economica, molti Stati adottano politiche di protezionismo doganale.

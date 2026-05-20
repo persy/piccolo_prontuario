@@ -53,7 +53,7 @@ Nel loro complesso, i saggi di Dryden costituiscono un corpus critico emblematic
 
 La rilevanza di Dryden nella storia della critica inglese risiede non tanto nella formulazione di queste idee generali quanto nella sua straordinaria capacità di analizzare e apprezzare il valore di autori e letterature diverse. È grazie a lui che venne riconosciuta e valorizzata la grandezza di scrittori come Chaucer, Spenser, Shakespeare e Milton.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / La vita: John Dryden (1631-1700) nacque ad Aldwinkle All Saints, nel Northamptonshire, e ricevette un'educazione di ispirazione puritana dai genitori. \ Nel 1685, con l'ascesa al trono del cattolico Giacomo II, Dryden si convertì al cattolicesimo, mantenendo questa fede anche dopo il rovesciamento del re a seguito della Rivoluzione che portò sul trono Guglielmo III d'Orange, sostenitore del protestantesimo. \ Rifiutandosi di collaborare con il nuovo sovrano, Dryden si ritirò dalla vita pubblica per dedicarsi esclusivamente alla letteratura. Morì a Londra nel 1700.  

@@ -121,7 +121,7 @@ Dalla figura /*TODO*/ si nota che quando _P_ si sposta da _A_ verso P#sub[3], Q 
 Il grafico temporale del moto armonico assume la forma di una sinusoide, caratterizzata da un'ampiezza pari al raggio della circonferenza (valore massimo dell'elongazione lungo il segmento _AB_) e da un periodo che corrisponde alla distanza fra due creste consecutive della curva. Esempi di moto armonico sono il movimento di un pendolo o quello di una molla.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Accelerazione normale: Nel contesto di un moto curvilineo, l'accelerazione normale è definita come il vettore che descrive la variazione nel tempo della direzione del vettore velocità. Essa mantiene costantemente una direzione perpendicolare rispetto alla traiettoria del moto. Nel caso specifico del moto circolare, tale accelerazione prende il nome di accelerazione centripeta, poiché la sua direzione è orientata verso il centro della traiettoria circolare descritta.  

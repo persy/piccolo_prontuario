@@ -68,7 +68,7 @@ La scoperta del bronzo, una lega di rame e stagno, risale approssimativamente al
 Nel I millennio a.C. prese avvio la lavorazione del ferro, che a sua volta permise la produzione di armi e utensili resistenti. Tuttavia, con l'esaurirsi delle miniere, gli uomini furono costretti a migrare alla ricerca di nuovi giacimenti. Questa necessità stimolò una maggiore interazione tra popoli, favorendo il commercio e lo scambio culturale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Neolitico: (8000 - 3000 a.C.) Nel Vicino Oriente nascono i primi insediamenti con fortificazioni, mentre il Sahara è abitato da gruppi di pastori e cacciatori. Nel Neolitico europeo, attorno al 6.000 a.C., si sviluppa la produzione di ceramica lungo le coste del Mediterraneo; nel bacino del Danubio emergono abitazioni in legno, mentre nell'Europa settentrionale si diffonde la cultura Maglemosiana, caratterizzata da una raffinata industria litica. In Italia nascono le prime comunità agricole e la lavorazione della ceramica si perfeziona, come dimostrano i ritrovamenti di manufatti e abitazioni sparsi lungo tutta la penisola.  Nel Neolitico americano, cominciano a svilupparsi in Messico e Arizona le prime forme di agricoltura, mentre nel Neolitico egiziano ed estremo-orientale (5.500 a.C.), si coltivano cereali e lino, oltre ad allevare animali; la Cina è particolarmente nota per la produzione di raffinate ceramiche nere lucide.

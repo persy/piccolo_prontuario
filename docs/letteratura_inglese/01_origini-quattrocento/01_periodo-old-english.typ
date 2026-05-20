@@ -71,7 +71,7 @@ Alfredo riconosceva che la cultura cristiana trovava le sue origini nelle tradiz
 
 Un contributo rilevante alla prosa anglosassone venne anche dall'ecclesiastico Aelfric (circa 955-1020), il quale fu tra i primi a realizzare una versione della Bibbia in inglese oltre a numerose omelie, lettere pastorali e agiografie. Questi testi si proponevano di istruirne i predicatori fornendo loro strumenti pratici e semplificando il loro lavoro tramite traduzioni in lingua volgare.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Alfabeto: L'evoluzione della lingua inglese ebbe inizio con le tribù germaniche che introdussero nelle isole britanniche l'alfabeto runico, noto come Futhark. Questa scrittura, composta da segni lineari adatti all'incisione su materiali rigidi, possedeva una forte valenza sacrale e misteriosa. Sebbene l'arrivo del cristianesimo portò l'alfabeto latino, quest'ultimo faticò inizialmente a adattarsi alla fonetica locale, convivendo a lungo con le antiche rune.

@@ -240,13 +240,13 @@ Va sottolineato che anche negli urti anelastici si applica la legge di conservaz
 #figure(
   caption: [Caratteristiche degli urti elastici e anelastici.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -275,7 +275,7 @@ I motori a propulsione funzionano sulla base dello stesso principio. Nel motore 
 
 Se il razzo è fissato su un mezzo mobile dotato di ruote, continuerà a muoversi finché la combustione del carburante rimane attiva.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Forze dissipative: Le forze dissipative sono caratterizzate dal fatto che il lavoro da esse svolto dipende dal percorso effettuato, a differenza delle forze conservative, per le quali il lavoro dipende esclusivamente dai punti iniziale e finale del percorso, indipendentemente dalla traiettoria percorsa.  

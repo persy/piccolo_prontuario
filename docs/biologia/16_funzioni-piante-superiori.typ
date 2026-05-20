@@ -128,13 +128,13 @@ Al contrario, nelle gimnosperme il granulo pollinico arriva direttamente al micr
 #figure(
   caption: [Schema dell'apparato riproduttore delle spermatofite e corrispondenza con le strutture delle piante a spore],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -187,13 +187,13 @@ La disseminazione dei semi rappresenta un processo fondamentale per garantire la
 #figure(
   caption: [Tipi di frutti],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -275,7 +275,7 @@ La vita delle piante è caratterizzata da numerose e complesse funzioni che le p
 Nelle piante si distinguono cinque principali classi di composti con proprietà ormonali, prodotte in specifiche parti della pianta durante i vari stadi del suo ciclo vitale. Le auxine, le gibberelline e le citochinine sono responsabili della crescita e dello sviluppo, mentre l'acido abscissico e l'etilene intervengono nei processi legati alla senescenza e al riposo.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Disseminazione: Allontanamento dei semi dalla pianta madre per favorire la propagazione della specie.  

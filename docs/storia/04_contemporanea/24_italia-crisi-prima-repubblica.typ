@@ -92,7 +92,7 @@ Nonostante queste disparità regionali, il sistema economico italiano mantenne s
 Negli anni Ottanta si registrò una nuova fase di espansione economica. Tuttavia, l'inefficienza del sistema politico e le avverse condizioni internazionali causarono nei primi anni Novanta una nuova crisi dalla quale l'Italia, nel 1996, non era ancora completamente uscita.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1945-1948: Il primo dopoguerra è dominato dalla figura di Alcide De Gasperi (1881-1954), leader della Democrazia Cristiana, alla guida di governi sostenuti dal PSI e dal PCI. Con il referendum del 2 giugno 1946, la Repubblica vince sull'opzione monarchica. La "guerra fredda" causa una frattura tra DC e PCI, portando alla nascita della politica centrista. Alle elezioni del 1948, la DC raggiunge l'impressionante risultato del 48% dei voti.  

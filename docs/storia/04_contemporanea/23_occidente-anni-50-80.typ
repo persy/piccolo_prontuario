@@ -68,7 +68,7 @@ Con la firma del trattato di pace definitivo con gli Stati Uniti nel 1951, il pa
 Dal 1950 al 1960 il Giappone si affermò definitivamente come un alleato degli stati occidentali.  
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Stati Uniti: Durante la fase di confronto bipolare con l'Unione Sovietica, si alternano diversi presidenti americani. Truman (1945-1952) e Eisenhower (1952-1960) guidano il paese nel periodo iniziale della "guerra fredda", caratterizzato da una crescita economica. Kennedy (1960-1963) affronta una serie di fallimenti nelle relazioni internazionali (Berlino nel 1961, Cuba nel 1962 e Vietnam) e viene assassinato a Dallas il 22 novembre 1963. Johnson (1963-1969) deve affrontare forti critiche per il crescente impegno nella guerra del Vietnam. Nixon (1969-1974) avvia un cambiamento nei rapporti con l'URSS, ma si dimette a causa dello scandalo Watergate. Carter (1976-1980) facilita gli accordi di pace tra Egitto e Israele a Camp David nel 1978, ma fallisce nel tentativo di liberare gli ostaggi in Iran nel 1980. Reagan (1980-1988) introduce la reaganomics e avvia, insieme a Gorbačëv, un'importante svolta nei rapporti tra Stati Uniti e URSS.

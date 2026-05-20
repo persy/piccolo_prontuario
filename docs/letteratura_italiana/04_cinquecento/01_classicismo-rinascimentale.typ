@@ -64,7 +64,7 @@ Annibal Caro (1507-1566), originario di Civitanova Marche, si formò a Firenze e
 Negli ultimi anni si ritirò nella sua villa di Frascati, dove lavorò alla sistemazione delle sue _Rime_ (pubblicate postume nel 1569) e alla raccolta delle _Lettere famigliari_ (1575-77), un'importante testimonianza storica scritta in un volgare armonioso ed equilibrato. La sua opera più celebre resta però la traduzione dell'Eneide di Virgilio (1563-66) in endecasillabi sciolti, una versione che non si limita a tradurre ma "riscrive" l'originale con straordinaria abilità retorica. Al suo interno l'ideale classico viene reinterpretato, considerando la nuova sensibilità morale ed estetica del Rinascimento.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Classicismo: A partire dagli anni Venti e Trenta del Cinquecento si afferma un'idea di raffinatezza e armonia linguistico-espressiva, volta a superare la generica imitazione della letteratura classica.

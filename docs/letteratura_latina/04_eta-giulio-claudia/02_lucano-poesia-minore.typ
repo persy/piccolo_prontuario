@@ -100,7 +100,7 @@ I temi affrontati enfatizzano la rivendicazione dei diritti degli oppressi contr
 Le favole, brevi ed essenziali nello stile, si distinguono per la vivacità del linguaggio e la felicità nella scelta degli epiteti. Pur nella loro raffinatezza letteraria, mantengono un tono popolare e infantile.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Lucano: (Cordova, 39 - Roma, 65 d.C.): Giunto giovane a Roma, fu discepolo dello stoico Cornuto. Coinvolto nella congiura dei Pisoni, dovette suicidarsi per ordine di Nerone. \ La sua opera principale è la _Pharsalia_, poema epico sulla guerra tra Cesare e Pompeo interrotto al decimo libro. L'opera si distingue per lo stile anticlassico, l'assenza di mitologia tradizionale e di una concezione provvidenzialistica della storia, pur includendo elementi fantastici e interventi diretti dell'autore.

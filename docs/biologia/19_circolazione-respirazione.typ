@@ -162,7 +162,7 @@ In prossimità del midollo allungato si trovano recettori chimici specializzati 
 
 Altri fattori che possono influenzare l'incremento del ritmo respiratorio includono l'aumento della temperatura corporea causato da attività fisica intensa, emozioni forti o segnali provenienti dai recettori situati nei muscoli e nelle articolazioni durante l'esercizio fisico.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Apparato circolatorio: Sistema di trasporto formato da sangue, vasi conduttori, una pompa e alcune valvole.  

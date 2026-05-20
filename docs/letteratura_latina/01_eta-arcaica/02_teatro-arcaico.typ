@@ -80,7 +80,7 @@ La fabula cothurnata era invece la tragedia di ambientazione greca, basata sui m
 Infine, la fabula praetexta rappresentava la tragedia romana con tematiche patriottiche e nazionali. Questo genere celebrava eventi storici importanti o figure politiche eminenti. Il nome deriva dalla _toga praetexta_, ornata da una striscia di porpora, indossata dai magistrati romani. La prima rappresentazione documentata risale agli ultimi anni del III secolo a.C.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Teatro: La _fabula_, un termine generico che designa qualsiasi forma di testo teatrale, godeva di grande rinomanza a Roma. Le rappresentazioni si svolgevano nel contesto delle festività religiose, in occasione dei _ludi scaenici_. Il palcoscenico era costruito in legno ed era di natura temporanea, situato in una piazza o lungo una via.

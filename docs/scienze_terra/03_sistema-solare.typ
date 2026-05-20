@@ -37,13 +37,13 @@ Il Sole è classificato come stella della sequenza principale appartenente al ti
   caption: [Caratteristiche del Sole],
   gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -94,13 +94,13 @@ Attualmente sono noti nove pianeti: Mercurio, Venere, Terra, Marte, Giove, Satur
 #figure(
   caption: [Principali caratteristiche dei pianeti del sistema solare],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -209,13 +209,13 @@ La Luna, unico satellite naturale della Terra, appare nel cielo come un disco da
   caption: [Caratteristiche della Luna],
   gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -334,7 +334,7 @@ Le meteore, invece, sono frammenti rocciosi di diverse dimensioni che appartengo
 I meteoriti costituiscono frammenti extraterrestri più massicci, caratterizzati da dimensioni significative e densità elevata. Pur subendo combustione e parziale disintegrazione durante l'attraversamento dell'atmosfera terrestre, essi riescono a raggiungere la superficie del nostro pianeta, talvolta generando crateri considerevoli. A seconda della loro composizione chimica, i meteoriti vengono classificati in: metallici (ferro e nichel), litoidi (a base di silicati), carbonacei (ad alto contenuto di carbonio) e altre tipologie.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Afelio: Punto più lontano dal Sole occupato da un pianeta o un corpo celeste lungo la propria orbita ellittica.

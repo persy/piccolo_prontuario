@@ -185,7 +185,7 @@ Elizabeth Cleghorn Gaskell (1810-1865), biografa e amica di Charlotte Brontë, f
 
 Lewis Carroll, pseudonimo di Charles Lutwidge Dodgson (1832-1898), conquistò fama mondiale con opere per l'infanzia. Lettore di matematica a Oxford e appassionato di rompicapi, giochi linguistici e nonsense, iniziò pubblicando versi su riviste per bambini prima di realizzare i suoi capolavori _Alice nel paese delle meraviglie_ (_Alice's adventures in Wonderland_, 1865) e _Attraverso lo specchio_ (_Through the looking-glass_, 1871), che illustrò personalmente. Gli innovativi esperimenti linguistici e la satira velata espressa tramite personaggi surreali rendono _Alice_ un'opera unica nella letteratura.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Romanzo vittoriano: Durante l'epoca vittoriana, il romanzo trova un terreno fertile per il suo sviluppo, in una società dominata dalla borghesia. Questo periodo vede la diffusione del romanzo grazie alla pubblicazione a puntate sulle riviste, al crescente livello di alfabetizzazione e alla proliferazione delle biblioteche. I lettori prediligono storie realistiche, capaci di offrire sia un'analisi della quotidianità sia un'evasione da essa.

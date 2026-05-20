@@ -64,7 +64,7 @@ In Francia, invece, si assistette a una maggiore rigidità dei rapporti sociali,
 Situazioni simili si osservavano nella Penisola Iberica e nell'Italia meridionale, sebbene la nobiltà lombarda fosse più dinamica e attiva.]
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / XVIII sec.: Nel XVIII secolo, miglioramenti igienici e alimentari, insieme alla fine di numerose epidemie, favorirono un aumento della popolazione europea e la riduzione della mortalità. In Inghilterra, il processo delle _enclosures_, ovvero la recinzione delle terre comuni, permise uno sfruttamento più intenso dei terreni, portando a un incremento della produttività agricola. Questo fenomeno liberò molta manodopera che si spostò verso le città in crescita, contribuendo alla rivoluzione agricola. \ L'aumento delle risorse alimentari, la disponibilità di materie prime come il carbone, le innovazioni tecnologiche di rilievo e lo sviluppo dei commerci su scala mondiale favorirono l'insediamento delle industrie. Il lavoro salariato, spesso svolto da donne e bambini, era caratterizzato da turni estenuanti all'interno delle fabbriche. \ Le attività manifatturiere, estrattive e siderurgiche furono tra quelle che beneficiarono maggiormente delle innovazioni tecnologiche. La rivoluzione industriale si diffuse in Europa soprattutto dopo le guerre napoleoniche.   

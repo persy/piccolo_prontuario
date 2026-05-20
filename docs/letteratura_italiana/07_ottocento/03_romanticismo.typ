@@ -80,7 +80,7 @@ Un'altra figura rilevante è Cesare Cantù, noto soprattutto per la sua monument
 A Firenze, nel 1821, l'"Antologia" nasce grazie all'iniziativa del ginevrino Giampietro Vieusseux, con la collaborazione di personalità come Gino Capponi, Cosimo Ridolfi e Giuseppe Montani. La rivista eredita in parte lo spirito innovativo del _Conciliatore_, prendendo però le distanze dai dibattiti ormai esauriti tra classicisti e romantici per proporre una visione letteraria moderna e aperta alla dimensione europea.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Romanticismo: I temi centrali della cultura romantica comprendono l'esaltazione dell'individualismo e del genio, l'affermazione del continuo evolversi della storia, e la supremazia della passione, del sogno e del dramma personale. Anche la fiaba rappresenta un mezzo per esplorare le passioni autentiche e spontanee del popolo.

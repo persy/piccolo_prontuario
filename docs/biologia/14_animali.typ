@@ -7,13 +7,13 @@
 #figure(
   caption: [Schema di classificazione degli animali. Sono inclusi solo i _phylum_ più noti],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -73,13 +73,13 @@ Gli animali vengono distinti in due grandi gruppi: vertebrati e invertebrati. I 
 #figure(
   caption: [Classificazione dei poriferi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -106,13 +106,13 @@ La riproduzione dei poriferi avviene mediante gemmazione o per via sessuata. Nel
 #figure(
   caption: [Classificazione degli cnidari],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -155,13 +155,13 @@ La riproduzione è sia sessuale sia agamica, con alcune specie che si distinguon
 #figure(
   caption: [Classificazione dei platelminti],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -189,13 +189,13 @@ Il _phylum_ Aschelmintes raggruppa animali con caratteristiche molto varie, tant
 #figure(
   caption: [Classificazione degli aschelminti],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -227,13 +227,13 @@ La riproduzione è sessuata e prevede uno sviluppo caratterizzato dalla presenza
 #figure(
   caption: [Classificazione degli anellidi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -259,13 +259,13 @@ Il corpo degli artropodi è composto da metameri raggruppati in tre regioni prin
 #figure(
   caption: [Classificazione degli artropodi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -296,13 +296,13 @@ La riproduzione avviene sempre in modalità sessuata e, in alcune specie, gli in
 #figure(
   caption: [Classificazione dei molluschi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -329,13 +329,13 @@ La funzione respiratoria può inoltre essere integrata, a seconda della specie, 
 #figure(
   caption: [Classificazione degli echinodermi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -363,13 +363,13 @@ La classificazione dei Cordati si basa sulla localizzazione della notocorda. Gli
 #figure(
   caption: [Classificazione dei cordati],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -386,13 +386,13 @@ La classificazione dei Cordati si basa sulla localizzazione della notocorda. Gli
 #figure(
   caption: [Principali caratteristiche dei vertebrati],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -425,7 +425,7 @@ I Tardigradi (_phylum_ Tardigrada) sono microrganismi dotati di quattro paia di 
 
 Gli Onicofori (_phylum_ Onychophora) hanno un corpo segmentato simile a quello degli Anellidi ma rivestito da una cuticola sottile. La testa è ben distinta e dotata di due antenne. Sul ventre sono presenti numerose appendici locomotorie provviste di unghie (da cui il termine greco "ónicos"). I sessi sono separati e vi è un marcato dimorfismo sessuale.]
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Cefalizzazione: Processo che concentra gli organi di senso, il cervello e la bocca all'estremità anteriore del corpo.  

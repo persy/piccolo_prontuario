@@ -140,7 +140,7 @@ Anche durante il Rinascimento – in Italia come nel resto d'Europa – la poesi
 La sua celebrità subì però un declino con l'avvento del romanticismo, movimento poco incline a riconoscere valore alla brillante leggerezza che contraddistingueva il poeta latino.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Publio Ovidio Nasone (Sulmona, 43 a.C. – Tomi, 17 d.C.), nato da una famiglia equestre benestante, completò i suoi studi a Roma e si dedicò al tradizionale viaggio formativo ad Atene. Dopo una breve carriera politica, decise di seguire la propria vocazione artistica, inserendosi nel circolo culturale di Messalla Corvino e diventando uno dei poeti più apprezzati nell'élite romana. Tuttavia, a causa di un possibile coinvolgimento nello scandalo legato alla nipote di Augusto, fu esiliato a Tomi, sul Mar Nero, dove trascorse il resto della sua vita.

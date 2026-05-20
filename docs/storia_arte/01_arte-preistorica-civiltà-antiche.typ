@@ -168,7 +168,7 @@ Alcuni tentativi di fusione artistica tra queste due tradizioni sono evidenti ne
 A questo periodo risalgono gli eccezionali templi di Edfu e Dendera, testimonianze di una sintesi sorprendente fra diverse tradizioni artistiche e culturali.
 
 #pagebreak()
-#set page(fill: main_arte.lighten(90%))
+#set page(fill: accent.art.lighten(90%))
 == In sintesi <senza_numero>
 
 / Arte preistorica: L'arte preistorica riflette la quotidianità ed è strettamente legata all'esperienza pratica. Nel periodo paleolitico assume una funzione magico-religiosa, mentre nel neolitico e nell'età del bronzo si evolve verso una rappresentazione simbolica del mondo reale.

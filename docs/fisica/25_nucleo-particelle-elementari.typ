@@ -52,13 +52,13 @@ La massa dei nucleoni e quella dei nuclei chimici vengono generalmente espresse 
 #figure(
   caption: [Proprietà particelle subatomiche],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -213,13 +213,13 @@ Questo valore varia sensibilmente tra i diversi elementi. Ad esempio, per il tor
 #figure(
   caption: [Tempi di dimezzamento di alcuni elementi radioattivi.],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.fis.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.fis // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.fis.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -378,13 +378,13 @@ Le prove sperimentali dell'esistenza dei quark sono esclusivamente indirette. L'
 #figure(
   caption: [I sei quark e le loro caratteristiche principali.],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.fis.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.fis // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.fis.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -421,13 +421,13 @@ Negli anni '70 è stata elaborata una teoria che ha raggruppato le forze elettro
 #figure(
   caption: [Le quattro interazioni fondamentali e le loro caratteristiche.],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.fis.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.fis // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.fis.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -457,13 +457,13 @@ A differenza dei leptoni e dei mediatori delle forze fondamentali, gli adroni no
 
 #figure(
   caption: [Classificazione delle particelle elementari e loro caratteristiche],   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -499,7 +499,7 @@ A differenza dei leptoni e dei mediatori delle forze fondamentali, gli adroni no
 
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Antiparticella: Particella elementare caratterizzata da una massa identica a quella della particella corrispondente, ma con proprietà opposte, inclusa la carica elettrica.

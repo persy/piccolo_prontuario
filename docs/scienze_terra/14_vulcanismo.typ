@@ -105,13 +105,13 @@ Nel caso dell'eruzione del Pelée nel 1902, il condotto era bloccato da un grand
 #figure(
   caption: [Tipi di vulcano],  
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -159,7 +159,7 @@ Si stima che esistano circa 700 vulcani attivi subaerei, dei quali circa il 60% 
 Un altro importante raggruppamento di vulcani attivi si trova lungo le dorsali oceaniche. Queste rappresentano il sistema vulcanico più vasto della Terra, contraddistinto da una continua attività e da un comportamento tipicamente effusivo. Sebbene la maggior parte delle dorsali oceaniche rimanga sommersa, in alcuni tratti esse emergono formando isole, come nel caso dell'Islanda e delle Azzorre nell'oceano Atlantico.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Caldera: Depressione con pareti ripide e fondo piatto, che si forma in seguito al crollo della sommità di un vulcano; può ospitare laghi di origine vulcanica.  

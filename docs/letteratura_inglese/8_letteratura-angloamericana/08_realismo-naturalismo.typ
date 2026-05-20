@@ -96,7 +96,7 @@ In tale contesto emerse la figura di Abraham Cahan (1860-1951), giornalista, scr
 Nel frattempo, anche tra la popolazione afroamericana liberata dalla schiavitù – ma ancora vittima di discriminazione e marginalizzazione sociale – iniziava a formarsi una propria intellighenzia, sebbene tra grandi difficoltà, in particolare negli stati del Sud. Una delle figure di spicco fu William E.B. Du Bois (1868-1963), scrittore e saggista impegnato nei movimenti per l'emancipazione afroamericana. Attraverso indagini storico-sociologiche e romanzi, fornì un contributo essenziale al cambiamento culturale e sociale che prese slancio negli anni Venti del Novecento.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Howells: William Dean Howells (1837-1920) è considerato il caposcuola del realismo americano. La sua narrativa attraversa tre fasi principali: i romanzi di indagine psicologica come _Il loro viaggio di nozze_ (1871) e _Una conoscenza casuale_ (1873); le opere di critica sociale come _In cerca di nuove fortune_ (1890), che affronta temi legati alla condizione femminile e alle disuguaglianze tra vecchia nobiltà e nuovi ricchi; infine, romanzi come _Attraverso la cruna dell'ago_ (1907), influenzati dalle idee utopiche di Tolstoj.

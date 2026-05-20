@@ -228,7 +228,7 @@ La relatività generale riuscì a spiegare questa discrepanza considerando che l
 Un ulteriore conferma della teoria risiede nell'esistenza dei buchi neri. Questi oggetti celesti possiedono masse e densità così elevate da generare un campo gravitazionale dal quale nessuno corpo, inclusa la luce, può sfuggire. La relatività generale interpreta il fenomeno dei buchi neri in termini di deformazione estrema dello spazio-tempo: la massa dell'oggetto è talmente grande da creare una curvatura che "chiude" lo spazio-tempo attorno a sé stesso. 
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Equivalenza massa-energia: La relazione tra massa ed energia di un corpo è espressa dalla celebre equazione della teoria della relatività di Einstein: _E = mc#super[2]_. Tale relazione evidenzia che massa ed energia sono due manifestazioni dello stesso fenomeno fisico, legate in modo diretto e quantitativamente proporzionale.  

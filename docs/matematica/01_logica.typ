@@ -5,6 +5,8 @@
 #import "@preview/cetz-plot:0.1.3": plot, chart
 #import "@preview/cetz-venn:0.1.4" // diagrammi di Venn
 
+#set math.equation(numbering: "1")
+
 // Funzioni
 
 // tabella relazioni
@@ -83,13 +85,13 @@ La @tabella_logica1 (dove "V" indica vero e "F" indica falso) sintetizza formalm
   caption: [Connettivi logici e corrispondente tavola di verità],
   //gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.mat.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.mat // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.mat.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -115,13 +117,13 @@ Vediamo ora un esempio semplice che coinvolge soltanto due enunciati per evitare
   caption: [Tabella di verità della proposizione $not ((P and Q) or (P and not Q))$],
   //gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.mat.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.mat // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.mat.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -673,11 +675,11 @@ $
   {a, b} = {b, a} "mentre" (a, b) != (b, a)
 $
 
-#definizione(title: "Prodotto cartesiano")[Dati due insiemi $A$ e $B$, il loro prodotto cartesiano, o semplicemente prodotto, è definito come l'insieme delle coppie ordinate in cui il primo elemento appartiene ad $A$ e il secondo a $B$. Questo insieme è indicato con $A times B$ ed è formalizzato così:
+#definizione(title: "Prodotto cartesiano", label: <prodotto_cartesiano>)[Dati due insiemi $A$ e $B$, il loro prodotto cartesiano, o semplicemente prodotto, è definito come l'insieme delle coppie ordinate in cui il primo elemento appartiene ad $A$ e il secondo a $B$. Questo insieme è indicato con $A times B$ ed è formalizzato così:
 
 $
   A times B = {(a, b) | a in A e b in B}
-$<prodotto_cartesiano>
+$ 
 ]
 Dalla definizione emerge chiaramente che, in generale, $A times B$ è diverso da $B times A$. Quando i due insiemi coincidono (cioè $A = B$), si può scrivere $A^2$ al posto di $A times A$. 
 
@@ -711,7 +713,7 @@ In molte situazioni, è utile servirsi dei cosiddetti diagrammi di Eulero-Venn p
 cetz.canvas({
   import cetz.draw: *
 
-  circle((-1.2, 0), radius: (2, 1.25), fill: main_scienze.lighten(80%), name: "A")
+  circle((-1.2, 0), radius: (2, 1.25), fill: accent.mat.lighten(80%), name: "A")
   circle((-2, 0), radius: 0.02, fill: black); content((-2, 0+0.3), [$a$])
   circle((-0.5, 0.4), radius: 0.02, fill: black); content((-0.5, 0.4+0.3), [$b$])
   circle((-0.9, -0.4), radius: 0.02, fill: black); content((-0.9, -0.4+0.3), [$c$])
@@ -729,7 +731,7 @@ caption: []
 cetz.canvas({
   import cetz.draw: *
 
-  merge-path(fill: main_scienze.lighten(80%), stroke: none, {
+  merge-path(fill: accent.mat.lighten(80%), stroke: none, {
     circle((-1.2, 0), radius: (2, 1.25))
     circle((1.2, 0), radius: (2, 1.25))
   })
@@ -751,7 +753,7 @@ cetz.canvas({
   compound-path({
     circle((-1.2, 0), radius: (2, 1.25))
     circle((1.2, 0), radius: (2, 1.25))
-  }, fill: main_scienze.lighten(80%), fill-rule: "non-zero", ignore-hidden:true)
+  }, fill: accent.mat.lighten(80%), fill-rule: "non-zero", ignore-hidden:true)
   merge-path({
         circle((-1.2, 0), radius: (2, 1.25))
         circle((1.2, 0), radius: (2, 1.25))
@@ -772,7 +774,7 @@ caption: []
 cetz.canvas({
   import cetz.draw: *
   
-  circle((-1.2, 0), radius: (1.8), fill: main_scienze.lighten(80%), name: "A")
+  circle((-1.2, 0), radius: (1.8), fill: accent.mat.lighten(80%), name: "A")
   circle((-2, 0), radius: 0.02, fill: black); content((-2, 0+0.3), [$a$])
   circle((-0.5, 0.4), radius: 0.02, fill: black); content((-0.5, 0.4+0.3), [$b$])
   circle((-0.9, -0.4), radius: 0.02, fill: black); content((-0.9, -0.4+0.3), [$c$])
@@ -793,9 +795,9 @@ caption: []
       name: "venn",
       padding: 0.5em,
       not-ab-stroke: none, 
-      a-fill: main_scienze.lighten(80%),
-      b-fill: main_scienze.lighten(80%), 
-      ab-fill: main_scienze.lighten(80%),         
+      a-fill: accent.mat.lighten(80%),
+      b-fill: accent.mat.lighten(80%), 
+      ab-fill: accent.mat.lighten(80%),         
     )
     import cetz.draw: *    
     content((-1.5, 1), [$A$])
@@ -817,7 +819,7 @@ caption: []
       not-ab-stroke: none, 
       a-fill: white,
       b-fill: white,
-      ab-fill: main_scienze.lighten(80%)    
+      ab-fill: accent.mat.lighten(80%)    
     )
     import cetz.draw: *
 
@@ -837,7 +839,7 @@ caption: []
       name: "venn",
       padding: 0.5em,
       not-ab-stroke: none, 
-      a-fill: main_scienze.lighten(80%),
+      a-fill: accent.mat.lighten(80%),
       b-fill: white          
     )
     import cetz.draw: *
@@ -858,8 +860,8 @@ caption: []
       name: "venn",
       padding: 0.5em,      
       not-ab-stroke: none, 
-      a-fill: main_scienze.lighten(80%),
-      b-fill: main_scienze.lighten(80%),          
+      a-fill: accent.mat.lighten(80%),
+      b-fill: accent.mat.lighten(80%),          
     )
     import cetz.draw: *
     content((-1.5, 1), [$A$])
@@ -874,7 +876,7 @@ caption: []
   cetz.canvas({
     import cetz.draw: *
 
-    rect((3,-2),(-3,2), fill: main_scienze.lighten(80%),)
+    rect((3,-2),(-3,2), fill: accent.mat.lighten(80%),)
     circle((0, 0), radius: (1.8), fill: white, name: "A")
 
     content((0, 0), [$A$])
@@ -929,7 +931,7 @@ cetz.canvas({
     // linea A (2-5); +1 per traslare l'origine di un punto; il passo 1.2 è perché scale * 0.2   
     let x_start_a = (2 + 1) * 1.2
     let x_end_a = (5 + 1) * 1.2
-    line((x_start_a, -1.0), (x_end_a, -1.0), stroke: main_scienze + 1pt)
+    line((x_start_a, -1.0), (x_end_a, -1.0), stroke: accent.mat + 1pt)
     content((x_start_a - 0.4, -1.0), [A:])
     
     circle((x_start_a, -1.0), radius: 0.05, fill: white, stroke: black)
@@ -968,7 +970,7 @@ Infine, ricordiamo che per rappresentare i sottoinsiemi di $RR times RR$ si fa a
 
 Ricordando la definizione di prodotto cartesiano in @prodotto_cartesiano:
 
-#definizione(title: "Relazione")[Dati due insiemi non vuoti $A$ e $B$, chiamiamo relazione binaria tra $A$ e $B$ qualsiasi sottoinsieme $R$ del prodotto cartesiano $A times B$. Qualora $A = B$, la relazione viene detta relazione in $A$.]
+#definizione(title: "Relazione", label: <relazione>)[Dati due insiemi non vuoti $A$ e $B$, chiamiamo relazione binaria tra $A$ e $B$ qualsiasi sottoinsieme $R$ del prodotto cartesiano $A times B$. Qualora $A = B$, la relazione viene detta relazione in $A$.]
 
 Se $R$ è una relazione e $(a, b) in R$, possiamo scrivere $a R b$, indicando che il valore $a$ è in relazione con $b$. Essendo una relazione un semplice sottoinsieme, essa può essere definita sia elencandone esplicitamente gli elementi sia fornendo una proprietà caratteristica che descriva tutte le coppie $(a, b)$ tali che $a$ risulti in relazione con $b$. In sostanza, una relazione definisce un "legame" tra i due insiemi (o all'interno dello stesso insieme) che mette in corrispondenza i loro elementi.
 
@@ -998,8 +1000,8 @@ cetz.canvas({
       plot.add-fill-between(
         domain: (-5, 5),
         style: (
-            stroke: main_scienze, 
-            fill: main_scienze.lighten(80%),
+            stroke: accent.mat, 
+            fill: accent.mat.lighten(80%),
           ), 
         x => calc.pow(x, 1), // First function/data
         x => 5) // Second function/data
@@ -1021,12 +1023,12 @@ Una rappresentazione grafica significativa può essere realizzata per descrivere
 #figure(
   caption: [],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),	
+  stroke: 0.5pt + accent.mat.lighten(90%),	
   fill: (x, y) => {
     if x == 0 {
-    return main_scienze 
+    return accent.mat 
     } else if calc.even(x) {
-    return main_scienze.lighten(90%)
+    return accent.mat.lighten(90%)
     } else {
     return white
     }
@@ -1036,8 +1038,8 @@ Una rappresentazione grafica significativa può essere realizzata per descrivere
   [$-$], [], [], [], 
   [$ast$], [], [], [],
   [$+$], [], [], [],
-  table.cell(stroke: main_scienze.lighten(90%))[$hash$], [], [], [],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: main_scienze.lighten(90%))[$a$], [$b$], [$c$],
+  table.cell(stroke: accent.mat.lighten(90%))[$hash$], [], [], [],
+  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
   )
 )<tabella_relazioni1>
 
@@ -1048,12 +1050,12 @@ A questo punto basterà segnare nelle diverse celle della tabella se esiste o me
 #figure(
   caption: [],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),	
+  stroke: 0.5pt + accent.mat.lighten(90%),	
   fill: (x, y) => {
     if x == 0 {
-    return main_scienze 
+    return accent.mat 
     } else if calc.even(x) {
-    return main_scienze.lighten(90%)
+    return accent.mat.lighten(90%)
     } else {
     return white
     }
@@ -1063,8 +1065,8 @@ A questo punto basterà segnare nelle diverse celle della tabella se esiste o me
   [$-$], [$checkmark$], [], [], 
   [$ast$], [], [$checkmark$], [],
   [$+$], [$checkmark$], [], [],
-  table.cell(stroke: main_scienze.lighten(90%))[$hash$], [], [], [$checkmark$],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: main_scienze.lighten(90%))[$a$], [$b$], [$c$],
+  table.cell(stroke: accent.mat.lighten(90%))[$hash$], [], [], [$checkmark$],
+  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
   )
 )<tabella_relazioni2>
 
@@ -1087,42 +1089,42 @@ Consideriamo ora le quattro relazioni rappresentate da tabelle relative all'insi
 #align(center)[
 #grid(columns: 2, align: center, gutter: 2em)[
 #tabella_relazioni(
-  color: main_scienze,
+  color: accent.mat,
   data: (
   [$c$], [], [], [], 
   [$b$], [$checkmark$], [$checkmark$], [],  
-  table.cell(stroke: main_scienze.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: main_scienze.lighten(90%))[$a$], [$b$], [$c$],
+  table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [],
+  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
   )
 )
 ][
 #tabella_relazioni(
-  color: main_scienze,
+  color: accent.mat,
   data: (
   [$c$], [], [$checkmark$], [$checkmark$], 
   [$b$], [], [$checkmark$], [$checkmark$],  
-  table.cell(stroke: main_scienze.lighten(90%))[$a$], [$checkmark$], [], [],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: main_scienze.lighten(90%))[$a$], [$b$], [$c$],
+  table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [], [],
+  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
   )
 )
 ][
 #tabella_relazioni(
-  color: main_scienze,
+  color: accent.mat,
   data: ( 
   [$c$], [], [], [$checkmark$], 
   [$b$], [], [$checkmark$], [$checkmark$],  
-  table.cell(stroke: main_scienze.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [$checkmark$],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: main_scienze.lighten(90%))[$a$], [$b$], [$c$],
+  table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [$checkmark$],
+  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
   )
 )
 ][
 #tabella_relazioni(
-  color: main_scienze,
+  color: accent.mat,
   data: (    
     [$c$], [], [$checkmark$], [], 
     [$b$], [], [], [],  
-    table.cell(stroke: main_scienze.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [$checkmark$],    
-    table.cell(stroke: white, fill: white)[], table.cell(stroke: main_scienze.lighten(90%))[$a$], [$b$], [$c$],
+    table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [$checkmark$],    
+    table.cell(stroke: white, fill: white)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
   )
 )
 ]
@@ -1189,7 +1191,7 @@ cetz.canvas({
             domain: (0, 6), // Usiamo lo stesso dominio per tutte
             style: (
               stroke: (
-                paint: main_scienze.lighten(25%), 
+                paint: accent.mat.lighten(25%), 
                 dash: "solid", // Lasciamo le rette solide
                 thickness: 1pt // Spessore normale
               ), 
@@ -1344,11 +1346,11 @@ cetz.canvas({
   import cetz.draw: *
 
   // insiemi
-  circle((0, 0), radius: (1, 1.5), fill: main_scienze.lighten(80%), name: "insieme_A")
+  circle((0, 0), radius: (1, 1.5), fill: accent.mat.lighten(80%), name: "insieme_A")
   content((-1, 1.4), [])
   circle((3, 0), radius: (1, 1.5), fill: silver.lighten(50%), name: "insieme_B")
   content((2.1, 1.4), [])
-  circle((3, 0), radius: (0.6, 0.8), stroke:(paint: main_scienze, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
+  circle((3, 0), radius: (0.6, 0.8), stroke:(paint: accent.mat, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
   content((2.1, 1.4), [])
 
   // coordinate punti e etichette (y + 0.03)
@@ -1388,29 +1390,29 @@ cetz.canvas({
     "a.south", 
     "g.south",  
     (1, 1),        
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "b.south", 
     "f.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "c.south", 
     "h.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "d.south", 
     "j.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
 }),
 caption: []
@@ -1421,11 +1423,11 @@ cetz.canvas({
   import cetz.draw: *
 
   // insiemi
-  circle((0, 0), radius: (1, 1.5), fill: main_scienze.lighten(80%), name: "insieme_A")
+  circle((0, 0), radius: (1, 1.5), fill: accent.mat.lighten(80%), name: "insieme_A")
   content((-1, 1.4), [])
   circle((3, 0), radius: (1, 1.5), fill: silver.lighten(50%), name: "insieme_B")
   content((2.1, 1.4), [])
-  //circle((3, 0), radius: (0.6, 0.8), stroke:(paint: main_scienze, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
+  //circle((3, 0), radius: (0.6, 0.8), stroke:(paint: accent.mat, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
   content((2.1, 1.4), [])
 
   // coordinate punti e etichette (y + 0.03)
@@ -1465,36 +1467,36 @@ cetz.canvas({
     "a.south", 
     "f.south",  
     (1, 1),        
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "b.south", 
     "g.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "c.south", 
     "h.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "d.south", 
     "j.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "e.south", 
     "j.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
 }),
 caption: []
@@ -1505,11 +1507,11 @@ cetz.canvas({
   import cetz.draw: *
   
   // insiemi
-  circle((0, 0), radius: (1, 1.5), fill: main_scienze.lighten(80%), name: "insieme_A")
+  circle((0, 0), radius: (1, 1.5), fill: accent.mat.lighten(80%), name: "insieme_A")
   content((-1, 1.4), [])
   circle((3, 0), radius: (1, 1.5), fill: silver.lighten(50%), name: "insieme_B")
   content((2.1, 1.4), [])
-  //circle((3, 0), radius: (0.6, 0.8), stroke:(paint: main_scienze, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
+  //circle((3, 0), radius: (0.6, 0.8), stroke:(paint: accent.mat, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
   content((2.1, 1.4), [])
 
   // coordinate punti e etichette (y + 0.03)
@@ -1549,29 +1551,29 @@ cetz.canvas({
     "a.south", 
     "g.south",  
     (1, 1),        
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "b.south", 
     "f.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "c.south", 
     "h.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
   bezier(
     "d.south", 
     "j.south",  
     (1, 1),         
-    mark: (end: ">", fill: main_scienze),
-    stroke: (paint: main_scienze, thickness:0.5pt), padding: 0pt,
+    mark: (end: ">", fill: accent.mat),
+    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
   )
 }),
 caption: []

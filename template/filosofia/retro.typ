@@ -1,3 +1,3 @@
-#import "../_global/template.typ": * 
+#import "../_global/template_retro.typ": * 
 
-#retro(color: main_umane)[Copertina: _Il pensatore di Rodin_, 1880-1902, Musée Rodin, Parigi.]
+#retro[Copertina: foto di _Fabian Kleiser_, disponibile  su #link("https://unsplash.com/it/foto/una-statua-di-un-uomo-con-capelli-ricci-e-barba-X2r7XRAPdws")[Unsplash].]

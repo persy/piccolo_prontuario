@@ -36,7 +36,7 @@ Plinio il Vecchio non era uno scienziato nel senso moderno del termine, ma un er
 Nonostante ciò, la _Storia naturale_ è considerata imprescindibile per il valore delle informazioni raccolte e come preziosa testimonianza delle conoscenze scientifiche del mondo antico. Sul piano letterario, l'opera non spicca particolarmente; la sua vastità, infatti, rendeva impraticabile una ricercatezza stilistica, che d'altronde non apparteneva alla tradizione delle enciclopedie romane.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: (Como 23 - Stabia 79 d.C.), originario di una famiglia agiata, ricoprì importanti incarichi militari e amministrativi. Perse la vita durante l'eruzione del Vesuvio.  

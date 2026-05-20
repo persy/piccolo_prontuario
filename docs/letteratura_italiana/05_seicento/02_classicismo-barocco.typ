@@ -78,7 +78,7 @@ La sua notorietà letteraria resta indissolubilmente legata a quel capolavoro de
 Scritte in una lingua semplice ma incisiva, capace di rappresentare con immediatezza gli aspetti concreti della condizione umana, le avventure di Bertoldo e delle sue "continuazioni" rimangono tra i grandi capolavori della narrativa popolare di tutti i tempi.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Tassoni: _La secchia rapita_ (1627), la sua opera maggiore, è un raffinato "poema eroicomico" che alterna sapientemente serio e faceto. Quest'opera emerge dalla crisi del poema cavalleresco umanista, in cui elementi seri e comici si compenetrano, e si inserisce in un contesto influenzato dalla Gerusalemme liberata di Tasso, dove invece prevale una serietà tragica e religiosa.  

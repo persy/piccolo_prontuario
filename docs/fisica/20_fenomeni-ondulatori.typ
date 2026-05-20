@@ -37,13 +37,13 @@ Persino il movimento delle particelle di materia all'interno dell'atomo e del nu
 #figure(
   caption: [Classificazione delle onde.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -190,7 +190,7 @@ In sintesi, valori specifici della frequenza, chiamati frequenze di risonanza, f
 Le frequenze di risonanza dipendono esclusivamente dalla lunghezza del mezzo di propagazione e non dalla natura del materiale. Perciò, è possibile ottenere risonanza facendo vibrare fili metallici o altri tipi di materiali.]
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Ampiezza dell'onda: Massima variazione dell'intensità della grandezza oscillante.

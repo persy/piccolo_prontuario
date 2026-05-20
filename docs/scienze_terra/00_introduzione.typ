@@ -15,13 +15,13 @@ A completamento di questo quadro viene considerato un quarto sistema ambientale:
 #figure(
   caption: [Settori disciplinari delle scienze della Terra],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white

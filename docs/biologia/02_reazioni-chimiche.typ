@@ -65,13 +65,13 @@ Alla temperatura corporea, anche le reazioni esoergoniche spontanee si manifesta
 #figure(
   caption: [Le principali classi di enzimi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -120,7 +120,7 @@ Il trasferimento energetico dall'ATP alle molecole destinate a partecipare a rea
 Tali reazioni includono processi anabolici, come la sintesi di biomolecole, e attività di lavoro cellulare, tra cui il trasporto di sostanze attraverso la membrana plasmatica. Oltre all'ATP, altre molecole fungono da vettori energetici mobilitando elettroni altamente energetici generati da reazioni esoergoniche. Tra queste, il coenzima NAD (nicotinammide-adenin-dinucleotide) e il flavin-adenin-dinucleotide (FAD) svolgono il ruolo di trasportatori di elettroni e energia, cedendoli successivamente ad altre molecole nei processi metabolici di respirazione cellulare e fotosintesi.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / ATP: Adenosina trifosfato, nucleotide composto da una molecola con tre legami fosfato ad alta energia; è fondamentale come accumulatore e trasportatore di energia nelle cellule.  

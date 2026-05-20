@@ -131,7 +131,7 @@ Il contrasto alla desertificazione dipende da due principali condizioni:
 - interventi umani mirati, oggi considerati la strada più efficace per fermare la progressione del fenomeno.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Alluvione: Evento disastroso caratterizzato dall'esondazione di un fiume o corso d'acqua che provoca l'inondazione delle aree circostanti.  

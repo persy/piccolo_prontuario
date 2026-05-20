@@ -238,7 +238,7 @@ Le emulsioni, invece, sono dispersioni di un liquido all'interno di un secondo l
 
 Le particelle colloidali presentano alcune caratteristiche distintive: non precipitano rapidamente nel mezzo in cui sono disperse, non possono essere filtrate e non è possibile separarle allo stato cristallino ma solamente allo stato amorfo. Un fenomeno particolare associato alle dispersioni colloidali è l'effetto Tyndall: quando un fascio di luce attraversa una soluzione colloidale, la luce viene diffusa in maniera caratteristica e diventa visibile lateralmente.
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario
 
 / Soluzioni: Miscele omogenee composte da una sola fase, suddivise in gassose, liquide e solide.  

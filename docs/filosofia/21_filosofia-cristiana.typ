@@ -50,7 +50,7 @@ Fra i protagonisti di questa chiarificazione della fede cristiana emergono i Pad
 
 Gregorio di Nazianzo adotta un approccio focalizzato sulle relazioni interne alla Trinità per dimostrare l'unità sostanziale delle tre persone. Gli appellativi "Padre" e "Figlio" sono interpretati come espressione di un rapporto preciso tra due ipostasi della medesima sostanza, benché tale rapporto rimanga inconoscibile per l'intelletto umano.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Cristianesimo e filosofia: La religione cristiana ha influenzato profondamente la filosofia tardoellenista, introducendo nuovi paradigmi come il monoteismo, la creazione ex nihilo, la centralità dell'essere umano, l'imperscrutabilità della grazia divina e il ruolo cruciale della volontà umana.  

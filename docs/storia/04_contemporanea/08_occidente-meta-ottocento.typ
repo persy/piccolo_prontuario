@@ -88,7 +88,7 @@ Il 12 aprile 1861 i confederati attaccarono con un bombardamento Forte Sumter, d
 Il 9 aprile 1865, incapace ormai di difendere Richmond dal pressing militare di Grant, il Sud si arrese. Pochi giorni dopo, il 14 aprile, Abraham Lincoln (1809-1865) venne assassinato in teatro da un attore mentre si stava preparando a procedere alla reintegrazione degli Stati secessionisti attraverso approcci moderati.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Inghilterra: Dal 1846, i liberali Palmerston (1784-1865) e Gladstone (1809-1898), insieme al conservatore Disraeli (1804-1881), furono i protagonisti della scena politica. I governi furono caratterizzati da una particolare attenzione alle problematiche sociali.

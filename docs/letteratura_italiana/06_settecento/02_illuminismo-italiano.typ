@@ -38,7 +38,7 @@ Ferdinando Galiani (1728-1787), abate abruzzese, ottenne grande successo con il 
 Altre figure significative includono Gaetano Filangieri (1753-1788), autore de _La scienza della legislazione_ (dal 1780), celebre per l'approccio razionale alla legislazione, e Francesco Mario Pagano (1748-1799), che nei suoi _Saggi politici_ (1783-85) analizzò con passione le origini storiche dell'oppressione ispirandosi a Vico.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Caratteri generali: L'Illuminismo italiano trova nel pensiero francese il suo principale punto di riferimento, pur distinguendosi per un approccio cauto e mai radicale.  

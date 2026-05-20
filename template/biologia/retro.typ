@@ -1,3 +1,3 @@
-#import "../_global/template.typ": * 
+#import "../_global/template_retro.typ": * 
 
-#retro(color: main_scienze)[Copertina: Colonie di _Legionella sp._ su una piastra di agar, illuminate con luce ultravioletta.]
+#retro[Copertina: foto di _Roberto Reposo_, disponibile  su #link("https://unsplash.com/it/foto/fiore-viola-e-bianco-nellobiettivo-tilt-shift-CT7phGc8jlg")[Unsplash].]

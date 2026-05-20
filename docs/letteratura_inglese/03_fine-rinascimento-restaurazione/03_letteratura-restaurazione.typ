@@ -71,7 +71,7 @@ La sua prima commedia, _The Old Bachelor_ (_Il vecchio scapolo_, 1693), gli gara
 
 La commedia mantiene sempre un equilibrio tra toni divertenti e malinconici: attraverso i dialoghi emerge una consapevolezza pungente delle contraddizioni, delle ironie della vita e della complessità dei rapporti umani.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Letteratura della Restaurazione: Riflette una reazione marcata contro il puritanesimo e i suoi rigidi valori morali e religiosi. Si abbandona l'ideale puritano del "santo" a favore di quello del "libertino", un aristocratico libero nei costumi, cinico ed elegante. Anche lo spirito scientifico della Royal Society influenza le opere letterarie dell'epoca.

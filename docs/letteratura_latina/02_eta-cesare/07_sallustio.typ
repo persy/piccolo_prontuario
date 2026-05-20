@@ -114,7 +114,7 @@ La sua rigorosa adesione a un'etica severa si riflette in uno stile asciutto ed 
 I discorsi nelle opere sallustiane sono incisivi e vibranti. Nella _Congiura di Catilina_, in particolare, spiccano quelli di Cesare e Catone: il primo si oppone alla condanna immediata dei congiurati in nome della legalità; il secondo la sostiene in nome del rigore morale. L'autore eccelle anche nella rappresentazione psicologica dei protagonisti: tra i ritratti spicca quello notissimo di Catilina, vigorosamente tratteggiato con profondità e intensità descrittiva.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Gaio Sallustio Crispo (Amiternum 86 a.C. - Roma 35 a.C.) nacque in una famiglia plebea benestante e intraprese la carriera politica come homo novus, affiliandosi a Cesare. Dopo aver ricoperto incarichi come questore e tribuno della plebe, partecipò alla guerra civile comandando una legione e svolgendo missioni con risultati alterni. Nominato governatore dell'Africa Nova, al suo ritorno fu accusato di malversazione, decisione che lo spinse a ritirarsi dalla politica per dedicarsi alla storiografia.

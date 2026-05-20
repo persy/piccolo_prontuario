@@ -79,7 +79,7 @@ La sua vastissima cultura e i suoi molteplici interessi emergono chiaramente att
 
 Successivamente, con _Suspiria de profundis_ (1845), De Quincey presentò un testo che rivela un autore sorprendentemente moderno, capace di profonde riflessioni introspettive e consapevole della complessità dei diversi livelli della psiche umana.  
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Romanzo storico: Emerge come una forma narrativa innovativa, che intreccia la ricostruzione storica con elementi di invenzione. Questo genere riflette il forte legame tra il comportamento umano e le condizioni storiche del contesto vissuto. Lo scozzese Walter Scott (1771-1832) ne è considerato il pioniere. Autore prolifico, scrisse ventisette romanzi, insieme a racconti e opere storiche, biografiche e critiche. Tra i suoi lavori più significativi si annoverano quelli ambientati in Scozia, come _Waverley_ (1814), _Guy Mannering_ (1815), _Rob Roy_ (1817) e _La sposa di Lammermoor_ (1819). Tuttavia, il suo romanzo più popolare è _Ivanhoe_ (1820), ambientato nel Medioevo.

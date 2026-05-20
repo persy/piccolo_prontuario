@@ -26,13 +26,13 @@ Alcune sostanze caratterizzate da una elevata tensione di vapore possono invece 
 #figure(
   caption: [Tipi di solidi cristallini],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -101,13 +101,13 @@ A loro volta, i sistemi cristallini si suddividono in tre gruppi: monometrico, d
 #figure(
   caption: [I sistemi cristallini],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -154,7 +154,7 @@ I raggi X possiedono una lunghezza d'onda comparabile alle dimensioni atomiche e
 
 Nell'esperimento condotto da von Laue, i raggi X generati dal tubo e successivamente diffratti da una sottile lamina cristallina producono un'immagine caratteristica che viene fissata sulla lastra fotografica.  
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Solidi cristallini: Solidi le cui particelle sono disposte nel spazio secondo regole geometriche precise e regolari.

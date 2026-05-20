@@ -83,7 +83,7 @@ Arcesilao critica il principio della rappresentazione catalettica elaborato dagl
 
 Carneade, dal canto suo, attacca le certezze dogmatiche degli stoici ammettendo però la possibilità di una rappresentazione persuasiva come criterio di probabilità o verosimiglianza. Questo strumento può fungere da guida per l'agire senza cadere nel dogmatismo proprio del saggio stoico.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Le filosofie ellenistiche: Con il declino della _pólis_ e l'ascesa dell'impero di Alessandro Magno, l'uomo greco perde la sua identificazione come cittadino per diventare un individuo alla ricerca di una felicità interiore. Le filosofie ellenistiche emergono con l'intento di fornire risposte pratiche a questa nuova esigenza.

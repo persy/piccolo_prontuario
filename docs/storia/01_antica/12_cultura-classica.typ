@@ -56,7 +56,7 @@ Tuttavia, il suo metodo dialettico, che spesso metteva in difficoltà e irritava
 Nonostante avrebbe potuto facilmente evitare l'esecuzione con l'aiuto dei suoi seguaci, Socrate accettò con serenità la condanna, dimostrando una fedeltà assoluta alle leggi che non aveva mai smesso di rispettare.]
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Età di Pericle: Eletto stratega nel 460 a.C., Pericle guida Atene verso una forma di democrazia radicale, caratterizzata da una serie di riforme volte a garantire l'effettiva parità nei diritti politici tra i cittadini. Durante il suo governo, la cultura classica greca conosce un periodo di straordinario sviluppo: Pericle favorisce la fioritura artistica e promuove importanti progetti edilizi nella città di Atene. \ Nel 457 a.C., Pericle inaugura un conflitto con Sparta e intraprende una campagna contro i Persiani in Egitto. Nel 454 a.C., il tesoro della Lega delio-attica viene trasferito ad Atene, consolidando così la supremazia della città-stato nell'ambito della confederazione. Negli anni seguenti, Atene deve fronteggiare rivolte interne: nel 446 a.C. si ribella l'Eubea, mentre nel 441 a.C. è Samos a sollevarsi. \ Nel 431 a.C. ha inizio la seconda Guerra del Peloponneso, un lungo conflitto che segnerà profondamente il destino della Grecia. Nel 429 a.C., durante il corso di questa guerra, Pericle muore colpito dalla peste.

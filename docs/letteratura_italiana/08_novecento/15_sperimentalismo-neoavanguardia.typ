@@ -64,7 +64,7 @@ Franco Fortini, pseudonimo di Franco Lattes (1917-1994) e originario di Firenze,
 Guido Ceronetti (1927-2018) si distingue invece per la sua critica spietata alla società di massa. Brillante traduttore di testi biblici, come _Il cantico dei cantici_ (1975), e di classici latini quali Marziale e Catullo, Ceronetti ha trovato la sua cifra stilistica nei saggi e negli aforismi, spesso tinteggiati da un ironico apocalittismo. Tra le sue opere più note si segnalano _Un viaggio in Italia 1981-1983_ (1983), _Il silenzio del corpo_ (1979), _Lo scrittore inesistente_ (1999) e _La carta è stanca_. Una scelta (2000). Meritano attenzione anche Nuovi Ultimi Esasperati _Deliri Disarmati_ (2001) e la raccolta poetica La distanza. _Poesie '46-'96_ (1996). Inoltre, Ceronetti ha dato vita a un teatro di marionette per cui scrive testi originali, ampliando ulteriormente il suo orizzonte creativo.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Neoavanguardia: La neoavanguardia, rappresentata dall'antologia dei Novissimi (Edoardo Sanguineti, Antonio Porta, Nanni Balestrini) e dal Gruppo '63, denuncia l'inadeguatezza e la crisi del neorealismo maturo. L'ispirazione principale proviene dalle avanguardie storiche, apprezzate sia per il loro ruolo innovativo nel primo Novecento sia per la capacità di instaurare un rapporto dinamico e coinvolgente con il pubblico. Fondato a Palermo nel 1963, il Gruppo '63 utilizza la sperimentazione linguistica come strumento per sovvertire le convenzioni della razionalità borghese.

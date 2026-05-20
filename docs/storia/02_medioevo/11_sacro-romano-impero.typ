@@ -82,7 +82,7 @@ Tuttavia, i patti non furono rispettati e l'isola finì sotto il controllo effet
 I progetti di restaurazione imperiale furono ripresi da Enrico VII di Lussemburgo, eletto imperatore nel 1308. Enrico scese in Italia e si fece incoronare re, ma si trovò osteggiato da Roberto d'Angiò. Morì prima di riuscire a fronteggiarlo, e i suoi successori della dinastia lussemburghese dimostrarono scarso interesse per le vicende italiane.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Federico I Di Svevia: Alla morte di Enrico V di Franconia nel 1125, la Germania si trova divisa dai conflitti tra Guelfi e Ghibellini. Nel 1152 Federico I di Svevia sale al trono e riordina il territorio tedesco. Nel 1154 scende in Italia per affrontare i comuni e viene incoronato imperatore da Papa Adriano IV. Nel 1158, durante la Dieta di Roncaglia, vengono stabilite le regalìe che i Comuni devono restituire all'Impero. Tuttavia, nel 1176 subisce una sconfitta a Legnano contro i Comuni uniti nella Lega Lombarda. La Pace di Costanza del 1183 chiude la disputa con un accordo. Federico muore nel 1190 partecipando alla Terza Crociata.

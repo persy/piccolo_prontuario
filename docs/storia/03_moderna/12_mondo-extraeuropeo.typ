@@ -60,7 +60,7 @@ Un'altra popolazione che, al pari delle civiltà precolombiane, affrontò uno sc
 L'incompatibilità tra lo stile di vita dei nativi e quello dei coloni bianchi emerse sin da subito e portò a conflitti culminati in un vero e proprio genocidio. Nel 1900 la popolazione indigena era drammaticamente ridotta a duecentocinquantamila. Sebbene inizialmente fossero stati pensati alcuni strumenti di protezione per i diritti delle tribù indigene, come l'Editto della Corona britannica del 1763 che riservava ai nativi americani i territori posti ad ovest dei Monti Appalachi, la continua pressione legata alla fame di terre e alle esigenze di sicurezza da parte dei colonizzatori portò nell'Ottocento alla creazione di riserve chiuse destinate alla popolazione indigena.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Islam: Tra il 1206 e il 1526 si sviluppò il Sultanato musulmano di Delhi, uno dei principali centri del potere islamico nel subcontinente indiano. In Persia, dal 1502 al 1722, dominò la dinastia dei Safavidi, che contribuì significativamente alla diffusione e all'istituzionalizzazione dell'Islam sciita. Nel 1453 gli Ottomani conquistarono Costantinopoli, trasformandola nella nuova capitale del loro impero. Successivamente, nel 1534, le armate di Solimano il Magnifico invasero la Persia e conquistarono Baghdad, consolidando il potere ottomano in Mesopotamia.

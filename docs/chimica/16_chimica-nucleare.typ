@@ -24,13 +24,13 @@ A seguito dell'emissione della radiazione, il nucleo subisce le seguenti variazi
 #figure(
   caption: [Principali caratteristiche delle particelle α, β e dei raggi γ],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -72,13 +72,13 @@ Negli acceleratori circolari, come ciclotrone, betatrone e sincrotrone, la traie
 #figure(
   caption: [Tempi di dimezzamento di alcuni isotopi radioattivi],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -226,13 +226,13 @@ Le evidenze sperimentali sull'esistenza dei quark risultano indirette ma signifi
 #figure(
   caption: [I sei quark e le loro caratteristiche principali],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -267,13 +267,13 @@ Lo studio delle interazioni fondamentali e della loro possibile unificazione rie
 #figure(
   caption: [Le quattro interazioni fondamentali e le loro caratteristiche],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -303,13 +303,13 @@ Contrariamente ai leptoni, gli adroni non sono particelle fondamentali, poiché 
 
 #figure(
   caption: [Classificazione delle particelle elementari e loro caratteristiche],   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -338,7 +338,7 @@ Contrariamente ai leptoni, gli adroni non sono particelle fondamentali, poiché 
 )
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero> 
 
 / Radioattività: Fenomeno in cui nuclei instabili emettono spontaneamente radiazioni (raggi α, β o γ) trasformandosi in nuclei più stabili.  

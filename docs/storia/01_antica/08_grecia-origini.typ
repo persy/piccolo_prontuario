@@ -61,7 +61,7 @@ Il loro sistema politico, caratterizzato da istituzioni conservatrici e militari
 I sovrani, in determinate circostanze, riunivano i principali capi delle famiglie aristocratiche (gli áristoi, i "migliori") per decidere su questioni di pericolo o guerra. Nonostante l'apparente isolamento culturale, questo periodo vide alcune innovazioni significative, come la lavorazione del ferro, la costruzione di templi dedicati agli dei e l'introduzione dell'alfabeto fenicio.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Invasione di popoli nella Grecia: Nel II millennio a.C., gli Eoli si stabiliscono nelle regioni della Tessaglia e della Beozia. Sono seguiti dagli Ioni, che si insediano in Attica e sulla vicina isola di Eubea, mentre gli Achei occupano prevalentemente la zona orientale del Peloponneso.  

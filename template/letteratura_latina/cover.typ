@@ -1,8 +1,8 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Letteratura latina",
-  color: main_letteratura,
-  image: image("../../docs/letteratura_latina/img/cover.png", width: 60%),
+  subject: "Letteratura latina",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
   arguments: "Dall'età arcaica alle soglie del Medioevo · Gli autori · Le scuole · I generi · Le forme letterarie"
 )

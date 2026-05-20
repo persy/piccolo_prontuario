@@ -36,7 +36,7 @@ Alcune lettere hanno carattere più pratico: inviti, raccomandazioni, condoglian
 Il decimo libro venne pubblicato postumo e raccoglie la corrispondenza tra Plinio e l'imperatore Traiano. In quegli anni Plinio ricopriva il ruolo di governatore della Bitinia. Questo carteggio include 79 lettere dell'autore e 50 risposte dell'imperatore su questioni di natura fiscale, politica e amministrativa sollevate dal funzionario diligente ma spesso indeciso. Le lettere trattano argomenti di importanza variabile: da temi marginali a questioni più rilevanti. Tra queste ultime si distingue la famosa lettera 96, in cui Plinio chiede istruzioni su come affrontare i processi contro i cristiani. La risposta di Traiano nella lettera 97 si rivela equilibrata: invita a non considerare denunce anonime e a sospendere i procedimenti giudiziari contro i cristiani qualora accettino di sacrificare agli dèi e all'imperatore.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Plinio (Como 61/62 – Bitinia ca. 113 d.C.), membro di una famiglia molto agiata, studiò a Roma dove intraprese una brillante carriera legale e politica che lo portò a diventare console nel 100 d.C. e successivamente governatore della Bitinia. \ Tra le sue opere principali si annoverano il _Panegirico a Traiano_, discorso dedicato all'imperatore in segno di gratitudine per la nomina a console, e le _Epistulae_.

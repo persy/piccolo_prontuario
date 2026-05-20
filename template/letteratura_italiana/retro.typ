@@ -1,3 +1,3 @@
-#import "../_global/template.typ": * 
+#import "../_global/template_retro.typ": * 
 
-#retro(color: main_letteratura)[Copertina: Stanislao Ferrazzi, _Ritratto di Giacomo Leopardi_, 1897, Casa Leopardi, Recanati]
+#retro[Copertina: foto di _Adrian Botica _, disponibile  su #link("https://unsplash.com/it/foto/una-statua-davanti-a-un-edificio-alto-I2mw7JyIUhg")[Unsplash].]

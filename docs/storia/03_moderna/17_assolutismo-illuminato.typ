@@ -56,7 +56,7 @@ L'invasione della Russia da parte degli svedesi si concluse però con la sconfit
 Da quel momento la Russia sostituì definitivamente la Svezia come potenza dominante sul Baltico.]
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Austria: Maria Teresa riorganizza l'amministrazione statale, abolisce i privilegi feudali e la pena di morte. In ambito ecclesiastico promuove decreti volti a ridurre gli abusi del clero regolare, portati poi all'estremo dalla politica religiosa del figlio Giuseppe II. Sostiene inoltre l'educazione e la beneficenza, con la fondazione di scuole e istituti dedicati. Giuseppe II (1780-1790) introduce ulteriori riforme, concedendo libertà di culto agli ebrei e ai non cattolici e abolendo la servitù della gleba.

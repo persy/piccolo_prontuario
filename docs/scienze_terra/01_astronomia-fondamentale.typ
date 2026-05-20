@@ -14,13 +14,13 @@ Per studiare il movimento dei corpi celesti è necessario introdurre riferimenti
 #figure(
   caption: [Elementi di riferimento],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.ter.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.ter // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.ter.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -157,7 +157,7 @@ I calendari sono sistemi ideati per organizzare in modo sistematico e coerente l
 Esistono dunque tre tipologie principali di calendari: quelli solari, come il calendario gregoriano, che si basano sul moto apparente del sole tra le costellazioni; quelli lunari, che regolano il tempo secondo il ciclo delle fasi lunari; e quelli lunisolari, che cercano di combinare con precisione entrambe le periodicità. La qualità di un calendario dipende dalla sua capacità di sincronizzarsi accuratamente con i multipli dei periodi astronomici di riferimento. Per migliorare tale precisione si aggiunge periodicamente un giorno o una frazione di tempo all'anno o al mese. Le modalità per apportare queste modifiche diventano sempre più complesse con l'aumentare del livello di accuratezza richiesto.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Eclittica: È il cerchio massimo risultante dall'intersezione del piano dell'orbita terrestre con la sfera celeste. Coincide con la traiettoria apparente che il Sole percorre sulla sfera celeste nel corso dell'anno.

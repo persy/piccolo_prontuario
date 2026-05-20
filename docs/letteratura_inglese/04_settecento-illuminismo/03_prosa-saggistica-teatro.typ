@@ -92,7 +92,7 @@ Nel 1772 Goldsmith scrisse _Essay on the Theatre; or a Comparison between Laughi
 
 La sua commedia _She Stoops to Conquer_ (_Ella si umilia per vincere_, 1773), insieme a quelle di Sheridan, rappresentò il trionfo della commedia divertente su quella sentimentale.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Prosa saggistica: Gran parte della produzione letteraria in prosa della seconda metà del Settecento è attribuibile a filosofi, storici e politici. Spiccano biografie, saggi e diari, ma è soprattutto il giornalismo a prendere piede, grazie alla nascita di tre importanti periodici: _The Tatler_, _The Spectator_ e _The Guardian_, che offrono uno spaccato fondamentale della società dell'epoca.  

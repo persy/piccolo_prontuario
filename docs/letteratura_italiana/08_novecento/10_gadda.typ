@@ -36,7 +36,7 @@ La trama resta aperta, e in questo modo emerge chiaramente dalle pagine del roma
 Anche il clima politico dell'epoca, ossia il fascismo degli anni '20, contribuisce a plasmare una realtà segnata da ipocrisia e dalla corruzione dei valori etici legati al senso del dovere e allo Stato.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Poetica: Carlo Emilio Gadda (1893-1973) rappresenta un esempio straordinario di letteratura capace di esplorare le sofferenze, i paradossi e le distorsioni della civiltà moderna. Con uno sperimentalismo stilistico che mescola lingua nazionale, dialetto, gergo tecnico e costruzioni letterarie, la sua scrittura crea un mosaico linguistico tanto concreto quanto capace di divenire poetico o surreale.  

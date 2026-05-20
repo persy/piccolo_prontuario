@@ -56,13 +56,13 @@ Il numero di ossidazione può essere positivo, negativo e anche pari a zero. A d
 #figure(
   caption: [Classificazione dei composti chimici inorganici],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -117,13 +117,13 @@ underparen("SO"_3, "anidride
 #figure(
   caption: [Nomenclatura dei composti binari con ossigeno],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -177,13 +177,13 @@ di sodio") + underparen("H"_2"O", "acqua")  $
 #figure(
   caption: [Nomenclatura dei composti binari senza ossigeno],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -232,13 +232,13 @@ Gli idrossidi si formano dalla reazione tra ossidi basici e acqua, e si comporta
 #figure(
   caption: [Nomenclatura degli idrossidi],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -270,13 +270,13 @@ Gli acidi, sia idracidi che ossiacidi, hanno la capacità di liberare protoni H#
 #figure(
   caption: [Nomenclatura degli ossiacidi],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -316,13 +316,13 @@ Per quanto riguarda i sali acidi nella nomenclatura tradizionale, si usano le es
 #figure(
   caption: [Nomenclatura dei sali],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -352,7 +352,7 @@ Per quanto riguarda i sali acidi nella nomenclatura tradizionale, si usano le es
 )
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Nomenclatura IUPAC: Sistematizzazione dei composti inorganici basata sul numero di elementi che li costituiscono, suddividendoli in categorie quali binari, ternari e così via.  

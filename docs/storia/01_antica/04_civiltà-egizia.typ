@@ -64,7 +64,7 @@ Nel 525 a.C., l'Egitto perse la propria autonomia diventando una provincia dell'
 Nonostante questi sviluppi, la vita politica egiziana rimase segnata da conflitti dinastici. Con Cleopatra VII, le sorti dell'Egitto si intrecciarono inevitabilmente con quelle di Roma. Dopo la vittoria di Ottaviano su Antonio nella battaglia di Azio del 31 a.C., l'Egitto fu annesso come provincia romana. Con Diocleziano, il territorio venne suddiviso in tre province e inserito nella diocesi orientale con capitale ad Antiochia. Infine, nel VII secolo, con la conquista araba, l'Egitto entrò a far parte della civiltà islamica.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'Antico Regno: (3000-2000 a.C.) Intorno al 3000 a.C., l'Alto e il Basso Egitto furono unificati sotto la guida dell'Alto Egitto. Durante le dinastie tinite (3000-2665 a.C.), si delineò una solida organizzazione burocratica e amministrativa. Il faraone Zoser e i suoi successori, tra cui Cheope, Chefren e Micerino, rafforzarono la posizione dell'Egitto, portandolo a raggiungere alti livelli di sviluppo culturale e sociale. Tuttavia, gli abusi dei governatori provinciali, che si sottrassero al controllo centrale del faraone, determinarono una prima crisi politica tra il 2200 e il 2050 a.C.

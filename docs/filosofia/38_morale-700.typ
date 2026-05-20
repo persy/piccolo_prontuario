@@ -51,7 +51,7 @@ L'opera postuma _Deontologia o scienza della moralità_ (1834) si occupa di svil
 
 La differenza sta nel metodo. Se la legislazione agisce sugli interessi privati attraverso la minaccia delle punizioni giuridiche, la deontologia cerca di stimolare motivazioni fondate sull'interesse personale senza necessità di coercizione.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Shaftesbury: Shaftesbury afferma l'autonomia della morale rispetto alla religione, individuando il fondamento dell'etica nell'esistenza di un senso o gusto morale innato. Secondo la sua prospettiva, la virtù non è derivabile dalla rivelazione divina, poiché l'essere umano è naturalmente incline al comportamento virtuoso. In opposizione al pessimismo antropologico di Hobbes, Shaftesbury sostiene che gli individui possiedono una predisposizione naturale a convivere in società.

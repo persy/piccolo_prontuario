@@ -119,13 +119,13 @@ Un tipo particolare di carta climatica è la carta meteorologica, che registra l
 #figure(
   caption: [Tipi di carte geografiche],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -224,7 +224,7 @@ Il telerilevamento utilizza strumenti montati a bordo di satelliti artificiali, 
 Questo metodo presenta rispetto agli altri una serie di vantaggi:ogni immagine copre vasti spazi, per cui è possibile avere una visione d'insieme immediata e sintetica di fenomeni e processi. Un'immagine prodotta subito dopo un terremoto o un'inondazione permette di pianificare rapidamente, e su vasta scala, i primi interventi, molto più, per esempio, di un'esplorazione condotta sul terreno, che necessariamente sarebbe molto più lenta; è possibile avere più immagini della stessa area, a pochi giorni di distanza l'una dall'altra, ogni volta che il satellite artificiale passa al di sopra di quell'area. Ciò permette di tenere un particolare evento sotto osservazione pressoché continua e di coordinare eventuali interventi. Ciò è utile, per esempio, per sorvegliare il ciclo vegetativo di molti prodotti agricoli: in caso di difficoltà nella crescita o nella maturazione, si può programmare anticipatamente un'azione di irrigazione o un intervento antiparassitario;poiché le immagini sono elettroniche, possono essere elaborate nei modi più diversi.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Carta geografica: Rappresentazione ridotta, semplificata e simbolica di tutta o di una parte della superficie terrestre.  

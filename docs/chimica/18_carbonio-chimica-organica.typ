@@ -1,6 +1,8 @@
 #import "../../template/chimica/var.typ" : * // Variabili
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
+
 #set math.equation(numbering: "1", supplement: none, number-align: end)
 
 #intro[Il carbonio si distingue come l'elemento più versatile nel panorama chimico per la sua capacità unica di formare una vasta gamma di molecole complesse che costituiscono la base dei composti organici. Il numero di tali composti supera nettamente quello delle sostanze inorganiche formate dagli altri elementi.
@@ -585,13 +587,13 @@ Nel caso in cui una molecola contenga due atomi di carbonio chirali identici, es
 #figure(
   caption: [Esempi di isomeria di struttura],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -699,13 +701,13 @@ Un gruppo funzionale è un insieme specifico di atomi il cui tipo di legame e na
 #figure(
   caption: [I principali gruppi funzionali e le relative classi di composti organici.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -1478,7 +1480,7 @@ $#v(20pt)
 
 - Reazioni di trasposizione: attraverso la formazione di intermedi chimici, un atomo migra da un punto all'altro della molecola modificandone la struttura.  
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Composti saturi: Molecole prive di legami multipli. 

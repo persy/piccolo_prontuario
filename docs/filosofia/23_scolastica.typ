@@ -66,7 +66,7 @@ Il nominalismo estremo, generalmente attribuito a Roscellino di Compiègne (1050
 
 Per Abelardo, gli universali si configurano come segni mentali o "sermones" (discorsi, parole), ovvero termini dotati di significato. In questa prospettiva, l'universale non è altro che un nome che designa un'immagine mentale confusa, estratta dal pensiero grazie alla comparazione fra una pluralità di individui con natura simile. Gugliemo di Ockham spinge ulteriormente questa interpretazione, identificando l'universale con l'atto stesso con cui la nostra mente coglie la realtà.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Severino Boezio: Severino Boezio, nel suo _De consolatione philosophiae_, si dedica non solo a tradurre e commentare i testi logici di Aristotele e Porfirio, ma anche a garantire la continuità tra il pensiero antico e quello medievale. Nelle sue riflessioni logiche, affronta in modo articolato la questione degli universali, sostenendo una posizione di realismo moderato.

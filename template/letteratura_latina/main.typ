@@ -1,19 +1,20 @@
 #import "../_global/template.typ": *
-#import "../_global/config.typ": main_letteratura, main_color
+#import "../_global/config.typ": accent, accent_color, gradient_color
+
+// ==========================================
+// CONFIGURAZIONE UNICA DEL LIBRO
+// ==========================================
+#accent_color.update(accent.lat)
+#gradient_color.update(gradient.lat)
+
+// ==========================================
 
 // Copertina
 #include "cover.typ"
 
-// Colore della materia
-#let selected_color = main_letteratura
-
-// Aggiorna lo stato globale per subfile
-#main_color.update(selected_color)
-
-// 3. Applichiamo il layout del template
+// Layout del template
 #show: template.with(
   title: "Letteratura latina",
-  color: selected_color,  
 )
 
 // Capitoli

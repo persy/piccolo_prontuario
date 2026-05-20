@@ -65,7 +65,7 @@ Nel primo caso si tratta direttamente dei corpi; nel secondo caso, si potrebbe i
 
 In attesa di una riforma radicale del metodo del sapere e della sua applicazione anche all'etica, Cartesio propone tre regole di morale provvisoria: obbedire alle leggi e ai costumi del proprio paese, perseverare con determinazione e risolutezza nelle azioni intraprese, e cercare di vincere o modificare più se stessi che la fortuna. Il tema dell'unione tra anima e corpo, problematico nel contesto dualistico cartesiano, porta successivamente il filosofo, nel trattato _Le passioni dell'anima_ (1649), a delineare una visione fisiologica delle passioni, sostenendo che queste possono essere regolate e indirizzate positivamente attraverso la volontà.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il metodo di Francesco Bacone: Francesco Bacone critica i metodi tradizionali d'indagine e propone una metodologia strutturata in quattro fasi: la liberazione dagli idoli (illusioni), la compilazione di tavole comparate dei dati, la formulazione di ipotesi preliminari e infine la verifica mediante deduzioni e istanze prerogative.

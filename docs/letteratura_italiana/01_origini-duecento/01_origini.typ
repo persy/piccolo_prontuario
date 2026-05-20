@@ -56,7 +56,7 @@ Altri autori legati alla scuola siciliana includono Rinaldo d'Aquino, Giacomino 
 Tra i nomi associati alla scuola siciliana figura tradizionalmente anche Cielo d'Alcamo (probabilmente una forma toscanizzata del diminutivo siciliano "Celi", derivante da Michele). Egli è l'autore del celebre contrasto Rosa fresca aulentissima, un dialogo tra una donna inizialmente ritrosa e il suo innamorato. Quest'opera combina riferimenti stilistici alla tradizione provenzale – come la pastorella e il contrasto – con elementi della cultura popolare e dialettale, alternando immagini e termini delle tradizioni auliche e cortesi a quelli della tradizione vernacolare.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Origini:  La letteratura italiana ha tardato a svilupparsi, principalmente a causa della persistenza del latino come lingua erudita. Durante questo periodo, la produzione culturale era generalmente legata a tematiche teologiche, storiche-cronachistiche o epico-storiche, in contesti altamente formali e aristocratici.

@@ -70,7 +70,7 @@ Le prime opere di Chaucer, come _Il libro della duchessa_ e _La casa della fama_
 Il contributo più significativo di Chaucer alla tradizione metrico-poetica inglese consiste tuttavia nell'introduzione del distico decasillabo rimato. Questo schema metrico compare per la prima volta nelle sue opere _La leggenda delle donne esemplari_ e, soprattutto, nella maggior parte delle _Novelle di Canterbury_, rappresentando una vera innovazione per la poesia inglese.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / La vita: Geoffrey Chaucer (1340/45-1400), nato a Londra, ricevette una formazione classica e svolse incarichi diplomatici e militari. Tra il 1372 e il 1373 viaggiò in Italia, entrando in contatto con la cultura di Dante, Petrarca e Boccaccio. Morì a Londra.

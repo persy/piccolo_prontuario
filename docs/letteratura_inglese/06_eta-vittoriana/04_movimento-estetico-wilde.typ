@@ -55,7 +55,7 @@ _Il ritratto di Dorian Gray_, romanzo cardine nella produzione letteraria di Wil
 
 Quest'opera rappresentava per Wilde una critica alla morale comune e alla concezione vittoriana dell'arte come veicolo educativo. Tuttavia, all'epoca della pubblicazione fu tacciata di immoralità e accusata di esercitare un'influenza negativa sui giovani. Nonostante ciò, ebbe un successo straordinario, anche perché molti vollero identificare Wilde stesso con il personaggio di Dorian. Il romanzo è espressione dell'anticonformismo dell'autore e della sua adesione ai principi dell'estetismo, che informarono la sua intera esistenza. Fu accolto come un manifesto del decadentismo inglese, avendo esaltato i fondamenti teorici di tale corrente: la celebrazione della bellezza suprema, il rifiuto dei limiti morali convenzionali, la teorizzazione della "spiritualizzazione dei sensi" come risposta alla dicotomia tra sensi e spirito e l'inversione del principio tradizionale secondo cui l'arte imita la vita con quello secondo cui è piuttosto la vita a imitare l'arte.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Movimento estetico: L'estetismo, movimento diffusosi negli ultimi decenni dell'Ottocento, non si limitava a essere un'espressione letteraria, ma rappresentava un tentativo più ampio di emanciparsi dai vincoli morali e dai pregiudizi dell'età vittoriana. Al suo centro si ponevano il culto assoluto della bellezza e la concezione dell'arte fine a sé stessa.

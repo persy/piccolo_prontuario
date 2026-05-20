@@ -78,7 +78,7 @@ La struttura del Paradiso segue la medesima regola del 9+1 valida per l'Inferno 
 Gli ultimi due cieli prima dell'Empireo servono al pellegrino per completare la propria preparazione alla visione divina, assistendo al trionfo di Cristo e della Vergine Maria e sostenendo un esame sulla fede, la speranza e la carità. Infine, il pellegrino raggiunge il cielo Empireo, che rappresenta il vero Paradiso ed è la dimora di Dio e dei beati. Qui Dante osserva una "candida rosa", un'immensa disposizione di anime su troni ordinati a forma di anfiteatro. Tra loro ritrova Beatrice, che simbolicamente cede il ruolo di guida a san Bernardo di Chiaravalle. La preghiera di Bernardo ottiene l'intercessione della Vergine Maria, grazie alla quale il poeta può avvicinarsi al mistero ineffabile della divina essenza.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Dante Alighieri nacque a Firenze nel 1265, proveniente da una famiglia della piccola nobiltà guelfa. Nel 1285 contrasse matrimonio con Gemma Donati. La morte di Beatrice, avvenuta nel 1290, figura amata da Dante e sublimata in un ideale di amore spirituale, provocò nel poeta una profonda crisi religiosa. A seguito della divisione interna ai Guelfi in fazioni dei Bianchi e dei Neri, Dante si schierò con i Bianchi, sostenitori di una politica d'indipendenza dal potere papale. Tuttavia, nel 1301 i Neri assunsero il controllo politico ed emisero contro di lui una condanna a morte in contumacia. Questa situazione lo costrinse a vivere in esilio fino alla sua morte, avvenuta a Ravenna nel 1321.

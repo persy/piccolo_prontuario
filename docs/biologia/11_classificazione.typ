@@ -38,13 +38,13 @@ I virus, per loro natura peculiare, non appartengono a nessuno dei suddetti regn
 #figure(
   caption: [I cinque regni dei viventi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -101,7 +101,7 @@ Nei DNA virus, il doppio filamento di DNA che viene introdotto nella cellula pu�
 
 Negli RNA virus è necessario che il materiale genetico venga prima trascritto in una molecola di DNA tramite un enzima chiamato trascrittasi inversa, prima di potersi integrare nella cellula ospite. Un esempio emblematico di RNA virus è il retrovirus HIV, responsabile dell'insorgenza dell'AIDS (sindrome da immunodeficienza acquisita).
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario  <senza_numero>
 
 / Aplodiplonti: Organismi il cui ciclo vitale presenta un'alternanza di generazioni aploidi e diploidi, come avviene in molte piante.

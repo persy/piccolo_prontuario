@@ -255,7 +255,7 @@ Il poeta mantovano continua a essere riconosciuto come testimone dell'ideologia 
 Solo nel corso della seconda metà del Novecento, dopo il lavoro approfondito della filologia ottocentesca, Virgilio ha iniziato a essere spogliato dal mito che lo avvolgeva. Questo ha permesso di recuperarlo nella sua grandezza storica, complessa e talvolta contraddittoria.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Publio Virgilio Marone nacque ad Andes nel 70 a.C. da una famiglia di proprietari terrieri. Studiò a Milano, Roma e Napoli. Dopo che il podere familiare venne confiscato, si stabilì tra Roma e Napoli. Protetto dall'imperatore Ottaviano, entrò a far parte del circolo di Mecenate. Virgilio morì durante il viaggio di ritorno dalla Grecia nel 19 a.C.

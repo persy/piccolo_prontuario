@@ -64,7 +64,7 @@ In Irlanda, i cattolici formarono un esercito in supporto a Giacomo II, ma furon
 La successione a Guglielmo III, che non lasciò eredi diretti, venne definita dall'Atto di disposizione del 1701. Il trono fu assegnato ad Anna, sorella di Mary Stuart, inaugurando così il dominio della casata degli Hannover.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1603-1625: Giacomo I Stuart unificò le corone d'Inghilterra e Scozia, consolidando il potere monarchico. Sostenitore dell'assolutismo, ricorse alla distribuzione di titoli nobiliari per garantirsi la fedeltà politica e il controllo del governo.

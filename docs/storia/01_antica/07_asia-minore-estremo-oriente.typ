@@ -52,7 +52,7 @@ Tra il 770 e il 476 a.C., sorsero diversi centri autonomi trasformatisi in princ
 La decadenza della dinastia Zhou culminò nel III secolo a.C., con l'unificazione realizzata dalla dinastia Qin. Il pensiero di Confucio (550-479 a.C.) fu fondamentale nel processo di unificazione: egli codificò le norme etiche e politiche su cui si sarebbe basato l'ordine sociale cinese. Parallelamente, il Taoismo, legato agli insegnamenti di Lao Tzu (VI-V sec. a.C.), contemporaneo secondo alcuni di Confucio stesso, forniva i principi spirituali su cui si fondava la gerarchia interiore della Cina.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / III millennio: A partire dal 2500 a.C., nella valle dell'Indo si sviluppano le pratiche agricole e l'allevamento, nonché l'uso della scrittura. Sul finire del III millennio a.C., in Cina emerge la dinastia Xia, la prima delle tre dinastie precedenti il processo di unificazione.

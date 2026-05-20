@@ -72,7 +72,7 @@ Mao Tsetung fu un deciso promotore della "rivoluzione permanente", una posizione
 Fuori dalla Cina, il maoismo esercitò un'influenza considerevole con i suoi principi egualitari e antiburocratici. Questa ideologia ispirò molti movimenti extraparlamentari e la cosiddetta nuova sinistra negli anni Sessanta e Settanta, oltre che diverse esperienze guerrigliere nei paesi del Terzo Mondo, come quella del gruppo Sendero Luminoso.  
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1921-1928: Dopo la fondazione del Partito Comunista Cinese (PCC) nel 1921, questo venne accettato nel 1924 come un'organizzazione autonoma all'interno del Kuomintang (KMT), il partito nazionalista guidato da Sun Yat-sen, noto per la sua posizione antigiapponese. Tuttavia, alla morte di Sun nel 1925, le divergenze ideologiche tra il KMT e il PCC, profondamente radicate, portarono alla loro separazione. \ Nel 1926, il nuovo leader nazionalista Chang Kai-shek manifestò apertamente il suo favore verso posizioni più conservatrici. Tra marzo e aprile del 1927, una rivoluzione proletaria a Shanghai fu brutalmente repressa. Eventi simili si verificarono poco dopo a Canton, dove circa 8.000 persone persero la vita.

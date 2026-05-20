@@ -33,7 +33,7 @@ A Heidelberg queste istanze sono ulteriormente sviluppate con visioni mistiche e
 
 Significativo è il contributo di Schelling a Monaco, dove nel biennio 1836-37 egli tiene le celebri Lezioni monacensi. In queste lezioni critica duramente il razionalismo di Hegel, il quale sin dagli esordi aveva espresso una severa opposizione al romanticismo. A Monaco Schelling intensifica il suo orientamento teosofico e irrazionalistico, accompagnando tali riflessioni con una revisione politica conservatrice e restauratrice. Questo segna un distacco dalle posizioni iniziali più vicine al radicalismo rivoluzionario ispirato alla tradizione francese.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Le caratteristiche del romanticismo: Il romanticismo presenta sei aspetti fondamentali: il privilegio del sentimento e dell'intuizione, la valorizzazione della soggettività, una visione tragica della vita, una concezione energetico-organicistica della natura, una rivalutazione dell'arte e della religione, e un'attenzione speciale alla storia.

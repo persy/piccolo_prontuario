@@ -20,13 +20,13 @@ Tra le molteplici funzioni svolte dall'atmosfera nei confronti della superficie 
 #figure(
   caption: [Composizione dell'atmosfera a livello del suolo],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -232,13 +232,13 @@ In base al loro comportamento regolare o irregolare, i venti si classificano in 
 #figure(
   caption: [Scala Beaufort, a un altezza di 10 m su un terreno piatto],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.ter.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.ter // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.ter.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -289,13 +289,13 @@ Si è recentemente appurato l'esistenza di due distinti flussi di correnti a get
 #figure(
   caption: [Classificazione dei venti],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.ter.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.ter // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.ter.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -371,13 +371,13 @@ Dal punto di vista del loro aspetto esteriore, si identificano tre tipi principa
 #figure(
   caption: [Classificazione delle nubi],
   table(
-        stroke: 0.5pt + main_scienze.lighten(90%),
+        stroke: 0.5pt + accent.ter.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.ter // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.ter.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -472,7 +472,7 @@ Grazie ai progressi tecnologici è stato possibile ridurre significativamente il
 I servizi meteorologici nazionali e internazionali producono anche le carte sinottiche, che illustrano la distribuzione dei diversi parametri misurati in un determinato istante, sia al suolo che in quota, su ampie regioni del pianeta. Tali carte, spesso semplificate, sono quelle che troviamo sui quotidiani o vediamo in televisione. Quando integrate con immagini satellitari, permettono di analizzare la disposizione delle masse d'aria e i loro spostamenti nel tempo. Di solito rappresentano l'andamento delle isobare, i fronti caldi e freddi, e spesso anche la direzione del vento.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Anticiclone: Zona caratterizzata da alta pressione atmosferica, delimitata da isobare chiuse con valori di pressione che diminuiscono progressivamente dal centro verso la periferia.  

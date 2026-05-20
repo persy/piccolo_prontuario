@@ -52,7 +52,7 @@ Un esempio emblematico di questa concezione è il dramma _Sei personaggi in cerc
 Con la sua vasta produzione teatrale e narrativa, Luigi Pirandello rappresenta una delle voci più eminenti della cultura italiana del Novecento e, indubbiamente, uno degli autori italiani più conosciuti a livello internazionale. Portavoce della crisi esistenziale dell'uomo moderno, tanto nel rapporto con la propria identità quanto nella relazione con gli altri, egli ha offerto un contributo determinante all'evoluzione del romanzo novecentesco, scardinando i modelli tradizionali del verismo. Ugualmente rilevante è il ruolo che Pirandello ha rivestito nel rinnovamento del teatro tradizionale, come testimonia la sua perdurante fortuna in ambito mondiale.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Luigi Pirandello (1867-1936), originario di Agrigento, si laurea in Germania e si trasferisce a Roma, dove dal 1897 insegna alla facoltà di Magistero. Dopo un dissesto economico e i problemi mentali della moglie, si dedica intensamente alla scrittura. Nel 1924 aderisce al fascismo e nel 1925 fonda il Teatro d'Arte, dando vita a una compagnia propria. È nominato Accademico d'Italia nel 1929 e insignito del premio Nobel per la letteratura nel 1934.

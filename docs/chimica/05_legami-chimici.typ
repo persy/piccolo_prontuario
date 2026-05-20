@@ -1,5 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/alchemist:0.1.9": * // Alchemist, per evidenziazione dinamica di formule matematiche
 
 #intro[Gli atomi isolati sono generalmente instabili e tendono spontaneamente a combinarsi mediante legami chimici, formando molecole e strutture cristalline caratterizzate da una maggiore stabilità. Questo comportamento si spiega con la cosiddetta regola dell'ottetto.
 
@@ -540,13 +541,13 @@ Un esempio tipico è dato dalla molecola dell'acqua ($"H"_2"O"$) e dall'ammoniac
 #figure(
   caption: [Forma della molecola di alcuni composti],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -685,7 +686,7 @@ Punto di fusione o solidificazione: Sempre a 760 mmHg, l'acqua solida trasforma 
 Densità: L'acqua raggiunge la sua densità massima, pari a circa 1 g/cm³, a una temperatura prossima ai 4 °C (3,98 °C). Al di sotto dei 4 °C e fino a 0 °C, la densità diminuisce progressivamente; con la formazione del ghiaccio, si osserva un ulteriore calo brusco fino a circa 0,92 g/cm³, dovuto alla riorganizzazione molecolare nella struttura cristallina del ghiaccio. Questo comportamento anomalo della densità è direttamente correlato alla disposizione ordinata delle molecole nel reticolo cristallino e riveste un'importanza essenziale nel mantenimento della vita acquatica al di sotto delle superfici ghiacciate.]
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Legame chimico: Forza attrattiva che permette agli atomi di unirsi per formare strutture più stabili.  

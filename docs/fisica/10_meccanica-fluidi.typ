@@ -292,7 +292,7 @@ Oltre al pascal, sono comunemente utilizzate altre unità di misura per la press
 L'analisi della distribuzione orizzontale della pressione atmosferica rappresenta il fulcro della meteorologia. Per studiarla, vengono utilizzate carte geografiche sulla cui superficie si tracciano linee che collegano punti con uguale pressione atmosferica (le isobare). La distribuzione della pressione consente di prevedere il movimento delle masse d'aria.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Comprimibilità: La capacità di un corpo di ridurre il proprio volume quando è sottoposto a compressioni esterne.

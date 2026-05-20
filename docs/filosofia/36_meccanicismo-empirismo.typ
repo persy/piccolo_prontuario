@@ -93,7 +93,7 @@ Attraverso tale approccio, Hume riesce a correggere l'accentuazione eccessiva de
 
 Lo stesso metodo empirico ispira l'atteggiamento di Hume nei confronti della religione. In questo campo propone di ricercare nella natura umana il fondamento psicologico delle credenze religiose, che non possono essere giustificate razionalmente sebbene siano stati fatti tentativi in ambito teologico. Alla base del fenomeno religioso sembra esserci piuttosto il sentimento di paura dinanzi all'ignoto della natura e del mondo.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Hobbes: Hobbes considera il corpo materiale ed esteso come l'oggetto della "filosofia prima", interpretando l'idea come l'effetto finale di una serie di azioni meccaniche, generate dal movimento dei corpi.

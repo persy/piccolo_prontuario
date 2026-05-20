@@ -53,7 +53,7 @@ A questa forma di filosofia "normale", ufficiale e condivisa negli ambienti acca
 
 Il risultato è una filosofia "postfilosofica", che non si propone di raggiungere una verità ultima, ma si limita a essere dialogo aperto, saggezza pratica e visione utopistica fondata sulla solidarietà. Tra le opere principali di Rorty: _La filosofia e lo specchio della natura_ (1979), _Conseguenze del pragmatismo_ (1982), _La filosofia dopo la filosofia_ (1989).
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Gadamer: L'obiettivo principale di _Verità e metodo_ di Gadamer è valutare se la verità sia una prerogativa esclusiva dell'indagine scientifica o se essa trovi espressione anche in altri ambiti.  

@@ -117,13 +117,13 @@ Quando si esegue la datazione assoluta di rocce e fossili va considerato che i m
   caption: [Metodi di radiodatazione],
   gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -224,13 +224,13 @@ Le fluttuazioni climatiche e i cambiamenti ambientali associati hanno influenzat
 #figure(
   caption: [Ere geologiche],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -261,7 +261,7 @@ Le fluttuazioni climatiche e i cambiamenti ambientali associati hanno influenzat
 )
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Datazione radiometrica: Tecnica di datazione assoluta che permette di determinare l'età di una roccia attraverso l'analisi degli isotopi radioattivi in essa presenti.  

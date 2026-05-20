@@ -44,7 +44,7 @@ In alcune occasioni emerge anche il lato lirico del poeta, capace di cogliere, c
 Sul piano metrico dominano i distici elegiaci, alternati a faleci e trimetri scazonti. Plinio il Giovane, suo amico e contemporaneo, lo ricorda in una lettera dopo la sua morte con queste parole: "ingegnoso, acuto e pungente; scriveva per lo più con arguzia e acrimonia, ma anche con candida schiettezza".
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: (Bilbilis 40 ca - 104 d.C.) giunge a Roma nel 64 d.C., dove conduce una vita modesta come cliente di ricche famiglie patrizie. Dopo 34 anni torna nella sua città natale.

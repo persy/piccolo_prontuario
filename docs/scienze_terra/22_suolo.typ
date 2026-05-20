@@ -27,13 +27,13 @@ In aree pianeggianti, invece, l'assenza di significative pendenze favorisce l'ac
 #figure(
   caption: [Classificazione dei suoli],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -170,7 +170,7 @@ Dal confronto tra i valori assegnati ai diversi parametri esaminati, si giunge a
 Nonostante i suoli inseriti nelle ultime tre classi non siano considerati adatti alla coltivazione, la loro importanza non va sottovalutata. Essi svolgono un ruolo cruciale nella protezione idrogeologica del territorio. Per questo motivo, è auspicabile che l'Italia adotti un piano integrato di difesa del suolo unitamente a misure di riforestazione o, preferibilmente, di recupero complessivo delle cosiddette terre marginali, ossia quei suoli privi di una chiara vocazione agricola. Per un simile intervento sarebbe indispensabile una cartografia delle potenzialità dei suoli più dettagliata rispetto a quella attuale.]
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Detrito: Frammento di materiale roccioso derivante dalla disgregazione delle rocce a opera di agenti naturali.  

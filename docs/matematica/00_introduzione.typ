@@ -4,8 +4,3 @@
 #intro[#lorem(50)]
 // TODO Presentazione del libro
 
-#lorem(100)
-
-#lorem(100)
-
-#pagebreak()

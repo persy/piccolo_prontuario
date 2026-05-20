@@ -262,7 +262,7 @@ Una lettura superficiale dei romanzi di questo autore potrebbe portarci a consid
 
 Le sue ultime opere, _Nothing_ (Nulla, 1950) e _Doting_ (Infatuazione, 1952), offrono un ritratto della vita nell'alta società londinese del secondo dopoguerra, adottando una modalità narrativa fortemente dialogica che dona loro una tonalità più leggera e disimpegnata.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il nuovo romanzo: Nella seconda decade del XX secolo si assiste a un'importante fase di trasformazione letteraria: una nuova generazione di scrittori sfida le convenzioni del romanzo tradizionale. La psicologia freudiana ha esercitato un'influenza determinante, spingendo i romanzieri a superare la razionalità apparente della coscienza per esplorare i meccanismi profondi e irrazionali dell'inconscio. In questo contesto emerge l'impegno a rappresentare la mente come un continuo flusso di pensieri e percezioni, una concezione che si esprime attraverso la tecnica dello _stream of consciousness_ (flusso di coscienza), utilizzata spesso mediante lo strumento del monologo interiore.

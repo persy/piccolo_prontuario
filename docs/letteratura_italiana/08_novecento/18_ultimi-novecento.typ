@@ -84,7 +84,7 @@ Susanna Tamaro (1957), dopo aver esordito con _La testa tra le nuvole_ (1989) e 
 Andrea Camilleri (1927-2019), noto sceneggiatore e regista televisivo, ha raggiunto una solida notorietà tardiva attraverso romanzi e racconti intrisi dell'atmosfera siciliana: _Un filo di fumo_ (1980), _La concessione del telefono_ (1998) e _Il re di Girgenti_ (2001). La consacrazione definitiva è arrivata con la celebre serie poliziesca incentrata sul commissario Montalbano. In queste opere Camilleri ha saputo fondere magistralmente l'italiano con il dialetto siciliano, dando vita a una lingua apparentemente fittizia: tra i romanzi più noti della serie si annoverano La forma dell'acqua (1994), _Il cane di terracotta_ (1996) e _L'odore della notte_ (2001).
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Zanzotto: Andrea Zanzotto (1921-2011) rappresenta una delle voci poetiche più influenti della seconda metà del Novecento. La sua produzione poetica si configura come un tentativo di celare le nevrosi personali e collettive attraverso una lingua fluida e ricca di suggestioni (_Dietro il paesaggio_, 1951; _IX Ecloghe_, 1962; _Fosfeni_, 1983).

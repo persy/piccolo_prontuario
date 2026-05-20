@@ -71,7 +71,7 @@ Sul piano interno, il Direttorio fu caratterizzato da una profonda instabilità 
 Tuttavia, il collasso di queste repubbliche, causato dall'avanzata della Seconda Coalizione antifrancese (1798) e dal fallimento pressoché totale della spedizione in Egitto contro l'Inghilterra (1798-99), ebbe ripercussioni significative sulla scena interna francese. Il colpo di Stato del 18 brumaio (9 novembre 1799) segnò la fine del Direttorio e affidò la Repubblica alle mani di Napoleone Bonaparte tramite l'istituzione del Consolato.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1789-92: Con la convocazione degli Stati Generali, preceduta dalla redazione dei _cahiers de doléance_, il Terzo Stato, frustrato dalla mancata concessione del voto per testa, si dichiara Assemblea Nazionale. A questa si uniscono, seppur con molta esitazione, il clero e la nobiltà. La reazione della Corte scatena una rivolta a Parigi culminata nella presa della Bastiglia. L'Assemblea Costituente introduce riforme radicali: abolizione del regime feudale, nazionalizzazione dei beni ecclesiastici e costituzione civile del clero. Questi provvedimenti incontrano l'opposizione di Luigi XVI, che tenta la fuga. Catturato a Varennes, il re è costretto a ratificare la nuova Costituzione, trasformando la Francia in una monarchia costituzionale. Nel frattempo, i girondini, per superare l'impasse politico, dichiarano guerra all'Austria.

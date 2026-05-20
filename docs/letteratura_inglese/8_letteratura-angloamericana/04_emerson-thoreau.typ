@@ -65,7 +65,7 @@ Sebbene Thoreau fosse vicino al pensiero di Emerson, si discostò da lui cercand
 
 Anche il suo stile letterario riflette questa inclinazione: abbandonò le astrazioni intellettuali di Emerson, adottando una scrittura più concreta, ricca di poesia, immagini e metafore. Tale profondità espressiva gli valse il titolo di poeta del trascendentalismo.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Trascendentalismo: Il Trascendentalismo rappresenta un movimento filosofico e letterario di fondamentale importanza per l'emancipazione della cultura americana rispetto a quella europea. Tale corrente emerge negli Stati Uniti tra il 1830 e il 1850, sotto l'impulso principale di Ralph Waldo Emerson e Henry David Thoreau. Il movimento formula il principio della _self-reliance_ (fiducia in se stessi), che si traduce nel concetto di _self-culture_ (autonomia culturale) su scala nazionale, ponendo le basi per una nuova identità culturale e intellettuale americana.

@@ -25,7 +25,7 @@ La teoria anassagorea sostiene che ogni cosa racchiude tutte le qualità intrins
 
 Anassagora sviluppa inoltre una teoria della conoscenza che, pur condividendo con Empedocle l'idea del processo fisico-naturale, si fonda sul principio della differenza piuttosto che della somiglianza. In questa prospettiva, la conoscenza emergerebbe dall'interazione tra qualità opposte (o semi) dei corpi che vengono in contatto attraverso gli organi sensoriali.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La pluralità dei principi: Il problema centrale della speculazione condotta dai fisici pluralisti consiste nel mantenere saldo il principio parmenideo dell'essere, cercando allo stesso tempo di salvaguardare la molteplicità dei fenomeni. Per farlo, essi postulano l'esistenza di molteplici principi che, pur conservando intrinsecamente le caratteristiche attribuite all'essere da Parmenide, si combinano e si mescolano dando origine alla varietà del mondo.

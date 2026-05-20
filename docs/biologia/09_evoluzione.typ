@@ -159,7 +159,7 @@ La macroevoluzione invece analizza i mutamenti su scala temporale molto lunga, c
 Inoltre, a livello molecolare, oggi si studia l'evoluzione delle proteine e del DNA, che rappresentano le molecole più complesse e fondamentali per gli organismi viventi. Queste ricerche permettono di indagare le affinità genetiche tra le varie specie e ricostruire con sempre maggiore precisione la storia della vita sulla Terra.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Analogia: Organismi di specie diverse con funzioni simili e morfologia esterna somigliante, ma provenienti da origini distinte.  

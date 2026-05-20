@@ -116,7 +116,7 @@ I personaggi principali dell'atellana erano quattro ruoli fissi: _Pappus_, l'anz
 Si ritiene che il metro utilizzato fosse il _versus quadratus_, formato da due unità metriche ciascuna di due piedi. L'atellana godette di grande popolarità e continuò a essere rappresentata come forma di _exodium_ persino quando Livio Andronico introdusse a Roma il teatro modellato su esempi greci. Nel I secolo a.C., questa forma teatrale acquisì un impianto letterario grazie a Pomponio e Novio, che abbandonarono l'improvvisazione in favore di testi completamente scritti.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Primi secoli (VIII-VII sec. a.C.): Nei primi secoli della sua storia, Roma non possiede ancora una produzione letteraria definita. La cultura è trasmessa oralmente e le opere sono anonime, senza testimonianze specifiche di carattere letterario.

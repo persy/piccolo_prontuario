@@ -58,13 +58,13 @@ Questi tessuti lavorano insieme per formare le diverse strutture, apparati e sis
 #figure(
   caption: [I principali tessuti vegetali],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -172,7 +172,7 @@ Nel contesto della morfologia delle angiosperme, il fiore si sviluppa attorno a 
 I fiori possono essere classificati in base alla loro composizione: si definiscono ermafroditi quando contengono sia stami sia pistilli nello stesso fiore, oppure unisessuali quando sono distinti tra maschili e femminili. Nelle specie dioiche, i fiori maschili e femminili crescono su piante diverse, mentre nelle specie monoiche essi sono presenti sulla medesima pianta. I fiori possono manifestarsi in forma isolata o aggregata in strutture chiamate infiorescenze.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Accrescimento primario: Crescita in lunghezza del fusto e della radice dovuta alla divisione delle cellule del meristema apicale.  

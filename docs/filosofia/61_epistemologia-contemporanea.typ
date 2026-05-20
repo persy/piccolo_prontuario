@@ -61,7 +61,7 @@ La sua critica delle metodologie prese in esame non sfocia nella formulazione di
 
 Questo non implica che la scienza operi senza regole, bensì che essa adotti di volta in volta quelle più adatte ai suoi obiettivi, senza seguire un approccio generale e rigido. Respingendo l'idea che razionalità e metodo siano necessariamente legati, Feyerabend mette in dubbio la possibilità di tracciare una distinzione netta tra scienza e non-scienza, di affermare la superiorità della scienza come forma di conoscenza grazie al suo metodo specifico, e di giustificare la posizione privilegiata che la scienza occupa nella cultura e nella società contemporanea (espressa nell'opera _La scienza in una società libera_, 1978).
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Popper e il falsificazionismo:  Per Popper, la conoscenza umana è intrinsecamente incerta, poiché non esistono verità evidenti su cui possa solidamente poggiarsi.

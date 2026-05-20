@@ -62,7 +62,7 @@ La rivolta contadina di Shimabara, caratterizzata da motivazioni religiose e soc
 Nel 1639, lo Shogun Iemitsu emanò un editto che vietava l'accesso degli stranieri al Giappone e impediva ai giapponesi di lasciare l'arcipelago. Tale provvedimento sancì l'inizio di un periodo di isolamento nazionale che si protrasse per oltre due secoli. Il Giappone uscì da questo isolamento solo nel 1853, quando una flotta statunitense guidata dal commodoro Perry si presentò al largo di Uraga, reclamando l'apertura del paese agli occidentali.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Cina (1271-1911): 

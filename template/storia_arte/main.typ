@@ -1,19 +1,20 @@
 #import "../_global/template.typ": *
-#import "../_global/config.typ": main_arte, main_color
+#import "../_global/config.typ": accent, accent_color, gradient_color
+
+// ==========================================
+// CONFIGURAZIONE UNICA DEL LIBRO
+// ==========================================
+#accent_color.update(accent.art)
+#gradient_color.update(gradient.art)
+
+// ==========================================
 
 // Copertina
 #include "cover.typ"
 
-// Colore della materia
-#let selected_color = main_arte
-
-// Aggiorna lo stato globale per subfile
-#main_color.update(selected_color)
-
-// 3. Applichiamo il layout del template
+// Layout del template
 #show: template.with(
-  title: "Storia dell'arte",
-  color: selected_color,  
+  title: "Storia dell'Arte",
 )
 
 // Capitoli
@@ -72,7 +73,7 @@
 
 = Dal rococò al neoclassicismo
 
-#include "../../docs/storia_arte/13_rococò-neoclassicismo.typ"
+#include "../../docs/storia_arte/13_rococo-neoclassicismo.typ"
 
 = La pittura nell'Europa romantica
 

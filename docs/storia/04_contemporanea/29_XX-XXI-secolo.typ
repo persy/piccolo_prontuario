@@ -176,7 +176,7 @@ Sul fronte militare, il riassetto strategico in Europa ha visto un ruolo signifi
 L'avanzata dell'Occidente verso i territori dell'ex impero sovietico si è spinta fino alle aree periferiche della Russia, con la presenza di truppe statunitensi nel Caucaso, in Georgia (in relazione alla questione cecena), e in Asia centrale, in Kirghizistan e Uzbekistan. Questi interventi si sono inseriti nel contesto della crisi afghana in evoluzione.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Stati Uniti: Dopo il duplice mandato presidenziale (1992-2000) del democratico Bill Clinton, nel 2001 il repubblicano George W. Bush ha adottato una politica estera improntata all'unilateralismo. L'attacco terroristico dell'11 settembre 2001, portando per la prima volta la guerra al cuore del territorio americano, ha determinato l'avvio delle operazioni militari contro l'Afghanistan (2001) e successivamente contro l'Iraq (2003).

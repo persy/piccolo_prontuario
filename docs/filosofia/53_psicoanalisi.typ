@@ -77,7 +77,7 @@ Il simbolo non rappresenta un significato statico, bensì un'azione che mantiene
 
 Jung amplia così il concetto di psiche rispetto alla visione naturalistica proposta da Freud, dove questa era identificata con le pulsioni biologiche dell'uomo come organismo. Jung integra invece la psiche con la dimensione storica, considerando la storia come il contesto in cui la psiche si modifica in relazione alle trasformazioni epocali.  
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Freud e la psicoanalisi:  Freud giunge alla formulazione del concetto di inconscio studiando le nevrosi, individuandone la causa in rappresentazioni mentali vissute come inaccettabili e che il soggetto respinge, creando un conflitto interno che le spinge nell'inconscio.  

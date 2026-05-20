@@ -68,7 +68,7 @@ Bruno fu anche poeta: scrisse tre poemi latini ispirati al modello di Lucrezio (
 Filosofo aperto e libero da pregiudizi, Giordano Bruno rappresentò un ponte verso la modernità scientifica e filosofica. La sua scrittura, vigorosa e ricca di immagini, anticipò lo stile barocco e consolidò il suo valore come pensatore innovativo e anticipatore.]
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Nato a Sorrento (1544-1595), visse un'esistenza segnata da drammatiche esperienze personali e da frequenti spostamenti tra numerose corti italiane. Il poeta fu tormentato da disturbi psichici, angosce derivanti dalla rigida vita cortigiana e dalle tensioni legate alla sua ricerca creativa.

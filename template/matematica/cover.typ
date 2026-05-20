@@ -1,8 +1,8 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Matematica",
-  color: main_scienze,
-  image: image("../../docs/matematica/img/cover.png", width: 60%),
+  subject: "Matematica",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
   arguments: "Algebra · Geometria · Analisi · Logica · Statistica · Probabilità"
 )

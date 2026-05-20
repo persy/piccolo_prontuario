@@ -82,7 +82,7 @@ La svolta per l'unificazione della Spagna arrivò con il matrimonio di Ferdinand
 Nonostante gli sforzi, l'unificazione completa non fu raggiunta immediatamente, ma queste iniziative rappresentarono la premessa di una tendenza all'unità che caratterizzerà il XV secolo.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Crisi dell'Impero: Bonifacio VIII, noto per aver indetto il Giubileo del 1300, si confrontò aspramente con Filippo IV il Bello, re di Francia (1285-1324). La tensione culminò nel 1303 con la prigionia del pontefice ad Anagni, orchestrata da Filippo. Successivamente, con l'elezione di Clemente V nel 1309, la sede papale venne trasferita ad Avignone, rimanendovi fino al 1377. \ Nel 1324 Marsilio da Padova pubblicò il _Defensor Pacis_, opera cardine del pensiero politico medievale. Nel 1338 Ludovico il Bavaro decretò che il papa non avrebbe dovuto interferire nell'elezione dell'imperatore. A Roma, il tentativo di Cola di Rienzo di restaurare la repubblica fallì nel 1347. Nel 1356 Carlo IV istituì un collegio composto da tre ecclesiastici e quattro laici per la nomina dell'imperatore. La crisi della Chiesa raggiunse il culmine nel 1378 con l'inizio dello Scisma d'Occidente, caratterizzato dalla contemporanea elezione di due papi, evento che si protrasse fino al 1417.

@@ -59,7 +59,7 @@ La metafora del viaggio assume l'aspetto di un "viaggio finale" ne _Il congedo d
 Nelle ultime opere, _Il franco cacciatore_ (1982), _Il conte di Kevenhuller_ (1986) e _Res amissa_ (1991), il poeta si trasforma in un simbolico cacciatore a caccia di Dio, dell'infanzia e del passato in una ricerca incessante e disperata, dove "l'inseguito diventa inseguitore", il cacciatore diventa preda, senza alcuna speranza né per sé né per gli altri.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Betocchi: Carlo Betocchi (1899-1985) è noto per un realismo poetico che, pur celebrando le cose concrete, si slancia costantemente verso l'assoluto. Le sue raccolte più significative includono _Realtà vince il sogno_ (1932) e _L'estate di san Martino_ (1961).

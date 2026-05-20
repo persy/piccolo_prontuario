@@ -23,13 +23,13 @@ Le siltiti e le argilliti sono caratterizzate da particelle a grana molto fine: 
   caption: [Clasti e le rocce sedimentarie clastiche],
   gap: 0pt, // Allinea la didascalia alla tabella
 table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.ter.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.ter // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.ter.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -66,13 +66,13 @@ Anche i carboni rientrano tra le rocce organogene, essendo costituiti da resti d
 #figure(
   caption: [Classificazione dei carboni],  
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -175,7 +175,7 @@ La stratificazione offre superfici di riferimento essenziali per definire l'ordi
 La disposizione iniziale degli strati è orizzontale, configurandosi durante la sedimentazione; essi si sovrappongono creando una sequenza stratigrafica. Tuttavia, potenti forze tettoniche possono alterare questa disposizione originaria, dislocando, piegando o fratturando gli strati. Due strati sono definiti concordanti se mantenuti paralleli; discordanti se risultano non paralleli. La spinta laterale provoca spesso deformazioni, con la formazione di pieghe che tuttavia preservano il parallelismo tra gli strati.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Arenaria: Roccia sedimentaria costituita da granuli di sabbia legati tra loro da un cemento composto da calcio, argilla o silice.  

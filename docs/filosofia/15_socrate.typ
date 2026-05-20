@@ -47,7 +47,7 @@ La scuola megarica, creata da Euclide (V-IV secolo a.C.), tenta una sintesi tra 
 
 Infine, la scuola di Elide, fondata da Fedone, un discepolo meno originale ma comunque importante della cerchia socratica, radicalizza l'intellettualismo del maestro. Fedone insiste sull'onnipotenza dell'intelletto e sulla conoscenza in ambito morale.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La questione socratica: La questione socratica riguarda il problema di ricostruire il pensiero di Socrate, che scelse consapevolmente di non lasciare nulla per iscritto. Le uniche testimonianze sul suo pensiero provengono dalle opere di Aristofane, Platone, Senofonte, Aristotele e dai cosiddetti socratici minori.

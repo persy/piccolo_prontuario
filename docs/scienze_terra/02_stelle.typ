@@ -60,13 +60,13 @@ Le distanze delle stelle rispetto alla Terra vengono misurate utilizzando unità
   caption: [Unità di misura delle distanze astronomiche],
   gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -135,13 +135,13 @@ Le fasi evolutive di una stella corrispondono ai diversi tipi di stelle osservab
 #figure(
   caption: [Stelle più vicine alla Terra],  
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -201,7 +201,7 @@ in ordine decrescente di luminosità (alfa, beta ecc.), accompagnate dall'abbrev
 Per molti anni, il catalogo di stelle più completo è stato quello dello Smithsonian Astrophysical Observatory (SAO), contenente dati su circa 250.000 stelle, tra le posizioni e le loro caratteristiche. Successivamente, con lo sviluppo del telescopio spaziale Hubble, è stato introdotto un nuovo catalogo di riferimento che raccoglie informazioni su circa 2 milioni di stelle.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Collasso gravitazionale: Contrazione di una massa gassosa dovuta alla forza gravitazionale che agisce tra le sue diverse parti.

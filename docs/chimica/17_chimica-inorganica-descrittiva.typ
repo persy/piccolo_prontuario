@@ -1,5 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
 #intro[La chimica inorganica studia le proprietà degli elementi analizzandole in relazione alla loro posizione nella tavola periodica e alle configurazioni elettroniche che ne derivano. Essa descrive lo stato naturale degli elementi, i processi industriali e di laboratorio impiegati per la loro preparazione, nonché i loro principali utilizzi. Inoltre, esamina le proprietà, i metodi di sintesi e gli impieghi dei principali composti di ciascun elemento, escludendo tuttavia la maggior parte dei composti del carbonio, che costituiscono il focus della chimica organica.]
 
@@ -57,13 +58,13 @@ Essi interagiscono direttamente con numerosi non metalli, inclusi gli alogeni, l
 #figure(
   caption: [Caratteristiche dei metalli alcalini (Gruppo IA)],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -90,13 +91,13 @@ Rispetto ai metalli alcalini, questi elementi presentano maggiore durezza, punti
 #figure(
   caption: [Caratteristiche dei metalli alcalino-terroso (Gruppo IIA)],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -159,13 +160,13 @@ $
 #figure(
   caption: [Caratteristiche degli elementi del gruppo IIIA],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -193,13 +194,13 @@ Carbonio e silicio sono particolarmente diffusi in natura e svolgono ruoli fonda
 #figure(
   caption: [Caratteristiche degli elementi del gruppo IVA],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -225,13 +226,13 @@ Mentre azoto e fosforo sono non metalli, arsenico e antimonio sono semimetalli, 
 #figure(
   caption: [Caratteristiche degli elementi del gruppo VA],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -257,13 +258,13 @@ Questi elementi formano legami utilizzando 2, 4 o 6 elettroni, assumendo così n
 #figure(
   caption: [Caratteristiche degli elementi del gruppo VIA],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -291,13 +292,13 @@ Gli alogeni sono molto reattivi, con il fluoro che mostra la massima reattività
 #figure(
   caption: [Caratteristiche degli alogeni (gruppo VIIA)],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -323,13 +324,13 @@ Questi elementi si distinguono per essere gas monoatomici incolore, insapore e i
 #figure(
   caption: [Caratteristiche dei gas nobili (gruppo VIIIA)],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -359,13 +360,13 @@ Il sottogruppo VIII B è composto da nove elementi che mostrano significative so
 
 #figure(
   caption: [Caratteristiche degli elementi di transizione],   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white

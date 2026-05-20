@@ -177,7 +177,7 @@ Radcliffe influenzò profondamente gli autori della generazione successiva, come
 
 All'interno del panorama gotico spicca anche Mary Wollstonecraft Shelley (1797-1851), seconda moglie del poeta romantico Percy B. Shelley, autrice dell'iconico _Frankenstein, or the Modern Prometheus_ (_Frankenstein, o il moderno Prometeo_, 1817). Il romanzo racconta la storia di uno scienziato che, attraverso processi elettrochimici e con parti prelevate da cadaveri, riesce a creare un essere umano, il quale però finisce per ribellarsi al suo creatore. Questa straordinaria opera gode di un successo ininterrotto fino ai giorni nostri e ha ispirato numerose adattamenti cinematografici.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Romanzo: Il romanzo è la forma letteraria che meglio rispecchia i profondi cambiamenti del contesto sociale. Genere tipicamente borghese, si rivolge agli ideali e ai gusti della classe media, adottando un'espressione realistica e distanziandosi dai temi e dai modelli della tradizione letteraria passata.

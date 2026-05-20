@@ -64,7 +64,7 @@ Con le truppe esperte impegnate in Spagna e privato di risorse adeguate, mentre 
 Nel marzo del 1815 Napoleone riuscì a fuggire dalla sorveglianza inglese e fece ritorno in Francia il primo giorno del mese. La popolazione, insoddisfatta dal regime dei Borboni, favorì il suo ritorno al potere durante i "Cento Giorni". Tuttavia, fu definitivamente sconfitto nella battaglia di Waterloo il 18 giugno 1815 dalla Settima coalizione. Abdicò nuovamente il 22 giugno e si consegnò agli inglesi, che lo deportarono sull'isola di Sant'Elena. Qui morì il 5 maggio 1821. Le sue ceneri vennero riportate in patria solo nel 1840.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'ascesa: Nato in Corsica nel 1769, Napoleone acquisì notorietà con l'assedio di Tolone, guadagnandosi il comando dell'Armata d'Italia. Alla guida di questa forza, conquistò il Nord Italia e impose all'Austria la Pace di Campoformio nel 1797, dimostrando straordinarie capacità strategiche e una marcata autonomia politica.

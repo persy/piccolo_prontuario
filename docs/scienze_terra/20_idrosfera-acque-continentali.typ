@@ -108,13 +108,13 @@ La maggior parte delle acque superficiali del pianeta si trova in forma solida n
 #figure(
   caption: [Tipi di ghiacciaio],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -223,7 +223,7 @@ Durante il disgelo, la banchisa può frammentarsi in blocchi più piccoli che po
 Nelle aree circumpolari vicine ai continenti, le lingue glaciali dei ghiacciai terrestri possono raggiungere il mare, frantumandosi e formando iceberg. Questi blocchi di ghiaccio galleggiante sono caratterizzati da uno spessore importante, maggiore rispetto a quello della banchisa.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Ablazione: Processo mediante il quale la superficie dei ghiacciai si riduce, principalmente a causa dell'aumento delle temperature, che determina la fusione del ghiaccio.  

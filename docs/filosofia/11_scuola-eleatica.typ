@@ -43,7 +43,7 @@ Melisso corregge la visione parmenidea della finitudine dell'essere, che implica
 
 Come Zenone, Melisso elimina la via dell'opinione plausibile individuata da Parmenide sulla base dei sensi e riduce la conoscenza alla strada dell'assoluta verità. Egli si sforza di delineare una concezione positiva dell'essere, laddove Parmenide si era concentrato principalmente su ciò che l'essere non può essere.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Senofane: Senofane sviluppa una critica razionalistica nei confronti dell'antropomorfismo attribuito agli dèi, proponendo una visione nella quale Dio viene identificato con il cosmo e caratterizzato da elementi quali l'unità, la superiorità rispetto agli altri dèi, l'onniscienza e l'onnipotenza. Parallelamente, egli presenta una dottrina fisica che individua nella Terra il principio fondante, definito come arché. Inoltre, Senofane formula principi etici che esaltano la centralità della dimensione interiore e intellettuale dell'uomo.

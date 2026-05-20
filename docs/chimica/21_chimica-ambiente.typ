@@ -1,6 +1,7 @@
-#import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
 #intro[L'esistenza degli organismi viventi dipende dal continuo scambio di elementi e composti chimici tra la biosfera e l'ambiente fisico. Grazie alla fotosintesi, questi composti vengono sottratti dall'ambiente e assimilati dagli organismi viventi, che li trasformano in materia organica. Successivamente, tali sostanze vengono restituite all'ambiente per essere nuovamente utilizzate, in un processo noto come cicli biogeochimici.
 
@@ -119,12 +120,12 @@ Una volta immessa nell'atmosfera, ciascuna sostanza gassosa può provocare effet
   node((1,2), [Respirazione \ (piante, animali, \ organismi decompositori)], name: <5>),
 
 
-	edge(<1>, <2>,  "->", label: text(main_tecnologia)[CO#sub[2]],),
-	edge(<2>, <3>, "->", label: text(main_tecnologia)[O#sub[2]]),
-  edge(<3>, <4>, "->", label: text(main_tecnologia)[O#sub[2]]),
-  edge(<3>, <5>, "->", label: text(main_tecnologia)[O#sub[2]]),
-  edge(<4>, (-1, 2), (-1, 0), <1>, "->", label: text(main_tecnologia)[CO#sub[2]],),
-  edge(<5>, (2, 2), (2, 0), <1>, "->", label: text(main_tecnologia)[CO#sub[2]]),
+	edge(<1>, <2>,  "->", label: text(accent.chi)[CO#sub[2]],),
+	edge(<2>, <3>, "->", label: text(accent.chi)[O#sub[2]]),
+  edge(<3>, <4>, "->", label: text(accent.chi)[O#sub[2]]),
+  edge(<3>, <5>, "->", label: text(accent.chi)[O#sub[2]]),
+  edge(<4>, (-1, 2), (-1, 0), <1>, "->", label: text(accent.chi)[CO#sub[2]],),
+  edge(<5>, (2, 2), (2, 0), <1>, "->", label: text(accent.chi)[CO#sub[2]]),
 	
 )
 
@@ -153,13 +154,13 @@ Si presume che tale aumento dei gas serra porti a un'intensificazione dell'effet
 #figure(
   caption: [I principali inquinanti atmosferici.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -211,13 +212,13 @@ I processi di depurazione delle acque si suddividono tradizionalmente in tre cat
 #figure(
   caption: [Principali fonti di inquinamento delle acque.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -261,7 +262,7 @@ Tra le principali strategie e misure atte a difendere la qualità dell'ambiente 
 Queste misure contribuiscono a una gestione più sostenibile delle risorse ambientali, limitando i danni provocati dall'inquinamento e preservando le condizioni ecologiche fondamentali per le generazioni future.
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario
 
 / Biosfera: L'insieme degli ambienti terrestri fisici (idrosfera, atmosfera e litosfera) capaci di sostenere la vita.

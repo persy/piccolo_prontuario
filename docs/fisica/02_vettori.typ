@@ -56,7 +56,7 @@ Trigonometricamente, il modulo _R_ può anche essere definito come dato dal prod
 $ italic(R) = italic(A B) = italic(A B) sin theta.alt_(italic(A B)) $
 ]
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Scalari: Categoria di grandezze fisiche che vengono definite esclusivamente dal loro valore numerico. Esempi comuni includono la temperatura, il tempo e la massa di un corpo.  

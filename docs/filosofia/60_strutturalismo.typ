@@ -50,7 +50,7 @@ In particolare, Foucault esplora le modalità attraverso cui follia e malattia s
 
 Negli sviluppi successivi del suo pensiero, Foucault approfondisce il tema del potere, analizzando in che modo esso si intrecci indissolubilmente al sapere, come illustrato in _Microfisica del potere_ (1977). La fase finale della sua ricerca è dedicata al tema della sessualità, affrontata con l'intento di individuare una nuova concezione di soggettività, una sfida che si mostra complessa alla luce delle sue precedenti formulazioni teoriche (_Storia della sessualità: La cura di sé_, 1984).
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Lévi-Strauss: Lévi-Strauss basa la sua ricerca antropologica sul concetto di struttura, intesa come "sistema di relazioni latenti nell'oggetto". 

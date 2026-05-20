@@ -48,13 +48,13 @@ Una caratteristica importante del codice genetico è la sua ridondanza: ogni amm
 #figure(
   caption: [Tabella con i sessantaquattro codoni e gli amminoacidi corrispondenti ad ognuno di essi.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.odd(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -122,7 +122,7 @@ Nelle cellule eucariote, invece, la doppia elica di DNA è associata a proteine 
 La replicazione deve essere estremamente precisa affinché le cellule figlie funzionino correttamente. A questo scopo, la DNA-polimerasi svolge un ruolo cruciale nel correggere o prevenire errori nel riconoscimento e nell'appaiamento delle basi. Tuttavia, nonostante l'efficienza del meccanismo di controllo, possono verificarsi mutazioni con una frequenza minima (circa un errore ogni 100 milioni di nucleotidi appaiati correttamente). Queste mutazioni alterano la sequenza delle basi azotate e, di conseguenza, l'informazione genetica. Pur rappresentando un potenziale problema, le mutazioni sono anche alla base della variabilità genetica e quindi dell'evoluzione biologica.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Anticodone:  L'anticodone è una sequenza composta da tre basi azotate sul t-RNA che, durante il processo di sintesi proteica, si lega al codone complementare presente sull'm-RNA.

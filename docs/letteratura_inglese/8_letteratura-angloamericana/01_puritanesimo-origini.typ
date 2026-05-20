@@ -72,7 +72,7 @@ Un altro filone analogo riguarda le narrazioni sulla schiavitù degli afroameric
 Altre figure degne di nota sono Phillis Wheatley (1753-1784), prima poetessa afroamericana a pubblicare un volume di poesie, e Sarah Kemble Knight, insegnante nota per un resoconto di viaggio ricco di impressioni vivaci e osservazioni brillanti che si distinguevano dai consueti toni moralistici della prosa dell'epoca.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Smith: John Smith (1580-1631) rappresenta un punto cardine nella letteratura angloamericana, essendo autore del primo libro in lingua inglese scritto sul suolo americano. Le sue opere, tra cui le relazioni sulla Virginia (1609) e sul New England (1616), assumono una rilevanza particolare poiché delineano i caratteri essenziali della letteratura coloniale dell'epoca. In questi testi, l'America viene ritratta come una società aperta, capace di offrire opportunità di vita prospera e soddisfacente anche a chi non appartiene alle élite sociali.

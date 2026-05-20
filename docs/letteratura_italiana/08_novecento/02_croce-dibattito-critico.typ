@@ -124,7 +124,7 @@ Dopo aver superato una iniziale adesione all'estetica di Benedetto Croce, Debene
 Una peculiare attenzione fu dedicata al personaggio narrativo, che Debenedetti interpretò come esito della storia occidentale. Seguendo questa prospettiva analizzò opere di Federigo Tozzi, Luigi Pirandello, Italo Svevo, Marcel Proust e James Joyce nei due saggi fondamentali: _Il personaggio-uomo_ (1970) e _Il romanzo del Novecento_ (1971). Debenedetti trattò inoltre nell'ambito della narrativa le vicende di ebrei perseguitati dalle leggi razziali nei romanzi _Amedeo e altri racconti_ (1926), _Otto ebrei_ (1944) e _16 ottobre 1943_ (1945), offrendo una testimonianza intensa e drammatica del suo tempo.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Croce: Benedetto Croce (1866-1952), filosofo fondatore del neoidealismo italiano, storiografo e critico letterario, è un punto di riferimento insuperabile per l'estetica e la critica letteraria del Novecento in Italia. Centrale nella sua teoria è il concetto di intuizione-espressione, che interpreta l'arte come rappresentazione di un sentimento. L'opera d'arte, infatti, non è una mera imitazione della realtà, ma la manifestazione autonoma di come l'artista percepisce e intuisce tale realtà. In essa, forma e contenuto si fondono in una totalità unica. Fautore di una visione dell'arte come perfezione armonica, Croce si oppose ad avanguardie e innovazioni che mettevano in discussione tale concezione.

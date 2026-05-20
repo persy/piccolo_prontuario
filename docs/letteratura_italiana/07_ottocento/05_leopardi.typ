@@ -106,7 +106,7 @@ Leopardi non fu pienamente apprezzato dai suoi contemporanei, a eccezione di poc
 Parallelamente, emerse l'importanza del pensiero laico e progressista di Leopardi. In tempi più recenti, si è posto l'accento su Leopardi filosofo: sul suo nichilismo, collocandolo in relazione con le correnti irrazionalistiche e del pensiero "negativo" dell'Occidente, da Schopenhauer a Nietzsche fino a Benjamin, i quali hanno dedicato riflessioni significative al poeta di Recanati.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita:  Poeta e filologo autodidatta e precoce, Giacomo Leopardi trascorse gran parte della sua esistenza nella sua città natale, Recanati, tormentato da gravi problemi di salute. Nonostante ciò, fece brevi soggiorni a Roma, Milano, Firenze, Pisa e Bologna, per poi stabilirsi definitivamente a Napoli, dove trovò la morte.  

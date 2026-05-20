@@ -38,7 +38,7 @@ Brunetto contribuì inoltre allo sviluppo della prosa elevata con la _Rettorica_
 Bono Giamboni (circa 1240-1292), anch'egli fiorentino e giudice di professione, si distinse per i suoi pregevoli volgarizzamenti: l'_Arte della guerra_ di Vegezio e le _Storie contro i pagani_ di Paolo Orosio. Tra le sue opere originali spicca il _Libro de' vizi e delle virtudi_ (circa 1270), un testo allegorico-didascalico che riesce a combinare con armonia elementi etico-filosofici con quelli narrativi-allegorici, dando vita alla prima opera dottrinale autenticamente autonoma.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Prosa:  La diffusione della prosa in volgare è stata più lenta rispetto a quella della poesia. Il primo autore di rilievo fu Guido Faba, un letterato bolognese vissuto tra il 1190 e il 1243. Egli introdusse modelli epistolari in volgare con opere come _Gemma purpurea_ (1239) e _Parlamenta et epistole_ (1242-1243).

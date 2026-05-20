@@ -60,7 +60,7 @@ Protagonista di questa stagione fu Pericle, stratego per lungo tempo, promotore 
 Nel IV secolo a.C., Atene cercò di rinascere politicamente sostenendo dapprima Tebe nella lotta contro Sparta; tuttavia, dopo la vittoria tebana a Leuttra nel 371 a.C., cercò un riavvicinamento alla potenza spartana. L'opposizione all'espansionismo macedone si concluse tragicamente nella battaglia di Cheronea nel 338 a.C. Da quel momento, sotto il dominio macedone e poi romano, Atene mantenne il prestigio di grande centro culturale, fama che conservò fino alla tarda antichità.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Origini di Sparta e Atene: Nel X secolo a.C., i Dori penetrarono nel Peloponneso e fondarono cinque insediamenti: Limne, Pitane, Mesoa, Cinosura e Amicle. Questi vennero unificati nel VIII secolo a.C. dal re Teleclo, dando origine alla città di Sparta. Intorno al nucleo di Atene, capitale dell'Attica, l'unificazione dei piccoli centri tardomicenei della regione venne tradizionalmente attribuita al re Teseo.

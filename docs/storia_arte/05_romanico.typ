@@ -139,7 +139,7 @@ Anche la produzione scultorea raggiunse altissimi livelli artistici grazie alle 
 In epoca romanica, si assistette a un notevole sviluppo dell'arte monastica, che diede vita a una ricca produzione artistica comprendente miniature, pitture su tavola, opere di oreficeria (soprattutto altari, portali e reliquiari in oro) e arazzi.
 
 #pagebreak()
-#set page(fill: main_arte.lighten(90%))
+#set page(fill: accent.art.lighten(90%))
 == In sintesi <senza_numero>
 
 / Origini del romanico: Il termine "romanico" si riferisce a una corrente artistica europea fiorita tra l'XI e il XIII secolo, caratterizzata principalmente da un rinnovato entusiasmo per l'edilizia, che trova espressione massima nelle grandi cattedrali, simbolo per eccellenza di quest'epoca. \ Un tratto distintivo del periodo è la crescita del sistema abbaziale, alimentata dal fervore degli ordini monastici. Accanto a ciò, si osserva anche il risveglio della scultura in pietra e la significativa diffusione dell'oreficeria e della miniatura. Per quanto concerne la pittura, più eterogenea rispetto ad altre forme artistiche, essa trova nell'affresco e nei dipinti su tavola le sue principali modalità di espressione.  

@@ -56,13 +56,13 @@ Il calore latente di vaporizzazione è definito come l'energia necessaria per tr
 #figure(
   caption: [Punto di ebollizione dell'acqua a varie pressioni],
   table(
-        stroke: 0.5pt + main_tecnologia.lighten(90%),
+        stroke: 0.5pt + accent.chi.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_tecnologia // Colore header
+      return accent.chi // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_tecnologia.lighten(90%)
+      return accent.chi.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -134,13 +134,13 @@ Un esempio emblematico è rappresentato dall'acqua: pur avendo una massa molecol
 #figure(
   caption: [Esempi di tensione di vapore],
   table(
-        stroke: 0.5pt + main_tecnologia.lighten(90%),
+        stroke: 0.5pt + accent.chi.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_tecnologia // Colore header
+      return accent.chi // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_tecnologia.lighten(90%)
+      return accent.chi.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -156,7 +156,7 @@ Un esempio emblematico è rappresentato dall'acqua: pur avendo una massa molecol
 )  
 )
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Proprietà generali dei liquidi: I liquidi possiedono un volume proprio e assumono la forma del recipiente che li contiene. Sono incomprimibili e la diffusione al loro interno avviene lentamente. 

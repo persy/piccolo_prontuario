@@ -57,7 +57,7 @@ Nel teatro di Shaw, caratterizzato da una straordinaria vitalità nelle sue espr
 
 In determinate circostanze, l'umorismo, che si richiama alle opere di Oscar Wilde, lascia spazio a una profonda vibrazione dell'animo umano. Ciò risulta evidente nella tragicommedia _Saint Joan_ (_Santa Giovanna_, 1923), una delle opere più mature e celebrate dell'arte teatrale di Shaw.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Teatro: Tra il Settecento e l'Ottocento, il teatro inglese non produsse opere di rilievo letterario, limitandosi a farse e melodrammi. Prima di autori come Oscar Wilde e George Bernard Shaw, solo Henry Arthur Jones (1851-1929) e Arthur Wing Pinero (1855-1934) si distinsero per la sottigliezza intellettuale e l'attualità dei temi trattati. L'influenza del drammaturgo norvegese Henrik Ibsen fu altresì determinante nel rinnovamento della drammaturgia inglese.

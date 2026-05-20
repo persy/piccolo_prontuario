@@ -97,7 +97,7 @@ In seguito, con _Eros e civiltà_ (1955), Marcuse si avvicina alla psicoanalisi 
 
 La critica radicale alla società contemporanea viene ulteriormente approfondita nel saggio _L'uomo a una dimensione_ (1964), dove descrive la civiltà industriale avanzata come una forma di autoritarismo mascherato. In questa realtà tutto sembra possibile e a tutti sembra garantita libertà assoluta, ma essa risulta svuotata di un reale contenuto, dando origine a quella che definisce "tolleranza repressiva".
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il revisionismo: Bernstein si oppone alla previsione marxiana del crollo del sistema capitalistico, proponendo una strategia di riforma sociale non rivoluzionaria, nota come revisionismo.

@@ -1,9 +1,8 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Scienze
-  della Terra",
-  color: main_scienze,
-  image: image("../../docs/scienze_terra/img/cover.png", width: 60%),
+  subject: "Scienze della Terra",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
   arguments: "Astronomia · Geologia · Mineralogia · Meteorologia · Idrologia · Geomorfologia · Ecologia"
 )

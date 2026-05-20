@@ -140,7 +140,7 @@ Edna O'Brien (1932), scrittrice irlandese di grande sensibilità, si distingue p
 
 Tra i romanzi più celebri si trovano _The country girls_ (_Ragazze di campagna_, 1960), _August is a wicked month_ (_Agosto è un pessimo mese_, 1965), _A pagan place_ (_Un luogo pagano_, 1970), _A fanatic heart: selected stories_ (_Un cuore fanatico: storie scelte_, 1984) e _House of splendid isolation_ (_Uno splendido isolamento_, 1994).
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Golding: William Golding (1911-1993) inizialmente si dedica al teatro, per poi scrivere il celebre romanzo _Il signore delle mosche_ (1954), una rappresentazione trasparente degli effetti del secondo conflitto mondiale. Nel testo esplora i meccanismi psicologici che portano al male nelle coscienze individuali. Riceve il Nobel per la letteratura nel 1983.  

@@ -112,7 +112,7 @@ Da Ponte, narratore che visse una vita travagliata e morì a New York in fuga da
 In ogni nota e verso si avverte il fremito di una catastrofe imminente ma, al tempo stesso, la bellezza di un vuoto rinnovato. L'armonia tra testo e musica raggiunge vette mai toccate: una modernità straordinaria che lascia ancora oggi un senso di stupore, emozionando un pubblico distante due secoli dall'epoca in cui queste opere presero vita.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'Arcadia: La reazione al barocco si manifesta nella sfera poetica attraverso l'Arcadia, fondata nel 1690. Questo movimento promuove una nuova semplicità razionalistica, caratterizzata da un linguaggio chiaro e lineare. Per Gian Vincenzo Gravina, la poesia assume un ruolo di forte comunicatività sociale, riflettendo un intento educativo e collettivo.

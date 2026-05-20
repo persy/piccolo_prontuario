@@ -62,7 +62,7 @@ Giovenale si differenzia in modo netto dall'ironia indulgente e benevola di Oraz
 Lo stile delle _Satire_ è pungente e vivace, ricco di colori evocativi e toni drammatici; vi si trovano elementi arcaicizzanti, sfumature epiche e declamatorie. Non manca tuttavia un'alternanza con passaggi più colloquiali o vicini al linguaggio popolare, che spesso includono l'uso di termini inconsueti o di registro volgare.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Originario di Aquino (circa 55 - dopo il 127 d.C.), Giovenale si trasferisce a Roma in giovane età. Dopo tentativi infruttuosi nella carriera forense e nella declamazione, inizia a scrivere satire soprattutto in età matura, dopo la morte di Domiziano.

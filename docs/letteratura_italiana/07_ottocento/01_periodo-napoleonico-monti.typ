@@ -56,7 +56,7 @@ L'aspetto più evidente della personalità di Monti è la sua notevole inclinazi
 Tuttavia, bisogna riconoscere che il poeta romagnolo sviluppò a suo modo una forma di coerenza personale, fondata sul ruolo che aveva scelto per sé fin dagli inizi: quello del poeta di corte, fedele alla tradizione letteraria del Cinquecento e soprattutto del Seicento. Va attribuito a Monti un importante merito: quello di aver dato vita a un "classicismo borghese italiano", capace di rappresentare una cultura finalmente nazionale, definita in contrapposizione allo stile neoclassico internazionale.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Anni della rivoluzione: Durante gli anni della rivoluzione numerosi giornali italiani, come _Il Monitore italiano_ e _Il Monitore napoletano_, hanno contribuito a diffondere una cultura orientata alla partecipazione agli eventi pubblici.  

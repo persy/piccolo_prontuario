@@ -63,7 +63,7 @@ L'intera produzione letteraria di James Joyce rappresenta un tentativo di raccon
 
 Grazie a strumenti innovativi come il monologo interiore e il flusso di coscienza, Joyce permette al lettore di immergersi completamente nella narrazione, rendendolo in grado di esplorare i pensieri e l'inconscio dei personaggi.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: James Augustine Aloysius Joyce (1882-1941) nasce a Dublino e riceve un'educazione classica presso le scuole gesuitiche. Dopo essersi formato in Irlanda, soggiorna in diverse città europee tra cui Parigi, Zurigo, Pola e Trieste, dove lavora come insegnante. \ La sua vocazione letteraria si manifesta tra il 1900 e il 1904, periodo in cui compone le _Epifanie_, una raccolta di brevi poesie liriche. Nel 1914 inizia la stesura dell'_Ulisse_, pubblicato a Parigi nel 1922 ma censurato in Inghilterra e negli Stati Uniti a causa dei contenuti considerati blasfemi e osceni. Dopo circa vent'anni a Parigi, nel corso della seconda guerra mondiale Joyce si trasferisce a Zurigo, dove morirà.

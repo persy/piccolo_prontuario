@@ -1,22 +1,24 @@
 #import "../_global/template.typ": *
-#import "../_global/config.typ": main_tecnologia, main_color
+#import "../_global/config.typ": accent, accent_color, gradient_color
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
+
+// ==========================================
+// CONFIGURAZIONE UNICA DEL LIBRO
+// ==========================================
+#accent_color.update(accent.chi)
+#gradient_color.update(gradient.chi)
+
+// ==========================================
 
 // Copertina
 #include "cover.typ"
 
-// Colore della materia
-#let selected_color = main_tecnologia
-
-// Aggiorna lo stato globale per subfile
-#main_color.update(selected_color)
-
-// 3. Applichiamo il layout del template
+// Layout del template
 #show: template.with(
   title: "Chimica",
-  color: selected_color,  
 )
 
-#set math.equation(numbering: "1", supplement: none, number-align: end)
+#pagebreak()
 
 // Capitoli
 

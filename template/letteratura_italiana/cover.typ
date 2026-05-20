@@ -1,8 +1,8 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Letteratura italiana",
-  color: main_letteratura,
-  image: image("../../docs/letteratura_italiana/img/cover.png", width: 60%),
+  subject: "Letteratura italiana",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
   arguments: "Dalle origini ai giorni nostri · I protagonisti e i movimenti · Prosa, poesia e teatro"
 )

@@ -132,13 +132,13 @@ Le frequenze dedicate ai diversi servizi di radiocomunicazione sono stabilite su
 #figure(
   caption: [Spettro delle frequenze più utilizzate.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -179,7 +179,7 @@ Molti scienziati ritengono che questa crescita possa intensificare l'effetto ser
 Il termine "effetto serra" deriva da una similitudine con ciò che avviene all'interno di una vera serra: mentre la radiazione visibile attraversa liberamente gli strati atmosferici più bassi, quella infrarossa rimane intrappolata, provocando un riscaldamento dello spazio circostante.  ]
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Microonde: Le microonde rappresentano una specifica tipologia di onde radio caratterizzate da alta frequenza, generalmente superiore a 300 MHz. Esse trovano applicazione predominante nelle comunicazioni satellitari e nei sistemi radar.

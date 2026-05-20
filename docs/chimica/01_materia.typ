@@ -93,25 +93,25 @@ Il peso specifico ($P_("sp")$) di un corpo, invece, è dato dal rapporto tra il 
 $ P_("sp") = P/V $
 
 La densità relativa di un corpo è definita come il rapporto tra la sua massa e la massa di un volume equivalente di acqua alla temperatura di 4 °C. Essendo un rapporto tra due grandezze espresse nella stessa unità di misura, la densità relativa è un numero puro, ovvero privo di dimensioni.
-
+#v(1em)
 #set figure.caption(position: bottom)
 #grid(
-  columns: 2,
+  columns: 3,
   rows: 2,
-  column-gutter: 40pt,
-  row-gutter: -40pt,
+  column-gutter: -50pt,
+  row-gutter: 20pt,
 grid.cell(
 figure(
   caption: [Grandezze e unità \ fondamentali 
 del Sistema \ Internazionale (SI)],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -129,18 +129,18 @@ del Sistema \ Internazionale (SI)],
   [Intesità \ luminosa], [candela], [cd],
 )  
 )
-),
+),[],
 grid.cell(
 figure(
   caption: [Multipli e sottomultipli \ decimali nel SI],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -165,18 +165,18 @@ figure(
   [atto], [$10^(-18)$], [a],
 )  
 )
-),
+),[],
 grid.cell(
 figure(
   caption: [Alcune grandezze e \ unità derivate],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -192,7 +192,7 @@ figure(
   [Energia e \ quantità di calore], [joule], [J],
 )  
 )
-)
+), []
 )
 
 == L'energia
@@ -273,13 +273,13 @@ Un singolo materiale può esistere in ciascuno dei quattro diversi stati fisici,
 #figure(
   caption: [Stati di aggregazione],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -352,7 +352,7 @@ Per i miscugli omogenei in fase liquida, come le soluzioni, si ricorre spesso al
 Un'altra tecnica impiegata per miscugli liquidi è la cromatografia. Essa si basa sulla diversa capacità dei componenti del miscuglio di distribuirsi tra due fasi: una mobile (o eluente) e una stazionaria (ad esempio un solido adsorbente).
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Materia: Qualsiasi cosa che occupa uno spazio.  

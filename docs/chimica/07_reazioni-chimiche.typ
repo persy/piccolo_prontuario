@@ -1,7 +1,6 @@
 //#import "@preview/mannot:0.3.1": * // Annotazioni
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge // Diagrammi
-//#show: frame-style(styles.thmbox)
-
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
 
@@ -193,13 +192,13 @@ Perciò si può scrivere: $underparen("N"_2, "+5") overparen("O"_3^(-), "-2")$ /
 #figure(
   caption: [Numeri di ossidazione di alcuni elementi],
   table(
-        stroke: 0.5pt + main_tecnologia.lighten(90%),
+        stroke: 0.5pt + accent.chi.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_tecnologia // Colore header
+      return accent.chi // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_tecnologia.lighten(90%)
+      return accent.chi.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -266,8 +265,8 @@ Le reazioni di ossidoriduzione possono essere rappresentate nel seguente modo:
  node(D, "Ossidante ridotto")
  node(E, "+")
  node(F, "Riducente ossidato")
- edge(A, D, $+e^-$, "->", bend: +35deg, stroke: main_tecnologia, label-side: center)
- edge(C, F, $-e^-$, "->", bend: -35deg, stroke: main_tecnologia, label-side: center)
+ edge(A, D, $+e^-$, "->", bend: +35deg, stroke: accent.chi, label-side: center)
+ edge(C, F, $-e^-$, "->", bend: -35deg, stroke: accent.chi, label-side: center)
  edge(C, D, "->")
 })
 ]
@@ -315,8 +314,8 @@ Sopra ogni elemento sono indicati i rispettivi numeri di ossidazione. Nel caso d
  node(F, $"H"_2"O"$)
  node(G, "+")
  node(H, $"Cu"$)
- edge(A, "trrrr", H, $+e^-$, "->", bend: +35deg, stroke: main_tecnologia, label-side: center, shift: -8pt)
- edge(C, "brrr", D, $-e^-$, "->", bend: -35deg, stroke: main_tecnologia, label-side: center, shift: 10pt)
+ edge(A, "trrrr", H, $+e^-$, "->", bend: +35deg, stroke: accent.chi, label-side: center, shift: -8pt)
+ edge(C, "brrr", D, $-e^-$, "->", bend: -35deg, stroke: accent.chi, label-side: center, shift: 10pt)
  edge(C, D, "->") 
 })
 ]
@@ -478,7 +477,7 @@ $
 $
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Reazione chimica: Trasformazione di una o più sostanze originarie in altre sostanze con composizioni differenti.  

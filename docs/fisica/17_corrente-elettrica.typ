@@ -78,13 +78,13 @@ Nei circuiti collegati in parallelo, una porzione del circuito può essere apert
 #figure(
   caption: [Resistività di alcuni conduttori alla temperatura di 20 °C],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -283,13 +283,13 @@ La resistenza elettrica può quindi essere definita come la capacità di un cond
 #figure(
   caption: [Classi di conduttori elettrici e ordine di grandezza delle rispettive resistività],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -357,7 +357,7 @@ I diodi a gas si differenziano dai modelli a vuoto per la presenza, all'interno 
 In condizioni normali, l'aria agisce come un eccellente isolante; tuttavia, una debole ionizzazione è sempre presente nell'ambiente, causata da fattori quali la radiazione solare o i raggi cosmici. Quando tra una nube e il suolo, o tra una nube e un'altra nube, si instaura una significativa differenza di potenziale, può verificarsi la formazione di una poderosa scarica elettrica: il fulmine. Il calore generato dall'intenso passaggio di corrente eleva la temperatura dell'aria circostante; la conseguente espansione rapida dell'aria dà origine a un'onda sonora percepita come tuono.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Ampere: Unità di misura fondamentale del Sistema Internazionale (SI) per l'intensità della corrente elettrica, rappresentata con il simbolo A. Corrisponde all'intensità di una corrente che trasferisce una carica di 1 coulomb attraverso la sezione di un conduttore in un secondo: 1 A = 1 C/1 s.  

@@ -57,7 +57,7 @@ _I viaggi di Gulliver _rappresenta forse l'opera che, più di ogni altra nella t
 
 L'opera è stata talvolta interpretata come un'espressione di nichilismo; tuttavia, essa si distingue per l'abile equilibrio con cui combina allegoria e critica feroce. Valori, istituzioni, religioni, scienze e cultura vengono messi sotto esame attraverso un intreccio di fantasia e disperazione, sostenuto da uno stile letterario classicamente raffinato. Il genio di Swift emerge proprio da questa intrinseca complessità ed equilibrio, elevando il romanzo al rango di capolavoro della letteratura mondiale. La sua universalità ha permesso inoltre la creazione di adattamenti che l'hanno reso un classico anche per il pubblico infantile.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / La vita: Jonathan Swift (1667-1745) nacque a Dublino da genitori inglesi. Tra il 1700 e il 1714 viaggiò frequentemente tra l'Irlanda e Londra, lavorando come segretario per Sir William Temple e cercando senza successo di affermarsi sia negli ambienti ecclesiastici sia in quelli politici. Nella fase finale della sua vita, fu afflitto da una grave forma di labirintite e cadde infine nella demenza.

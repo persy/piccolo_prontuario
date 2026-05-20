@@ -86,7 +86,7 @@ Lucio Giunio Moderato Columella (originario di Gades, l'attuale Cadice, I secolo
 Ulteriore contributo attribuito a Columella è il trattato _De arboribus_ (_Gli alberi_), probabilmente parte di una versione precedente del _De re rustica_.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Petronio Arbitro: (morto nel 66 d.C.) è una figura di cui non si hanno molte notizie certe. Secondo gli studiosi, potrebbe essere identificato con l'esteta raffinato, arbiter elegantiae, che operò alla corte di Nerone. Caduto in disgrazia, sarebbe morto suicida tagliandosi le vene. \ La sua opera principale, il _Satyricon_, è considerato il primo romanzo della letteratura latina ed giunto a noi in forma frammentaria con i libri XV e XVI. Scritto alternando prosa e poesia, narra le avventure di alcuni vagabondi cinici e senza scrupoli, offrendo un ritratto realistico e ironico della corrotta società sotto Nerone. Si distingue per la sua lingua innovativa e la varietà di registri espressivi.

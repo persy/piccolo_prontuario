@@ -176,7 +176,7 @@ Ampia diffusione ebbe _The Yemassee_ (1835), un romanzo di guerriglia con protag
 Seguendo il modello di James Fenimore Cooper, a cui Simms non fu estraneo, si ispirò anche il giornalista e politico John Pendleton Kennedy (1795-1870), protettore di Poe, autore del romanzo di frontiera _Horse-Shoe Robinson_ (1835) e di una raccolta di bozzetti che descrivono la vita nelle piantagioni della Virginia.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Hawthorne: Nathaniel Hawthorne (1804-1864), nato a Salem da un'antica famiglia puritana, perde il padre all'età di quattro anni. Vive in isolamento, dedicandosi alla scrittura e alla pubblicazione di articoli. Nel 1841 trascorre alcuni mesi nella comunità trascendentalista di Brook Farm e, l'anno seguente, sposa Sophia Peabody, anch'essa trascendentalista. Muore a Plymouth. \ Fra le opere principali, le raccolte di racconti _Racconti narrati due volte_ (1837) e _Muschi di un vecchio presbiterio_, i romanzi _Fanshawe_ (1828), _La lettera scarlatta_ (1850), considerato il suo capolavoro, _La casa dei sette abbaini_ (1851) e _Il fauno di marmo_ (1860), oltre ai _Taccuini_ postumi pubblicati tra il 1868 e il 1871.  \ La realtà storico-politica del New England, una profonda introspezione morale, la riflessione sulla lotta tra bene e male, il tema del peccato e la necessità di espiazione.

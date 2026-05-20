@@ -98,13 +98,13 @@ La variazione della temperatura _Δt_ può essere espressa indifferentemente in 
 #figure(
   caption: [Calori specifici di alcune sostanze.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -142,13 +142,13 @@ La trasmissione del calore tra due corpi avviene spontaneamente dal corpo con te
 #figure(
   caption: [Coefficiente di conducibilità termica di alcune sostanze.],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.fis.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.fis // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.fis.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -222,13 +222,13 @@ Lo sviluppo della teoria microscopica sull'origine del calore, che lo collegava 
 #figure(
   caption: [Esempi di coefficienti di dilatazione lineare.],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.fis.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.fis // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.fis.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -260,13 +260,13 @@ Un esempio concreto del fenomeno: una barra lunga 1 metro si allunga di circa 1 
 #figure(
   caption: [Esempi di coefficienti di dilatazione cubica.],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.fis.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.fis // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.fis.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -303,7 +303,7 @@ La quantità di radiazione elettromagnetica proveniente dal Sole che raggiunge l
 
 Alle latitudini più elevate, dove i raggi solari arrivano obliquamente, il riscaldamento della superficie risulta inferiore. La differenza di temperatura tra gli strati d'aria equatoriali e quelli polari genera correnti atmosferiche, che rappresentano il sistema di circolazione globale dell'aria. Attraverso tali correnti, l'aria viene trasportata per convezione con l'obiettivo di ristabilire un equilibrio termico tra le diverse zone del pianeta.  
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Agitazione termica: Movimento caotico a cui sono sottoposte le particelle (atomi e molecole) che costituiscono una sostanza, sia essa solida, liquida o gassosa.  

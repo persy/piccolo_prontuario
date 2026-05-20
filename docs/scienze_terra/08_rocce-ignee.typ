@@ -72,7 +72,7 @@ La famiglia dei gabbri è caratterizzata da rocce di colore scuro, formate princ
 Infine, le rocce ultrabasiche comprendono olivine e pirosseni come minerali principali. In questa categoria rientrano le peridotiti (rocce intrusive) e le picriti (rocce effusive), che presentano una distribuzione limitata sui continenti ma risultano più comuni sui fondali oceanici.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Acido: In petrografia, il termine "acido" si riferisce alla percentuale di silice presente nelle rocce ignee. Una roccia viene definita acida quando il suo contenuto di silice supera il 66%.  

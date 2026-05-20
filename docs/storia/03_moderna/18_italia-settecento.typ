@@ -56,7 +56,7 @@ Fortemente influenzato dalle idee illuministe, il granduca introdusse riforme ec
 Nel 1786, dopo aver abolito il tribunale dell'Inquisizione, convocò il Sinodo di Pistoia sotto la direzione del vescovo giansenista Scipione de' Ricci. Quest'ultimo aveva l'ambizione di creare una Chiesa nazionale fondata sul ruolo pastorale e civile dei parroci.  
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Piemonte: Vittorio Amedeo II promosse la costituzione del Regno di Sardegna attraverso l'annessione dell'isola omonima e la riconquista delle postazioni francesi in Piemonte. In linea con i principi del mercantilismo, promulgò un Editto di perequazione, riformò l'Università e armonizzò la legislazione con le Costituzioni del regno. Carlo Emanuele III proseguì nella direzione delle riforme amministrative e contribuì all'espansione territoriale dello Stato. Durante il regno di Vittorio Amedeo III, fu stipulato con Napoleone il Trattato di Cherasco, che segnò una tappa importante nella politica internazionale della regione.  

@@ -135,7 +135,7 @@ Inoltre, si nota che l'attrito tra il mantello e la litosfera varia a seconda de
 A supporto di questa teoria, si osserva che le subduzioni avvengono prevalentemente verso est, seguendo la rotazione del mantello. I piani di subduzione inclinati confermano questa dinamica: quando una subduzione si verifica verso est, il piano di inclinazione ha angoli compresi tra 15° e 40°, mentre nelle subduzioni verso ovest l'angolo può raggiungere i 90°, poiché il moto verso est del mantello ostacola il processo.]
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Arco magmatico: Catena vulcanica situata sulla terraferma o sott'acqua, orientata parallelamente a una fossa oceanica e formata dal magma ascendente prodotto dalla fusione della litosfera oceanica subdotta.  

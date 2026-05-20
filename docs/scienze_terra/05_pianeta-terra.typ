@@ -21,13 +21,13 @@ La definizione di "prima approssimazione" per questa forma è però necessaria, 
 #figure(
   caption: [La Terra in cifre],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.ter.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.ter // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.ter.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -205,7 +205,7 @@ La variazione dell'eccentricità dell'orbita terrestre causa modifiche alla form
 L'inclinazione dell'asse terrestre rispetto alla verticale del piano orbitale cambia molto lentamente, seguendo un ciclo di 40.000 anni. Attualmente, l'asse terrestre è inclinato di 23°27' rispetto alla verticale del piano dell'eclittica. Tuttavia, questo angolo può oscillare tra un massimo di 24°36' e un minimo di 21°58'. Poiché l'inclinazione dell'asse determina le stagioni, queste variazioni influenzano le differenze climatiche tra le stagioni nel corso dei millenni.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Anno: Periodo necessario alla Terra per completare un'orbita intorno al Sole. A seconda del riferimento usato, può essere un anno sidereo (basato su una stella fissa) o tropico (detto anche solare). Per effetto della precessione degli equinozi, l'anno tropico dura 365 giorni, 5 ore e 46 minuti ed è più corto di circa 20 minuti rispetto al sidereo. Dall'anno tropico deriva l'anno civile di 365 giorni, con l'aggiunta di un giorno ogni quattro anni per formare l'anno bisestile.

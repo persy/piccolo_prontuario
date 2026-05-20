@@ -83,7 +83,7 @@ La contrazione muscolare avviene a seguito dello scorrimento dei filamenti di ac
 
 Lo stimolo alla contrazione arriva alle fibre muscolari attraverso le terminazioni nervose dei nervi motori, i quali si ramificano per innervare singolarmente ogni fibra muscolare. Queste interazioni danno origine a una struttura chiamata giunzione neuromuscolare o placca motrice.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Articolazione: Giunzione tra due o più ossa adiacenti.  

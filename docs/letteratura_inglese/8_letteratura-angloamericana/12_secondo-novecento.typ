@@ -360,7 +360,7 @@ Il primo volume pubblicato fu _Pictures of the gone world_ (_Immagini del mondo 
 
 Anche dopo il declino del movimento beat, Ferlinghetti continuò a distinguersi negli anni Ottanta con opere poetiche e teatrali sperimentali, consolidando il suo ruolo centrale nella scena culturale americana.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Anni Quaranta: La narrativa degli anni Quaranta è caratterizzata da una forte attenzione alla rappresentazione della guerra e della vita militare. Tra i principali autori del periodo si annoverano Irwin Shaw (1913-1984), con _I giovani leoni_ (1948); James Jones (1921-1977), autore di _Da qui all'eternità_ (1951); e Norman Mailer (1923), famoso per _Il nudo e il morto_ (1948). \ 

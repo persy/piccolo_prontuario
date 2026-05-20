@@ -52,13 +52,13 @@ Il Sistema Internazionale, oggi accettato universalmente, si basa su sette grand
 #figure(  
   caption: [Grandezze fondamentali del Sistema Internazionale e relative unità di misura.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -108,13 +108,13 @@ Va sottolineato, tuttavia, che passare l'analisi dimensionale non implica necess
 #figure(
   caption: [I principali multipli e sottomultipli decimali nel Sistema Internazionale.],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.fis.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.fis // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.fis.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -222,7 +222,7 @@ Entrambi questi sistemi seguivano lo schema metrico decimale, adottato in tutti 
 
 Ad esempio, in questo sistema l'unità di lunghezza è la yarda (pari a 91,94 cm), con i suoi sottomultipli: il piede (1/3 di yarda) e il pollice (1/36 di yarda). Per la massa, invece, l'unità principale è la libbra (pari a 453,59 g), con il sottomultiplo più comune rappresentato dall'oncia (1/16 di libbra).
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Errore accidentale: Errore nelle misurazioni derivante da cause non identificabili e poco definite, che può influire sui risultati in modo casuale, talvolta per difetto, talvolta per eccesso.  

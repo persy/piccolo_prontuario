@@ -136,7 +136,7 @@ Le mutazioni costituiscono la fonte principale della variabilità genetica. Nel 
 
 Va comunque sottolineato che un cambiamento nell'ambiente può destabilizzare una popolazione. In tali circostanze, una mutazione apparentemente casuale potrebbe rivelarsi vantaggiosa, migliorando l'adattamento della specie al nuovo contesto e finendo per essere integrata nel suo genoma.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / DNA ricombinante: Molecola di DNA ottenuta inserendo un frammento di DNA di una specie all'interno del DNA di un'altra specie.  

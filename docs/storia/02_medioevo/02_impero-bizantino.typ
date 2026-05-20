@@ -88,7 +88,7 @@ I territori dell'ex Impero bizantino furono spartiti tra Venezia (che ottenne Bi
 L'Impero ritrovato, sotto i Paleologi, sopravvisse per altri due secoli ma dovette fronteggiare minacce crescenti. A Occidente la pressione serba si intensificò; a Oriente invece si profilava l'inarrestabile avanzata ottomana con la presa di Nicea nel 1330 e il passaggio dei Turchi in Europa nel 1357. Ridotto alla sola area della capitale, l'Impero bizantino capitolò nel 1453 con la conquista di Costantinopoli da parte del sultano Maometto II.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Da Teodosio II a Giustino: L'intervento autoritario degli imperatori (Teodosio e poi Zenone) nelle questioni religiose, porta a una separazione tra le Chiese d'Oriente e d'Occidente che si rappacificano nel 519 sotto Giustino.

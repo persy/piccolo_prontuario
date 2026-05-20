@@ -59,7 +59,7 @@ Nell'Elegia, Gray parte dalla contemplazione del paesaggio per sviluppare rifles
 
 Tra i temi centrali del poema emergono il riconoscimento della dignità morale della vita contadina, l'accettazione della volontà divina e una riflessione postuma sull'uguaglianza umana come destino ultimo comune a tutti gli uomini.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Poesia di epoca "augustea": Si caratterizza per l'eleganza formale, l'ispirazione ai modelli pastorali e satirici classici, oltre che per un classicismo che associa al fascino della natura una dimensione di meditazione morale sulla condizione umana. Tra i suoi principali rappresentanti si annoverano Matthew Prior (1664-1721) e John Gay (1685-1732).

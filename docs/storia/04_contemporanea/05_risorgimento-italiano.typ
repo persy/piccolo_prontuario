@@ -68,7 +68,7 @@ Nel Lombardo-Veneto l'Austria implementò riforme amministrative e scolastiche, 
 Infine, nello Stato Sabaudo Carlo Alberto, succeduto nel 1831 a Carlo Felice, pur mantenendo una visione conservatrice, introdusse importanti riforme economiche e amministrative ispirate alla legislazione napoleonica.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Dal 1815: Prende avvio in Italia il Risorgimento, il processo che condurrà all'unificazione nazionale. I moti del '20 e del '30 avevano già evidenziato l'inefficacia delle società segrete.

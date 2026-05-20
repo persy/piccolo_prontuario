@@ -72,7 +72,7 @@ Lo stile di Bernari si distingue per l'impiego di monologhi interiori. La città
 Nelle opere successive, tra cui _Era l'anno del sole quieto_ (1964), _Un foro nel parabrezza_ (1971), _Tanto la rivoluzione non scoppierà_ (1976) e _Il giorno degli assassini_ (1980), Bernari supera la dimensione regionale per aprirsi a una narrazione più esistenziale ed espressionistica.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Surrealismo: Il surrealismo italiano degli anni Trenta, piuttosto che appropriarsi delle tematiche poetiche e politiche proprie del movimento francese, si sviluppa attraverso un immaginario fantastico, talvolta influenzato dalle esperienze del futurismo.

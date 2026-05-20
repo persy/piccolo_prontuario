@@ -77,7 +77,7 @@ In _Al di là del bene e del male_ (1886) e nella _Genealogia della morale_ (188
 
 Molti scritti successivi di Nietzsche, raccolti arbitrariamente dalla sorella Elisabeth con intenti condizionati dalle sue simpatie razziste e autoritarie sotto il titolo _Volontà di potenza_ (1901), hanno purtroppo contribuito a distorcere il pensiero originale del filosofo.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La nascita della tragedia: In _La nascita della tragedia dallo spirito della musica_, Nietzsche critica il carattere unilaterale e riduttivo della cultura tedesca del suo tempo, definita "teoretica", in quanto tende a subordinare l'arte al concetto, trascurando la connessione tra l'impulso apollineo e quello dionisiaco.

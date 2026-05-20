@@ -32,7 +32,7 @@ L'approccio della Austen verso il mondo che rappresenta si avvale della commedia
 
 Sebbene Jane Austen raramente interrompa la narrazione per esprimere commenti diretti su eventi o sulla psicologia dei personaggi, riesce a far emergere giudizi e riflessioni attraverso il dialogo tra gli stessi protagonisti, che si rivelano progressivamente al lettore. Proprio nella costruzione di dialoghi densi di sfumature, sottigliezze e ironia risiede uno dei tratti distintivi del suo stile: sotto una parvenza di leggerezza tematica e tonale, si cela una profondità significativa e un'efficace espressione del reale.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / La vita: Jane Austen (1775-1817), figlia di un pastore anglicano, visse un'esistenza priva di grandi eventi, trascorsa principalmente nell'intimità della famiglia fino alla sua prematura morte per tisi.

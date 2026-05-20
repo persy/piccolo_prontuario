@@ -127,7 +127,7 @@ Nel _Mistero dell'essere_ (1951), Marcel descrive l'essere non come un problema 
 
 Questo ascolto non implica passività; al contrario, è un atto attivo che si traduce in comportamenti concreti di unione, come la fiducia e l'amore, opposti alle dinamiche di separazione e rottura. L'atteggiamento contrario è rappresentato dalla tendenza all'"avere", ovvero al desiderio di possesso, che può riguardare le cose, gli altri e persino la propria vita. Tale conflitto tra "essere" e "avere" rende drammatica l'esistenza umana e richiede una scelta, analizzata da Marcel in _Essere o avere_ (1935).
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Heidegger: In _Essere e tempo_, Heidegger si propone di affrontare il problema ontologico interrogando le modalità fondamentali dell'esserci, ovvero il modo di essere proprio dell'uomo. L'ontologia diventa, perciò, un'analitica dell'esistenza.

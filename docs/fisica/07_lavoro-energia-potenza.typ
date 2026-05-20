@@ -210,7 +210,7 @@ $
 $
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Energia: Grandezza fisica che rappresenta la capacità di un sistema fisico di compiere lavoro. Esistono diverse forme di energia, tra cui quella meccanica, elettrica, termica, chimica e nucleare. Queste diverse tipologie possono trasformarsi l'una nell'altra, sia spontaneamente sia in modo indotto.  

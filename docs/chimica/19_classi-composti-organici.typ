@@ -1,7 +1,8 @@
-#import "../../template/chimica/var.typ" : * // Variabili
-#import "@preview/tdtr:0.4.0" : * // Diagrammi
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "../../template/chimica/var.typ" : * // Variabili
+#import "@preview/tdtr:0.4.0" : * // Diagrammi
+#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
 #intro[Le numerosissime classi dei composti organici si distinguono per proprietà relativamente omogenee e sono raggruppate in base alla presenza specifica di uno o più gruppi funzionali all'interno della loro struttura. Il gruppo funzionale determina gran parte delle caratteristiche chimiche del composto, inclusi i metodi di preparazione e i tipi di reazioni che esso subisce.  
 
@@ -170,13 +171,13 @@ Gli alcani possono essere sintetizzati attraverso diverse reazioni:
 #figure(
   caption: [Proprietà dei primi dieci alcani lineari.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -1113,7 +1114,7 @@ Approfondendo sul metanolo e sull'etanolo, il metanolo (CH3OH) è il più sempli
 
 L'etanolo (C2H5OH), noto anche come alcol etilico, è l'alcol comunemente usato. Si ottiene dalla fermentazione degli zuccheri o tramite idratazione dell'etene. Commercialmente, viene spesso denaturato, rendendolo imbevibile mediante l'aggiunta di metanolo. È un liquido incolore, volatile e infiammabile, con un odore caratteristico. Trova impiego nella preparazione di bevande alcoliche, profumi, farmaci e come solvente.
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Idrocarburi: Composti organici costituiti da carbonio e idrogeno, suddivisi in alifatici e aromatici.

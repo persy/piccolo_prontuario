@@ -154,7 +154,7 @@ dove _ε_ rappresenta la costante dielettrica del materiale isolante tra le arma
 
 Un condensatore ampiamente utilizzato nei circuiti elettrici è quello cilindrico. Questo modello consiste in due sottili strisce di materiale conduttore (ad esempio stagno o alluminio) intervallate da uno strato di materiale isolante come carta paraffinata o plastica. Il condensatore cilindrico è particolarmente apprezzato per le sue elevate capacità ed il design compatto, che lo rende ideale per numerose applicazioni in ambito tecnologico.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Bottiglia di Leida: Dispositivo pionieristico, creato nel 1745, utilizzato per accumulare cariche elettriche. È costituito da una bottiglia di vetro rivestita sia all'interno sia all'esterno con un foglio di carta stagnola caricato elettricamente.

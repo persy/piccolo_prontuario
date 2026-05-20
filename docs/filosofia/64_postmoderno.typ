@@ -41,7 +41,7 @@ Uno dei testi fondamentali di Vattimo, _La fine della modernità_ (1985), ha avu
 
 In tale contesto, egli articola la possibilità di quello che definisce un "nichilismo gaio," ispirato al concetto nietzschiano della "gaia scienza." Questo nichilismo si caratterizza per una consapevole accettazione della finitezza e del divenire, senza ricercare vanamente una ricomposizione di unità perdute o un recupero di ideali ormai tramontati. Attraverso questa prospettiva, il nichilismo postmoderno di Vattimo si configura come uno slancio positivo verso un modo di pensare che abbraccia la mortalità dell'essere come occasione per nuove aperture interpretative e dialogiche.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Postmoderno: Il concetto di postmodernità identifica una fase del pensiero sviluppatasi negli anni Ottanta del Novecento, che ha coinvolto diversi ambiti, quali quello letterario, architettonico, filosofico e sociologico. Tale paradigma si distingue per un rapporto complesso con la modernità, caratterizzato dall'emergere di una molteplicità di forme di sapere e da una varietà di giochi linguistici, ciascuno dei quali si configura come alternativo e incommensurabile rispetto agli altri. Nessuna di queste forme, tuttavia, possiede un valore universale. La società postmoderna appare quindi frammentata, strutturata su valori contingenti e orientata esclusivamente a criteri di operatività pratica.

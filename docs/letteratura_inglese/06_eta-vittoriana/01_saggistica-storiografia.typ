@@ -113,7 +113,7 @@ Grazie alla sua capacità di mettere in relazione letteratura, vita ed etica, Ar
 
 In qualità di critico sociale, Arnold espresse una concezione della cultura come studio del perfezionamento spirituale interiore, opponendosi alla visione meramente materialistica del progresso. In _Culture and Anarchy_ (_Cultura e anarchia_, 1869), definì la cultura come un mezzo per realizzare l'autentica "idea sociale", ossia una forma di democrazia egualitaria fondata su un equilibrio tra educazione morale e giustizia sociale.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Età vittoriana: Durante il regno della regina Vittoria (1837-1901), l'Inghilterra attraversò un'epoca di prosperità economica, stabilità politica ed espansione coloniale. Tuttavia, questa apparente solidità mascherava profonde fratture sociali, psicologiche e culturali. Le tensioni tra progresso materiale e sfruttamento delle classi lavoratrici, così come tra fede e scienza, portarono a una serie di cambiamenti e compromessi spesso instabili.

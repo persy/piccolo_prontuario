@@ -37,7 +37,7 @@ Il neoscetticismo si distingue per l'apertura costante della ricerca, sottraendo
 
 Il modello della "vita senza dogmi" conduce alla pace interiore e alla sospensione dall'agitazione dell'esistenza, incarnando fin dalle origini l'ideale del saggio.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Marco Tullio Cicerone: Marco Tullio Cicerone si distingue come il principale veicolo della cultura greca a Roma. Il suo interesse filosofico si concentra prevalentemente sull'etica, adottando un approccio eclettico che riformula i principi della morale stoica in una versione più temperata.

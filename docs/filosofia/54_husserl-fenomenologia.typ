@@ -89,7 +89,7 @@ La stessa impostazione emerge nell'ambito morale. Essendo la realtà necessaria 
 
 Nella sua _Etica_ (1926), il filosofo afferma la necessità di fondare l'etica sullo spirito oggettivo, inteso come diritto, moralità ed eticità operanti nella storia, secondo una prospettiva ispirata alla tradizione hegeliana.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Husserl: Husserl è il fondatore della fenomenologia, una disciplina che esplora il legame tra soggetto e realtà.

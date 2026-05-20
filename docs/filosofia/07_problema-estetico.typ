@@ -47,7 +47,7 @@ Un approccio radicalmente diverso ma ugualmente significativo è quello elaborat
 
 Infine, nella filosofia contemporanea, la crisi della nozione classica di verità porta a considerare le opere d'arte come un luogo privilegiato per riflettere sul senso del mondo e sull'esistenza umana. Spesso questa funzione si pone in alternativa alle certezze tradizionali offerte dalla scienza.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Filosofia e arte: Dall'antichità l'esperienza artistica è stata oggetto di riflessione filosofica, ma solo nel Settecento nasce l'estetica come disciplina filosofica indipendente, con l'obiettivo di studiare il bello e l'arte.

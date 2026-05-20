@@ -121,7 +121,7 @@ Il filosofo Francis Bacon (1561-1626), grande ammiratore di Seneca, adottò uno 
 
 Un'altra figura interessante fu Robert Burton (1577-1640), autore dell'opera _The Anatomy of Melancholy_ (_L'anatomia della malinconia_, 1621). Questo testo complesso si colloca a metà strada tra medicina e psicologia. Lontano dalle tradizioni medievali ma anche distante dal metodo scientifico moderno, il lavoro combina religione e scienza attraverso una prosa che alterna stili pedanti a tonalità colloquiali. Il termine "anatomia" acquisì grande popolarità in quel periodo, diventando metafora dell'analisi sistematica di questioni contemporanee; in aggiunta lo stesso Bacon dichiarava che era fra i suoi intenti fare "una diligentissima dissezione e anatomia del mondo".  
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Poesia: Si registra un'importante fioritura poetica, caratterizzata da raffinate variazioni su temi tradizionali, con un notevole risalto all'espressione dei sentimenti. Tuttavia, lo stile non raggiunge la classicità rinascimentale italiana, rimanendo legato all'allegorismo medievale o a modalità già in parte manieristiche. \ I poeti Thomas Wyatt (1503-1542) e Henry Howard, conte di Surrey (1517-1547), introducono rispettivamente il sonetto di derivazione petrarchesca (ispirato agli imitatori di Petrarca) e l'uso del _blank verse_ (il decasillabo sciolto, ovvero non rimato).

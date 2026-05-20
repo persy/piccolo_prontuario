@@ -1,9 +1,8 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Biologia",
-  color: main_scienze,
-  image: image("../../docs/biologia/img/cover.png", width: 60%),
+  subject: "Biologia",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
   arguments: "Biochimica · Microbiologia · Genetica · Evoluzione · Etologia · Ecologia · Corpo umano"
 )
-

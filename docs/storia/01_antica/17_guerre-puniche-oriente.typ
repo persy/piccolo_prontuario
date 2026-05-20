@@ -50,7 +50,7 @@ Questo odio venne rappresentato simbolicamente dal giuramento fatto da Amilcare 
 La ferocia dimostrata verso Cartagine rappresentò un'eccezione nel pensiero politico di Catone. Solitamente consigliava prudenza e moderazione nei confronti dei popoli sottomessi. Tuttavia, la rivalità con Cartagine si dimostrò più forte di ogni principio umanitario, tradendo quell'idea di "humanitas" che egli stesso riteneva essenziale per la grandezza dell'uomo. Al contrario, l'assenza di tale virtù finiva per corrompere i costumi e il carattere.]
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Prima Guerra punica: Nel 264 a.C., i Mamertini di Messina chiesero l'intervento romano per difendersi dai Cartaginesi, dando avvio alla prima guerra tra Roma e Cartagine. Nel 260 a.C. la flotta romana riportò una schiacciante vittoria a Milazzo, mentre nel 256 a.C. fallì l'audace spedizione di Attilio Regolo in Africa. La svolta decisiva arrivò nel 241 a.C., quando Roma trionfò alle Egadi, trasformando la Sicilia nella prima provincia romana. Conclusa la pace, nel 238 a.C. i Romani sottrassero ai Cartaginesi anche la Sardegna e la Corsica.

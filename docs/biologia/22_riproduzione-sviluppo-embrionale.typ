@@ -16,13 +16,13 @@ Alcune specie, come lombrichi, tenie e lumache, presentano individui ermafroditi
 #figure(
   caption: [Principali modalità di riproduzione],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -104,13 +104,13 @@ La fase di sviluppo embrionale si articola in tre momenti principali: segmentazi
 #figure(
   caption: [Organogenesi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -174,7 +174,7 @@ La placenta costituisce l'interfaccia tra la madre e il feto per lo scambio di o
 Oltre alla funzione nutritiva, la placenta protegge l'embrione grazie alla trasmissione degli anticorpi materni che conferiscono immunità passiva al feto fino a qualche mese dopo la nascita. Inoltre, secerne ormoni indispensabili per il mantenimento della gravidanza e il normale svolgimento del parto.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Annessi embrionari: Membrane prodotte dall'embrione che ne garantiscono nutrizione e protezione; includono corion, amnios, allantoide e sacco vitellino.  

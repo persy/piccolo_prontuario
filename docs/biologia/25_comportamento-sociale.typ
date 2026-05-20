@@ -47,7 +47,7 @@ Anche le formiche seguono una struttura sociale simile, con tre caste principali
 
 In contrapposizione alla rigida organizzazione degli insetti sociali, le società dei mammiferi si distinguono per la loro dinamicità e adattabilità. In queste comunità, l'organizzazione gerarchica è meno rigida e può cambiare nel tempo. La gerarchia di dominanza, pur essendo importante, non è permanente e può essere riconsiderata in circostanze come la morte del leader o il suo indebolimento legato alla vecchiaia o malattie. Sebbene i compiti siano distribuiti tra i membri del gruppo, ciascun individuo conserva un significativo grado di autonomia. In questi sistemi sociali, la gerarchia di dominanza riveste un ruolo essenziale soprattutto per definire le priorità nell'accoppiamento.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Comunicazione: Capacità di un animale di condividere con un altro individuo un'informazione che modifica il comportamento di quest'ultimo. Può avvenire attraverso segnali chimici, visivi, uditivi o tattili.  

@@ -229,7 +229,7 @@ Le forme di deposito si compongono di materiali fini e sciolti (come ciottoli, g
 In alcuni casi, i detriti vengono depositati in mare a una certa distanza dalla costa, dove le onde che avanzano verso terra incontrano le onde di ritorno (risacca) e si annullano reciprocamente. Da questa dinamica può formarsi un cordone litoraneo sommerso che, col tempo, può emergere e dare vita a un lido: una sorta di isola allungata e parallela alla costa. Quando i lidi si collegano alla terraferma, possono isolare tratti di mare creando lagune, specchi d'acqua in cui la comunicazione con il mare aperto è limitata.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Anfiteatro morenico: Insieme di formazioni moreniche frontali depositate da un ghiacciaio al termine della sua estensione in pianura.  

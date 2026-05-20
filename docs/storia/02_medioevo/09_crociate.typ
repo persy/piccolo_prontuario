@@ -76,7 +76,7 @@ Pisa e Genova iniziarono la loro espansione nel Mediterraneo occidentale, per po
 Venezia, sin dal X secolo, si era già affermata come protagonista del commercio con l'Oriente e l'Europa centrale, grazie ai privilegi ottenuti dall'Impero bizantino cui formalmente era sottomessa. In cambio del suo sostegno per riconquistare la ribelle Zara, la città finanziò la Quarta Crociata e ottenne nuovi territori dalla costituzione dell'Impero Latino d'Oriente. Questo contribuì ad acuire la rivalità con Genova e Pisa. I conflitti con Genova caratterizzarono tutto il XIII secolo e si conclusero solo al termine della Guerra di Chioggia (1378-1381), che segnò il ritiro della Repubblica ligure dall'Adriatico.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Precedenti delle Crociate: Nel 1063, le popolazioni locali si ribellarono al dominio degli Omayyadi in Spagna, un'insurrezione sostenuta dal papa Alessandro II. La lotta proseguì con l'intervento degli Arabi Almoravidi, fino a quando Alfonso I d'Aragona riuscì a riconquistare Saragozza nel 1118, trasformandola nella capitale del suo regno. Successivamente, i combattimenti continuarono contro gli Almohadi, i quali furono definitivamente sconfitti nella battaglia di Las Navas de Tolosa del 1212.

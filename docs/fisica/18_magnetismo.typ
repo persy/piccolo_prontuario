@@ -33,13 +33,13 @@ Nelle sostanze ferromagnetiche i valori della permeabilità magnetica possono ra
 #figure(
   caption: [Valori di permeabilità magnetica relativa (μ#sub[r]) di alcune sostanze.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -298,7 +298,7 @@ Questo effetto è sfruttato negli acceleratori di particelle ad anello, che, att
 Conoscendo l'intensità dei campi magnetici applicati, e misurando la velocità e il raggio della traiettoria della particella, la formula data sopra può essere utilizzata per determinare la massa di particelle cariche sconosciute.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Campo magnetico: Campo di forza prodotto da magneti o da cariche elettriche in movimento.

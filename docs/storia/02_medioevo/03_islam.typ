@@ -54,7 +54,7 @@ Verso il 750, una rivolta diede origine alla dinastia abbaside (750-1258), con i
 La questione araba ha assunto una rilevanza centrale nel panorama mediorientale soprattutto dal 1945. Nonostante siano frequenti tentativi di trasformare l'Islam in ideologia politica, questa religione resta principalmente una dimensione spirituale globale, diffusa principalmente tra i non arabi (gli arabi rappresentano il 20% dei musulmani), includendo una quota crescente di europei.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Arabia preislamica: I primi regni dell'Arabia meridionale, tra cui emerge quello dei Nabatei, si sviluppano tra l'VIII e il III secolo a.C. Nel 106 d.C., l'imperatore Traiano istituisce la provincia romana d'Arabia. Nei secoli V e VI d.C., la Mecca si afferma come un importante centro commerciale e religioso.

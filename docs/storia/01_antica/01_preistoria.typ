@@ -70,7 +70,7 @@ Il Mesolitico, derivante dal termine greco _mésos_ che significa "in mezzo", ra
 Nella regione della Mezzaluna Fertile, che si estendeva dall'Egitto al Golfo Persico coprendo anche la Turchia e il Mar Caspio a nord, alcuni dei gruppi umani iniziarono a domesticare gli animali e a coltivare cereali. L'arte di questo periodo subì un impoverimento, limitandosi alla decorazione di ciottoli su cui venivano incisi segni schematici con l'uso di ocra rossa. Nel Capsiano, una cultura preistorica originaria di Gafsa in Tunisia risalente al 9.000 a.C., si osserva l'insediamento di gruppi umani in villaggi con abitazioni circolari. Parallelamente, in Giappone si diffuse la cultura ceramica Jomon, caratterizzata da decorazioni create con corde, che le conferivano il nome.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Paleolitico (2.500.000 - 10.000 a.C.):

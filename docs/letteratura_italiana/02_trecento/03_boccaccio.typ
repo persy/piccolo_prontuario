@@ -36,7 +36,7 @@ Un'osservazione condivisa da generazioni di lettori è che il _Decameron_ rappre
 Il realismo dell'opera si manifesta soprattutto nella scelta di narrare vicende collocate nel presente, ambientate in luoghi ben identificabili e popolate anche da personaggi che appartengono ai ceti sociali più bassi, non necessariamente con intenti umoristici. Boccaccio elabora così una poetica che abbandona l'erudizione ostentata e il gusto per la mitologia, rinuncia alle allegorie complesse e si fa promotore dei diritti del piacere sessuale. L'autore esalta inoltre le risorse pragmatiche dell'individuo e valorizza l'azione umana per se stessa. Se è vero che sul _Decameron_ gravano ancora significative influenze medievali, è altrettanto evidente come esso rappresenti un anticipatore vivido e travolgente della grande stagione del pensiero e della letteratura rinascimentale.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Giovanni Boccaccio nacque nel 1313 a Firenze, figlio illegittimo di un facoltoso mercante. La sua formazione si svolse prevalentemente a Napoli, città in cui ebbe modo di frequentare gli ambienti aristocratici e la corte di Roberto d'Angiò, dove produsse le sue prime opere letterarie. Nel 1340-41 fece ritorno a Firenze, dove si dedicò a importanti incarichi pubblici e diplomatici, nonché alla stesura delle opere della sua piena maturità letteraria. Morì nel 1375 a Certaldo.  

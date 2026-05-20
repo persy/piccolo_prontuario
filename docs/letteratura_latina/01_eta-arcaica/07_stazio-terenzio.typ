@@ -54,7 +54,7 @@ Terenzio abbandona doppi sensi, espressioni volgari e battute grossolane: il suo
 I personaggi vengono tratteggiati seguendo le regole della verosimiglianza psicologica e analizzati con partecipazione emotiva, manifestando delicatezza, sensibilità morale e una caratteristica lealtà. Toleranza reciproca, approfondimento delle relazioni umane e comprensione sono tratti che emergono nei protagonisti delle opere di Terenzio, elementi che si ispirano al modello menandreo ma riflettono soprattutto l'umanitas tipica di quell'ambiente aristocratico ed ellenizzante che influenzò la sua formazione. Questo concetto di humanitas trova perfetta espressione nel celebre verso dell'_Heautontimorumenos_: "_Homo sum; humani nihil a me alienum puto_", ossia "Sono un uomo; nulla di ciò che è umano mi è estraneo". Un principio che colpì profondamente Sant'Agostino e che divenne simbolo dell'interiorità e dell'ethos del poeta.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Cecilio Stazio: Cecilio Stazio (circa 230-168 a.C.), probabilmente nato a Milano, fu portato a Roma come schiavo e successivamente liberato. Era amico del poeta Ennio.  \ Della sua produzione rimangono circa 300 versi e i titoli di 44 _palliate_, tra cui la più celebre è _Plocium_ (_La collana_). Si ispirò alle opere del greco Menandro. Le sue commedie ebbero grande successo, dominando la scena teatrale tra la morte di Plauto e l'esordio delle _palliate_ di Terenzio.  \ Cecilio adattò liberamente i modelli greci. Fu apprezzato da Orazio e Varrone, ma criticato da Cicerone. Il suo lavoro si rivolgeva a un pubblico colto, posizionandolo in una via intermedia tra Plauto e Terenzio.  

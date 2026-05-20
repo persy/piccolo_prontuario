@@ -50,7 +50,7 @@ La svolta decisiva di questa fase teologica fu il recupero della centralità del
 
 Nel Novecento, mentre il fenomeno religioso veniva contestato filosoficamente attraverso le letture critiche di Marx, Nietzsche e Freud volte a smascherarne la presunta natura mistificante, si assistette anche a una riabilitazione del suo ruolo essenziale nella costruzione sociale da parte di studiosi come Émile Durkheim, Marcel Mauss, René Girard e dalla scuola di Francoforte.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Definizione di religione: La religione può essere definita come un insieme di credenze e pratiche cultuali volte a esprimere il rapporto dell'essere umano con il divino. In questo ambito, si possono distinguere due atteggiamenti principali:  

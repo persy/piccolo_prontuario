@@ -42,7 +42,7 @@ Aretino sfruttò al meglio le potenzialità del linguaggio volgare parlato, gioc
 Considerato un autore scandaloso fino a tutto l'Ottocento, Aretino è stato rivalutato nel XX secolo per la vivacità stilistica delle sue opere e per la rappresentazione efficace e realistica della società cinquecentesca. Tuttavia, la sua tematica dissacratoria e la sua operazione volutamente "antiletteraria" emergono alla fine come limite sul piano artistico e culturale.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Anticlassicismo: L'anticlassicismo si caratterizza per l'adozione del plurilinguismo e della lingua maccheronica, che si fonda sulla contaminazione reciproca tra termini latini e volgari. Questa sperimentazione oppone la propria visione al classicismo tradizionale.  

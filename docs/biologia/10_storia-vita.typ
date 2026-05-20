@@ -30,13 +30,13 @@ Anche flagelli e altri organuli cellulari potrebbero essere stati acquisiti tram
 #figure(
   caption: [La storia della vita sulla Terra],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
     if y == 0 {
-      return main_scienze // Colore header
+      return accent.bio // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_scienze.lighten(90%)
+      return accent.bio.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -135,13 +135,13 @@ Intorno a 90.000 anni fa apparve l'uomo moderno, _Homo sapiens sapiens_, che pro
 #figure(
   caption: [Principali caratteristiche degli ominidi],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -161,7 +161,7 @@ Intorno a 90.000 anni fa apparve l'uomo moderno, _Homo sapiens sapiens_, che pro
 )
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Brodo primordiale: Soluzione costituita da molecole organiche generate dall'evoluzione prebiotica, accumulatesi in ambienti acquatici poco profondi e caldi. Tali molecole, successivamente, avrebbero dato origine a strutture sferiche denominate microsfere. Il brodo primordiale è considerato il luogo in cui ebbero origine le prime forme di vita.

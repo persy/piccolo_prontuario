@@ -86,7 +86,7 @@ Pier Antonio Quarantotti Gambini (1910-1965), istriano e amico intimo di Umberto
 La trilogia autobiografica _Gli anni ciechi_ (_Le trincee_, 1942; _Amor militare_, 1955; _Il cavallo Tripoli_, 1956) è ambientata in territorio istriano e rivela un'intensa esplorazione delle esperienze adolescenziali dell'autore, marcate da inquietudini e dalla dolorosa transizione verso l'età adulta. Fra le sue opere più significative si annovera il romanzo _L'onda dell'incrociatore_ (1947), caratterizzato da una trama psicologicamente complessa dominata da un irrisolto conflitto edipico, il tutto ambientato nel porto di Trieste.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Pea: Enrico Pea (1881-1958) è stato un autore di grande versatilità, noto per le sue poesie, tragedie, romanzi e racconti, spesso caratterizzati da una forte componente autobiografica e un legame con il territorio versiliano. Tra le sue opere spiccano _Fole_ (1910), _Moscardino_ (1922) e _Il volto santo_ (1924). 

@@ -176,7 +176,7 @@ Anche la costruzione del pensiero contribuisce a questa difficoltà: le idee non
 Il linguaggio utilizzato da Properzio non è meno impegnativo; ricco di allusioni e significati profondi, si caratterizza per l'uso limitato di parole quotidiane a favore di termini rari, preziosi e di grecismi, sia sul piano lessicale che su quello sintattico.  
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Elegia d'amore: Subisce una profonda trasformazione nella tradizione latina, rinnovandosi rispetto all'elegia greca: l'amore vi è rappresentato con immediatezza e autenticità, senza il filtro del mito.

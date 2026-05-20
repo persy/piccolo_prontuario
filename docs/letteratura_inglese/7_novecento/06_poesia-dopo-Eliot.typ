@@ -131,7 +131,7 @@ La sua produzione comprende numerose raccolte che reinterpretano le tradizioni i
 
 Tra i saggi che meritano una menzione, _Preoccupations_ (_Preoccupazioni_, 1980) e _The government of the tongue_ (_Il governo della lingua_, 1988). Vinse il premio Nobel nel 1995.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Anni Venti: Negli anni Venti, la poesia subisce l'influenza di T.S. Eliot, e il poeta assume il ruolo di esploratore della realtà. Tra i principali esponenti si distinguono Robert Graves (1895-1985), Edwin Muir (1887-1959) e Hugh MacDiarmid (1892-1978).

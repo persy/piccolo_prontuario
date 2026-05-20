@@ -1,8 +1,8 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Storia",
-  color: main_storia,
-  image: image("../../docs/storia/img/cover.png", width: 60%),
-  arguments: "Dalla preistoria ai fatti più recenti recenti · I protagonisti · Gli eventi · La vita quotidiana · Inquadramenti geostorici · Cronologie"
+  subject: "Storia",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
+  arguments: "Dalla preistoria ai fatti più recenti · I protagonisti · Gli eventi · La vita quotidiana · Inquadramenti geostorici · Cronologie"
 )

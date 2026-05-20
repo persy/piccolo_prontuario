@@ -43,7 +43,7 @@ Ugo Grozio (Delft, Paesi Bassi, 1583 - Rostock, Germania, 1645), giurista di gra
 
 Secondo lui, l'obbligatorietà delle norme di diritto internazionale deriva da un principio di diritto naturale che ne è logicamente anteriore: il famoso imperativo "i patti devono essere rispettati". Il diritto naturale, nella visione di Grozio, si basa sui caratteri essenziali e specifici della natura umana e ha come obiettivo primario la sua conservazione. Esso comprende principi fondamentali, come "stare ai patti", e principi secondari quali il rispetto delle proprietà altrui, la restituzione dei beni sottratti e l'obbligo di mantenere le promesse.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 / Machiavelli e la politica: Niccolò Machiavelli, nel suo celebre trattato _Il Principe_, sviluppa alcune delle tesi più emblematiche della sua riflessione politica. Egli considera la politica come la dimensione centrale di chi aspira a ottenere o mantenere il potere in qualità di "principe". Le regole della politica non implicano un modello etico di comportamento, bensì delineano le strategie pratiche di chi desidera conquistare, esercitare e conservare il potere. Machiavelli postula così l'autonomia assoluta della politica rispetto ai principi morali e religiosi, enfatizzando virtù quali l'astuzia e la forza, metaforicamente rappresentate dalla volpe e dal leone.  
 

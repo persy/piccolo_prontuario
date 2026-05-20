@@ -131,7 +131,7 @@ La sua ispirazione derivava principalmente dai grandi autori classici come Catul
 
 Questo equilibrio tra tradizione classica e sensibilità personale conferisce alla sua poesia un tono unico, intimo e autenticamente originale.
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.eng.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il teatro elisabettiano: Si caratterizza per la diffusione di due tipologie principali di spettacoli: uno di ispirazione classica, destinato a un pubblico d'élite, e un altro di stampo più popolare, favorito anche dalla costruzione dei primi teatri.  

@@ -111,7 +111,7 @@ L'eccellenza artistica indiscussa di Tacito non deve comunque far passare in sec
 Tra i pensatori che hanno tratto ispirazione dalla lezione dello storico dell'età dei "tiranni" vi è Francesco Guicciardini nei suoi _Ricordi_.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: (56 ca - dopo 116 d.C.) Avvocato, intraprende la carriera politica sino al raggiungimento del consolato e del proconsolato in Asia.

@@ -52,7 +52,7 @@ Nel 460 a.C., Pericle salì al potere. Egli riprese le ostilità contro la Persi
 Le conseguenze di questa sconfitta furono determinanti per l'Impero persiano. Dopo la lunga lotta contro la Grecia, l'Impero soffrì una crescente crisi del potere centrale e un indebolimento economico. La sua sopravvivenza durò fino all'avvento di Alessandro Magno e dell'esercito macedone, che ne determinò la perdita dell'indipendenza politica e avviò un processo di integrazione culturale con il mondo greco.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Preamboli: Nel 499 a.C. il re persiano Dario avviò un tentativo di sottomettere l'isola di Nasso, senza tuttavia riuscirci. Questo fallimento provocò lo scoppio di una rivolta in diverse città ioniche, guidata da Aristagora, tiranno di Mileto. La rivolta venne sedata nel 492 a.C., momento in cui Dario decise di organizzare una spedizione punitiva contro Atene ed Eretria, colpevoli di aver sostenuto i ribelli. Tale spedizione, tuttavia, non raggiunse gli obiettivi prefissati e si concluse con un insuccesso.

@@ -167,13 +167,13 @@ Non sempre questa successione conduce alla formazione di una comunità climax ti
 #figure(
   caption: [Principali variazioni che si osservano nel corso di una successione],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -197,7 +197,7 @@ Le successioni ecologiche evolvono gradualmente verso una condizione di stabilit
 Le comunità climax sono profondamente influenzate dal clima e dalla geologia della regione. I biomi, come foreste, deserti o praterie, rappresentano esempi di comunità climax distribuite su vaste aree geografiche, accomunate da condizioni ambientali simili e da una caratteristica flora predominante.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario  <senza_numero>
 
 / Ambiente: L'insieme delle condizioni chimico-fisiche (fattori abiotici) e biologiche (fattori biotici) a cui è sottoposto un organismo vivente.  

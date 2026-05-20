@@ -118,7 +118,7 @@ Il genovese Anton Giulio Brignole Sale (1605-1665), nella raccolta _Instabilità
 Il pugliese Giuseppe Battista (1610-1675) si distingue per una notevole esuberanza immaginativa, mentre i napoletani Federico Meninni (1636-1712) e soprattutto Giovanni Lubrano (1619-1693) incarnano pienamente il cosiddetto "secentismo del secentismo". Anche il siciliano Giuseppe Artale (1628-1679), nella sua _Enciclopedia poetica_ (1679), esemplifica i tratti più enfatici e quasi ossessionanti della lezione barocca.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Barocco: L'etimologia del termine "barocco" sembra derivare dalla combinazione del sostantivo "baroco", impiegato nella filosofia scolastica per designare un sillogismo paradossale, e del portoghese "barroco", che indica una perla irregolare e dall'aspetto inusuale.  \ L'epoca barocca si caratterizza per l'artificio, l'"acutezza", il preziosismo e il "concettismo". In questo contesto, il virtuosismo estetico diviene fonte di "meraviglia" e piacere, generando una continua simulazione tra arte e natura.  

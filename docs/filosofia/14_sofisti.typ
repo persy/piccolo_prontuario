@@ -57,7 +57,7 @@ Con l'eristica – arte finalizzata a vincere le dispute indipendentemente dalla
 
 Le ultime fasi della sofistica, segnate dall'autonomia radicale attribuita al _lógos_ e dalla critica ai valori tradizionali e alle credenze consolidate, evidenziano i limiti di questa corrente: la sua incapacità di proporre nuovi modelli di convivenza sociale e nuovi sistemi di valori.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Filosofia dell'uomo e non della natura: I sofisti spostano il focus della filosofia dall'indagine del cosmo allo studio dell'uomo, dando vita a un nuovo approccio centrato sull'antropologia filosofica.

@@ -212,7 +212,7 @@ Oltre che oratore e politico, Cicerone si dedicò occasionalmente alla poesia e 
 Cicerone si cimentò anche nella traduzione poetica, realizzando una versione libera del poema astronomico _Fenomeni_ del greco Arato di Soli (circa 320-240 a.C.), testimoniando ancora una volta la sua versatilità intellettuale.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Cicerone nacque ad Arpino nel 106 a.C. e morì a Formia nel 43 a.C. Definito _homo novus_, frequentò le migliori scuole e si formò accanto ai più celebri oratori e filosofi del suo tempo. A soli 25 anni iniziò la carriera come avvocato. Il suo cursus honorum lo vide questore nel 75 a.C., poi edile, pretore e console nel 63 a.C., anno della celebre congiura di Catilina. Esiliato nel 58 a.C., tornò a Roma l'anno successivo, avvicinandosi ai triumviri. Nel 51 a.C. fu proconsole in Cilicia. Durante la guerra civile si schierò con Pompeo ma, dopo la morte di quest'ultimo, si riconciliò con Cesare. Fu infine assassinato dai sicari di Antonio.

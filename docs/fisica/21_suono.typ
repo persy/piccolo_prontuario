@@ -129,7 +129,7 @@ L'effetto Doppler si riferisce alla variazione della frequenza di un'onda rileva
 L'effetto Doppler si applica a tutte le forme di propagazione delle onde, incluse quelle luminose o radio. Tuttavia, è particolarmente evidente con il suono: ad esempio, il tono della sirena di un'ambulanza diventa più acuto man mano che il veicolo si avvicina e appare più grave quando si allontana.
   
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Acustica: Ramo della scienza che analizza i fenomeni legati alla produzione e alla diffusione delle onde sonore.

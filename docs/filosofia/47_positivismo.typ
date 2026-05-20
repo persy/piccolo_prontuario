@@ -81,7 +81,7 @@ Rielabora l'evoluzionismo di Spencer, distinguendosene per il fatto che rifiuta 
 
 Nella sua opera La morale dei positivisti (1885), in polemica con lo spiritualismo e il razionalismo, promuove l'ideale sociale come miglior garanzia per la morale. Infine, ne La scienza dell'educazione (1893) interpreta l'educazione come principio fondamentale dello sviluppo dell'individuo.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'orientamento positivista e la centralità della scienza: Il positivismo si fonda sull'imperativo di attenersi ai dati empirici e sull'elevazione della scienza a unica forma di conoscenza capace di analizzare, quantificare e dominare la realtà. Secondo tale visione, l'universo è governato da leggi precise che conferiscono coerenza e regolarità al mondo, le quali sono oggetto di studio delle discipline scientifiche. Qualsiasi forma di sapere che si basi su spiegazioni non verificabili attraverso metodi scientifici, come la metafisica e la religione, viene considerata priva di valore e sottoposta a un'analisi critica di carattere razionale.

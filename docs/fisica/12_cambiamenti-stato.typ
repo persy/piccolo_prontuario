@@ -57,13 +57,13 @@ dove _c#sub[f]_ rappresenta il calore latente di fusione, misurato in J/kg secon
 #figure(
   caption: [I vari tipi di passaggi di stato.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -104,13 +104,13 @@ Nel caso dell'acqua, se sottoposta a pressioni superiori a quella atmosferica, e
 #figure(
   caption: [Temperature di fusione di alcune sostanze e calori latenti di fusione a pressione normale.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -153,13 +153,13 @@ Ad esempio, l'acqua bolle a 100 °C a pressione atmosferica normale (101,32 kPa)
 #figure(
   caption: [Temperature di ebollizione e calori latenti di alcune sostanze a pressione normale.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -202,13 +202,13 @@ Se la formazione della nube avviene vicino al suolo, si genera la nebbia. Le goc
 #figure(
   caption: [Temperatura critica di alcuni gas.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -262,7 +262,7 @@ Nel caso dell'acqua, il punto triplo corrisponde a una temperatura di 0,01 °C e
 Dal 1954 il punto triplo dell'acqua ha sostituito il punto di fusione del ghiaccio come riferimento per la taratura della scala termometrica. In base a questa definizione, il kelvin è considerato pari a 1/273,16 del punto triplo dell'acqua.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Calore latente: Quantità di energia termica necessaria per trasformare lo stato fisico di una sostanza senza variarne la temperatura.  

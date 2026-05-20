@@ -195,13 +195,13 @@ Nei liquidi, le particelle risultano più distanziate rispetto ai solidi e le fo
 #figure(
   caption: [Coefficienti di attrito statico e dinamico per alcune coppie di superfici.],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.fis.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.fis // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.fis.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -401,7 +401,7 @@ Un ulteriore esempio di forza apparente è fornito dalla forza di Coriolis, cos�
 Questa componente è nota come accelerazione di Coriolis e genera una forza corrispondente per il principio fondamentale della dinamica, chiamata forza di Coriolis. La sua intensità varia con la latitudine e provoca una deviazione verso destra nell'emisfero nord e verso sinistra nell'emisfero sud per gli oggetti in movimento sulla superficie terrestre. L'effetto prodotto è particolarmente evidente nel comportamento delle grandi masse atmosferiche, come venti e correnti oceaniche.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Attriti: Nel contesto della meccanica, gli attriti sono forze che si oppongono al moto relativo tra due corpi in contatto. Essi rappresentano l'ostacolo che deve essere superato sia per avviare il movimento (attrito statico), sia per sostenerlo una volta in corso (attrito dinamico). L'attrito dinamico, inoltre, si distingue ulteriormente in base alla natura del movimento: quando i corpi strisciano tra loro si parla di attrito radente, mentre nel caso di rotolamento si definisce attrito volvente.

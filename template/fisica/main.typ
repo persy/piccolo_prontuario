@@ -1,19 +1,20 @@
 #import "../_global/template.typ": *
-#import "../_global/config.typ": main_scienze, main_color
+#import "../_global/config.typ": accent, accent_color, gradient_color
+
+// ==========================================
+// CONFIGURAZIONE UNICA DEL LIBRO
+// ==========================================
+#accent_color.update(accent.fis)
+#gradient_color.update(gradient.fis)
+
+// ==========================================
 
 // Copertina
 #include "cover.typ"
 
-// Colore della materia
-#let selected_color = main_scienze
-
-// Aggiorna lo stato globale per subfile
-#main_color.update(selected_color)
-
-// 3. Applichiamo il layout del template
+// Layout del template
 #show: template.with(
   title: "Fisica",
-  color: selected_color,  
 )
 
 // Capitoli

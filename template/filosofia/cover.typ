@@ -1,9 +1,8 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Filosofia",
-  color: main_umane,
-  image: image("../../docs/filosofia/img/cover.jpg", width: 60%),
+  subject: "Filosofia",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
   arguments: "Storia del pensiero filosofico · Morale · Metafisica · Epistemologia · Estetica · Filosofia della politica"
 )
-

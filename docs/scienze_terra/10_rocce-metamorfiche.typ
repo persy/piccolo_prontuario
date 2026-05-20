@@ -35,13 +35,13 @@ Il processo di anatessi riveste un ruolo cruciale nello studio della genesi dei 
   caption: [Rocce metamorfiche più comuni],
   gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.ter.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.ter // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.ter.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -94,7 +94,7 @@ Al contrario, le rocce dalla struttura granulare o saccaroide presentano cristal
 Un terzo tipo è la struttura occhiadina, che rappresenta una forma intermedia tra le due precedenti. Qui coesistono cristalli grandi ed equidimensionali con altri orientati e organizzati in strati paralleli. Un esempio rappresentativo è lo gneiss occhiadino.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Anatessi: Processo di fusione parziale che interessa una massa rocciosa preesistente.  

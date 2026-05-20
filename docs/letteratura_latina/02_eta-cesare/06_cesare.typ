@@ -130,7 +130,7 @@ Un aspetto di grande rilevanza risiede nelle informazioni fornite sui metodi mil
 Le battaglie riportate nei commentari mettono in luce l'eccellenza sia strategica sia tattica di Cesare, diventando un modello di studio che influenzerà le generazioni successive. Tuttavia, ciò che domina l'intero corpus dell'opera è la figura dello stesso Cesare: la moderazione con cui narra i propri successi, il sincero affetto con cui descrive i suoi soldati e ufficiali—soprattutto quelli di rango inferiore come i centurioni. Attraverso il riconoscimento delle loro imprese eroiche, della disciplina militare e della dedizione al generale, Cesare trasmette un'immagine empatica e carismatica del leader.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: (Roma, 100 - 44 a.C.), Cesare compie le prime esperienze militari in Asia e debutta come oratore a soli 22 anni. \ Si schiera con il partito democratico e, grazie a una rapida ascesa politica, nel 59 diventa console con il sostegno di Pompeo e Crasso, con cui forma il primo triumvirato. \ Tra il 58 e il 52 conduce una serie di campagne militari che gli permettono di conquistare tutta la Gallia, per poi sconfiggere Pompeo nella guerra civile. \ Ormai padrone assoluto di Roma, viene assassinato alle idi di marzo.  

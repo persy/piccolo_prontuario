@@ -80,7 +80,7 @@ Le sue opere si contraddistinguono per la veemente critica sociale e l'approccio
 Parallelamente, il pittore e incisore tedesco Georg Schrimpf (Monaco, 1889 - Berlino, 1938) si affermò come figura significativa sulla scena artistica dell'epoca. Partecipò nel 1920 a una mostra della Nuova Secessione a Monaco e soggiornò due anni dopo in Italia. Qui strinse rapporti con Carlo Carrà e venne influenzato dal gruppo "Valori Plastici", che esercitò un'impronta determinante sul suo lavoro. I dipinti di Schrimpf, come _Ragazza alla finestra_ (1925, Kunstmuseum di Basilea), si caratterizzano per una dimensione magica e sospesa, immersa in un tempo indefinito.
 
 #pagebreak()
-#set page(fill: main_arte.lighten(90%))
+#set page(fill: accent.art.lighten(90%))
 == In sintesi <senza_numero>
 
 / Neofiguratismo: Il movimento trova espressione nella cosiddetta Scuola di Parigi, denominazione che identifica più una corrente temporale che un movimento strutturato. Nel periodo immediatamente successivo al primo conflitto mondiale, Parigi divenne punto di riferimento per un gruppo di artisti accomunati dalla condizione di esuli, in prevalenza ebrei, mossi dal desiderio di innovazione artistica e culturale attraverso il confronto con il cubismo e il fauvismo. \ Le personalità più rilevanti furono Marc Chagall, Amedeo Modigliani, Chaïm Soutine, Georges Rouault e Constantin Brâncusi.

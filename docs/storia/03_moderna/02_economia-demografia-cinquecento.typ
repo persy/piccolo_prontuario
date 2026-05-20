@@ -56,7 +56,7 @@ Questi settori richiedevano lavoratori specializzati e diedero origine alle prim
 L'impatto delle scoperte dell'America si fece sentire in Europa soprattutto nella seconda metà del Cinquecento. L'afflusso massiccio di oro e metalli preziosi provocò in Spagna una grave inflazione nota come rivoluzione dei prezzi. Tuttavia, queste trasformazioni furono influenzate anche da dinamiche interne all'Europa, in primis il crescente divario fra un'offerta stagnante di beni e una domanda sempre più elevata.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1500-1550: Nel periodo compreso tra il 1500 e il 1550, si registra un'importante espansione demografica in tutta Europa. Nelle Fiandre e nei territori olandesi si osserva un notevole sviluppo dell'urbanizzazione, mentre in Russia prende avvio un'intensa colonizzazione delle regioni settentrionali. In Inghilterra iniziano inoltre le prime recinzioni delle terre comuni, note come _enclosures_, che preludono a significativi cambiamenti nella struttura agricola. Nel contesto economico, la famiglia di banchieri tedeschi Fugger gioca un ruolo cruciale, finanziando con 550.000 fiorini d'oro l'elezione di Carlo V al trono imperiale.  

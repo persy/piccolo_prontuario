@@ -180,7 +180,7 @@ $
 Nel piano cartesiano, questa legge oraria è rappresentata da una curva di secondo grado, nota con il termine parabola.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.fis.lighten(90%))
 == Glossario <senza_numero>
 
 / Accelerazione: Grandezza vettoriale che, in un determinato sistema di riferimento, descrive la variazione temporale della velocità di un punto _P_. Nel Sistema Internazionale di unità di misura, essa è espressa in metri al secondo quadrato (m/s²).  

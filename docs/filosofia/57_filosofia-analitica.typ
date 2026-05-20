@@ -108,7 +108,7 @@ Per questa ragione, Austin sposta la sua attenzione sul singolo atto linguistico
 + _Illocutorio_: riguarda l'azione che l'atto linguistico realizza (ad esempio: una richiesta o avvertimento: "la porta è aperta
 + Perlocutorio: indica l'atto linguistico con cui un risultato (qualcuno chiude la porta).
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Russell: Ne _I principi della matematica_, Russell si propone di ricavare l'intera matematica pura a partire da un numero minimo di concetti logici di base.

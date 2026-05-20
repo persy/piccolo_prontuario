@@ -37,7 +37,7 @@ Non mancano contributi di natura più teorica e "fondativa". L'etica della comun
 
 In generale, si percepisce sempre più chiaramente il tentativo di considerare l'etica come uno spazio filosofico ideale per favorire un accordo tra gli individui. Questo obiettivo appare urgente soprattutto alla luce della difficoltà delle teorie metafisiche nel fornire una visione condivisa sul significato dell'essere nella sua totalità.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Etica e morale: Il tema della condotta umana, dei valori e delle motivazioni che la guidano ha sempre occupato un posto centrale nella riflessione filosofica, dando origine a una disciplina specifica: l'etica, o filosofia morale. Quest'ultima si distingue dalla morale, che rappresenta invece l'insieme dei principi e delle norme condivise da una comunità sociale in una determinata epoca storica.

@@ -45,7 +45,7 @@ Profondamente convinto della compatibilità tra ragione e fede, Maimonide consid
 
 Secondo il filosofo, se il mondo fosse coeterno a Dio, come sostenuto da Aristotele, Dio risulterebbe vincolato alla necessità dell'esistenza del mondo stesso; ciò contrasterebbe con il concetto della creazione che avviene in un punto determinato del tempo. Da Dio emanano le intelligenze che regolano il movimento dell'universo e l'intelletto agente, il quale attiva l'intelligenza umana potenziale. Il profeta, colui che riceve pienamente l'influsso divino, si distingue per la contemplazione dell'amore divino e svolge il ruolo di guida spirituale per gli altri uomini.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Ruolo della filosofia araba ed ebraica: La filosofia araba, mediata dai pensatori ebrei, ha avuto un profondo impatto sulla filosofia cristiana medievale, favorendo la diffusione del pensiero aristotelico in Europa.  

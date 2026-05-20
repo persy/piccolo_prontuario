@@ -92,7 +92,7 @@ L'influenza di Lucrezio fu marcata sin dall'antichità. Orazio e Virgilio, speci
 Anche autori come Tacito testimoniarono la stima verso Lucrezio; nel _Dialogus_, egli indica che alcuni contemporanei lo preferivano persino a Virgilio per il suo spessore drammatico più pronunciato. Il poeta venne apprezzato anche da Seneca e Quintiliano. Da parte degli autori cristiani, tuttavia, le dottrine materialistiche lucreziane suscitarono polemiche, da Tertulliano a Lattanzio a Girolamo, che però ne rimasero affascinati.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: La vita di Lucrezio è avvolta da un velo di incertezza, e le informazioni sulla sua biografia sono estremamente limitate. Nato circa nel 98 a.C. e deceduto intorno al 55 a.C., trascorse gran parte della sua esistenza nell'isolamento dedicato agli studi e alla riflessione.

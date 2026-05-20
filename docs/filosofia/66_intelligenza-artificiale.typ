@@ -65,7 +65,7 @@ Tuttavia, una prospettiva critica è stata offerta dal filosofo del linguaggio J
 
 Pertanto, secondo Searle, anche nel caso in cui una macchina manifestasse abilità sofisticate e prestazioni apparentemente intelligenti, non sarebbe legittimo definirla realmente intelligente.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Origini dell'IA: L'intelligenza artificiale (IA) rappresenta l'insieme di studi e tecniche, principalmente legati all'informatica, finalizzati alla creazione di sistemi capaci di elaborare informazioni e risolvere problemi che tradizionalmente appartengono al dominio dell'intelligenza umana. Le prime tracce dell'IA risalgono all'epoca della cibernetica, nella metà del XX secolo, con studi matematici dedicati alle somiglianze tra macchine e organismi viventi.

@@ -78,7 +78,7 @@ Il giudizio determinante si manifesta nella conoscenza scientifica e nell'ambito
 
 Al contrario, il giudizio riflettente risponde all'esigenza di identificare un principio unitario che dia coerenza al molteplice empirico. Questo principio viene formulato dalla facoltà di giudizio attraverso un processo di riflessione su se stessa e sulla propria aspirazione all'unità. Il giudizio riflettente si suddivide in due ambiti: estetico e teleologico. Il primo riguarda la bellezza, mentre il secondo si occupa della finalità o degli scopi della natura. Sebbene entrambi si fondino sull'idea di finalità, intesa come armonia e reciproca concordanza tra le parti, essi non sono di natura conoscitiva.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il periodo precritico: Nel periodo precritico, Kant si concentra sulle scienze, la filosofia naturale e sulla necessità di conferire maggiore rigore alla filosofia.

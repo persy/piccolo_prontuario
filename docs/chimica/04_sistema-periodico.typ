@@ -73,13 +73,13 @@ I non metalli comprendono alcuni elementi dei gruppi III A (boro), IV A (carboni
 #figure(
   caption: [Confronto fra le proprietà dei metalli e dei non metalli.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
         fill: (x, y) => {
     if y == 0 {
-      return main_tecnologia // Colore header
+      return accent.chi // Colore header
     } else if calc.even(y) {
       // Colore righe dispari
-      return main_tecnologia.lighten(90%)
+      return accent.chi.lighten(90%)
     } else {
       // Colore righe pari
       return white
@@ -111,7 +111,7 @@ La quantità di energia associata all'acquisto di una mole di elettroni da parte
 // Tavola elettronegatività e altre proprietà periodiche
 
 #pagebreak()
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Tavola periodica di Mendeleev: Sistema di classificazione che organizzava gli elementi in ordine crescente di peso atomico.  

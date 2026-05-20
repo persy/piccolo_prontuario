@@ -107,7 +107,7 @@ La lingua è il fulcro della sua arte. Il linguaggio plautino è un capolavoro d
 La sua lingua popolareggiata è ricca di battute argute, doppi sensi salaci e contrapposta a espressioni prese dai registri tragici o epici, con chiare finalità parodistiche. L'effetto grottesco è amplificato da iperboli, onomatopee e un uso ridondante delle parole, rendendo ancora più vivide le tonalità comiche.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Plauto, il più celebre commediografo dell'età arcaica, nacque a Sarsina, in Umbria, prima del 250 a.C., e morì a Roma nel 184 a.C. Disponiamo di poche informazioni sulla sua vita, ma è certo che fosse nato libero di origine umbra.  

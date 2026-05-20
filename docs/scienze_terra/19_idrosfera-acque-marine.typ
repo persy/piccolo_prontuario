@@ -22,13 +22,13 @@ I sedimenti organici derivati prevalentemente da zone ad alta concentrazione di 
 #figure(
   caption: [I principali sali contenuti in 1 kg di acqua di mare],
   table(
-  stroke: 0.5pt + main_scienze.lighten(90%),
+  stroke: 0.5pt + accent.ter.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-  return main_scienze // Colore header
+  return accent.ter // Colore header
   } else if calc.even(y) {
   // Colore righe dispari
-  return main_scienze.lighten(90%)
+  return accent.ter.lighten(90%)
   } else {
   // Colore righe pari
   return white
@@ -122,7 +122,7 @@ Non esiste una classificazione rigida delle onde, ma in base alla loro genesi e 
 - Tsunami: onde estremamente potenti e atipiche, provocate da un maremoto che scuote il fondale marino trasferendo l'energia all'acqua sovrastante. Queste onde colpiscono la costa con violenza dovuta alla grande massa d'acqua coinvolta e alla rapidità del movimento. La loro imprevedibilità e straordinaria forza distruttiva rendono gli tsunami particolarmente temuti, soprattutto lungo litorali esposti al rischio sismico.   
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Circuito oceanico: Movimento ciclico delle masse d'acqua marine, il cui spostamento, determinato da una sequenza di correnti, forma percorsi chiusi e ricorrenti all'interno di uno stesso bacino oceanico.

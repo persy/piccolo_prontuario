@@ -15,7 +15,7 @@ Le differenze qualitative osservabili nelle cose materiali derivano dalla combin
 
 Democrito sviluppa anche una concezione dell'anima composta da atomi che funge da principio vitale superiore rispetto al corpo. La sua gnoseologia valorizza la conoscenza intellegibile rispetto a quella sensibile, interpretando la percezione in termini meccanicistici: effluvi atomici interagiscono con i sensi e gli atomi simili riconoscono analoghi presenti nell'individuo. Sul piano etico, propone una visione che privilegia i piaceri dell'anima rispetto a quelli corporei e promuove la ricerca della serenità interiore attraverso il controllo delle passioni e l'esercizio della temperanza. Politicamente, Democrito abbraccia ideali democratici e cosmopoliti.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'atomismo come risposta all'aporia eleatica: L'atomismo rappresenta un tentativo di risolvere l'aporia sollevata dagli Eleati: attraverso l'identificazione di infiniti principi privi di differenze qualitative, ma distinti su base quantitativa, offre una visione della realtà orientata a una spiegazione meccanicistica e quantitativa. 

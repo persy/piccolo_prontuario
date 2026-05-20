@@ -59,7 +59,7 @@ Nell'Emilio, Rousseau esplora compiutamente l'espressione dell'essere umano attr
 
 Nel _Contratto sociale_, Rousseau propone invece la creazione dello Stato inteso come corpo morale e collettivo costituito da tutti i cittadini. In tale configurazione, ogni membro esercita la propria libertà attraverso la volontà generale, che rappresenta la sintesi delle volontà individuali orientata al perseguimento del bene comune.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'Illuminismo e il primato della ragione: L'Illuminismo si caratterizza per un'applicazione sistematica della ragione rivolta all'analisi della realtà terrena e quotidiana, con particolare attenzione verso il perseguimento della felicità e dell'utilità come obiettivi fondamentali.

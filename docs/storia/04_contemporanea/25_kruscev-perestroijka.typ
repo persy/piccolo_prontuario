@@ -58,7 +58,7 @@ Mao Zedong fondò il suo regime sulla centralità dell'agricoltura. A tal fine, 
 Nonostante il caos, Mao riuscì a riconquistare la maggioranza nel Partito Comunista Cinese nel 1969. Gli effetti negativi della sua politica lo costrinsero però a fare marcia indietro. Alla sua morte, avvenuta nel 1976, il potere passò a Deng Xiaoping, che abbandonò la linea maoista condannando apertamente i danni arrecati dalla Rivoluzione culturale.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / URSS (1945-1964): La ricostruzione dell'Unione Sovietica nel periodo postbellico fu caratterizzata da ingenti sacrifici imposti alla popolazione e da un sistematico sfruttamento delle risorse economiche dei paesi satelliti. Il governo di Stalin fu segnato da purghe e repressioni che consolidarono il suo controllo. Alla morte di Stalin, avvenuta il 5 marzo 1953, la direzione politica del paese passò a una leadership collettiva, dalla quale emerse rapidamente Nikita Kruscëv (1894-1971). Egli inaugurò il processo di destalinizzazione, un momento cruciale per la storia sovietica. \ Durante il XX Congresso del Partito Comunista dell'Unione Sovietica (PCUS) nel marzo 1956, Kruscëv riconobbe la possibilità di coesistenza tra sistemi capitalisti e comunisti, pronunciandosi contro le politiche repressive di Stalin. Sul fronte economico, il V Piano Quinquennale (1951-1955) portò significativi progressi, ma al contempo accentuò gli squilibri interni e alimentò tensioni geopolitiche, in particolare con la Cina e Cuba. Tali instabilità portarono alla destituzione di Kruscëv il 15 ottobre 1964, segnando la fine della sua leadership.

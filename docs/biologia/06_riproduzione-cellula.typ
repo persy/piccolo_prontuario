@@ -66,7 +66,7 @@ Il crossing-over può verificarsi in qualunque punto del cromosoma e addirittura
 La segregazione e l'assortimento indipendente contribuiscono ulteriormente alla diversità: il numero di combinazioni possibili nei gameti è pari a 2n, dove "n" rappresenta il numero di coppie di cromosomi. Ad esempio, nell'uomo, che possiede 23 coppie di cromosomi omologhi, i gameti distinti generabili sono 2#super[23], ossia 8.388.608. La fecondazione, che avviene con la fusione dei gameti di due individui distinti, offre un numero teorico quasi incalcolabile di zigoti possibili (8.388.608 × 8.388.608 = oltre 70.369 miliardi).
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Assortimento indipendente: Distribuzione dei cromosomi omologhi di una coppia nei due nuclei figli senza che questa sia influenzata dai cromosomi di un'altra coppia.  

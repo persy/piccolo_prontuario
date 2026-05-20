@@ -98,7 +98,7 @@ Nel I secolo a.C., Roma fu teatro di un vivace dibattito linguistico tra due scu
 Gli anomalisti, invece, aderivano alla scuola di Pergamo in Asia e proponevano un approccio più spontaneo e dinamico alla lingua. Essi ritenevano che il linguaggio fosse principalmente condizionato dal suo uso vivo e quotidiano e che evolvesse con il passare delle generazioni e il mutare delle idee. Da tale prospettiva derivava una maggiore libertà espressiva personale e l'accettazione dei neologismi come parte integrante dell'evoluzione linguistica.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Terenzio Varrone: Nato a Rieti nel 116 a.C., morì nel 27 a.C. Proveniente da una famiglia di rango equestre, ricoprì ruoli importanti come quelli di questore, tribuno della plebe e pretore. Inizialmente sostenitore di Pompeo, dopo la battaglia di Farsalo ottenne da Cesare il perdono. Tuttavia, quando finì nelle liste di proscrizione di Antonio e Ottaviano, preferì ritirarsi dalla vita pubblica, dedicandosi interamente agli studi. \ Enciclopedista di straordinaria cultura, scrisse 74 opere che raccoglievano più di 600 libri. Di questa immensa produzione ci sono giunti solo il _De re rustica_, un prezioso trattato sull'agricoltura; sei libri, purtroppo incompleti e lacunosi, del _De lingua latina_; e circa 600 versi delle _Sature Menippeae_, che originariamente contavano 150 libri. Le altre opere erudite sono andate perdute.

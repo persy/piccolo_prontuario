@@ -87,7 +87,7 @@ Di particolare rilievo è la critica religiosa formulata da Ludwig Feuerbach (18
 
 In linea generale, i difensori e i critici della religione tradizionale tendono ad adottare rispettivamente posizioni politiche conservatrici o innovatrici.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La "Fenomenologia dello spirito": La Fenomenologia dello spirito di Hegel si propone di delineare il percorso dalle forme più semplici dello spirito, rappresentate dalla "coscienza immediata", fino alla prospettiva del "sapere assoluto", al fine di approdare al "concetto della scienza".

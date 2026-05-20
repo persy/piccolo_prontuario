@@ -121,7 +121,7 @@ Pascoli rimane un poeta straordinario, una figura che in qualche modo rappresent
 La sua sperimentazione poetica giunse fino al limite dello sgretolamento metrico e prosodico, spingendosi oltre con tecniche come l'onomatopea, l'uso del parlato e il multilinguismo. Questo approccio ebbe un ruolo significativo nell'evoluzione dei poeti del Novecento, tra cui Eugenio Montale, Umberto Saba e Carlo Betocchi. In particolare, influenzò lo sviluppo stilistico, il tono espressivo e la stessa concezione del conoscere poetico in quella nuova stagione letteraria.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Decadentismo: Il decadentismo si afferma negli anni '80 del XIX secolo a partire da Parigi, contrapponendosi al positivismo e valorizzando l'irrazionalità, il mistero, l'estetismo e la sensibilità simbolista.

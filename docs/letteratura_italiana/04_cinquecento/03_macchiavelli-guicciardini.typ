@@ -93,7 +93,7 @@ Lo studio del passato stimola dunque una riflessione orientata al futuro: second
 La _Storia d'Italia_, unica opera concepita da Guicciardini per la pubblicazione, è scritta in una lingua di grande eleganza formale, influenzata anche dal confronto con le _Prose della volgar lingua_ di Pietro Bembo.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Niccolò Machiavelli: Nato a Firenze nel 1469, Niccolò Machiavelli (1469-1527) fu un importante uomo politico e diplomatico del Rinascimento. Tra le sue opere principali figurano _Il Principe_ (1513-14), i _Discorsi sopra la prima deca di Tito Livio_ (1515-17), i dialoghi _De re militari_ (1521), la _Vita di Castruccio Castracani_ (1520) e la commedia _La Mandragola_ (1518). Il nucleo del pensiero machiavelliano è la definizione dell'utile per lo Stato, inteso come utilità comune del principe e dei sudditi. La politica, secondo Machiavelli, deve basarsi sulla "verità effettuale della cosa" e non sull'immaginazione. La creazione e conservazione dello Stato rappresentano il fulcro della sua riflessione, fondata su una visione razionale e autonoma della politica, capace di affrontare le sfide della fortuna tramite fini e mezzi coerenti.

@@ -106,7 +106,7 @@ Cassola si concentra sulle realtà più essenziali, sugli oggetti ordinari e sul
 Con lo svilupparsi di una percezione sempre più negativa nei confronti della contemporaneità, vissuta da Cassola come "nemica", la sua scrittura prende una direzione più intimistica, oscillando tra un intento consolatorio e uno evasivo. È il caso di opere come _Un cuore arido_ (1961), _Il cacciatore_ (1964) e _Ferrovia locale_ (1968). Nelle produzioni successive si distinguono titoli come _Paura e tristezza_ (1970), _Monte Mario_ (1973), _Fogli di diario_ (1974), l'antologia autobiografica _L'uomo e il cane_ (1977) e lavori che riflettono un approccio ispirato dall'antimilitarismo.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Neorealismo: le premesse fondamentali del movimento neorealista, sviluppatosi tra gli anni Quaranta e Cinquanta del Novecento, si basano su un realismo più autentico, sull'influenza del "mito dell'America" e su una nuova esigenza di impegno politico. Le principali tematiche trattate includono la guerra, la Resistenza, la condizione operaia e quella degli emarginati.

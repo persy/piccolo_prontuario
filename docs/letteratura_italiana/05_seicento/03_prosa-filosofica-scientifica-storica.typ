@@ -74,7 +74,7 @@ Il suo capolavoro è _Istoria del concilio tridentino_, scritto tra il 1608 e il
 Secondo Sarpi, questi stessi interessi determinarono il fallimento del concilio, che finì col rafforzare l'autoritarismo papale e la deriva mondana della Chiesa. La prosa asciutta e rigorosa dell'opera si ispira alla scrittura di Galileo Galilei, amico di Sarpi e condivisore dei suoi interessi scientifici.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Campanella: Nella _Città del sole_ (1623), l'autore svilupa il suo pensiero teologico e la visione utopica di riforma sociale e religiosa attraverso una lingua ricca ed esuberante. Le sue _Poesie_ lo consacrano tra i maggiori poeti italiani del XVII secolo, conferendogli il ruolo di poeta-profeta, in contrasto con la figura retorica predominante nella sua epoca. 

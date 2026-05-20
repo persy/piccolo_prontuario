@@ -71,7 +71,7 @@ Tra razionalismo ed empirismo, Leibniz cerca una via mediana. Egli supera l'inna
 
 Leibniz distingue tra le verità di ragione e le verità di fatto. Le prime dipendono esclusivamente dal principio di non contraddizione e sono valide in tutti i mondi possibili, indipendentemente dall'esperienza. Le seconde, invece, sono contingenti e richiedono accertamento empirico per essere comprese.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Occasionalismo: La dottrina dell'occasionalismo nasce dall'esigenza di chiarire il rapporto tra anima e corpo, due sostanze concepite da Cartesio come radicalmente eterogenee.

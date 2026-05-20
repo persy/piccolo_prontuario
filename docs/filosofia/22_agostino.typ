@@ -47,7 +47,7 @@ Nel XIII secolo, l'agostinismo affronta la sfida rappresentata dall'ascesa della
 
 Sul piano politico, l'agostinismo promuove un modello teocratico che postula la subordinazione del potere temporale a quello spirituale. Lo Stato è visto come assoggettato alla Chiesa perché la sovranità deriva direttamente da Dio e viene conferita esclusivamente da Lui.  
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / La conversione: Agostino, dopo un periodo giovanile segnato dall'irrequietezza e dalla ricerca della verità, arriva alla sua conversione al cristianesimo, grazie anche all'influenza di Sant'Ambrogio, abbandonando definitivamente il manicheismo.

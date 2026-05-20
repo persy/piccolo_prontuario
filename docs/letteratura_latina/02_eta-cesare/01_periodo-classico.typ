@@ -64,7 +64,7 @@ Cesare lo mise in competizione diretta con Decimo Laberio durante i ludi trionfa
 Una raccolta di età imperiale ha trasmesso oltre 700 versi attribuibili al poeta con il titolo _Sententiae_. Questi componimenti, caratterizzati da impronte sentenziose e morali, sono scritti in metri giambici o trocaici. Tuttavia, la loro autenticità è ancora dubbia.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Lingua letteraria: La prosa letteraria latina raggiunse il proprio apice di raffinatezza nel I secolo a.C., quando si consolidarono norme linguistiche stabili che garantirono una certa uniformità in tutto l'Impero. Questa prosa divenne un modello imitativo per i secoli successivi. \ Va segnalata una maggiore libertà espressiva nella poesia, in cui permangono varianti morfologiche e sintattiche non presenti nella prosa.

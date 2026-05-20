@@ -107,7 +107,7 @@ Il trattato _De agri cultura_, risalente al 160 a.C., è considerato il testo di
 Si presenta come un manuale pratico per il proprietario terriero, ricco di precetti e indicazioni utili alla gestione agricola. Con uno stile semplice e asciutto, spesso sentenzioso, l'opera offre consigli su diverse tematiche: dalla gestione della casa alle ricette di cucina, dai lavori agricoli stagionali ai sacrifici da compiere agli dèi, dalla produzione di olio e vino alle malattie di animali e piante.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Prosa: I primi sviluppi della prosa letteraria si registrano nel II secolo a.C., principalmente legati all'oratoria e alla storiografia. Gli autori di queste opere appartengono prevalentemente alle classi dirigenti.  

@@ -58,7 +58,7 @@ Gli organi animali sono composti da diversi tessuti, ma uno di essi è responsab
 
 Gli organi cavi, come lo stomaco, hanno una struttura stratificata: l'epitelio interno (o mucosa), uno strato sottomucoso di tessuto connettivo e uno strato muscolare esterno. Gli organi ghiandolari, come il fegato, sono composti da unità funzionali (adenomeri) organizzate in lobuli o lobi più grandi e sostenute da un reticolo di tessuto connettivo (stroma). Gli organi a struttura filamentosa, come i muscoli, sono formati da fasci di unità contrattili che permettono la loro funzione. Infine, gli organi nervosi, come l'occhio, sono costituiti da cellule strettamente interconnesse che collaborano nella ricezione degli stimoli e nella trasmissione degli impulsi.
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Cellule della glia: Cellule che circondano i neuroni, fornendo supporto strutturale e protezione.  

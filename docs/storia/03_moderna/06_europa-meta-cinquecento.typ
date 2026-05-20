@@ -64,7 +64,7 @@ Un evento chiave del suo regno fu la condanna e decapitazione di Maria Stuart, c
 Elisabetta I fu anche una rinomata mecenate delle arti, promuovendo opere profondamente influenzate dalla cultura rinascimentale italiana e fiamminga.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Francia: Durante i regni di Caterina de' Medici e dei suoi figli, il paese fu segnato dalle devastanti guerre di religione tra cattolici e ugonotti. Gli editti precedenti avevano garantito ai nobili ugonotti il diritto di professare liberamente il loro culto. Tuttavia, nel massacro della Notte di San Bartolomeo (1572), migliaia di ugonotti furono uccisi a Parigi, scatenando una guerra che culminò con l'ascesa al trono di Enrico di Borbone, leader ugonotto, dopo la sua conversione al cattolicesimo. Con l'Editto di Nantes (1598), fu riconosciuta a tutti piena libertà di culto.  

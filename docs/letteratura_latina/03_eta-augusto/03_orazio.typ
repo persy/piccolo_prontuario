@@ -296,7 +296,7 @@ XVI: Esortazione rivolta ai concittadini romani affinché abbandonino Roma e si 
 XVII: Ultima invettiva contro la strega Canidia, in cui Orazio finge di implorarla per ottenere il suo perdono.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: Quinto Orazio Flacco (Venosa 65 a.C. - Roma 8 a.C.) studia a Roma, Napoli e Atene. Partecipa alla battaglia di Filippi come tribuno militare nell'esercito di Bruto. Successivamente, grazie a Virgilio, entra nel circolo di Mecenate, con il quale instaura un'amicizia profonda e duratura. Nel 17 a.C., su richiesta di Augusto, compone il _Carme secolare_. Trascorre il resto della sua vita tra Roma e la villa in Sabina.

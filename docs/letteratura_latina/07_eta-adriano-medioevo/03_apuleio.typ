@@ -110,7 +110,7 @@ Apuleio godeva già presso i suoi contemporanei della fama di mago e conoscitore
 Con il ritrovamento del manoscritto da parte del Boccaccio, la fortuna di Apuleio aumentò considerevolmente: l'autore influenzò profondamente il romanzo picaresco spagnolo e contribuì a modellare fiabe e novelle in tutta Europa.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Vita: (Madauraca ca 125 - Cartagine ca 180). Studioso di filosofia, retorica e  grammatica. È noto per una vita costellata di studi e viaggi. Durante la sua formazione approfondisce grammatica, retorica e filosofia. Spirito instancabile e abile oratore, è attratto dalle dottrine religiose e viene iniziato ai misteri di Dioniso. \ Si sposa a Cartagine con Pudentilla, una vedova matura e benestante; tuttavia, questa unione suscita forti critiche da parte dei parenti della donna che accusano Apuleio di manipolazione e pratiche magiche. Nel relativo processo si difende brillantemente confutando ogni accusa con arguzia.  Nella sua carriera professionale si dedica non solo all'attività di avvocato ma anche a quella di medico, bibliotecario e conferenziere.

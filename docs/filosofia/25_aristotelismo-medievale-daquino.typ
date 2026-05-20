@@ -65,7 +65,7 @@ Gli averroisti sostengono tesi filosofiche incompatibili con la dottrina rivelat
 
 Queste posizioni portano all'accusa di promuovere la teoria della "doppia verità", secondo cui le verità della fede e quelle della ragione sarebbero indipendenti fra loro e potrebbero persino giungere a conclusioni contraddittorie.  
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Alberto Magno: Alberto Magno integra il pensiero aristotelico nella tradizione cristiana, sottolineando l'autonomia delle scienze profane e dell'indagine sperimentale rispetto alla teologia. Propone una distinzione tra filosofia e teologia, assumendo nel dibattito sugli universali una posizione di realismo moderato. Considera inoltre l'anima personale e immortale come parte integrante dell'intelletto attivo.  

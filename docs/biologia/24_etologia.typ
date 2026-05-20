@@ -85,7 +85,7 @@ Un altro caso curioso riguarda le cince in Inghilterra negli anni '50. I lattai 
 
 L'imitazione, al pari dell'imprinting, rappresenta una modalità fondamentale del comportamento sociale e svolge un ruolo cruciale nella trasmissione di quella che viene definita "cultura". Tale cultura si manifesta attraverso l'apprendimento e la diffusione di comportamenti acquisiti, favorendo la creazione di vere e proprie tradizioni.
 #pagebreak() 
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Comportamento: Insieme dei processi attraverso cui un animale reagisce agli stimoli dell'ambiente circostante. Può essere innato o acquisito.  

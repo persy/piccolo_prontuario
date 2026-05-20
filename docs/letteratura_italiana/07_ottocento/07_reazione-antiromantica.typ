@@ -94,7 +94,7 @@ Il secondo gruppo è composto dagli scritti polemici, nei quali emergono toni en
 Carducci si configura come personalità poetica di straordinario rilievo per l'impegno patriottico e nazionale che gli valsero il titolo di "vate d'Italia". La sua produzione poetica non manca tuttavia di momenti di profonda commozione intima ed esiti significativi sul piano critico-storiografico. Dopo l'entusiastica accoglienza da parte dei suoi contemporanei e il giudizio favorevole espresso da Benedetto Croce, il quale riconobbe nella sua opera una straordinaria espressione di "integra umanità", la critica successiva ha spesso sottolineato l'apparente mancanza di originalità della sua opera e la sua distanza dal panorama europeo. Le analisi critiche più recenti, tuttavia, hanno messo in luce la compresenza di due poli tematici – il senso profondo della vita e quello della morte – che conferiscono alla poesia carducciana una tensione intrinseca autentica e intensamente vissuta.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Scapigliatura: La Scapigliatura, nata e sviluppatasi a Milano negli anni '70-'80 dell'Ottocento, non fu tanto un movimento organizzato quanto un orientamento anticonformista volto a provocare e contestare la tradizione retorico-umanistica, giudicata ormai superata e sentimentale. Ciò avvenne attraverso un furioso sperimentalismo formale. \ Fra i principali troviamo Cletto Arrighi (1830-1906), Ugo Iginio Tarchetti (1839-1869), il musicista e scrittore Arrigo Boito (1842-1918) ed Emilio Praga (1839-1875), poeta (_Fiabe e leggende_, 1867) e narratore (_Memorie del presbiterio_, 1877).

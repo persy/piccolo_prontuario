@@ -1,5 +1,6 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "@preview/alchemist:0.1.9": * // Alchemist, per evidenziazione dinamica di formule matematiche
 
 #intro[Con la scoperta dell'elettrone da parte di J.J. Thomson nel 1897, si fece chiarezza sul fatto che l'atomo non fosse, come ipotizzato da Dalton, indivisibile. Anzi, si comprese che esso possiede una struttura interna complessa. Poco dopo, ulteriori studi portarono all'identificazione del protone, un'altra particella subatomica fondamentale.
 
@@ -42,13 +43,13 @@ $ #hide[]^"A"_"Z" "X" $
 #figure(
   caption: [Proprietà particelle subatomiche],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -123,13 +124,13 @@ La regione dello spazio intorno al nucleo in cui è massima la probabilità di t
 #figure(
   caption: [Valori $l$ e corrispondenti \ sottolivelli energetici],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -155,13 +156,13 @@ Il numero quantico di spin ms descrive il senso della rotazione dell'elettrone a
 #figure(
   caption: [Relazioni tra valiri di $n$, $l$, $m$ e rispettivi orbitali#footnote[Si noti che nel livello $n$-esimo vi siano $n$ sottolivelli e $n^2$ orbitali.]],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -229,13 +230,13 @@ quad
 #figure(
   caption: [Rappresentazione della configurazione elettronica di azoto, ossigeno, fluoro e neon.],
   table(
-    stroke: 0.5pt + main_tecnologia.lighten(90%),
+    stroke: 0.5pt + accent.chi.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_tecnologia // Colore header
+    return accent.chi // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_tecnologia.lighten(90%)
+    return accent.chi.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -251,7 +252,7 @@ quad
 )  
 )
 
-#set page(fill: main_tecnologia.lighten(90%))
+#set page(fill: accent.chi.lighten(90%))
 == Glossario <senza_numero>
 
 / Particelle subatomiche: Unità fondamentali della materia suddivise per massa e carica elettrica. Tra queste si distinguono:

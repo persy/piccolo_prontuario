@@ -78,7 +78,7 @@ Nel 1241 gli eserciti tedesco-polacchi e ungherese subirono una dura sconfitta. 
 Dopo la fine della dinastia Yüan, nel 1368, Tamerlano, sovrano turco supposto discendente di Gengis Khan, si fece proclamare gran Khan, dando vita al secondo Impero mongolo, conquistando immensi territori. Nel 1405, alla vigilia di un attacco contro la Cina, Tamerlano morì e l'Impero declinò rapidamente, sfaldandosi in molti stati.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Saraceni: Tra l'827 e l'878, i Saraceni attuarono una sistematica occupazione di territori strategici quali la Sicilia, la Sardegna, la Corsica e le Baleari, estendendo la loro influenza fino a Roma e Ostia. Nel 915, una coalizione delle città dell'Italia meridionale riuscì a eliminare la loro base sul fiume Garigliano. Tuttavia, nel 982, l'imperatore Ottone II fu sconfitto dai Saraceni in una battaglia significativa.  

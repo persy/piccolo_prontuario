@@ -54,7 +54,7 @@ La verità, secondo Eraclito, non può essere raggiunta tramite l'esperienza sen
 
 Dalla concezione eraclitea dell'_arché_-fuoco si sviluppano anche riflessioni di ambito psicologico. Per Eraclito l'anima è di natura ignea e intrinsecamente dotata di _lógos_, ovvero ragione. Da questi presupposti psicologici emerge quindi un'etica centrata sull'idea che l'agire umano debba essere regolato dal _lógos_ e dal _nómos_ (legge), i quali rappresentano la guida razionale verso la giusta misura e costituiscono l'unico criterio valido per orientare il comportamento.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il problema cosmologico: La filosofia nasce come un'indagine razionale sul mondo naturale. Nei presocratici, infatti, il pensiero è dominato dal problema cosmologico, ovvero dalla ricerca di un'unità che vada oltre l'apparente molteplicità dei fenomeni, individuandone il fondamento e l'origine.

@@ -99,7 +99,7 @@ Garibaldi, fedele agli impegni presi in nome dell'unità italiana, accettò la n
 Il processo culminò il 17 marzo 1861, quando il Parlamento proclamò Vittorio Emanuele II re d'Italia, segnando simbolicamente la nascita del nuovo Stato unitario.
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1846-1849: Con l'elezione di papa Pio IX (1846-1878), di orientamento neoguelfo, soffia un vento di riforme liberali. A gennaio del 1848, un'insurrezione nel Regno delle Due Sicilie porta alla concessione dello Statuto (29 gennaio), rapidamente seguita dagli altri Stati: Carlo Alberto concede lo Statuto Albertino il 4 marzo nel Regno Sardo. I moti rivoluzionari a Vienna fomentano l'insurrezione a Venezia (17 marzo) e a Milano durante le Cinque Giornate (18-23 marzo 1848). Il 23 marzo Carlo Alberto dichiara guerra all'Austria, segnando l'inizio della Prima Guerra d'Indipendenza. Inizialmente si schierano con lui lo Stato della Chiesa, la Toscana e il Regno delle Due Sicilie, ma, intimoriti dalla potenza austriaca e contrari a rafforzare il Piemonte, si ritirano. Carlo Alberto vince la battaglia di Peschiera (30 aprile) ma perde a Custoza (23-25 luglio). Rompe l'armistizio temendo che i democratici prevalgano a Roma e Firenze, ma subisce una sconfitta definitiva a Novara (23 marzo 1849), abdicando in favore di Vittorio Emanuele II (1849-1878). Il successivo armistizio viene firmato il 24 marzo a Vignale.

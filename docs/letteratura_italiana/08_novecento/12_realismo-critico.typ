@@ -146,7 +146,7 @@ Nella raccolta in lingua italiana _L'usignolo della chiesa cattolica_ (1958), Pa
 _La religione del mio tempo_ (1961) ricorre alla satira e all'epigramma; _Poesia in forma di rosa_ (1964) si sviluppa attraverso argomentazioni e monologhi in un'ottica di rifiuto e contestazione, ormai eccessivamente dichiarata. In _Trasumanar e organizzar_ (1971), Pasolini alterna la riscrittura delle poesie giovanili in dialetto con toni di poeta civile e indignato, anticipando l'ultima e drammatica fase della sua produzione artistica.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Realismo critico: Il realismo critico è una corrente narrativa che non si limita a rappresentare la realtà, ma si propone di esplorarne in profondità le forme e le dinamiche. 

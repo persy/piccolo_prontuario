@@ -1,9 +1,9 @@
-#import "../_global/template.typ": *
+#import "../_global/template_cover.typ": *
 
 #copertina(
-  subject: "Fisica",
-  color: main_scienze,
-  image: image("../../docs/fisica/img/cover.png", width: 60%),
+  subject: "Fisica",  
+  cover-image: image("cover.jpg", width: 100%, height: 100%, fit: "cover", 
+  ),
   arguments: "Meccanica · Termodinamica · Elettromagnetismo · Onde · Fisica atomica · Quantistica · Relatività"
 )
 

@@ -76,7 +76,7 @@ A Firenze, centro nevralgico dell'opposizione prima antiviscontea e successivame
 Tra il 1485 e il 1492, Lorenzo rafforzò il proprio prestigio politico, diventando una figura di riferimento dell'equilibrio italiano. In questo periodo, stabilì un'alleanza duratura con Milano e Napoli. A Milano, dopo una fase di instabilità interna, Ludovico Sforza detto "il Moro" assunse la reggenza sul giovane Gian Galeazzo (1480), legittimo erede del ducato milanese. Ludovico consolidò ulteriormente il proprio potere attraverso il matrimonio di Gian Galeazzo con una delle nipoti di Ferrante d'Aragona, re di Napoli (1489).
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / Comuni: Durante il periodo della lotta per le investiture, nelle città emergono le prime forme di Comune (_coniurationes_), che gradualmente si espandono verso il contado. Inizialmente il governo è gestito da due consoli, successivamente da un podestà. Più avanti, la piccola borghesia promuove il "comune del popolo", una struttura governativa in cui le cariche sono ricoperte dai "priori delle arti" e dal "gonfaloniere".

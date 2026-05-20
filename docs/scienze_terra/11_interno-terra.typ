@@ -155,7 +155,7 @@ Questo processo può verificarsi sia in caso di solidificazione del magma in pro
 Gli studi condotti hanno permesso di osservare che l'inversione dei poli magnetici si verifica con una cadenza approssimativa di 500.000-600.000 anni; tuttavia, le cause e i meccanismi precisi di tale fenomeno rimangono ancora poco chiari. Alcuni ricercatori ipotizzano che tali inversioni possano avere un ruolo significativo nella sopravvivenza di interi gruppi di organismi. Durante i periodi di inversione, infatti, lo scudo magnetico terrestre, normalmente attivo nel proteggere il pianeta dalle radiazioni solari nocive, risulta meno efficace, aumentando così l'intensità degli effetti dannosi di queste radiazioni sugli ecosistemi. Questa vulnerabilità ha indotto molti scienziati a stabilire correlazioni tra le estinzioni di ampie famiglie faunistiche, come i dinosauri o le ammoniti, e i periodi di inversione del campo magnetico terrestre.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.ter.lighten(90%))
 == Glossario <senza_numero>
 
 / Astenosfera: Strato situato al di sotto della litosfera, nella parte superiore del mantello terrestre, posto a una profondità compresa tra 60 e circa 200-300 km e caratterizzato da un comportamento plastico con possibilità di movimenti orizzontali di materia.  

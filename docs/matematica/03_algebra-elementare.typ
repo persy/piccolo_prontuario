@@ -4,8 +4,10 @@
 #import "@preview/cetz:0.4.2" // grafici, cetz-plot richiede cetz ≥ 0.4.2 
 #import "@preview/cetz-plot:0.1.3": plot, chart
 
+#set math.equation(numbering: "1")
+
 // spesso ree colore divisioni, ...
-#let col_linea = .5pt + main_scienze
+#let col_linea = .5pt + accent.mat
 
 #intro[#TODO]
 == Monomi  
@@ -682,24 +684,24 @@ $ a - 1. $
 Tuttavia, occorre considerare che nella frazione iniziale il valore $a = -1$ non era ammesso, poiché in questo caso il denominatore diventerebbe uguale a zero ($frac(0, 0, style: "skewed")$), situazione senza significato matematico. Al contrario, nel polinomio finale $a - 1$, il valore $a = -1$ risulta perfettamente valido, portando ad un risultato pari a zero.  
 
 Pertanto, la forma corretta e completa dell'espressione è:  
-$ (a^2 - 1) / (a + 1) = ((a - 1)cancel((a + 1), stroke: #(paint: main_scienze))) / cancel((a + 1), stroke: #(paint: main_scienze)) = a - 1, quad "se" quad a != -1. $ ] 
+$ (a^2 - 1) / (a + 1) = ((a - 1)cancel((a + 1), stroke: #(paint: accent.mat))) / cancel((a + 1), stroke: #(paint: accent.mat)) = a - 1, quad "se" quad a != -1. $ ] 
 
 In generale, il calcolo con le frazioni algebriche segue le stesse regole delle frazioni numeriche: possiamo eseguire somme, sottrazioni, moltiplicazioni e divisioni senza dover introdurre nuove tecniche. Tuttavia, è necessario conoscere come effettuare operazioni sui polinomi, come sommare o moltiplicare polinomi, trovare un multiplo comune (o eventualmente il minimo comune multiplo) fra due o più polinomi e così via. Le difficoltà che potrebbero emergere sono esclusivamente di natura tecnica. Infatti, se ridurre più frazioni numeriche al minimo comune denominatore o semplificarle ai minimi termini è solitamente piuttosto semplice, svolgere tali operazioni con i polinomi risulta molto più complesso.  
 
 Un aspetto importante da considerare prima di lavorare con le frazioni algebriche è la determinazione delle condizioni iniziali. Queste indicano le restrizioni di valore che garantiscono il significato matematico dell'espressione.  
 
 Alla luce di quanto osservato, non è necessario introdurre nuove regole per operare con le frazioni algebriche. Ci limiteremo quindi a proporre alcuni esempi pratici di semplificazione di espressioni algebriche per acquisire familiarità con questi concetti.
-// cancel(x^2, stroke: #(paint: main_scienze), angle: #115deg))
+// cancel(x^2, stroke: #(paint: accent.mat), angle: #115deg))
 #esempio[ 
-$ &(a^2 - 2 a + 1) / b^3 dot (a b^2 + b^2) / (a - 1) dot ((-b) / (1 - a)) = \ &= cancel((a - 1)^2, stroke: #(paint: main_scienze)) / cancel(b^3, stroke: #(paint: main_scienze), angle: #135deg) dot ((a + 1)cancel((b^2), stroke: #(paint: main_scienze), angle: #135deg) / cancel((a - 1), stroke: #(paint: main_scienze)) dot cancel(b, stroke: #(paint: main_scienze), angle: #135deg) / cancel((a - 1), stroke: #(paint: main_scienze)) \ &= a + 1 $  
+$ &(a^2 - 2 a + 1) / b^3 dot (a b^2 + b^2) / (a - 1) dot ((-b) / (1 - a)) = \ &= cancel((a - 1)^2, stroke: #(paint: accent.mat)) / cancel(b^3, stroke: #(paint: accent.mat), angle: #135deg) dot ((a + 1)cancel((b^2), stroke: #(paint: accent.mat), angle: #135deg) / cancel((a - 1), stroke: #(paint: accent.mat)) dot cancel(b, stroke: #(paint: accent.mat), angle: #135deg) / cancel((a - 1), stroke: #(paint: accent.mat)) \ &= a + 1 $  
 I calcoli sono validi se $a != 1 and b != 0$][
-$ &((x + b) / (2x - 2b) - (x - b) / (2x + 2b) - (2b^2) / (b^2 - x^2)) dot (x - b) / (2b) = \ &= ((x + b) / (2(x - b)) - (x - b) / (2(x + b)) + (2b^2) / ((x - b)(x + b))) dot (x - b) / (2b) \ &= ((x + b)^2 - (x - b)^2 + 4b^2) / (2 cancel((x - b), stroke: #(paint: main_scienze))(x + b)) dot cancel((x - b), stroke: #(paint: main_scienze)) / (2b)  \ &= (cancel(x^2, stroke: #(paint: main_scienze)) + 2b x cancel(+ b^2, stroke: #(paint: main_scienze), angle: #115deg) cancel(- x^2, stroke: #(paint: main_scienze)) + 2b x cancel(- b^2, stroke: #(paint: main_scienze), angle: #115deg) + 4b^2) / (4b(x + b)) \ &= (4b x + b^2) / (4b(x + b)) = (cancel(4b, stroke: #(paint: main_scienze))(cancel(x + b, stroke: #(paint: main_scienze), angle: #115deg))) / (cancel(4b, stroke: #(paint: main_scienze))(cancel(x + b, stroke: #(paint: main_scienze), angle: #115deg))) = 1 $  
+$ &((x + b) / (2x - 2b) - (x - b) / (2x + 2b) - (2b^2) / (b^2 - x^2)) dot (x - b) / (2b) = \ &= ((x + b) / (2(x - b)) - (x - b) / (2(x + b)) + (2b^2) / ((x - b)(x + b))) dot (x - b) / (2b) \ &= ((x + b)^2 - (x - b)^2 + 4b^2) / (2 cancel((x - b), stroke: #(paint: accent.mat))(x + b)) dot cancel((x - b), stroke: #(paint: accent.mat)) / (2b)  \ &= (cancel(x^2, stroke: #(paint: accent.mat)) + 2b x cancel(+ b^2, stroke: #(paint: accent.mat), angle: #115deg) cancel(- x^2, stroke: #(paint: accent.mat)) + 2b x cancel(- b^2, stroke: #(paint: accent.mat), angle: #115deg) + 4b^2) / (4b(x + b)) \ &= (4b x + b^2) / (4b(x + b)) = (cancel(4b, stroke: #(paint: accent.mat))(cancel(x + b, stroke: #(paint: accent.mat), angle: #115deg))) / (cancel(4b, stroke: #(paint: accent.mat))(cancel(x + b, stroke: #(paint: accent.mat), angle: #115deg))) = 1 $  
 I calcoli sono validi se $x != #math.plus.minus b and b != 0$.
 
 ][ $ (frac(1, 1 + a) + frac(a, 1 - a)) / (frac(1, 1 - a) - frac(a, 1 + a)) : (1 - frac(1 - 1/a, 1 + 1/a)) = 
-frac(frac(1 - a + a + a^2, cancel(1 - a^2, stroke: #(paint: main_scienze))), frac(1 + a - a + a^2, cancel(1 - a^2, stroke: #(paint: main_scienze)))) : (1 - frac(frac(a - 1, cancel(a, stroke: #(paint: main_scienze), angle: #115deg)), frac(a + 1, cancel(a, stroke: #(paint: main_scienze), angle: #115deg)))) = $
+frac(frac(1 - a + a + a^2, cancel(1 - a^2, stroke: #(paint: accent.mat))), frac(1 + a - a + a^2, cancel(1 - a^2, stroke: #(paint: accent.mat)))) : (1 - frac(frac(a - 1, cancel(a, stroke: #(paint: accent.mat), angle: #115deg)), frac(a + 1, cancel(a, stroke: #(paint: accent.mat), angle: #115deg)))) = $
 
-$ = frac(cancel(1 + a^2, stroke: #(paint: main_scienze)), cancel(1 + a^2, stroke: #(paint: main_scienze))) : (1 - frac(a - 1, a + 1)) = 1 : frac(a + 1 - a + 1, a + 1) = 1 : frac(2, a + 1) = frac(a + 1, 2) . $
+$ = frac(cancel(1 + a^2, stroke: #(paint: accent.mat)), cancel(1 + a^2, stroke: #(paint: accent.mat))) : (1 - frac(a - 1, a + 1)) = 1 : frac(a + 1 - a + 1, a + 1) = 1 : frac(2, a + 1) = frac(a + 1, 2) . $
   
 I calcoli sono validi se $a != 1 and a != -1 and a != 0$.]
 

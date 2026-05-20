@@ -53,7 +53,7 @@ Nella raccolta intitolata _Conclusioni filosofiche, cabalistiche e teologiche_ (
 
 Nella sua celebre orazione _De dignitate hominis_ (La dignità dell'uomo), Pico celebra il valore intrinseco della libertà umana, ponendo l'uomo al centro della realtà creata da Dio. In questo ruolo centrale, l'essere umano manifesta la capacità di autodeterminarsi, di contemplare l'universo e persino di influenzarlo mediante la pratica della magia. In tal modo, l'individuo si dimostra superiore perfino agli angeli, poiché questi ultimi rimangono vincolati ai livelli della gerarchia cosmica degli esseri.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / L'aristotelismo: L'aristotelismo rappresenta la corrente filosofica preminente durante il Rinascimento, con particolare rilievo per le interpretazioni alessandrine e averroiste. Queste tendenze si concentrano principalmente su questioni di natura logico-gnoseologica e fisica.

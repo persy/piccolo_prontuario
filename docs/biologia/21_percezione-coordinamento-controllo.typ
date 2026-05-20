@@ -38,13 +38,13 @@ Vi sono sinapsi che esercitano un effetto inibitorio, riducendo la probabilità 
 #figure(
   caption: [I principali neurotrasmettitori],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -219,13 +219,13 @@ Le ghiandole endocrine cooperano in maniera strettamente integrata tra loro e st
 #figure(
   caption: [Ghiandole e relativi ormoni],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -241,7 +241,7 @@ Le ghiandole endocrine cooperano in maniera strettamente integrata tra loro e st
 )
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Apparato vestibolare: Strutture presenti nell'orecchio interno, specializzate nella percezione dei movimenti e dei cambiamenti di posizione della testa. Comprendono tre canali semicircolari, il sacculo e l'utricolo.  

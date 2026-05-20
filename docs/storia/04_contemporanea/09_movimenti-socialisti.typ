@@ -67,7 +67,7 @@ In tale contesto, senza ricorrere all'autorità di un Concilio ecumenico, procla
 Un ulteriore segnale della sua opposizione alle idee del tempo giunse nel 1864 con la pubblicazione del Sillabo, allegato all'enciclica _Quanta Cura_. Il documento elencava una serie di proposizioni condannate dalla Chiesa, tra le quali spiccavano quelle riguardanti la libertà religiosa, il liberalismo e il socialismo, ribadendo la posizione rigidamente critica del pontefice rispetto ai cambiamenti socio-politici in atto.  
 
 #pagebreak()
-#set page(fill: main_storia.lighten(90%))
+#set page(fill: accent.sto.lighten(90%))
 == In sintesi <senza_numero>
 
 / 1800-1848: Durante questo periodo si diffondono le idee di intellettuali e imprenditori filantropi, che analizzano le difficili condizioni dei lavoratori nelle fabbriche e propongono nuovi modelli di organizzazione sociale. Robert Owen (1751-1858) introduce riforme umanitarie nella sua fabbrica di cotone, ma l'esperimento di New Harmony (1826-1828) si rivela un fallimento.  \ Charles Fourier (1772-1837), ideatore dell'armonia universale, costruisce la sua teoria intorno al concetto di "falansterio". \ Claude-Henry Saint-Simon (1760-1825), sostenitore dell'industrializzazione, promuove un approccio scientifico alle questioni sociali, dando vita al movimento del Saint-Simonismo, a cui aderirà anche Giuseppe Mazzini. \ Pierre-Joseph Proudhon (1809-1865), fautore dell'anarchia e critico della proprietà privata che ritiene "un furto", contribuisce a radicalizzare il dibattito.  

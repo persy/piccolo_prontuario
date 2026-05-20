@@ -43,7 +43,7 @@ Una visione autentica dell'uomo e dell'universo, vale a dire una vera religione,
 
 Per chi rimane incerto nonostante le molte argomentazioni proposte, Pascal formula la celebre scommessa: se non si è convinti né dell'esistenza né dell'assenza di Dio, è razionale scegliere di vivere come se il Dio cristiano esistesse. Scommettere sulla sua esistenza implica aderire alla promessa divina di una vita infinita e beata per chiunque abbracci la fede cristiana.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Il libertinismo: Nel Seicento, l'importanza attribuita all'individuo e alla sua autonomia favorisce la diffusione di una visione laica, disinteressata ai dogmi religiosi. In questo contesto si riaffermano il piacere, la corporeità e la libertà di pensiero, ideali che trovano espressione nel movimento del libertinismo, particolarmente diffuso in Francia.

@@ -65,7 +65,7 @@ Nel successivo stadio etico tale contraddizione viene superata attraverso la sce
 
 Alla fine, la scelta deve affrontare e superare il paradosso racchiuso nella relazione tra finito e infinito. È necessario affidarsi al "ricordo dell'eterno" e compiere il cosiddetto salto della fede, con il quale si oltrepassano i limiti imposti dalla riflessione razionale. Questo salto rappresenta un abbandono al mistero che costituisce l'essenza dell'umano. Nel contesto specifico del cristianesimo e della rivelazione divina, tale atto appare come un gesto che sembra entrare in conflitto con le prerogative stesse della ragione umana.
 #pagebreak()
-#set page(fill: main_umane.lighten(90%))
+#set page(fill: accent.fil.lighten(90%))
 == In sintesi <senza_numero>
 
 / Schopenhauer: Schopenhauer riprende la distinzione kantiana tra fenomeno, inteso come rappresentazione, e noumeno, identificato con la volontà. 

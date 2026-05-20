@@ -4,6 +4,8 @@
 #import "@preview/cetz:0.4.2" // grafici, cetz-plot richiede cetz ≥ 0.4.2 
 #import "@preview/cetz-plot:0.1.3": plot, chart
 
+#set math.equation(numbering: "1")
+
 #intro[In questo capitolo verranno trattate le proprietà fondamentali degli insiemi dei numeri naturali, interi, razionali e reali. Analizzeremo le caratteristiche principali di ciascun insieme numerico e, anche se brevemente, ripercorreremo il processo logico che porta all'estensione del concetto di numero, iniziando dai naturali. Dedicheremo particolare attenzione ai numeri naturali, sia per la necessità di stabilire una notazione chiara sia perché spesso le conoscenze su questo tema risultano poco approfondite. Nel caso dei numeri reali, ci soffermeremo sulle proprietà dei radicali a causa della loro rilevanza applicativa. Inoltre, per introdurre intuitivamente i numeri reali, esploreremo anche la rappresentazione decimale.]
 
 == I numeri naturali
@@ -62,9 +64,7 @@ Il principio d'induzione estende quest'idea al caso in cui la fila sia composta 
 Per trattare le operazioni definite nell'insieme dei numeri naturali, iniziamo richiamando il concetto generale di operazione interna su un insieme.  
 
 #definizione(title: "Operazione interna")[Dato un insieme $A$, si definisce operazione interna in $A$ ogni funzione 
-  $
-    phi : A times A -> A
-  $<operazione_interna> 
+  $ phi : A times A -> A $ <operazione_interna> 
 
 Tali funzioni vengono comunemente rappresentate mediante simboli come $dot$, $+$, $times$, $\/$, ecc.
 ]
@@ -975,13 +975,13 @@ Cominciamo prendendo in considerazione l'equazione $x^2 = 2$ e cerchiamo di dete
   caption: [],
   // gap: 0pt, // Allinea la didascalia alla tabella
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.mat.lighten(90%),
     fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.mat // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.mat.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -1076,26 +1076,26 @@ cetz.canvas({
     let y_start_a = 0
     let x_end_a = 0.8 * scale
     let y_end_a = (calc.sqrt(2))
-    line((x_start_a, y_start_a), (x_end_a, y_end_a), stroke: (paint: main_scienze, dash: "dashed"))
+    line((x_start_a, y_start_a), (x_end_a, y_end_a), stroke: (paint: accent.mat, dash: "dashed"))
     
     // quadrato e cerchio
     rect((0.6 * scale, 0), (0.8 * scale, calc.sqrt(2)))
-    circle((0.6 * scale, 0), radius: (calc.sqrt(2) + 0.74), fill: none, stroke: main_scienze)
+    circle((0.6 * scale, 0), radius: (calc.sqrt(2) + 0.74), fill: none, stroke: accent.mat)
 
     // punti
-    circle((0.6 * scale, 0), radius: 0.05, fill: main_scienze, stroke: none)
+    circle((0.6 * scale, 0), radius: 0.05, fill: accent.mat, stroke: none)
     content((0.6 * scale - 0.3, 0.3), [$O$])
 
-    circle((0.8 * scale, 0), radius: 0.05, fill: main_scienze, stroke: none)
+    circle((0.8 * scale, 0), radius: 0.05, fill: accent.mat, stroke: none)
     content((0.8 * scale + 0.3, 0.3), [$U$])
 
-    circle((0.6 * scale, (calc.sqrt(2))), radius: 0.05, fill: main_scienze, stroke: none)
+    circle((0.6 * scale, (calc.sqrt(2))), radius: 0.05, fill: accent.mat, stroke: none)
     content((0.6 * scale - 0.3, (calc.sqrt(2))), [$B$])
 
-    circle((0.8 * scale, (calc.sqrt(2))), radius: 0.05, fill: main_scienze, stroke: none)
+    circle((0.8 * scale, (calc.sqrt(2))), radius: 0.05, fill: accent.mat, stroke: none)
     content((0.8 * scale + 0.3, (calc.sqrt(2))), [$A$])
 
-    circle(((calc.sqrt(2)) * 0.6145 * scale, 0), radius: 0.05, fill: main_scienze, stroke: none)
+    circle(((calc.sqrt(2)) * 0.6145 * scale, 0), radius: 0.05, fill: accent.mat, stroke: none)
     content(((calc.sqrt(2)) * 0.6 * scale + 0.4, 0.3), [$P$])
 
 }),

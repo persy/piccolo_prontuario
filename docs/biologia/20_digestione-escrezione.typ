@@ -117,7 +117,7 @@ Nel dotto collettore, dove confluiscono diversi tubuli distali, il filtrato si c
 I dotti collettori trasportano l'urina verso la pelvi renale, da cui attraversa gli ureteri peristaltici fino alla vescica, un organo muscolare cavo dove viene accumulata. La sua espulsione avviene tramite contrazione della muscolatura della vescica e rilassamento dello sfintere uretrale, una struttura anulare posta al di sotto della vescica. Infine, l'urina percorre l'uretra, un canale lungo circa 4 cm nelle donne e 20 cm negli uomini.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Apparato digerente: Complesso di organi e strutture responsabili dell'assunzione, della digestione e dell'assimilazione delle sostanze nutritive, oltre che dell'eliminazione delle scorie solide. Nell'uomo è composto da bocca, faringe, esofago, stomaco e intestino, insieme a organi accessori come ghiandole salivari, fegato, cistifellea e pancreas.  

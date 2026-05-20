@@ -38,7 +38,7 @@ I romanzi del periodo attingono solitamente ai grandi cicli classici (Tebe, Troi
 Andrea da Barberino (circa 1370-1431) fu un autore prolifico di romanzi e reinterpretò con uno stile vicino al gusto borghese tanto le severe vicende del mondo carolingio quanto le avventurose storie del ciclo bretone. I suoi capolavori, Reali di Francia e Guerrin Meschino, ebbero una straordinaria diffusione fino a tutto l'Ottocento, diventando una parte dell'immaginario popolare.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Letteratura didattico-allegorica: Tra i testi pionieristici vi è _L'Intelligenza_. Francesco da Barberino lasciò opere quali _Documenti d'Amore_ e _Reggimento e costumi di donna_, pubblicate intorno al 1314. Cecco d'Ascoli fu autore del poema allegorico _Acerba_, mentre Fazio degli Uberti è celebre per il _Dittamondo_, una narrazione cosmografica in versi.  

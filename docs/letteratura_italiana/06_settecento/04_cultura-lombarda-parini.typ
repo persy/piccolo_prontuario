@@ -50,7 +50,7 @@ Nel _Vespro_, l'autore riflette sui rapporti di falsa amicizia basati esclusivam
 L'ironia costante impiegata da Parini vivifica questa materia e crea un poema didascalico dai contenuti paradossali. Il precettore, fingendo di impartire insegnamenti utili al suo discepolo per perpetuare la propria vita frivola, demolisce spietatamente l'immagine che la classe nobiliare ha di sé stessa, mettendone in luce tutta la vanagloria e l'assurdità. La dilatazione dei tempi e dei gesti descritti contribuisce a evidenziare l'inconsistenza dei rituali e delle parole della nobiltà, provocando una potente reazione morale nel lettore.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / _Il Caffè_ e gli illuministi lombardi: Il motto "Cose e non parole" riflette l'approccio pratico e concreto del _Caffè_, simbolo degli illuministi lombardi che abbandonarono ogni residuo arcadico per promuovere una cultura impegnata nelle battaglie civili. Tra i principali protagonisti: Alessandro e Pietro Verri, autori delle _Osservazioni sulla tortura_ (1777), e Cesare Beccaria, noto per il trattato _Dei delitti e delle pene_ (1764).

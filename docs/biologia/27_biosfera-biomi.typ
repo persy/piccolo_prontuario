@@ -28,13 +28,13 @@ La zoogeografia studia la distribuzione degli animali sulla Terra, tenendo conto
 #figure(
   caption: [Le regioni biogeografiche],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -179,13 +179,13 @@ Nella troposfera, alcuni composti chimici possono essere soggetti a ossidazioni 
 #figure(
   caption: [I principali inquinanti atmosferici],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -228,13 +228,13 @@ L'inquinamento termico delle acque costituisce un ulteriore problema. Esso è ca
 #figure(
   caption: [Fonti dei principali inquinanti delle acque],
   table(
-    stroke: 0.5pt + main_scienze.lighten(90%),
+    stroke: 0.5pt + accent.bio.lighten(90%),
   fill: (x, y) => {
   if y == 0 {
-    return main_scienze // Colore header
+    return accent.bio // Colore header
   } else if calc.even(y) {
     // Colore righe dispari
-    return main_scienze.lighten(90%)
+    return accent.bio.lighten(90%)
   } else {
     // Colore righe pari
     return white
@@ -262,7 +262,7 @@ La biosfera possiede la capacità di mantenere un equilibrio globale; tuttavia, 
 La preservazione della natura non si affida esclusivamente alla responsabilità individuale, ma coinvolge anche organizzazioni internazionali e istituzioni dedicate alla conservazione del territorio, come le riserve naturali.
 
 #pagebreak()
-#set page(fill: main_scienze.lighten(90%))
+#set page(fill: accent.bio.lighten(90%))
 == Glossario <senza_numero>
 
 / Benton o benthos: Comunità di organismi animali e vegetali che abitano il fondo marino o acquatico, suddivise in fitobenton (alghe e batteri) e zoobenton (animali).  

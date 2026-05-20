@@ -56,7 +56,7 @@ Di Levio si hanno notizie frammentarie. È forse identificabile con Levio Meliss
 Anche Mazio è una figura poco nota. Sono però giunti fino a noi circa una decina di frammenti dei suoi _Mimiambi_, brevi scene satiriche sulla vita quotidiana. Inoltre, si conservano sette versi della traduzione in esametri latini dell'_Iliade_ di Omero, probabilmente realizzata per scopi didattici.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.lat.lighten(90%))
 == In sintesi <senza_numero>
 
 / Lucilio: Lucilio nacque a Sessa Aurunca nel 180 a.C. e morì a Napoli nel 102 a.C. Fu membro del ceto equestre e si unì al celebre circolo culturale degli Scipioni. Partecipò alla guerra di Numanzia combattendo in Spagna. \ Lucilio fu autore di 30 libri di _Satire_, dei quali ci sono pervenuti circa 1350 versi frammentari. Con il suo linguaggio ricco di grecismi e termini tecnici, oscillando tra registro erudito e popolaresco, egli criticava in modo anticonformista i vari aspetti della vita romana, sia pubblica sia privata.

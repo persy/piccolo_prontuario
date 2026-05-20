@@ -90,7 +90,7 @@ Nella metà del XV secolo, l'Umanesimo rinascimentale raggiunse una delle sue ma
 Una figura di grande rilievo fu Giovanni Pico della Mirandola (1463-1494), impegnato nella costante ricerca di una sintesi tra tutte le filosofie e religioni, in particolare la cabbalà, corrente mistica dell'ebraismo, e la rivelazione cristiana. Autore dell'illustre orazione _De dignitate hominis_ (_La dignità dell'uomo_, 1486), ha dato vita a un'opera che rappresenta una preziosa sintesi del pensiero umanistico. Questo testo esprime con straordinaria efficacia la fiducia nei valori e nella grandezza dell'uomo, al quale Dio ha donato la capacità di essere artefice del proprio destino, rendendolo superiore persino agli angeli.
 
 #pagebreak()
-#set page(fill: main_letteratura.lighten(90%))
+#set page(fill: accent.ita.lighten(90%))
 == In sintesi <senza_numero>
 
 / Umanesimo: Attraverso la valorizzazione della tradizione greco-latina, l'Umanesimo riconsidera il ruolo centrale dell'uomo, interpretato come artefice del proprio destino, impegnato nella costruzione di modelli sociali innovativi. Questo approccio si oppone alla visione tradizionale ed esclusivamente ultraterrena del mondo.\ Figura di spicco dell'Umanesimo, Coluccio Salutati fu cancelliere di Firenze per oltre trent'anni e un tenace assertore dell'alto valore civile della cultura classica.
