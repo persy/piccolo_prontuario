@@ -4,6 +4,7 @@
 // ==========================================
 // CONFIGURAZIONE UNICA DEL LIBRO
 // ==========================================
+
 #accent_color.update(accent.mat)
 #gradient_color.update(gradient.mat)
 
@@ -16,6 +17,14 @@
 #show: template.with(
   title: "Matematica",
 )
+
+// Resetta counter #definizione e #esempio ad ogni nuovo capitolo
+#show heading.where(level: 1): it => {
+  counter(figure.where(kind: "definizione")).update(1)
+  it
+  counter("esempio").update(0)
+}
+
 
 // Capitoli
 = Introduzione <senza_numero>

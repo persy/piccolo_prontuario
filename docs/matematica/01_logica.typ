@@ -1,42 +1,14 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "tables.typ": *
+#import "plots.typ": *
 
-#import "@preview/cetz:0.4.2" // grafici, cetz-plot richiede cetz ≥ 0.4.2 
-#import "@preview/cetz-plot:0.1.3": plot, chart
-#import "@preview/cetz-venn:0.1.4" // diagrammi di Venn
+// Workaround per stile font delle formule matematiche, da sistemare in futuro
+#set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
+  })
 
-#set math.equation(numbering: "1")
-
-// Funzioni
-
-// tabella relazioni
-#let tabella_relazioni(
-  data: (), 
-  num_col: 4, 
-  color: silver // predefinito
-) = {
-  // indice dell'ultima riga in base a quanti dati passiamo
-  let num_row = int(data.len() / num_col)
-  let last_row = num_row - 1
-
-  // stile
-  show table.cell.where(y: 0): set text(weight: "regular", fill: black)
-  show table.cell.where(x: 0): set text(weight: "bold", fill: white)
-  show table.cell.where(y: last_row): set text(weight: "regular", fill: white)
-  table(
-    columns: (2em,) * num_col,
-    align: center + horizon,
-    stroke: 0.5pt + color.lighten(90%),
-    fill: (x, y) => {
-      if y == last_row { return color }
-      if x == 0 { return color }
-      if calc.even(x) { return color.lighten(90%) }
-      return white
-    },
-    // dati
-    ..data 
-  )
-}
+// =============================================================================
 
 #intro[In questo capitolo verranno richiamati in sintesi alcuni concetti fondamentali di logica e teoria degli insiemi, con l'obiettivo di definire con precisione le notazioni adottate nel testo. La nozione di insieme rappresenta un fondamento imprescindibile di qualsiasi disciplina matematica, per cui è fondamentale acquisire una chiara padronanza dei contenuti che verranno illustrati. In particolare, gli elementi essenziali della logica delle proposizioni e dei predicati, sebbene trattati in modo sintetico, si rivelano strumenti utilissimi per affrontare in modo efficace i quesiti sempre più comuni nei test di ammissione alle facoltà universitarie.
 
@@ -81,31 +53,7 @@ Nei paragrafi successivi utilizzeremo simboli come $P$, $Q$, ... per rappresenta
 
 La @tabella_logica1 (dove "V" indica vero e "F" indica falso) sintetizza formalmente le definizioni dei connettivi logici. Si noti che la tabella è costruita considerando che ogni enunciato atomico può assumere due possibili valori di verità. Per analizzare il valore di verità di un enunciato che coinvolga due proposizioni, dobbiamo quindi considerare tutte le combinazioni possibili, il che corrisponde a un numero totale di $2^2 = 4$ casi. Tuttavia, per il solo connettivo $not$ (negazione), sarebbero necessarie solo due righe nella tabella, in quanto si opera su un unico enunciato atomico. Tabelle come questa vengono comunemente chiamate tavole di verità.  
 
-#figure(
-  caption: [Connettivi logici e corrispondente tavola di verità],
-  //gap: 0pt, // Allinea la didascalia alla tabella
-  table(
-    stroke: 0.5pt + accent.mat.lighten(90%),
-    fill: (x, y) => {
-  if y == 0 {
-    return accent.mat // Colore header
-  } else if calc.even(y) {
-    // Colore righe dispari
-    return accent.mat.lighten(90%)
-  } else {
-    // Colore righe pari
-    return white
-  }
-  },
-  align: center + horizon,
-  columns: (7),
-  table.header[ $sans(P)$ ][ $sans(Q)$ ][ $sans(not P)$ ][ $sans(P and Q)$ ][ $P or Q$ ][ $P arrow.r.double Q$ ][ $P arrow.l.r.double Q$ ], 
-  [ V ], [ V ], [ F ], [ V ], [ V ], [ V ], [ V ],  
-  [ V ], [ F ], [ F ], [ F ], [ V ], [ F ], [ F ],  
-  [ F ], [ V ], [ V ], [ F ], [ V ], [ V ], [ F ],  
-  [ F ], [ F ], [ V ], [ F ], [ F ], [ V ], [ V ], 
-)  
-)<tabella_logica1>
+#tabella_logica1
 
 Il connettivo $arrow.r.double$ assume particolare rilievo in matematica, poiché dimostrare un teorema equivale a provare la verità di $P arrow.r.double Q$ supponendo che $P$ sia vera. In questo contesto, $P$ è denominata ipotesi e $Q$ tesi.  
 
@@ -113,31 +61,7 @@ Quando si costruiscono enunciati complessi che utilizzano ripetutamente questi c
 
 Vediamo ora un esempio semplice che coinvolge soltanto due enunciati per evitare una tavola di verità troppo estesa. Dati due enunciati $P$ e $Q$, costruiamo la tavola di verità per l'espressione $not ((P and Q) or (P and not Q))$, illustrata nella @tabella_logica2.
 
-#figure(
-  caption: [Tabella di verità della proposizione $not ((P and Q) or (P and not Q))$],
-  //gap: 0pt, // Allinea la didascalia alla tabella
-  table(
-    stroke: 0.5pt + accent.mat.lighten(90%),
-    fill: (x, y) => {
-  if y == 0 {
-    return accent.mat // Colore header
-  } else if calc.even(y) {
-    // Colore righe dispari
-    return accent.mat.lighten(90%)
-  } else {
-    // Colore righe pari
-    return white
-  }
-  },
-  align: center + horizon,
-  columns: (7),
-  table.header[$sans(P)$][$sans(Q)$][$sans(P and Q)$][$sans(not Q)$][$sans(P and not Q)$][$sans((P and Q) or (P and not Q))$][$sans(not ((P and Q) or (P and not Q)))$],
-  [V], [V], [V], [F], [F], [V], [F],
-  [V], [F], [F], [V], [V], [V], [F],
-  [F], [V], [F], [F], [F], [F], [V],
-  [F], [F], [V], [V], [F], [F], [V],
-)  
-)<tabella_logica2>
+#tabella_logica2
 
 L'uso delle seguenti due formule, note come leggi di De Morgan, è piuttosto comune nell'ambito della logica e descrive i legami tra negazione, unione e intersezione: 
 
@@ -376,7 +300,7 @@ Ad esempio:
 Come dice Samuel Coxeter, "un circolo vizioso illustra l'importante principio che qualunque definizione richiede altre parole che a loro volta necessitano ulteriori definizioni. L'unico modo per evitare un circolo vizioso è considerare certi concetti primitivi come talmente semplici e ovvi da non doverli definire."
 
 In ogni teoria, dunque, dobbiamo accettare alcuni concetti come primitivi o termini non definiti: si tratta di parole di cui non viene fornita spiegazione. Nella geometria euclidea i termini sono ad esempio punto, retta, piano, giace su, tra, congruente. Nella teoria (ingenua) degli insiemi tali termini sono: insieme, appartiene.
-
+#v(2em)
 === Assiomi o postulati
 
 #definizione[
@@ -769,123 +693,7 @@ cetz.canvas({
 caption: []
 ) */
 
-#grid(columns: 2, gutter: 1.5em, align: horizon+ center)[
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-  
-  circle((-1.2, 0), radius: (1.8), fill: accent.mat.lighten(80%), name: "A")
-  circle((-2, 0), radius: 0.02, fill: black); content((-2, 0+0.3), [$a$])
-  circle((-0.5, 0.4), radius: 0.02, fill: black); content((-0.5, 0.4+0.3), [$b$])
-  circle((-0.9, -0.4), radius: 0.02, fill: black); content((-0.9, -0.4+0.3), [$c$])
-  circle((0.7, 0.8), radius: 0.02, fill: black); content((0.7, 0.8+0.3), [$e$])
-  circle((1.1, -0.2), radius: 0.02, fill: black); content((1.1, -0.2+0.3), [$f$])
-
-  content((-3, 1.4), [$A$])
-}),
-caption: []
-)<grafico_insiemi1>
-][
-#figure(
-  gap: 0pt,
-  cetz.canvas({
-    import cetz.draw: *
-    scale(1.7)
-    cetz-venn.venn2(      
-      name: "venn",
-      padding: 0.5em,
-      not-ab-stroke: none, 
-      a-fill: accent.mat.lighten(80%),
-      b-fill: accent.mat.lighten(80%), 
-      ab-fill: accent.mat.lighten(80%),         
-    )
-    import cetz.draw: *    
-    content((-1.5, 1), [$A$])
-    content((1.5, 1), [$B$])
-    content((0, 1.2), [$A union B$])
-    }),
-caption: []
-)<grafico_insiemi2>
-][
-#figure(
-  gap: 0pt,
-  cetz.canvas({
-    
-    import cetz.draw: *
-    scale(1.7)
-    cetz-venn.venn2(      
-      name: "venn",
-      padding: 0.5em,
-      not-ab-stroke: none, 
-      a-fill: white,
-      b-fill: white,
-      ab-fill: accent.mat.lighten(80%)    
-    )
-    import cetz.draw: *
-
-    content((-1.5, 1), [$A$])
-    content((1.5, 1), [$B$])
-    content("venn.ab", [$A inter B $])
-    }),
-caption: []
-)<grafico_insiemi3>
-][
-#figure(
-  gap: 0pt,
-  cetz.canvas({
-    import cetz.draw: *
-    scale(1.7)
-    cetz-venn.venn2(      
-      name: "venn",
-      padding: 0.5em,
-      not-ab-stroke: none, 
-      a-fill: accent.mat.lighten(80%),
-      b-fill: white          
-    )
-    import cetz.draw: *
-    
-    content((-1.5, 1), [$A$])
-    content((1.5, 1), [$B$])
-    content("venn.a", [$A without B$])
-    }),
-caption: []
-)<grafico_insiemi4>
-][
-#figure(
-  gap: 0pt,
-  cetz.canvas({
-    import cetz.draw: *
-    scale(1.7)
-    cetz-venn.venn2(      
-      name: "venn",
-      padding: 0.5em,      
-      not-ab-stroke: none, 
-      a-fill: accent.mat.lighten(80%),
-      b-fill: accent.mat.lighten(80%),          
-    )
-    import cetz.draw: *
-    content((-1.5, 1), [$A$])
-    content((1.5, 1), [$B$])
-    content((0, 1.2), [$A Delta B$])
-    }),
-caption: []
-)<grafico_insiemi5>
-][
-#figure(
-  gap: 1em,
-  cetz.canvas({
-    import cetz.draw: *
-
-    rect((3,-2),(-3,2), fill: accent.mat.lighten(80%),)
-    circle((0, 0), radius: (1.8), fill: white, name: "A")
-
-    content((0, 0), [$A$])
-    content((-2.5, -1), [$complement A$])
-    content((3.5, 2.2), [$U$])
-}),
-caption: []
-)<grafico_insiemi6>
-]
+#diagrammi_eulero_venn
 
 Nella @grafico_insiemi1 è illustrato un insieme $A$, nel quale sono evidenziati tre elementi che gli appartengono: $a$, $b$, $c$, e due elementi $e$ e $f$, che invece non ne fanno parte. 
 
@@ -893,65 +701,7 @@ Quando si tratta di sottoinsiemi dell'insieme dei numeri reali, inclusi $NN$, $Z
 
 Consideriamo un esempio pratico: gli insiemi $A = {x in RR | 2 < x <= 5} = ]2,5]$ e $B = {2, 3, 4, 6}$. Un metodo grafico molto efficace per descriverli è illustrato nella @grafico_insiemi7.
 
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-
-  let scale = 6 // fattore di scala per la visualizzazione
-  
-  // disegno della retta orientata
-  line((-0.5, 0), (10.5, 0), mark: (end: ">", fill: black))
-  
-  // funzione per mappare i valori matematici sulla coordinata x del disegno
-    let to_x(val) = val * scale
-
-  // punti principali (coordinata, etichetta superiore, etichetta inferiore)
-  let points = (
-    (0, "", "-1"),
-    (0.2, "", "0"),
-    (0.4, "", "1"),
-    (0.6, "", "2"),
-    (0.8, "", "3"),
-    (1.0, "", "4"),
-    (1.2, "", "5"),
-    (1.4, "", "6"),
-    (1.6, "", "7"),    
-  )
-
-  // segni punti
-  for (val, top, bot) in points {
-    let x = to_x(val)
-    line((x, -0.1), (x, 0.1))
-    content((x, 0.4), eval("$" + top + "$"))
-    if bot != "" {
-      content((x, -0.4), eval("$" + bot + "$"))
-    }
-  }
-
-    // linea A (2-5); +1 per traslare l'origine di un punto; il passo 1.2 è perché scale * 0.2   
-    let x_start_a = (2 + 1) * 1.2
-    let x_end_a = (5 + 1) * 1.2
-    line((x_start_a, -1.0), (x_end_a, -1.0), stroke: accent.mat + 1pt)
-    content((x_start_a - 0.4, -1.0), [A:])
-    
-    circle((x_start_a, -1.0), radius: 0.05, fill: white, stroke: black)
-    circle((x_end_a, -1.0), radius: 0.05, fill: black, stroke: none)
-
-    // 3. Linea B: Punti evidenziati 2, 3, 4, 6
-    let points_b = (2, 3, 4, 6)
-    content(( (2 + 1) * 1.2 - 0.4, -1.8), [B:])
-    
-    for p in points_b {
-      let x = (p + 1) * 1.2      
-      circle((x, -1.8), radius: 0.05, fill: black, stroke: none)
-    }
-    
-    // Linea tratteggiata di supporto per la Linea B (opzionale, per dare l'idea di "linea immaginaria")
-    line(((2+1)*1.2, -1.8), ((6+1)*1.2, -1.8), stroke: (paint: gray, dash: "dotted", thickness: .2pt))
-
-}),
-caption: []
-)<grafico_insiemi7>
+#grafico_insiemi7
 
 Dalla @grafico_insiemi7, si può notare come il punto $5$ appartenga all'insieme $A$, mentre il punto $2$ non ne faccia parte. Questa precisione è importante soprattutto per applicazioni pratiche, come la risoluzione di disequazioni e sistemi di disequazioni. 
 
@@ -966,7 +716,6 @@ Analizzando la @grafico_insiemi7, emerge con chiarezza quanto segue:
 Infine, ricordiamo che per rappresentare i sottoinsiemi di $RR times RR$ si fa abitualmente uso di un piano cartesiano con riferimento ortogonale, spesso di tipo monometrico, $O x y$. Questo sistema di coordinate permette di rappresentare efficacemente le relazioni tra coppie ordinate di numeri.
 
 == Relazioni binarie
-=== Definizioni
 
 Ricordando la definizione di prodotto cartesiano in @prodotto_cartesiano:
 
@@ -977,39 +726,7 @@ Se $R$ è una relazione e $(a, b) in R$, possiamo scrivere $a R b$, indicando ch
 #esempio()[La relazione "$<=$" è un esempio di relazione in $RR$: essa costituisce un sottoinsieme di $RR times RR$. Poiché il prodotto cartesiano può essere rappresentato graficamente tramite un piano con coordinate cartesiane ortogonali (monometriche), è possibile visualizzare questa relazione come un sottoinsieme del piano stesso. La @grafico_relazioni1 offre una rappresentazione visiva di tale concetto.
 ]
 
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-
-  plot.plot(
-    size: (6, 4),
-    axis-style: "school-book",
-    x-tick-step: none,      
-    y-tick-step: none,      
-    x-min: -5, x-max: 5,
-    y-min: -4, y-max: 4,
-    x-label: [$x$],        
-    y-label: [$y$],    
-    x-grid: "both",   
-    y-grid: "both",
-    legend: (7, 4),        
-    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5)
-  )),
-    {
-      // Area sopra retta e retta
-      plot.add-fill-between(
-        domain: (-5, 5),
-        style: (
-            stroke: accent.mat, 
-            fill: accent.mat.lighten(80%),
-          ), 
-        x => calc.pow(x, 1), // First function/data
-        x => 5) // Second function/data
-    }
-  )
-}),
-caption: []
-)<grafico_relazioni1>
+#grafico_relazioni1
 
 #esempio()[
 "Essere parallelo" rappresenta una relazione definita nell'insieme di tutte le rette nello spazio.][ 
@@ -1018,57 +735,12 @@ caption: []
 ]
 Una rappresentazione grafica significativa può essere realizzata per descrivere le relazioni tra insiemi finiti, seguendo un approccio simile a quello utilizzato nella rappresentazione cartesiana precedentemente illustrata. Supponiamo, ad esempio, di avere due insiemi definiti come $A = {a, b, c}$ e $B = {ast, +, hash, \-}$. La relazione tra gli elementi di A e B può essere visualizzata con una tabella (@tabella_relazioni1) a doppia entrata: gli elementi di A vengono riportati in orizzontale e quelli di B in verticale, in modo analogo alla rappresentazione sul piano cartesiano.
 #pagebreak(weak:true)
-#show table.cell.where(y: 0): set text(weight: "regular", fill: black, font: serif-fonts)
-#show table.cell.where(x: 0): set text(weight: "bold", fill: white, font: sans-fonts)
-#figure(
-  caption: [],
-  table(
-  stroke: 0.5pt + accent.mat.lighten(90%),	
-  fill: (x, y) => {
-    if x == 0 {
-    return accent.mat 
-    } else if calc.even(x) {
-    return accent.mat.lighten(90%)
-    } else {
-    return white
-    }
-  },
-  align: center + horizon,	
-  columns: (2em,) * 4, 
-  [$-$], [], [], [], 
-  [$ast$], [], [], [],
-  [$+$], [], [], [],
-  table.cell(stroke: accent.mat.lighten(90%))[$hash$], [], [], [],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
-  )
-)<tabella_relazioni1>
+
+#tabella_relazioni1
 
 A questo punto basterà segnare nelle diverse celle della tabella se esiste o meno una relazione tra ciascun elemento di $A$ e ciascun elemento di $B$. Considerando, ad esempio, la relazione formata dalle coppie $(a, +), (a, -), (b, hash)$ e $(c, ast)$, essa sarà rappresentata graficamente attraverso la  @tabella_relazioni2.
 
-#show table.cell.where(y: 0): set text(weight: "regular", fill: black, font: serif-fonts)
-#show table.cell.where(x: 0): set text(weight: "bold", fill: white, font: sans-fonts)
-#figure(
-  caption: [],
-  table(
-  stroke: 0.5pt + accent.mat.lighten(90%),	
-  fill: (x, y) => {
-    if x == 0 {
-    return accent.mat 
-    } else if calc.even(x) {
-    return accent.mat.lighten(90%)
-    } else {
-    return white
-    }
-  },
-  align: center + horizon,	
-  columns: (2em,) * 4, 
-  [$-$], [$checkmark$], [], [], 
-  [$ast$], [], [$checkmark$], [],
-  [$+$], [$checkmark$], [], [],
-  table.cell(stroke: accent.mat.lighten(90%))[$hash$], [], [], [$checkmark$],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
-  )
-)<tabella_relazioni2>
+#tabella_relazioni2
 
 Le relazioni definite su un insieme $A$ possono soddisfare alcune proprietà importanti, che elenchiamo di seguito:  
 
@@ -1086,51 +758,8 @@ Consideriamo ora le quattro relazioni rappresentate da tabelle relative all'insi
 - la terza soddisfa le proprietà di essere riflessiva, antisimmetrica e transitiva.  
 - la quarta relazione è solamente transitiva 
 
-#align(center)[
-#grid(columns: 2, align: center, gutter: 2em)[
-#tabella_relazioni(
-  color: accent.mat,
-  data: (
-  [$c$], [], [], [], 
-  [$b$], [$checkmark$], [$checkmark$], [],  
-  table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
-  )
-)
-][
-#tabella_relazioni(
-  color: accent.mat,
-  data: (
-  [$c$], [], [$checkmark$], [$checkmark$], 
-  [$b$], [], [$checkmark$], [$checkmark$],  
-  table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [], [],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
-  )
-)
-][
-#tabella_relazioni(
-  color: accent.mat,
-  data: ( 
-  [$c$], [], [], [$checkmark$], 
-  [$b$], [], [$checkmark$], [$checkmark$],  
-  table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [$checkmark$],
-  table.cell(fill: white, stroke: white,)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
-  )
-)
-][
-#tabella_relazioni(
-  color: accent.mat,
-  data: (    
-    [$c$], [], [$checkmark$], [], 
-    [$b$], [], [], [],  
-    table.cell(stroke: accent.mat.lighten(90%))[$a$], [$checkmark$], [$checkmark$], [$checkmark$],    
-    table.cell(stroke: white, fill: white)[], table.cell(stroke: accent.mat.lighten(90%))[$a$], [$b$], [$c$],
-  )
-)
+#griglia_tabelle_relazioni
 ]
-]
-]
-
 === Relazioni di equivalenza
 
 Un'importante categoria di relazioni, con numerose applicazioni, è quella delle relazioni di equivalenza.
@@ -1166,45 +795,7 @@ $ (m, n) tilde (p, q) quad text("se") quad n + q = m + p. $
 
 Se consideriamo l'insieme $NN times NN$ rappresentato nel piano cartesiano, risulta evidente che le classi di equivalenza sono formate da tutte le coppie ordinate che si trovano su rette parallele alla bisettrice del primo e terzo quadrante ($y = x$). Questo fatto è illustrato nella @grafico_relazioni2, che aiuta anche a comprendere come l'insieme delle classi di equivalenza costituisca una partizione dell'insieme $NN times NN$.
 
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-
-  plot.plot(
-    size: (6, 4),
-    axis-style: "school-book",
-    x-tick-step: 1,      
-    y-tick-step: 1,      
-    x-min: -.5, x-max: 5.5,
-    y-min: 0, y-max: 4.5,
-    x-label: [$x$],        
-    y-label: [$y$],    
-    x-grid: "both",   
-    y-grid: "both",
-    legend: (7, 4),        
-    legend-style: (stroke: none, fill: none, padding: 0, spacing: 0, item: (spacing: 0.1, preview: (width: 0.5)
-  )),
-    {
-      // fascio di rette parallele
-      for q in range(-5, 6) {
-          plot.add(
-            domain: (0, 6), // Usiamo lo stesso dominio per tutte
-            style: (
-              stroke: (
-                paint: accent.mat.lighten(25%), 
-                dash: "solid", // Lasciamo le rette solide
-                thickness: 1pt // Spessore normale
-              ), 
-              
-            ), 
-            x => x - q, // Pendenza m=1 (parallela), intercetta q
-          )
-        }
-    }
-  )
-}),
-caption: []
-)<grafico_relazioni2>
+#grafico_relazioni2
 ]
 #pagebreak(weak: true)
 === Relazioni d'ordine
@@ -1295,7 +886,7 @@ Richiamiamo brevemente il concetto di funzione concentrandoci sulle sue propriet
 
 Tra tutte le possibili relazioni che possono intercorrere tra due insiemi, le funzioni (o applicazioni) rivestono un interesse centrale. In particolare, per questo testo considereremo funzioni che collegano insiemi di numeri reali. Di seguito forniamo una definizione delle caratteristiche principali che ci interessano.
 
-#definizione(title: "Funzione")[
+#definizione(title: "Funzione", label: <funzione>)[
 Dati due insiemi $A$ e $B$, si definisce funzione di $A$ in $B$ ogni legge che associa a ciascun elemento di $A$ uno e un solo elemento di $B$.]
 - L'insieme $A$ si chiama dominio della funzione.
 - L'insieme $B$ si chiama codominio.
@@ -1303,14 +894,14 @@ Dati due insiemi $A$ e $B$, si definisce funzione di $A$ in $B$ ogni legge che a
 - L'elemento $y$ appartenente a $B$ viene chiamato anche immagine di $x$ attraverso $f$.
 
 La notazione più completa per indicare una funzione è:
-$ f : A -> B, quad x |-> f(x), $
+$ f : A -> B, quad x |-> f(x) $
 
 ma è frequente usare la forma abbreviata:
 
-$ x |-> f(x), $
+$ x |-> f(x) $
 soprattutto quando gli insiemi $A$ e $B$ sono già chiaramente definiti nel contesto. In alternativa, si può semplicemente scrivere la funzione come 
 
-$ y = f(x) $.
+$ y = f(x) $
 
 #esempio()[Siano $A$ e $B$ insiemi dei numeri reali $RR$. Consideriamo la funzione che associa a ogni numero reale $x$ il suo quadrato. In questo caso la funzione può essere espressa come:
 
@@ -1339,247 +930,9 @@ Hanno particolare interesse le funzioni che godono di alcune particolari proprie
 
 Segnaliamo, anche se la cosa è evidente, che il terzo requisito si ottiene quando sono verificati contemporaneamente il primo e il secondo. Nel caso di funzioni biunivoche si parla spesso anche di corrispondenza biunivoca tra l'insieme $A$ e l'insieme $B$. Le funzioni biunivoche sono particolarmente importanti: come vedremo nel capitolo 4 in relazione ad esse si può introdurre il concetto di funzione inversa.
 #v(1em)
-#align(center)[
-#grid(columns: 3, column-gutter: -4em, row-gutter: 1em, align: center + horizon)[
-#figure(
-cetz.canvas({
-  import cetz.draw: *
 
-  // insiemi
-  circle((0, 0), radius: (1, 1.5), fill: accent.mat.lighten(80%), name: "insieme_A")
-  content((-1, 1.4), [])
-  circle((3, 0), radius: (1, 1.5), fill: silver.lighten(50%), name: "insieme_B")
-  content((2.1, 1.4), [])
-  circle((3, 0), radius: (0.6, 0.8), stroke:(paint: accent.mat, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
-  content((2.1, 1.4), [])
+#proprieta_insiemi
 
-  // coordinate punti e etichette (y + 0.03)
-  let (x_a, y_a) = (-0.2, 1)
-  let (x_b, y_b) = (0.1, 0.5)
-  let (x_c, y_c) = (-0.1, -0.1)
-  let (x_d, y_d) = (0.1, -0.75)
-  //let (x_e, y_e) = (-0.2, -1.2)
-  let (x_f, y_f) = (3, 0.6)
-  let (x_g, y_g) = (2.7, 0)
-  let (x_h, y_h) = (3.1, -0.5)
-  let (x_i, y_i) = (2.7, -1)
-  let (x_j, y_j) = (3.3, 0.1)
-  let (x_k, y_k) = (3.3, -0.9)
-  let (x_m, y_m) = (3.1, -1.2)
-  let (x_n, y_n) = (3.1, 1.1)
-
-  // punti primo insieme
-  circle((x_a, y_a), radius: 0.02, fill: black); content((x_a, y_a), [], name: "a")
-  circle((x_b, y_b), radius: 0.02, fill: black); content((x_b, y_b), [], name: "b")
-  circle((x_c, y_c), radius: 0.02, fill: black); content((x_c, y_c), [], name: "c")
-  circle((x_d, y_d), radius: 0.02, fill: black); content((x_d, y_d), [], name: "d")
-  //circle((x_e, y_e), radius: 0.02, fill: black); content((x_e, y_e), [], name: "e")
-
-  // punti secondo insieme
-  circle((x_f, y_f), radius: 0.02, fill: black); content((x_f, y_f), [], name: "f")
-  circle((x_g, y_g), radius: 0.02, fill: black); content((x_g, y_g), [], name: "g")
-  circle((x_h, y_h), radius: 0.02, fill: black); content((x_h, y_h), [], name: "h")
-  circle((x_i, y_i), radius: 0.02, fill: black); content((x_i, y_i), [], name: "i")
-  circle((x_j, y_j), radius: 0.02, fill: black); content((x_j, y_j), [], name: "j")
-  circle((x_k, y_k), radius: 0.02, fill: black); content((x_k, y_k), [], name: "k")
-  circle((x_m, y_m), radius: 0.02, fill: black); content((x_m, y_m), [], name: "m")
-  circle((x_n, y_n), radius: 0.02, fill: black); content((x_n, y_n), [], name: "m")
-
-  // relazioni
-  bezier(
-    "a.south", 
-    "g.south",  
-    (1, 1),        
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "b.south", 
-    "f.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "c.south", 
-    "h.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "d.south", 
-    "j.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-}),
-caption: []
-)<insiemi_iniettività>
-][][
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-
-  // insiemi
-  circle((0, 0), radius: (1, 1.5), fill: accent.mat.lighten(80%), name: "insieme_A")
-  content((-1, 1.4), [])
-  circle((3, 0), radius: (1, 1.5), fill: silver.lighten(50%), name: "insieme_B")
-  content((2.1, 1.4), [])
-  //circle((3, 0), radius: (0.6, 0.8), stroke:(paint: accent.mat, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
-  content((2.1, 1.4), [])
-
-  // coordinate punti e etichette (y + 0.03)
-  let (x_a, y_a) = (-0.2, 1)
-  let (x_b, y_b) = (0.1, 0.5)
-  let (x_c, y_c) = (-0.1, -0.1)
-  let (x_d, y_d) = (0.1, -0.75)
-  let (x_e, y_e) = (0.2, -1.1)
-  let (x_f, y_f) = (3, 0.8)
-  let (x_g, y_g) = (2.7, 0)
-  let (x_h, y_h) = (3.1, -0.8)
-  let (x_i, y_i) = (2.7, -1)
-  let (x_j, y_j) = (3.4, 0.1)
-  let (x_k, y_k) = (3.3, -0.9)
-  let (x_m, y_m) = (3.1, -1.2)
-  let (x_n, y_n) = (3.1, 1.1)
-
-  // punti primo insieme
-  circle((x_a, y_a), radius: 0.02, fill: black); content((x_a, y_a), [], name: "a")
-  circle((x_b, y_b), radius: 0.02, fill: black); content((x_b, y_b), [], name: "b")
-  circle((x_c, y_c), radius: 0.02, fill: black); content((x_c, y_c), [], name: "c")
-  circle((x_d, y_d), radius: 0.02, fill: black); content((x_d, y_d), [], name: "d")
-  circle((x_e, y_e), radius: 0.02, fill: black); content((x_e, y_e), [], name: "e")
-
-  // punti secondo insieme
-  circle((x_f, y_f), radius: 0.02, fill: black); content((x_f, y_f), [], name: "f")
-  circle((x_g, y_g), radius: 0.02, fill: black); content((x_g, y_g), [], name: "g")
-  circle((x_h, y_h), radius: 0.02, fill: black); content((x_h, y_h), [], name: "h")
-  //circle((x_i, y_i), radius: 0.02, fill: black); content((x_i, y_i), [], name: "i")
-  circle((x_j, y_j), radius: 0.02, fill: black); content((x_j, y_j), [], name: "j")
-  //circle((x_k, y_k), radius: 0.02, fill: black); content((x_k, y_k), [], name: "k")
-  //circle((x_m, y_m), radius: 0.02, fill: black); content((x_m, y_m), [], name: "m")
-  //circle((x_n, y_n), radius: 0.02, fill: black); content((x_n, y_n), [], name: "m")
-
-  // relazioni
-  bezier(
-    "a.south", 
-    "f.south",  
-    (1, 1),        
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "b.south", 
-    "g.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "c.south", 
-    "h.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "d.south", 
-    "j.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "e.south", 
-    "j.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-}),
-caption: []
-)<insiemi_suriettività>
-][][
-#figure(
-cetz.canvas({
-  import cetz.draw: *
-  
-  // insiemi
-  circle((0, 0), radius: (1, 1.5), fill: accent.mat.lighten(80%), name: "insieme_A")
-  content((-1, 1.4), [])
-  circle((3, 0), radius: (1, 1.5), fill: silver.lighten(50%), name: "insieme_B")
-  content((2.1, 1.4), [])
-  //circle((3, 0), radius: (0.6, 0.8), stroke:(paint: accent.mat, dash: "dashed"), fill: silver.lighten(50%), name: "insieme_B")
-  content((2.1, 1.4), [])
-
-  // coordinate punti e etichette (y + 0.03)
-  let (x_a, y_a) = (-0.2, 1)
-  let (x_b, y_b) = (0.1, 0.5)
-  let (x_c, y_c) = (-0.1, -0.1)
-  let (x_d, y_d) = (0.1, -0.75)
-  //let (x_e, y_e) = (-0.2, -1.2)
-  let (x_f, y_f) = (3, 0.8)
-  let (x_g, y_g) = (2.7, 0)
-  let (x_h, y_h) = (3.1, -0.8)
-  let (x_i, y_i) = (2.7, -1)
-  let (x_j, y_j) = (3.4, 0.1)
-  let (x_k, y_k) = (3.3, -0.9)
-  let (x_m, y_m) = (3.1, -1.2)
-  let (x_n, y_n) = (3.1, 1.1)
-
-  // punti primo insieme
-  circle((x_a, y_a), radius: 0.02, fill: black); content((x_a, y_a), [], name: "a")
-  circle((x_b, y_b), radius: 0.02, fill: black); content((x_b, y_b), [], name: "b")
-  circle((x_c, y_c), radius: 0.02, fill: black); content((x_c, y_c), [], name: "c")
-  circle((x_d, y_d), radius: 0.02, fill: black); content((x_d, y_d), [], name: "d")
-  //circle((x_e, y_e), radius: 0.02, fill: black); content((x_e, y_e), [], name: "e")
-
-  // punti secondo insieme
-  circle((x_f, y_f), radius: 0.02, fill: black); content((x_f, y_f), [], name: "f")
-  circle((x_g, y_g), radius: 0.02, fill: black); content((x_g, y_g), [], name: "g")
-  circle((x_h, y_h), radius: 0.02, fill: black); content((x_h, y_h), [], name: "h")
-  circle((x_j, y_j), radius: 0.02, fill: black); content((x_j, y_j), [], name: "j")
-  //circle((x_i, y_i), radius: 0.02, fill: black); content((x_i, y_i), [], name: "i")
-  //circle((x_k, y_k), radius: 0.02, fill: black); content((x_k, y_k), [], name: "k")
-  //circle((x_m, y_m), radius: 0.02, fill: black); content((x_m, y_m), [], name: "m")
-  //circle((x_n, y_n), radius: 0.02, fill: black); content((x_n, y_n), [], name: "m")
-
-  // relazioni
-  bezier(
-    "a.south", 
-    "g.south",  
-    (1, 1),        
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "b.south", 
-    "f.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "c.south", 
-    "h.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-  bezier(
-    "d.south", 
-    "j.south",  
-    (1, 1),         
-    mark: (end: ">", fill: accent.mat),
-    stroke: (paint: accent.mat, thickness:0.5pt), padding: 0pt,
-  )
-}),
-caption: []
-)<insiemi_biettività>
-][]
-]
 #pagebreak(weak:true)
 == Cardinalità di un insieme <cardinalità>
 
@@ -1638,4 +991,4 @@ Come si può facilmente osservare, ogni insieme in @cardinalità2 viene costruit
 Per completare questa breve introduzione al concetto di cardinalità, ricordiamo che, se un insieme finito ha cardinalità $n$, l'insieme delle sue parti avrà cardinalità $2^n$. Questo risultato può essere dimostrato in diversi modi.
 
 // Sintesi
-// Esericizi
+// Esercizi

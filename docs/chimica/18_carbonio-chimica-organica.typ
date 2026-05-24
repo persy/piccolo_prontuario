@@ -1,9 +1,12 @@
-#import "../../template/chimica/var.typ" : * // Variabili
+#import "compounds.typ" : * // Variabili
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
 #import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
-#set math.equation(numbering: "1", supplement: none, number-align: end)
+// Workaround per stile font delle formule matematiche, da sistemare in futuro
+#set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
+  })
 
 #intro[Il carbonio si distingue come l'elemento più versatile nel panorama chimico per la sua capacità unica di formare una vasta gamma di molecole complesse che costituiscono la base dei composti organici. Il numero di tali composti supera nettamente quello delle sostanze inorganiche formate dagli altri elementi.
 

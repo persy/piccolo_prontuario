@@ -1,13 +1,13 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "tables.typ": *
+#import "plots.typ": *
 
-#import "@preview/cetz:0.4.2" // grafici, cetz-plot richiede cetz ≥ 0.4.2 
-#import "@preview/cetz-plot:0.1.3": plot, chart
+// Workaround per stile font delle formule matematiche, da sistemare in futuro
+#set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
+  })
 
-#set math.equation(numbering: "1")
-
-// spesso ree colore divisioni, ...
-#let col_linea = .5pt + accent.mat
 
 #intro[#TODO]
 == Monomi  
@@ -139,17 +139,7 @@ Se $deg(N) < deg(D)$, il quoziente $Q$ sarebbe nullo e il resto $R$ coinciderebb
 
 Il primo passo consiste nell'ordinare i monomi di entrambi i polinomi in ordine decrescente rispetto ai gradi. Inoltre, è importante lasciare spazi vuoti nel polinomio dividendo $N(x)$, nei punti in cui non ci sono monomi presenti tra il grado più alto e quello più basso.
 
-#align(center)[
-  #grid(
-  columns: 5,
-  inset: (x: 12pt, y: 4pt), 
-  column-gutter: 0pt,
-  [$x^5$],[],[],[$+x^2$],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$x^3 - x^2$],
-  [#hide[0]],[],[],[],grid.cell(stroke: (left: col_linea))[],
-  [],[],[],[],[],
-  
-  )
-]
+#esempio_divisione_polinomi1
 
 1. Dividiamo il primo monomio del dividendo $N(x)$, $x^5$, per il primo monomio del divisore $D(x)$, $x^3$, ottenendo come risultato il primo quoziente parziale, $x^2$:
 
@@ -165,79 +155,27 @@ Il primo passo consiste nell'ordinare i monomi di entrambi i polinomi in ordine 
     )
   ]
 2. Moltiplichiamo il divisore $D(x)$ per il quoziente parziale ottenuto, $x^2$, ricavando $x^2 dot (x^3 - x^2) = x^5 - x^4$ e calcoliamo il primo resto parziale, sottraendo dal dividendo $N(x)$ il prodotto appena trovato, ovvero $(x^5 + x^2) - (x^5 - x^4) = x^4 + x^2$
-  #v(3em)
-  #align(center)[
-    #grid(
-    columns: 5,
-    inset: (x: 12pt, y: 4pt), 
-    column-gutter: 0pt,
-    [#hide[x.]$x^5$],[],[],[$+x^2$],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$x^3 - x^2$],
-    grid.cell(stroke: (bottom: col_linea))[$-x^5$],grid.cell(stroke: (bottom: col_linea))[$+x^4$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[$x^2#hide[- x]$],
-    [],[$+x^4$],[],[$+x^2$],grid.cell(stroke: (left: col_linea))[],    
-    )
-  ]
+  
+  #esempio_divisione_polinomi2 
 
   Da notare che sotto al dividendo è stato scritto il prodotto tra il divisore e il primo quoziente parziale, cambiando i segni: questo permette di eseguire un'addizione anziché una sottrazione, e ciò di solito aiuta ad evitare di commettere errori.
 
 4. Ripetiamo il procedimento con il nuovo dividendo, $x^4 + x^2$. Dividiamo il primo monomio ($x^4$) per il primo monomio del divisore ($x^3$), ottenendo un secondo quoziente parziale, $x$:
 
-  #align(center)[
-    #grid(
-    columns: 5,
-    inset: (x: 12pt, y: 4pt), 
-    column-gutter: 0pt,
-    [#hide[x.]$x^5$],[],[],[$+x^2$],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$x^3 - x^2$],
-    grid.cell(stroke: (bottom: col_linea))[$-x^5$],grid.cell(stroke: (bottom: col_linea))[$+x^4$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[$x^2 + x#hide[x]$],
-    [],[$+x^4$],[],[$+x^2$],grid.cell(stroke: (left: col_linea))[],    
-    )
-  ]
-
+  #esempio_divisione_polinomi3
+  
 5. Moltiplichiamo ancora il divisore per questo nuovo quoziente parziale ($x$), ottenendo $x dot (x^3 - x^2) = x^4 - x^3$:
 
-  #align(center)[
-    #grid(
-    columns: 5,
-    inset: (x: 12pt, y: 4pt), 
-    column-gutter: 0pt,
-    [#hide[x.]$x^5$],[],[],[$+x^2$],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$x^3 - x^2$],
-    grid.cell(stroke: (bottom: col_linea))[$-x^5$],grid.cell(stroke: (bottom: col_linea))[$+x^4$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[$x^2 + x#hide[x]$],
-    [],[$+x^4$],[],[$+x^2$],grid.cell(stroke: (left: col_linea))[],
-    [],[$-x^4$],[$+x^3$],[],[],
-        
-    )
-  ]
-
+  #esempio_divisione_polinomi4
+  
 6. Procediamo con la sottrazione per ottenere il nuovo resto parziale, $(x^4 + x^2) - (x^4 - x^3) = x^3 + x^2$
 
-  #align(center)[
-    #grid(
-    columns: 5,
-    inset: (x: 12pt, y: 4pt), 
-    column-gutter: 0pt,
-    [#hide[x.]$x^5$],[],[],[$+x^2$],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$x^3 - x^2$],
-    grid.cell(stroke: (bottom: col_linea))[$-x^5$],grid.cell(stroke: (bottom: col_linea))[$+x^4$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[$x^2 + x#hide[x]$],
-    [],[$+x^4$],[],[$+x^2$],grid.cell(stroke: (left: col_linea))[],
-    [],grid.cell(stroke: (bottom: col_linea))[$-x^4$],grid.cell(stroke: (bottom: col_linea))[$+x^3$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[],
-    [],[],[$x^3$],[$+x^2$],grid.cell(stroke: (left: col_linea))[],    
-    )
-  ]
-
+  #esempio_divisione_polinomi5
+  
 La divisione prosegue applicando lo stesso procedimento fino a ottenere un resto di grado inferiore a quello del divisore $D(x)$. Nel caso specifico, fermandosi quando otteniamo un grado minore di 3.
 
-  #align(center)[
-    #grid(
-    columns: 5,
-    inset: (x: 12pt, y: 4pt), 
-    column-gutter: 0pt,    
-    [#hide[x.]$x^5$],[],[],[$+x^2$],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$x^3 - x^2#hide[00]$],
-    grid.cell(stroke: (bottom: col_linea))[$-x^5$],grid.cell(stroke: (bottom: col_linea))[$+x^4$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[$x^2 + x +1$],
-    [],[$+x^4$],[],[$+x^2$],grid.cell(stroke: (left: col_linea))[],
-    [],grid.cell(stroke: (bottom: col_linea))[$-x^4$],grid.cell(stroke: (bottom: col_linea))[$+x^3$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[],
-    [],[],[$x^3$],[$+x^2$],grid.cell(stroke: (left: col_linea))[],
-    [],[],grid.cell(stroke: (bottom: col_linea))[$-x^3$],grid.cell(stroke: (bottom: col_linea))[$+x^2$],grid.cell(stroke: (left: col_linea))[], 
-    [],[],[],[$+2x^2$],grid.cell(stroke: (left: col_linea))[],  
-    )
-  ]
+  #esempio_divisione_polinomi6
+  
 
 Il quoziente è Q(x) = $x^2 + x + 1$, il resto $R(x) = 2x^2$. Dunque
 si ha ottenuto che:
@@ -250,20 +188,7 @@ Come ulteriore esempio, analizziamo la divisione tra i polinomi: $ N(x) &= 2x^4 
 
 La procedura consiste nel dividere il primo polinomio per il secondo utilizzando la divisione polinomiale. Svolgendo i calcoli, otteniamo:
 
-#align(center)[
-  #grid(
-  columns: 6,
-  inset: (x: 12pt, y: 4pt), 
-  column-gutter: 0pt,    
-  [#hide[x.]$2x^4$],[$+x^3$],[],[$+x$],[+2],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$x^2 +3#hide[0000]$],
-  grid.cell(stroke: (bottom: col_linea))[$-2x^4$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[$-6x^2$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[$2x^2 + x - 6$],
-  [],[$#hide[0,]x^3$],[$-6x^2$],[$+x$],[$+2$],grid.cell(stroke: (left: col_linea))[],
-  [],grid.cell(stroke: (bottom: col_linea))[$-x^3$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[$-3x#hide[0]$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea))[],
-  [],[],[$-6x^2$],[$-2x#hide[0]$],[+2],grid.cell(stroke: (left: col_linea))[],
-  [],[],grid.cell(stroke: (bottom: col_linea))[$#hide[00]6x^2$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[+18#hide[0]],grid.cell(stroke: (left: col_linea))[], 
-  [],[],[],[$-2x#hide[0]$],[+20#hide[0]],grid.cell(stroke: (left: col_linea))[],  
-  )
-]
+#esempio_divisione_polinomi7
 
 Pertanto, si può scrivere:
 
@@ -323,23 +248,9 @@ Questa formula, letta al contrario, consente di trasformare certe somme di quatt
 
 La parte letterale dei monomi si ottiene combinando i prodotti tra le potenze di $a$ e di $b$, considerando le potenze di $a$ in ordine decrescente da $n$ a 0 e quelle di $b$ in ordine crescente da 0 a $n$.]
 #pagebreak(weak: true)
-#figure(
-align(center)[
-  #grid(
-  columns: 14,
-  inset: (x: 7pt, y: 4pt), 
-  column-gutter: 0pt,
-  [$n=0$],[],[],[],[],[],[],[1],[],[],[],[],[],[],
-  [$n=1$],[],[],[],[],[],[1],[],[1],[],[],[],[],[],
-  [$n=2$],[],[],[],[],[1],[],[2],[],[1],[],[],[],[],
-  [$n=3$],[],[],[],[1],[],[3],[],[3],[],[1],[],[],[],
-  [$n=4$],[],[],[1],[],[4],[],[6],[],[4],[],[1],[],[],
-  [$n=5$],[],[1],[],[5],[],[10],[],[10],[],[5],[],[1],[],
-  [$n=dots$],[1],[],[$dots$],[],[],[],[],[],[],[],[],[$dots$],[1],
-  )
-],
-caption: []
-)<triangolo_tartaglia>
+
+
+#triangolo_tartaglia
 
 Le righe del triangolo, illustrate in @triangolo_tartaglia, si costruiscono iniziando e terminando con il numero 1. Per ogni posizione intermedia, si calcola la somma dei due numeri della riga precedente che si trovano rispettivamente a destra e a sinistra della posizione in esame. Ad esempio, nella riga con $n = 5$, si ottiene: $5 = 1 + 4$, $10 = 4 + 6$, $10 = 6 + 4$, $5 = 4 + 1$. 
 
@@ -384,10 +295,10 @@ $ x^2 + 3x + 5 = x^2 dot [1 + 3/x + 5/x^2] $
 #esempio[ 
 $ a x + a y + b x + b y = a(x + y) + b(x + y) = (x + y)(a + b) $
 ][
- 
+
 $ a^2 x - a^2 - x + 1 &= a^2(x - 1) - (x - 1) \ &= (x - 1)(a^2 - 1) \ &= (x - 1)(a - 1)(a + 1) $
 ][
- 
+
 $ (x + 2y)^2 - 3x^2 - 6x y + (2x + 4y)(a + 4y) = \ = (x + 2y)(x + 2y - 3x + 2a + 8y) $]
 
 #definizione(title: "Differenza di Potenze n-esime", label: <differenza_potenze_nesime>)[Oltre alla classica regola per la differenza di due quadrati, esiste una formula generale per la differenza delle potenze $n$-esime:
@@ -528,7 +439,7 @@ Da questa forma si deduce immediatamente che il segno della quantità discrimina
 + Se $b^2 - 4a c < 0$, il polinomio non ha zeri reali.
 + Se $b^2 - 4a c = 0$, il polinomio si semplifica a $ a((x + b/(2a))^2) $ e l'unico zero reale è dato da $frac(-b, 2a, style: "skewed")$, che rappresenta una radice doppia.
 + Se $b^2 - 4a c > 0$, si può interpretare la quantità tra parentesi come differenza di due quadrati, da cui derivano due zeri reali distinti:  
-   $ x_1 = (-b - sqrt(b^2 - 4a c)) / (2a), quad x_2 = (-b + sqrt(b^2 - 4a c)) / (2a) $
+  $ x_1 = (-b - sqrt(b^2 - 4a c)) / (2a), quad x_2 = (-b + sqrt(b^2 - 4a c)) / (2a) $
 
 Cumulativamente, possiamo esprimere gli zeri reali nella forma standard:  
 $ x_(1,2) = (-b #math.plus.minus sqrt(b^2 - 4a c)) / (2a). $
@@ -549,56 +460,21 @@ Vale la pena notare che il nome di Paolo Ruffini è principalmente associato al 
 #esempio[Dividere il polinomio: $ 3x^5 - 5x^2 + 6 $ per il binomio: $ x - 1/3 $
 Si utilizza uno schema specifico, costituito da tre righe e delimitato da barre verticali e orizzontali, come mostrato nel seguito. Nella prima riga scriviamo i coefficienti del dividendo in ordine decrescente rispetto alle potenze di $x$, sostituendo con zero i coefficienti mancanti:
 
-#align(center)[
-  #grid(
-  columns: 7,
-  inset: (x: 12pt, y: 10pt), 
-  column-gutter: 1pt,
-  grid.cell(stroke: (right: col_linea))[], [$3$],[$0$],[$0$],[$-5$],[$0$],grid.cell(stroke: (left: col_linea))[$+6$],
-  grid.cell(stroke: (bottom: col_linea, right: col_linea))[#hide[0]],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea, bottom: col_linea))[],
-  grid.cell(stroke: (right: col_linea))[#hide[0]], [],[],[],[],[],grid.cell(stroke: (left: col_linea))[],  
-  )
-]
+#esempio_ruffini1
+
 
 Nella seconda riga, in corrispondenza dell'estrema sinistra, inseriamo il termine noto del divisore, cambiato di segno (in questo caso, $+1/3$). Nella terza riga "abbassiamo" direttamente il primo coefficiente del dividendo.
 
-#align(center)[
-  #grid(
-  columns: 7,
-  inset: (x: 12pt, y: 10pt), 
-  column-gutter: 1pt,
-  grid.cell(stroke: (right: col_linea))[], [$3$],[$0$],[$0$],[$-5$],[$0$],grid.cell(stroke: (left: col_linea))[$+6$],
-  grid.cell(stroke: (bottom: col_linea, right: col_linea))[$ 1/3$],grid.cell(stroke: (bottom: col_linea))[$arrow.b$],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea, bottom: col_linea))[],
-  grid.cell(stroke: (right: col_linea))[#hide[0]], [3],[],[],[],[],grid.cell(stroke: (left: col_linea))[],  
-  )
-]
+#esempio_ruffini2
 
 Proseguiamo poi con il calcolo: il primo coefficiente abbassato viene moltiplicato per $+1/3$...
 
-#align(center)[
-  #grid(
-  columns: 7,
-  inset: (x: 12pt, y: 10pt), 
-  column-gutter: 1pt,
-  grid.cell(stroke: (right: col_linea))[], [$3$],[$0$],[$0$],[$-5$],[$0$],grid.cell(stroke: (left: col_linea))[+6],
-  grid.cell(stroke: (bottom: col_linea, right: col_linea))[$ 1/3$],grid.cell(stroke: (bottom: col_linea))[$arrow.b$],grid.cell(stroke: (bottom: col_linea))[1],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (left: col_linea, bottom: col_linea))[],
-  grid.cell(stroke: (right: col_linea))[#hide[0]], [$3$],[$1$],[],[],[],grid.cell(stroke: (left: col_linea))[],  
-  )
-]
+#esempio_ruffini3
 
 ...e il risultato si somma al coefficiente successivo presente nella prima riga, riportandolo nell'ultima riga.
 Al completamento dello schema, i numeri della terza riga, compresi tra le barre verticali, rappresentano i coefficienti del quoziente del polinomio ottenuto.
 
-#align(center)[
-  #grid(
-  columns: 7,
-  inset: (x: 12pt, y: 10pt), 
-  column-gutter: 1pt,
-  grid.cell(stroke: (right: col_linea))[], [$3$],[$0$],[$0$],[$-5$],[$0$],grid.cell(stroke: (left: col_linea))[+6],
-  grid.cell(stroke: (bottom: col_linea, right: col_linea))[$ 1/3$],grid.cell(stroke: (bottom: col_linea))[$arrow.b$],grid.cell(stroke: (bottom: col_linea))[1],grid.cell(stroke: (bottom: col_linea))[$1/3$],grid.cell(stroke: (bottom: col_linea))[$1/9$],grid.cell(stroke: (bottom: col_linea))[$-44/27$],grid.cell(stroke: (left: col_linea, bottom: col_linea))[$-44/81$],
-  grid.cell(stroke: (right: col_linea))[#hide[0]], [$3$],[$1$],[$1/3$],[$-44/9$],[$-44/27$],grid.cell(stroke: (left: col_linea))[$442/81$],  
-  )
-]
+#esempio_ruffini4
 
 Il quoziente avrà grado inferiore di uno rispetto a quello del dividendo. Il numero situato dopo l'ultima barra verticale in basso rappresenta invece il resto della divisione (che avrà grado zero, essendo il divisore equivalente a un polinomio di primo grado). Si ottiene dunque: 
 $ 3x^5 - 5x^2 + 6 = (3x^4 + x^3 + 1/3 x^2 - 44/9 x - 44/27)(x - 1/3) + 442/81 $
@@ -625,21 +501,8 @@ Per individuare eventuali zeri razionali (e nello specifico interi, dato che il 
 
 È possibile costruire uno schema unico di Ruffini come illustrato di seguito, dove la terza riga del primo schema diventa prima riga del secondo, senza dover riscrivere i coefficienti.
 
-#align(center)[
-  #grid(
-  columns: 9,
-  inset: (x: 10pt, y: 10pt), 
-  column-gutter: 1pt,
-  grid.cell(stroke: (right: col_linea))[], [1], [#hide[--]0], [-2],[#hide[--]2],[-2],[#hide[--]2],[-3],grid.cell(stroke: (left: col_linea))[#hide[--]2],
-  grid.cell(stroke: (bottom: col_linea, right: col_linea))[#hide[--]1],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[#hide[--]1],grid.cell(stroke: (bottom: col_linea))[#hide[--]1],grid.cell(stroke: (bottom: col_linea))[-1],grid.cell(stroke: (bottom: col_linea))[#hide[--]1],grid.cell(stroke: (bottom: col_linea))[-1],grid.cell(stroke: (bottom: col_linea))[#hide[--]1],grid.cell(stroke: (left: col_linea, bottom: col_linea))[-2],
-  grid.cell(stroke: (right: col_linea))[#hide[--]],[1],[#hide[--]1], [-1],[#hide[--]1],[-1],[#hide[--]1],grid.cell(stroke: (left: col_linea))[-2],grid.cell(stroke: (left: col_linea))[#hide[--]0],
-  grid.cell(stroke: (bottom: col_linea, right: col_linea))[-2],grid.cell(stroke: (bottom: col_linea))[],grid.cell(stroke: (bottom: col_linea))[-2],grid.cell(stroke: (bottom: col_linea))[#hide[--]2],grid.cell(stroke: (bottom: col_linea))[-2],grid.cell(stroke: (bottom: col_linea))[#hide[--]2],grid.cell(stroke: (bottom: col_linea))[-2],grid.cell(stroke: (bottom: col_linea, left: col_linea))[#hide[--]2],[],
-  grid.cell(stroke: (right: col_linea))[#hide[0]],[1],[-1], [#hide[--]1],[-1],[#hide[--]1],[-1],grid.cell(stroke: (left: col_linea))[#hide[--]0],[],  
-  )
-]
+#esempio_ruffini5
 
-
-#v(2em)
 Quindi:
 
 $ x^7 - 2x^5 + 2x^4 - 2x^3 + 2x^2 - 3x + 2 = \ = (x - 1)(x + 2)(x^5 - x^4 + x^3 - x^2 + x - 1) $
@@ -691,7 +554,8 @@ In generale, il calcolo con le frazioni algebriche segue le stesse regole delle 
 Un aspetto importante da considerare prima di lavorare con le frazioni algebriche è la determinazione delle condizioni iniziali. Queste indicano le restrizioni di valore che garantiscono il significato matematico dell'espressione.  
 
 Alla luce di quanto osservato, non è necessario introdurre nuove regole per operare con le frazioni algebriche. Ci limiteremo quindi a proporre alcuni esempi pratici di semplificazione di espressioni algebriche per acquisire familiarità con questi concetti.
-// cancel(x^2, stroke: #(paint: accent.mat), angle: #115deg))
+
+#pagebreak(weak: true)
 #esempio[ 
 $ &(a^2 - 2 a + 1) / b^3 dot (a b^2 + b^2) / (a - 1) dot ((-b) / (1 - a)) = \ &= cancel((a - 1)^2, stroke: #(paint: accent.mat)) / cancel(b^3, stroke: #(paint: accent.mat), angle: #135deg) dot ((a + 1)cancel((b^2), stroke: #(paint: accent.mat), angle: #135deg) / cancel((a - 1), stroke: #(paint: accent.mat)) dot cancel(b, stroke: #(paint: accent.mat), angle: #135deg) / cancel((a - 1), stroke: #(paint: accent.mat)) \ &= a + 1 $  
 I calcoli sono validi se $a != 1 and b != 0$][

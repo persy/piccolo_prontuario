@@ -1,6 +1,7 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
-#import "../../template/chimica/var.typ" : * // Variabili
+#import "compounds.typ": *
+
 #import "@preview/tdtr:0.4.0" : * // Diagrammi
 #import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 

@@ -1,71 +1,6 @@
-//#import "@preview/drafting:0.2.2": * // Note a margine, evidenziazione, commenti
 #import "@preview/chic-hdr:0.5.0": * // Intestazioni, piè pagina chic
-//#import "@preview/showybox:2.0.4": * 
-//#import "@preview/alchemist:0.1.8": * 
-//#import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 #import "config.typ": *
 
-// =============================================================================
-// 1. BLOCCHI GRAFICI DINAMICI (Definizione, Esempio, Dimostrazione)
-// =============================================================================
-
-/* #let definizione(title: none, label: none, ..sections) = context {
-  let accent = accent.mat
-  let def-numbering(def-num) = context {
-    let cap = counter(heading).get()
-    let cap-num = if cap.len() > 0 { cap.first() } else { 0 }
-    [#cap-num.#def-num]
-  }
-  
-  let box-content = {
-    let args = (
-      frame: (
-        border-color: accent.lighten(20%), 
-        title-color: accent.lighten(80%), 
-        body-color: accent.lighten(95%), 
-        radius: (top-right: 5pt, rest: 0pt), 
-        thickness: (left: 1pt)
-      ),      
-      title-style: (color: accent.darken(40%), weight: "bold", sep-thickness: 0pt),
-      body-style: (color: accent.darken(50%)),    
-      sep: (thickness: 0.5pt, dash: "dashed", color: accent.lighten(20%)),
-      breakable: true,
-    )
-    let display-title = {      
-      let n = counter(figure.where(kind: "definizione")).display(def-numbering)
-      let t = if title != none and title != "" [: #title] else []
-      text(size: 0.8em, weight: "bold", font: sans-fonts)[Definizione #text(fill: accent.darken(20%))[#n]#t]
-    }
-    args.insert("title", display-title)
-    showybox(..args, ..sections.pos())
-  }
-  [#figure(box-content, kind: "definizione", supplement: none, numbering: def-numbering, caption: none)#label]
-} 
-
-#let dimostrazione() = context {
-  let accent = accent.mat
-  block(width: 100%, height: 1em, outset: (x: 1em), inset: .0em,
-    align(left + bottom)[#text(size: 0.8em, weight: "bold", font: sans-fonts, fill: accent.darken(20%))[Dimostrazione]]
-  )
-}
-
-#let esempio(title: "Esempio", ..sections) = context {
-  let accent = silver
-  let s = sections.pos()
-  if s.len() == 0 { return }
-  
-  counter("esempio").step()
-  showybox(
-    frame: (border-color: accent.darken(40%), title-color: accent.lighten(65%), body-color: accent.lighten(90%), radius: (top-right: 5pt, rest: 0pt), thickness: (left: 1pt)),
-    title-style: (color: accent.darken(70%), weight: "bold", sep-thickness: 0pt, size: 0.8em),
-    body-style: (color: accent.darken(70%)),
-    sep: (thickness: 0.5pt, dash: "dashed", color: accent.darken(20%)),
-    breakable: true,
-    title: text(size: 0.8em, font: sans-fonts)[#title #counter("esempio").display()],
-    ..s
-  )
-}
-*/
 // =============================================================================
 // 3. SETUP GLOBALE (Matematica, Liste, Intestazioni, Layout)
 // =============================================================================
@@ -75,7 +10,7 @@
   authors: none,
   date: datetime.today().display("[day] [month repr:long] [year]"),
   abstract: none,
-  numbering: none,
+  //numbering: true,
   toc: true,
   full: false,
   header: true,
@@ -169,19 +104,35 @@
   show list: set par(spacing: 1.5em)
 
   // Math
-  set math.equation(numbering: "1", supplement: none, number-align: end)
+  //show math.equation: set text(size: 11pt, font: math-fonts)
+  
+  // Punto diventa virgola nelle equazioni
+  //show math.equation: set text(font: sans-fonts) 
+  set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, numbering("1", ..n))
+  })
+    
+  set math.equation(
+    numbering: (..nums) => text(font: sans-fonts)[#numbering("1", ..nums)],
+    supplement: none, 
+    number-align: end
+  )
+  
+  // Il tuo codice per sostituire il punto con la virgola nei decimali
   show math.equation: it => {
-    show regex("\d+\.\d+"): it => {show ".": {","+h(0pt)}
-        it}
+    show regex("\d+\.\d+"): it => {
+      show ".": "," + h(0pt)
+      it
+    }
     it
   }
-  show math.equation: set text(size: 12pt, font: math-fonts)
   show footnote: it => {
     show math.equation: set text(size: 10pt) 
     it
   }
+  
 
-  show raw.where(block: false): box.with(
+/*   show raw.where(block: false): box.with(
     fill: luma(95%),
     inset: (x: 3pt, y: 0pt),
     outset: (y: 3pt),
@@ -192,7 +143,7 @@
     inset: 5pt,
     radius: 4pt,
     width: 100%,
-  )
+  ) */
 
   //Titoli
   show heading.where( level: 1 ): set text(font: title-fonts, size: 17pt, weight: "bold", style: "normal")
@@ -227,7 +178,7 @@
     it.body
   }
 
-  // Evidenziazione
+  // Evidenzia
   set highlight(radius: 1pt, extent: .2em, fill: accent.lighten(75%))
 
   doc

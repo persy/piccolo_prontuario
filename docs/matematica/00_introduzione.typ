@@ -3,4 +3,3 @@
 
 #intro[#lorem(50)]
 // TODO Presentazione del libro
-

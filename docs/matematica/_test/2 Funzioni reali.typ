@@ -1,10 +1,16 @@
-#import "../../../template_normal.typ": *
+#import "../../../template/_global/template.typ": *
+#import "../../../template/_global/config.typ": *
 #import "@preview/cetz:0.4.2" // Necessaria questa versione per cetz-plot 
 #import "@preview/cetz-plot:0.1.3": plot, chart
+
+#let main_scienze = accent.mat
+#let main_arte = accent.art
+#let main_storia = accent.sto
+#let main_tecnologia = accent.chi
+
 #set math.equation(numbering: "1.")
 
-#evidenzia[// TODO
-]
+
 
 == Funzioni e loro proprietà
 
@@ -872,7 +878,7 @@ cetz.canvas({
     size: (6, 4),
     axis-style: "school-book",
     x-tick-step: none,      
-    y-tick-step: none,      
+    y-tick-step: none,         
     x-min: -6, x-max: 6,
     y-min: -2.2, y-max: 5,
     x-label: [$x$],        

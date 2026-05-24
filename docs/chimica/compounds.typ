@@ -1,6 +1,6 @@
 
+#import "../../template/_global/config.typ": *
 #import "@preview/alchemist:0.1.9": *
-#import "../_global/config.typ": *
 
 // Benzene con idrogeno
 #let benzene_h = {

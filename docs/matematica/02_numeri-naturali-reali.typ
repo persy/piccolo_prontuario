@@ -1,10 +1,12 @@
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "tables.typ": *
+#import "plots.typ": *
 
-#import "@preview/cetz:0.4.2" // grafici, cetz-plot richiede cetz ≥ 0.4.2 
-#import "@preview/cetz-plot:0.1.3": plot, chart
-
-#set math.equation(numbering: "1")
+// Workaround per stile font delle formule matematiche, da sistemare in futuro
+#set math.equation(numbering: (..n) => {
+  text(font: sans-fonts, size: 9pt, numbering("1", ..n))
+  })
 
 #intro[In questo capitolo verranno trattate le proprietà fondamentali degli insiemi dei numeri naturali, interi, razionali e reali. Analizzeremo le caratteristiche principali di ciascun insieme numerico e, anche se brevemente, ripercorreremo il processo logico che porta all'estensione del concetto di numero, iniziando dai naturali. Dedicheremo particolare attenzione ai numeri naturali, sia per la necessità di stabilire una notazione chiara sia perché spesso le conoscenze su questo tema risultano poco approfondite. Nel caso dei numeri reali, ci soffermeremo sulle proprietà dei radicali a causa della loro rilevanza applicativa. Inoltre, per introdurre intuitivamente i numeri reali, esploreremo anche la rappresentazione decimale.]
 
@@ -44,8 +46,8 @@ La cardinalità dell'insieme $NN$ viene rappresentata con il simbolo $aleph_0$ (
 
 Nell'insieme $NN$ esiste un ordine totale chiamato ordine naturale, solitamente indicato con il simbolo "$<$". Questo ordine, in una forma antiriflessiva (più comoda nel contesto dei naturali rispetto alla forma riflessiva), soddisfa alcune proprietà fondamentali:  
 
-+ proprietà antiriflessiva: per ogni numero naturale $n in NN$, $n lt.not n$ 
-+ proprietà antisimmetrica: per ogni $m, n in NN$, se $m < n arrow.r.double n lt.not m$  
++ proprietà antiriflessiva: per ogni numero naturale $n in NN$, $n cancel(<) n$ 
++ proprietà antisimmetrica: per ogni $m, n in NN$, se $m < n arrow.r.double n cancel(<) m$  
 + proprietà transitiva: per $m, n, p in NN$, se $m < n and n < p arrow.r.double m < p$
 + proprietà di tricotomia: dati due numeri naturali $m$ e $n$, deve essere valido esattamente uno dei seguenti casi: $m < n$, $m = n$ o $n < m$.
 
@@ -128,7 +130,7 @@ Con l'introduzione dell'addizione e della moltiplicazione, emergono immediatamen
 + dati due numeri naturali $a$ e $b$, determinare se esiste un numero naturale $x$ tale che $x dot b = a$.
 
 Questi rappresentano i primi esempi di equazioni con un'incognita. Tali problemi conducono rispettivamente all'introduzione delle operazioni di sottrazione e divisione, anche se il termine operazione non è pienamente corretto, secondo la definizione @operazione_interna data in precedenza. Infatti, né la sottrazione né la divisione sono definite in tutta $N times N$. Possiamo formulare le seguenti definizioni:
-#pagebreak(weak:true)
+
 #definizione(title: "Sottrazione")[Dati due numeri naturali $a$ e $b$, con $a >= b$, si definisce differenza di $a$ e $b$ (in quest'ordine) l'unico numero naturale $x$ tale che $x + b = a$. 
 
 Tale numero si indica con $a - b$. Il numero $a$ è detto minuendo, mentre $b$ si chiama sottraendo.]
@@ -242,7 +244,7 @@ $
 
 Per determinare i valori di $q$ e $r$, si applica il classico algoritmo della divisione insegnato fin dai primi anni di scuola.
 
-#definizione(title: "Numero Primo")[Un numero naturale $p$ si definisce primo se è maggiore di 1 ed è divisibile esclusivamente per 1 e per sé stesso.
+#definizione(title: "Numero primo")[Un numero naturale $p$ si definisce primo se è maggiore di 1 ed è divisibile esclusivamente per 1 e per sé stesso.
 ]
 #esempio[
 È immediato osservare che 2 è il più piccolo numero primo ed è anche l'unico numero primo pari. Seguono poi i primi successivi: 3, 5, 7 e così via.] 
@@ -461,7 +463,6 @@ Non è quindi necessaria una distinta operazione di divisione nell'insieme dei n
 
 Tra i risultati significativi relativi all'ordine vi è il seguente teorema:
 
-//
 #definizione(title: "Teorema della densità dei numeri razionali", label: <teorema_densità_razionali>)[Il campo dei razionali è denso, ovvero tra due numeri razionali qualsiasi esiste sempre un altro razionale e, di fatto, ne esistono infiniti.
 
 #dimostrazione()
@@ -479,66 +480,9 @@ Il concetto di potenza con esponente intero può essere tranquillamente esteso a
 
 Nonostante il teorema @densità_razionali suggerisca che l'insieme dei numeri razionali contenga molti più elementi rispetto agli interi, la loro cardinalità risulta comunque essere $aleph_0$. La dimostrazione di questo risultato è particolarmente interessante grazie al celebre "procedimento diagonale" di Cantor.
 
-È possibile dimostrare, in particolare, che l'insieme delle frazioni con denominatore positivo ha cardinalità $aleph_0$. Da ciò si evince immediatamente che tale proprietà è valida anche per l'insieme dei razionali. Per questo si faccia riferimento alla @numerabilità_razionali, in cui le frazioni sono rappresentate graficamente come coppie di numeri interi — con il secondo elemento maggiore di zero.
+È possibile dimostrare, in particolare, che l'insieme delle frazioni con denominatore positivo ha cardinalità $aleph_0$. Da ciò si evince immediatamente che tale proprietà è valida anche per l'insieme dei razionali. Per questo si faccia riferimento alla @numerabilità_razionali, in cui le frazioni sono rappresentate graficamente come coppie di numeri interi, con il secondo elemento maggiore di zero.
 
-#figure(
-  
-  cetz.canvas({
-    import cetz.draw: *
-
-    plot.plot(
-      size: (6, 4),
-      axis-style: none,
-      x-tick-step: 1,      
-      y-tick-step: 1,      
-      x-min: -0.5, x-max: 5.5,
-      y-min: 0,    y-max: 4.5,
-      x-label: [$x$],        
-      y-label: [$y$],    
-      x-grid: true,   
-      y-grid: true,
-      {
-        let col = blue.lighten(25%) 
-        
-        for q in range(-3, 1) {
-          let y0 = -float(q) // Intercetta all'asse y
-          
-          // 1. Disegna la retta
-          plot.add(
-            domain: (0.2, 5),
-            style: (stroke: (paint: col, thickness: 1pt)),
-            x => x - float(q)
-          )
-          
-          // 2. Aggiungi la punta della freccia con la giusta inclinazione
-          if y0 >= 0 and y0 <= 4.5 {
-            plot.annotate({
-              mark(
-                (0.1, y0 + 0.1), // Punto leggermente avanti sulla retta (x=0.1, y=0.1-q)
-                (0, y0),         // Punto esatto sull'asse y (x=0, y=-q)
-                symbol: ">",
-                fill: col,
-                stroke: (paint: col, thickness: 1pt),
-                size: 0.15
-              )
-            })
-          }
-        }
-      }
-    )
-    content((1.5, 3.5), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(0, 1)])
-    content((2.5, 3.5), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(0, 2)])
-    content((3.5, 3.5), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(0, 3)])
-    content((4.5, 3.5), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(0, 4)])
-    content((1.5, 2.6), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(1, 1)])
-    content((2.5, 2.6), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(1, 2)])
-    content((3.5, 2.6), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(1, 3)])
-    content((1.5, 1.7), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(-1, 1)])
-    content((2.5, 1.7), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(-1, 2)])
-    content((1.5, 0.8), frame: "rect", fill: white, stroke: none, padding: 0.1, text(size: 8pt)[(2, 1)])
-  }),
-  caption: []
-)<numerabilità_razionali>
+#numerabilità_razionali
 
 Dalla figura si comprende la corrispondenza biunivoca che vogliamo costruire tra i numeri naturali e le frazioni:
 $
@@ -553,6 +497,7 @@ $
 Questo risultato appare sorprendente: mentre tra due numeri interi qualsiasi vi è un numero finito di interi, fra due razionali qualsiasi esiste un numero infinito di razionali.
 
 === Perché i razionali non bastano? <oltre_razionali>
+
 Dal punto di vista algebrico e della risoluzione delle equazioni, i numeri razionali risultano essere adeguati a molte esigenze. Tuttavia, emergono situazioni nelle quali l'insieme dei razionali si rivela "incompleto". Storicamente, questa scoperta è strettamente collegata al famoso teorema di Pitagora.
 
 Si immagini un triangolo rettangolo i cui due cateti abbiano lunghezza pari a $1$: qual è la misura della sua ipotenusa? Equivalentemente, se si ha un quadrato di lato $1$, quale sarà la lunghezza del lato di un quadrato che ha superficie doppia?
@@ -636,29 +581,10 @@ Si ottiene allora $(2014)_X = (11"BA")_"XII"$.
 Per i numeri razionali ci concentreremo esclusivamente sulla scrittura decimale, ovvero quella che include la virgola, considerando frazioni ridotte ai minimi termini (senza divisori comuni tra numeratore e denominatore). Per semplicità, trattiamo solo i numeri razionali positivi, dove per rappresentare un valore negativo sarà sufficiente aggiungere il segno "--".  
 
 La comprensione di questi concetti passa dalla classica operazione di divisione con virgola tra due numeri naturali, come illustrato negli esempi seguenti.  
-#v(4em)
+
 #esempio[Consideriamo la divisione del numero $19 : 4$, corrispondente alla frazione $19/4$. In questo caso, il processo di divisione termina quando si ottiene come resto 0:
 
-#align(center)[#grid(
-  columns: (auto, auto),  
-  inset: (x: 12pt, y: 4pt), 
-  column-gutter: 0pt,
-  
-  // Dividendo | Divisore
-  [$19 #hide[00]$], 
-  grid.cell(stroke: (left: .5pt, bottom: .5pt))[$4#hide[,00]$],
-  
-  // Primo passaggio | Quoziente
-  [$#hide[0] 30 #hide[0]$],
-  grid.cell(stroke: (left: .5pt))[$4.75$],
-  
-  // Resti successivi | Spazio vuoto (mantiene la linea verticale)
-  [$#hide[00] 20$],
-  grid.cell(stroke: (left: .5pt))[],
-  
-  [#hide[000] $0$],
-  grid.cell(stroke: (left: .5pt))[]
-)]
+#esempio_divisione1
 
 La rappresentazione decimale risultante è $ 19/4 = 4.75 $
 
@@ -669,26 +595,7 @@ Il punto decimale viene introdotto per separare le potenze di dieci con esponent
 
 #esempio[Ora consideriamo la divisione del numero $19 / 6$:
 
-#align(center)[#grid(
-  columns: (auto, auto),  
-  inset: (x: 12pt, y: 4pt), 
-  column-gutter: 0pt,
-  
-  // Dividendo | Divisore
-  [$19 #hide[00]$], 
-  grid.cell(stroke: (left: .5pt, bottom: .5pt))[$6#hide[,0000]$],
-  
-  // Primo passaggio | Quoziente
-  [$#hide[0] 10 #hide[0]$],
-  grid.cell(stroke: (left: .5pt))[$3.16 dots$],
-  
-  // Resti successivi | Spazio vuoto (mantiene la linea verticale)
-  [$#hide[00] underline(4) 0$],
-  grid.cell(stroke: (left: .5pt))[],
-  
-  [$#hide[000] underline(4)$],
-  grid.cell(stroke: (left: .5pt))[]
-)]
+#esempio_divisione2
 
 Nell'ultimo esempio, il processo di calcolo si arresta quando un resto si ripete: proseguendo la divisione si otterrebbe infatti, all'infinito, la stessa sequenza di cifre dopo la virgola. Questo fenomeno è noto come rappresentazione decimale periodica e la cifra (o gruppo di cifre) che si ripete è definita periodo (in questo caso, 6), mentre la cifra (o gruppo di cifre) che precede il periodo, subito dopo la virgola, è chiamata antiperiodo. Se non esiste un antiperiodo, il decimale è detto "periodico semplice", mentre se presente, si parla di "periodico misto". La scrittura comunemente utilizzata è:
 
@@ -710,26 +617,7 @@ $ sum_(i=0)^(+oo) (10^(-i)) &= 1 + 10^(-1) + 10^(-2) + dots \ &= 1 + 0.1 + 0.01 
 ][
 Come altro esempio, consideriamo la divisione di $40 : 33$, che rappresenta la frazione $40/33$. In questo caso abbiamo:
 
-#align(center)[#grid(
-  columns: (auto, auto),  
-  inset: (x: 12pt, y: 4pt), 
-  column-gutter: 0pt,
-  
-  // Dividendo | Divisore
-  [$40 #hide[00]$], 
-  grid.cell(stroke: (left: .5pt, bottom: .5pt))[$33#hide[,000]$],
-  
-  // Primo passaggio | Quoziente
-  [$#hide[0] underline(7)0 #hide[0]$],
-  grid.cell(stroke: (left: .5pt))[$1.21 dots$],
-  
-  // Resti successivi | Spazio vuoto (mantiene la linea verticale)
-  [$#hide[00] 40$],
-  grid.cell(stroke: (left: .5pt))[],
-  
-  [$#hide[000] underline(7)$],
-  grid.cell(stroke: (left: .5pt))[]
-)]
+#esempio_divisione3
 
 La notazione utilizzata è:
 $ 40/33 = 1.overline(21) $
@@ -745,38 +633,7 @@ dove appare ancora una somma simile alla precedente, il cui valore questa volta 
 
 Quando si esegue una divisione con il metodo del resto, è evidente che il resto deve essere inferiore al denominatore. Dunque, in questo tipo di processo, vi sarà un numero finito di passi prima che un resto si ripeta. Se il denominatore ha valore $n$, la ripetizione avverrà al massimo dopo $n$ passi. Ad esempio, consideriamo la divisione relativa alla frazione $15/7$:
 
-#align(center)[#grid(
-  columns: (auto, auto),  
-  inset: (x: 12pt, y: 4pt), 
-  column-gutter: 0pt,
-  
-  // Dividendo | Divisore
-  [$15 #hide[000000]$], 
-  grid.cell(stroke: (left: .5pt, bottom: .5pt))[$7#hide[,00000000]$],
-  
-  // Primo passaggio | Quoziente
-  [$#hide[0] underline(1)0 #hide[00000]$],
-  grid.cell(stroke: (left: .5pt))[$2.142857 dots$],
-  
-  // Resti successivi | Spazio vuoto (mantiene la linea verticale)
-  [$#hide[00] 30 #hide[0000]$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[000] 20 #hide[000]$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[0000] 60 #hide[00]$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[00000] 40 #hide[0]$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[000000] 50$],
-  grid.cell(stroke: (left: .5pt))[],
-  
-  [$#hide[0000000] underline(1)$],
-  grid.cell(stroke: (left: .5pt))[]
-)]
+#esempio_divisione4
 
 In questo caso, il processo si conclude esattamente al settimo passo, poiché il resto "1" si ripete. Con un denominatore 7, si raggiunge il massimo valore consentito; inoltre, dato che tutte le sei cifre ottenute fanno parte del periodo, chiamato decimale periodico massimale. La scrittura risultante è:
 
@@ -786,69 +643,14 @@ Va sottolineato che il processo di divisione termina nel momento in cui si ripet
 ][
 Esaminiamo la divisione $2249 : 1125$, corrispondente alla frazione $2249/1125$:  
 
-#align(center)[#grid(
-  columns: (auto, auto),  
-  inset: (x: 5pt, y: 4pt), 
-  column-gutter: 0pt,
-  
-  // Dividendo | Divisore
-  [$2249 #hide[00000]$], 
-  grid.cell(stroke: (left: .5pt, bottom: .5pt))[$1125#hide[,000]$],
-  
-  // Primo passaggio | Quoziente
-  [$ 11240 #hide[0000]$],
-  grid.cell(stroke: (left: .5pt))[$1.9991 dots$],
-  
-  // Resti successivi | Spazio vuoto (mantiene la linea verticale)
-  [$#hide[0] 11150 #hide[000]$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[0] 10250 #hide[0]$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[00] underline(125)0 $],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[000] underline(125) $],
-  grid.cell(stroke: (left: .5pt))[],
-
-)]
+#esempio_divisione5
 
 da cui la scrittura $ 2249/1125 = 1.9991 overline(1) $
 ][
 
 Consideriamo la divisione 1 : 9900 e la relativa frazione $1/9900$:
 
-#align(center)[#grid(
-  columns: (auto, auto),  
-  inset: (x: 10pt, y: 4pt), 
-  column-gutter: 0pt,
-  
-  // Dividendo | Divisore
-  [$1 #hide[0000]$], 
-  grid.cell(stroke: (left: .5pt, bottom: .5pt))[$9900#hide[.000]$],
-  
-  [$10 #hide[000]$],
-  grid.cell(stroke: (left: .5pt))[$0.0001 dots$],
-
-  // Primo passaggio | Quoziente
-  [$ underline(100) #hide[00]$],
-  grid.cell(stroke: (left: .5pt))[],
-  
-  // Resti successivi | Spazio vuoto (mantiene la linea verticale)
-  [$1000 #hide[0]$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$10000$],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[0] 9900 $],
-  grid.cell(stroke: (left: .5pt))[],
-
-  [$#hide[00] underline(100) $],
-  grid.cell(stroke: (left: .5pt))[],
-
-)]
+#esempio_divisione6
 
 da cui la scrittura: $ 1/9900 = 0.00 overline(01) $
 
@@ -965,40 +767,12 @@ Questo esempio dimostra chiaramente come sia fondamentale tenere in conto gli ef
 
 #pagebreak(weak: true)
 == I numeri reali  
-=== Definizioni e proprietà 
 
 Come già sottolineato, l'insieme dei numeri razionali, indicato con $QQ$, non è sufficiente a risolvere alcuni problemi, anche relativamente semplici, come ad esempio quelli legati alla risoluzione dei triangoli rettangoli. Per superare tali limitazioni, si introduce l'insieme dei numeri reali, che estende quello dei razionali. Tuttavia, trattare rigorosamente i numeri reali richiede un approccio complesso, motivo per cui qui ci limiteremo a una spiegazione intuitiva che ne illustri i concetti fondamentali e le difficoltà principali. Un approfondimento rigoroso sarà invece affrontato nei corsi universitari di matematica.
 
 Cominciamo prendendo in considerazione l'equazione $x^2 = 2$ e cerchiamo di determinarne delle soluzioni positive, approssimate per difetto, utilizzando una progressiva precisione decimale. È possibile costruire una tabella come la seguente:  
 
-#figure(
-  caption: [],
-  // gap: 0pt, // Allinea la didascalia alla tabella
-  table(
-    stroke: 0.5pt + accent.mat.lighten(90%),
-    fill: (x, y) => {
-  if y == 0 {
-    return accent.mat // Colore header
-  } else if calc.even(y) {
-    // Colore righe dispari
-    return accent.mat.lighten(90%)
-  } else {
-    // Colore righe pari
-    return white
-  }
-  },
-  align: right + horizon,
-  columns: (3),
-  table.header[Decimali][x][x#super[2]],
-    [0], [1], [1],
-    [1], [1.4], [1.96],
-    [2], [1.41], [1.9881],
-    [3], [1.414], [1.999396],
-    [4], [1.4142], [1.99996164],
-    [5], [1.41421], [1.9999899241],
-    [6], [1.414213], [1.999998409369],
-)  
-)
+#tabella_approssimazione
 
 Da questa tabella emerge una successione di valori decimali, ovvero: $1; 1.4; 1.41; 1.414; 1.4142; dots$ Questa successione è formata da numeri il cui quadrato è sempre inferiore a 2, ma rappresenta la migliore approssimazione per difetto della soluzione "esatta" dell'equazione $x^2 = 2$, al livello di precisione decimale considerato.  
 
@@ -1038,69 +812,8 @@ Questo approccio consente di attribuire a ogni numero reale un preciso punto del
 
 È interessante notare che l'introduzione dei numeri reali risolve quella che, a prima vista, potrebbe sembrare una situazione paradossale. Per esempio, analizziamo il caso rappresentato in figura @intersezione_retta_circonferenza, dove $O U A B$ è un quadrato.
 #pagebreak(weak: true)
-#figure(
-cetz.canvas({
-  import cetz.draw: *
 
-  let scale = 8 // fattore di scala per la visualizzazione
-  
-  // disegno della retta orientata
-  line((-0.5, 0), (10.5, 0), mark: (end: ">", fill: black))
-  
-  // funzione per mappare i valori matematici sulla coordinata x del disegno
-  let to_x(val) = val * scale
-
-  // punti principali (coordinata, etichetta superiore, etichetta inferiore)
-  let points = (
-    (0, "", "-3"),
-    (0.2, "", "-2"),
-    (0.4, "", "-1"),
-    (0.6, "", "0"),
-    (0.8, "", "1"),
-    (1.0, "", "2"),
-    (1.2, "", "3"),  
-  )
-
-  // segni punti
-  for (val, top, bot) in points {
-    let x = to_x(val)
-    line((x, -0.1), (x, 0.1))
-    content((x, 0.4), eval("$" + top + "$"))
-    if bot != "" {
-      content((x, -0.4), eval("$" + bot + "$"))
-    }
-  }
-
-    // linea 0A   
-    let x_start_a = 0.6 * scale
-    let y_start_a = 0
-    let x_end_a = 0.8 * scale
-    let y_end_a = (calc.sqrt(2))
-    line((x_start_a, y_start_a), (x_end_a, y_end_a), stroke: (paint: accent.mat, dash: "dashed"))
-    
-    // quadrato e cerchio
-    rect((0.6 * scale, 0), (0.8 * scale, calc.sqrt(2)))
-    circle((0.6 * scale, 0), radius: (calc.sqrt(2) + 0.74), fill: none, stroke: accent.mat)
-
-    // punti
-    circle((0.6 * scale, 0), radius: 0.05, fill: accent.mat, stroke: none)
-    content((0.6 * scale - 0.3, 0.3), [$O$])
-
-    circle((0.8 * scale, 0), radius: 0.05, fill: accent.mat, stroke: none)
-    content((0.8 * scale + 0.3, 0.3), [$U$])
-
-    circle((0.6 * scale, (calc.sqrt(2))), radius: 0.05, fill: accent.mat, stroke: none)
-    content((0.6 * scale - 0.3, (calc.sqrt(2))), [$B$])
-
-    circle((0.8 * scale, (calc.sqrt(2))), radius: 0.05, fill: accent.mat, stroke: none)
-    content((0.8 * scale + 0.3, (calc.sqrt(2))), [$A$])
-
-    circle(((calc.sqrt(2)) * 0.6145 * scale, 0), radius: 0.05, fill: accent.mat, stroke: none)
-    content(((calc.sqrt(2)) * 0.6 * scale + 0.4, 0.3), [$P$])
-
-}),
-caption: []
-)<intersezione_retta_circonferenza>
+#intersezione_retta_circonferenza
 
 Senza fare ricorso ai numeri reali, saremmo costretti a concludere che non può esserci intersezione tra l'asse delle ascisse e la circonferenza con centro in $O$ e passante per $A$. Questo perché il punto $P$, uno dei candidati all'intersezione tra la retta e la circonferenza, deve avere come ascissa un numero il cui quadrato è $2$. Tuttavia, sappiamo che nei numeri razionali ($QQ$) un numero del genere non esiste.
 
@@ -1108,12 +821,12 @@ Senza fare ricorso ai numeri reali, saremmo costretti a concludere che non può 
 
 I segmenti e le semirette rappresentano sottoinsiemi significativi sulla retta numerica. Di conseguenza, acquistano rilevanza anche i sottoinsiemi di $RR$ che ad essi corrispondono nella rappresentazione dei numeri reali sulla retta. Per facilitare le scritture (e per ragioni che diverranno più chiare trattando il concetto di limite), si aggiungono all'insieme dei numeri reali due elementi particolari: $-oo$ (meno infinito) e $+oo$ (più infinito). L'insieme che si forma è denominato retta reale estesa, definita come:
 
-$ accent(RR, tilde) = RR union {-oo, +oo} $
+$ tilde(RR) = RR union {-oo, +oo} $
 
 L'ordinamento di $RR$ può essere esteso stabilendo che:
 $ -oo < x < +oo, quad forall x in RR, " e " -oo < +oo $
 
-Tuttavia, le operazioni di somma e prodotto non vengono estese a $accent(RR, tilde)$, poiché $-oo$ e $+oo$ non sono numeri nel senso tradizionale e, pertanto, non possono essere trattati come tali. Nei corsi di analisi matematica si dimostra che non è possibile estendere queste operazioni in modo da mantenerne le proprietà formali.
+Tuttavia, le operazioni di somma e prodotto non vengono estese a $tilde(RR)$, poiché $-oo$ e $+oo$ non sono numeri nel senso tradizionale e, pertanto, non possono essere trattati come tali. Nei corsi di analisi matematica si dimostra che non è possibile estendere queste operazioni in modo da mantenerne le proprietà formali.
 
 #definizione(title: "Intervalli")[Si definiscono intervalli di $RR$ tutti i sottoinsiemi $I subset.eq RR$ che rispettano la seguente condizione: se $a, b in I$, con $a <= b$, allora ogni $x in RR$, tale che $a <= x <= b$, appartiene a $I$. 
 
@@ -1305,7 +1018,7 @@ Questo evidenzia una distinzione tra le due formule:
 + la relazione @radicali3 vale esclusivamente per i numeri reali $a >= 0$
 
 Tale differenza porta ad affermare che:
-$ sqrt(a^2) != (sqrt(a))^2 $
+$ sqrt(a^2) != (sqrt(a))^2 $ <errore_radicali>
 sebbene un'applicazione errata delle proprietà dei radicali (particolarmente della formula base per i radicali) possa far pensare il contrario. Poiché è comune estendere erroneamente le proprietà dei radicali aritmetici anche ai radicali algebrici, è importante ribadire che le formule dei radicali sono valide solo per valori non negativi di $a$. Pertanto, correttamente:
 $ sqrt(a^2) = (sqrt(a))^2, quad "se e solo se " a >= 0 $
 

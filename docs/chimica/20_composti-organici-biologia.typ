@@ -1,6 +1,6 @@
-#import "../../template/chimica/var.typ" : * // Variabili
 #import "../../template/_global/template.typ": *
 #import "../../template/_global/config.typ": *
+#import "compounds.typ": *
 #import "@preview/mannot:0.3.1": * // Annotazioni matematiche
 
 #intro[Alcune categorie di composti organici rivestono un ruolo essenziale per gli organismi viventi. Essi formano i costituenti chimici delle cellule e permettono il funzionamento di numerosi processi biologici. Tra i composti organici di rilevanza biologica – definiti anche biomolecole – troviamo i glucidi (zuccheri), i lipidi, le proteine e gli acidi nucleici (DNA e RNA). Queste molecole sono generalmente caratterizzate da una struttura complessa che permette loro di svolgere funzioni vitali.]
