@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fondamentale per permettere il calcolo dei file modificati
 
       # --- AGGIORNATO AL REPOSITORY UFFICIALE DELLA COMMUNITY ---
       - name: Setup Typst
@@ -30,12 +32,32 @@ jobs:
         with:
           version: ^0.14.0
 
+      # 1. Rileva i file Typst modificati o aggiunti
+      - name: Get Changed Files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            **/*.typ
+            !site/**
+            !dist/**
+
+      # 2. Ripristina i PDF compilati nei deploy precedenti (evita di perderli)
+      - name: Cache Compiled PDFs
+        uses: actions/cache@v4
+        with:
+          path: dist/pdf
+          key: ${{ runner.os }}-typst-pdfs-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-typst-pdfs-
+
+      # 3. Organizza la cartella 'dist' e compila SOLO i modificati
       - name: Compile and Organize PDFs
         run: |
-          # 1. Crea la cartella finale di deploy 'dist'
-          mkdir -p dist
+          # Crea le cartelle necessarie
+          mkdir -p dist/pdf
 
-          # 2. Copia TUTTO il contenuto di 'site/' (HTML, immagini, ecc.) dentro 'dist'
+          # Copia il contenuto di 'site/' (HTML, immagini, ecc.) dentro 'dist'
           if [ -d "site" ]; then
             cp -r site/* dist/
             echo "✅ Risorse del sito (HTML e Assets) copiate con successo in dist/"
@@ -43,32 +65,44 @@ jobs:
             echo "⚠️ ATTENZIONE: La cartella 'site/' non è stata trovata nella radice!"
           fi
 
-          # 3. Forza la creazione della cartella per i PDF all'interno di dist
-          mkdir -p dist/pdf
-          
-          # 4. Cerca tutti i file 'main.typ' e li compila
-          find . -type f -iname "main.typ" | while read -r file; do
-            # Salta i file che si trovano già dentro la cartella 'dist' o 'site' per sicurezza
-            if [[ "$file" == *"./dist/"* ]] || [[ "$file" == *"./site/"* ]]; then
-              continue
-            fi
-
-            echo "------------------------------------------------"
-            echo "📄 Trovato sorgente: $file"
+          # Se non ci sono file Typst modificati, saltiamo la compilazione
+          if [ "${{ steps.changed-files.outputs.any_changed }}" != "true" ]; then
+            echo "✨ Nessun file Typst modificato. Salto la compilazione."
+          else
+            echo "🔍 File modificati rilevati: ${{ steps.changed-files.outputs.all_changed_files }}"
             
-            # Estrae il nome della cartella superiore (es. chimica)
-            folder_name=$(basename "$(dirname "$file")")
-            
-            # Evita di usare nomi di cartelle strutturali
-            if [ "$folder_name" = "docs" ] || [ "$folder_name" = "." ] || [ "$folder_name" = "template" ]; then
-              folder_name="generale"
-            fi
-            
-            target_pdf="dist/pdf/${folder_name}.pdf"
-            echo "🚀 Compilazione in corso: $file -> $target_pdf"
-            
-            typst compile --root . --font-path ./fonts "$file" "$target_pdf" || { echo "❌ Errore critico in Typst per $file"; exit 1; }
-          done
+            # Ciclo sui file modificati forniti dall'azione precedente
+            for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+              
+              # Ci interessano solo i file "main.typ" per la compilazione finale
+              # Se modifichi un sotto-file (es. funzioni.typ), dovrai toccare anche il main.typ 
+              # o mappare la cartella. Per sicurezza, compiliamo il 'main.typ' del modulo corrente.
+              
+              base_dir=$(dirname "$file")
+              main_file="${base_dir}/main.typ"
+              
+              # Controlla se esiste un file main.typ nella cartella del file modificato
+              if [ -f "$main_file" ]; then
+                echo "------------------------------------------------"
+                echo "📄 Modifica rilevata in modulo. Compilazione di: $main_file"
+                
+                # Estrae il nome della cartella superiore (es. chimica)
+                folder_name=$(basename "$base_dir")
+                
+                # Evita di usare nomi di cartelle strutturali
+                if [ "$folder_name" = "docs" ] || [ "$folder_name" = "." ] || [ "$folder_name" = "template" ]; then
+                  folder_name="generale"
+                fi
+                
+                target_pdf="dist/pdf/${folder_name}.pdf"
+                echo "🚀 Compilazione incrementale in corso: $main_file -> $target_pdf"
+                
+                typst compile --root . --font-path ./fonts "$main_file" "$target_pdf" || { echo "❌ Errore critico in Typst per $main_file"; exit 1; }
+              else
+                echo "ℹ️ Il file modificato ($file) non appartiene a un modulo con 'main.typ'. Salto."
+              fi
+            done
+          fi
           
           echo "------------------------------------------------"
           echo "Contenuto finale della cartella dist (pronta per il web):"
